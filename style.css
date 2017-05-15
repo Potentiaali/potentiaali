@@ -61,7 +61,7 @@ body {
 }
 
 body {
-  color: #6C737A;
+  color: #82786e;
   font-family: 'Lato', sans-serif;
   text-align: center;
 }
@@ -78,6 +78,7 @@ h5 {
 h1 {
   font-size: 46px;
   font-size: 7vw;
+  line-height: 1;
   margin-bottom: 30px;
 }
 
@@ -121,15 +122,16 @@ section {
 }
 
 section.hero {
-  background: url(juku.jpg) no-repeat center center;
+  background: url(juku.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 
-  color: #fff;
-  padding-bottom: 20%;
-  padding-top: 20%;
+  color: #2d2204;
+  padding-bottom: 15%;
+  padding-top: 15%;
+  text-align: left;
 }
 
 section.two-columned .container,
@@ -265,6 +267,11 @@ table.program th {
   padding: 5px 5px;
 }
 
+table.table-who.program td,
+table.table-who.program th {
+  padding: 0px 5px;
+}
+
 table.program td {
   font-size: 110%;
 }
@@ -301,6 +308,12 @@ td.happenin p {
   width: 100%;
 }
 
+.tables-row {
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.col-4,
 .col-6 {
   box-sizing: border-box;
   float: left;
@@ -310,6 +323,10 @@ td.happenin p {
 
 .col-6 {
   width: 50%;
+}
+
+.col-4 {
+  width: 33.3333%;
 }
 
 a {
