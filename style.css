@@ -61,7 +61,7 @@ body {
 }
 
 body {
-  color: #82786e;
+  color: #5a544d;
   font-family: 'Lato', sans-serif;
   text-align: center;
 }
@@ -152,12 +152,14 @@ section.coop {
 
 footer {
   background: #222;
-  padding: 20px 20px;
+  padding: 40px 20px;
   text-align: center;
 }
 
 footer img {
-  max-width: 80px;
+  margin: 10px 10px;
+  max-height: 70px;
+  max-width: 70px;
 }
 
 .centered-block {
@@ -368,6 +370,8 @@ a:hover {
     font-size: 6vw;
   }
 
+  .col-3,
+  .col-4,
   .col-6 {
     width: 100%;
   }
