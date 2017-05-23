@@ -1,0 +1,13 @@
+dependencies:
+  override:
+    - sudo pip install awscli
+ 
+test:
+  override:
+    - ls
+ 
+deployment:
+  aws:
+    branch: master
+    commands:
+      - ./publish.sh
