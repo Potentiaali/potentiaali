@@ -159,13 +159,17 @@ footer {
 footer img {
   margin: 10px 10px;
   max-height: 70px;
-  max-width: 70px;
+  max-width: 100px;
 }
 
 .centered-block {
   display: inline-block;
   margin: 0 auto;
   width: auto;
+}
+
+.hero-logo {
+  max-width: 70%;
 }
 
 
