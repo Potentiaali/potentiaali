@@ -125,6 +125,8 @@ h2 {
 }
 
 h3 {
+  font-size: 24px;
+  font-size: 2vw;
   margin-bottom: 10px;
 }
 
@@ -189,7 +191,7 @@ section.section-skills p {
   margin-bottom: 15px;
 }
 
-section.section-skills h2 {
+section.section-skills h3 {
   line-height: 1.1;
 }
 
@@ -486,6 +488,10 @@ a:hover {
 
   h2 {
     font-size: 6vw;
+  }
+
+  h2 {
+    font-size: 4vw;
   }
 
   .col-1,
