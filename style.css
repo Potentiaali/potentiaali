@@ -217,7 +217,7 @@ section.hero > .overlay {
   top: 0;
   left: 0;
   z-index: 2;
-  background-color: rgba(255,151,0,0.5);
+  background-color: rgba(255,151,0,0.6);
 }
 
 section.hero p {
