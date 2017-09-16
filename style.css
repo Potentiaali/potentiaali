@@ -260,6 +260,10 @@ footer img {
   text-align: center;
 }
 
+.logos a {
+  border: none;
+}
+
 .logos img {
   display: inline;
   margin: 13px 20px;
