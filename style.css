@@ -182,6 +182,19 @@ section.hero {
   text-align: center;
 }
 
+section.hero .languages {
+  bottom: 20px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+
+section.hero .languages a {
+  color: black;
+  border-color: black;
+}
+
 section.hero.hero-companies {
   padding-bottom: 8%;
   padding-top: 8%;
@@ -258,6 +271,10 @@ footer img {
   display: inline-block;
   margin: 0 auto 0;
   text-align: center;
+}
+
+.logos a {
+  border: none;
 }
 
 .logos img {
