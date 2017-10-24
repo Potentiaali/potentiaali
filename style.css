@@ -343,7 +343,7 @@ section.darker .time {
 }
 
 .table-container {
-
+  overflow: auto;
 }
 
 table.program {
