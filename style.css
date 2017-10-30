@@ -296,6 +296,10 @@ footer img {
   max-width: 180px;
 }
 
+.logos .narrow-logo img {
+  max-height: 43px;
+}
+
 
 .chart-item {
   margin: 0 auto;
