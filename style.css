@@ -407,6 +407,7 @@ td.time {
   min-width: 70px;
 }
 td.happenin {
+  min-width: 170px;
 }
 td.happenin .title {
   font-weight: 700;
