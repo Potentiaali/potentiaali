@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "./App.scss";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import MainContent from "./components/MainContent";
@@ -22,7 +21,8 @@ class App extends Component {
       daysUntil: 0,
       hoursUntil: 0,
       minutesUntil: 0,
-      secondsUntil: 0
+      secondsUntil: 0,
+      menuOpen: false
     };
   }
 
@@ -76,10 +76,30 @@ class App extends Component {
     }
   }
 
+  /**
+   * Handle menu open & close
+   *
+   * @param {*} event
+   * @memberof App
+   */
+  handleClick = event => {
+    console.log("fired");
+    event.preventDefault();
+    this.setState(oldState => {
+      return {
+        menuOpen: !oldState.menuOpen
+      };
+    });
+  };
+
   render() {
     return (
       <React.Fragment>
-        <Nav menu={menu} />
+        <Nav
+          menu={menu}
+          menuOpen={this.state.menuOpen}
+          handleClick={this.handleClick}
+        />
         <Hero
           eventDate={config.eventDate}
           daysUntil={this.state.daysUntil}

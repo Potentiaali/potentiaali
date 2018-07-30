@@ -11,13 +11,32 @@ export default props => {
             alt="Kumpulan Potentiaali"
           />
         </a>
+        <a href="#" className="mobile-menu" onClick={props.handleClick}>
+          <span className="fa fa-bars mobile-menu-icon" />
+        </a>
+        {props.menuOpen && (
+          <div className="mobile-nav-links">
+            {props.menu &&
+              props.menu.map(
+                menuItem =>
+                  !menuItem.disabled && (
+                    <a href={menuItem.link} key={menuItem.name}>
+                      {menuItem.name}
+                    </a>
+                  )
+              )}
+          </div>
+        )}
         <div className="nav-links">
           {props.menu &&
-            props.menu.map(menuItem => !menuItem.disabled && (
-              <a href={menuItem.link} key={menuItem.name}>
-                {menuItem.name}
-              </a>
-            ))}
+            props.menu.map(
+              menuItem =>
+                !menuItem.disabled && (
+                  <a href={menuItem.link} key={menuItem.name}>
+                    {menuItem.name}
+                  </a>
+                )
+            )}
         </div>
       </div>
     </nav>

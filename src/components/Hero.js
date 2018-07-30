@@ -28,13 +28,10 @@ export default props => {
           <br /> “Hyvät keskustelut, paljon porukkaa, mukavat yhteyshenkilöt ja
           muutenkin järjestelyt toimivat. Jatkot olivat loistavat.”
         </p>
-      </div>
-      <div className="clock">
-        <h2>Countdown</h2>
-        <h3>
+        <p className="clock">
           {props.daysUntil} päivää {props.hoursUntil} tuntia{" "}
           {props.minutesUntil} minuuttia {props.secondsUntil} sekuntia
-        </h3>
+        </p>
       </div>
       <div className="languages">
         <a href="/en/index.html">In English</a>
