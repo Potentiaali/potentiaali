@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Luennot",
+    "link": "#lecture",
+    "disabled": false
+  },
+  {
+    "name": "Workshopit",
+    "link": "#workshop",
+    "disabled": false
+  },
+  {
+    "name": "Rekry speed date",
+    "link": "#rekry-speed-date",
+    "disabled": false
+  },
+  {
+    "name": "Yrityksille",
+    "link": "yrityksille.html",
+    "disabled": false
+  }
+]
