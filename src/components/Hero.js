@@ -18,9 +18,11 @@ export default props => {
         </h1>
         <p>
           Työelämä- ja rekrytointitapahtuma Kumpulan kampuksella{" "}
-          {moment(props.eventDate, "DD.MM.YYYY")
-            .locale("fi")
-            .format("LL")}
+          <b>
+            {moment(props.eventDate, "DD.MM.YYYY")
+              .locale("fi")
+              .format("LL")}
+          </b>
           <br />
           <br />
           <br />“Ehdottomasti laadukas opiskelijatapahtuma!”

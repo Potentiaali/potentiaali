@@ -12,7 +12,11 @@ export default props => {
           />
         </a>
         <a href="#menu" className="mobile-menu" onClick={props.handleClick}>
-          <span className="fa fa-bars mobile-menu-icon" />
+          {!props.menuOpen ? (
+            <span className="fa fa-bars mobile-menu-icon" />
+          ) : (
+            <span className="fa fa-close mobile-menu-icon" />
+          )}
         </a>
         {props.menuOpen && (
           <div className="mobile-nav-links">
