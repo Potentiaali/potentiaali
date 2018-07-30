@@ -83,7 +83,6 @@ class App extends Component {
    * @memberof App
    */
   handleClick = event => {
-    console.log("fired");
     event.preventDefault();
     this.setState(oldState => {
       return {
