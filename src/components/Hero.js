@@ -4,7 +4,7 @@ import moment from "moment";
 export default props => {
   return (
     <section className="hero">
-      <video poster="juku.png" muted loop autoPlay preload>
+      <video poster="juku.png" muted loop autoPlay preload="true">
         <source src="DJI_0014.mp4" type="video/mp4" />
       </video>
       <div className="overlay" />

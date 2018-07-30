@@ -158,32 +158,36 @@ nav {
 
 .mobile-nav-links {
   width: 100%;
-  background: #fff;
+  background: rgba(0, 0, 0, 0.733);
+  position: fixed;
+  top: 80px;
+  left: 0;
+  visibility: visible;
   a {
     padding: 0;
     width: 100%;
     height: 40px;
     line-height: 40px;
+    color: rgb(221, 221, 221);
+    border: 0;
   }
 }
 
 a.nav-logo {
   border: 0;
   float: left;
-}
-
-a.nav-logo img {
-  height: 40px;
+  img {
+    height: 40px;
+  }
 }
 
 .nav-links {
   float: right;
-}
-
-.nav-links a {
-  display: inline-block;
-  margin: 10px 0 0 15px;
-  padding: 0;
+  a {
+    display: inline-block;
+    margin: 10px 0 0 15px;
+    padding: 0;
+  }
 }
 
 .nav-links a:focus,
@@ -278,29 +282,25 @@ section.hero .languages {
   position: absolute;
   width: 100%;
   z-index: 100;
-}
-
-section.hero .languages a {
-  color: black;
-  border-color: black;
-}
-
-section.hero.hero-companies {
-  padding-bottom: 8%;
-  padding-top: 8%;
+  a {
+    color: black;
+    border-color: black;
+  }
+  &.hero-companies {
+    padding-bottom: 8%;
+    padding-top: 8%;
+  }
 }
 
 section.section-skills {
   text-align: left;
-}
-
-section.section-skills p {
-  line-height: 1.5;
-  margin-bottom: 15px;
-}
-
-section.section-skills h3 {
-  line-height: 1.1;
+  p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  h3 {
+    line-height: 1.1;
+  }
 }
 
 .container {
@@ -336,12 +336,13 @@ section.coop {
 section.speeddate {
 }
 
-section.speeddates .speeddate {
-  margin-bottom: 2rem;
-}
-
-section.speeddates .speeddate .speeddate-title {
-  font-weight: 800;
+section.speeddates {
+  .speeddate {
+    margin-bottom: 2rem;
+    .speeddate-title {
+      font-weight: 800;
+    }
+  }
 }
 
 footer {
@@ -371,21 +372,18 @@ footer img {
   display: inline-block;
   margin: 0 auto 0;
   text-align: center;
-}
-
-.logos a {
-  border: none;
-}
-
-.logos img {
-  display: inline;
-  margin: 13px 20px;
-  max-height: 35px;
-  max-width: 180px;
-}
-
-.logos .narrow-logo img {
-  max-height: 43px;
+  a {
+    border: none;
+  }
+  img {
+    display: inline;
+    margin: 13px 20px;
+    max-height: 35px;
+    max-width: 180px;
+  }
+  .narrow-logo img {
+    max-height: 43px;
+  }
 }
 
 .chart-item {
@@ -672,17 +670,6 @@ a.mobile-menu {
   .col-11,
   .col-12 {
     width: 100%;
-  }
-
-  .mobile-nav-links {
-    position: fixed;
-    top: 80px;
-    left: 0;
-    width: 100%;
-    visibility: visible;
-    a {
-      border: 0;
-    }
   }
 
   .nav-open {
