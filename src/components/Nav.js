@@ -11,7 +11,7 @@ export default props => {
             alt="Kumpulan Potentiaali"
           />
         </a>
-        <a href="#" className="mobile-menu" onClick={props.handleClick}>
+        <a href="#menu" className="mobile-menu" onClick={props.handleClick}>
           <span className="fa fa-bars mobile-menu-icon" />
         </a>
         {props.menuOpen && (

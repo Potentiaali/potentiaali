@@ -624,12 +624,16 @@ a:hover {
 }
 
 a.mobile-menu {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border: 0;
   visibility: hidden;
   text-decoration: none !important;
   float: right;
-  &:visited,
-  &:active,
-  &:hover {
+  :visited,
+  :active,
+  :hover {
     text-decoration: none !important;
   }
 }
@@ -669,9 +673,15 @@ a.mobile-menu {
   .col-12 {
     width: 100%;
   }
-  nav {
-    .mobile-nav-links {
-      visibility: visible;
+
+  .mobile-nav-links {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    visibility: visible;
+    a {
+      border: 0;
     }
   }
 
