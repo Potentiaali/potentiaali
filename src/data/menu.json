@@ -1,22 +1,22 @@
 [
   {
     "name": "Luennot",
-    "link": "#lecture",
+    "link": "/lectures",
     "disabled": false
   },
   {
     "name": "Workshopit",
-    "link": "#workshop",
+    "link": "/workshops",
     "disabled": false
   },
   {
     "name": "Rekry speed date",
-    "link": "#rekry-speed-date",
+    "link": "/rekry-speed-date",
     "disabled": false
   },
   {
     "name": "Yrityksille",
-    "link": "yrityksille.html",
+    "link": "/for-companies",
     "disabled": false
   }
 ]

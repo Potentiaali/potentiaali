@@ -1,15 +1,26 @@
 import React, { Component } from "react";
 import Nav from "./components/Nav";
-import Hero from "./components/Hero";
-import MainContent from "./components/MainContent";
-import Contact from "./components/Contact";
+import { Route } from "react-router-dom";
 import Footer from "./components/Footer";
 import logos from "./data/logos.json";
 import config from "./data/config.json";
 import menu from "./data/menu.json";
+import { connect } from "react-redux";
 import moment from "moment";
+import {
+  resetClock,
+  setClockData,
+  setClockInterval
+} from "./reducers/ClockReducer";
 import "moment/locale/fi";
 import "moment/locale/en-gb";
+import MainPage from "./pages/MainPage";
+import Hero from "./components/Hero";
+import Contact from "./components/Contact";
+import Lectures from "./pages/Lectures";
+import Workshops from "./pages/Workshops";
+import RekrySpeedDate from "./pages/RekrySpeedDate";
+import ForCompanies from "./pages/ForCompanies";
 
 moment.locale(config.defaultLocale);
 
@@ -17,25 +28,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      clockInterval: null,
-      daysUntil: 0,
-      hoursUntil: 0,
-      minutesUntil: 0,
-      secondsUntil: 0,
       menuOpen: false
     };
-  }
-
-  /**
-   * Clear clock update interval
-   *
-   * @memberof App
-   */
-  componentWillMount() {
-    if (this.state.clockInterval !== null) {
-      clearInterval(this.state.clockInterval);
-      this.setState({ clockInterval: null });
-    }
   }
 
   /**
@@ -44,17 +38,12 @@ class App extends Component {
    * @memberof App
    */
   componentDidMount() {
-    if (this.state.clockInterval === null) {
+    if (this.props.clockInterval === null) {
       const interval = setInterval(() => {
         const eventDay = moment(config.eventDate, "DD.MM.YYYY");
         const today = moment().format("YYYY-MM-DD HH:mm:ss");
         if (eventDay.isSame(today)) {
-          this.setState({
-            daysUntil: 0,
-            hoursUntil: 0,
-            minutesUntil: 0,
-            secondsUntil: 0
-          });
+          this.props.resetClock();
         } else {
           const remaining = eventDay.diff(today);
           let seconds = Math.floor(remaining / 1000);
@@ -64,7 +53,7 @@ class App extends Component {
           minutes = minutes % 60;
           const days = Math.floor(hours / 24);
           hours = hours % 24;
-          this.setState({
+          this.props.setClockData({
             daysUntil: days,
             hoursUntil: hours,
             minutesUntil: minutes,
@@ -72,7 +61,10 @@ class App extends Component {
           });
         }
       }, 1000);
-      this.setState({ clockInterval: interval });
+      this.props.setClockInterval(interval);
+    } else {
+      clearInterval(this.props.clockInterval);
+      this.props.setClockInterval(null);
     }
   }
 
@@ -101,12 +93,27 @@ class App extends Component {
         />
         <Hero
           eventDate={config.eventDate}
-          daysUntil={this.state.daysUntil}
-          hoursUntil={this.state.hoursUntil}
-          minutesUntil={this.state.minutesUntil}
-          secondsUntil={this.state.secondsUntil}
+          daysUntil={this.props.daysUntil}
+          hoursUntil={this.props.hoursUntil}
+          minutesUntil={this.props.minutesUntil}
+          secondsUntil={this.props.secondsUntil}
         />
-        <MainContent />
+        <Route
+          exact
+          path=""
+          render={() => (
+            <MainPage
+              daysUntil={this.props.daysUntil}
+              hoursUntil={this.props.hoursUntil}
+              minutesUntil={this.props.minutesUntil}
+              secondsUntil={this.props.secondsUntil}
+            />
+          )}
+        />
+        <Route exact path="/lectures" render={Lectures} />
+        <Route exact path="/workshops" render={Workshops} />
+        <Route exact path="/rekry-speed-date" render={RekrySpeedDate} />
+        <Route exact path="/for-companies" render={ForCompanies} />
         <Contact />
         <Footer logos={logos} />
       </React.Fragment>
@@ -114,4 +121,23 @@ class App extends Component {
   }
 }
 
-export default App;
+const MapStateToProps = state => {
+  return {
+    clockInterval: state.clock.clockInterval,
+    daysUntil: state.clock.daysUntil,
+    hoursUntil: state.clock.hoursUntil,
+    minutesUntil: state.clock.minutesUntil,
+    secondsUntil: state.clock.secondsUntil
+  };
+};
+
+const MapDispatchToProps = {
+  resetClock,
+  setClockData,
+  setClockInterval
+};
+
+export default connect(
+  MapStateToProps,
+  MapDispatchToProps
+)(App);

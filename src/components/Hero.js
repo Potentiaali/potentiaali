@@ -1,7 +1,9 @@
 import React from "react";
 import moment from "moment";
+import Clock from "./Clock";
+const reviews = require("./../data/reviews.json");
 
-export default props => {
+const Hero = props => {
   return (
     <section className="hero">
       <video poster="juku.png" muted loop autoPlay preload="true">
@@ -25,15 +27,21 @@ export default props => {
           </b>
           <br />
           <br />
-          <br />“Ehdottomasti laadukas opiskelijatapahtuma!”
           <br />
-          <br /> “Hyvät keskustelut, paljon porukkaa, mukavat yhteyshenkilöt ja
-          muutenkin järjestelyt toimivat. Jatkot olivat loistavat.”
+          {reviews.map(review => (
+            <React.Fragment key={review.text}>
+              <br />
+              <br />
+              <span>“{review.text}“</span>
+            </React.Fragment>
+          ))}
         </p>
-        <p className="clock">
-          {props.daysUntil} päivää {props.hoursUntil} tuntia{" "}
-          {props.minutesUntil} minuuttia {props.secondsUntil} sekuntia
-        </p>
+        <Clock
+          daysUntil={props.daysUntil}
+          hoursUntil={props.hoursUntil}
+          minutesUntil={props.minutesUntil}
+          secondsUntil={props.secondsUntil}
+        />
       </div>
       <div className="languages">
         <a href="/en/index.html">In English</a>
@@ -41,3 +49,5 @@ export default props => {
     </section>
   );
 };
+
+export default Hero;

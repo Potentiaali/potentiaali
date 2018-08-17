@@ -1,22 +1,25 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-export default props => {
+const Nav = props => {
   return (
     <nav>
       <div className="container">
-        <a href="index.html" className="nav-logo">
+        <NavLink to="/" className="nav-logo">
           <img
             className=""
             src="logos/potentiaali-black.png"
             alt="Kumpulan Potentiaali"
           />
-        </a>
+        </NavLink>
         <a href="#menu" className="mobile-menu" onClick={props.handleClick}>
-          {!props.menuOpen ? (
-            <span className="fa fa-bars mobile-menu-icon" />
-          ) : (
-            <span className="fa fa-close mobile-menu-icon" />
-          )}
+          <span
+            className={
+              !props.menuOpen
+                ? "fa fa-bars mobile-menu-icon"
+                : "fa fa-close mobile-menu-icon"
+            }
+          />
         </a>
         {props.menuOpen && (
           <div className="mobile-nav-links">
@@ -24,9 +27,13 @@ export default props => {
               props.menu.map(
                 menuItem =>
                   !menuItem.disabled && (
-                    <a href={menuItem.link} key={menuItem.name}>
+                    <NavLink
+                      to={menuItem.link}
+                      key={menuItem.name}
+                      activeClassName="active-link"
+                    >
                       {menuItem.name}
-                    </a>
+                    </NavLink>
                   )
               )}
           </div>
@@ -36,9 +43,13 @@ export default props => {
             props.menu.map(
               menuItem =>
                 !menuItem.disabled && (
-                  <a href={menuItem.link} key={menuItem.name}>
+                  <NavLink
+                    to={menuItem.link}
+                    key={menuItem.name}
+                    activeClassName="active-link"
+                  >
                     {menuItem.name}
-                  </a>
+                  </NavLink>
                 )
             )}
         </div>
@@ -46,3 +57,5 @@ export default props => {
     </nav>
   );
 };
+
+export default Nav;
