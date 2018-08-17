@@ -61,8 +61,9 @@
   { "alt": "Cinia", "imgSrc": "", "websiteUrl": "" },
   {
     "alt": "Luonnon-, ympäristö- ja metsätieteilijöiden liitto Loimu",
-    "imgSrc": "companies/loimu.png"
+    "imgSrc": "companies/loimu.png",
+    "websiteUrl": ""
   },
-  { "alt": "Vincit", "imgSrc": "companies/vincit2.png" },
-  { "alt": "Kesko Oyj", "imgSrc": "companies/kesko.png" }
+  { "alt": "Vincit", "imgSrc": "companies/vincit2.png", "websiteUrl": "" },
+  { "alt": "Kesko Oyj", "imgSrc": "companies/kesko.png", "websiteUrl": "" }
 ]
