@@ -1,4 +1,5 @@
 import React from "react";
+import Companies from "./../components/Companies";
 
 const MainContent = () => {
   return (
@@ -29,6 +30,7 @@ const MainContent = () => {
           Mahdollisuutenne tuoda yrityksenne mukaan Kumpulan Potentiaaliin
           vuoden 2018 tapahtumaan on NYT!
         </p>
+        <Companies />
         <br />
         <br />
         <h3>TAPAHTUMATIEDOT</h3>

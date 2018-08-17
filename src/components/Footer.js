@@ -1,6 +1,6 @@
 import React from "react";
 
-export default props => {
+const Footer = props => {
   return (
     <footer>
       {props.logos.map(logo => (
@@ -9,3 +9,5 @@ export default props => {
     </footer>
   );
 };
+
+export default Footer;
