@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import Nav from "./components/Nav";
 import { Route } from "react-router-dom";
 import Footer from "./components/Footer";
@@ -21,6 +22,9 @@ import Lectures from "./pages/Lectures";
 import Workshops from "./pages/Workshops";
 import RekrySpeedDate from "./pages/RekrySpeedDate";
 import ForCompanies from "./pages/ForCompanies";
+import MarkdownPage from "./components/MarkdownPage";
+
+import testMarkdown from "./data/pages/TestPage.md";
 
 moment.locale(config.defaultLocale);
 
@@ -114,12 +118,28 @@ class App extends Component {
         <Route exact path="/workshops" render={Workshops} />
         <Route exact path="/rekry-speed-date" render={RekrySpeedDate} />
         <Route exact path="/for-companies" render={ForCompanies} />
+        <Route
+          exact
+          path="/testpage"
+          render={() => <MarkdownPage markdownFile={testMarkdown} />}
+        />
         <Contact />
         <Footer logos={logos} />
       </React.Fragment>
     );
   }
 }
+
+App.propTypes = {
+  daysUntil: PropTypes.number,
+  secondsUntil: PropTypes.number,
+  hoursUntil: PropTypes.number,
+  minutesUntil: PropTypes.number,
+  setClockInterval: PropTypes.func,
+  resetClock: PropTypes.func,
+  setClockData: PropTypes.func,
+  clockInterval: PropTypes.object
+};
 
 const MapStateToProps = state => {
   return {

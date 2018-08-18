@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const Clock = props => {
   return (
@@ -7,6 +8,13 @@ const Clock = props => {
       minuuttia {props.secondsUntil} sekuntia
     </p>
   );
+};
+
+Clock.propTypes = {
+  daysUntil: PropTypes.number,
+  hoursUntil: PropTypes.number,
+  minutesUntil: PropTypes.number,
+  secondsUntil: PropTypes.number
 };
 
 export default Clock;

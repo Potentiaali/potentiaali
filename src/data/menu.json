@@ -18,5 +18,10 @@
     "name": "Yrityksille",
     "link": "/for-companies",
     "disabled": false
+  },
+  {
+    "name": "Test page",
+    "link": "/testpage",
+    "disabled": false
   }
 ]
