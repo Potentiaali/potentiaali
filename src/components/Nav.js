@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const Nav = props => {
   return (
@@ -56,6 +57,12 @@ const Nav = props => {
       </div>
     </nav>
   );
+};
+
+Nav.propTypes = {
+  menuOpen: PropTypes.bool.isRequired,
+  menu: PropTypes.array.isRequired,
+  handleClick: PropTypes.func.isRequired
 };
 
 export default Nav;

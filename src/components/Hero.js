@@ -1,6 +1,8 @@
 import React from "react";
 import moment from "moment";
 import Clock from "./Clock";
+import PropTypes from "prop-types";
+
 const reviews = require("./../data/reviews.json");
 
 const Hero = props => {
@@ -48,6 +50,14 @@ const Hero = props => {
       </div>
     </section>
   );
+};
+
+Hero.propTypes = {
+  daysUntil: PropTypes.number.isRequired,
+  hoursUntil: PropTypes.number.isRequired,
+  minutesUntil: PropTypes.number.isRequired,
+  secondsUntil: PropTypes.number.isRequired,
+  eventDate: PropTypes.string.isRequired
 };
 
 export default Hero;
