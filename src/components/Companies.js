@@ -8,7 +8,9 @@ const Companies = () => {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <h3>Vuoden {config.year} Kumpulan potentiaali -tapahtuman yritykset</h3>
+            <h3>
+              Vuoden {config.year} Kumpulan potentiaali -tapahtuman yritykset
+            </h3>
             {companies.map(company => (
               <a
                 className="company-logo"
@@ -20,8 +22,13 @@ const Companies = () => {
                 <img
                   alt={company.alt}
                   src={company.imgSrc}
-                  height={50}
-                  style={{ padding: 25 }}
+                  style={{
+                    padding: 25,
+                    maxHeight: 80,
+                    height: "auto",
+                    width: "auto",
+                    maxWidth: 120
+                  }}
                 />
               </a>
             ))}

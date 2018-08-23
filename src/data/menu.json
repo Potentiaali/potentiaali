@@ -2,26 +2,26 @@
   {
     "name": "Luennot",
     "link": "/lectures",
-    "disabled": false
+    "disabled": true
   },
   {
     "name": "Workshopit",
     "link": "/workshops",
-    "disabled": false
+    "disabled": true
   },
   {
     "name": "Rekry speed date",
     "link": "/rekry-speed-date",
-    "disabled": false
+    "disabled": true
   },
   {
     "name": "Yrityksille",
     "link": "/for-companies",
-    "disabled": false
+    "disabled": true
   },
   {
     "name": "Test page",
     "link": "/testpage",
-    "disabled": false
+    "disabled": true
   }
 ]

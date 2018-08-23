@@ -18,13 +18,14 @@ import "moment/locale/en-gb";
 import MainPage from "./pages/MainPage";
 import Hero from "./components/Hero";
 import Contact from "./components/Contact";
+/*
 import Lectures from "./pages/Lectures";
 import Workshops from "./pages/Workshops";
 import RekrySpeedDate from "./pages/RekrySpeedDate";
 import ForCompanies from "./pages/ForCompanies";
 import MarkdownPage from "./components/MarkdownPage";
 
-import testMarkdown from "./data/pages/TestPage.md";
+import testMarkdown from "./data/pages/TestPage.md";*/
 
 moment.locale(config.defaultLocale);
 
@@ -113,15 +114,6 @@ class App extends Component {
               secondsUntil={this.props.secondsUntil}
             />
           )}
-        />
-        <Route exact path="/lectures" render={Lectures} />
-        <Route exact path="/workshops" render={Workshops} />
-        <Route exact path="/rekry-speed-date" render={RekrySpeedDate} />
-        <Route exact path="/for-companies" render={ForCompanies} />
-        <Route
-          exact
-          path="/testpage"
-          render={() => <MarkdownPage markdownFile={testMarkdown} />}
         />
         <Contact />
         <Footer logos={logos} />
