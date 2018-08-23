@@ -8,6 +8,6 @@ test:
  
 deployment:
   aws:
-    branch: master
+    branch: react
     commands:
       - ./publish.sh
