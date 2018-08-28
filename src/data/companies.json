@@ -20,7 +20,6 @@
     "websiteUrl": ""
   },
   { "alt": "Ilmarinen", "imgSrc": "https://www.ilmarinen.fi/siteassets/kuvapankki/uutishuone/logot/ilmarinenlogo_rgb.png", "websiteUrl": "" },
-  { "alt": "Kesko", "imgSrc": "companies/kesko.png", "websiteUrl": "" },
   { "alt": "Foreca", "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Foreca_logo.svg", "websiteUrl": "" },
   { "alt": "Codento", "imgSrc": "companies/codento.png", "websiteUrl": "" },
   { "alt": "DAIN Studios", "imgSrc": "", "websiteUrl": "" },
@@ -56,9 +55,9 @@
   { "alt": "Webscale", "imgSrc": "companies/webscale.png", "websiteUrl": "" },
   { "alt": "Taito United", "imgSrc": "companies/taito_united.png", "websiteUrl": "" },
   { "alt": "IBM", "imgSrc": "companies/ibm.png", "websiteUrl": "" },
-  { "alt": "Sogeti Finland", "imgSrc": "", "websiteUrl": "" },
+  { "alt": "Sogeti Finland", "imgSrc": "companies/Sogeti.png", "websiteUrl": "" },
   { "alt": "Vaisala Oyj", "imgSrc": "companies/vaisala.png", "websiteUrl": "" },
-  { "alt": "Cinia", "imgSrc": "", "websiteUrl": "" },
+  { "alt": "Cinia", "imgSrc": "companies/Cinia_Logo_2014_RGB.png", "websiteUrl": "" },
   {
     "alt": "Luonnon-, ympäristö- ja metsätieteilijöiden liitto Loimu",
     "imgSrc": "companies/loimu.png",
