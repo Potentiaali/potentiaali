@@ -6,8 +6,14 @@ jobs:
     steps:
       - checkout
       - run:
-        name: "Install AWS cli"
-        command: sudo pip install awscli
+          name: Install dependencies
+          working_directory: /
+          command: |
+            apt-get -y -qq update
+            apt-get -y -qq install python3.4-dev
+            curl -O https://bootstrap.pypa.io/get-pip.py
+            python3.4 get-pip.py --user
+            pip install awscli --upgrade --user
   deploy:
     docker:
       - image: circleci/node:4.8.2
