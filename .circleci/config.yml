@@ -5,16 +5,6 @@ jobs:
       - image: circleci/node:4.8.2
     steps:
       - checkout
-      - run:
-          name: Install dependencies
-          working_directory: /
-          command: |
-            sudo apt-get -y -qq update
-            sudo apt-get -y -qq install python3.4-dev
-            sudo curl -O https://bootstrap.pypa.io/get-pip.py
-            sudo python3.4 get-pip.py --user
-            sudo pip install awscli --upgrade --user
-  deploy:
     docker:
       - image: circleci/node:4.8.2
     steps:
