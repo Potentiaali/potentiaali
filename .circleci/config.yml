@@ -2,12 +2,9 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/node:4.8.2
+      - image: circleci/node:8.9
     steps:
       - checkout
-      - run:
-          name: update-npm 
-          command: 'sudo npm install -g npm@latest'
       - run:
           name: "Run deploy script"
           command: './publish.sh'
