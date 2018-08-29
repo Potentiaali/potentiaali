@@ -3,16 +3,11 @@ jobs:
   build:
     docker:
       - image: circleci/node:9.10
+      - image: circleci/python:2.7-jessie
     steps:
-      - run:
-          name: Install dependencies
-          working_directory: /
-          command: |
-            sudo apt-get -y -qq update
-            sudo apt-get -y -qq install python3.4-dev
-            curl -O https://bootstrap.pypa.io/get-pip.py
-            python3.4 get-pip.py --user
-            pip install awscli --upgrade --user
+      -run:
+          name: Install awscli
+          command: sudo pip install awscli
       - checkout
       - run:
           name: "Run deploy script"
