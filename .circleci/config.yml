@@ -5,7 +5,7 @@ jobs:
       - image: circleci/node:9.10
       - image: circleci/python:2.7-jessie
     steps:
-      -run:
+      - run:
           name: Install awscli
           command: sudo pip install awscli
       - checkout
