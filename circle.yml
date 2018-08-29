@@ -1,10 +1,11 @@
 dependencies:
   override:
     - sudo pip install awscli
- 
+    - yarn
+
 test:
   override:
-    - ls
+    - yarn test
  
 deployment:
   aws:

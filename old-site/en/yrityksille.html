@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Kumpulan Potentiaali</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900" rel="stylesheet">
+  <link href="../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../style.css?ver=10" rel="stylesheet">
+
+  <meta property="og:image" content="http://potentiaali.com/share.png">
+  <meta property="og:image" content="http://potentiaali.com/share.png">
+  <meta property="og:image:url" content="http://potentiaali.com/share.png">
+  <meta property="og:image:secure_url" content="http://potentiaali.com/share.png">
+  <meta property="og:image:width" content="323">
+  <meta property="og:image:height" content="323">
+  <meta property="og:locale" content="fi">
+
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <nav>
+    <div class="container">
+      <a href="index.html" class="nav-logo">
+        <img class="" src="../logos/potentiaali-black.png" alt="Kumpulan Potentiaali" />
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Students</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <video poster="../juku.png" muted loop autoplay>
+      <source src="../DJI_0014.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+    <div class="container">
+      <h1>
+        <img class="hero-logo" src="../logos/potentiaali-black.png" alt="Kumpulan Potentiaali" />
+      </h1>
+      <p>
+        Work and recruitment event at the Kumpula science campus.
+        <br />See you again in 2018!
+      </p>
+    </div>
+
+    <div class="languages">
+      <a href="/yrityksille.html">Suomeksi</a>
+    </div>
+  </section>
+
+
+  <section class="darker two-columned">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>Questions?</h2>
+          <p>
+            You can reach us at
+            <br />
+            <a href="mailto:info@potentiaali.com">info@potentiaali.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <img src="../logos/geysir_logo_pieni.png" alt="Geysir" />
+    <img src="../logos/HYK.png" alt="HYK" />
+    <img src="../logos/intelligenzia_logo-white.png" alt="Intelligenzia" />
+    <img src="../logos/mao.png" alt="MAO" />
+    <img src="../logos/Matrix_logo.png" alt="Matrix" />
+    <img src="../logos/meridiaani.png" alt="Meridiaani" />
+    <img src="../logos/moodi.png" alt="Moodi" />
+    <img src="../logos/resonanssi.png" alt="Resonanssi" />
+    <img src="../logos/synop.png" alt="Synop" />
+    <img src="../logos/tko-aly.png" alt="TKO-äly" />
+    <img src="../logos/vasara.gif" alt="Vasara" />
+  </footer>
+
+
+  <script type="text/javascript">
+
+    document.addEventListener("DOMContentLoaded", function() {
+      function getTimeRemaining(endtime) {
+        var t = Date.parse(endtime) - Date.parse(new Date());
+        var seconds = Math.floor((t / 1000) % 60);
+        var minutes = Math.floor((t / 1000 / 60) % 60);
+        var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+        var days = Math.floor(t / (1000 * 60 * 60 * 24));
+        return {
+          'total': t,
+          'days': days,
+          'hours': hours,
+          'minutes': minutes,
+          'seconds': seconds
+        };
+      }
+
+      function initializeClock(id, endtime) {
+        var clock = document.getElementById(id);
+        var daysSpan = clock.querySelector('.days');
+        var hoursSpan = clock.querySelector('.hours');
+        var minutesSpan = clock.querySelector('.minutes');
+        var secondsSpan = clock.querySelector('.seconds');
+
+        function updateClock() {
+          var t = getTimeRemaining(endtime);
+
+          daysSpan.innerHTML = t.days;
+          //hoursSpan.innerHTML = t.hours;
+          //minutesSpan.innerHTML = t.minutes;
+          //secondsSpan.innerHTML = t.seconds;
+
+
+          var timeLeft = document.getElementById("timeLeft");
+          if ( t.days <= 0 ) {
+            timeLeft.innerHTML = "JOO!";
+          }
+
+          if (t.total <= 0) {
+            clearInterval(timeinterval);
+          }
+        }
+
+        updateClock();
+        var timeinterval = setInterval(updateClock, 1000);
+      }
+
+      var deadline = new Date(Date.parse("November 8, 2017"));
+      initializeClock('clockdiv', deadline);
+    });
+
+  </script>
+
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-99908439-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+
+</body>
+</html>

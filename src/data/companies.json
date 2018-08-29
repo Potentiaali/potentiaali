@@ -1,0 +1,93 @@
+[
+  { "alt": "Fortum", "imgSrc": "companies/fortum.png", "websiteUrl": "" },
+  { "alt": "Solita", "imgSrc": "companies/solita.png", "websiteUrl": "" },
+  { "alt": "OP", "imgSrc": "companies/op.png", "websiteUrl": "" },
+  {
+    "alt": "Siili",
+    "imgSrc": "companies/siilisolutions.png",
+    "websiteUrl": ""
+  },
+  { "alt": "SAS Institute", "imgSrc": "companies/sas.png", "websiteUrl": "" },
+  { "alt": "Reaktor", "imgSrc": "companies/reaktor.png", "websiteUrl": "" },
+  { "alt": "Futurice", "imgSrc": "companies/futurice.png", "websiteUrl": "" },
+  { "alt": "Solinor", "imgSrc": "companies/solinor.png", "websiteUrl": "" },
+  { "alt": "Elisa", "imgSrc": "companies/elisa.png", "websiteUrl": "" },
+  { "alt": "CGI", "imgSrc": "companies/cgi.png", "websiteUrl": "" },
+  { "alt": "Accenture", "imgSrc": "companies/accenture.png", "websiteUrl": "" },
+  {
+    "alt": "Maanmittauslaitos",
+    "imgSrc": "companies/mml.png",
+    "websiteUrl": ""
+  },
+  {
+    "alt": "Ilmarinen",
+    "imgSrc": "https://www.ilmarinen.fi/siteassets/kuvapankki/uutishuone/logot/ilmarinenlogo_rgb.png",
+    "websiteUrl": ""
+  },
+  {
+    "alt": "Foreca",
+    "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Foreca_logo.svg",
+    "websiteUrl": ""
+  },
+  { "alt": "Codento", "imgSrc": "companies/codento.png", "websiteUrl": "" },
+  { "alt": "DAIN Studios", "imgSrc": "", "websiteUrl": "" },
+  { "alt": "Devisioona", "imgSrc": "", "websiteUrl": "" },
+  {
+    "alt": "Digia",
+    "imgSrc": "https://digia.com/globalassets/yritys/logo/digia_logo_rgb.png",
+    "websiteUrl": ""
+  },
+  {
+    "alt": "Dream Broker",
+    "imgSrc": "companies/dreambroker.png",
+    "websiteUrl": ""
+  },
+  { "alt": "Eficode", "imgSrc": "companies/eficode.png", "websiteUrl": "" },
+  { "alt": "Gofore", "imgSrc": "companies/gofore-logo.png", "websiteUrl": "" },
+  {
+    "alt": "Software Point",
+    "imgSrc": "companies/softwarepoint.png",
+    "websiteUrl": ""
+  },
+  {
+    "alt": "Terveystalo",
+    "imgSrc": "https://www.terveystalo.com/design/images/terveystalo-logo.png",
+    "websiteUrl": ""
+  },
+  {
+    "alt": "Vala Group",
+    "imgSrc": "companies/VALA-logo-some-05.png",
+    "websiteUrl": ""
+  },
+  {
+    "alt": "Perfektio",
+    "imgSrc": "companies/perfektio-logo.png",
+    "websiteUrl": ""
+  },
+  { "alt": "Webscale", "imgSrc": "companies/webscale.png", "websiteUrl": "" },
+  {
+    "alt": "Taito United",
+    "imgSrc": "companies/taito_united.png",
+    "websiteUrl": ""
+  },
+  { "alt": "IBM", "imgSrc": "companies/ibm.png", "websiteUrl": "" },
+  {
+    "alt": "Sogeti Finland",
+    "imgSrc": "companies/Sogeti.png",
+    "websiteUrl": ""
+  },
+  { "alt": "Vaisala Oyj", "imgSrc": "companies/vaisala.png", "websiteUrl": "" },
+  {
+    "alt": "Cinia",
+    "imgSrc": "companies/Cinia_Logo_2014_RGB.png",
+    "websiteUrl": ""
+  },
+  { "alt": "Vincit", "imgSrc": "companies/vincit2.png", "websiteUrl": "" },
+  { "alt": "Kesko Oyj", "imgSrc": "companies/kesko.png", "websiteUrl": "" },
+  {
+    "alt": "CSC - Tieteen tietotekniikan keskus Oy",
+    "imgSrc": "",
+    "websiteUrl": ""
+  },
+  { "alt": "Columbia Road", "imgSrc": "", "websiteUrl": "" }
+]
