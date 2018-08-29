@@ -5,8 +5,14 @@ jobs:
       - image: circleci/node:9.10
     steps:
       - run:
-          name: Install awscli
-          command: sudo pip install awscli
+          name: Install dependencies
+          working_directory: /
+          command: |
+            apt-get -y -qq update
+            apt-get -y -qq install python3.4-dev
+            curl -O https://bootstrap.pypa.io/get-pip.py
+            python3.4 get-pip.py --user
+            pip install awscli --upgrade --user
       - checkout
       - run:
           name: "Run deploy script"
