@@ -1,13 +1,14 @@
 dependencies:
   override:
     - sudo pip install awscli
- 
+    - yarn
+
 test:
   override:
-    - ls
+    - yarn test
  
 deployment:
   aws:
-    branch: react
+    branch: master
     commands:
       - ./publish.sh

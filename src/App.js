@@ -130,7 +130,7 @@ App.propTypes = {
   setClockInterval: PropTypes.func,
   resetClock: PropTypes.func,
   setClockData: PropTypes.func,
-  clockInterval: PropTypes.object
+  clockInterval: PropTypes.any
 };
 
 const MapStateToProps = state => {
