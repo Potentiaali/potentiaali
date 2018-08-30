@@ -5,14 +5,8 @@ jobs:
       - image: circleci/node:9.10
     steps:
       - run:
-          name: Update package listing
-          command: sudo apt-get update
-      - run:
-          name: Install python-dev
-          command: sudo apt-get install python-dev
-      - run:
-          name: Install pip
-          command: sudo apt-get install python-pip
+          name: Update package listing & install python-dev and python-pip
+          command: sudo apt-get update && sudo apt-get install python-dev python-pip
       - run:
           name: Install awscli
           command: sudo pip install awscli
