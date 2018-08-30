@@ -3,8 +3,16 @@ jobs:
   build:
     docker:
       - image: circleci/node:9.10
-      - image: circleci/python:2.7-jessie
     steps:
+      - run:
+          name: Update package listing
+          command: sudo apt-get update
+      - run:
+          name: Install python-dev
+          command: sudo apt-get install python-dev
+      - run:
+          name: Install pip
+          command: sudo apt-get install python-pip
       - run:
           name: Install awscli
           command: sudo pip install awscli
