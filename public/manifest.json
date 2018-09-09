@@ -2,7 +2,7 @@
   "name": "Kumpulan Potentiaali 2018",
   "short_name": "Potentiaali 2018",
   "lang": "fi-FI",
-  "start_url": "./index.html",
+  "start_url": "/",
   "display": "fullscreen",
   "theme_color": "#e9a527",
   "icons": [
