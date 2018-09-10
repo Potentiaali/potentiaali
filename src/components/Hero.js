@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 const reviews = require("./../data/reviews.json");
 
-const Hero = props => {
+export const Hero = props => {
   return (
     <section className="hero">
       <video poster="juku.png" muted loop autoPlay preload="true">
@@ -45,9 +45,7 @@ const Hero = props => {
           secondsUntil={props.secondsUntil}
         />
       </div>
-      <div className="languages">
-        <a href="/en/index.html">In English</a>
-      </div>
+      <div className="languages" />
     </section>
   );
 };
@@ -59,5 +57,3 @@ Hero.propTypes = {
   secondsUntil: PropTypes.number.isRequired,
   eventDate: PropTypes.string.isRequired
 };
-
-export default Hero;

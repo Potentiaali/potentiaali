@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import Nav from "./components/Nav";
-import { Route } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Footer from "./components/Footer";
 import logos from "./data/logos.json";
 import config from "./data/config.json";
-import menu from "./data/menu.json";
 import { connect } from "react-redux";
 import moment from "moment";
 import {
@@ -15,28 +14,13 @@ import {
 } from "./reducers/ClockReducer";
 import "moment/locale/fi";
 import "moment/locale/en-gb";
-import MainPage from "./pages/MainPage";
-import Hero from "./components/Hero";
+import { MainPage } from "./pages/MainPage";
 import Contact from "./components/Contact";
-/*
-import Lectures from "./pages/Lectures";
-import Workshops from "./pages/Workshops";
-import RekrySpeedDate from "./pages/RekrySpeedDate";
-import ForCompanies from "./pages/ForCompanies";
-import MarkdownPage from "./components/MarkdownPage";
-
-import testMarkdown from "./data/pages/TestPage.md";*/
+import { SchedulePage } from "./pages/SchedulePage";
 
 moment.locale(config.defaultLocale);
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      menuOpen: false
-    };
-  }
-
   /**
    * Initialize clock interval
    *
@@ -73,48 +57,37 @@ class App extends Component {
     }
   }
 
-  /**
-   * Handle menu open & close
-   *
-   * @param {*} event
-   * @memberof App
-   */
-  handleClick = event => {
-    event.preventDefault();
-    this.setState(oldState => {
-      return {
-        menuOpen: !oldState.menuOpen
-      };
-    });
-  };
-
   render() {
     return (
       <React.Fragment>
-        <Nav
-          menu={menu}
-          menuOpen={this.state.menuOpen}
-          handleClick={this.handleClick}
-        />
-        <Hero
-          eventDate={config.eventDate}
-          daysUntil={this.props.daysUntil}
-          hoursUntil={this.props.hoursUntil}
-          minutesUntil={this.props.minutesUntil}
-          secondsUntil={this.props.secondsUntil}
-        />
-        <Route
-          exact
-          path=""
-          render={() => (
-            <MainPage
-              daysUntil={this.props.daysUntil}
-              hoursUntil={this.props.hoursUntil}
-              minutesUntil={this.props.minutesUntil}
-              secondsUntil={this.props.secondsUntil}
-            />
-          )}
-        />
+        <Nav />
+        <Switch>
+          <Route
+            exact
+            path="/"
+            render={() => (
+              <MainPage
+                eventDate={config.eventDate}
+                daysUntil={this.props.daysUntil}
+                hoursUntil={this.props.hoursUntil}
+                minutesUntil={this.props.minutesUntil}
+                secondsUntil={this.props.secondsUntil}
+              />
+            )}
+          />
+          <Route exact path="/schedule" component={SchedulePage} />
+          <Route
+            render={() => (
+              <div
+                style={{
+                  marginTop: 25
+                }}
+              >
+                <h1>Sivua ei löydy / Page not found</h1>
+              </div>
+            )}
+          />
+        </Switch>
         <Contact />
         <Footer logos={logos} />
       </React.Fragment>

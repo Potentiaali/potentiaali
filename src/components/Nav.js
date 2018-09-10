@@ -1,34 +1,75 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import PropTypes from "prop-types";
+import menu from "../data/menu.json";
 
-const Nav = props => {
-  return (
-    <nav>
-      <div className="container">
-        <NavLink to="/" className="nav-logo">
-          <img
-            className=""
-            src="logos/potentiaali-black.png"
-            alt="Kumpulan Potentiaali"
-          />
-        </NavLink>
-        <a href="#menu" className="mobile-menu" onClick={props.handleClick}>
-          <span
-            className={
-              !props.menuOpen
-                ? "fa fa-bars mobile-menu-icon"
-                : "fa fa-close mobile-menu-icon"
-            }
-          />
-        </a>
-        {props.menuOpen && (
-          <div className="mobile-nav-links">
-            {props.menu &&
-              props.menu.map(
+class Nav extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      menuOpen: false
+    };
+  }
+
+  /**
+   * Handle menu open & close
+   *
+   * @param {*} event
+   * @memberof App
+   */
+  handleClick = event => {
+    event.preventDefault();
+    this.setState(oldState => {
+      return {
+        menuOpen: !oldState.menuOpen
+      };
+    });
+  };
+
+  render() {
+    return (
+      <nav>
+        <div className="container">
+          <NavLink to="/" className="nav-logo">
+            <img
+              className=""
+              src="logos/potentiaali-black.png"
+              alt="Kumpulan Potentiaali"
+            />
+          </NavLink>
+          <a href="#menu" className="mobile-menu" onClick={this.handleClick}>
+            <span
+              className={
+                !this.state.menuOpen
+                  ? "fa fa-bars mobile-menu-icon"
+                  : "fa fa-close mobile-menu-icon"
+              }
+            />
+          </a>
+          {this.state.menuOpen && (
+            <div className="mobile-nav-links">
+              {menu &&
+                menu.map(
+                  menuItem =>
+                    !menuItem.disabled && (
+                      <NavLink
+                        exact
+                        to={menuItem.link}
+                        key={menuItem.name}
+                        activeClassName="active-link"
+                      >
+                        {menuItem.name}
+                      </NavLink>
+                    )
+                )}
+            </div>
+          )}
+          <div className="nav-links">
+            {menu &&
+              menu.map(
                 menuItem =>
                   !menuItem.disabled && (
                     <NavLink
+                      exact
                       to={menuItem.link}
                       key={menuItem.name}
                       activeClassName="active-link"
@@ -38,31 +79,10 @@ const Nav = props => {
                   )
               )}
           </div>
-        )}
-        <div className="nav-links">
-          {props.menu &&
-            props.menu.map(
-              menuItem =>
-                !menuItem.disabled && (
-                  <NavLink
-                    to={menuItem.link}
-                    key={menuItem.name}
-                    activeClassName="active-link"
-                  >
-                    {menuItem.name}
-                  </NavLink>
-                )
-            )}
         </div>
-      </div>
-    </nav>
-  );
-};
-
-Nav.propTypes = {
-  menuOpen: PropTypes.bool.isRequired,
-  menu: PropTypes.array.isRequired,
-  handleClick: PropTypes.func.isRequired
-};
+      </nav>
+    );
+  }
+}
 
 export default Nav;
