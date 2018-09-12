@@ -24,7 +24,7 @@ const Companies = () => {
                   src={company.imgSrc}
                   style={{
                     padding: 25,
-                    maxHeight: 50,
+                    maxHeight: 90,
                     height: "auto",
                     width: "auto",
                     maxWidth: 120

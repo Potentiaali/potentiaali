@@ -97,7 +97,11 @@
     "imgSrc": "",
     "websiteUrl": ""
   },
-  { "alt": "Columbia Road", "imgSrc": "", "websiteUrl": "" },
+  {
+    "alt": "Columbia Road",
+    "imgSrc": "companies/Columbia_Road_Logo_Black_1024x1024.png",
+    "websiteUrl": ""
+  },
   {
     "alt": "Tekniikan akateemiset TEK",
     "imgSrc": "companies/tek.png",
