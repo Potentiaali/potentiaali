@@ -8,5 +8,10 @@
     "name": "Aikataulu",
     "link": "/schedule",
     "disabled": false
+  },
+  {
+    "name": "Aineiden esittely",
+    "link": "/subjects",
+    "disabled": false
   }
 ]

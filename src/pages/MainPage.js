@@ -6,8 +6,7 @@ import PropTypes from "prop-types";
 
 export const MainPage = props => {
   return (
-    <React.Fragment>
-      {" "}
+    <div>
       <Hero
         eventDate={config.eventDate}
         daysUntil={props.daysUntil}
@@ -16,7 +15,7 @@ export const MainPage = props => {
         secondsUntil={props.secondsUntil}
       />
       <MainContent />
-    </React.Fragment>
+    </div>
   );
 };
 
