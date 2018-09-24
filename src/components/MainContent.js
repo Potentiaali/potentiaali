@@ -6,7 +6,7 @@ const MainContent = () => {
     <section className="">
       <div className="container">
         <h2>
-          Tervetuloa mukaan <br /> Kumpulan Potentiaaliin 2018!
+          Kumpulan Potentiaali vuodelle 2018 on pian  <br /> täynnä!
         </h2>
         <br />
         <p>
@@ -27,8 +27,7 @@ const MainContent = () => {
         <br />
         <p>
           {" "}
-          Mahdollisuutenne tuoda yrityksenne mukaan Kumpulan Potentiaaliin
-          vuoden 2018 tapahtumaan on NYT!
+          Viimeiset hetket tuoda yrityksenne mukaan tapahtumaan ovat nyt käsillä!
         </p>
         <Companies />
         <br />
@@ -57,7 +56,7 @@ const MainContent = () => {
           </li>
           <li>
             Liput kolmelle hengelle (lisähenkilö 50€/kpl), jotka sisältävät
-            aamupalan, lounaan, cocktail-tilaisuuden ja pääsyn jatkoille.
+            aamupalan ja lounaan, sekä pääsytn Cocktail-tilaisuuteen ja jatkoille.
           </li>
         </ul>
         <br />
@@ -65,7 +64,9 @@ const MainContent = () => {
           Tarjolla on myös neljä suurempaa ständipaikkaa, jotka on sijoiteltu
           sisäänkäyntien lähettyville. Tällainen paikka kustantaa 2000 euroa, ja
           ne myydään ilmoittautumisjärjestyksessä. Ständipaikoista on luotu
-          ohjeistava kartta, joka on ilmoittautumislomakkeessa.
+          ohjeistava kartta, joka on ilmoittautumislomakkeessa. 
+          <br />
+          <b>Ajankohtaista:</b> Suuremmat ständipaikat ovat loppuunvarattu.
         </p>
         <br />
         <p>
@@ -76,6 +77,10 @@ const MainContent = () => {
           Potentiaalin järjestäjät suorittavat mahdollista karsintaa yritysten
           välillä Workshopin tai Keynoten sisältöjen perusteella. Alustava
           kiinnostus pitää jompaa kumpaa ilmoitetaan ilmoittautumislomakkeella.
+          <br />
+          <b>Ajankohtaista:</b> Ilmoittautuneilta yrityksiltä kerätään parhaillaan kuvauksia 
+            Workshopien tai Keynote-luentojen sisällöistä. 
+            Tapahtuman sisällöt valitaan 7.10. alkavalla viikolla.
         </p>
         <br />
         <br />
