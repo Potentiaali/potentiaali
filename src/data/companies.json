@@ -114,12 +114,12 @@
   },
   {
     "alt": "Houston Inc. Consulting Oy",
-    "imgSrc": "",
+    "imgSrc": "companies/houston_inc.png",
     "websiteUrl": ""
   },
   {
     "alt": "Robu Oy",
-    "imgSrc": "",
+    "imgSrc": "companies/robu.png",
     "websiteUrl": ""
   },
   {
@@ -134,7 +134,7 @@
   },
   {
     "alt": "Trimble Solutions Oy",
-    "imgSrc": "",
+    "imgSrc": "companies/trimble.png",
     "websiteUrl": ""
   }
 ]
