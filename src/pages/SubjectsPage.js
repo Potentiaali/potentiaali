@@ -1,5 +1,6 @@
 import React from "react";
 import { Accordion } from "../components/Accordion";
+import "./SubjectsPage.scss";
 
 const Physics = () => (
   <Accordion title="Fysiikka">
@@ -503,7 +504,7 @@ const Astrology = () => (
 
 export const SubjectsPage = () => {
   return (
-    <div className="page">
+    <div className="page subjects">
       <h1>Aineiden esittely</h1>
       <Physics />
       <Geophysics />
