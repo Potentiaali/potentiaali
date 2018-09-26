@@ -1,11 +1,15 @@
 [
   {
-    "src": "logos/geysir_logo_pieni.png",
-    "alt": "Geysir"
+    "src": "logos/matlu.png",
+    "alt": "Matlu ry"
   },
   {
-    "src": "logos/HYK.png",
-    "alt": "HYK"
+    "src": "logos/thinkcompany.png",
+    "alt": "Helsinki Think Company"
+  },
+  {
+    "src": "logos/geysir_logo_pieni.png",
+    "alt": "Geysir"
   },
   {
     "src": "logos/mao.png",
@@ -16,13 +20,19 @@
     "alt": "Matrix"
   },
   {
-    "src": "logos/meridiaani.png",
-    "alt": "Meridiaani"
-  },
-  {
     "src": "logos/moodi.png",
     "alt": "Moodi"
   },
+  {
+    "src": "logos/HYK.png",
+    "alt": "HYK"
+  },
+
+  {
+    "src": "logos/meridiaani.png",
+    "alt": "Meridiaani"
+  },
+
   {
     "src": "logos/resonanssi.png",
     "alt": "Resonanssi"
