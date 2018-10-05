@@ -1,7 +1,12 @@
 import React from "react";
-import MarkdownPage from "../components/MarkdownPage";
-import ScheduleMarkdown from "../data/pages/Schedule.md";
+import { Schedule } from "../components/Schedule";
+import scheduleData from "../components/scheduleData";
 
 export const SchedulePage = () => {
-  return <MarkdownPage markdownFile={ScheduleMarkdown} />;
+  return (
+    <div className="page">
+      <h1>Aikataulu</h1>
+      <Schedule start={14} end={20} schedule={scheduleData}/>
+    </div>
+  );
 };

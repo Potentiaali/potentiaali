@@ -50,7 +50,7 @@ class App extends Component {
             secondsUntil: seconds
           });
         }
-      }, 1000);
+      }, 1000000000);
       this.props.setClockInterval(interval);
     } else {
       clearInterval(this.props.clockInterval);
