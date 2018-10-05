@@ -2,6 +2,7 @@ import React from "react";
 import scheduleData from "./scheduleData";
 import { Schedule } from "./../components/Schedule";
 import { Link } from "react-router-dom";
+import { withRouter } from "react-router";
 
 const generateLinkText = name => {
   switch (name) {
@@ -11,22 +12,26 @@ const generateLinkText = name => {
       return "Luennot";
     case "speedDating":
       return "Speed dating";
+    default:
+      return "N/A";
   }
 };
 
-export const ScheduleNav = ({ match }) => {
+const ScheduleNav = () => (
+  <div>
+    {Object.keys(scheduleData).map(name => (
+      <Link to={"/schedule/" + name} key={name} style={{ margin: 20 }}>
+        {generateLinkText(name)}
+      </Link>
+    ))}
+  </div>
+);
+
+export const SchedulePage = ({ match }) => {
   return (
     <div className="page">
       <h1>Aikataulu</h1>
-      {Object.keys(scheduleData).map(name => (
-        <Link
-          to={"/schedule/" + name}
-          key={name}
-          style={{ margin: 20}}
-        >
-          {generateLinkText(name)}
-        </Link>
-      ))}
+      <ScheduleNav />
       {match && match.params && match.params.scheduleName ? (
         <Schedule
           start={"14"}
@@ -39,3 +44,5 @@ export const ScheduleNav = ({ match }) => {
     </div>
   );
 };
+
+export const RoutedSchedulePage = withRouter(SchedulePage);
