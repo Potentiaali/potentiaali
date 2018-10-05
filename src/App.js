@@ -16,7 +16,7 @@ import "moment/locale/fi";
 import "moment/locale/en-gb";
 import { MainPage } from "./pages/MainPage";
 import Contact from "./components/Contact";
-import { SchedulePage } from "./pages/SchedulePage";
+import { ScheduleNav } from "./components/ScheduleNav";
 import { SubjectsPage } from "./pages/SubjectsPage";
 
 moment.locale(config.defaultLocale);
@@ -76,7 +76,8 @@ class App extends Component {
               />
             )}
           />
-          <Route exact path="/schedule" component={SchedulePage} />
+          <Route path="/schedule/:scheduleName" component={ScheduleNav} />
+          <Route exact path="/schedule" render={() => <div>Hello</div>} />
           <Route exact path="/subjects" component={SubjectsPage} />
           <Route
             render={() => (

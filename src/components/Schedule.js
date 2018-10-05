@@ -68,7 +68,7 @@ export const Schedule = ({ schedule, start, end, type }) => {
   return (
     <div className="schedule">
       <div className="backgroundImageContainer">
-        <img src="crowd.jpg" />
+        <img src="../../crowd.jpg" />
       </div>
       <div style={{ flex: 1 }}>
         <div className="timelineContainer">
