@@ -7,16 +7,17 @@ import logos from "./data/logos.json";
 import config from "./data/config.json";
 import { connect } from "react-redux";
 import moment from "moment";
+import "moment/locale/fi";
+import "moment/locale/en-gb";
 import {
   resetClock,
   setClockData,
   setClockInterval
 } from "./reducers/ClockReducer";
-import "moment/locale/fi";
-import "moment/locale/en-gb";
+
 import { MainPage } from "./pages/MainPage";
 import Contact from "./components/Contact";
-import { RoutedSchedulePage } from "./components/ScheduleNav";
+import { SchedulePage } from "./pages/SchedulePage";
 import { SubjectsPage } from "./pages/SubjectsPage";
 
 moment.locale(config.defaultLocale);
@@ -76,8 +77,12 @@ class App extends Component {
               />
             )}
           />
-          <Route exact path="/schedule/:scheduleName" component={RoutedSchedulePage} />
-          <Route exact path="/schedule" component={RoutedSchedulePage} />
+          <Route
+            exact
+            path="/schedule/:scheduleName"
+            component={SchedulePage}
+          />
+          <Route exact path="/schedule" component={SchedulePage} />
           <Route exact path="/subjects" component={SubjectsPage} />
           <Route
             render={() => (

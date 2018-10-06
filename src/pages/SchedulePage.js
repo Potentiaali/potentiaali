@@ -36,7 +36,7 @@ export const SchedulePage = ({ match }) => {
         <SingleSchedule
           start={"14:00"}
           end={"20:00"}
-          schedule={scheduleData[match.params.scheduleName]}
+          scheduleData={scheduleData[match.params.scheduleName]}
           type={match.params.scheduleName}
         />
       ) : (

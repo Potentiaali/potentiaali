@@ -21,7 +21,7 @@ const getDurationInHours = function(start, end) {
   const endMillis = new Date(0, 0, 0, endTime.hours, endTime.minutes);
   const startMillis = new Date(0, 0, 0, startTime.hours, startTime.minutes);
   return (
-    (endMillis.getMilliseconds() - startMillis.getMilliseconds()) / (1000 * 60)
+    (endMillis - startMillis) / (1000 * 60)
   );
 };
 

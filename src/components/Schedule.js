@@ -2,7 +2,7 @@ import React from "react";
 import moment from "moment";
 import { TimeSlot } from "./TimeSlot";
 import { colors } from "./colors";
-import { View, ScrollView, Text, Image } from "react-native-web";
+import { View, ScrollView, Text } from "react-native-web";
 
 const fillEmptySlots = function(schedule, programStart, programEnd) {
   let filledSchedule = schedule
@@ -68,10 +68,6 @@ const generateHourStrings = function(start, end) {
 export const Schedule = ({ schedule, start, end, type }) => {
   return (
     <View style={styles.container}>
-      <View style={styles.backgroundImageContainer}>
-        <Image style={styles.image} source={"crowd.jpg"} />
-      </View>
-
       <ScrollView horizontal bounces={false}>
         <View style={{ flex: 1 }}>
           <View style={styles.timelineContainer}>
@@ -81,8 +77,7 @@ export const Schedule = ({ schedule, start, end, type }) => {
               </View>
             ))}
           </View>
-          {// loops stage schedules
-          Object.keys(schedule).map(key => {
+          {Object.keys(schedule).map(key => {
             const stage = schedule[key];
             return (
               <View style={styles.scheduleRow} key={stage.name}>
@@ -102,7 +97,8 @@ export const Schedule = ({ schedule, start, end, type }) => {
 
 const styles = {
   container: {
-    flex: 5
+    flex: 5,
+    backgroundColor: colors.gray
   },
   backgroundImageContainer: {
     position: "absolute",

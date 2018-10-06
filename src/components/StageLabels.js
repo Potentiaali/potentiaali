@@ -10,7 +10,7 @@ export const StageLabels = ({ schedule }) => (
     </View>
     {Object.keys(schedule).map((key, i) => {
       const last = Object.keys(schedule).length === i - 1;
-      const first = i === 0;
+      // const first = i === 0;
       const stage = schedule[key];
       return (
         <View
