@@ -40,7 +40,7 @@ export const TimeSlot = ({ content }) => {
         {content.name === "" ? (
           <View />
         ) : (
-          <View>
+          <View className="timeSlot">
             <Text style={[defaultStyles.title3, styles.title]}>
               {content.name.toUpperCase()}
             </Text>

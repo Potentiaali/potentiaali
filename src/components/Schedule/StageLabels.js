@@ -33,7 +33,8 @@ StageLabels.propTypes = {
 
 const styles = {
   container: {
-    flex: 1
+    flex: 1,
+    marginBottom: 15
   },
   stageLabel: {
     flex: 4,
@@ -51,8 +52,8 @@ const styles = {
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: colors.orange,
-    borderBottomWidth: 1,
-    borderBottomColor: "white"
+    backgroundColor: "#e2e2e2",
+    borderBottomWidth: 2,
+    borderBottomColor: colors.orange
   }
 };

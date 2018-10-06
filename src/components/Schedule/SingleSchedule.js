@@ -34,6 +34,7 @@ SingleSchedule.propTypes = {
 const styles = {
   container: {
     flex: 1,
-    flexDirection: "row"
+    flexDirection: "row",
+    backgroundColor: "#353535"
   }
 };

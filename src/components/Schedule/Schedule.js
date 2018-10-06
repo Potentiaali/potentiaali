@@ -125,11 +125,12 @@ const styles = {
   },
   timelineContainer: {
     flex: 1,
-    backgroundColor: "#ffffff",
+    backgroundColor: "#e2e2e2",
     flexDirection: "row",
     alignItems: "center",
     borderColor: colors.orange,
     borderWidth: 1,
-    borderTopWidth: 0
+    borderTopWidth: 0,
+    borderLeftWidth: 0
   }
 };
