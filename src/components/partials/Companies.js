@@ -1,6 +1,6 @@
 import React from "react";
-const companies = require("./../data/companies.json");
-const config = require("./../data/config.json");
+const companies = require("../../data/companies.json");
+const config = require("../../data/config.json");
 
 const Companies = () => {
   return (

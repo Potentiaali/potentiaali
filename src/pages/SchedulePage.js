@@ -1,6 +1,6 @@
 import React from "react";
-import scheduleData from "../components/scheduleData";
-import { SingleSchedule } from "../components/SingleSchedule";
+import scheduleData from "../data/scheduleData";
+import { SingleSchedule } from "../components/Schedule/SingleSchedule";
 import { Link } from "react-router-dom";
 import { withRouter } from "react-router";
 

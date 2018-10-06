@@ -1,10 +1,10 @@
 import React from "react";
 
 import { storiesOf } from "@storybook/react";
-import { Accordion } from "../components/Accordion";
-import { Schedule } from "../components/Schedule";
-import { SingleSchedule } from "../components/SingleSchedule";
-import scheduleData from "../components/scheduleData";
+import { Accordion } from "../components/Accordion/Accordion";
+import { Schedule } from "../components/Schedule/Schedule";
+import { SingleSchedule } from "../components/Schedule/SingleSchedule";
+import scheduleData from "../data/scheduleData";
 
 storiesOf("Accordion", module)
   .add("Single accordion, with text", () => (

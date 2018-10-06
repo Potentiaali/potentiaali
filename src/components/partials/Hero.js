@@ -3,7 +3,7 @@ import moment from "moment";
 import Clock from "./Clock";
 import PropTypes from "prop-types";
 
-const reviews = require("./../data/reviews.json");
+const reviews = require("../../data/reviews.json");
 
 export const Hero = props => {
   return (

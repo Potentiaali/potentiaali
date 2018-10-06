@@ -1,7 +1,7 @@
 import React from "react";
 import moment from "moment";
 import { TimeSlot } from "./TimeSlot";
-import { colors } from "./colors";
+import { colors } from "../../colors/colors";
 import { View, ScrollView, Text } from "react-native-web";
 
 const fillEmptySlots = function(schedule, programStart, programEnd) {

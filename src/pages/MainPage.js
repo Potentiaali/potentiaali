@@ -1,7 +1,7 @@
 import React from "react";
 import MainContent from "./../components/MainContent";
 import config from "./../data/config.json";
-import { Hero } from "../components/Hero";
+import { Hero } from "../components/partials/Hero";
 import PropTypes from "prop-types";
 
 export const MainPage = props => {

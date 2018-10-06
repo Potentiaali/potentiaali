@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import menu from "../data/menu.json";
+import menu from "../../data/menu.json";
 
 class Nav extends React.Component {
   constructor(props) {

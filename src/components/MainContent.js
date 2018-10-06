@@ -1,5 +1,5 @@
 import React from "react";
-import Companies from "./../components/Companies";
+import Companies from "./../components/partials/Companies";
 
 const MainContent = () => {
   return (

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import Nav from "./components/Nav";
+import Nav from "./components/partials/Nav";
 import { Route, Switch } from "react-router-dom";
-import Footer from "./components/Footer";
+import Footer from "./components/partials/Footer";
 import logos from "./data/logos.json";
 import config from "./data/config.json";
 import { connect } from "react-redux";
@@ -16,7 +16,7 @@ import {
 } from "./reducers/ClockReducer";
 
 import { MainPage } from "./pages/MainPage";
-import Contact from "./components/Contact";
+import Contact from "./components/partials/Contact";
 import { SchedulePage } from "./pages/SchedulePage";
 import { SubjectsPage } from "./pages/SubjectsPage";
 

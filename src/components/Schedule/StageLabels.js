@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text } from "react-native-web";
-import { colors } from "./colors";
-import { defaultStyles } from "./defaultStyles";
+import { colors } from "../../colors/colors";
+import { defaultStyles } from "../../styles/defaultStyles";
 
 export const StageLabels = ({ schedule }) => (
   <View style={styles.container}>

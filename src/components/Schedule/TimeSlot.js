@@ -1,7 +1,7 @@
 import React from "react";
 import "./TimeSlot.scss";
-import { defaultStyles } from "./defaultStyles";
-import { colors } from "./colors";
+import { defaultStyles } from "../../styles/defaultStyles";
+import { colors } from "../../colors/colors";
 import { View, TouchableHighlight, Text } from "react-native-web";
 
 const getDurationInHours = function(start, end) {
