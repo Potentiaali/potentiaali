@@ -1,8 +1,9 @@
 import React from "react";
-import scheduleData from "../data/scheduleData";
 import { SingleSchedule } from "../components/Schedule/SingleSchedule";
-import { Link } from "react-router-dom";
-import { withRouter } from "react-router";
+import { connect } from "react-redux";
+import PropTypes from "prop-types";
+import classnames from "classnames";
+import { changeSchedule } from "../reducers/ScheduleReducer";
 
 const generateLinkText = name => {
   switch (name) {
@@ -17,27 +18,46 @@ const generateLinkText = name => {
   }
 };
 
-const ScheduleNav = () => (
-  <div>
-    {Object.keys(scheduleData).map(name => (
-      <Link to={"/schedule/" + name} key={name} style={{ margin: 20 }}>
+const ScheduleNav = ({ selected, schedule, changeSchedule }) => (
+  <div className="schedule-nav-links">
+    {Object.keys(schedule).map(name => (
+      <span
+        className={classnames({ "is-selected": selected === name })}
+        onClick={e => {
+          e.preventDefault();
+          changeSchedule(name);
+        }}
+        key={name}
+        style={{ margin: 20 }}
+      >
         {generateLinkText(name)}
-      </Link>
+      </span>
     ))}
   </div>
 );
 
-export const SchedulePage = ({ match }) => {
+ScheduleNav.propTypes = {
+  selected: PropTypes.string.isRequired,
+  schedule: PropTypes.any.isRequired,
+  changeSchedule: PropTypes.func.isRequired
+};
+
+export const SchedulePage = ({ schedule, selected, type, changeSchedule }) => {
   return (
     <div className="page">
       <h1>Aikataulu</h1>
-      <ScheduleNav />
-      {match && match.params && match.params.scheduleName ? (
+      <ScheduleNav
+        selected={selected}
+        schedule={schedule}
+        changeSchedule={changeSchedule}
+      />
+      {selected !== "" ? (
         <SingleSchedule
           start={"14:00"}
           end={"20:00"}
-          scheduleData={scheduleData[match.params.scheduleName]}
-          type={match.params.scheduleName}
+          scheduleData={schedule}
+          selected={selected}
+          type={type}
         />
       ) : (
         <div>No match</div>
@@ -46,4 +66,26 @@ export const SchedulePage = ({ match }) => {
   );
 };
 
-export const RoutedSchedulePage = withRouter(SchedulePage);
+SchedulePage.propTypes = {
+  schedule: PropTypes.any.isRequired,
+  selected: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired,
+  changeSchedule: PropTypes.func.isRequired
+};
+
+const mapStateToProps = state => {
+  return {
+    schedule: state.schedule.schedule,
+    selected: state.schedule.selectedSchedule,
+    type: state.schedule.type
+  };
+};
+
+const mapDispatchToProps = {
+  changeSchedule
+};
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(SchedulePage);

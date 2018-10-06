@@ -1,7 +1,7 @@
 import React from "react";
-import "./TimeSlot.scss";
 import { defaultStyles } from "../../styles/defaultStyles";
 import { colors } from "../../colors/colors";
+import PropTypes from "prop-types";
 import { View, TouchableHighlight, Text } from "react-native-web";
 
 const getDurationInHours = function(start, end) {
@@ -20,9 +20,7 @@ const getDurationInHours = function(start, end) {
 
   const endMillis = new Date(0, 0, 0, endTime.hours, endTime.minutes);
   const startMillis = new Date(0, 0, 0, startTime.hours, startTime.minutes);
-  return (
-    (endMillis - startMillis) / (1000 * 60)
-  );
+  return (endMillis - startMillis) / (1000 * 60);
 };
 
 export const TimeSlot = ({ content }) => {
@@ -52,6 +50,10 @@ export const TimeSlot = ({ content }) => {
       </TouchableHighlight>
     </View>
   );
+};
+
+TimeSlot.propTypes = {
+  content: PropTypes.any.required
 };
 
 const styles = {

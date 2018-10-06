@@ -1,6 +1,7 @@
+import PropTypes from "prop-types";
 import React from "react";
 import moment from "moment";
-import PropTypes from "prop-types";
+
 import { TimeSlot } from "./TimeSlot";
 import { colors } from "../../colors/colors";
 import { ScrollView, Text, View } from "react-native-web";

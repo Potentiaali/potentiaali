@@ -740,3 +740,22 @@ iframe {
 .page {
   margin-top: 20px;
 }
+
+.schedule-nav-links {
+  span {
+    display: inline-block;
+    border-bottom: 0;
+    font-weight: normal;
+    margin: 10px 0 0 15px;
+    padding: 0;
+    text-transform: uppercase;
+    &.is-selected {
+      font-weight: bold;
+    }
+    &:focus,
+    &:hover {
+      letter-spacing: 0;
+      cursor: pointer;
+    }
+  }
+}

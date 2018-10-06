@@ -15,7 +15,12 @@
     "sourceType": "module"
   },
   "parser": "babel-eslint",
-  "rules": {
-    "sort-imports": "error"
+  "settings": {
+    "react": {
+      "createClass": "createReactClass",
+      "pragma": "React",
+      "version": "16.4"
+    },
+    "propWrapperFunctions": ["forbidExtraProps"]
   }
 }

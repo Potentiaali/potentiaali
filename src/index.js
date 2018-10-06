@@ -8,9 +8,11 @@ import { applyMiddleware, combineReducers, createStore } from "redux";
 import clockReducer from "./reducers/ClockReducer";
 import thunk from "redux-thunk";
 import { BrowserRouter } from "react-router-dom";
+import ScheduleReducer from "./reducers/ScheduleReducer";
 
 const reducer = combineReducers({
-  clock: clockReducer
+  clock: clockReducer,
+  schedule: ScheduleReducer
 });
 
 const middleware = [thunk];

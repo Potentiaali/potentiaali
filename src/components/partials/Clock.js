@@ -1,20 +1,91 @@
 import React from "react";
 import PropTypes from "prop-types";
+import {
+  resetClock,
+  setClockData,
+  setClockInterval
+} from "./../../reducers/ClockReducer";
+import { connect } from "react-redux";
+import moment from "moment";
+import "moment/locale/fi";
+import "moment/locale/en-gb";
 
-const Clock = props => {
-  return (
-    <p className="clock">
-      {props.daysUntil} päivää {props.hoursUntil} tuntia {props.minutesUntil}{" "}
-      minuuttia {props.secondsUntil} sekuntia
-    </p>
-  );
-};
+class Clock extends React.Component {
+  /**
+   * Initialize clock interval
+   *
+   * @memberof App
+   */
+  componentDidMount() {
+    if (this.props.clockInterval === null) {
+      const interval = setInterval(() => {
+        const eventDay = moment(this.props.eventDate, "DD.MM.YYYY");
+        const today = moment().format("YYYY-MM-DD HH:mm:ss");
+        if (eventDay.isSame(today)) {
+          this.props.resetClock();
+        } else {
+          const remaining = eventDay.diff(today);
+          let seconds = Math.floor(remaining / 1000);
+          let minutes = Math.floor(seconds / 60);
+          seconds = seconds % 60;
+          let hours = Math.floor(minutes / 60);
+          minutes = minutes % 60;
+          const days = Math.floor(hours / 24);
+          hours = hours % 24;
+          this.props.setClockData({
+            daysUntil: days,
+            hoursUntil: hours,
+            minutesUntil: minutes,
+            secondsUntil: seconds
+          });
+        }
+      }, 1000);
+      this.props.setClockInterval(interval);
+    } else {
+      clearInterval(this.props.clockInterval);
+      this.props.setClockInterval(null);
+    }
+  }
+
+  render() {
+    return (
+      <p className="clock">
+        {this.props.daysUntil} päivää {this.props.hoursUntil} tuntia{" "}
+        {this.props.minutesUntil} minuuttia {this.props.secondsUntil} sekuntia
+      </p>
+    );
+  }
+}
 
 Clock.propTypes = {
   daysUntil: PropTypes.number,
   hoursUntil: PropTypes.number,
   minutesUntil: PropTypes.number,
-  secondsUntil: PropTypes.number
+  secondsUntil: PropTypes.number,
+  clockInterval: PropTypes.any,
+  resetClock: PropTypes.func,
+  setClockInterval: PropTypes.func,
+  setClockData: PropTypes.func,
+  eventDate: PropTypes.string
 };
 
-export default Clock;
+const mapStateToProps = state => {
+  return {
+    clockInterval: state.clock.clockInterval,
+    daysUntil: state.clock.daysUntil,
+    hoursUntil: state.clock.hoursUntil,
+    minutesUntil: state.clock.minutesUntil,
+    secondsUntil: state.clock.secondsUntil
+  };
+};
+
+const mapDispatchToProps = {
+  resetClock,
+  setClockData,
+  setClockInterval
+};
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Clock);
