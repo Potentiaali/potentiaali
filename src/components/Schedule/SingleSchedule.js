@@ -7,12 +7,7 @@ import { Schedule } from "./Schedule";
 export const SingleSchedule = ({ scheduleData, start, end, type }) => (
   <View style={styles.container}>
     <StageLabels schedule={scheduleData} />
-    <Schedule
-      schedule={scheduleData}
-      start={start}
-      end={end}
-      type={type}
-    />
+    <Schedule schedule={scheduleData} start={start} end={end} type={type} />
   </View>
 );
 

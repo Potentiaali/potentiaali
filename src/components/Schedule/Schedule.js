@@ -1,8 +1,9 @@
 import React from "react";
 import moment from "moment";
+import PropTypes from "prop-types";
 import { TimeSlot } from "./TimeSlot";
 import { colors } from "../../colors/colors";
-import { View, ScrollView, Text } from "react-native-web";
+import { ScrollView, Text, View } from "react-native-web";
 
 const fillEmptySlots = function(schedule, programStart, programEnd) {
   let filledSchedule = schedule
@@ -49,10 +50,10 @@ const fillEmptySlots = function(schedule, programStart, programEnd) {
 
 const generateHourStrings = function(start, end) {
   const startHour = moment()
-    .hours(start)
+    .hours(start.split(":")[0])
     .minutes(0);
   const endHour = moment()
-    .hours(end)
+    .hours(end.split(":")[0])
     .minutes(0);
   let hours = [];
 
@@ -61,7 +62,6 @@ const generateHourStrings = function(start, end) {
   }
 
   hours.pop();
-
   return hours;
 };
 
@@ -93,6 +93,13 @@ export const Schedule = ({ schedule, start, end, type }) => {
       </ScrollView>
     </View>
   );
+};
+
+Schedule.propTypes = {
+  schedule: PropTypes.any.required,
+  start: PropTypes.string.required,
+  end: PropTypes.string.required,
+  type: PropTypes.string.required
 };
 
 const styles = {
