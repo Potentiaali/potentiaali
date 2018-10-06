@@ -1,7 +1,8 @@
 import React from "react";
-import "./Schedule.scss";
 import moment from "moment";
 import { TimeSlot } from "./TimeSlot";
+import { colors } from "./colors";
+import { View, ScrollView, Text, Image } from "react-native-web";
 
 const fillEmptySlots = function(schedule, programStart, programEnd) {
   let filledSchedule = schedule
@@ -66,30 +67,65 @@ const generateHourStrings = function(start, end) {
 
 export const Schedule = ({ schedule, start, end, type }) => {
   return (
-    <div className="schedule">
-      <div className="backgroundImageContainer">
-        <img src="../../crowd.jpg" />
-      </div>
-      <div style={{ flex: 1 }}>
-        <div className="timelineContainer">
-          {generateHourStrings(start, end).map(hour => (
-            <div style={{ flex: 1 }} key={hour}>
-              {hour}
-            </div>
-          ))}
-        </div>
-        {// loops stage schedules
-        Object.keys(schedule).map(key => {
-          const stage = schedule[key];
-          return (
-            <div className="scheduleRow" key={stage.name}>
-              {fillEmptySlots(stage.schedule, start, end).map(slot => {
-                return <TimeSlot content={slot} key={slot.start} type={type} />;
-              })}
-            </div>
-          );
-        })}
-      </div>
-    </div>
+    <View style={styles.container}>
+      <View style={styles.backgroundImageContainer}>
+        <Image style={styles.image} source={"crowd.jpg"} />
+      </View>
+
+      <ScrollView horizontal bounces={false}>
+        <View style={{ flex: 1 }}>
+          <View style={styles.timelineContainer}>
+            {generateHourStrings(start, end).map(hour => (
+              <View style={{ flex: 1 }} key={hour}>
+                <Text>{hour}</Text>
+              </View>
+            ))}
+          </View>
+          {// loops stage schedules
+          Object.keys(schedule).map(key => {
+            const stage = schedule[key];
+            return (
+              <View style={styles.scheduleRow} key={stage.name}>
+                {fillEmptySlots(stage.schedule, start, end).map(slot => {
+                  return (
+                    <TimeSlot content={slot} key={slot.start} type={type} />
+                  );
+                })}
+              </View>
+            );
+          })}
+        </View>
+      </ScrollView>
+    </View>
   );
+};
+
+const styles = {
+  container: {
+    flex: 5
+  },
+  backgroundImageContainer: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    width: "100%",
+    height: "100%"
+  },
+  image: {
+    resizeMode: "cover",
+    flex: 1
+  },
+  scheduleRow: {
+    flex: 4,
+    flexDirection: "row"
+  },
+  timelineContainer: {
+    flex: 1,
+    backgroundColor: "#ffffff",
+    flexDirection: "row",
+    alignItems: "center",
+    borderColor: colors.orange,
+    borderWidth: 1,
+    borderTopWidth: 0
+  }
 };

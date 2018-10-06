@@ -1,6 +1,8 @@
 import React from "react";
 import "./TimeSlot.scss";
-import "./DefaultStyles.scss";
+import { defaultStyles } from "./defaultStyles";
+import { colors } from "./colors";
+import { View, TouchableHighlight, Text } from "react-native-web";
 
 const getDurationInHours = function(start, end) {
   const startTime = {
@@ -30,27 +32,39 @@ export const TimeSlot = ({ content }) => {
     backgroundColor: content.name === "" ? "transparent" : "white"
   };
 
-  const containerStyle = {
+  return (
+    <View style={{ flex: 1 }}>
+      <TouchableHighlight
+        activeOpacity={1}
+        underlayColor={"#ffffff"}
+        style={[styles.container, conditionalStyles]}
+      >
+        {content.name === "" ? (
+          <View />
+        ) : (
+          <View>
+            <Text style={[defaultStyles.title3, styles.title]}>
+              {content.name.toUpperCase()}
+            </Text>
+            <Text style={defaultStyles.text}>{content.description}</Text>
+          </View>
+        )}
+      </TouchableHighlight>
+    </View>
+  );
+};
+
+const styles = {
+  title: {
+    textAlign: "left",
+    fontSize: 17
+  },
+  container: {
     flex: 1,
     padding: 10,
+    backgroundColor: "white",
     overflow: "hidden",
-    border: "2px solid orange",
+    borderColor: colors.orange,
     margin: 0
-  };
-
-  return (
-    <div
-      className="timeslot-container"
-      style={[containerStyle, conditionalStyles]}
-    >
-      {content.name === "" ? (
-        <div />
-      ) : (
-        <div>
-          <span className="title title3">{content.name.toUpperCase()}</span>
-          <span className="text">{content.description}</span>
-        </div>
-      )}
-    </div>
-  );
+  }
 };

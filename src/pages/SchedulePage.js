@@ -1,6 +1,6 @@
 import React from "react";
-import scheduleData from "./scheduleData";
-import { Schedule } from "./../components/Schedule";
+import scheduleData from "../components/scheduleData";
+import { SingleSchedule } from "../components/SingleSchedule";
 import { Link } from "react-router-dom";
 import { withRouter } from "react-router";
 
@@ -33,10 +33,11 @@ export const SchedulePage = ({ match }) => {
       <h1>Aikataulu</h1>
       <ScheduleNav />
       {match && match.params && match.params.scheduleName ? (
-        <Schedule
-          start={"14"}
-          end={"20"}
+        <SingleSchedule
+          start={"14:00"}
+          end={"20:00"}
           schedule={scheduleData[match.params.scheduleName]}
+          type={match.params.scheduleName}
         />
       ) : (
         <div>No match</div>

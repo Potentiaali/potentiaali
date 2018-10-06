@@ -3,6 +3,7 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import { Accordion } from "../components/Accordion";
 import { Schedule } from "../components/Schedule";
+import { SingleSchedule } from "../components/SingleSchedule";
 import scheduleData from "../components/scheduleData";
 
 storiesOf("Accordion", module)
@@ -17,5 +18,13 @@ storiesOf("Accordion", module)
     </React.Fragment>
   ));
 storiesOf("Schedule", module).add("Schedule, with data", () => (
-  <Schedule start={14} end={20} schedule={scheduleData} />
+  <Schedule start={"14"} end={"20"} schedule={scheduleData["workshops"]} />
+));
+storiesOf("SingleSchedule", module).add("SingleSchedule, with data", () => (
+  <SingleSchedule
+    start={"14:00"}
+    end={"20:00"}
+    scheduleData={scheduleData["workshops"]}
+    type={"workshops"}
+  />
 ));
