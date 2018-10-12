@@ -53,7 +53,7 @@ export const SchedulePage = ({ schedule, selected, type, changeSchedule }) => {
       />
       {selected !== "" ? (
         <SingleSchedule
-          start={"14:00"}
+          start={"11:00"}
           end={"20:00"}
           scheduleData={schedule}
           selected={selected}

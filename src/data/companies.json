@@ -141,5 +141,15 @@
     "alt": "Streamr",
     "imgSrc": "companies/streamr.png",
     "websiteUrl": ""
+  },
+  {
+    "alt": "Nokia",
+    "imgSrc": "companies/nokia.png",
+    "websiteUrl": ""
+  },
+  {
+    "alt": "Bluefors",
+    "imgSrc": "companies/bluefors.png",
+    "websiteUrl": ""
   }
 ]

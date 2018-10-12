@@ -3,7 +3,7 @@ import scheduleData from "../data/scheduleData";
 const initialState = {
   schedule: scheduleData,
   selectedSchedule: "workshops",
-  start: "14:00",
+  start: "11:00",
   end: "20:00",
   type: "workshops"
 };

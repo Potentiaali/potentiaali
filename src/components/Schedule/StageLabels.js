@@ -34,7 +34,7 @@ StageLabels.propTypes = {
 const styles = {
   container: {
     flex: 1,
-    marginBottom: 15
+    marginBottom: 16
   },
   stageLabel: {
     flex: 4,
