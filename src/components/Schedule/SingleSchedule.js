@@ -3,7 +3,6 @@ import { View } from "react-native-web";
 
 import { StageLabels } from "./StageLabels";
 import { Schedule } from "./Schedule";
-import PropTypes from "prop-types";
 
 export const SingleSchedule = ({
   scheduleData,
@@ -22,14 +21,6 @@ export const SingleSchedule = ({
     />
   </View>
 );
-
-SingleSchedule.propTypes = {
-  scheduleData: PropTypes.any,
-  selected: PropTypes.string,
-  start: PropTypes.string,
-  end: PropTypes.string,
-  type: PropTypes.string
-};
 
 const styles = {
   container: {

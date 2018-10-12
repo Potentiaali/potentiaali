@@ -3,6 +3,7 @@ import { defaultStyles } from "../../styles/defaultStyles";
 import { colors } from "../../colors/colors";
 import PropTypes from "prop-types";
 import { View, TouchableHighlight, Text } from "react-native-web";
+import Textfit from "react-textfit";
 
 const getDurationInHours = function(start, end) {
   const startTime = {
@@ -40,11 +41,15 @@ export const TimeSlot = ({ content }) => {
         {content.name === "" ? (
           <View />
         ) : (
-          <View className="timeSlot">
+          <View style={styles.timeSlot}>
             <Text style={[defaultStyles.title3, styles.title]}>
-              {content.name.toUpperCase()}
+              <Textfit mode="single" max={20}>
+                {content.name.toUpperCase()}
+              </Textfit>
             </Text>
-            <Text style={defaultStyles.text}>{content.description}</Text>
+            <Text style={[defaultStyles.text, styles.text]}>
+              {content.description}
+            </Text>
           </View>
         )}
       </TouchableHighlight>
@@ -58,12 +63,25 @@ TimeSlot.propTypes = {
 
 const styles = {
   title: {
-    textAlign: "left",
-    fontSize: 17
+    width: "100%",
+    margin: 0,
+    fontSize: 17,
+    fontWeight: "bold",
+    lineHeight: 30,
+    height: 30,
+    padding: 10
+  },
+  text: {
+    width: "100%",
+    height: 60,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontSize: "10pt"
   },
   container: {
     flex: 1,
-    padding: 10,
+    padding: 0,
     backgroundColor: "white",
     overflow: "hidden",
     borderColor: colors.orange,

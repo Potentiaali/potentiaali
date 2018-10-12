@@ -1,4 +1,4 @@
-import scheduleData from "../data/scheduleData";
+const scheduleData = require("../data/schedule.json");
 
 const initialState = {
   schedule: scheduleData,
@@ -7,6 +7,8 @@ const initialState = {
   end: "20:00",
   type: "workshops"
 };
+
+console.log(scheduleData);
 
 const ScheduleTypes = {
   CHANGE_SCHEDULE: "CHANGE_SCHEDULE"

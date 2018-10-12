@@ -2,7 +2,6 @@ import React from "react";
 import { View, Text } from "react-native-web";
 import { colors } from "../../colors/colors";
 import { defaultStyles } from "../../styles/defaultStyles";
-import PropTypes from "prop-types";
 
 export const StageLabels = ({ schedule }) => (
   <View style={styles.container}>
@@ -27,10 +26,6 @@ export const StageLabels = ({ schedule }) => (
   </View>
 );
 
-StageLabels.propTypes = {
-  schedule: PropTypes.any.required
-}
-
 const styles = {
   container: {
     flex: 1,
@@ -43,12 +38,14 @@ const styles = {
     borderBottomWidth: 1,
     borderTopWidth: 1,
     borderColor: "white",
-    backgroundColor: colors.orange
+    backgroundColor: colors.orange,
+    minHeight: 80
   },
   stageLabelText: {
     textAlign: "center"
   },
   timeLabel: {
+    minHeight: 25,
     flex: 1,
     justifyContent: "center",
     alignItems: "center",

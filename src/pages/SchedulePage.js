@@ -1,7 +1,6 @@
 import React from "react";
 import { SingleSchedule } from "../components/Schedule/SingleSchedule";
 import { connect } from "react-redux";
-import PropTypes from "prop-types";
 import classnames from "classnames";
 import { changeSchedule } from "../reducers/ScheduleReducer";
 
@@ -36,12 +35,6 @@ const ScheduleNav = ({ selected, schedule, changeSchedule }) => (
   </div>
 );
 
-ScheduleNav.propTypes = {
-  selected: PropTypes.string.isRequired,
-  schedule: PropTypes.any.isRequired,
-  changeSchedule: PropTypes.func.isRequired
-};
-
 export const SchedulePage = ({ schedule, selected, type, changeSchedule }) => {
   return (
     <div className="page">
@@ -64,13 +57,6 @@ export const SchedulePage = ({ schedule, selected, type, changeSchedule }) => {
       )}
     </div>
   );
-};
-
-SchedulePage.propTypes = {
-  schedule: PropTypes.any.isRequired,
-  selected: PropTypes.string.isRequired,
-  type: PropTypes.string.isRequired,
-  changeSchedule: PropTypes.func.isRequired
 };
 
 const mapStateToProps = state => {

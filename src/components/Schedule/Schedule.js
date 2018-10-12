@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import React from "react";
 import moment from "moment";
 
@@ -28,6 +27,14 @@ const fillEmptySlots = function(schedule, programStart, programEnd) {
 
       return newSchedule;
     }, []);
+
+  if (filledSchedule.length === 0) {
+    filledSchedule.unshift({
+      start: programStart,
+      end: programEnd,
+      name: ""
+    });
+  }
 
   // if no slot starting at programs starting time, add on with empty name
   if (filledSchedule[0].start > programStart) {
@@ -96,13 +103,6 @@ export const Schedule = ({ schedule, start, end, type }) => {
   );
 };
 
-Schedule.propTypes = {
-  schedule: PropTypes.any.required,
-  start: PropTypes.string.required,
-  end: PropTypes.string.required,
-  type: PropTypes.string.required
-};
-
 const styles = {
   container: {
     flex: 5,
@@ -131,6 +131,7 @@ const styles = {
     borderColor: colors.orange,
     borderWidth: 1,
     borderTopWidth: 0,
-    borderLeftWidth: 0
+    borderLeftWidth: 0,
+    minHeight: 25
   }
 };
