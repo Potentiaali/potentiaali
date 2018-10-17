@@ -1,3 +1,0 @@
-# Aikataulu
-
-Aikataulu tulossa pian!

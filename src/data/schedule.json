@@ -1,0 +1,140 @@
+{
+  "workshops": {
+    "stage1": {
+      "name": "Exa B120",
+      "schedule": [
+        {
+          "start": "12.00",
+          "end": "19.00",
+          "name": "Aikataulu tulossa pian",
+          "description": "Aikataulu tulossa pian!"
+        }
+      ]
+    },
+    "stage2": {
+      "name": "Exa D112",
+      "schedule": [
+        {
+          "start": "12.00",
+          "end": "19.00",
+          "name": "Aikataulu tulossa pian",
+          "description": "Aikataulu tulossa pian!"
+        }
+      ]
+    },
+    "stage3": {
+      "name": "Exa D123",
+      "schedule": [
+        {
+          "start": "12.00",
+          "end": "19.00",
+          "name": "Aikataulu tulossa pian",
+          "description": "Aikataulu tulossa pian!"
+        }
+      ]
+    },
+    "stage4": {
+      "name": "Phy D104",
+      "schedule": [
+        {
+          "start": "12.00",
+          "end": "19.00",
+          "name": "Aikataulu tulossa pian",
+          "description": "Aikataulu tulossa pian!"
+        }
+      ]
+    },
+    "stage5": {
+      "name": "Phy E205",
+      "schedule": [
+        {
+          "start": "12.00",
+          "end": "19.00",
+          "name": "Aikataulu tulossa pian",
+          "description": "Aikataulu tulossa pian!"
+        }
+      ]
+    }
+  },
+  "lectures": {
+    "stage1": {
+      "name": "Phy D101",
+      "schedule": [
+        {
+          "start": "12.00",
+          "end": "19.00",
+          "name": "Aikataulu tulossa pian",
+          "description": "Aikataulu tulossa pian!"
+        }
+      ]
+    },
+    "stage2": {
+      "name": "Exa CK112",
+      "schedule": [
+        {
+          "start": "12.00",
+          "end": "19.00",
+          "name": "Aikataulu tulossa pian",
+          "description": "Aikataulu tulossa pian!"
+        }
+      ]
+    },
+    "stage3": {
+      "name": "Exa B123",
+      "schedule": [
+        {
+          "start": "12.00",
+          "end": "19.00",
+          "name": "Aikataulu tulossa pian",
+          "description": "Aikataulu tulossa pian!"
+        }
+      ]
+    },
+    "stage4": {
+      "name": "Exa A111",
+      "schedule": [
+        {
+          "start": "12.00",
+          "end": "19.00",
+          "name": "Aikataulu tulossa pian",
+          "description": "Aikataulu tulossa pian!"
+        }
+      ]
+    }
+  },
+  "speedDating": {
+    "stage1": {
+      "name": "Phy D104",
+      "schedule": [
+        {
+          "start": "12.00",
+          "end": "19.00",
+          "name": "Aikataulu tulossa pian",
+          "description": "Aikataulu tulossa pian!"
+        }
+      ]
+    },
+    "stage2": {
+      "name": "Phy D105",
+      "schedule": [
+        {
+          "start": "12.00",
+          "end": "19.00",
+          "name": "Aikataulu tulossa pian",
+          "description": "Aikataulu tulossa pian!"
+        }
+      ]
+    },
+    "stage3": {
+      "name": "Phy D106",
+      "schedule": [
+        {
+          "start": "12.00",
+          "end": "19.00",
+          "name": "Aikataulu tulossa pian",
+          "description": "Aikataulu tulossa pian!"
+        }
+      ]
+    }
+  }
+}

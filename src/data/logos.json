@@ -1,52 +1,52 @@
 [
   {
-    "src": "logos/matlu.png",
+    "src": "/logos/matlu.png",
     "alt": "Matlu ry"
   },
   {
-    "src": "logos/thinkcompany.png",
+    "src": "/logos/thinkcompany.png",
     "alt": "Helsinki Think Company"
   },
   {
-    "src": "logos/geysir_logo_pieni.png",
+    "src": "/logos/geysir_logo_pieni.png",
     "alt": "Geysir"
   },
   {
-    "src": "logos/mao.png",
+    "src": "/logos/mao.png",
     "alt": "MAO"
   },
   {
-    "src": "logos/Matrix_logo.png",
+    "src": "/logos/Matrix_logo.png",
     "alt": "Matrix"
   },
   {
-    "src": "logos/moodi.png",
+    "src": "/logos/moodi.png",
     "alt": "Moodi"
   },
   {
-    "src": "logos/HYK.png",
+    "src": "/logos/HYK.png",
     "alt": "HYK"
   },
 
   {
-    "src": "logos/meridiaani.png",
+    "src": "/logos/meridiaani.png",
     "alt": "Meridiaani"
   },
 
   {
-    "src": "logos/resonanssi.png",
+    "src": "/logos/resonanssi.png",
     "alt": "Resonanssi"
   },
   {
-    "src": "logos/synop.png",
+    "src": "/logos/synop.png",
     "alt": "Synop"
   },
   {
-    "src": "logos/tko-aly.png",
+    "src": "/logos/tko-aly.png",
     "alt": "TKO-äly"
   },
   {
-    "src": "logos/vasara.gif",
+    "src": "/logos/vasara.gif",
     "alt": "Vasara"
   }
 ]

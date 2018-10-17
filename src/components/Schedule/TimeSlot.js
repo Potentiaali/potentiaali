@@ -1,0 +1,90 @@
+import React from "react";
+import { defaultStyles } from "../../styles/defaultStyles";
+import { colors } from "../../colors/colors";
+import PropTypes from "prop-types";
+import { View, TouchableHighlight, Text } from "react-native-web";
+import Textfit from "react-textfit";
+
+const getDurationInHours = function(start, end) {
+  const startTime = {
+    hours: parseInt(start.split(".")[0]),
+    minutes: isNaN(parseInt(start.split(".")[1]))
+      ? 0
+      : parseInt(start.split(".")[1])
+  };
+  const endTime = {
+    hours: parseInt(end.split(".")[0]),
+    minutes: isNaN(parseInt(end.split(".")[1]))
+      ? 0
+      : parseInt(end.split(".")[1])
+  };
+
+  const endMillis = new Date(0, 0, 0, endTime.hours, endTime.minutes);
+  const startMillis = new Date(0, 0, 0, startTime.hours, startTime.minutes);
+  return (endMillis - startMillis) / (1000 * 60);
+};
+
+export const TimeSlot = ({ content }) => {
+  const conditionalStyles = {
+    width: getDurationInHours(content.start, content.end) * 6,
+    borderWidth: content.name === "" ? 0 : 1,
+    backgroundColor: content.name === "" ? "transparent" : "white"
+  };
+
+  return (
+    <View style={{ flex: 1 }}>
+      <TouchableHighlight
+        activeOpacity={1}
+        underlayColor={"#ffffff"}
+        style={[styles.container, conditionalStyles]}
+      >
+        {content.name === "" ? (
+          <View />
+        ) : (
+          <View style={styles.timeSlot}>
+            <Text style={[defaultStyles.title3, styles.title]}>
+              <Textfit mode="single" max={20}>
+                {content.name.toUpperCase()}
+              </Textfit>
+            </Text>
+            <Text style={[defaultStyles.text, styles.text]}>
+              {content.description}
+            </Text>
+          </View>
+        )}
+      </TouchableHighlight>
+    </View>
+  );
+};
+
+TimeSlot.propTypes = {
+  content: PropTypes.any.required
+};
+
+const styles = {
+  title: {
+    width: "100%",
+    margin: 0,
+    fontSize: 17,
+    fontWeight: "bold",
+    lineHeight: 30,
+    height: 30,
+    padding: 10
+  },
+  text: {
+    width: "100%",
+    height: 60,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontSize: "10pt"
+  },
+  container: {
+    flex: 1,
+    padding: 0,
+    backgroundColor: "white",
+    overflow: "hidden",
+    borderColor: colors.orange,
+    margin: 0
+  }
+};

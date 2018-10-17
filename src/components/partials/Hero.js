@@ -1,11 +1,11 @@
 import React from "react";
 import moment from "moment";
 import Clock from "./Clock";
-import PropTypes from "prop-types";
+import config from "../../data/config.json";
 
-const reviews = require("./../data/reviews.json");
+const reviews = require("../../data/reviews.json");
 
-export const Hero = props => {
+export const Hero = () => {
   return (
     <section className="hero">
       <video poster="juku.png" muted loop autoPlay preload="true">
@@ -23,7 +23,7 @@ export const Hero = props => {
         <p>
           Työelämä- ja rekrytointitapahtuma Kumpulan kampuksella{" "}
           <b>
-            {moment(props.eventDate, "DD.MM.YYYY")
+            {moment(config.eventDate, "DD.MM.YYYY")
               .locale("fi")
               .format("LL")}
           </b>
@@ -38,22 +38,9 @@ export const Hero = props => {
             </React.Fragment>
           ))}
         </p>
-        <Clock
-          daysUntil={props.daysUntil}
-          hoursUntil={props.hoursUntil}
-          minutesUntil={props.minutesUntil}
-          secondsUntil={props.secondsUntil}
-        />
+        <Clock eventDate={config.eventDate} />
       </div>
       <div className="languages" />
     </section>
   );
-};
-
-Hero.propTypes = {
-  daysUntil: PropTypes.number.isRequired,
-  hoursUntil: PropTypes.number.isRequired,
-  minutesUntil: PropTypes.number.isRequired,
-  secondsUntil: PropTypes.number.isRequired,
-  eventDate: PropTypes.string.isRequired
 };

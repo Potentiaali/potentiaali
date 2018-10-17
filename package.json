@@ -2,19 +2,23 @@
   "name": "potentiaali-app",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://potentiaali.com",
+  "homepage": "https://potentiaali.com",
   "dependencies": {
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
     "moment": "^2.22.2",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
+    "react-art": "^16.5.2",
     "react-dom": "^16.4.1",
+    "react-fittext": "^1.0.0",
     "react-markdown": "^3.4.1",
+    "react-native-web": "^0.9.1",
     "react-redux": "^5.0.7",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.0.3",
+    "react-textfit": "^1.1.0",
     "redux": "^4.0.0",
     "redux-thunk": "^2.3.0"
   },
@@ -24,7 +28,8 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "fix-js": "eslint --fix src/**/*.js"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.4.11",
@@ -32,6 +37,7 @@
     "@storybook/addons": "^3.4.11",
     "@storybook/react": "^3.4.11",
     "babel-core": "^6.26.3",
+    "babel-eslint": "9.0.0",
     "babel-runtime": "^6.26.0",
     "css-loader": "^1.0.0",
     "eslint": "5.6.0",
