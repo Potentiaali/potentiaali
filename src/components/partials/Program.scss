@@ -1,0 +1,31 @@
+$min-width-browser: 600px;
+$max-width-browser: 800px;
+
+.program {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: $max-width-browser) {
+  .program {
+    img {
+      margin: 20px;
+      width: 90%;
+      box-sizing: border-box;
+    }
+  }
+}
+
+@media only screen and (min-width: $min-width-browser) {
+  .program {
+    img {
+      margin: 20px;
+      width: 25%;
+      max-width: 300px;
+      box-sizing: border-box;
+    }
+  }
+}

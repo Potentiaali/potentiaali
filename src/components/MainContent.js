@@ -1,12 +1,13 @@
 import React from "react";
 import Companies from "./../components/partials/Companies";
+import { Program } from "./../components/partials/Program";
 
 const MainContent = () => {
   return (
     <section className="">
       <div className="container">
         <h2>
-          Kumpulan Potentiaali vuodelle 2018 on pian  <br /> täynnä!
+          Kumpulan Potentiaali vuodelle 2018 on pian <br /> täynnä!
         </h2>
         <br />
         <p>
@@ -25,9 +26,14 @@ const MainContent = () => {
           annin olevan erinomainen hintaan nähden.
         </p>
         <br />
+        <br />
+        <Program />
+        <br />
+        <br />
         <p>
           {" "}
-          Viimeiset hetket tuoda yrityksenne mukaan tapahtumaan ovat nyt käsillä!
+          Viimeiset hetket tuoda yrityksenne mukaan tapahtumaan ovat nyt
+          käsillä!
         </p>
         <Companies />
         <br />
@@ -56,7 +62,8 @@ const MainContent = () => {
           </li>
           <li>
             Liput kolmelle hengelle (lisähenkilö 50€/kpl), jotka sisältävät
-            aamupalan ja lounaan, sekä pääsytn Cocktail-tilaisuuteen ja jatkoille.
+            aamupalan ja lounaan, sekä pääsytn Cocktail-tilaisuuteen ja
+            jatkoille.
           </li>
         </ul>
         <br />
@@ -64,7 +71,7 @@ const MainContent = () => {
           Tarjolla on myös neljä suurempaa ständipaikkaa, jotka on sijoiteltu
           sisäänkäyntien lähettyville. Tällainen paikka kustantaa 2000 euroa, ja
           ne myydään ilmoittautumisjärjestyksessä. Ständipaikoista on luotu
-          ohjeistava kartta, joka on ilmoittautumislomakkeessa. 
+          ohjeistava kartta, joka on ilmoittautumislomakkeessa.
           <br />
           <b>Ajankohtaista:</b> Suuremmat ständipaikat ovat loppuunvarattu.
         </p>
@@ -78,9 +85,9 @@ const MainContent = () => {
           välillä Workshopin tai Keynoten sisältöjen perusteella. Alustava
           kiinnostus pitää jompaa kumpaa ilmoitetaan ilmoittautumislomakkeella.
           <br />
-          <b>Ajankohtaista:</b> Ilmoittautuneilta yrityksiltä kerätään parhaillaan kuvauksia 
-            Workshopien tai Keynote-luentojen sisällöistä. 
-            Tapahtuman sisällöt valitaan 7.10. alkavalla viikolla.
+          <b>Ajankohtaista:</b> Ilmoittautuneilta yrityksiltä kerätään
+          parhaillaan kuvauksia Workshopien tai Keynote-luentojen sisällöistä.
+          Tapahtuman sisällöt valitaan 7.10. alkavalla viikolla.
         </p>
         <br />
         <br />
