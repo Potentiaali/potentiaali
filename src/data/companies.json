@@ -90,7 +90,7 @@
     "imgSrc": "companies/Cinia_Logo_2014_RGB.png",
     "websiteUrl": ""
   },
-  { "alt": "Vincit", "imgSrc": "companies/vincit2.png", "websiteUrl": "" },
+  { "alt": "Vincit", "imgSrc": "companies/vincit_new.jpg", "websiteUrl": "" },
   { "alt": "Kesko Oyj", "imgSrc": "companies/kesko.png", "websiteUrl": "" },
   {
     "alt": "CSC - Tieteen tietotekniikan keskus Oy",
@@ -150,6 +150,11 @@
   {
     "alt": "Bluefors",
     "imgSrc": "companies/bluefors.png",
+    "websiteUrl": ""
+  },
+  {
+    "alt": "Orion",
+    "imgSrc": "companies/Orion_RGB.jpg",
     "websiteUrl": ""
   }
 ]
