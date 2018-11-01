@@ -8,8 +8,6 @@ const initialState = {
   type: "workshops"
 };
 
-console.log(scheduleData);
-
 const ScheduleTypes = {
   CHANGE_SCHEDULE: "CHANGE_SCHEDULE"
 };
