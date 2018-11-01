@@ -1,103 +1,80 @@
 {
   "workshops": {
     "stage1": {
-      "name": "Exa B120",
+      "name": "Exactum B121",
       "schedule": [
         {
           "start": "12.00",
-          "end": "19.00",
-          "name": "Aikataulu tulossa pian",
-          "description": "Aikataulu tulossa pian!"
-        }
-      ]
-    },
-    "stage2": {
-      "name": "Exa D112",
-      "schedule": [
+          "end": "13.00",
+          "name": "Working in Finland as an International Student",
+          "description": "All the basic things you need to know about working in Finland as an International Student"
+        },
         {
-          "start": "12.00",
-          "end": "19.00",
-          "name": "Aikataulu tulossa pian",
-          "description": "Aikataulu tulossa pian!"
-        }
-      ]
-    },
-    "stage3": {
-      "name": "Exa D123",
-      "schedule": [
+          "start": "13.00",
+          "end": "14.00",
+          "name": "Coach Cafe - HY Alumnit",
+          "description": ""
+        },
         {
-          "start": "12.00",
-          "end": "19.00",
-          "name": "Aikataulu tulossa pian",
-          "description": "Aikataulu tulossa pian!"
-        }
-      ]
-    },
-    "stage4": {
-      "name": "Phy D104",
-      "schedule": [
+          "start": "14.00",
+          "end": "15.00",
+          "name": "Columbia Road",
+          "description": ""
+        },
         {
-          "start": "12.00",
-          "end": "19.00",
-          "name": "Aikataulu tulossa pian",
-          "description": "Aikataulu tulossa pian!"
-        }
-      ]
-    },
-    "stage5": {
-      "name": "Phy E205",
-      "schedule": [
-        {
-          "start": "12.00",
-          "end": "19.00",
-          "name": "Aikataulu tulossa pian",
-          "description": "Aikataulu tulossa pian!"
+          "start": "15.00",
+          "end": "16.00",
+          "name": "IBM",
+          "description": ""
         }
       ]
     }
   },
   "lectures": {
     "stage1": {
-      "name": "Phy D101",
+      "name": "Exactum B123",
       "schedule": [
         {
           "start": "12.00",
-          "end": "19.00",
-          "name": "Aikataulu tulossa pian",
-          "description": "Aikataulu tulossa pian!"
-        }
-      ]
-    },
-    "stage2": {
-      "name": "Exa CK112",
-      "schedule": [
+          "end": "12.30",
+          "name": "TEK & Loimu",
+          "description": ""
+        },
         {
-          "start": "12.00",
-          "end": "19.00",
-          "name": "Aikataulu tulossa pian",
-          "description": "Aikataulu tulossa pian!"
-        }
-      ]
-    },
-    "stage3": {
-      "name": "Exa B123",
-      "schedule": [
+          "start": "12.30",
+          "end": "13.00",
+          "name": "Foreca",
+          "description": ""
+        },
         {
-          "start": "12.00",
-          "end": "19.00",
-          "name": "Aikataulu tulossa pian",
-          "description": "Aikataulu tulossa pian!"
-        }
-      ]
-    },
-    "stage4": {
-      "name": "Exa A111",
-      "schedule": [
+          "start": "13.00",
+          "end": "13.30",
+          "name": "CSC",
+          "description": ""
+        },
         {
-          "start": "12.00",
-          "end": "19.00",
-          "name": "Aikataulu tulossa pian",
-          "description": "Aikataulu tulossa pian!"
+          "start": "14.00",
+          "end": "14.30",
+          "name": "OP",
+          "description": ""
+        },
+        {
+          "start": "14.30",
+          "end": "15.00",
+          "name": "Webscale",
+          "description": ""
+        },
+        {
+          "start": "15.00",
+          "end": "15.30",
+          "name": "Perfektio",
+          "description": ""
+        },
+        {
+          "start": "16.00",
+          "end": "16.30",
+          "name": "Kesko Oyj",
+          "description": ""
         }
       ]
     }
@@ -108,9 +85,21 @@
       "schedule": [
         {
           "start": "12.00",
-          "end": "19.00",
-          "name": "Aikataulu tulossa pian",
-          "description": "Aikataulu tulossa pian!"
+          "end": "13.30",
+          "name": "Rekry speed date 1",
+          "description": "Bisnode Finland, Sogeti Finland, Orion Oy, Kesko Oyj, Maanmittauslaitos"
+        },
+        {
+          "start": "13.45",
+          "end": "15.15",
+          "name": "Rekry speed date 1",
+          "description": "Fortum Oyj, Bluefors Oy, Robu Oy, Terveystalo, Vincit"
+        },
+        {
+          "start": "15.30",
+          "end": "17.15",
+          "name": "Rekry speed date 1",
+          "description": "Siili Solutions Oyj, CGI, Perfektio Oy, Webscale Oy, Taito United Oy, Eatech Oy"
         }
       ]
     },
@@ -119,9 +108,21 @@
       "schedule": [
         {
           "start": "12.00",
-          "end": "19.00",
-          "name": "Aikataulu tulossa pian",
-          "description": "Aikataulu tulossa pian!"
+          "end": "13.30",
+          "name": "Rekry speed date 2",
+          "description": "IBM Finland, Futurice, SAS Institute Oy, Columbia Road, Kraftvaerk"
+        },
+        {
+          "start": "13.45",
+          "end": "15.15",
+          "name": "Rekry speed date 2",
+          "description": "Accenture Oy, Solita Oy, DAIN Studios, Dream Broker, Streamr"
+        },
+        {
+          "start": "15.30",
+          "end": "17.15",
+          "name": "Rekry speed date 2",
+          "description": "Gofore Oyj, CSC - Tieteen tietotekniikan keskus Oy, Elisa, Trimble Solutions Oy, Funidata Oy & Unigrafia Oy, Digital Goodie"
         }
       ]
     },
@@ -130,9 +131,15 @@
       "schedule": [
         {
           "start": "12.00",
-          "end": "19.00",
-          "name": "Aikataulu tulossa pian",
-          "description": "Aikataulu tulossa pian!"
+          "end": "13.30",
+          "name": "Rekry speed date 3",
+          "description": "OP, Nokia, Keskinäinen Eläkevakuutusyhtiö Ilmarinen, Eficode Oy, Codento Oy"
+        },
+        {
+          "start": "13.45",
+          "end": "15.15",
+          "name": "Rekry speed date 3",
+          "description": "Reaktor Innovations Oy, Digia Oyj, Foreca Oy, VALA Group, Devisioona Oy"
         }
       ]
     }
