@@ -87,19 +87,19 @@
           "start": "12.00",
           "end": "13.30",
           "name": "Rekry speed date 1",
-          "description": "Bisnode Finland, Sogeti Finland, Orion Oy, Kesko Oyj, Maanmittauslaitos"
+          "description": "Sogeti Finland, Orion Oy, Kesko Oyj, F-Secure"
         },
         {
           "start": "13.45",
           "end": "15.15",
           "name": "Rekry speed date 1",
-          "description": "Fortum Oyj, Bluefors Oy, Robu Oy, Terveystalo, Vincit"
+          "description": "Digital Goodie, Bluefors Oy, Robu Oy, Terveystalo, Vincit"
         },
         {
           "start": "15.30",
-          "end": "17.15",
+          "end": "17.00",
           "name": "Rekry speed date 1",
-          "description": "Siili Solutions Oyj, CGI, Perfektio Oy, Webscale Oy, Taito United Oy, Eatech Oy"
+          "description": "Siili Solutions Oyj, CGI, Perfektio Oy, Webscale Oy, Taito United Oy"
         }
       ]
     },
@@ -110,7 +110,7 @@
           "start": "12.00",
           "end": "13.30",
           "name": "Rekry speed date 2",
-          "description": "IBM Finland, Futurice, SAS Institute Oy, Columbia Road, Kraftvaerk"
+          "description": "IBM Finland, Futurice, SAS Institute Oy, Columbia Road, Eatech Oy"
         },
         {
           "start": "13.45",
@@ -120,9 +120,9 @@
         },
         {
           "start": "15.30",
-          "end": "17.15",
+          "end": "17.10",
           "name": "Rekry speed date 2",
-          "description": "Gofore Oyj, CSC - Tieteen tietotekniikan keskus Oy, Elisa, Trimble Solutions Oy, Funidata Oy & Unigrafia Oy, Digital Goodie"
+          "description": "Gofore Oyj, CSC - Tieteen tietotekniikan keskus Oy, Elisa, Trimble Solutions Oy, Funidata Oy & Unigrafia Oy"
         }
       ]
     },
