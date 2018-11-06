@@ -2,10 +2,10 @@ const scheduleData = require("../data/schedule.json");
 
 const initialState = {
   schedule: scheduleData,
-  selectedSchedule: "workshops",
+  selectedSchedule: "all",
   start: "11:00",
   end: "20:00",
-  type: "workshops"
+  type: "all"
 };
 
 const ScheduleTypes = {

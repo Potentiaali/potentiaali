@@ -3,9 +3,12 @@ import { SingleSchedule } from "../components/Schedule/SingleSchedule";
 import { connect } from "react-redux";
 import classnames from "classnames";
 import { changeSchedule } from "../reducers/ScheduleReducer";
+const uuidv4 = require("uuid/v4");
 
 const generateLinkText = name => {
   switch (name) {
+    case "all":
+      return "Kaikki";
     case "workshops":
       return "Workshopit";
     case "lectures":
@@ -19,7 +22,7 @@ const generateLinkText = name => {
 
 const ScheduleNav = ({ selected, schedule, changeSchedule }) => (
   <div className="schedule-nav-links">
-    {Object.keys(schedule).map(name => (
+    {["all", ...Object.keys(schedule)].map(name => (
       <span
         className={classnames({ "is-selected": selected === name })}
         onClick={e => {
@@ -36,6 +39,41 @@ const ScheduleNav = ({ selected, schedule, changeSchedule }) => (
 );
 
 export const SchedulePage = ({ schedule, selected, type, changeSchedule }) => {
+  let scheduleComponent = null;
+  let allEvents = {};
+  switch (selected) {
+    case "all":
+      Object.keys(schedule).forEach(single => {
+        Object.keys(schedule[single]).forEach(stage => {
+          const randomKey = uuidv4();
+          allEvents[randomKey] = schedule[single][stage];
+        });
+      });
+      scheduleComponent = (
+        <SingleSchedule
+          start={"12:00"}
+          end={"20:00"}
+          scheduleData={allEvents}
+          selected={selected}
+          type={type}
+        />
+      );
+      break;
+    case "":
+      scheduleComponent = <div>No match</div>;
+      break;
+    default:
+      scheduleComponent = (
+        <SingleSchedule
+          start={"12:00"}
+          end={"20:00"}
+          scheduleData={schedule[selected]}
+          selected={selected}
+          type={type}
+        />
+      );
+      break;
+  }
   return (
     <div className="page">
       <h1>Aikataulu</h1>
@@ -44,17 +82,7 @@ export const SchedulePage = ({ schedule, selected, type, changeSchedule }) => {
         schedule={schedule}
         changeSchedule={changeSchedule}
       />
-      {selected !== "" ? (
-        <SingleSchedule
-          start={"11:00"}
-          end={"20:00"}
-          scheduleData={schedule}
-          selected={selected}
-          type={type}
-        />
-      ) : (
-        <div>No match</div>
-      )}
+      {scheduleComponent}
     </div>
   );
 };

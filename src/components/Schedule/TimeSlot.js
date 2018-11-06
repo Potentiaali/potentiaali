@@ -1,7 +1,6 @@
 import React from "react";
 import { defaultStyles } from "../../styles/defaultStyles";
 import { colors } from "../../colors/colors";
-import PropTypes from "prop-types";
 import { View, TouchableHighlight, Text } from "react-native-web";
 import Textfit from "react-textfit";
 
@@ -21,22 +20,22 @@ const getDurationInHours = function(start, end) {
 
   const endMillis = new Date(0, 0, 0, endTime.hours, endTime.minutes);
   const startMillis = new Date(0, 0, 0, startTime.hours, startTime.minutes);
-  return (endMillis - startMillis) / (1000 * 60);
+  return (endMillis - startMillis) / (3600 * 1000);
 };
+
 
 export const TimeSlot = ({ content }) => {
   const conditionalStyles = {
-    width: getDurationInHours(content.start, content.end) * 6,
+    width: Math.floor(getDurationInHours(content.start, content.end) * 400),
     borderWidth: content.name === "" ? 0 : 1,
     backgroundColor: content.name === "" ? "transparent" : "white"
   };
 
   return (
-    <View style={{ flex: 1 }}>
+    <View style={[styles.container, conditionalStyles]}>
       <TouchableHighlight
         activeOpacity={1}
         underlayColor={"#ffffff"}
-        style={[styles.container, conditionalStyles]}
       >
         {content.name === "" ? (
           <View />
@@ -47,6 +46,9 @@ export const TimeSlot = ({ content }) => {
                 {content.name.toUpperCase()}
               </Textfit>
             </Text>
+            <Text style={styles.text2}>
+              {content.start} - {content.end}
+            </Text>
             <Text style={[defaultStyles.text, styles.text]}>
               {content.description}
             </Text>
@@ -55,10 +57,6 @@ export const TimeSlot = ({ content }) => {
       </TouchableHighlight>
     </View>
   );
-};
-
-TimeSlot.propTypes = {
-  content: PropTypes.any.required
 };
 
 const styles = {
@@ -78,6 +76,14 @@ const styles = {
     alignItems: "center",
     justifyContent: "center",
     fontSize: "10pt"
+  },
+  text2: {
+    width: "100%",
+    height: 30,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontSize: "9pt"
   },
   container: {
     flex: 1,

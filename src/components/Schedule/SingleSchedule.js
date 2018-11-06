@@ -12,9 +12,9 @@ export const SingleSchedule = ({
   type
 }) => (
   <View style={styles.container}>
-    <StageLabels schedule={scheduleData[selected]} />
+    <StageLabels schedule={scheduleData} />
     <Schedule
-      schedule={scheduleData[selected]}
+      schedule={scheduleData}
       start={start}
       end={end}
       type={type}

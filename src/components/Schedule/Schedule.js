@@ -53,6 +53,7 @@ const fillEmptySlots = function(schedule, programStart, programEnd) {
       name: ""
     });
   }
+
   return filledSchedule;
 };
 
@@ -80,7 +81,7 @@ export const Schedule = ({ schedule, start, end, type }) => {
         <View style={{ flex: 1 }}>
           <View style={styles.timelineContainer}>
             {generateHourStrings(start, end).map(hour => (
-              <View style={{ flex: 1 }} key={hour}>
+              <View style={{ flex: 1, width: 200 }} key={hour}>
                 <Text>{hour}</Text>
               </View>
             ))}

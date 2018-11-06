@@ -4,7 +4,7 @@ import { storiesOf } from "@storybook/react";
 import { Accordion } from "../components/Accordion/Accordion";
 import { Schedule } from "../components/Schedule/Schedule";
 import { SingleSchedule } from "../components/Schedule/SingleSchedule";
-import scheduleData from "../data/scheduleData";
+import scheduleData from "../data/schedule";
 
 storiesOf("Accordion", module)
   .add("Single accordion, with text", () => (
