@@ -25,6 +25,7 @@ const getDurationInHours = function(start, end) {
 
 
 export const TimeSlot = ({ content }) => {
+  console.log(content, getDurationInHours(content.start, content.end));
   const conditionalStyles = {
     width: Math.floor(getDurationInHours(content.start, content.end) * 400),
     borderWidth: content.name === "" ? 0 : 1,
@@ -32,10 +33,11 @@ export const TimeSlot = ({ content }) => {
   };
 
   return (
-    <View style={[styles.container, conditionalStyles]}>
+    <View>
       <TouchableHighlight
         activeOpacity={1}
         underlayColor={"#ffffff"}
+        style={[styles.container, conditionalStyles]}
       >
         {content.name === "" ? (
           <View />
