@@ -14,7 +14,9 @@ const Physics = () => (
       />
     </h5>
     <p>
-      Fysiikkaa opiskelevat henkilöt opiskelevat hallitsemaan valtavan skaalan
+      <FormattedMessage
+        id="subjects.physicsIntroduction"
+        defaultMessage="Fysiikkaa opiskelevat henkilöt opiskelevat hallitsemaan valtavan skaalan
       ympäristöön, tekniikkaan ja luontoon liittyviä ongelmia ja niiden
       ratkaisuja. Fyysikot keräävät opintojensa aikana itselleen laajan
       työkalupakin, jota voi soveltaa miltein minkä tahansa ongelman
@@ -24,7 +26,8 @@ const Physics = () => (
       haastavimpiin ongelmiin antaa loistavat edellytykset menestyä niin
       tutkimuksessa, kuin suuressa yrityksessä jopa kaupallisissa ja
       hallinnollisissa tehtävissä. Fyysikko on yleishyödyllinen joka paikan
-      höylä, jota moni yritys ei tajua tarvitsevansa.
+      höylä, jota moni yritys ei tajua tarvitsevansa."
+      />
     </p>
     <h5>
       <FormattedMessage
@@ -32,8 +35,18 @@ const Physics = () => (
         defaultMessage="Tittelit"
       />
     </h5>
-    <Accordion title="Tutkija" noShadow>
-      Luonnollisesti yksi fyysikon koulutuksen antama uravaihtoehto on tutkija.
+    <Accordion
+      title={
+        <FormattedMessage
+          id="subjects.physicsJob1Title"
+          defaultMessage="Tutkija"
+        />
+      }
+      noShadow
+    >
+      <FormattedMessage
+        id="subjects.physicsJob1"
+        defaultMessage="Luonnollisesti yksi fyysikon koulutuksen antama uravaihtoehto on tutkija.
       Tutkijana fyysikko soveltaa taitojaan ratkaisemaan nimenomaan
       luonnontieteen ongelmia. Tutkijat voivat sijoittua myös akatemian ja
       perustutkimuksen ulkopuolelle yksityisiin tutkimuslaitoksiin tai
@@ -45,10 +58,21 @@ const Physics = () => (
       (4. vuosi) on kerennyt jo omaksumaan suurimman osan oman alansa taidoista,
       mutta myös tätä nuoremmilla on perusteet hallussa ja voivat avustaa tai
       tehdä yksinkertaisempaa tutkimusta. Toki vaativa työ voi vaatia jopa
-      tohtorin tutkintoa.
+      tohtorin tutkintoa."
+      />
     </Accordion>
-    <Accordion title="Data-analyytikko" noShadow>
-      Suuri osa fyysikon osaamisesta on datan analysointia. Fyysikot opettelevat
+    <Accordion
+      title={
+        <FormattedMessage
+          id="subjects.physicsJob2Title"
+          defaultMessage="Data-analyytikko"
+        />
+      }
+      noShadow
+    >
+      <FormattedMessage
+        id="subjects.physicsJob2"
+        defaultMessage="Suuri osa fyysikon osaamisesta on datan analysointia. Fyysikot opettelevat
       jo varhaisessa vaiheessa käsittelemään suuria määriä dataa. Fysiikan
       mittauksissa tai simulaatioissa voidaan saada jopa terabittejä dataa, joka
       fyysikon pitää osata käydä läpi ja analysoida tehokkaasti. Standardi
@@ -59,10 +83,21 @@ const Physics = () => (
       työllistynyt muun muassa lentoyhtiöiden, teleoperaattoreiden ja muiden
       isojen firmojen palvelukseen tekemään Big data -analytiikkaa ja data
       miningia. Fyysikolle on normaalia arkea kaivaa tieto esiin datasta,
-      tietämättä varsinaisesti mitä etsitään.
+      tietämättä varsinaisesti mitä etsitään."
+      />
     </Accordion>
-    <Accordion title="Asiantuntija" noShadow>
-      Fyysikon koulutus on erinomainen erilaisiin asiantuntijatehtäviin laajan
+    <Accordion
+      title={
+        <FormattedMessage
+          id="subjects.physicsJob3Title"
+          defaultMessage="Asiantuntija"
+        />
+      }
+      noShadow
+    >
+      <FormattedMessage
+        id="subjects.physicsJob3"
+        defaultMessage="Fyysikon koulutus on erinomainen erilaisiin asiantuntijatehtäviin laajan
       osaamispohjan ansiosta. Lähinnä tiede ja teknologia alan asioissa fyysikot
       osaavat helposti arvioida esimerkiksi jonkin tuotteen tai palvelun laatua
       tai kannattavuutta, ympäristövaikutuksia ja muita kuluja. Fyysikko voi
@@ -72,7 +107,8 @@ const Physics = () => (
       monimutkaisista kokonaisuuksista ja riippuvuussuhteiden havaitseminen sekä
       ymmärtäminen hyvinkin kauas lähtökohdasta. Asiantuntijuus karttuu
       kokemuksen myötä, joten parhaiten työhön sopii pidemmälle opinnoissa
-      kerennyt tai jo valmistunut fyysikko.
+      kerennyt tai jo valmistunut fyysikko."
+      />
     </Accordion>
   </Accordion>
 );
@@ -90,7 +126,9 @@ const Geophysics = () => (
       />
     </h5>
     <p>
-      Geofysiikka on tiede, joka tutkii luonnonilmiöitä fysiikan menetelmin.
+      <FormattedMessage
+        id="subjects.geophysicsIntroduction"
+        defaultMessage="      Geofysiikka on tiede, joka tutkii luonnonilmiöitä fysiikan menetelmin.
       Geofysiikan opiskelijat ovat yleensä geotieteilijöitä, fyysikoita,
       ympäristötieteilijöitä tai matemaattisten ja teknillisten alojen
       opiskelijoita, joilla on taustalla fysiikan perusopinnot sekä
@@ -98,7 +136,8 @@ const Geophysics = () => (
       erikoistumissuunnakseen maisterivaiheessa. Geofyysikoita koulutetaan vain
       Helsingin yliopistossa. Alan opintoihin sisältyy geofysikaalisen aineiston
       käsittelyä sekä jonkin verran kenttäosuuksia ja maastotöihin valmentavia
-      osuuksia.
+      osuuksia."
+      />
     </p>
     <h5>
       <FormattedMessage
@@ -106,31 +145,86 @@ const Geophysics = () => (
         defaultMessage="Tittelit"
       />
     </h5>
-    <Accordion title="Konsultti" noShadow>
-      Geofysiikan konsultteja toimii erityisesti ympäristöalalla ja
+    <Accordion
+      title={
+        <FormattedMessage
+          id="subjects.geophysicsJob1Title"
+          defaultMessage="Konsultti"
+        />
+      }
+      noShadow
+    >
+      <FormattedMessage
+        id="subjects.geophysicsJob1"
+        defaultMessage="      Geofysiikan konsultteja toimii erityisesti ympäristöalalla ja
       kalliorakentamisessa. Geofysiikan konsultit voivat olla erikoistuneita
       esimerkiksi arktisten alueiden kysymyksiin, vesihuoltoon tai
-      maa-/kallioperätutkimuksiin.
+      maa-/kallioperätutkimuksiin."
+      />
     </Accordion>
-    <Accordion title="Hydrologi" noShadow>
-      Hydrologit kehittävät pinta- ja pohjavesimalleja, laskevat vesistöjen ja
+    <Accordion
+      title={
+        <FormattedMessage
+          id="subjects.geophysicsJob2Title"
+          defaultMessage="Hydrologi"
+        />
+      }
+      noShadow
+    >
+      <FormattedMessage
+        id="subjects.geophysicsJob2"
+        defaultMessage="Hydrologit kehittävät pinta- ja pohjavesimalleja, laskevat vesistöjen ja
       vesialtaiden vesimääriä, arvioivat tulvariskejä ja keräävät ja
-      käsittelevät makean veden kiertoon liittyvää havaintoaineistoa.
+      käsittelevät makean veden kiertoon liittyvää havaintoaineistoa."
+      />
     </Accordion>
-    <Accordion title="Suunnitteluinsinööri" noShadow>
-      Geofyysikot osallistuvat ammattitaidollaan esimerkiksi kalliotilojen
-      suunnitteluun tai laivojen suunnitteluun.
+    <Accordion
+      title={
+        <FormattedMessage
+          id="subjects.geophysicsJob3Title"
+          defaultMessage="Suunnitteluinsinööri"
+        />
+      }
+      noShadow
+    >
+      <FormattedMessage
+        id="subjects.geophysicsJob3"
+        defaultMessage="Geofyysikot osallistuvat ammattitaidollaan esimerkiksi kalliotilojen
+      suunnitteluun tai laivojen suunnitteluun."
+      />
     </Accordion>
-    <Accordion title="Geofyysikko" noShadow>
-      Yleisnimike henkilölle, joka tekee geofysiikan alaan kuuluvaa työtä.
+    <Accordion
+      title={
+        <FormattedMessage
+          id="subjects.geophysicsJob4Title"
+          defaultMessage="Geofyysikko"
+        />
+      }
+      noShadow
+    >
+      <FormattedMessage
+        id="subjects.geophysicsJob4"
+        defaultMessage="Yleisnimike henkilölle, joka tekee geofysiikan alaan kuuluvaa työtä.
       Esimerkiksi kaivosteollisuudessa geofyysikot keräävät ja tulkitsevat
-      potentiaalikenttiin liittyvää aineistoa.
+      potentiaalikenttiin liittyvää aineistoa."
+      />
     </Accordion>
-    <Accordion title="Tutkimusavustaja" noShadow>
-      Melkein minkä tahansa vaiheen opiskelijoita voi rekrytoida
+    <Accordion
+      title={
+        <FormattedMessage
+          id="subjects.geophysicsJob5Title"
+          defaultMessage="Tutkimusavustaja"
+        />
+      }
+      noShadow
+    >
+      <FormattedMessage
+        id="subjects.geophysicsJob5"
+        defaultMessage="Melkein minkä tahansa vaiheen opiskelijoita voi rekrytoida
       tutkimusapulaisiksi tai kenttätöihin. Tieteellisen laskennan kurssit
       suorittaneilla on parhaat edellytykset tehdä numeeriseen laskentaan ja
-      mallien kehitykseen liittyvää työtä.
+      mallien kehitykseen liittyvää työtä."
+      />
     </Accordion>
   </Accordion>
 );
@@ -146,7 +240,9 @@ const Geology = () => (
       />
     </h5>
     <p>
-      Geologia tutkii maan kuoren prosesseja ja planeetan kehitystä, joten
+      <FormattedMessage
+        id="subjects.geologyIntroduction1"
+        defaultMessage="Geologia tutkii maan kuoren prosesseja ja planeetan kehitystä, joten
       geologien keskuudesta löytyy osaamista paitsi mineraali- ja
       pohjavesivarantojen hyödyntämiseen, myös ympäristökysymysten ratkaisuun ja
       ilmastonmuutoksen tutkimukseen. Geologian kandidaatinopinnot tarjoavat
@@ -157,13 +253,17 @@ const Geology = () => (
       geologit opiskelevat kemiaa, matematiikkaa, fysiikkaa ja
       menetelmätieteitä. Geologian kandivaiheeseen kuuluu myös GIS-opintoja,
       joten geologit osaavat myös laatia karttoja ja suoriutuvat
-      laboratoriotöistä.
+      laboratoriotöistä."
+      />
     </p>
     <p>
-      Myöhemmissä opinnoissaan geologit erikoistuvat taloudelliseen- ja
-      kallioperägeologiaan, hydro- ja ympäristögeologiaan, kiinteän maan
-      geofysiikkaan tai paleobiologiaan ja paleoklimatologiaan. Maisterivaiheen
-      opiskelijat osaavat jo toimia itsenäisesti laboratoriossa ja kentällä.
+      <FormattedMessage
+        id="subjects.geologyIntroduction2"
+        defaultMessage="Myöhemmissä opinnoissaan geologit erikoistuvat taloudelliseen- ja
+        kallioperägeologiaan, hydro- ja ympäristögeologiaan, kiinteän maan
+        geofysiikkaan tai paleobiologiaan ja paleoklimatologiaan. Maisterivaiheen
+        opiskelijat osaavat jo toimia itsenäisesti laboratoriossa ja kentällä."
+      />
     </p>
     <h5>
       <FormattedMessage
@@ -171,43 +271,92 @@ const Geology = () => (
         defaultMessage="Tittelit"
       />
     </h5>
-    <Accordion title="Tutkija / erikoistutkija" noShadow>
+    <Accordion
+      title={
+        <FormattedMessage
+          id="subjects.geologyJob1Title"
+          defaultMessage="Tutkija / erikoistutkija"
+        />
+      }
+      noShadow
+    >
       <ul>
         <li>
-          Tuotantoympäristöt ja kierrätys, työllistäjä esim. Geologian
-          tutkimuskeskus
+          <FormattedMessage
+            id="subjects.geologyJob1_1"
+            defaultMessage="Tuotantoympäristöt ja kierrätys, työllistäjä esim. Geologian
+          tutkimuskeskus"
+          />
         </li>
         <li>
-          Työtehtävinä kestävän kaivostoiminnan ja teollisuusympäristöjen
+          <FormattedMessage
+            id="subjects.geologyJob1_2"
+            defaultMessage="Työtehtävinä kestävän kaivostoiminnan ja teollisuusympäristöjen
           ratkaisujen kehittäminen: vesien hallinta, vesien ja aineiden
           kulkeutumisen mallinnus, geokemiallinen mallintaminen, riskinarviointi
-          maaperässä; kohteena kaivos- ja teollisuusympäristöt
+          maaperässä; kohteena kaivos- ja teollisuusympäristöt"
+          />
         </li>
       </ul>
     </Accordion>
-    <Accordion title="Malmigeologi" noShadow>
+    <Accordion
+      title={
+        <FormattedMessage
+          id="subjects.geologyJob2Title"
+          defaultMessage="Malmigeologi"
+        />
+      }
+      noShadow
+    >
       <ul>
-        <li>Työllistäjä esim. kaivosyhtiöt</li>
         <li>
-          Kairasydänloggaus: kivilajien määritys, mineraalit, malmimineraalit ja
-          niiden arvioidut pitoisuudet, magneettisuuden mittaus, sydämen
-          kuvaaminen, näytteiden merkkaaminen ja tietojen kirjaaminen
-          tietokantaan
+          <FormattedMessage
+            id="subjects.geologyJob2_1"
+            defaultMessage="Työllistäjä esim. kaivosyhtiöt"
+          />
         </li>
         <li>
-          Kentällä kalliopaljastumien etsintää ja kartoitusta, lohkareiden
-          etsintää, kairapaikkojen merkintää ja kairausvalvontaa
+          <FormattedMessage
+            id="subjects.geologyJob2_2"
+            defaultMessage="Kairasydänloggaus: kivilajien määritys, mineraalit, malmimineraalit ja
+            niiden arvioidut pitoisuudet, magneettisuuden mittaus, sydämen
+            kuvaaminen, näytteiden merkkaaminen ja tietojen kirjaaminen
+            tietokantaan"
+          />
+        </li>
+        <li>
+          <FormattedMessage
+            id="subjects.geologyJob2_3"
+            defaultMessage="Kentällä kalliopaljastumien etsintää ja kartoitusta, lohkareiden
+            etsintää, kairapaikkojen merkintää ja kairausvalvontaa"
+          />
         </li>
       </ul>
     </Accordion>
-    <Accordion title="Hydrogeologi" noShadow>
+    <Accordion
+      title={
+        <FormattedMessage
+          id="subjects.geologyJob3Title"
+          defaultMessage="Hydrogeologi"
+        />
+      }
+      noShadow
+    >
       <ul>
-        <li>Ympäristö ja luonnonvarat, työllistäjä esim. ELY-keskus</li>
         <li>
-          Pohjavesien suojelu ja kartoittaminen, pohjavesitutkimuksen
-          kenttätyöryhmän ohjaus, tutkimustulosten tulkinta ja raportointi,
-          vedenhankinnan yleissuunnittelu vesilaitosten kanssa ja
-          vedenottamoiden velvoitetarkkailujen seuranta ja kehittäminen
+          <FormattedMessage
+            id="subjects.geologyJob3_1"
+            defaultMessage="Ympäristö ja luonnonvarat, työllistäjä esim. ELY-keskus"
+          />
+        </li>
+        <li>
+          <FormattedMessage
+            id="subjects.geologyJob3_2"
+            defaultMessage="Pohjavesien suojelu ja kartoittaminen, pohjavesitutkimuksen
+            kenttätyöryhmän ohjaus, tutkimustulosten tulkinta ja raportointi,
+            vedenhankinnan yleissuunnittelu vesilaitosten kanssa ja
+            vedenottamoiden velvoitetarkkailujen seuranta ja kehittäminen"
+          />
         </li>
       </ul>
     </Accordion>
@@ -225,7 +374,9 @@ const Chemistry = () => (
       />
     </h5>
     <p>
-      Kemia tutkii aineen rakennetta, ja siinä tapahtuvia muutoksia. Kemian
+      <FormattedMessage
+        id="subjects.chemistryIntroduction"
+        defaultMessage="Kemia tutkii aineen rakennetta, ja siinä tapahtuvia muutoksia. Kemian
       erikoistumisaloja ovat esimerkiksi materiaalitiede, analyyttinen kemia ja
       laskennallinen kemia. Reaktiomekanismien tutkiminen voi johtaa
       teollisuuden prosessien optimointiin, tai kokonaan uusien,
@@ -234,7 +385,8 @@ const Chemistry = () => (
       molekyylien simuloimisessa ennen varsinaisia käytännön kokeita.
       Jokapäiväinen elämämme on ympäröity eri kemian sovelluksilla, vaikka emme
       niitä yleensä huomaa. Siksi kemian osaajia tarvitaan hyvin monilla eri
-      aloilla.
+      aloilla."
+      />
     </p>
     <h5>
       <FormattedMessage
@@ -242,39 +394,83 @@ const Chemistry = () => (
         defaultMessage="Tittelit"
       />
     </h5>
-    <Accordion title="Synteetikko" noShadow>
-      Jokaisen lääkeaineen tulo markkinoille vaatii kemistin, joka sitä osaa
-      valmistaa. Ja Kemian koulutusohjelma tarjoaa tähän hyvän alustuksen
-      reaktio-oppeineen ja pitkine laboratoriotöineen. Ja mikäli opiskelija on
-      suorittanut tai suorittamassa Synteettisen Kemian maisteriohjelmaa, hän ei
-      osaa pelkästään tehdä yksinkertaisia synteesitöitä, vaan myös suunnitella
-      ja ketjuttaa pidempiä prosesseja, ja pähkäillä esille helpoimmat,
-      halvimmat, ja tuottoisimmat tavat tuottaa jokin tietty kemikaali.
+    <Accordion
+      title={
+        <FormattedMessage
+          id="subjects.chemistryJob1Title"
+          defaultMessage="Synteetikko"
+        />
+      }
+      noShadow
+    >
+      <FormattedMessage
+        id="subjects.chemistryJob1"
+        defaultMessage="Jokaisen lääkeaineen tulo markkinoille vaatii kemistin, joka sitä osaa
+            valmistaa. Ja Kemian koulutusohjelma tarjoaa tähän hyvän alustuksen
+            reaktio-oppeineen ja pitkine laboratoriotöineen. Ja mikäli opiskelija on
+            suorittanut tai suorittamassa Synteettisen Kemian maisteriohjelmaa, hän ei
+            osaa pelkästään tehdä yksinkertaisia synteesitöitä, vaan myös suunnitella
+            ja ketjuttaa pidempiä prosesseja, ja pähkäillä esille helpoimmat,
+            halvimmat, ja tuottoisimmat tavat tuottaa jokin tietty kemikaali."
+      />
     </Accordion>
-    <Accordion title="Analyytikko" noShadow>
-      Mitä ainetta ja miten paljon? Näihin kysymyksiin olemme tottuneitä
-      vastaamaan jo perusopinnoissa, mutta Analyyttiseen kemiaan erikoistuvalla
-      maisteriopiskelijalla tottumusta kertyy runsaasti. Opintojen aikana kertyy
-      myös tietoa useasta vanhasta ja uudesta analyysimenetelmästä, joita
-      analyytikko pystyy hyödyntämään laadunvalvonnassa, tutkimuksessa ja
-      kehityksessä, luonnonaineen analyysissä...
+    <Accordion
+      title={
+        <FormattedMessage
+          id="subjects.chemistryJob2Title"
+          defaultMessage="Analyytikko"
+        />
+      }
+      noShadow
+    >
+      <FormattedMessage
+        id="subjects.chemistryJob2"
+        defaultMessage="Mitä ainetta ja miten paljon? Näihin kysymyksiin olemme tottuneitä
+    vastaamaan jo perusopinnoissa, mutta Analyyttiseen kemiaan erikoistuvalla
+    maisteriopiskelijalla tottumusta kertyy runsaasti. Opintojen aikana kertyy
+    myös tietoa useasta vanhasta ja uudesta analyysimenetelmästä, joita
+    analyytikko pystyy hyödyntämään laadunvalvonnassa, tutkimuksessa ja
+    kehityksessä, luonnonaineen analyysissä..."
+      />
     </Accordion>
-    <Accordion title="Materiaaliasiantuntija" noShadow>
-      Metalliyhdisteet? Muovipolymeerit? Ohutkalvot? Luonnolliset materiaalit?
-      Nanomateriaalit? Näista kaikista materiaaleista löytyy yliopistolta
-      osaajia, tarkoitti osaaminen sitten luonnonaineiden tutkimista,
-      synteettisten aineiden tuottamista, tai kaikille aineille ominaisuuksien
-      ja käyttöönottotapojen selvittämistä. Joka tapauksessa uuden materiaalin
-      touttaminen ja käyttöönotto ei olisi mahdollista ilman syvää osaamista sen
-      kemiallisista ominaisuuksista.
+    <Accordion
+      title={
+        <FormattedMessage
+          id="subjects.chemistryJob3Title"
+          defaultMessage="Materiaaliasiantuntija"
+        />
+      }
+      noShadow
+    >
+      <FormattedMessage
+        id="subjects.chemistryJob3"
+        defaultMessage="Metalliyhdisteet? Muovipolymeerit? Ohutkalvot? Luonnolliset materiaalit?
+    Nanomateriaalit? Näista kaikista materiaaleista löytyy yliopistolta
+    osaajia, tarkoitti osaaminen sitten luonnonaineiden tutkimista,
+    synteettisten aineiden tuottamista, tai kaikille aineille ominaisuuksien
+    ja käyttöönottotapojen selvittämistä. Joka tapauksessa uuden materiaalin
+    touttaminen ja käyttöönotto ei olisi mahdollista ilman syvää osaamista sen
+    kemiallisista ominaisuuksista."
+      />
     </Accordion>
-    <Accordion title="Tutkija" noShadow>
-      Helsingin yliopiston kouluttama kemisti voi myös erikoistua fysikaaliseen
-      kemiaan, jossa simuloidaan kemiallisia rakenteita kvanttimekaniikan
-      avulla, tai kehitetään uusia mittausmenetelmiä vain teoriassa tunnettujen
-      reaktioiden seuraamiseen. Lisäksi Helsingin Yliopistolla on Suomen ainoa
-      Radiokemian osasto, jossa opiskelija voi erikoistua epästabiilien atomien
-      tutkimiseen ja hyödyntämiseen.
+    <Accordion
+      title={
+        <FormattedMessage
+          id="subjects.chemistryJob4Title"
+          defaultMessage="Tutkija"
+        />
+      }
+      noShadow
+    >
+      <FormattedMessage
+        id="subjects.chemistryJob4"
+        defaultMessage="Helsingin yliopiston kouluttama kemisti voi myös erikoistua fysikaaliseen
+    kemiaan, jossa simuloidaan kemiallisia rakenteita kvanttimekaniikan
+    avulla, tai kehitetään uusia mittausmenetelmiä vain teoriassa tunnettujen
+    reaktioiden seuraamiseen. Lisäksi Helsingin Yliopistolla on Suomen ainoa
+    Radiokemian osasto, jossa opiskelija voi erikoistua epästabiilien atomien
+    tutkimiseen ja hyödyntämiseen."
+      />
     </Accordion>
   </Accordion>
 );
@@ -292,16 +488,19 @@ const Geography = () => (
       />
     </h5>
     <p>
-      Maantiede on yksi laaja-alaisimmista yliopistossa opiskeltavista aloista –
-      maantiede liittyy kaikkeen ja kaikesta voi tehdä maantiedettä. Helsingin
-      yliopistossa maantieteilijät opiskelevat muun muassa paikkatieto-ohjelmia,
-      luonnonmaantiedettä, suunnittelumaantiedettä ja kehitysmaantiedettä.
-      Osaamista löytyy siis laidasta laitaan, mutta kaikkia yhdistää sijainnin
-      merkityksen ymmärtäminen. Maantieteilijät täydentävät tutkintojaan
-      valinnaisilla opintokokonaisuuksilla, jotka löytyvät usein muista
-      Helsingin Yliopiston tiedekunnista biologiasta kulttuurintutkimukseen.
-      Maantieteilijöiden yksi ehdottomista vahvuuksista onkin taito yhdistää
-      teknistä ja tekstuaalista osaamista.
+      <FormattedMessage
+        id="subjects.geographyIntroduction"
+        defaultMessage="Maantiede on yksi laaja-alaisimmista yliopistossa opiskeltavista aloista –
+        maantiede liittyy kaikkeen ja kaikesta voi tehdä maantiedettä. Helsingin
+        yliopistossa maantieteilijät opiskelevat muun muassa paikkatieto-ohjelmia,
+        luonnonmaantiedettä, suunnittelumaantiedettä ja kehitysmaantiedettä.
+        Osaamista löytyy siis laidasta laitaan, mutta kaikkia yhdistää sijainnin
+        merkityksen ymmärtäminen. Maantieteilijät täydentävät tutkintojaan
+        valinnaisilla opintokokonaisuuksilla, jotka löytyvät usein muista
+        Helsingin Yliopiston tiedekunnista biologiasta kulttuurintutkimukseen.
+        Maantieteilijöiden yksi ehdottomista vahvuuksista onkin taito yhdistää
+        teknistä ja tekstuaalista osaamista."
+      />
     </p>
     <h5>
       <FormattedMessage
@@ -309,26 +508,59 @@ const Geography = () => (
         defaultMessage="Tittelit"
       />
     </h5>
-    <Accordion title="Paikkatietokonsultti" noShadow>
-      Paikkatieto on maantieteilijän valttikortti. Oli suuntautuminen sitten
-      mikä tahansa maantieteen sisällä, jokainen maantieteilijä osaa
-      paikkatieto-ohjelmista ainakin perusteet. Verkostoanalyysit,
-      matka-kustannusarviot ja saavutettavuusanalyysit, kuuluvat monen
-      paikkatietokonsultin toimenkuvaan ja niistä hyötyvät yritykset laidasta
-      laitaan.
+    <Accordion
+      title={
+        <FormattedMessage
+          id="subjects.geographyJob1Title"
+          defaultMessage="Paikkatietokonsultti"
+        />
+      }
+      noShadow
+    >
+      <FormattedMessage
+        id="subjects.geographyJob1"
+        defaultMessage="Paikkatieto on maantieteilijän valttikortti. Oli suuntautuminen sitten
+    mikä tahansa maantieteen sisällä, jokainen maantieteilijä osaa
+    paikkatieto-ohjelmista ainakin perusteet. Verkostoanalyysit,
+    matka-kustannusarviot ja saavutettavuusanalyysit, kuuluvat monen
+    paikkatietokonsultin toimenkuvaan ja niistä hyötyvät yritykset laidasta
+    laitaan."
+      />
     </Accordion>
-    <Accordion title="Suunnittelija" noShadow>
-      Monet maantieteilijät työllistyvät suunnittelijana. Kaupungit, kunnat,
-      valtio ja yritykset tuottavat esimerkiksi liikenne- ja
-      kaupunkisuunnittelua, jolloin maantieteilijöiden osaaminen sijainnin ja
-      muiden tekijöiden suhteen nousee suureen arvoon.
+    <Accordion
+      title={
+        <FormattedMessage
+          id="subjects.geographyJob2Title"
+          defaultMessage="Suunnittelija"
+        />
+      }
+      noShadow
+    >
+      <FormattedMessage
+        id="subjects.geographyJob2"
+        defaultMessage="Monet maantieteilijät työllistyvät suunnittelijana. Kaupungit, kunnat,
+    valtio ja yritykset tuottavat esimerkiksi liikenne- ja
+    kaupunkisuunnittelua, jolloin maantieteilijöiden osaaminen sijainnin ja
+    muiden tekijöiden suhteen nousee suureen arvoon."
+      />
     </Accordion>
-    <Accordion title="Kartografi" noShadow>
-      Maantiede on karttoja. Kartografia on läsnä lähes kaikessa
-      maantieteilijöiden tuottamassa visuaalisessa ulosannissa, joka näkyy
-      karttojen lisäksi myös esimerkiksi raporteissa ja tutkielmissa.
-      Visuaalinen osaaminen ja kuvankäsittelyohjelmien taitaminen kuuluu
-      jokaisen maantieteilijän perusosaamiseen.
+    <Accordion
+      title={
+        <FormattedMessage
+          id="subjects.geographyJob3Title"
+          defaultMessage="Kartografi"
+        />
+      }
+      noShadow
+    >
+      <FormattedMessage
+        id="subjects.geographyJob3"
+        defaultMessage="Maantiede on karttoja. Kartografia on läsnä lähes kaikessa
+    maantieteilijöiden tuottamassa visuaalisessa ulosannissa, joka näkyy
+    karttojen lisäksi myös esimerkiksi raporteissa ja tutkielmissa.
+    Visuaalinen osaaminen ja kuvankäsittelyohjelmien taitaminen kuuluu
+    jokaisen maantieteilijän perusosaamiseen."
+      />
     </Accordion>
   </Accordion>
 );
@@ -348,18 +580,21 @@ const Mathematics = () => (
       />
     </h5>
     <p>
-      Matematiikka kehittää kriittistä ajattelua, abstraktia hahmottamiskykyä
-      sekä loogista päättelyä. Matematiikkaa on kaikkialla: kännyköissä,
-      pankkilainoissa ja kotitalosi perustuksissa. Suurimmat työllistäjät
-      matematiikan alueelta löytyvätkin sen sovellutuksista muilta
-      tieteenaloilta. Tärkein matematiikan opettama taito ei ole suinkaan
-      päässälaskemisen maailmanennätys, vaan uusien näkökulmien ja ajatustapojen
-      omaksuminen, minkä avulla ratkeavat visaisetkin ongelmat. Päteviä
-      matemaatikkoja tarvitaan aina ja kaikkialla - myös kandidaatteja - mutta
-      yleisesti ottaen matemaatikot työllistyvät vakituisesti vasta
-      maisterivaiheen opintojen jälkeen, sillä syvällinen erikoistuminen
-      suoritetaan loppuun silloin. Kliseisen simppelisti voisi sanoa, että
-      kandidaatti erikoistuu maisteria varten ja maisteri elämää varten.
+      <FormattedMessage
+        id="subjects.mathemathicsIntroduction"
+        defaultMessage="Matematiikka kehittää kriittistä ajattelua, abstraktia hahmottamiskykyä
+        sekä loogista päättelyä. Matematiikkaa on kaikkialla: kännyköissä,
+        pankkilainoissa ja kotitalosi perustuksissa. Suurimmat työllistäjät
+        matematiikan alueelta löytyvätkin sen sovellutuksista muilta
+        tieteenaloilta. Tärkein matematiikan opettama taito ei ole suinkaan
+        päässälaskemisen maailmanennätys, vaan uusien näkökulmien ja ajatustapojen
+        omaksuminen, minkä avulla ratkeavat visaisetkin ongelmat. Päteviä
+        matemaatikkoja tarvitaan aina ja kaikkialla - myös kandidaatteja - mutta
+        yleisesti ottaen matemaatikot työllistyvät vakituisesti vasta
+        maisterivaiheen opintojen jälkeen, sillä syvällinen erikoistuminen
+        suoritetaan loppuun silloin. Kliseisen simppelisti voisi sanoa, että
+        kandidaatti erikoistuu maisteria varten ja maisteri elämää varten."
+      />
     </p>
     <h5>
       <FormattedMessage
