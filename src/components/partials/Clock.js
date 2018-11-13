@@ -10,6 +10,27 @@ import moment from "moment";
 import "moment/locale/fi";
 import "moment/locale/en-gb";
 
+import { injectIntl, defineMessages } from "react-intl";
+
+const clockMessages = defineMessages({
+  days: {
+    id: "clock.days",
+    defaultMessage: "päivää"
+  },
+  hours: {
+    id: "clock.hours",
+    defaultMessage: "tuntia"
+  },
+  minutes: {
+    id: "clock.minutes",
+    defaultMessage: "minuuttia"
+  },
+  seconds: {
+    id: "clock.seconds",
+    defaultMessage: "sekuntia"
+  }
+});
+
 class Clock extends React.Component {
   /**
    * Initialize clock interval
@@ -48,10 +69,15 @@ class Clock extends React.Component {
   }
 
   render() {
+    const {
+      intl: { formatMessage }
+    } = this.props;
     return (
       <p className="clock">
-        {this.props.daysUntil} päivää {this.props.hoursUntil} tuntia{" "}
-        {this.props.minutesUntil} minuuttia {this.props.secondsUntil} sekuntia
+        {this.props.daysUntil} {formatMessage(clockMessages.days)}{" "}
+        {this.props.hoursUntil} {formatMessage(clockMessages.hours)}{" "}
+        {this.props.minutesUntil} {formatMessage(clockMessages.minutes)}{" "}
+        {this.props.secondsUntil} {formatMessage(clockMessages.seconds)}
       </p>
     );
   }
@@ -88,4 +114,4 @@ const mapDispatchToProps = {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Clock);
+)(injectIntl(Clock));

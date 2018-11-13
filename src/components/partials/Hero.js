@@ -1,11 +1,34 @@
 import React from "react";
-import moment from "moment";
 import Clock from "./Clock";
 import config from "../../data/config.json";
+import { injectIntl, defineMessages } from "react-intl";
 
-const reviews = require("../../data/reviews.json");
+const heroMessages = defineMessages({
+  scheduleTitle: {
+    id: "hero.potentiaaliDescription",
+    defaultMessage: "Työelämä- ja rekrytointitapahtuma Kumpulan kampuksella"
+  },
+  review1: {
+    id: "hero.reviewMessage1",
+    defaultMessage: "Ehdottomasti laadukas opiskelijatapahtuma!"
+  },
+  review2: {
+    id: "hero.reviewMessage2",
+    defaultMessage:
+      "Hyvät keskustelut, paljon porukkaa, mukavat yhteyshenkilöt ja muutenkin järjestelyt toimivat. Jatkot olivat loistavat."
+  }
+});
 
-export const Hero = () => {
+const HeroComponent = ({ intl: { formatMessage } }) => {
+  const reviews = [
+    {
+      text: formatMessage(heroMessages.review1)
+    },
+    {
+      text: formatMessage(heroMessages.review2)
+    }
+  ];
+
   return (
     <section className="hero">
       <video poster="juku.png" muted loop autoPlay preload="true">
@@ -21,12 +44,8 @@ export const Hero = () => {
           />
         </h1>
         <p>
-          Työelämä- ja rekrytointitapahtuma Kumpulan kampuksella{" "}
-          <b>
-            {moment(config.eventDate, "DD.MM.YYYY")
-              .locale("fi")
-              .format("LL")}
-          </b>
+          {formatMessage(heroMessages.scheduleTitle) + " "}
+          <b>{config.eventDate}</b>
           <br />
           <br />
           <br />
@@ -44,3 +63,7 @@ export const Hero = () => {
     </section>
   );
 };
+
+const Hero = injectIntl(HeroComponent);
+
+export { Hero };

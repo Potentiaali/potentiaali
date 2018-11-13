@@ -185,13 +185,24 @@ a.nav-logo {
 
 .nav-links {
   float: right;
-  a {
+  a,
+  .changeLanguage {
     display: inline-block;
     border-bottom: 0;
     font-weight: normal;
     margin: 10px 0 0 15px;
     padding: 0;
+    text-transform: uppercase;
   }
+}
+
+button.changeLanguage {
+  &:hover {
+    cursor: pointer;
+  }
+  border: 0;
+  font-size: 100%;
+  color: gray;
 }
 
 a.active-link {

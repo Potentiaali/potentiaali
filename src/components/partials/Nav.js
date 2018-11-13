@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import menu from "../../data/menu.json";
+import { connect } from "react-redux";
+import { setLanguage } from "../../reducers/LocalizationReducer";
+import { FormattedMessage } from "react-intl";
 
 class Nav extends React.Component {
   constructor(props) {
@@ -26,6 +28,25 @@ class Nav extends React.Component {
   };
 
   render() {
+    const { lang } = this.props;
+    const menu = [
+      {
+        name: <FormattedMessage id="nav.frontPage" defaultMessage="Etusivu" />,
+        link: "/",
+        disabled: false
+      },
+      {
+        name: <FormattedMessage id="nav.schedule" defaultMessage="Aikataulu" />,
+        link: "/schedule",
+        disabled: false
+      },
+      {
+        name: <FormattedMessage id="nav.subjects" defaultMessage="Aineiden esittely" />,
+        link: "/subjects",
+        disabled: false
+      }
+    ];
+
     return (
       <nav>
         <div className="container">
@@ -61,6 +82,21 @@ class Nav extends React.Component {
                       </NavLink>
                     )
                 )}
+              {lang === "en" ? (
+                <button
+                  className="changeLanguage"
+                  onClick={() => this.props.setLanguage("fi")}
+                >
+                  Suomeksi
+                </button>
+              ) : (
+                <button
+                  className="changeLanguage"
+                  onClick={() => this.props.setLanguage("en")}
+                >
+                  In English
+                </button>
+              )}
             </div>
           )}
           <div className="nav-links">
@@ -78,6 +114,21 @@ class Nav extends React.Component {
                     </NavLink>
                   )
               )}
+            {lang === "en" ? (
+              <button
+                className="changeLanguage"
+                onClick={() => this.props.setLanguage("fi")}
+              >
+                Suomeksi
+              </button>
+            ) : (
+              <button
+                className="changeLanguage"
+                onClick={() => this.props.setLanguage("en")}
+              >
+                In English
+              </button>
+            )}
           </div>
         </div>
       </nav>
@@ -85,4 +136,17 @@ class Nav extends React.Component {
   }
 }
 
-export default Nav;
+const mapStateToProps = state => {
+  return {
+    lang: state.localization.lang
+  };
+};
+
+const mapDispatchToProps = {
+  setLanguage
+};
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(Nav);

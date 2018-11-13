@@ -3,42 +3,86 @@ import { SingleSchedule } from "../components/Schedule/SingleSchedule";
 import { connect } from "react-redux";
 import classnames from "classnames";
 import { changeSchedule } from "../reducers/ScheduleReducer";
+import { defineMessages } from "react-intl";
+import { injectIntl } from "react-intl";
+
 const uuidv4 = require("uuid/v4");
 
-const generateLinkText = name => {
-  switch (name) {
-    case "all":
-      return "Kaikki";
-    case "workshops":
-      return "Workshopit";
-    case "lectures":
-      return "Luennot";
-    case "speedDating":
-      return "Speed dating";
-    default:
-      return "N/A";
+const messages = defineMessages({
+  scheduleTitle: {
+    id: "schedule.title",
+    defaultMessage: "Aikataulu"
+  },
+  all: {
+    id: "scheduleNav.all",
+    defaultMessage: "Kaikki"
+  },
+  workshops: {
+    id: "scheduleNav.workshops",
+    defaultMessage: "Workshopit"
+  },
+  lectures: {
+    id: "scheduleNav.lectures",
+    defaultMessage: "Luennot"
+  },
+  speedDating: {
+    id: "scheduleNav.speedDating",
+    defaultMessage: "Speed dating"
+  },
+  notApplicable: {
+    id: "scheduleNav.notApplicable",
+    defaultMessage: "N/A"
   }
+});
+
+const ScheduleNavComponent = ({
+  selected,
+  schedule,
+  changeSchedule,
+  intl: { formatMessage }
+}) => {
+  const generateLinkText = name => {
+    switch (name) {
+      case "all":
+        return formatMessage(messages.all);
+      case "workshops":
+        return formatMessage(messages.workshops);
+      case "lectures":
+        return formatMessage(messages.lectures);
+      case "speedDating":
+        return formatMessage(messages.speedDating);
+      default:
+        return "N/A";
+    }
+  };
+  return (
+    <div className="schedule-nav-links">
+      {["all", ...Object.keys(schedule)].map(name => (
+        <span
+          className={classnames({ "is-selected": selected === name })}
+          onClick={e => {
+            e.preventDefault();
+            changeSchedule(name);
+          }}
+          key={name}
+          style={{ margin: 20 }}
+        >
+          {generateLinkText(name)}
+        </span>
+      ))}
+    </div>
+  );
 };
 
-const ScheduleNav = ({ selected, schedule, changeSchedule }) => (
-  <div className="schedule-nav-links">
-    {["all", ...Object.keys(schedule)].map(name => (
-      <span
-        className={classnames({ "is-selected": selected === name })}
-        onClick={e => {
-          e.preventDefault();
-          changeSchedule(name);
-        }}
-        key={name}
-        style={{ margin: 20 }}
-      >
-        {generateLinkText(name)}
-      </span>
-    ))}
-  </div>
-);
+const ScheduleNav = injectIntl(ScheduleNavComponent);
 
-export const SchedulePage = ({ schedule, selected, type, changeSchedule }) => {
+export const SchedulePage = ({
+  schedule,
+  selected,
+  type,
+  changeSchedule,
+  intl: { formatMessage }
+}) => {
   let scheduleComponent = null;
   let allEvents = {};
   switch (selected) {
@@ -76,7 +120,7 @@ export const SchedulePage = ({ schedule, selected, type, changeSchedule }) => {
   }
   return (
     <div className="page">
-      <h1>Aikataulu</h1>
+      <h1>{formatMessage(messages.scheduleTitle)}</h1>
       <ScheduleNav
         selected={selected}
         schedule={schedule}
@@ -102,4 +146,4 @@ const mapDispatchToProps = {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(SchedulePage);
+)(injectIntl(SchedulePage));

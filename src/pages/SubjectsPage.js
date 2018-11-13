@@ -1,10 +1,16 @@
 import React from "react";
 import { Accordion } from "../components/Accordion/Accordion";
 import "./SubjectsPage.scss";
+import { FormattedMessage } from "react-intl";
 
 const Physics = () => (
   <Accordion title="Fysiikka">
-    <h5>Yleinen esittely</h5>
+    <h5>
+      <FormattedMessage
+        id="subjects.introduction"
+        defaultMessage="Yleinen esittely"
+      />
+    </h5>
     <p>
       Fysiikkaa opiskelevat henkilöt opiskelevat hallitsemaan valtavan skaalan
       ympäristöön, tekniikkaan ja luontoon liittyviä ongelmia ja niiden

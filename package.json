@@ -13,6 +13,7 @@
     "react-art": "^16.5.2",
     "react-dom": "^16.4.1",
     "react-fittext": "^1.0.0",
+    "react-intl": "^2.7.2",
     "react-markdown": "^3.4.1",
     "react-native-web": "^0.9.1",
     "react-redux": "^5.0.7",
@@ -31,7 +32,9 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "fix-js": "eslint --fix src/**/*.js"
+    "fix-js": "eslint --fix src/**/*.js",
+    "extract:messages": "react-intl-cra 'src/**/*.{js,jsx}' -o 'src/i18n/messages/messages.json'",
+    "manage:translations": "node ./translationRunner.js"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.4.11",
@@ -50,6 +53,8 @@
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-standard": "^4.0.0",
     "node-sass": "^4.9.3",
+    "react-intl-cra": "^0.3.3",
+    "react-intl-translations-manager": "^5.0.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0"
   },

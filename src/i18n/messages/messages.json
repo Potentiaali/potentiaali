@@ -1,0 +1,147 @@
+[
+  {
+    "id": "app.pageNotFound",
+    "defaultMessage": "Sivua ei löydy",
+    "filepath": "src/App.js"
+  },
+  {
+    "id": "main.title1",
+    "defaultMessage": "Kumpulan Potentiaali vuodelle 2018 on täynnä!",
+    "filepath": "src/components/MainContent.js"
+  },
+  {
+    "id": "main.part1",
+    "defaultMessage": "Kumpulan Potentiaali on Helsingin yliopiston matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden järjestämä työelämä- ja rekrytointitapahtuma, joka järjestettiin ensi kertaa viime syksynä. Ensi kertaa järjestetyksi tapahtumaksi Kumpulan Potentiaali 2017 oli menestys niin opiskelijoiden kuin yritysvieraidenkin puolesta.",
+    "filepath": "src/components/MainContent.js"
+  },
+  {
+    "id": "main.part2",
+    "defaultMessage": "Palautteeseen vastanneista yritysvieraista yli 95% arvioi tapahtumanannin olevan vähintään hinnan väärti, ja joka neljäs koki tapahtumanannin olevan erinomainen hintaan nähden.",
+    "filepath": "src/components/MainContent.js"
+  },
+  {
+    "id": "main.eventInformationTitle",
+    "defaultMessage": "TAPAHTUMATIEDOT",
+    "filepath": "src/components/MainContent.js"
+  },
+  {
+    "id": "main.locationTitle",
+    "defaultMessage": "Paikka",
+    "filepath": "src/components/MainContent.js"
+  },
+  {
+    "id": "main.timeTitle",
+    "defaultMessage": "Aika",
+    "filepath": "src/components/MainContent.js"
+  },
+  {
+    "id": "main.eventDay",
+    "defaultMessage": "Torstai",
+    "filepath": "src/components/MainContent.js"
+  },
+  {
+    "id": "main.eventLocation",
+    "defaultMessage": "Kumpulan kampus (Gustaf Hällströmin katu 2)",
+    "filepath": "src/components/MainContent.js"
+  },
+  {
+    "id": "clock.days",
+    "defaultMessage": "päivää",
+    "filepath": "src/components/partials/Clock.js"
+  },
+  {
+    "id": "clock.hours",
+    "defaultMessage": "tuntia",
+    "filepath": "src/components/partials/Clock.js"
+  },
+  {
+    "id": "clock.minutes",
+    "defaultMessage": "minuuttia",
+    "filepath": "src/components/partials/Clock.js"
+  },
+  {
+    "id": "clock.seconds",
+    "defaultMessage": "sekuntia",
+    "filepath": "src/components/partials/Clock.js"
+  },
+  {
+    "id": "companies.title",
+    "defaultMessage": "Vuoden 2018 Kumpulan potentiaali -tapahtuman yritykset",
+    "filepath": "src/components/partials/Companies.js"
+  },
+  {
+    "id": "hero.contactTitle",
+    "defaultMessage": "Kysyttävää?",
+    "filepath": "src/components/partials/Contact.js"
+  },
+  {
+    "id": "hero.contactDescription",
+    "defaultMessage": "Tavoitat meidät sähköpostilla osoitteesta",
+    "filepath": "src/components/partials/Contact.js"
+  },
+  {
+    "id": "hero.potentiaaliDescription",
+    "defaultMessage": "Työelämä- ja rekrytointitapahtuma Kumpulan kampuksella",
+    "filepath": "src/components/partials/Hero.js"
+  },
+  {
+    "id": "hero.reviewMessage1",
+    "defaultMessage": "Ehdottomasti laadukas opiskelijatapahtuma!",
+    "filepath": "src/components/partials/Hero.js"
+  },
+  {
+    "id": "hero.reviewMessage2",
+    "defaultMessage": "Hyvät keskustelut, paljon porukkaa, mukavat yhteyshenkilöt ja muutenkin järjestelyt toimivat. Jatkot olivat loistavat.",
+    "filepath": "src/components/partials/Hero.js"
+  },
+  {
+    "id": "nav.frontPage",
+    "defaultMessage": "Etusivu",
+    "filepath": "src/components/partials/Nav.js"
+  },
+  {
+    "id": "nav.schedule",
+    "defaultMessage": "Aikataulu",
+    "filepath": "src/components/partials/Nav.js"
+  },
+  {
+    "id": "nav.subjects",
+    "defaultMessage": "Aineiden esittely",
+    "filepath": "src/components/partials/Nav.js"
+  },
+  {
+    "id": "schedule.title",
+    "defaultMessage": "Aikataulu",
+    "filepath": "src/pages/SchedulePage.js"
+  },
+  {
+    "id": "scheduleNav.all",
+    "defaultMessage": "Kaikki",
+    "filepath": "src/pages/SchedulePage.js"
+  },
+  {
+    "id": "scheduleNav.workshops",
+    "defaultMessage": "Workshopit",
+    "filepath": "src/pages/SchedulePage.js"
+  },
+  {
+    "id": "scheduleNav.lectures",
+    "defaultMessage": "Luennot",
+    "filepath": "src/pages/SchedulePage.js"
+  },
+  {
+    "id": "scheduleNav.speedDating",
+    "defaultMessage": "Speed dating",
+    "filepath": "src/pages/SchedulePage.js"
+  },
+  {
+    "id": "scheduleNav.notApplicable",
+    "defaultMessage": "N/A",
+    "filepath": "src/pages/SchedulePage.js"
+  },
+  {
+    "id": "subjects.introduction",
+    "defaultMessage": "Yleinen esittely",
+    "filepath": "src/pages/SubjectsPage.js"
+  }
+]
