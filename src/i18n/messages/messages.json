@@ -45,6 +45,21 @@
     "filepath": "src/components/MainContent.js"
   },
   {
+    "id": "main.speedRekryRegistrationTitle",
+    "defaultMessage": "Ilmoittaudu Speed rekryyn",
+    "filepath": "src/components/MainContent.js"
+  },
+  {
+    "id": "main.speedRekryRegistrationGroup",
+    "defaultMessage": "Ryhmä",
+    "filepath": "src/components/MainContent.js"
+  },
+  {
+    "id": "main.speedRekryRegistrationSignUp",
+    "defaultMessage": "Ilmoittaudu",
+    "filepath": "src/components/MainContent.js"
+  },
+  {
     "id": "clock.days",
     "defaultMessage": "päivää",
     "filepath": "src/components/partials/Clock.js"

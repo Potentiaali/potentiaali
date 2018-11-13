@@ -68,78 +68,150 @@ const MainContent = ({ intl: { formatMessage } }) => {
         </h2>
         <div className="speedRekryGrid">
           <div className="speedRekryItem item-1 full">
-            <div className="speedRekryItemTitle">Ryhmä 1</div>
+            <div className="speedRekryItemTitle">
+              <FormattedMessage
+                id="main.speedRekryRegistrationGroup"
+                defaultMessage="Ryhmä"
+              />
+              &nbsp;1
+            </div>
             <div className="speedRekryItemDesc">
               IBM Finland, Kesko Oyj, OP, Sogeti Finland
               <a href="#" target="_blank" className="speedRekryLink">
-                Ilmoittaudu
+                <FormattedMessage
+                  id="main.speedRekryRegistrationSignUp"
+                  defaultMessage="Ilmoittaudu"
+                />
               </a>
             </div>
           </div>
           <div className="speedRekryItem item-2">
-            <div className="speedRekryItemTitle">Ryhmä 2</div>
+            <div className="speedRekryItemTitle">
+              <FormattedMessage
+                id="main.speedRekryRegistrationGroup"
+                defaultMessage="Ryhmä"
+              />
+              &nbsp;2
+            </div>
             <div className="speedRekryItemDesc">
               Bluefors Oy, Robu Oy, Terveystalo, Vincit
               <a href="#" target="_blank" className="speedRekryLink">
-                Ilmoittaudu
+                <FormattedMessage
+                  id="main.speedRekryRegistrationSignUp"
+                  defaultMessage="Ilmoittaudu"
+                />
               </a>
             </div>
           </div>
           <div className="speedRekryItem item-3">
-            <div className="speedRekryItemTitle">Ryhmä 3</div>
+            <div className="speedRekryItemTitle">
+              <FormattedMessage
+                id="main.speedRekryRegistrationGroup"
+                defaultMessage="Ryhmä"
+              />
+              &nbsp;3
+            </div>
             <div className="speedRekryItemDesc">
               CGI, Perfektio Oy, Siili Solutions Oyj, Taito United Oy, Webscale
               Oy
               <a href="#" target="_blank" className="speedRekryLink">
-                Ilmoittaudu
+                <FormattedMessage
+                  id="main.speedRekryRegistrationSignUp"
+                  defaultMessage="Ilmoittaudu"
+                />
               </a>
             </div>
           </div>
           <div className="speedRekryItem item-4">
-            <div className="speedRekryItemTitle">Ryhmä 4</div>
+            <div className="speedRekryItemTitle">
+              <FormattedMessage
+                id="main.speedRekryRegistrationGroup"
+                defaultMessage="Ryhmä"
+              />
+              &nbsp;4
+            </div>
             <div className="speedRekryItemDesc">
               Columbia Road, Eatech Oy, Futurice, SAS Institute Oy
               <a href="#" target="_blank" className="speedRekryLink black">
-                Ilmoittaudu
+                <FormattedMessage
+                  id="main.speedRekryRegistrationSignUp"
+                  defaultMessage="Ilmoittaudu"
+                />
               </a>
             </div>
           </div>
           <div className="speedRekryItem item-5">
-            <div className="speedRekryItemTitle">Ryhmä 5</div>
+            <div className="speedRekryItemTitle">
+              <FormattedMessage
+                id="main.speedRekryRegistrationGroup"
+                defaultMessage="Ryhmä"
+              />
+              &nbsp;5
+            </div>
             <div className="speedRekryItemDesc">
               Accenture Oy, DAIN Studios, Dream Broker, Solita Oy, Streamr
               <a href="#" target="_blank" className="speedRekryLink">
-                Ilmoittaudu
+                <FormattedMessage
+                  id="main.speedRekryRegistrationSignUp"
+                  defaultMessage="Ilmoittaudu"
+                />
               </a>
             </div>
           </div>
           <div className="speedRekryItem item-6">
-            <div className="speedRekryItemTitle">Ryhmä 6</div>
+            <div className="speedRekryItemTitle">
+              <FormattedMessage
+                id="main.speedRekryRegistrationGroup"
+                defaultMessage="Ryhmä"
+              />
+              &nbsp;6
+            </div>
             <div className="speedRekryItemDesc">
               CSC - Tieteen tietotekniikan keskus Oy, Elisa, Trimble Solutions
               Oy, Funidata Oy & Unigrafia Oy
               <a href="#" target="_blank" className="speedRekryLink">
-                Ilmoittaudu
+                <FormattedMessage
+                  id="main.speedRekryRegistrationSignUp"
+                  defaultMessage="Ilmoittaudu"
+                />
               </a>
             </div>
           </div>
           <div className="speedRekryItem item-7">
-            <div className="speedRekryItemTitle">Ryhmä 7</div>
+            <div className="speedRekryItemTitle">
+              <FormattedMessage
+                id="main.speedRekryRegistrationGroup"
+                defaultMessage="Ryhmä"
+              />
+              &nbsp;7
+            </div>
             <div className="speedRekryItemDesc">
               Codento Oy, Eficode Oy, Keskinäinen Eläkevakuutusyhtiö Ilmarinen,
               Nokia
               <a href="#" target="_blank" className="speedRekryLink">
-                Ilmoittaudu
+                <FormattedMessage
+                  id="main.speedRekryRegistrationSignUp"
+                  defaultMessage="Ilmoittaudu"
+                />
               </a>
             </div>
           </div>
           <div className="speedRekryItem item-8">
-            <div className="speedRekryItemTitle">Ryhmä 8</div>
+            <div className="speedRekryItemTitle">
+              <FormattedMessage
+                id="main.speedRekryRegistrationGroup"
+                defaultMessage="Ryhmä"
+              />
+              &nbsp;8
+            </div>
             <div className="speedRekryItemDesc">
               Devisioona Oy, Digia Oyj, Foreca Oy, Reaktor Innovations Oy, VALA
               Group
               <a href="#" target="_blank" className="speedRekryLink black">
-                Ilmoittaudu
+                <FormattedMessage
+                  id="main.speedRekryRegistrationSignUp"
+                  defaultMessage="Ilmoittaudu"
+                />
               </a>
             </div>
           </div>
