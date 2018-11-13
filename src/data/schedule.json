@@ -99,7 +99,7 @@
           "start": "12.00",
           "end": "13.30",
           "name": "Rekry speed date 1",
-          "description": "Sogeti Finland, Kesko Oyj"
+          "description": "IBM Finland, Kesko Oyj, OP, Sogeti Finland"
         },
         {
           "id": "d104-rekr1-2",
@@ -113,7 +113,7 @@
           "start": "15.30",
           "end": "17.00",
           "name": "Rekry speed date 1",
-          "description": "Siili Solutions Oyj, CGI, Perfektio Oy, Webscale Oy, Taito United Oy"
+          "description": "CGI, Perfektio Oy, Siili Solutions Oyj, Taito United Oy, Webscale Oy"
         }
       ]
     },
@@ -125,14 +125,14 @@
           "start": "12.00",
           "end": "13.30",
           "name": "Rekry speed date 2",
-          "description": "IBM Finland, Futurice, SAS Institute Oy, Columbia Road, Eatech Oy"
+          "description": "Columbia Road, Eatech Oy, Futurice, SAS Institute Oy"
         },
         {
           "id": "d105-rekr2-2",
           "start": "13.45",
           "end": "15.15",
           "name": "Rekry speed date 2",
-          "description": "Accenture Oy, Solita Oy, DAIN Studios, Dream Broker, Streamr"
+          "description": "Accenture Oy, DAIN Studios, Dream Broker, Solita Oy, Streamr"
         },
         {
           "id": "d105-rekr2-3",
@@ -151,14 +151,14 @@
           "start": "12.00",
           "end": "13.30",
           "name": "Rekry speed date 3",
-          "description": "OP, Nokia, Keskinäinen Eläkevakuutusyhtiö Ilmarinen, Eficode Oy, Codento Oy"
+          "description": "Codento Oy, Eficode Oy, Keskinäinen Eläkevakuutusyhtiö Ilmarinen, Nokia"
         },
         {
           "id": "d106-rekr3-2",
           "start": "13.45",
           "end": "15.15",
           "name": "Rekry speed date 3",
-          "description": "Reaktor Innovations Oy, Digia Oyj, Foreca Oy, VALA Group, Devisioona Oy"
+          "description": "Devisioona Oy, Digia Oyj, Foreca Oy, Reaktor Innovations Oy, VALA Group"
         }
       ]
     }

@@ -50,16 +50,19 @@ class Nav extends React.Component {
     const menu = [
       {
         name: formatMessage(menuMessages.frontPage),
+        linkName: "",
         link: "/",
         disabled: false
       },
       {
         name: formatMessage(menuMessages.schedule),
+        linkName: "schedule",
         link: "/schedule",
         disabled: false
       },
       {
         name: formatMessage(menuMessages.subjects),
+        linkName: "subjects",
         link: "/subjects",
         disabled: false
       }
@@ -93,7 +96,7 @@ class Nav extends React.Component {
                       <NavLink
                         exact
                         to={menuItem.link}
-                        key={menuItem.name}
+                        key={menuItem.linkName}
                         activeClassName="active-link"
                       >
                         {menuItem.name}
@@ -125,7 +128,7 @@ class Nav extends React.Component {
                     <NavLink
                       exact
                       to={menuItem.link}
-                      key={menuItem.name}
+                      key={menuItem.linkName}
                       activeClassName="active-link"
                     >
                       {menuItem.name}
