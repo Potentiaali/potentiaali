@@ -98,21 +98,21 @@
           "id": "d104-rekr1-1",
           "start": "12.00",
           "end": "13.30",
-          "name": "Rekry speed date 1",
+          "name": "Rekry speed date 1 (Ryhmä 1)",
           "description": "IBM Finland, Kesko Oyj, OP, Sogeti Finland"
         },
         {
           "id": "d104-rekr1-2",
           "start": "13.45",
           "end": "15.15",
-          "name": "Rekry speed date 1",
+          "name": "Rekry speed date 1 (Ryhmä 2)",
           "description": "Bluefors Oy, Robu Oy, Terveystalo, Vincit"
         },
         {
           "id": "d104-rekr1-3",
           "start": "15.30",
           "end": "17.00",
-          "name": "Rekry speed date 1",
+          "name": "Rekry speed date 1 (Ryhmä 3)",
           "description": "CGI, Perfektio Oy, Siili Solutions Oyj, Taito United Oy, Webscale Oy"
         }
       ]
@@ -124,21 +124,21 @@
           "id": "d105-rekr2-1",
           "start": "12.00",
           "end": "13.30",
-          "name": "Rekry speed date 2",
+          "name": "Rekry speed date 2 (Ryhmä 4)",
           "description": "Columbia Road, Eatech Oy, Futurice, SAS Institute Oy"
         },
         {
           "id": "d105-rekr2-2",
           "start": "13.45",
           "end": "15.15",
-          "name": "Rekry speed date 2",
+          "name": "Rekry speed date 2 (Ryhmä 5)",
           "description": "Accenture Oy, DAIN Studios, Dream Broker, Solita Oy, Streamr"
         },
         {
           "id": "d105-rekr2-3",
           "start": "15.30",
           "end": "17.00",
-          "name": "Rekry speed date 2",
+          "name": "Rekry speed date 2 (Ryhmä 6)",
           "description": "CSC - Tieteen tietotekniikan keskus Oy, Elisa, Trimble Solutions Oy, Funidata Oy & Unigrafia Oy"
         }
       ]
@@ -150,14 +150,14 @@
           "id": "d106-rekr3-1",
           "start": "12.00",
           "end": "13.30",
-          "name": "Rekry speed date 3",
+          "name": "Rekry speed date 3 (Ryhmä 7)",
           "description": "Codento Oy, Eficode Oy, Keskinäinen Eläkevakuutusyhtiö Ilmarinen, Nokia"
         },
         {
           "id": "d106-rekr3-2",
           "start": "13.45",
           "end": "15.15",
-          "name": "Rekry speed date 3",
+          "name": "Rekry speed date 3 (Ryhmä 8)",
           "description": "Devisioona Oy, Digia Oyj, Foreca Oy, Reaktor Innovations Oy, VALA Group"
         }
       ]

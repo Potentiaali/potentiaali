@@ -2,7 +2,7 @@ import React from "react";
 import Companies from "./../components/partials/Companies";
 import { Program } from "./../components/partials/Program";
 
-import { injectIntl, defineMessages } from "react-intl";
+import { injectIntl, defineMessages, FormattedMessage } from "react-intl";
 
 const mainMessages = defineMessages({
   title: {
@@ -58,6 +58,92 @@ const MainContent = ({ intl: { formatMessage } }) => {
         <br />
         <br />
         <Program />
+        <br />
+        <br />
+        <h2>
+          <FormattedMessage
+            id="main.speedRekryRegistrationTitle"
+            defaultMessage="Ilmoittaudu Speed rekryyn"
+          />
+        </h2>
+        <div className="speedRekryGrid">
+          <div className="speedRekryItem item-1 full">
+            <div className="speedRekryItemTitle">Ryhmä 1</div>
+            <div className="speedRekryItemDesc">
+              IBM Finland, Kesko Oyj, OP, Sogeti Finland
+              <a href="#" target="_blank" className="speedRekryLink">
+                Ilmoittaudu
+              </a>
+            </div>
+          </div>
+          <div className="speedRekryItem item-2">
+            <div className="speedRekryItemTitle">Ryhmä 2</div>
+            <div className="speedRekryItemDesc">
+              Bluefors Oy, Robu Oy, Terveystalo, Vincit
+              <a href="#" target="_blank" className="speedRekryLink">
+                Ilmoittaudu
+              </a>
+            </div>
+          </div>
+          <div className="speedRekryItem item-3">
+            <div className="speedRekryItemTitle">Ryhmä 3</div>
+            <div className="speedRekryItemDesc">
+              CGI, Perfektio Oy, Siili Solutions Oyj, Taito United Oy, Webscale
+              Oy
+              <a href="#" target="_blank" className="speedRekryLink">
+                Ilmoittaudu
+              </a>
+            </div>
+          </div>
+          <div className="speedRekryItem item-4">
+            <div className="speedRekryItemTitle">Ryhmä 4</div>
+            <div className="speedRekryItemDesc">
+              Columbia Road, Eatech Oy, Futurice, SAS Institute Oy
+              <a href="#" target="_blank" className="speedRekryLink black">
+                Ilmoittaudu
+              </a>
+            </div>
+          </div>
+          <div className="speedRekryItem item-5">
+            <div className="speedRekryItemTitle">Ryhmä 5</div>
+            <div className="speedRekryItemDesc">
+              Accenture Oy, DAIN Studios, Dream Broker, Solita Oy, Streamr
+              <a href="#" target="_blank" className="speedRekryLink">
+                Ilmoittaudu
+              </a>
+            </div>
+          </div>
+          <div className="speedRekryItem item-6">
+            <div className="speedRekryItemTitle">Ryhmä 6</div>
+            <div className="speedRekryItemDesc">
+              CSC - Tieteen tietotekniikan keskus Oy, Elisa, Trimble Solutions
+              Oy, Funidata Oy & Unigrafia Oy
+              <a href="#" target="_blank" className="speedRekryLink">
+                Ilmoittaudu
+              </a>
+            </div>
+          </div>
+          <div className="speedRekryItem item-7">
+            <div className="speedRekryItemTitle">Ryhmä 7</div>
+            <div className="speedRekryItemDesc">
+              Codento Oy, Eficode Oy, Keskinäinen Eläkevakuutusyhtiö Ilmarinen,
+              Nokia
+              <a href="#" target="_blank" className="speedRekryLink">
+                Ilmoittaudu
+              </a>
+            </div>
+          </div>
+          <div className="speedRekryItem item-8">
+            <div className="speedRekryItemTitle">Ryhmä 8</div>
+            <div className="speedRekryItemDesc">
+              Devisioona Oy, Digia Oyj, Foreca Oy, Reaktor Innovations Oy, VALA
+              Group
+              <a href="#" target="_blank" className="speedRekryLink black">
+                Ilmoittaudu
+              </a>
+            </div>
+          </div>
+        </div>
         <br />
         <br />
         <Companies />
