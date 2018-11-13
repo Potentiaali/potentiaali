@@ -96,7 +96,11 @@ export const Schedule = ({ schedule, start, end, type }) => {
               <View style={styles.scheduleRow} key={stage.name}>
                 {fillEmptySlots(stage.schedule, start, end).map(slot => {
                   return slot.id ? (
-                    <Link to={"/schedule/" + slot.id} className="event-link">
+                    <Link
+                      to={"/schedule/" + slot.id}
+                      className="event-link"
+                      key={slot.id}
+                    >
                       <TimeSlot content={slot} key={slot.start} type={type} />
                     </Link>
                   ) : (
