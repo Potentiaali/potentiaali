@@ -4,6 +4,7 @@ import moment from "moment";
 import { TimeSlot } from "./TimeSlot";
 import { colors } from "../../colors/colors";
 import { ScrollView, Text, View } from "react-native-web";
+import { Link } from "react-router-dom";
 
 const fillEmptySlots = function(schedule, programStart, programEnd) {
   let filledSchedule = schedule
@@ -81,7 +82,10 @@ export const Schedule = ({ schedule, start, end, type }) => {
         <View style={{ flex: 1 }}>
           <View style={styles.timelineContainer}>
             {generateHourStrings(start, end).map(hour => (
-              <View style={{ flex: 1, width: 200, borderLeftWidth: 2 }} key={hour}>
+              <View
+                style={{ flex: 1, width: 200, borderLeftWidth: 2 }}
+                key={hour}
+              >
                 <Text>{hour}</Text>
               </View>
             ))}
@@ -91,7 +95,11 @@ export const Schedule = ({ schedule, start, end, type }) => {
             return (
               <View style={styles.scheduleRow} key={stage.name}>
                 {fillEmptySlots(stage.schedule, start, end).map(slot => {
-                  return (
+                  return slot.id ? (
+                    <Link to={"/schedule/" + slot.id} className="event-link">
+                      <TimeSlot content={slot} key={slot.start} type={type} />
+                    </Link>
+                  ) : (
                     <TimeSlot content={slot} key={slot.start} type={type} />
                   );
                 })}

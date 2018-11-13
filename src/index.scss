@@ -606,6 +606,9 @@ a {
   letter-spacing: 0;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+a:not(.event-link) {
   transition: all 0.2s linear;
 }
 
@@ -620,9 +623,9 @@ a.bright {
   color: #fffd00;
 }
 
-a:active,
-a:focus,
-a:hover {
+a:active:not(.event-link),
+a:focus:not(.event-link),
+a:hover:not(.event-link) {
   letter-spacing: 0.05em;
   text-decoration: none;
 }

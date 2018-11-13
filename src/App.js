@@ -11,6 +11,7 @@ import "moment/locale/en-gb";
 import { MainPage } from "./pages/MainPage";
 import Contact from "./components/partials/Contact";
 import SchedulePage from "./pages/SchedulePage";
+import SingleSchedulePage from "./pages/SingleSchedulePage";
 import { SubjectsPage } from "./pages/SubjectsPage";
 
 moment.locale(config.defaultLocale);
@@ -22,6 +23,7 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={MainPage} />
         <Route exact path="/schedule" component={SchedulePage} />
+        <Route exact path="/schedule/:id" component={SingleSchedulePage} />
         <Route exact path="/subjects" component={SubjectsPage} />
         <Route
           render={() => (

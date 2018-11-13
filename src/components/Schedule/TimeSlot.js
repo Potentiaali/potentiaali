@@ -23,9 +23,7 @@ const getDurationInHours = function(start, end) {
   return (endMillis - startMillis) / (3600 * 1000);
 };
 
-
 export const TimeSlot = ({ content }) => {
-  console.log(content, getDurationInHours(content.start, content.end));
   const conditionalStyles = {
     width: Math.floor(getDurationInHours(content.start, content.end) * 400),
     borderWidth: content.name === "" ? 0 : 1,
@@ -33,31 +31,31 @@ export const TimeSlot = ({ content }) => {
   };
 
   return (
-    <View>
-      <TouchableHighlight
-        activeOpacity={1}
-        underlayColor={"#ffffff"}
-        style={[styles.container, conditionalStyles]}
-      >
-        {content.name === "" ? (
-          <View />
-        ) : (
-          <View style={styles.timeSlot}>
-            <Text style={[defaultStyles.title3, styles.title]}>
-              <Textfit mode="single" max={20}>
-                {content.name.toUpperCase()}
-              </Textfit>
-            </Text>
-            <Text style={styles.text2}>
-              {content.start} - {content.end}
-            </Text>
-            <Text style={[defaultStyles.text, styles.text]}>
-              {content.description}
-            </Text>
-          </View>
-        )}
-      </TouchableHighlight>
-    </View>
+      <View>
+        <TouchableHighlight
+          activeOpacity={1}
+          underlayColor={"#ffffff"}
+          style={[styles.container, conditionalStyles]}
+        >
+          {content.name === "" ? (
+            <View />
+          ) : (
+            <View style={styles.timeSlot}>
+              <Text style={[defaultStyles.title3, styles.title]}>
+                <Textfit mode="single" max={20}>
+                  {content.name.toUpperCase()}
+                </Textfit>
+              </Text>
+              <Text style={styles.text2}>
+                {content.start} - {content.end}
+              </Text>
+              <Text style={[defaultStyles.text, styles.text]}>
+                {content.description}
+              </Text>
+            </View>
+          )}
+        </TouchableHighlight>
+      </View>
   );
 };
 

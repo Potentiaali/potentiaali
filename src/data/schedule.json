@@ -4,24 +4,28 @@
       "name": "Exactum B121",
       "schedule": [
         {
+          "id": "b121-intl",
           "start": "12.00",
           "end": "13.00",
           "name": "Working in Finland as an International Student",
           "description": "All the basic things you need to know about working in Finland as an International Student"
         },
         {
+          "id": "b121-coach",
           "start": "13.00",
           "end": "14.00",
           "name": "Coach Cafe - HY Alumnit",
           "description": ""
         },
         {
+          "id": "b121-columbia-road",
           "start": "14.00",
           "end": "15.00",
           "name": "Columbia Road",
           "description": ""
         },
         {
+          "id": "b121-ibm",
           "start": "15.00",
           "end": "16.00",
           "name": "IBM",
@@ -35,42 +39,49 @@
       "name": "Exactum B123",
       "schedule": [
         {
+          "id": "b123-tek",
           "start": "12.00",
           "end": "12.30",
           "name": "TEK & Loimu",
           "description": ""
         },
         {
+          "id": "b123-foreca",
           "start": "12.30",
           "end": "13.00",
           "name": "Foreca",
           "description": ""
         },
         {
+          "id": "b123-csc",
           "start": "13.00",
           "end": "13.30",
           "name": "CSC",
           "description": ""
         },
         {
+          "id": "b123-op",
           "start": "14.00",
           "end": "14.30",
           "name": "OP",
           "description": ""
         },
         {
+          "id": "b123-webscale",
           "start": "14.30",
           "end": "15.00",
           "name": "Webscale",
           "description": ""
         },
         {
+          "id": "b123-perfektio",
           "start": "15.00",
           "end": "15.30",
           "name": "Perfektio",
           "description": ""
         },
         {
+          "id": "b123-kesko",
           "start": "16.00",
           "end": "16.30",
           "name": "Kesko Oyj",
@@ -84,18 +95,21 @@
       "name": "Phy D104",
       "schedule": [
         {
+          "id": "d104-rekr1-1",
           "start": "12.00",
           "end": "13.30",
           "name": "Rekry speed date 1",
-          "description": "Sogeti Finland, Kesko Oyj, F-Secure"
+          "description": "Sogeti Finland, Kesko Oyj"
         },
         {
+          "id": "d104-rekr1-2",
           "start": "13.45",
           "end": "15.15",
           "name": "Rekry speed date 1",
-          "description": "Digital Goodie, Bluefors Oy, Robu Oy, Terveystalo, Vincit"
+          "description": "Bluefors Oy, Robu Oy, Terveystalo, Vincit"
         },
         {
+          "id": "d104-rekr1-3",
           "start": "15.30",
           "end": "17.00",
           "name": "Rekry speed date 1",
@@ -107,20 +121,23 @@
       "name": "Phy D105",
       "schedule": [
         {
+          "id": "d105-rekr2-1",
           "start": "12.00",
           "end": "13.30",
           "name": "Rekry speed date 2",
           "description": "IBM Finland, Futurice, SAS Institute Oy, Columbia Road, Eatech Oy"
         },
         {
+          "id": "d105-rekr2-2",
           "start": "13.45",
           "end": "15.15",
           "name": "Rekry speed date 2",
           "description": "Accenture Oy, Solita Oy, DAIN Studios, Dream Broker, Streamr"
         },
         {
+          "id": "d105-rekr2-3",
           "start": "15.30",
-          "end": "17.10",
+          "end": "17.00",
           "name": "Rekry speed date 2",
           "description": "CSC - Tieteen tietotekniikan keskus Oy, Elisa, Trimble Solutions Oy, Funidata Oy & Unigrafia Oy"
         }
@@ -130,12 +147,14 @@
       "name": "Phy D106",
       "schedule": [
         {
+          "id": "d106-rekr3-1",
           "start": "12.00",
           "end": "13.30",
           "name": "Rekry speed date 3",
           "description": "OP, Nokia, Keskinäinen Eläkevakuutusyhtiö Ilmarinen, Eficode Oy, Codento Oy"
         },
         {
+          "id": "d106-rekr3-2",
           "start": "13.45",
           "end": "15.15",
           "name": "Rekry speed date 3",
