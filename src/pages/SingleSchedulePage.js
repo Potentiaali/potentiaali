@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import flatMap from "lodash/flatMap";
+import { FormattedMessage } from "react-intl";
 
 // A mapping function to parse the schedule json into a better format.
 const mapSchedule = schedule =>
@@ -17,14 +18,20 @@ const SingleSchedulePage = ({ schedule, match }) => {
   if (!match) {
     return (
       <div className="page" style={{ paddingBottom: 50, paddingTop: 50 }}>
-        Event not found
+        <FormattedMessage
+          id="singleSchedule.eventNotFound"
+          defaultMessage="Tapahtumaa ei löydy"
+        />
       </div>
     );
   }
   if (!schedule) {
     return (
       <div className="page" style={{ paddingBottom: 50, paddingTop: 50 }}>
-        Schedule is empty
+        <FormattedMessage
+          id="singleSchedule.emptySchedule"
+          defaultMessage="Aikataulu on tyhjä"
+        />
       </div>
     );
   }
@@ -34,21 +41,48 @@ const SingleSchedulePage = ({ schedule, match }) => {
   if (!singleSchedule) {
     return (
       <div className="page" style={{ paddingBottom: 50, paddingTop: 50 }}>
-        Not found
+        <FormattedMessage
+          id="singleSchedule.eventNotFound"
+          defaultMessage="Tapahtumaa ei löydy"
+        />
       </div>
     );
   }
   return (
     <div className="page" style={{ paddingBottom: 50, paddingTop: 50 }}>
       <h1>{singleSchedule.name}</h1>
-      <b>Sijainti: </b>
+      <b>
+        {
+          <FormattedMessage
+            id="singleSchedule.location"
+            defaultMessage="Sijainti"
+          />
+        }
+        :{" "}
+      </b>
       {singleSchedule.stage}
       <br />
-      <b>Aika: </b>
+      <b>
+        {<FormattedMessage id="singleSchedule.time" defaultMessage="Aika" />}:{" "}
+      </b>
       {singleSchedule.start} - {singleSchedule.end}
       <br />
-      <b>Kuvaus</b>
-      <p>{singleSchedule.description || "(Ei kuvausta)"}</p>
+      <b>
+        {
+          <FormattedMessage
+            id="singleSchedule.description"
+            defaultMessage="Kuvaus"
+          />
+        }
+      </b>
+      <p>
+        {singleSchedule.description || (
+          <FormattedMessage
+            id="singleSchedule.noDescription"
+            defaultMessage="(Ei kuvausta)"
+          />
+        )}
+      </p>
     </div>
   );
 };

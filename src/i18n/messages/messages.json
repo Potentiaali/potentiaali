@@ -140,6 +140,36 @@
     "filepath": "src/pages/SchedulePage.js"
   },
   {
+    "id": "singleSchedule.eventNotFound",
+    "defaultMessage": "Tapahtumaa ei löydy",
+    "filepath": "src/pages/SingleSchedulePage.js"
+  },
+  {
+    "id": "singleSchedule.emptySchedule",
+    "defaultMessage": "Aikataulu on tyhjä",
+    "filepath": "src/pages/SingleSchedulePage.js"
+  },
+  {
+    "id": "singleSchedule.location",
+    "defaultMessage": "Sijainti",
+    "filepath": "src/pages/SingleSchedulePage.js"
+  },
+  {
+    "id": "singleSchedule.time",
+    "defaultMessage": "Aika",
+    "filepath": "src/pages/SingleSchedulePage.js"
+  },
+  {
+    "id": "singleSchedule.description",
+    "defaultMessage": "Kuvaus",
+    "filepath": "src/pages/SingleSchedulePage.js"
+  },
+  {
+    "id": "singleSchedule.noDescription",
+    "defaultMessage": "(Ei kuvausta)",
+    "filepath": "src/pages/SingleSchedulePage.js"
+  },
+  {
     "id": "subjects.physics",
     "defaultMessage": "Fysiikka",
     "filepath": "src/pages/SubjectsPage.js"
