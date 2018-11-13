@@ -2,7 +2,22 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { connect } from "react-redux";
 import { setLanguage } from "../../reducers/LocalizationReducer";
-import { FormattedMessage } from "react-intl";
+import { injectIntl, defineMessages } from "react-intl";
+
+const menuMessages = defineMessages({
+  frontPage: {
+    id: "nav.frontPage",
+    defaultMessage: "Etusivu"
+  },
+  schedule: {
+    id: "nav.schedule",
+    defaultMessage: "Aikataulu"
+  },
+  subjects: {
+    id: "nav.subjects",
+    defaultMessage: "Aineiden esittely"
+  }
+});
 
 class Nav extends React.Component {
   constructor(props) {
@@ -28,20 +43,23 @@ class Nav extends React.Component {
   };
 
   render() {
-    const { lang } = this.props;
+    const {
+      lang,
+      intl: { formatMessage }
+    } = this.props;
     const menu = [
       {
-        name: <FormattedMessage id="nav.frontPage" defaultMessage="Etusivu" />,
+        name: formatMessage(menuMessages.frontPage),
         link: "/",
         disabled: false
       },
       {
-        name: <FormattedMessage id="nav.schedule" defaultMessage="Aikataulu" />,
+        name: formatMessage(menuMessages.schedule),
         link: "/schedule",
         disabled: false
       },
       {
-        name: <FormattedMessage id="nav.subjects" defaultMessage="Aineiden esittely" />,
+        name: formatMessage(menuMessages.subjects),
         link: "/subjects",
         disabled: false
       }
@@ -149,4 +167,4 @@ const mapDispatchToProps = {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Nav);
+)(injectIntl(Nav));

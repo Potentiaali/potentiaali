@@ -27,5 +27,17 @@
   "scheduleNav.notApplicable": "N/A",
   "scheduleNav.speedDating": "Speed dating",
   "scheduleNav.workshops": "Workshopit",
-  "subjects.introduction": "Yleinen esittely"
+  "subjects.astrology": "Tähtitiede",
+  "subjects.chemistry": "Kemia",
+  "subjects.computerScience": "Tietojenkäsittelytiede",
+  "subjects.geology": "Geologia",
+  "subjects.geophysics": "Geofysiikka",
+  "subjects.geopraphy": "Maantiede",
+  "subjects.introduction": "Yleinen esittely",
+  "subjects.mathematics": "Matematiikka",
+  "subjects.meteorology": "Meteorologia",
+  "subjects.pageTitle": "Aineiden esittely",
+  "subjects.physics": "Fysiikka",
+  "subjects.statistics": "Tilastotiede",
+  "subjects.workDescriptions": "tittelit"
 }

@@ -4,7 +4,9 @@ import "./SubjectsPage.scss";
 import { FormattedMessage } from "react-intl";
 
 const Physics = () => (
-  <Accordion title="Fysiikka">
+  <Accordion
+    title={<FormattedMessage id="subjects.physics" defaultMessage="Fysiikka" />}
+  >
     <h5>
       <FormattedMessage
         id="subjects.introduction"
@@ -24,7 +26,12 @@ const Physics = () => (
       hallinnollisissa tehtävissä. Fyysikko on yleishyödyllinen joka paikan
       höylä, jota moni yritys ei tajua tarvitsevansa.
     </p>
-    <h5>Tittelit</h5>
+    <h5>
+      <FormattedMessage
+        id="subjects.workDescriptions"
+        defaultMessage="Tittelit"
+      />
+    </h5>
     <Accordion title="Tutkija" noShadow>
       Luonnollisesti yksi fyysikon koulutuksen antama uravaihtoehto on tutkija.
       Tutkijana fyysikko soveltaa taitojaan ratkaisemaan nimenomaan
@@ -71,8 +78,17 @@ const Physics = () => (
 );
 
 const Geophysics = () => (
-  <Accordion title="Geofysiikka">
-    <h5>Yleinen esittely</h5>
+  <Accordion
+    title={
+      <FormattedMessage id="subjects.geophysics" defaultMessage="Geofysiikka" />
+    }
+  >
+    <h5>
+      <FormattedMessage
+        id="subjects.introduction"
+        defaultMessage="Yleinen esittely"
+      />
+    </h5>
     <p>
       Geofysiikka on tiede, joka tutkii luonnonilmiöitä fysiikan menetelmin.
       Geofysiikan opiskelijat ovat yleensä geotieteilijöitä, fyysikoita,
@@ -84,7 +100,12 @@ const Geophysics = () => (
       käsittelyä sekä jonkin verran kenttäosuuksia ja maastotöihin valmentavia
       osuuksia.
     </p>
-    <h5>Tittelit</h5>
+    <h5>
+      <FormattedMessage
+        id="subjects.workDescriptions"
+        defaultMessage="Tittelit"
+      />
+    </h5>
     <Accordion title="Konsultti" noShadow>
       Geofysiikan konsultteja toimii erityisesti ympäristöalalla ja
       kalliorakentamisessa. Geofysiikan konsultit voivat olla erikoistuneita
@@ -115,8 +136,15 @@ const Geophysics = () => (
 );
 
 const Geology = () => (
-  <Accordion title="Geologia">
-    <h5>Yleinen esittely</h5>
+  <Accordion
+    title={<FormattedMessage id="subjects.geology" defaultMessage="Geologia" />}
+  >
+    <h5>
+      <FormattedMessage
+        id="subjects.introduction"
+        defaultMessage="Yleinen esittely"
+      />
+    </h5>
     <p>
       Geologia tutkii maan kuoren prosesseja ja planeetan kehitystä, joten
       geologien keskuudesta löytyy osaamista paitsi mineraali- ja
@@ -137,7 +165,12 @@ const Geology = () => (
       geofysiikkaan tai paleobiologiaan ja paleoklimatologiaan. Maisterivaiheen
       opiskelijat osaavat jo toimia itsenäisesti laboratoriossa ja kentällä.
     </p>
-    <h5>Tittelit</h5>
+    <h5>
+      <FormattedMessage
+        id="subjects.workDescriptions"
+        defaultMessage="Tittelit"
+      />
+    </h5>
     <Accordion title="Tutkija / erikoistutkija" noShadow>
       <ul>
         <li>
@@ -182,8 +215,15 @@ const Geology = () => (
 );
 
 const Chemistry = () => (
-  <Accordion title="Kemia">
-    <h5>Yleinen esittely</h5>
+  <Accordion
+    title={<FormattedMessage id="subjects.chemistry" defaultMessage="Kemia" />}
+  >
+    <h5>
+      <FormattedMessage
+        id="subjects.introduction"
+        defaultMessage="Yleinen esittely"
+      />
+    </h5>
     <p>
       Kemia tutkii aineen rakennetta, ja siinä tapahtuvia muutoksia. Kemian
       erikoistumisaloja ovat esimerkiksi materiaalitiede, analyyttinen kemia ja
@@ -196,7 +236,12 @@ const Chemistry = () => (
       niitä yleensä huomaa. Siksi kemian osaajia tarvitaan hyvin monilla eri
       aloilla.
     </p>
-    <h5>Tittelit</h5>
+    <h5>
+      <FormattedMessage
+        id="subjects.workDescriptions"
+        defaultMessage="Tittelit"
+      />
+    </h5>
     <Accordion title="Synteetikko" noShadow>
       Jokaisen lääkeaineen tulo markkinoille vaatii kemistin, joka sitä osaa
       valmistaa. Ja Kemian koulutusohjelma tarjoaa tähän hyvän alustuksen
@@ -235,8 +280,17 @@ const Chemistry = () => (
 );
 
 const Geography = () => (
-  <Accordion title="Maantiede">
-    <h5>Yleinen esittely</h5>
+  <Accordion
+    title={
+      <FormattedMessage id="subjects.geopraphy" defaultMessage="Maantiede" />
+    }
+  >
+    <h5>
+      <FormattedMessage
+        id="subjects.introduction"
+        defaultMessage="Yleinen esittely"
+      />
+    </h5>
     <p>
       Maantiede on yksi laaja-alaisimmista yliopistossa opiskeltavista aloista –
       maantiede liittyy kaikkeen ja kaikesta voi tehdä maantiedettä. Helsingin
@@ -249,7 +303,12 @@ const Geography = () => (
       Maantieteilijöiden yksi ehdottomista vahvuuksista onkin taito yhdistää
       teknistä ja tekstuaalista osaamista.
     </p>
-    <h5>Tittelit</h5>
+    <h5>
+      <FormattedMessage
+        id="subjects.workDescriptions"
+        defaultMessage="Tittelit"
+      />
+    </h5>
     <Accordion title="Paikkatietokonsultti" noShadow>
       Paikkatieto on maantieteilijän valttikortti. Oli suuntautuminen sitten
       mikä tahansa maantieteen sisällä, jokainen maantieteilijä osaa
@@ -274,8 +333,20 @@ const Geography = () => (
   </Accordion>
 );
 const Mathematics = () => (
-  <Accordion title="Matematiikka">
-    <h5>Yleinen esittely</h5>
+  <Accordion
+    title={
+      <FormattedMessage
+        id="subjects.mathematics"
+        defaultMessage="Matematiikka"
+      />
+    }
+  >
+    <h5>
+      <FormattedMessage
+        id="subjects.introduction"
+        defaultMessage="Yleinen esittely"
+      />
+    </h5>
     <p>
       Matematiikka kehittää kriittistä ajattelua, abstraktia hahmottamiskykyä
       sekä loogista päättelyä. Matematiikkaa on kaikkialla: kännyköissä,
@@ -290,7 +361,12 @@ const Mathematics = () => (
       suoritetaan loppuun silloin. Kliseisen simppelisti voisi sanoa, että
       kandidaatti erikoistuu maisteria varten ja maisteri elämää varten.
     </p>
-    <h5>Tittelit</h5>
+    <h5>
+      <FormattedMessage
+        id="subjects.workDescriptions"
+        defaultMessage="Tittelit"
+      />
+    </h5>
     <Accordion title="Vakuutusmatemaatikko" noShadow>
       Matemaatikot laskevat ja tuottavat ennusteet, joiden perusteella
       vakuutuksia ja eläkkeitä kohdennetaan eri ryhmille. Pankit, Kela,
@@ -339,8 +415,20 @@ const Mathematics = () => (
 );
 
 const Meteorology = () => (
-  <Accordion title="Meteorologia">
-    <h5>Yleinen esittely</h5>
+  <Accordion
+    title={
+      <FormattedMessage
+        id="subjects.meteorology"
+        defaultMessage="Meteorologia"
+      />
+    }
+  >
+    <h5>
+      <FormattedMessage
+        id="subjects.introduction"
+        defaultMessage="Yleinen esittely"
+      />
+    </h5>
     <p>
       Meteorologia on ilmakehän fysiikkaa. Säätiedotukset ovat meteorologian
       tunnetuin sovellutus, mutta meteorologinen tieto on välttämätöntä myös
@@ -352,7 +440,12 @@ const Meteorology = () => (
       odottamattoman käyttäytymisen pohjalta. Nykyaikainen meteorologi onkin
       laajan tieto- ja taitopohjan omaava tieteen ammattilainen.
     </p>
-    <h5>Tittelit</h5>
+    <h5>
+      <FormattedMessage
+        id="subjects.workDescriptions"
+        defaultMessage="Tittelit"
+      />
+    </h5>
     <Accordion title="Meteorologi" noShadow>
       Meteorologi on suojattu oppiarvo, jonka käyttö edellyttää
       korkeakoulututkintoa meteorologiasta. Meteorologi on ilmakehän fysiikan
@@ -382,15 +475,32 @@ const Meteorology = () => (
 );
 
 const ComputerScience = () => (
-  <Accordion title="Tietojenkäsittelytiede">
-    <h5>Yleinen esittely</h5>
+  <Accordion
+    title={
+      <FormattedMessage
+        id="subjects.computerScience"
+        defaultMessage="Tietojenkäsittelytiede"
+      />
+    }
+  >
+    <h5>
+      <FormattedMessage
+        id="subjects.introduction"
+        defaultMessage="Yleinen esittely"
+      />
+    </h5>
     <p>
       Tietojenkäsittelytieteen opinnot lähtevät ohjelmoinnin perusteista mutta
       monipuolistuvat nopeasti. Mahdollisuuksia osaamisen syventämiseen löytyy
       niin ohjelmistosuunnittelun, algoritmiikan, koneoppimisen, hajautettujen
       järjestelmien, bioinformatiikan kuin big datankin saralla.
     </p>
-    <h5>Tittelit</h5>
+    <h5>
+      <FormattedMessage
+        id="subjects.workDescriptions"
+        defaultMessage="Tittelit"
+      />
+    </h5>
     <Accordion title="Full-stack Developer" noShadow>
       Full-stack Developer on osastomme opiskelijoille tyypillinen titteli jo
       opintojen aikana. Web-ohjelmoinnin salat aukeavat innokkaimille jo
@@ -423,8 +533,20 @@ const ComputerScience = () => (
 );
 
 const Statistics = () => (
-  <Accordion title="Tilastotiede">
-    <h5>Yleinen esittely</h5>
+  <Accordion
+    title={
+      <FormattedMessage
+        id="subjects.statistics"
+        defaultMessage="Tilastotiede"
+      />
+    }
+  >
+    <h5>
+      <FormattedMessage
+        id="subjects.introduction"
+        defaultMessage="Yleinen esittely"
+      />
+    </h5>
     <p>
       Tilastotiede on väline todellisuuden ilmiöiden ymmärtämiseen ja
       analysoimiseen. Tilastollisten mallien rakentaminen perustuu aineiston,
@@ -433,7 +555,12 @@ const Statistics = () => (
       asiakastyytyväisyyskyselyjen tuloksista, palveluiden käyttötilastoista ja
       vaikka työttömyystilastoista.
     </p>
-    <h5>Tittelit</h5>
+    <h5>
+      <FormattedMessage
+        id="subjects.workDescriptions"
+        defaultMessage="Tittelit"
+      />
+    </h5>
     <Accordion title="Data-analyytikko" noShadow>
       Data-analyytikko pyrkii etsimään syy-seuraussuhteita aineistoista ja
       tekemään päätelmiä tämän pohjalta. Data-analyytikko pyrkii esimerkiksi
@@ -466,8 +593,17 @@ const Statistics = () => (
   </Accordion>
 );
 const Astrology = () => (
-  <Accordion title="Tähtitiede">
-    <h5>Yleinen esittely</h5>
+  <Accordion
+    title={
+      <FormattedMessage id="subjects.astrology" defaultMessage="Tähtitiede" />
+    }
+  >
+    <h5>
+      <FormattedMessage
+        id="subjects.introduction"
+        defaultMessage="Yleinen esittely"
+      />
+    </h5>
     <p>
       Tähtitiede tutkii universumia fysikaalisin keinoin. Alan opiskelija omaa
       laajan osaamisen, johon sisältyy mm. matematiikka, ohjelmointi,
@@ -477,7 +613,12 @@ const Astrology = () => (
       lähiavaruuden ilmiöihin sekä asteroidien tuntemiseen, alueet joiden
       merkitys suurenee tulevaisuudessa.
     </p>
-    <h5>Tittelit</h5>
+    <h5>
+      <FormattedMessage
+        id="subjects.workDescriptions"
+        defaultMessage="Tittelit"
+      />
+    </h5>
     <Accordion title="Tutkija" noShadow>
       Yksi tähtitieteilijän uran luonnollisin loppupiste on tutkija.
       Ammattitutkijaksi voi ryhtyä vasta tohtorintutkinnon saatuaan, mutta jo
@@ -511,7 +652,12 @@ const Astrology = () => (
 export const SubjectsPage = () => {
   return (
     <div className="page subjects">
-      <h1>Aineiden esittely</h1>
+      <h1>
+        <FormattedMessage
+          id="subjects.pageTitle"
+          defaultMessage="Aineiden esittely"
+        />
+      </h1>
       <Physics />
       <Geophysics />
       <Geology />

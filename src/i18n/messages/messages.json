@@ -140,8 +140,68 @@
     "filepath": "src/pages/SchedulePage.js"
   },
   {
+    "id": "subjects.physics",
+    "defaultMessage": "Fysiikka",
+    "filepath": "src/pages/SubjectsPage.js"
+  },
+  {
     "id": "subjects.introduction",
     "defaultMessage": "Yleinen esittely",
+    "filepath": "src/pages/SubjectsPage.js"
+  },
+  {
+    "id": "subjects.workDescriptions",
+    "defaultMessage": "Tittelit",
+    "filepath": "src/pages/SubjectsPage.js"
+  },
+  {
+    "id": "subjects.geophysics",
+    "defaultMessage": "Geofysiikka",
+    "filepath": "src/pages/SubjectsPage.js"
+  },
+  {
+    "id": "subjects.geology",
+    "defaultMessage": "Geologia",
+    "filepath": "src/pages/SubjectsPage.js"
+  },
+  {
+    "id": "subjects.chemistry",
+    "defaultMessage": "Kemia",
+    "filepath": "src/pages/SubjectsPage.js"
+  },
+  {
+    "id": "subjects.geopraphy",
+    "defaultMessage": "Maantiede",
+    "filepath": "src/pages/SubjectsPage.js"
+  },
+  {
+    "id": "subjects.mathematics",
+    "defaultMessage": "Matematiikka",
+    "filepath": "src/pages/SubjectsPage.js"
+  },
+  {
+    "id": "subjects.meteorology",
+    "defaultMessage": "Meteorologia",
+    "filepath": "src/pages/SubjectsPage.js"
+  },
+  {
+    "id": "subjects.computerScience",
+    "defaultMessage": "Tietojenkäsittelytiede",
+    "filepath": "src/pages/SubjectsPage.js"
+  },
+  {
+    "id": "subjects.statistics",
+    "defaultMessage": "Tilastotiede",
+    "filepath": "src/pages/SubjectsPage.js"
+  },
+  {
+    "id": "subjects.astrology",
+    "defaultMessage": "Tähtitiede",
+    "filepath": "src/pages/SubjectsPage.js"
+  },
+  {
+    "id": "subjects.pageTitle",
+    "defaultMessage": "Aineiden esittely",
     "filepath": "src/pages/SubjectsPage.js"
   }
 ]

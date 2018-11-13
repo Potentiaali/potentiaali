@@ -13,18 +13,11 @@ import Contact from "./components/partials/Contact";
 import SchedulePage from "./pages/SchedulePage";
 import SingleSchedulePage from "./pages/SingleSchedulePage";
 import { SubjectsPage } from "./pages/SubjectsPage";
-import { injectIntl, defineMessages } from "react-intl";
+import { FormattedMessage } from "react-intl";
 
 moment.locale(config.defaultLocale);
 
-const appMessages = defineMessages({
-  pageNotFound: {
-    id: "app.pageNotFound",
-    defaultMessage: "Sivua ei löydy"
-  }
-});
-
-const App = ({ intl: { formatMessage } }) => {
+const App = () => {
   return (
     <React.Fragment>
       <Nav />
@@ -40,7 +33,14 @@ const App = ({ intl: { formatMessage } }) => {
                 marginTop: 25
               }}
             >
-              <h1>{formatMessage(appMessages.pageNotFound)}</h1>
+              <h1>
+                {
+                  <FormattedMessage
+                    id="app.pageNotFound"
+                    defaultMessage="Sivua ei löydy"
+                  />
+                }
+              </h1>
             </div>
           )}
         />
@@ -51,4 +51,4 @@ const App = ({ intl: { formatMessage } }) => {
   );
 };
 
-export default injectIntl(App);
+export default App;

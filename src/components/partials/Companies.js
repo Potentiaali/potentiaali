@@ -1,21 +1,21 @@
 import React from "react";
-import { injectIntl, defineMessages } from "react-intl";
+import { FormattedMessage } from "react-intl";
 const companies = require("../../data/companies.json");
 
-const companyMessages = defineMessages({
-  title: {
-    id: "companies.title",
-    defaultMessage: "Vuoden 2018 Kumpulan potentiaali -tapahtuman yritykset"
-  }
-});
-
-const Companies = ({ intl: { formatMessage } }) => {
+const Companies = () => {
   return (
     <section className="two-columned">
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <h3>{formatMessage(companyMessages.title)}</h3>
+            <h3>
+              {
+                <FormattedMessage
+                  id="companies.title"
+                  defaultMessage="Vuoden 2018 Kumpulan potentiaali -tapahtuman yritykset"
+                />
+              }
+            </h3>
             {companies.map(company => (
               <a
                 className="company-logo"
@@ -44,4 +44,4 @@ const Companies = ({ intl: { formatMessage } }) => {
   );
 };
 
-export default injectIntl(Companies);
+export default Companies;
