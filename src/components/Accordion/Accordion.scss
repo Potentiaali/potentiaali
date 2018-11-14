@@ -7,6 +7,34 @@
   &.shadow {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   }
+  &.imageAccordion {
+    display: inline-block;
+    width: 300px;
+    > .accordion-header {
+      height: auto;
+      justify-content: center;
+      > .accordion-title {
+        width: 100%;
+      }
+    }
+    > .accordion-content {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      -ms-word-break: break-all;
+      word-break: break-all;
+      word-break: break-word;
+      -ms-hyphens: auto;
+      -moz-hyphens: auto;
+      -webkit-hyphens: auto;
+      hyphens: auto;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      padding: 0;
+    }
+  }
   .accordion-header {
     width: 100%;
     height: 50px;
@@ -55,7 +83,7 @@
     &.is-open {
       max-height: 2000px;
     }
-    p {
+    div.content {
       padding-top: 15px;
       padding-bottom: 15px;
       text-align: left;

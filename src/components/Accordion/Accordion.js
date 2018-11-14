@@ -22,13 +22,16 @@ export class Accordion extends React.Component {
     return (
       <div
         className={classNames("accordion", {
-          shadow: !this.props.noShadow
+          shadow: !this.props.noShadow,
+          imageAccordion: this.props.imageTitle
         })}
       >
         <div className="accordion-header" onClick={this.handleAccordion}>
-          <div className="accordion-button">
-            {this.state.isOpen ? "-" : "+"}
-          </div>
+          {!this.props.imageTitle && (
+            <div className="accordion-button">
+              {this.state.isOpen ? "-" : "+"}
+            </div>
+          )}
           <div className="accordion-title">{this.props.title}</div>
         </div>
         <div
@@ -37,7 +40,7 @@ export class Accordion extends React.Component {
             "inner-shadow": this.props.inner
           })}
         >
-          <p>{this.props.children}</p>
+          <div className="content">{this.props.children}</div>
         </div>
       </div>
     );
@@ -45,8 +48,9 @@ export class Accordion extends React.Component {
 }
 
 Accordion.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.any.isRequired,
   children: PropTypes.any,
   noShadow: PropTypes.bool,
-  inner: PropTypes.bool
+  inner: PropTypes.bool,
+  imageTitle: PropTypes.bool
 };
