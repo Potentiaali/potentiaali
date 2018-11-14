@@ -1,5 +1,6 @@
 import React from "react";
 import App from "./App";
+import PropTypes from "prop-types";
 import { BrowserRouter } from "react-router-dom";
 import { IntlProvider, addLocaleData } from "react-intl";
 import fiLocaleData from "react-intl/locale-data/fi";
@@ -21,6 +22,10 @@ const AppWrapper = ({ locale }) => {
       </BrowserRouter>
     </IntlProvider>
   );
+};
+
+AppWrapper.propTypes = {
+  locale: PropTypes.string
 };
 
 const mapStateToProps = state => {

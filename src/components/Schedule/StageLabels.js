@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { View, Text } from "react-native-web";
 import { colors } from "../../colors/colors";
 import { defaultStyles } from "../../styles/defaultStyles";
@@ -25,6 +26,10 @@ export const StageLabels = ({ schedule }) => (
     })}
   </View>
 );
+
+StageLabels.propTypes = {
+  schedule: PropTypes.any
+};
 
 const styles = {
   container: {

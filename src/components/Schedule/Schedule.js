@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import moment from "moment";
 
 import { TimeSlot } from "./TimeSlot";
@@ -114,6 +115,13 @@ export const Schedule = ({ schedule, start, end, type }) => {
       </ScrollView>
     </View>
   );
+};
+
+Schedule.propTypes = {
+  schedule: PropTypes.any,
+  start: PropTypes.string,
+  end: PropTypes.string,
+  type: PropTypes.string
 };
 
 const styles = {

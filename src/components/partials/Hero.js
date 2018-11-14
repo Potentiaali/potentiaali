@@ -2,6 +2,7 @@ import React from "react";
 import Clock from "./Clock";
 import config from "../../data/config.json";
 import { injectIntl, defineMessages } from "react-intl";
+import PropTypes from "prop-types";
 
 const heroMessages = defineMessages({
   scheduleTitle: {
@@ -60,6 +61,10 @@ const HeroComponent = ({ intl: { formatMessage } }) => {
     </section>
   );
 };
+
+HeroComponent.propTypes = {
+  intl: PropTypes.any
+}
 
 const Hero = injectIntl(HeroComponent);
 

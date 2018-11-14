@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
 import { connect } from "react-redux";
 import { setLanguage } from "../../reducers/LocalizationReducer";
@@ -156,6 +157,12 @@ class Nav extends React.Component {
     );
   }
 }
+
+Nav.propTypes = {
+  intl: PropTypes.any,
+  setLanguage: PropTypes.func,
+  lang: PropTypes.string
+};
 
 const mapStateToProps = state => {
   return {

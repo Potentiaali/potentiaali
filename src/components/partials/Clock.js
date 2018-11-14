@@ -92,7 +92,8 @@ Clock.propTypes = {
   resetClock: PropTypes.func,
   setClockInterval: PropTypes.func,
   setClockData: PropTypes.func,
-  eventDate: PropTypes.string
+  eventDate: PropTypes.string,
+  intl: PropTypes.any
 };
 
 const mapStateToProps = state => {

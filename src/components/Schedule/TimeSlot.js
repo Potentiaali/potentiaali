@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { defaultStyles } from "../../styles/defaultStyles";
 import { colors } from "../../colors/colors";
 import { View, TouchableHighlight, Text } from "react-native-web";
@@ -66,6 +67,10 @@ export const TimeSlot = ({ content }) => {
     </View>
   );
 };
+
+TimeSlot.propTypes = {
+  content: PropTypes.any
+}
 
 const styles = {
   title: {

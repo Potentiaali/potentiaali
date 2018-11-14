@@ -1,9 +1,8 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { SingleSchedule } from "../components/Schedule/SingleSchedule";
 import { connect } from "react-redux";
 import { changeSchedule } from "../reducers/ScheduleReducer";
-// import { defineMessages } from "react-intl";
-import { injectIntl } from "react-intl";
 
 const uuidv4 = require("uuid/v4");
 
@@ -76,13 +75,7 @@ const ScheduleNavComponent = ({
 
 const ScheduleNav = injectIntl(ScheduleNavComponent);
 */
-export const SchedulePage = ({
-  schedule,
-  selected,
-  type,
-  changeSchedule,
-  intl: { formatMessage }
-}) => {
+export const SchedulePage = ({ schedule, selected, type }) => {
   let scheduleComponent = null;
   let allEvents = {};
   switch (selected) {
@@ -126,6 +119,14 @@ export const SchedulePage = ({
   );
 };
 
+SchedulePage.propTypes = {
+  schedule: PropTypes.any,
+  selected: PropTypes.string,
+  type: PropTypes.string,
+  changeSchedule: PropTypes.func,
+  intl: PropTypes.object
+};
+
 const mapStateToProps = state => {
   return {
     schedule: state.schedule.schedule,
@@ -141,4 +142,4 @@ const mapDispatchToProps = {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(injectIntl(SchedulePage));
+)(SchedulePage);

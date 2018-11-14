@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import flatMap from "lodash/flatMap";
 import { FormattedMessage } from "react-intl";
 import { Language } from "../components/partials/Language";
+import PropTypes from "prop-types";
 
 // A mapping function to parse the schedule json into a better format.
 const mapSchedule = schedule =>
@@ -118,7 +119,7 @@ const SingleSchedulePage = ({ schedule, match }) => {
           />
         }
       </b>
-      <br/>
+      <br />
       {singleSchedule.fullDescription ? (
         <pre>{singleSchedule.fullDescription}</pre>
       ) : (
@@ -129,6 +130,11 @@ const SingleSchedulePage = ({ schedule, match }) => {
       )}
     </div>
   );
+};
+
+SingleSchedulePage.propTypes = {
+  schedule: PropTypes.any,
+  match: PropTypes.any
 };
 
 const mapStateToProps = state => {
