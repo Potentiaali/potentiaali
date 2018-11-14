@@ -48,8 +48,9 @@
           "id": "a111-thinkco",
           "start": "18.00",
           "end": "19.00",
-          "name": "Helsinki Think Company",
-          "description": ""
+          "name": "Paneelikeskustelu - Helsinki Think Company",
+          "language": "fi",
+          "description": "Kuinka otin akateemisen osaamiseni käyttöön"
         }
       ]
     },
