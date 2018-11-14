@@ -94,7 +94,7 @@ const MainContent = ({ intl: { formatMessage } }) => {
               &nbsp;2
             </div>
             <div className="speedRekryItemDesc">
-              Bluefors Oy, Robu Oy, Terveystalo, Vincit
+              Columbia Road, Eatech Oy, Futurice, SAS Institute Oy
               <a href="#" target="_blank" className="speedRekryLink">
                 <FormattedMessage
                   id="main.speedRekryRegistrationSignUp"
@@ -112,8 +112,7 @@ const MainContent = ({ intl: { formatMessage } }) => {
               &nbsp;3
             </div>
             <div className="speedRekryItemDesc">
-              CGI, Perfektio Oy, Siili Solutions Oyj, Taito United Oy, Webscale
-              Oy
+              Codento Oy, Eficode Oy, Keskinäinen Eläkevakuutusyhtiö Ilmarinen, Nokia
               <a href="#" target="_blank" className="speedRekryLink">
                 <FormattedMessage
                   id="main.speedRekryRegistrationSignUp"
@@ -131,7 +130,7 @@ const MainContent = ({ intl: { formatMessage } }) => {
               &nbsp;4
             </div>
             <div className="speedRekryItemDesc">
-              Columbia Road, Eatech Oy, Futurice, SAS Institute Oy
+              Bluefors Oy, Robu Oy, Terveystalo, Vincit
               <a href="#" target="_blank" className="speedRekryLink black">
                 <FormattedMessage
                   id="main.speedRekryRegistrationSignUp"
@@ -167,8 +166,7 @@ const MainContent = ({ intl: { formatMessage } }) => {
               &nbsp;6
             </div>
             <div className="speedRekryItemDesc">
-              CSC - Tieteen tietotekniikan keskus Oy, Elisa, Trimble Solutions
-              Oy, Funidata Oy & Unigrafia Oy
+              Devisioona Oy, Digia Oyj, Foreca Oy, Reaktor Innovations Oy, VALA Group
               <a href="#" target="_blank" className="speedRekryLink">
                 <FormattedMessage
                   id="main.speedRekryRegistrationSignUp"
@@ -186,8 +184,7 @@ const MainContent = ({ intl: { formatMessage } }) => {
               &nbsp;7
             </div>
             <div className="speedRekryItemDesc">
-              Codento Oy, Eficode Oy, Keskinäinen Eläkevakuutusyhtiö Ilmarinen,
-              Nokia
+            CGI, Perfektio Oy, Siili Solutions Oyj, Taito United Oy, Webscale Oy
               <a href="#" target="_blank" className="speedRekryLink">
                 <FormattedMessage
                   id="main.speedRekryRegistrationSignUp"
@@ -205,8 +202,7 @@ const MainContent = ({ intl: { formatMessage } }) => {
               &nbsp;8
             </div>
             <div className="speedRekryItemDesc">
-              Devisioona Oy, Digia Oyj, Foreca Oy, Reaktor Innovations Oy, VALA
-              Group
+              CSC - Tieteen tietotekniikan keskus Oy, Elisa, Trimble Solutions Oy, Funidata Oy & Unigrafia Oy
               <a href="#" target="_blank" className="speedRekryLink black">
                 <FormattedMessage
                   id="main.speedRekryRegistrationSignUp"

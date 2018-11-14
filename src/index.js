@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.scss";
 import AppWrapper from "./AppWrapper";
-import registerServiceWorker from "./registerServiceWorker";
+import * as serviceWorker from './serviceWorker';
 import { Provider } from "react-redux";
 import { applyMiddleware, combineReducers, createStore } from "redux";
 import clockReducer from "./reducers/ClockReducer";
@@ -30,4 +30,5 @@ ReactDOM.render(
   </Provider>,
   document.getElementById("root")
 );
-registerServiceWorker();
+
+serviceWorker.register();
