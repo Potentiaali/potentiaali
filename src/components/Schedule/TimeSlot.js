@@ -2,6 +2,7 @@ import React from "react";
 import { defaultStyles } from "../../styles/defaultStyles";
 import { colors } from "../../colors/colors";
 import { View, TouchableHighlight, Text } from "react-native-web";
+import { Language } from "../partials/Language";
 import Textfit from "react-textfit";
 
 const getDurationInHours = function(start, end) {
@@ -31,31 +32,38 @@ export const TimeSlot = ({ content }) => {
   };
 
   return (
-      <View>
-        <TouchableHighlight
-          activeOpacity={1}
-          underlayColor={"#ffffff"}
-          style={[styles.container, conditionalStyles]}
-        >
-          {content.name === "" ? (
-            <View />
-          ) : (
-            <View style={styles.timeSlot}>
-              <Text style={[defaultStyles.title3, styles.title]}>
-                <Textfit mode="single" max={20}>
-                  {content.name.toUpperCase()}
-                </Textfit>
-              </Text>
-              <Text style={styles.text2}>
-                {content.start} - {content.end}
-              </Text>
-              <Text style={[defaultStyles.text, styles.text]}>
+    <View>
+      <TouchableHighlight
+        activeOpacity={1}
+        underlayColor={"#ffffff"}
+        style={[styles.container, conditionalStyles]}
+      >
+        {content.name === "" ? (
+          <View />
+        ) : (
+          <View style={styles.timeSlot}>
+            <Text style={[defaultStyles.title3, styles.title]}>
+              <Textfit mode="single" max={20}>
+                {content.name.toUpperCase()}
+                {content.language && (
+                  <span>
+                    {"  "}(<Language lang={content.language} />)
+                  </span>
+                )}
+              </Textfit>
+            </Text>
+            <Text style={styles.text2}>
+              {content.start} - {content.end}
+            </Text>
+            <Text style={[defaultStyles.text, styles.text]}>
+              <Textfit mode="multi" max={10}>
                 {content.description}
-              </Text>
-            </View>
-          )}
-        </TouchableHighlight>
-      </View>
+              </Textfit>
+            </Text>
+          </View>
+        )}
+      </TouchableHighlight>
+    </View>
   );
 };
 
@@ -74,8 +82,7 @@ const styles = {
     height: 40,
     display: "flex",
     alignItems: "center",
-    justifyContent: "center",
-    fontSize: "10pt"
+    justifyContent: "center"
   },
   text2: {
     width: "100%",

@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import flatMap from "lodash/flatMap";
 import { FormattedMessage } from "react-intl";
+import { Language } from "../components/partials/Language";
 
 // A mapping function to parse the schedule json into a better format.
 const mapSchedule = schedule =>
@@ -40,7 +41,7 @@ const SingleSchedulePage = ({ schedule, match }) => {
   );
   if (!singleSchedule) {
     return (
-      <div className="page" style={{ paddingBottom: 50, paddingTop: 50 }}>
+      <div className="page" style={{ paddingBottom: 50, paddingTop: 20 }}>
         <FormattedMessage
           id="singleSchedule.eventNotFound"
           defaultMessage="Tapahtumaa ei löydy"
@@ -49,8 +50,9 @@ const SingleSchedulePage = ({ schedule, match }) => {
     );
   }
   return (
-    <div className="page" style={{ paddingBottom: 50, paddingTop: 50 }}>
+    <div className="page" style={{ paddingBottom: 50, paddingTop: 20 }}>
       <h1>{singleSchedule.name}</h1>
+      <h3>{singleSchedule.description}</h3>
       <b>
         {
           <FormattedMessage
@@ -67,6 +69,47 @@ const SingleSchedulePage = ({ schedule, match }) => {
       </b>
       {singleSchedule.start} - {singleSchedule.end}
       <br />
+      {singleSchedule.language && (
+        <span>
+          <b>
+            <FormattedMessage
+              id="singleSchedule.language"
+              defaultMessage="Kieli"
+            />
+          </b>
+          : <Language lang={singleSchedule.language} />
+        </span>
+      )}
+      {singleSchedule.language && <br />}
+      {singleSchedule.link && (
+        <b>
+          <FormattedMessage
+            id="singleSchedule.linkText"
+            defaultMessage="Ilmoittautumislinkki"
+          />
+          :{" "}
+          <a
+            className="basic-link break-word"
+            href={singleSchedule.link}
+            target="__blank"
+          >
+            {singleSchedule.link}
+          </a>
+        </b>
+      )}
+      {singleSchedule.link && <br />}
+      {singleSchedule.speakers && (
+        <span>
+          <b>
+            <FormattedMessage
+              id="singleSchedule.speakersText"
+              defaultMessage="Puhujat"
+            />
+          </b>
+          : {singleSchedule.speakers}
+        </span>
+      )}
+      {singleSchedule.speakers && <br />}
       <b>
         {
           <FormattedMessage
@@ -75,14 +118,15 @@ const SingleSchedulePage = ({ schedule, match }) => {
           />
         }
       </b>
-      <p>
-        {singleSchedule.description || (
-          <FormattedMessage
-            id="singleSchedule.noDescription"
-            defaultMessage="(Ei kuvausta)"
-          />
-        )}
-      </p>
+      <br/>
+      {singleSchedule.fullDescription ? (
+        <pre>{singleSchedule.fullDescription}</pre>
+      ) : (
+        <FormattedMessage
+          id="singleSchedule.noDescription"
+          defaultMessage="(Ei kuvausta)"
+        />
+      )}
     </div>
   );
 };

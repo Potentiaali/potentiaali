@@ -719,10 +719,10 @@ div.speedRekryGrid {
       color: black;
     }
     &.item-5 {
-      background-color: #7C4DFF;
+      background-color: #7c4dff;
     }
     &.item-6 {
-      background-color: #607D8B;
+      background-color: #607d8b;
     }
     &.item-7 {
       background-color: #00bcd4;
@@ -771,6 +771,30 @@ div.speedRekryGrid {
       }
     }
   }
+}
+
+a.basic-link {
+  text-transform: none;
+  font-size: 100%;
+  letter-spacing: normal;
+  text-decoration: none;
+  border: 0;
+  &:hover {
+    letter-spacing: normal;
+    text-decoration: underline;
+  }
+}
+
+.break-word {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 @media screen and (min-width: 1200px) {
@@ -832,7 +856,6 @@ div.speedRekryGrid {
     margin-left: auto;
     margin-right: auto;
   }
-  
 }
 
 video {

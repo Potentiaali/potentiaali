@@ -2,11 +2,12 @@ import React from "react";
 import { SingleSchedule } from "../components/Schedule/SingleSchedule";
 import { connect } from "react-redux";
 import { changeSchedule } from "../reducers/ScheduleReducer";
-import { defineMessages } from "react-intl";
+// import { defineMessages } from "react-intl";
 import { injectIntl } from "react-intl";
 
 const uuidv4 = require("uuid/v4");
 
+/*
 const messages = defineMessages({
   scheduleTitle: {
     id: "schedule.title",
@@ -33,6 +34,7 @@ const messages = defineMessages({
     defaultMessage: "N/A"
   }
 });
+*/
 /*
 const ScheduleNavComponent = ({
   selected,

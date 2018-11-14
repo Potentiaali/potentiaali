@@ -8,28 +8,36 @@
           "start": "12.00",
           "end": "13.00",
           "name": "Working in Finland as an International Student",
-          "description": "All the basic things you need to know about working in Finland as an International Student"
+          "language": "en",
+          "description": "All the basic things you need to know about working in Finland as an International Student",
+          "fullDescription": "An hour long info about the basic things you need to know about working in Finalnd as an international student.\r\n\r\nA The Workshop is directed especially to the International Students of Kumpula.\r\n\r\nTE Services (http:\/\/www.te-palvelut.fi\/te\/en\/)\r\n\r\nAlumni speaker: Shubham Kapoor, Cloud & HPC System Specialist, CSC\r\n\r\nAlumni speaker: Ayesha Ahmad, Senior Developer, Ericsson"
         },
         {
           "id": "b121-coach",
           "start": "13.00",
           "end": "14.00",
           "name": "Coach Cafe - HY Alumnit",
-          "description": ""
+          "language": "fi/en",
+          "description": "",
+          "fullDescription": "SIGN UP: https:\/\/www.lyyti.in\/Kumpulan_Potentiaali_2018_CoachCafe .\r\n \r\nCoachCafe - the best tips for finding a job! Are you in the need tips for your career development or do you reconsider a new direction in your career?  \r\n\r\nCoachCafe is a half an hour laid back conversation with a mentor and 3-7 students in each group, where the mentor and the students will \r\nexchange their views and exepriences on the topics they choose..\r\n\r\nThe group will meet from 13:00 to 13:30 and 13:30 to 14:00 at Exactum B121. You can join 1-2 groups (note the timetables). Two groups are in english. Gorups and the sign up form are listed below. Sign up for this form before 20.11. Notice that registration is binding.\r\n\r\n --------------------------------\r\n There will be following companies and mentors:\r\n \r\n Vala Group Oy\r\n Nelli Rovamaa (FI)\r\n HR specialist\r\n https:\/\/www.valagroup.com\/fi\/ .\r\n \r\n Suomen Terveystalo Oy\r\n Ilari Richard (FI)\r\n Kehitysjohtaja, sovelluskehitys & data\r\n https:\/\/www.terveystalo.com\/ .\r\n \r\n Eficode Oy\r\n Mikko Drocan (ENG)\r\n Senior Consultant\r\n https:\/\/www.eficode.com\/ .\r\n \r\n Siili Oy\r\n Tiia Rapeli (ENG\/FI)\r\n Head of Talent Experience\r\n https:\/\/www.siili.com\/ .\r\n \r\n Maanmittauslaitos\r\n Heli Laaksonen (FI)\r\n Johtava asiantuntija\r\n https:\/\/www.maanmittauslaitos.fi\/ .\r\n \r\n SIGN UP: https:\/\/www.lyyti.in\/Kumpulan_Potentiaali_2018_CoachCafe"
         },
         {
           "id": "b121-columbia-road",
           "start": "14.00",
           "end": "15.00",
           "name": "Columbia Road",
-          "description": ""
+          "language": "en",
+          "description": "Growth Hacking Is the New Agile",
+          "fullDescription": "We always say that Growth Hacking is the new Agile. But what is it \r\nactually, and why does it matter?\r\n\r\nToo often Growth Hacking is thought of as outside-of-the-box marketing \r\nwhen in reality it's huge shift in the ways modern companies make \r\nrevenue. Those companies that will want to hire you in a few years. \r\n\r\nGrowth Hacking is a way of working that will change how developers, \r\nanalysts and marketers work in future. To stay current, developers and \r\nanalysts cannot crunch code or numbers in a black box, and marketers \r\nneed to get into loving data fast. Growth Hacking is the framework that \r\nties everyone together into a multidisciplinary, high-performing team \r\nwith power to make a change. \r\n\r\nIn this keynote you'll learn the priciples of Growth Hacking, what a \r\nGrowth Hacking team looks like and does, and what the results of Growth \r\nHacking can look like. \r\n\r\nBe a forerunner. Become more than an implementer. Learn Growth Hacking."
         },
         {
           "id": "b121-ibm",
           "start": "15.00",
           "end": "16.00",
           "name": "IBM",
-          "description": ""
+          "language": "fi",
+          "description": "Haluatko käyttää Watson-tekoälyä omissa sovelluksissasi?",
+          "fullDescription": "Workshopissa k\u00E4yd\u00E4\u00E4n l\u00E4pi, mik\u00E4 on IBM Watson ja mihin se taipuu \r\nk\u00E4yt\u00E4nn\u00F6ss\u00E4. Workshop sis\u00E4lt\u00E4\u00E4 erilaisia demoja Watsonista ja paikan \r\np\u00E4\u00E4ll\u00E4 n\u00E4ytet\u00E4\u00E4n, kuinka teko\u00E4ly\u00E4 opetetaan puhumaan ja n\u00E4kem\u00E4\u00E4n \r\nOsallistujat voivat ottaa omat l\u00E4pp\u00E4rit mukaan."
         }
       ]
     },
@@ -44,6 +52,21 @@
           "description": ""
         }
       ]
+    },
+    "stage3": {
+      "name": "Exactum CK112",
+      "schedule": [
+        {
+          "id": "ck112-hy",
+          "start": "15.15",
+          "end": "16.00",
+          "name": "Urapalvelut HY harjoitteluinfo",
+          "language": "fi",
+          "description": "",
+          "fullDescription": "Infoissa saat tietoa harjoittelun suorittamisesta, Helsingin yliopiston harjoittelutuen haun käytännöistä sekä muista harjoitteluun liittyvistä kysymyksistä.",
+          "link": "https://elomake.helsinki.fi/lomakkeet/82677/lomake.html"
+        }
+      ]
     }
   },
   "lectures": {
@@ -55,56 +78,72 @@
           "start": "12.00",
           "end": "12.30",
           "name": "TEK & Loimu",
-          "description": ""
+          "language": "fi",
+          "description": "Minkälaista palkkaa minun tulee pyytää?",
+          "fullDescription": "Mietitk\u00F6 joskus mink\u00E4laisen palkkatoiveen voit laittaa hakemukseen? Tai \r\nmill\u00E4 perusteilla voisit pyyt\u00E4\u00E4 palkankorotusta? T\u00E4m\u00E4n keynotin aikana \r\npureudutaan palkkasuosituksiin ja siihen mill\u00E4 perusteill\u00E4 sinun tulee \r\nsaada tietyn tasoista palkkaa.",
+          "speakers": "Tuunia Ker\u00E4nen/TEK ja Suvi Liikkanen/Loimu"
         },
         {
           "id": "b123-foreca",
           "start": "12.30",
           "end": "13.00",
           "name": "Foreca",
-          "description": ""
+          "language": "en",
+          "description": "ROAD WEATHER MODELING for autonomous vehicles - HOW DO WE DO IT?",
+          "fullDescription": "Presentation starts with the basics of road weather forecasting followed\r\n by some examples of road weather use cases. We finish by touching on \r\nthe differences between forecasting for humans vs. forecasting for \r\ncomputers, in particular the computers in a connected vehicle."
         },
         {
           "id": "b123-csc",
           "start": "13.00",
           "end": "13.30",
           "name": "CSC",
-          "description": ""
+          "language": "en",
+          "description": "Supercomputers & Science",
+          "fullDescription": "What is a supercomputer, and what are they good for? In this interactive\r\n presentation session, we will discuss the largest computer \r\ninstallations in the past, present and future, their purpose, outlook \r\nand the impact of supercomputer simulations and extreme-scale data \r\nanalysis in today's scientific research."
         },
         {
           "id": "b123-op",
           "start": "14.00",
           "end": "14.30",
           "name": "OP",
-          "description": ""
+          "language": "en",
+          "description": "What does a theoretical physicist do in a bank?",
+          "speakers": "Ville Keränen, Kvantitative Analyst"
         },
         {
           "id": "b123-webscale",
           "start": "14.30",
           "end": "15.00",
           "name": "Webscale",
-          "description": ""
+          "language": "en",
+          "description": "Going real time in a webscale micro services architecture",
+          "fullDescription": "Best practises of messaging patterns in distributed systems like micro \r\nservices applications and how to achieve realtime push messaging to \r\nclients with AWS AppSync. Presention"
         },
         {
           "id": "b123-perfektio",
           "start": "15.00",
           "end": "15.30",
           "name": "Perfektio",
-          "description": ""
+          "language": "fi",
+          "description": "Liiketoiminnan muodostaminen tieteellisistä tai teknologisista oivalluksista",
+          "fullDescription": "Liiketoiminnan muodostaminen tieteellisist\u00E4 tai teknologisista \r\noivalluksista \r\n\r\nMit\u00E4 on 'deep tech' ja miksi minua pit\u00E4isi kiinnostaa?\r\nMonilla teknologisilla aloilla tieteellinen tutkimus kulkee hyvin \r\nl\u00E4hell\u00E4 kaupallisia sovellutuksia. Tutkijan uran ja suurten yritysten \r\nprosesseihin hukkumisen sijaan voi pohtia oman tieteellisen intohimon \r\nsoveltamista suoraan uutena alkavaan liiketoimintaan. T\u00E4ll\u00F6in puhutaan \r\nusein startupeista. Mutta miten l\u00E4hesty\u00E4 startup-maailmaa jos pelkk\u00E4 \r\nsana 'p\u00F6hin\u00E4' aiheuttaa n\u00E4ppyl\u00F6it\u00E4?\r\n\r\nKeynote pit\u00E4\u00E4 sis\u00E4ll\u00E4\u00E4n case-esimerkin deep tech startupista (Neuroflux \r\nOy), sis\u00E4lt\u00E4en sen alkutaipaleen vaiheet ja opit sek\u00E4 ajatuksia miten \r\nl\u00E4hte\u00E4 testaamaan oman oivalluksen potentiaalia.\r\n\r\nPuhujana: Henri Malkki (Perustaja ja toimitusjohtaja - Perfektio Oy \/ \r\nNeuvonantaja ja hallituksen j\u00E4sen - Neuroflux Oy)"
         },
         {
           "id": "b123-kesko",
           "start": "16.00",
           "end": "16.30",
           "name": "Kesko Oyj",
-          "description": ""
+          "language": "en",
+          "description": "K AI: How K Group uses machine learning to create personalized recipe recommendations",
+          "fullDescription": "Combining online and offline data provides a great opportunity to \r\ngeneralize detailed information of identified online customers to the \r\nentire customer database. This session presents a practical example on \r\nhow K Group creates recipe recommendations to all of their customers by \r\napplying machine learning techniques to a combination of online and \r\noffline data. The speaker will also give a brief overview of K Groups \r\ntechnical environment for data processing, machine learning and output \r\ndelivery to various channels.",
+          "speakers": "Niilo Latva-Pukkila, Chief Data Analyst"
         }
       ]
     }
   },
   "speedDating": {
     "stage1": {
-      "name": "Phy D104",
+      "name": "Physicum D104",
       "schedule": [
         {
           "id": "d104-rekr-1",
@@ -130,7 +169,7 @@
       ]
     },
     "stage2": {
-      "name": "Phy D105",
+      "name": "Physicum D105",
       "schedule": [
         {
           "id": "d105-rekr-2",
@@ -156,7 +195,7 @@
       ]
     },
     "stage3": {
-      "name": "Phy D106",
+      "name": "Physicum D106",
       "schedule": [
         {
           "id": "d106-rekr-3",

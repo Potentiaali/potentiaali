@@ -125,34 +125,19 @@
     "filepath": "src/components/partials/Nav.js"
   },
   {
-    "id": "schedule.title",
-    "defaultMessage": "Aikataulu",
-    "filepath": "src/pages/SchedulePage.js"
+    "id": "language.finnish",
+    "defaultMessage": "Suomi",
+    "filepath": "src/pages/SingleSchedulePage.js"
   },
   {
-    "id": "scheduleNav.all",
-    "defaultMessage": "Kaikki",
-    "filepath": "src/pages/SchedulePage.js"
+    "id": "language.english",
+    "defaultMessage": "Englanti",
+    "filepath": "src/pages/SingleSchedulePage.js"
   },
   {
-    "id": "scheduleNav.workshops",
-    "defaultMessage": "Workshopit",
-    "filepath": "src/pages/SchedulePage.js"
-  },
-  {
-    "id": "scheduleNav.lectures",
-    "defaultMessage": "Luennot",
-    "filepath": "src/pages/SchedulePage.js"
-  },
-  {
-    "id": "scheduleNav.speedDating",
-    "defaultMessage": "Speed dating",
-    "filepath": "src/pages/SchedulePage.js"
-  },
-  {
-    "id": "scheduleNav.notApplicable",
-    "defaultMessage": "N/A",
-    "filepath": "src/pages/SchedulePage.js"
+    "id": "language.englishFinnish",
+    "defaultMessage": "Suomi / Englanti",
+    "filepath": "src/pages/SingleSchedulePage.js"
   },
   {
     "id": "singleSchedule.eventNotFound",
@@ -172,6 +157,21 @@
   {
     "id": "singleSchedule.time",
     "defaultMessage": "Aika",
+    "filepath": "src/pages/SingleSchedulePage.js"
+  },
+  {
+    "id": "singleSchedule.language",
+    "defaultMessage": "Kieli",
+    "filepath": "src/pages/SingleSchedulePage.js"
+  },
+  {
+    "id": "singleSchedule.linkText",
+    "defaultMessage": "Ilmoittautumislinkki",
+    "filepath": "src/pages/SingleSchedulePage.js"
+  },
+  {
+    "id": "singleSchedule.speakersText",
+    "defaultMessage": "Puhujat",
     "filepath": "src/pages/SingleSchedulePage.js"
   },
   {
