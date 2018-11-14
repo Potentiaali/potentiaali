@@ -7,7 +7,7 @@ import { injectIntl, defineMessages, FormattedMessage } from "react-intl";
 const mainMessages = defineMessages({
   title: {
     id: "main.title1",
-    defaultMessage: "Kumpulan Potentiaali vuodelle 2018 on täynnä!"
+    defaultMessage: "Opiskelija, ennakkoilmoittautuminen alkaa pian!"
   },
   part1: {
     id: "main.part1",
