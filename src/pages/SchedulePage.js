@@ -1,7 +1,6 @@
 import React from "react";
 import { SingleSchedule } from "../components/Schedule/SingleSchedule";
 import { connect } from "react-redux";
-import classnames from "classnames";
 import { changeSchedule } from "../reducers/ScheduleReducer";
 import { defineMessages } from "react-intl";
 import { injectIntl } from "react-intl";
@@ -34,7 +33,7 @@ const messages = defineMessages({
     defaultMessage: "N/A"
   }
 });
-
+/*
 const ScheduleNavComponent = ({
   selected,
   schedule,
@@ -55,27 +54,26 @@ const ScheduleNavComponent = ({
         return "N/A";
     }
   };
+  const name = "all";
   return (
     <div className="schedule-nav-links">
-      {["all", ...Object.keys(schedule)].map(name => (
-        <span
-          className={classnames({ "is-selected": selected === name })}
-          onClick={e => {
-            e.preventDefault();
-            changeSchedule(name);
-          }}
-          key={name}
-          style={{ margin: 20 }}
-        >
-          {generateLinkText(name)}
-        </span>
-      ))}
+      <span
+        className={classnames({ "is-selected": selected === name })}
+        onClick={e => {
+          e.preventDefault();
+          changeSchedule(name);
+        }}
+        key={name}
+        style={{ margin: 20 }}
+      >
+        {generateLinkText(name)}
+      </span>
     </div>
   );
 };
 
 const ScheduleNav = injectIntl(ScheduleNavComponent);
-
+*/
 export const SchedulePage = ({
   schedule,
   selected,
@@ -120,12 +118,7 @@ export const SchedulePage = ({
   }
   return (
     <div className="page">
-      <h1>{formatMessage(messages.scheduleTitle)}</h1>
-      <ScheduleNav
-        selected={selected}
-        schedule={schedule}
-        changeSchedule={changeSchedule}
-      />
+      {/*<h1>{formatMessage(messages.scheduleTitle)}</h1>*/}
       {scheduleComponent}
     </div>
   );

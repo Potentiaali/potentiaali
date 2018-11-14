@@ -63,15 +63,15 @@ const styles = {
   title: {
     width: "100%",
     margin: 0,
-    fontSize: 17,
+    fontSize: 15,
     fontWeight: "bold",
-    lineHeight: 30,
-    height: 30,
+    lineHeight: 15,
+    height: 15,
     padding: 10
   },
   text: {
     width: "100%",
-    height: 60,
+    height: 40,
     display: "flex",
     alignItems: "center",
     justifyContent: "center",

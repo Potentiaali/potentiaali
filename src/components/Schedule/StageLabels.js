@@ -39,7 +39,7 @@ const styles = {
     borderTopWidth: 1,
     borderColor: "white",
     backgroundColor: colors.orange,
-    minHeight: 80
+    height: 20
   },
   stageLabelText: {
     textAlign: "center"
