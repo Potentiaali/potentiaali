@@ -101,12 +101,12 @@
   },
   {
     "id": "hero.reviewMessage1",
-    "defaultMessage": "Ehdottomasti laadukas opiskelijatapahtuma!",
+    "defaultMessage": "Default 1",
     "filepath": "src/components/partials/Hero.js"
   },
   {
     "id": "hero.reviewMessage2",
-    "defaultMessage": "Hyvät keskustelut, paljon porukkaa, mukavat yhteyshenkilöt ja muutenkin järjestelyt toimivat. Jatkot olivat loistavat.",
+    "defaultMessage": "Default 2",
     "filepath": "src/components/partials/Hero.js"
   },
   {

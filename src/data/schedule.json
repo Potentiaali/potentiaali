@@ -32,6 +32,18 @@
           "description": ""
         }
       ]
+    },
+    "stage2": {
+      "name": "Exactum A111",
+      "schedule": [
+        {
+          "id": "a111-thinkco",
+          "start": "18.00",
+          "end": "19.00",
+          "name": "Helsinki Think Company",
+          "description": ""
+        }
+      ]
     }
   },
   "lectures": {

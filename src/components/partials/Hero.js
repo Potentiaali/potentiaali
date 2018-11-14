@@ -10,12 +10,11 @@ const heroMessages = defineMessages({
   },
   review1: {
     id: "hero.reviewMessage1",
-    defaultMessage: "Ehdottomasti laadukas opiskelijatapahtuma!"
+    defaultMessage: "Default 1"
   },
   review2: {
     id: "hero.reviewMessage2",
-    defaultMessage:
-      "Hyvät keskustelut, paljon porukkaa, mukavat yhteyshenkilöt ja muutenkin järjestelyt toimivat. Jatkot olivat loistavat."
+    defaultMessage: "Default 2"
   }
 });
 
@@ -47,13 +46,11 @@ const HeroComponent = ({ intl: { formatMessage } }) => {
           {formatMessage(heroMessages.scheduleTitle) + " "}
           <b>{config.eventDate}</b>
           <br />
-          <br />
-          <br />
           {reviews.map(review => (
             <React.Fragment key={review.text}>
               <br />
               <br />
-              <span>“{review.text}“</span>
+              <span>{review.text}</span>
             </React.Fragment>
           ))}
         </p>
