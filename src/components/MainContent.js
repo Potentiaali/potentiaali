@@ -95,7 +95,7 @@ const MainContent = ({ intl: { formatMessage } }) => {
               &nbsp;2
             </div>
             <div className="speedRekryItemDesc">
-              Columbia Road, Eatech Oy, Futurice, SAS Institute Oy
+              Columbia Road, Eatech Oy, Futurice
               <a href="#" target="_blank" className="speedRekryLink">
                 <FormattedMessage
                   id="main.speedRekryRegistrationSignUp"
