@@ -164,7 +164,9 @@ nav {
   top: 80px;
   left: 0;
   visibility: visible;
-  a {
+  a,
+  .changeLanguage {
+    display: inline-block;
     font-weight: normal;
     padding: 0;
     width: 100%;
@@ -172,6 +174,7 @@ nav {
     line-height: 40px;
     color: rgb(221, 221, 221);
     border: 0;
+    background: 0;
   }
 }
 
