@@ -329,7 +329,9 @@ const MainContent = ({ intl: { formatMessage } }) => {
           </li>
           <li>
             <b>{formatMessage(mainMessages.time)}</b>:{" "}
-            {formatMessage(mainMessages.eventDay)} {config.eventDate}
+            {formatMessage(mainMessages.eventDay)} {config.eventDate}{" "}
+            <FormattedMessage id="hero.timePrefix" defaultMessage="klo" />{" "}
+            {config.eventTime}
           </li>
         </ul>
       </div>

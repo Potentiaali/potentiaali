@@ -1,7 +1,7 @@
 import React from "react";
 import Clock from "./Clock";
 import config from "../../data/config.json";
-import { injectIntl, defineMessages } from "react-intl";
+import { injectIntl, defineMessages, FormattedMessage } from "react-intl";
 import PropTypes from "prop-types";
 
 const heroMessages = defineMessages({
@@ -45,7 +45,7 @@ const HeroComponent = ({ intl: { formatMessage } }) => {
         </h1>
         <p>
           {formatMessage(heroMessages.scheduleTitle) + " "}
-          <b>{config.eventDate}</b>
+          <b>{config.eventDate} <FormattedMessage id="hero.timePrefix" defaultMessage="klo"/> {config.eventTime}</b>
           <br />
           {reviews.map(review => (
             <React.Fragment key={review.text}>
