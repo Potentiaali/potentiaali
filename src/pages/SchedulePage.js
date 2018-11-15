@@ -89,7 +89,7 @@ export const SchedulePage = ({ schedule, selected, type }) => {
       scheduleComponent = (
         <SingleSchedule
           start={"12:00"}
-          end={"20:00"}
+          end={"23:00"}
           scheduleData={allEvents}
           selected={selected}
           type={type}
