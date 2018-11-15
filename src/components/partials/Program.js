@@ -2,6 +2,7 @@ import React from "react";
 import "./Program.scss";
 import { Accordion } from "../Accordion/Accordion";
 import { FormattedMessage } from "react-intl";
+import Textfit from "react-textfit";
 
 export const Program = () => {
   return (
@@ -18,12 +19,14 @@ export const Program = () => {
           imageTitle={true}
           title={<img src="Potentiaali_speeddates.png" alt="Speed dates" />}
         >
-          <h2>
-            <FormattedMessage
-              id="program.speedDatingTitle"
-              defaultMessage="Rekry speed dating"
-            />
-          </h2>
+          <Textfit mode="single" max={20}>
+            <h2>
+              <FormattedMessage
+                id="program.speedDatingTitle"
+                defaultMessage="Rekry speed dating"
+              />
+            </h2>
+          </Textfit>
           <p>
             <FormattedMessage
               id="program.speedDatingInfo_1"
@@ -49,12 +52,14 @@ export const Program = () => {
           imageTitle={true}
           title={<img src="Potentiaali_workshop.png" alt="Workshops" />}
         >
-          <h1>
-            <FormattedMessage
-              id="program.workshopTitle"
-              defaultMessage="Workshops"
-            />
-          </h1>
+          <Textfit mode="single" max={20}>
+            <h2>
+              <FormattedMessage
+                id="program.workshopTitle"
+                defaultMessage="Workshops"
+              />
+            </h2>
+          </Textfit>
           <p>
             <FormattedMessage
               id="program.workshopInfo_1"
@@ -69,12 +74,14 @@ export const Program = () => {
           imageTitle={true}
           title={<img src="Potentiaali_keynote.png" alt="Keynotes" />}
         >
-          <h1>
-            <FormattedMessage
-              id="program.keynoteTitle"
-              defaultMessage="Keynotes"
-            />
-          </h1>
+          <Textfit mode="single" max={20}>
+            <h2>
+              <FormattedMessage
+                id="program.keynoteTitle"
+                defaultMessage="Keynotes"
+              />
+            </h2>
+          </Textfit>
           <p>
             <FormattedMessage
               id="program.keynoteInfo_1"
@@ -86,12 +93,14 @@ export const Program = () => {
           imageTitle={true}
           title={<img src="Potentiaali_kokkarit.png" alt="Kokkarit" />}
         >
-          <h1>
-            <FormattedMessage
-              id="program.cocktailTitle"
-              defaultMessage="Cocktail hour"
-            />
-          </h1>
+          <Textfit mode="single" max={20}>
+            <h2>
+              <FormattedMessage
+                id="program.cocktailTitle"
+                defaultMessage="Cocktail hour"
+              />
+            </h2>
+          </Textfit>
           <p>
             <FormattedMessage
               id="program.cocktailInfo_1"
@@ -103,12 +112,14 @@ export const Program = () => {
           imageTitle={true}
           title={<img src="Potentiaali_paneeli.png" alt="Paneeli" />}
         >
-          <h1>
-            <FormattedMessage
-              id="program.panelDiscussion.title"
-              defaultMessage="Paneelikeskustelu - Helsinki Think Company"
-            />
-          </h1>
+          <Textfit mode="single" max={20}>
+            <h2>
+              <FormattedMessage
+                id="program.panelDiscussion.title"
+                defaultMessage="Paneelikeskustelu - Helsinki Think Company"
+              />
+            </h2>
+          </Textfit>
           <p>
             <FormattedMessage
               id="program.panelDiscussionInfo_1"
@@ -127,12 +138,14 @@ export const Program = () => {
           imageTitle={true}
           title={<img src="Potentiaali_jatkot.png" alt="Jatkot" />}
         >
-          <h1>
-            <FormattedMessage
-              id="program.afterpartyTitle"
-              defaultMessage="Jatkot"
-            />
-          </h1>
+          <Textfit mode="single" max={20}>
+            <h2>
+              <FormattedMessage
+                id="program.afterpartyTitle"
+                defaultMessage="Jatkot"
+              />
+            </h2>
+          </Textfit>
           <p>
             <FormattedMessage
               id="program.afterpartyInfo_1"
