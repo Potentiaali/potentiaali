@@ -2,8 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import Companies from "./../components/partials/Companies";
 import { Program } from "./../components/partials/Program";
-
+import classNames from "classnames";
 import { injectIntl, defineMessages, FormattedMessage } from "react-intl";
+
+const ilmoOpen = false;
 
 const mainMessages = defineMessages({
   title: {
@@ -78,12 +80,24 @@ const MainContent = ({ intl: { formatMessage } }) => {
             </div>
             <div className="speedRekryItemDesc">
               IBM Finland, Kesko Oyj, OP, Sogeti Finland
-              <a href="#" target="_blank" className="speedRekryLink">
+              <a
+                href="#"
+                target="_blank"
+                className={classNames("speedRekryLink", {
+                  "rekry-disabled": !ilmoOpen
+                })}
+              >
                 <FormattedMessage
                   id="main.speedRekryRegistrationSignUp"
                   defaultMessage="Ilmoittaudu"
                 />
               </a>
+              {!ilmoOpen && (
+                <FormattedMessage
+                  id="main.speedRekryRegistrationTime"
+                  defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
+                />
+              )}
             </div>
           </div>
           <div className="speedRekryItem item-2">
@@ -96,12 +110,24 @@ const MainContent = ({ intl: { formatMessage } }) => {
             </div>
             <div className="speedRekryItemDesc">
               Columbia Road, Eatech Oy, Futurice
-              <a href="#" target="_blank" className="speedRekryLink">
+              <a
+                href="#"
+                target="_blank"
+                className={classNames("speedRekryLink", {
+                  "rekry-disabled": !ilmoOpen
+                })}
+              >
                 <FormattedMessage
                   id="main.speedRekryRegistrationSignUp"
                   defaultMessage="Ilmoittaudu"
                 />
               </a>
+              {!ilmoOpen && (
+                <FormattedMessage
+                  id="main.speedRekryRegistrationTime"
+                  defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
+                />
+              )}
             </div>
           </div>
           <div className="speedRekryItem item-3">
@@ -115,12 +141,24 @@ const MainContent = ({ intl: { formatMessage } }) => {
             <div className="speedRekryItemDesc">
               Codento Oy, Eficode Oy, Keskinäinen Eläkevakuutusyhtiö Ilmarinen,
               Nokia
-              <a href="#" target="_blank" className="speedRekryLink">
+              <a
+                href="#"
+                target="_blank"
+                className={classNames("speedRekryLink", {
+                  "rekry-disabled": !ilmoOpen
+                })}
+              >
                 <FormattedMessage
                   id="main.speedRekryRegistrationSignUp"
                   defaultMessage="Ilmoittaudu"
                 />
               </a>
+              {!ilmoOpen && (
+                <FormattedMessage
+                  id="main.speedRekryRegistrationTime"
+                  defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
+                />
+              )}
             </div>
           </div>
           <div className="speedRekryItem item-4">
@@ -133,12 +171,24 @@ const MainContent = ({ intl: { formatMessage } }) => {
             </div>
             <div className="speedRekryItemDesc">
               Bluefors Oy, Robu Oy, Terveystalo, Vincit
-              <a href="#" target="_blank" className="speedRekryLink black">
+              <a
+                href="#"
+                target="_blank"
+                className={classNames("speedRekryLink black", {
+                  "rekry-disabled": !ilmoOpen
+                })}
+              >
                 <FormattedMessage
                   id="main.speedRekryRegistrationSignUp"
                   defaultMessage="Ilmoittaudu"
                 />
               </a>
+              {!ilmoOpen && (
+                <FormattedMessage
+                  id="main.speedRekryRegistrationTime"
+                  defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
+                />
+              )}
             </div>
           </div>
           <div className="speedRekryItem item-5">
@@ -151,12 +201,24 @@ const MainContent = ({ intl: { formatMessage } }) => {
             </div>
             <div className="speedRekryItemDesc">
               Accenture Oy, DAIN Studios, Dream Broker, Solita Oy, Streamr
-              <a href="#" target="_blank" className="speedRekryLink">
+              <a
+                href="#"
+                target="_blank"
+                className={classNames("speedRekryLink", {
+                  "rekry-disabled": !ilmoOpen
+                })}
+              >
                 <FormattedMessage
                   id="main.speedRekryRegistrationSignUp"
                   defaultMessage="Ilmoittaudu"
                 />
               </a>
+              {!ilmoOpen && (
+                <FormattedMessage
+                  id="main.speedRekryRegistrationTime"
+                  defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
+                />
+              )}
             </div>
           </div>
           <div className="speedRekryItem item-6">
@@ -170,12 +232,24 @@ const MainContent = ({ intl: { formatMessage } }) => {
             <div className="speedRekryItemDesc">
               Devisioona Oy, Digia Oyj, Foreca Oy, Reaktor Innovations Oy, VALA
               Group
-              <a href="#" target="_blank" className="speedRekryLink">
+              <a
+                href="#"
+                target="_blank"
+                className={classNames("speedRekryLink", {
+                  "rekry-disabled": !ilmoOpen
+                })}
+              >
                 <FormattedMessage
                   id="main.speedRekryRegistrationSignUp"
                   defaultMessage="Ilmoittaudu"
                 />
               </a>
+              {!ilmoOpen && (
+                <FormattedMessage
+                  id="main.speedRekryRegistrationTime"
+                  defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
+                />
+              )}
             </div>
           </div>
           <div className="speedRekryItem item-7">
@@ -189,12 +263,24 @@ const MainContent = ({ intl: { formatMessage } }) => {
             <div className="speedRekryItemDesc">
               CGI, Perfektio Oy, Siili Solutions Oyj, Taito United Oy, Webscale
               Oy
-              <a href="#" target="_blank" className="speedRekryLink">
+              <a
+                href="#"
+                target="_blank"
+                className={classNames("speedRekryLink", {
+                  "rekry-disabled": !ilmoOpen
+                })}
+              >
                 <FormattedMessage
                   id="main.speedRekryRegistrationSignUp"
                   defaultMessage="Ilmoittaudu"
                 />
               </a>
+              {!ilmoOpen && (
+                <FormattedMessage
+                  id="main.speedRekryRegistrationTime"
+                  defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
+                />
+              )}
             </div>
           </div>
           <div className="speedRekryItem item-8">
@@ -208,12 +294,24 @@ const MainContent = ({ intl: { formatMessage } }) => {
             <div className="speedRekryItemDesc">
               CSC - Tieteen tietotekniikan keskus Oy, Elisa, Trimble Solutions
               Oy, Funidata Oy & Unigrafia Oy
-              <a href="#" target="_blank" className="speedRekryLink black">
+              <a
+                href="#"
+                target="_blank"
+                className={classNames("speedRekryLink black", {
+                  "rekry-disabled": !ilmoOpen
+                })}
+              >
                 <FormattedMessage
                   id="main.speedRekryRegistrationSignUp"
                   defaultMessage="Ilmoittaudu"
                 />
               </a>
+              {!ilmoOpen && (
+                <FormattedMessage
+                  id="main.speedRekryRegistrationTime"
+                  defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
+                />
+              )}
             </div>
           </div>
         </div>
