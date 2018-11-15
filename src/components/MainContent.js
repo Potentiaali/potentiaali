@@ -4,6 +4,7 @@ import Companies from "./../components/partials/Companies";
 import { Program } from "./../components/partials/Program";
 import classNames from "classnames";
 import { injectIntl, defineMessages, FormattedMessage } from "react-intl";
+import config from "../data/config.json";
 
 const ilmoOpen = false;
 
@@ -328,7 +329,7 @@ const MainContent = ({ intl: { formatMessage } }) => {
           </li>
           <li>
             <b>{formatMessage(mainMessages.time)}</b>:{" "}
-            {formatMessage(mainMessages.eventDay)} 22.11.2018
+            {formatMessage(mainMessages.eventDay)} {config.eventDate}
           </li>
         </ul>
       </div>
