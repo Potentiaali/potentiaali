@@ -60,6 +60,11 @@
     "filepath": "src/components/MainContent.js"
   },
   {
+    "id": "main.speedRekryRegistrationTime",
+    "defaultMessage": "Ilmoittautuminen aukeaa 17.11. klo 12:00",
+    "filepath": "src/components/MainContent.js"
+  },
+  {
     "id": "clock.days",
     "defaultMessage": "päivää",
     "filepath": "src/components/partials/Clock.js"
