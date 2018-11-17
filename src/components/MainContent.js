@@ -5,8 +5,7 @@ import { Program } from "./../components/partials/Program";
 import classNames from "classnames";
 import { injectIntl, defineMessages, FormattedMessage } from "react-intl";
 import config from "../data/config.json";
-
-const ilmoOpen = false;
+import ilmo from "../data/ilmo.json";
 
 const mainMessages = defineMessages({
   title: {
@@ -71,7 +70,7 @@ const MainContent = ({ intl: { formatMessage } }) => {
           />
         </h2>
         <div className="speedRekryGrid">
-          <div className="speedRekryItem item-1 full">
+          <div className="speedRekryItem item-1">
             <div className="speedRekryItemTitle">
               <FormattedMessage
                 id="main.speedRekryRegistrationGroup"
@@ -82,18 +81,26 @@ const MainContent = ({ intl: { formatMessage } }) => {
             <div className="speedRekryItemDesc">
               IBM Finland, Kesko Oyj, OP, Sogeti Finland
               <a
-                href="#"
+                href={ilmo.open ? ilmo.ilmo1.link : "#"}
                 target="_blank"
+                rel="noopener noreferrer"
                 className={classNames("speedRekryLink", {
-                  "rekry-disabled": !ilmoOpen
+                  "rekry-disabled": !ilmo.open || ilmo.ilmo1.full
                 })}
               >
-                <FormattedMessage
-                  id="main.speedRekryRegistrationSignUp"
-                  defaultMessage="Ilmoittaudu"
-                />
+                {!ilmo.ilmo1.full ? (
+                  <FormattedMessage
+                    id="main.speedRekryRegistrationSignUp"
+                    defaultMessage="Ilmoittaudu"
+                  />
+                ) : (
+                  <FormattedMessage
+                    id="main.speedRekryRegistrationFull"
+                    defaultMessage="Täynnä"
+                  />
+                )}
               </a>
-              {!ilmoOpen && (
+              {!ilmo.open && (
                 <FormattedMessage
                   id="main.speedRekryRegistrationTime"
                   defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
@@ -110,20 +117,28 @@ const MainContent = ({ intl: { formatMessage } }) => {
               &nbsp;2
             </div>
             <div className="speedRekryItemDesc">
-              Columbia Road, Eatech Oy, Futurice
+              Columbia Road, DAIN Studios, Eatech Oy, Futurice
               <a
-                href="#"
+                href={ilmo.open ? ilmo.ilmo2.link : "#"}
                 target="_blank"
+                rel="noopener noreferrer"
                 className={classNames("speedRekryLink", {
-                  "rekry-disabled": !ilmoOpen
+                  "rekry-disabled": !ilmo.open || ilmo.ilmo2.full
                 })}
               >
-                <FormattedMessage
-                  id="main.speedRekryRegistrationSignUp"
-                  defaultMessage="Ilmoittaudu"
-                />
+                {!ilmo.ilmo2.full ? (
+                  <FormattedMessage
+                    id="main.speedRekryRegistrationSignUp"
+                    defaultMessage="Ilmoittaudu"
+                  />
+                ) : (
+                  <FormattedMessage
+                    id="main.speedRekryRegistrationFull"
+                    defaultMessage="Täynnä"
+                  />
+                )}
               </a>
-              {!ilmoOpen && (
+              {!ilmo.open && (
                 <FormattedMessage
                   id="main.speedRekryRegistrationTime"
                   defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
@@ -143,18 +158,26 @@ const MainContent = ({ intl: { formatMessage } }) => {
               Codento Oy, Eficode Oy, Keskinäinen Eläkevakuutusyhtiö Ilmarinen,
               Nokia
               <a
-                href="#"
+                href={ilmo.open ? ilmo.ilmo3.link : "#"}
                 target="_blank"
+                rel="noopener noreferrer"
                 className={classNames("speedRekryLink", {
-                  "rekry-disabled": !ilmoOpen
+                  "rekry-disabled": !ilmo.open || ilmo.ilmo3.full
                 })}
               >
-                <FormattedMessage
-                  id="main.speedRekryRegistrationSignUp"
-                  defaultMessage="Ilmoittaudu"
-                />
+                {!ilmo.ilmo3.full ? (
+                  <FormattedMessage
+                    id="main.speedRekryRegistrationSignUp"
+                    defaultMessage="Ilmoittaudu"
+                  />
+                ) : (
+                  <FormattedMessage
+                    id="main.speedRekryRegistrationFull"
+                    defaultMessage="Täynnä"
+                  />
+                )}
               </a>
-              {!ilmoOpen && (
+              {!ilmo.open && (
                 <FormattedMessage
                   id="main.speedRekryRegistrationTime"
                   defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
@@ -173,18 +196,26 @@ const MainContent = ({ intl: { formatMessage } }) => {
             <div className="speedRekryItemDesc">
               Bluefors Oy, Robu Oy, Terveystalo, Vincit
               <a
-                href="#"
+                href={ilmo.open ? ilmo.ilmo4.link : "#"}
                 target="_blank"
+                rel="noopener noreferrer"
                 className={classNames("speedRekryLink black", {
-                  "rekry-disabled": !ilmoOpen
+                  "rekry-disabled": !ilmo.open || ilmo.ilmo4.full
                 })}
               >
-                <FormattedMessage
-                  id="main.speedRekryRegistrationSignUp"
-                  defaultMessage="Ilmoittaudu"
-                />
+                {!ilmo.ilmo4.full ? (
+                  <FormattedMessage
+                    id="main.speedRekryRegistrationSignUp"
+                    defaultMessage="Ilmoittaudu"
+                  />
+                ) : (
+                  <FormattedMessage
+                    id="main.speedRekryRegistrationFull"
+                    defaultMessage="Täynnä"
+                  />
+                )}
               </a>
-              {!ilmoOpen && (
+              {!ilmo.open && (
                 <FormattedMessage
                   id="main.speedRekryRegistrationTime"
                   defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
@@ -201,20 +232,28 @@ const MainContent = ({ intl: { formatMessage } }) => {
               &nbsp;5
             </div>
             <div className="speedRekryItemDesc">
-              Accenture Oy, DAIN Studios, Dream Broker, Solita Oy, Streamr
+              Accenture Oy, Dream Broker, Solita Oy, Streamr
               <a
-                href="#"
+                href={ilmo.open ? ilmo.ilmo5.link : "#"}
                 target="_blank"
+                rel="noopener noreferrer"
                 className={classNames("speedRekryLink", {
-                  "rekry-disabled": !ilmoOpen
+                  "rekry-disabled": !ilmo.open || ilmo.ilmo5.full
                 })}
               >
-                <FormattedMessage
-                  id="main.speedRekryRegistrationSignUp"
-                  defaultMessage="Ilmoittaudu"
-                />
+                {!ilmo.ilmo5.full ? (
+                  <FormattedMessage
+                    id="main.speedRekryRegistrationSignUp"
+                    defaultMessage="Ilmoittaudu"
+                  />
+                ) : (
+                  <FormattedMessage
+                    id="main.speedRekryRegistrationFull"
+                    defaultMessage="Täynnä"
+                  />
+                )}
               </a>
-              {!ilmoOpen && (
+              {!ilmo.open && (
                 <FormattedMessage
                   id="main.speedRekryRegistrationTime"
                   defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
@@ -234,18 +273,26 @@ const MainContent = ({ intl: { formatMessage } }) => {
               Devisioona Oy, Digia Oyj, Foreca Oy, Reaktor Innovations Oy, VALA
               Group
               <a
-                href="#"
+                href={ilmo.open ? ilmo.ilmo6.link : "#"}
                 target="_blank"
+                rel="noopener noreferrer"
                 className={classNames("speedRekryLink", {
-                  "rekry-disabled": !ilmoOpen
+                  "rekry-disabled": !ilmo.open || ilmo.ilmo6.full
                 })}
               >
-                <FormattedMessage
-                  id="main.speedRekryRegistrationSignUp"
-                  defaultMessage="Ilmoittaudu"
-                />
+                {!ilmo.ilmo6.full ? (
+                  <FormattedMessage
+                    id="main.speedRekryRegistrationSignUp"
+                    defaultMessage="Ilmoittaudu"
+                  />
+                ) : (
+                  <FormattedMessage
+                    id="main.speedRekryRegistrationFull"
+                    defaultMessage="Täynnä"
+                  />
+                )}
               </a>
-              {!ilmoOpen && (
+              {!ilmo.open && (
                 <FormattedMessage
                   id="main.speedRekryRegistrationTime"
                   defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
@@ -265,18 +312,26 @@ const MainContent = ({ intl: { formatMessage } }) => {
               CGI, Perfektio Oy, Siili Solutions Oyj, Taito United Oy, Webscale
               Oy
               <a
-                href="#"
+                href={ilmo.open ? ilmo.ilmo7.link : "#"}
                 target="_blank"
+                rel="noopener noreferrer"
                 className={classNames("speedRekryLink", {
-                  "rekry-disabled": !ilmoOpen
+                  "rekry-disabled": !ilmo.open || ilmo.ilmo7.full
                 })}
               >
-                <FormattedMessage
-                  id="main.speedRekryRegistrationSignUp"
-                  defaultMessage="Ilmoittaudu"
-                />
+                {!ilmo.ilmo7.full ? (
+                  <FormattedMessage
+                    id="main.speedRekryRegistrationSignUp"
+                    defaultMessage="Ilmoittaudu"
+                  />
+                ) : (
+                  <FormattedMessage
+                    id="main.speedRekryRegistrationFull"
+                    defaultMessage="Täynnä"
+                  />
+                )}
               </a>
-              {!ilmoOpen && (
+              {!ilmo.open && (
                 <FormattedMessage
                   id="main.speedRekryRegistrationTime"
                   defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
@@ -296,18 +351,26 @@ const MainContent = ({ intl: { formatMessage } }) => {
               CSC - Tieteen tietotekniikan keskus Oy, Elisa, Trimble Solutions
               Oy, Funidata Oy & Unigrafia Oy
               <a
-                href="#"
+                href={ilmo.open ? ilmo.ilmo8.link : "#"}
                 target="_blank"
+                rel="noopener noreferrer"
                 className={classNames("speedRekryLink black", {
-                  "rekry-disabled": !ilmoOpen
+                  "rekry-disabled": !ilmo.open || ilmo.ilmo8.full
                 })}
               >
-                <FormattedMessage
-                  id="main.speedRekryRegistrationSignUp"
-                  defaultMessage="Ilmoittaudu"
-                />
+                {!ilmo.ilmo8.full ? (
+                  <FormattedMessage
+                    id="main.speedRekryRegistrationSignUp"
+                    defaultMessage="Ilmoittaudu"
+                  />
+                ) : (
+                  <FormattedMessage
+                    id="main.speedRekryRegistrationFull"
+                    defaultMessage="Täynnä"
+                  />
+                )}
               </a>
-              {!ilmoOpen && (
+              {!ilmo.open && (
                 <FormattedMessage
                   id="main.speedRekryRegistrationTime"
                   defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"

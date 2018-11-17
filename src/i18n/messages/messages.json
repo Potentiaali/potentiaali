@@ -65,6 +65,11 @@
     "filepath": "src/components/MainContent.js"
   },
   {
+    "id": "main.speedRekryRegistrationFull",
+    "defaultMessage": "Täynnä",
+    "filepath": "src/components/MainContent.js"
+  },
+  {
     "id": "hero.timePrefix",
     "defaultMessage": "klo",
     "filepath": "src/components/MainContent.js"
