@@ -79,7 +79,7 @@ const MainContent = ({ intl: { formatMessage } }) => {
               &nbsp;1
             </div>
             <div className="speedRekryItemDesc">
-              IBM Finland, Kesko Oyj, OP, Sogeti Finland
+              {ilmo.ilmo1.companies}
               <a
                 href={ilmo.open ? ilmo.ilmo1.link : "#"}
                 target="_blank"
@@ -117,7 +117,7 @@ const MainContent = ({ intl: { formatMessage } }) => {
               &nbsp;2
             </div>
             <div className="speedRekryItemDesc">
-              Columbia Road, DAIN Studios, Eatech Oy, Futurice
+              {ilmo.ilmo2.companies}
               <a
                 href={ilmo.open ? ilmo.ilmo2.link : "#"}
                 target="_blank"
@@ -155,8 +155,7 @@ const MainContent = ({ intl: { formatMessage } }) => {
               &nbsp;3
             </div>
             <div className="speedRekryItemDesc">
-              Codento Oy, Eficode Oy, Keskinäinen Eläkevakuutusyhtiö Ilmarinen,
-              Nokia
+              {ilmo.ilmo3.companies}
               <a
                 href={ilmo.open ? ilmo.ilmo3.link : "#"}
                 target="_blank"
@@ -194,7 +193,7 @@ const MainContent = ({ intl: { formatMessage } }) => {
               &nbsp;4
             </div>
             <div className="speedRekryItemDesc">
-              Bluefors Oy, Robu Oy, Terveystalo, Vincit
+              {ilmo.ilmo4.companies}
               <a
                 href={ilmo.open ? ilmo.ilmo4.link : "#"}
                 target="_blank"
@@ -232,7 +231,7 @@ const MainContent = ({ intl: { formatMessage } }) => {
               &nbsp;5
             </div>
             <div className="speedRekryItemDesc">
-              Accenture Oy, Dream Broker, Solita Oy, Streamr
+              {ilmo.ilmo5.companies}
               <a
                 href={ilmo.open ? ilmo.ilmo5.link : "#"}
                 target="_blank"
@@ -270,8 +269,7 @@ const MainContent = ({ intl: { formatMessage } }) => {
               &nbsp;6
             </div>
             <div className="speedRekryItemDesc">
-              Devisioona Oy, Digia Oyj, Foreca Oy, Reaktor Innovations Oy, VALA
-              Group
+              {ilmo.ilmo6.companies}
               <a
                 href={ilmo.open ? ilmo.ilmo6.link : "#"}
                 target="_blank"
@@ -309,8 +307,7 @@ const MainContent = ({ intl: { formatMessage } }) => {
               &nbsp;7
             </div>
             <div className="speedRekryItemDesc">
-              CGI, Perfektio Oy, Siili Solutions Oyj, Taito United Oy, Webscale
-              Oy
+              {ilmo.ilmo7.companies}
               <a
                 href={ilmo.open ? ilmo.ilmo7.link : "#"}
                 target="_blank"
@@ -348,8 +345,7 @@ const MainContent = ({ intl: { formatMessage } }) => {
               &nbsp;8
             </div>
             <div className="speedRekryItemDesc">
-              CSC - Tieteen tietotekniikan keskus Oy, Elisa, Trimble Solutions
-              Oy, Funidata Oy & Unigrafia Oy
+              {ilmo.ilmo8.companies}
               <a
                 href={ilmo.open ? ilmo.ilmo8.link : "#"}
                 target="_blank"

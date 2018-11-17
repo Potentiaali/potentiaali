@@ -1,41 +1,42 @@
 {
   "open": false,
   "ilmo1": {
+    "companies": "IBM Finland, Kesko Oyj, OP, Sogeti Finland",
     "full": false,
     "link": ""
   },
   "ilmo2": {
-    "companies": "",
+    "companies": "Columbia Road, DAIN Studios, Eatech Oy, Futurice",
     "full": false,
     "link": ""
   },
   "ilmo3": {
-    "companies": "",
+    "companies": "Codento Oy, Eficode Oy, Keskinäinen Eläkevakuutusyhtiö Ilmarinen, Nokia",
     "full": false,
     "link": ""
   },
   "ilmo4": {
-    "companies": "",
+    "companies": "Bluefors Oy, Robu Oy, Terveystalo, Vincit",
     "full": false,
     "link": ""
   },
   "ilmo5": {
-    "companies": "",
+    "companies": "Accenture Oy, Dream Broker, Solita Oy, Streamr",
     "full": false,
     "link": ""
   },
   "ilmo6": {
-    "companies": "",
+    "companies": "Devisioona Oy, Digia Oyj, Foreca Oy, Reaktor Innovations Oy, VALA Group",
     "full": false,
     "link": ""
   },
   "ilmo7": {
-    "companies": "",
+    "companies": "CGI, Perfektio Oy, Siili Solutions Oyj, Taito United Oy, Webscale Oy",
     "full": false,
     "link": ""
   },
   "ilmo8": {
-    "companies": "",
+    "companies": "CSC - Tieteen tietotekniikan keskus Oy, Elisa, Trimble Solutions Oy, Funidata Oy & Unigrafia Oy",
     "full": false,
     "link": ""
   }
