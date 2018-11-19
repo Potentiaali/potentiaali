@@ -220,6 +220,13 @@
       "name": "Muu ohjelma",
       "schedule": [
         {
+          "id": "cv_photography",
+          "start": "14:00",
+          "end": "17:00",
+          "name": "CV-valokuvaus (Kivipiha, Physicum)",
+          "description": "CV-valokuvausta Physicumin kivipihalla"
+        },
+        {
           "id": "cocktail",
           "start": "17:00",
           "end": "18:00",
