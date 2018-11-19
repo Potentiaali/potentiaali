@@ -1,160 +1,160 @@
 [
-  { "alt": "Fortum", "imgSrc": "companies/fortum.png", "websiteUrl": "" },
-  { "alt": "Solita", "imgSrc": "companies/solita.png", "websiteUrl": "" },
-  { "alt": "OP", "imgSrc": "companies/op.png", "websiteUrl": "" },
+  { "alt": "Fortum", "imgSrc": "companies/fortum.png", "websiteUrl": "https://www.fortum.fi/" },
+  { "alt": "Solita", "imgSrc": "companies/solita.png", "websiteUrl": "https://www.solita.fi/" },
+  { "alt": "OP", "imgSrc": "companies/op.png", "websiteUrl": "https://uusi.op.fi/op-ryhma/ura-oplla" },
   {
-    "alt": "Siili",
+    "alt": "Siili Solutions",
     "imgSrc": "companies/siilisolutions.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://www.siili.com/fi"
   },
-  { "alt": "SAS Institute", "imgSrc": "companies/sas.png", "websiteUrl": "" },
-  { "alt": "Reaktor", "imgSrc": "companies/reaktor.png", "websiteUrl": "" },
-  { "alt": "Futurice", "imgSrc": "companies/futurice.png", "websiteUrl": "" },
-  { "alt": "Solinor", "imgSrc": "companies/solinor.png", "websiteUrl": "" },
-  { "alt": "Elisa", "imgSrc": "companies/elisa.png", "websiteUrl": "" },
-  { "alt": "CGI", "imgSrc": "companies/cgi.png", "websiteUrl": "" },
-  { "alt": "Accenture", "imgSrc": "companies/accenture.png", "websiteUrl": "" },
+  { "alt": "SAS Institute", "imgSrc": "companies/sas.png", "websiteUrl": "https://www.sas.com/fi_fi/home.html" },
+  { "alt": "Reaktor", "imgSrc": "companies/reaktor.png", "websiteUrl": "https://www.reaktor.com/" },
+  { "alt": "Futurice", "imgSrc": "companies/futurice.png", "websiteUrl": "https://www.futurice.com/" },
+  { "alt": "Solinor", "imgSrc": "companies/solinor.png", "websiteUrl": "https://gofore.com/en/home/" },
+  { "alt": "Elisa", "imgSrc": "companies/elisa.png", "websiteUrl": "https://elisa.fi/" },
+  { "alt": "CGI", "imgSrc": "companies/cgi.png", "websiteUrl": "https://www.cgi.fi/" },
+  { "alt": "Accenture", "imgSrc": "companies/accenture.png", "websiteUrl": "https://www.accenture.com/fi-en/new-applied-now" },
   {
     "alt": "Maanmittauslaitos",
     "imgSrc": "companies/mml.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://www.maanmittauslaitos.fi/"
   },
   {
     "alt": "Ilmarinen",
-    "imgSrc": "https://www.ilmarinen.fi/siteassets/kuvapankki/uutishuone/logot/ilmarinenlogo_rgb.png",
-    "websiteUrl": ""
+    "imgSrc": "companies/ilmarinenlogo_rgb.png",
+    "websiteUrl": "https://www.ilmarinen.fi/"
   },
   {
     "alt": "Foreca",
-    "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Foreca_logo.svg",
-    "websiteUrl": ""
+    "imgSrc": "companies/Foreca_logo_400x92",
+    "websiteUrl": "https://www.foreca.fi/"
   },
-  { "alt": "Codento", "imgSrc": "companies/codento.png", "websiteUrl": "" },
+  { "alt": "Codento", "imgSrc": "companies/codento.png", "websiteUrl": "https://www.codento.fi/" },
   {
     "alt": "DAIN Studios",
     "imgSrc": "companies/dain_studios.png",
-    "websiteUrl": ""
+    "websiteUrl": "http://www.dainstudios.com/"
   },
   {
     "alt": "Devisioona",
     "imgSrc": "companies/Devisioona logo.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://devisioona.fi/"
   },
   {
     "alt": "Digia",
-    "imgSrc": "https://digia.com/globalassets/yritys/logo/digia_logo_rgb.png",
-    "websiteUrl": ""
+    "imgSrc": "companies/digia_logo_rgb.png",
+    "websiteUrl": "https://digia.com"
   },
   {
     "alt": "Dream Broker",
     "imgSrc": "companies/dreambroker.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://dreambroker.com/fi/"
   },
-  { "alt": "Eficode", "imgSrc": "companies/eficode.png", "websiteUrl": "" },
-  { "alt": "Gofore", "imgSrc": "companies/gofore-logo.png", "websiteUrl": "" },
+  { "alt": "Eficode", "imgSrc": "companies/eficode.png", "websiteUrl": "https://www.eficode.com/home" },
+  { "alt": "Gofore", "imgSrc": "companies/gofore-logo.png", "websiteUrl": "https://gofore.com/en/home/" },
   {
     "alt": "Software Point",
     "imgSrc": "companies/softwarepoint.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://softwarepoint.com/"
   },
   {
     "alt": "Terveystalo",
     "imgSrc": "companies/terveystalo.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://www.terveystalo.com/"
   },
   {
     "alt": "Vala Group",
     "imgSrc": "companies/VALA-logo-some-05.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://www.valagroup.com/fi/"
   },
   {
     "alt": "Perfektio",
     "imgSrc": "companies/perfektio-logo.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://www.perfektio.fi/"
   },
-  { "alt": "Webscale", "imgSrc": "companies/webscale.png", "websiteUrl": "" },
+  { "alt": "Webscale", "imgSrc": "companies/webscale.png", "websiteUrl": "https://webscale.fi/" },
   {
     "alt": "Taito United",
     "imgSrc": "companies/taito_united.png",
-    "websiteUrl": ""
+    "websiteUrl": "http://taitounited.fi/"
   },
-  { "alt": "IBM", "imgSrc": "companies/ibm.png", "websiteUrl": "" },
+  { "alt": "IBM", "imgSrc": "companies/ibm.png", "websiteUrl": "https://www.ibm.com/fi-fi/" },
   {
     "alt": "Sogeti Finland",
     "imgSrc": "companies/Sogeti_Logo.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://www.sogeti.fi/"
   },
-  { "alt": "Vaisala Oyj", "imgSrc": "companies/vaisala.png", "websiteUrl": "" },
+  { "alt": "Vaisala Oyj", "imgSrc": "companies/vaisala.png", "websiteUrl": "https://www.vaisala.com/fi" },
   {
     "alt": "Cinia",
     "imgSrc": "companies/Cinia_Logo_2014_RGB.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://www.cinia.fi/"
   },
-  { "alt": "Vincit", "imgSrc": "companies/vincit_new.jpg", "websiteUrl": "" },
-  { "alt": "Kesko Oyj", "imgSrc": "companies/kesko.png", "websiteUrl": "" },
+  { "alt": "Vincit", "imgSrc": "companies/vincit_new.jpg", "websiteUrl": "https://www.vincit.fi/" },
+  { "alt": "Kesko Oyj", "imgSrc": "companies/kesko.png", "websiteUrl": "https://kesko.fi/" },
   {
     "alt": "CSC - Tieteen tietotekniikan keskus Oy",
     "imgSrc": "companies/CSC_logo.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://www.csc.fi/fi"
   },
   {
     "alt": "Columbia Road",
     "imgSrc": "companies/Columbia_Road_Logo_Black_1024x1024.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://www.columbiaroad.com/"
   },
   {
     "alt": "Tekniikan akateemiset TEK",
     "imgSrc": "companies/tek.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://www.tek.fi/fi"
   },
   {
     "alt": "Luonnon-, ympäristö- ja metsätieteilijöiden liitto Loimu ry",
     "imgSrc": "companies/loimu.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://www.loimu.fi/"
   },
   {
     "alt": "Houston Inc. Consulting Oy",
     "imgSrc": "companies/houston_inc.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://www.houston-inc.com/"
   },
   {
     "alt": "Robu Oy",
     "imgSrc": "companies/robu.png",
-    "websiteUrl": ""
+    "websiteUrl": "http://robu.fi/"
   },
   {
     "alt": "Funidata",
     "imgSrc": "companies/Funidata_logo.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://funidata.fi/"
   },
   {
     "alt": "Unigrafia",
     "imgSrc": "companies/Unigrafia_logo.jpg",
-    "websiteUrl": ""
+    "websiteUrl": "https://unigrafia.fi/"
   },
   {
     "alt": "Trimble Solutions Oy",
     "imgSrc": "companies/trimble.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://www.tekla.com/fi"
   },
   {
     "alt": "Streamr",
     "imgSrc": "companies/streamr.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://www.streamr.com/"
   },
   {
     "alt": "Nokia",
     "imgSrc": "companies/nokia.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://www.nokia.com/fi_fi/"
   },
   {
     "alt": "Bluefors",
     "imgSrc": "companies/bluefors.png",
-    "websiteUrl": ""
+    "websiteUrl": "https://www.bluefors.com/"
   },
   {
     "alt": "Orion",
     "imgSrc": "companies/Orion_RGB.jpg",
-    "websiteUrl": ""
+    "websiteUrl": "https://www.orion.fi/"
   }
 ]
