@@ -1,6 +1,6 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
-const companies = require("../../data/companies.json");
+import companies from "../../data/companies.json";
 
 const Companies = () => {
   return (
@@ -16,7 +16,7 @@ const Companies = () => {
                 />
               }
             </h3>
-            {companies.map(company => (
+            {companies.sort((a,b) => a.alt.localeCompare(b.alt)).map(company => (
               <a
                 className="company-logo"
                 key={company.alt}

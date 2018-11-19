@@ -156,5 +156,15 @@
     "alt": "Orion",
     "imgSrc": "companies/Orion_RGB.jpg",
     "websiteUrl": "https://www.orion.fi/"
+  },
+  {
+    "alt": "Startuplifters",
+    "imgSrc": "companies/startuplifters.png",
+    "websiteUrl": "https://startuplifers.org/"
+  },
+  {
+    "alt": "Eatech",
+    "imgSrc": "companies/eatech.png",
+    "websiteUrl": "https://www.eatech.fi/"
   }
 ]
