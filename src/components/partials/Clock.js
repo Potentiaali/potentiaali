@@ -6,12 +6,12 @@ import {
   setClockInterval
 } from "./../../reducers/ClockReducer";
 import { connect } from "react-redux";
-import moment from "moment";
+// import moment from "moment";
 import "moment/locale/fi";
 import "moment/locale/en-gb";
 
-import { injectIntl, defineMessages } from "react-intl";
-
+import { injectIntl } from "react-intl";
+/*
 const clockMessages = defineMessages({
   days: {
     id: "clock.days",
@@ -30,7 +30,7 @@ const clockMessages = defineMessages({
     defaultMessage: "sekuntia"
   }
 });
-
+*/
 class Clock extends React.Component {
   /**
    * Initialize clock interval
@@ -38,6 +38,7 @@ class Clock extends React.Component {
    * @memberof App
    */
   componentDidMount() {
+    /*
     if (this.props.clockInterval === null) {
       const interval = setInterval(() => {
         const eventDay = moment(this.props.eventDate, "DD.MM.YYYY");
@@ -66,18 +67,16 @@ class Clock extends React.Component {
       clearInterval(this.props.clockInterval);
       this.props.setClockInterval(null);
     }
+    */
   }
 
   render() {
-    const {
-      intl: { formatMessage }
-    } = this.props;
     return (
       <p className="clock">
-        {this.props.daysUntil} {formatMessage(clockMessages.days)}{" "}
+        {/*{this.props.daysUntil} {formatMessage(clockMessages.days)}{" "}
         {this.props.hoursUntil} {formatMessage(clockMessages.hours)}{" "}
         {this.props.minutesUntil} {formatMessage(clockMessages.minutes)}{" "}
-        {this.props.secondsUntil} {formatMessage(clockMessages.seconds)}
+    {this.props.secondsUntil} {formatMessage(clockMessages.seconds)}*/}
       </p>
     );
   }
