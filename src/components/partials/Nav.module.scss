@@ -24,11 +24,11 @@
 }
 
 .mobile-menu {
+  visibility: hidden;
   height: 40px;
   width: 40px;
   line-height: 40px;
   border: 0;
-  visibility: hidden;
   text-decoration: none !important;
   float: right;
   :visited,
@@ -45,7 +45,6 @@
   top: 80px;
   left: 0;
   visibility: visible;
-  a,
   .changeLanguage {
     display: inline-block;
     font-weight: normal;
