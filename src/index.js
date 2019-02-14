@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.scss";
 import AppWrapper from "./AppWrapper";
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from "./serviceWorker";
 import { Provider } from "react-redux";
-import { applyMiddleware, combineReducers, createStore } from "redux";
+import { applyMiddleware, combineReducers, createStore, compose } from "redux";
 import clockReducer from "./reducers/ClockReducer";
 import thunk from "redux-thunk";
 import ScheduleReducer from "./reducers/ScheduleReducer";
@@ -20,8 +20,10 @@ const middleware = [thunk];
 
 const store = createStore(
   reducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
-  applyMiddleware(...middleware)
+  compose(
+    applyMiddleware(...middleware),
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  )
 );
 
 ReactDOM.render(
@@ -31,4 +33,4 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-serviceWorker.register();
+serviceWorker.unregister();
