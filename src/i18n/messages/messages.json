@@ -60,13 +60,13 @@
     "filepath": "src/components/MainContent.js"
   },
   {
-    "id": "main.speedRekryRegistrationTime",
-    "defaultMessage": "Ilmoittautuminen aukeaa 17.11. klo 12:00",
+    "id": "main.speedRekryRegistrationFull",
+    "defaultMessage": "Täynnä",
     "filepath": "src/components/MainContent.js"
   },
   {
-    "id": "main.speedRekryRegistrationFull",
-    "defaultMessage": "Täynnä",
+    "id": "main.speedRekryRegistrationTime",
+    "defaultMessage": "Ilmoittautuminen aukeaa 17.11. klo 12:00",
     "filepath": "src/components/MainContent.js"
   },
   {
@@ -77,172 +77,172 @@
   {
     "id": "clock.days",
     "defaultMessage": "päivää",
-    "filepath": "src/components/partials/Clock.js"
+    "filepath": "src/components/Partials/Clock.js"
   },
   {
     "id": "clock.hours",
     "defaultMessage": "tuntia",
-    "filepath": "src/components/partials/Clock.js"
+    "filepath": "src/components/Partials/Clock.js"
   },
   {
     "id": "clock.minutes",
     "defaultMessage": "minuuttia",
-    "filepath": "src/components/partials/Clock.js"
+    "filepath": "src/components/Partials/Clock.js"
   },
   {
     "id": "clock.seconds",
     "defaultMessage": "sekuntia",
-    "filepath": "src/components/partials/Clock.js"
+    "filepath": "src/components/Partials/Clock.js"
   },
   {
     "id": "companies.title",
     "defaultMessage": "Vuoden 2018 Kumpulan potentiaali -tapahtuman yritykset",
-    "filepath": "src/components/partials/Companies.js"
+    "filepath": "src/components/Partials/Companies.js"
   },
   {
     "id": "hero.contactTitle",
     "defaultMessage": "Kysyttävää?",
-    "filepath": "src/components/partials/Contact.js"
+    "filepath": "src/components/Partials/Contact.js"
   },
   {
     "id": "hero.contactDescription",
     "defaultMessage": "Tavoitat meidät sähköpostilla osoitteesta",
-    "filepath": "src/components/partials/Contact.js"
+    "filepath": "src/components/Partials/Contact.js"
   },
   {
     "id": "hero.potentiaaliDescription",
     "defaultMessage": "Työelämä- ja rekrytointitapahtuma Kumpulan kampuksella",
-    "filepath": "src/components/partials/Hero.js"
+    "filepath": "src/components/Partials/Hero.js"
   },
   {
     "id": "hero.reviewMessage1",
     "defaultMessage": "Default 1",
-    "filepath": "src/components/partials/Hero.js"
+    "filepath": "src/components/Partials/Hero.js"
   },
   {
     "id": "hero.reviewMessage2",
     "defaultMessage": "Default 2",
-    "filepath": "src/components/partials/Hero.js"
+    "filepath": "src/components/Partials/Hero.js"
   },
   {
     "id": "hero.timePrefix",
     "defaultMessage": "klo",
-    "filepath": "src/components/partials/Hero.js"
+    "filepath": "src/components/Partials/Hero.js"
   },
   {
     "id": "language.finnish",
     "defaultMessage": "Suomi",
-    "filepath": "src/components/partials/Language.js"
+    "filepath": "src/components/Partials/Language.js"
   },
   {
     "id": "language.english",
     "defaultMessage": "Englanti",
-    "filepath": "src/components/partials/Language.js"
+    "filepath": "src/components/Partials/Language.js"
   },
   {
     "id": "language.englishFinnish",
     "defaultMessage": "Suomi / Englanti",
-    "filepath": "src/components/partials/Language.js"
+    "filepath": "src/components/Partials/Language.js"
   },
   {
     "id": "nav.frontPage",
     "defaultMessage": "Etusivu",
-    "filepath": "src/components/partials/Nav.js"
+    "filepath": "src/components/Partials/Nav.js"
   },
   {
     "id": "nav.schedule",
     "defaultMessage": "Aikataulu",
-    "filepath": "src/components/partials/Nav.js"
+    "filepath": "src/components/Partials/Nav.js"
   },
   {
     "id": "nav.subjects",
     "defaultMessage": "Aineiden esittely",
-    "filepath": "src/components/partials/Nav.js"
+    "filepath": "src/components/Partials/Nav.js"
   },
   {
     "id": "program.openInstruction",
     "defaultMessage": "Paina kuvia saadaksesi lisätietoa ohjelmasta!",
-    "filepath": "src/components/partials/Program.js"
+    "filepath": "src/components/Partials/Program.js"
   },
   {
     "id": "program.speedDatingTitle",
     "defaultMessage": "Rekry speed dating",
-    "filepath": "src/components/partials/Program.js"
+    "filepath": "src/components/Partials/Program.js"
   },
   {
     "id": "program.speedDatingInfo_1",
     "defaultMessage": "Rekry Speed Datingissa tapaat pikadeittailun tapaan mahdollisten kumppaneiden sijasta mahdollisia työnantajia. Opiskelijana ilmoittaudut yhteen (tai useampaan) ryhmään, jossa on 4-5 eri työnantajaa, ja tapaat jokaisen heistä puolen tunnin pikaisen session aikana. Ennen sessiota lähetät CV:n itsestäsi yrityksille etukäteen tutustuttavaksi.",
-    "filepath": "src/components/partials/Program.js"
+    "filepath": "src/components/Partials/Program.js"
   },
   {
     "id": "program.speedDatingInfo_2",
     "defaultMessage": "Tänä vuonna yritykset saattavat antaa osallistujille jatkoaika-kutsuja, jotka ovat klo 19-21 aikana Physicumissa jatkojen aikana. Siten siis jokainen Rekry Speed Dateen osallistuva saa automaattisesti jatkorannakkeen halutessaan.",
-    "filepath": "src/components/partials/Program.js"
+    "filepath": "src/components/Partials/Program.js"
   },
   {
     "id": "program.speedDatingInfo_3",
     "defaultMessage": "Rekry Speed Dateihin on ennakkoilmoittautuminen. Ennakkoilmoittautuminen on auki nyt ja sulkeutuu kun ryhmät täyttyvät.",
-    "filepath": "src/components/partials/Program.js"
+    "filepath": "src/components/Partials/Program.js"
   },
   {
     "id": "program.workshopTitle",
     "defaultMessage": "Workshops",
-    "filepath": "src/components/partials/Program.js"
+    "filepath": "src/components/Partials/Program.js"
   },
   {
     "id": "program.workshopInfo_1",
     "defaultMessage": "Workshopit ovat intensiivisiä tunnin pituisia työpajoja, joissa opiskelija pääsee lähikontaktiin yritysten ja mentoreiden kanssa. Workshopeihin ei pääsääntöisesti tarvitse ilmoittautua etukäteen*, ja niille voi osallistua kuka vain. Osallistumispaikat täytetään saapumisjärjestyksessä. Workshopiin kannattaa tuoda mukaan oma läppäri.\n\n*Poikkeus: CoachCafe",
-    "filepath": "src/components/partials/Program.js"
+    "filepath": "src/components/Partials/Program.js"
   },
   {
     "id": "program.keynoteTitle",
     "defaultMessage": "Keynotes",
-    "filepath": "src/components/partials/Program.js"
+    "filepath": "src/components/Partials/Program.js"
   },
   {
     "id": "program.keynoteInfo_1",
     "defaultMessage": "Yritysten puolen tunnin pituisia, nopeita ja innostavia katsauksia kiinnostaviin ja polttaviin puheenaiheisiin. Aiheet ja ajat löytyvät aikataulusta. Keynote-luennot ovat kaikille avoimia (myös Kumpulan ulkopuolisille opiskelijoille).",
-    "filepath": "src/components/partials/Program.js"
+    "filepath": "src/components/Partials/Program.js"
   },
   {
     "id": "program.cocktailTitle",
     "defaultMessage": "Cocktail hour",
-    "filepath": "src/components/partials/Program.js"
+    "filepath": "src/components/Partials/Program.js"
   },
   {
     "id": "program.cocktailInfo_1",
     "defaultMessage": "Cocktail-tilaisuus järjestetään Exactumissa klo 17-18, jonne saa tulla myös opiskelijat - erityisesti ne opiskelijat, jotka ovat menossa myös jatkoille. Cocktail-tilaisuudessa tarjoillaan kuohuvaa ja pientä syötävää.",
-    "filepath": "src/components/partials/Program.js"
+    "filepath": "src/components/Partials/Program.js"
   },
   {
     "id": "program.panelDiscussion.title",
     "defaultMessage": "Paneelikeskustelu - Helsinki Think Company",
-    "filepath": "src/components/partials/Program.js"
+    "filepath": "src/components/Partials/Program.js"
   },
   {
     "id": "program.panelDiscussionInfo_1",
     "defaultMessage": "Cocktail-tilaisuuden ja jatkojen välissä järjestetään kaikille avoin paneelikeskustelu-tilaisuus, jonka houstaa Helsinki Think Company. Aiheesta “Kuinka otin akateemisen osaamiseni käyttöön” tulee puhumaan eri alojen asiantuntijoita sekä Kumpulan omia opiskelijoita.",
-    "filepath": "src/components/partials/Program.js"
+    "filepath": "src/components/Partials/Program.js"
   },
   {
     "id": "program.panelDiscussionInfo_2",
     "defaultMessage": "Tilaisuuden kieli on suomi.",
-    "filepath": "src/components/partials/Program.js"
+    "filepath": "src/components/Partials/Program.js"
   },
   {
     "id": "program.afterpartyTitle",
     "defaultMessage": "Jatkot",
-    "filepath": "src/components/partials/Program.js"
+    "filepath": "src/components/Partials/Program.js"
   },
   {
     "id": "program.afterpartyInfo_1",
     "defaultMessage": "Jatkot kajahtavat käyntiin klo 19 alkaen Physicumin aulassa. Jatkoilla on yritysedustajia sekä opiskelijoita yhteensä 500. Jatkoille päästäksesi tarvitset jatkorannekkeen, joita jaetaan tapahtuman info-pisteellä tasatunnein - olethan paikalla, mikäli halajat sellaisen!",
-    "filepath": "src/components/partials/Program.js"
+    "filepath": "src/components/Partials/Program.js"
   },
   {
     "id": "program.afterpartyInfo_2",
     "defaultMessage": "Jatkoilla esiintyy Anssi Kela, woop!",
-    "filepath": "src/components/partials/Program.js"
+    "filepath": "src/components/Partials/Program.js"
   },
   {
     "id": "singleSchedule.eventNotFound",

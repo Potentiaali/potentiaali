@@ -87,14 +87,14 @@ const Nav = ({ lang, intl: { formatMessage }, setLanguage }) => {
               )}
             {lang === "en" ? (
               <button
-                className="changeLanguage"
+                className={styles.changeLanguageMobile}
                 onClick={() => setLanguage("fi")}
               >
                 Suomeksi
               </button>
             ) : (
               <button
-                className="changeLanguage"
+                className={styles.changeLanguageMobile}
                 onClick={() => setLanguage("en")}
               >
                 In English
