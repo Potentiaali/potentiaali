@@ -1,18 +1,19 @@
-import PropTypes from "prop-types";
 import React from "react";
-
+import PropTypes from "prop-types";
 import styles from "./Footer.module.scss";
 
-
-const Footer = props => {
-  return (
-    <footer className={styles.footer}>
-      {props.logos.map(logo => (
-        <img src={logo.src} alt={logo.alt} key={logo.alt} className={styles.footerImg}/>
-      ))}
-    </footer>
-  );
-};
+const Footer = ({ logos }) => (
+  <footer className={styles.footer}>
+    {logos.map(logo => (
+      <img
+        src={logo.src}
+        alt={logo.alt}
+        key={logo.alt}
+        className={styles.footerImg}
+      />
+    ))}
+  </footer>
+);
 
 Footer.propTypes = {
   logos: PropTypes.array

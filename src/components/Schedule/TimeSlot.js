@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { defaultStyles } from "../../styles/defaultStyles";
 import { colors } from "../../colors/colors";
 import { View, TouchableHighlight, Text } from "react-native-web";
-import { Language } from "../partials/Language";
+import { Language } from "../Partials/Language";
 import Textfit from "react-textfit";
 
 const getDurationInHours = function(start, end) {

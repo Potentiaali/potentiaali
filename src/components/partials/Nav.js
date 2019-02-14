@@ -5,6 +5,8 @@ import { connect } from "react-redux";
 import { setLanguage } from "../../reducers/LocalizationReducer";
 import { injectIntl, defineMessages } from "react-intl";
 
+import styles from "./Nav.module.scss";
+
 const menuMessages = defineMessages({
   frontPage: {
     id: "nav.frontPage",
@@ -70,16 +72,20 @@ class Nav extends React.Component {
     ];
 
     return (
-      <nav>
-        <div className="container">
-          <NavLink to="/" className="nav-logo">
+      <nav className={styles.navigation}>
+        <div className={styles["navigation-container"]}>
+          <NavLink to="/" className={styles["nav-logo"]}>
             <img
               className=""
               src="/logos/potentiaali-black.png"
               alt="Kumpulan Potentiaali"
             />
           </NavLink>
-          <a href="#menu" className="mobile-menu" onClick={this.handleClick}>
+          <a
+            href="#menu"
+            className={styles["mobile-menu"]}
+            onClick={this.handleClick}
+          >
             <span
               className={
                 !this.state.menuOpen
@@ -89,7 +95,7 @@ class Nav extends React.Component {
             />
           </a>
           {this.state.menuOpen && (
-            <div className="mobile-nav-links">
+            <div className={styles["mobile-nav-links"]}>
               {menu &&
                 menu.map(
                   menuItem =>
@@ -98,7 +104,7 @@ class Nav extends React.Component {
                         exact
                         to={menuItem.link}
                         key={menuItem.linkName}
-                        activeClassName="active-link"
+                        activeClassName={"active-link"}
                       >
                         {menuItem.name}
                       </NavLink>
@@ -121,7 +127,7 @@ class Nav extends React.Component {
               )}
             </div>
           )}
-          <div className="nav-links">
+          <div className={styles["nav-links"]}>
             {menu &&
               menu.map(
                 menuItem =>
@@ -138,14 +144,14 @@ class Nav extends React.Component {
               )}
             {lang === "en" ? (
               <button
-                className="changeLanguage"
+                className={styles.changeLanguage}
                 onClick={() => this.props.setLanguage("fi")}
               >
                 Suomeksi
               </button>
             ) : (
               <button
-                className="changeLanguage"
+                className={styles.changeLanguage}
                 onClick={() => this.props.setLanguage("en")}
               >
                 In English
