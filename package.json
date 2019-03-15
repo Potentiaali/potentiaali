@@ -38,10 +38,10 @@
     "manage:translations": "node ./translationRunner.js"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "^4.1.11",
-    "@storybook/addon-links": "^4.1.11",
-    "@storybook/addons": "^4.1.11",
-    "@storybook/react": "^4.1.11",
+    "@storybook/addon-actions": "^5.0.1",
+    "@storybook/addon-links": "^5.0.1",
+    "@storybook/addons": "^5.0.1",
+    "@storybook/react": "^5.0.1",
     "css-loader": "2.1.1",
     "node-sass": "^4.11.0",
     "react-intl-cra": "^0.3.4",
