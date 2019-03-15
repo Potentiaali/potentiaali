@@ -80,6 +80,7 @@ const Nav = ({ lang, intl: { formatMessage }, setLanguage }) => {
                       to={menuItem.link}
                       key={menuItem.linkName}
                       activeClassName="active-link"
+                      className={styles["mobile-nav-link"]}
                     >
                       {menuItem.name}
                     </NavLink>
@@ -112,6 +113,7 @@ const Nav = ({ lang, intl: { formatMessage }, setLanguage }) => {
                     to={menuItem.link}
                     key={menuItem.linkName}
                     activeClassName="active-link"
+                    className={styles["nav-link"]}
                   >
                     {menuItem.name}
                   </NavLink>

@@ -7,20 +7,16 @@ $max-width-browser: 800px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-}
 
-@media only screen and (max-width: $max-width-browser) {
-  .program {
+  @media only screen and (max-width: $max-width-browser) {
     img {
       margin: 20px;
       width: 90%;
       box-sizing: border-box;
     }
   }
-}
 
-@media only screen and (min-width: $min-width-browser) {
-  .program {
+  @media only screen and (min-width: $min-width-browser) {
     img {
       margin: 20px;
       width: 25%;

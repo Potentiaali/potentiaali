@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 
-import "./Accordion.scss";
+import styles from "./Accordion.module.scss";
 import classNames from "classnames";
 
 export const Accordion = props => {
@@ -9,24 +9,24 @@ export const Accordion = props => {
 
   return (
     <div
-      className={classNames("accordion", {
-        shadow: !props.noShadow,
-        imageAccordion: props.imageTitle
+      className={classNames(styles.accordion, {
+        [styles.shadow]: !props.noShadow,
+        [styles.imageAccordion]: props.imageTitle
       })}
     >
-      <div className="accordion-header" onClick={() => setOpen(!isOpen)}>
+      <div className={styles["accordion-header"]} onClick={() => setOpen(!isOpen)}>
         {!props.imageTitle && (
-          <div className="accordion-button">{isOpen ? "-" : "+"}</div>
+          <div className={styles["accordion-button"]}>{isOpen ? "-" : "+"}</div>
         )}
-        <div className="accordion-title">{props.title}</div>
+        <div className={styles["accordion-title"]}>{props.title}</div>
       </div>
       <div
-        className={classNames("accordion-content", {
-          "is-open": isOpen,
-          "inner-shadow": props.inner
+        className={classNames(styles["accordion-content"], {
+          [styles["is-open"]]: isOpen,
+          [styles["inner-shadow"]]: props.inner
         })}
       >
-        <div className="content">{props.children}</div>
+        <div className={styles.content}>{props.children}</div>
       </div>
     </div>
   );

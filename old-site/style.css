@@ -100,7 +100,7 @@ a.nav-logo img {
 
 .nav-links a:focus,
 .nav-links a:hover {
-  letter-spacing: 0;
+  /* letter-spacing: 0; */
 }
 
 h1,
@@ -534,7 +534,7 @@ a.bright {
 a:active,
 a:focus,
 a:hover {
-  letter-spacing: 0.05em;
+  /* letter-spacing: 0.05em; */
   text-decoration: none;
 }
 

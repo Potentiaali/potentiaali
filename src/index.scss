@@ -143,6 +143,8 @@ body {
   padding-top: 80px;
   text-align: center;
   word-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .active-link {
@@ -151,7 +153,7 @@ body {
 
 .nav-links a:focus,
 .nav-links a:hover {
-  letter-spacing: 0;
+  /* letter-spacing: 0; */
 }
 
 h1,
@@ -477,13 +479,18 @@ td.happenin a {
 }
 
 a {
-  border-bottom: 2px solid #666;
-  color: #666;
   display: inline-block;
   font-weight: 700;
   letter-spacing: 0;
   text-decoration: none;
   text-transform: uppercase;
+  &:visited,
+  &:active,
+  &:hover {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+  }
 }
 
 a:not(.event-link) {
@@ -504,7 +511,7 @@ a.bright {
 a:active:not(.event-link),
 a:focus:not(.event-link),
 a:hover:not(.event-link) {
-  letter-spacing: 0.05em;
+  /* letter-spacing: 0.05em; */
   text-decoration: none;
 }
 
@@ -639,7 +646,7 @@ a.basic-link {
   text-decoration: none;
   border: 0;
   &:hover {
-    letter-spacing: normal;
+    /* letter-spacing: normal; */
     text-decoration: underline;
   }
 }
@@ -742,7 +749,7 @@ iframe {
     }
     &:focus,
     &:hover {
-      letter-spacing: 0;
+      /* letter-spacing: 0; */
       cursor: pointer;
     }
   }
