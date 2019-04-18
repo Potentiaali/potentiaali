@@ -1,7 +1,7 @@
 import React from "react";
-import Nav from "./components/Partials/Nav";
+import Nav from "./components/partials/Nav";
 import { Route, Switch } from "react-router-dom";
-import Footer from "./components/Partials/Footer";
+import Footer from "./components/partials/Footer";
 import logos from "./data/logos.json";
 import config from "./data/config.json";
 import moment from "moment";
@@ -9,7 +9,7 @@ import "moment/locale/fi";
 import "moment/locale/en-gb";
 
 import { MainPage } from "./pages/MainPage";
-import Contact from "./components/Partials/Contact";
+import Contact from "./components/partials/Contact";
 import SchedulePage from "./pages/SchedulePage";
 import SingleSchedulePage from "./pages/SingleSchedulePage";
 import { SubjectsPage } from "./pages/SubjectsPage";

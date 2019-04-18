@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import flatMap from "lodash/flatMap";
 import { FormattedMessage } from "react-intl";
-import { Language } from "../components/Partials/Language";
+import { Language } from "../components/partials/Language";
 import PropTypes from "prop-types";
 
 // A mapping function to parse the schedule json into a better format.

@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Companies from "./../components/Partials/Companies";
-import { Program } from "./../components/Partials/Program";
+import Companies from "./../components/partials/Companies";
+import { Program } from "./../components/partials/Program";
 import classNames from "classnames";
 import { injectIntl, defineMessages, FormattedMessage } from "react-intl";
 import config from "../data/config.json";
