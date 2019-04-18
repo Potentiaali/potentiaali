@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Program.module.scss";
-import { Accordion } from "../Accordion/Accordion";
+import { Accordion } from "../accordion/Accordion";
 import { FormattedMessage } from "react-intl";
 import Textfit from "react-textfit";
 
