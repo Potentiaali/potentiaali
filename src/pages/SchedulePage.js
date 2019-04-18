@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { SingleSchedule } from "../components/Schedule/SingleSchedule";
+import { SingleSchedule } from "../components/schedule/SingleSchedule";
 import { connect } from "react-redux";
 import { changeSchedule } from "../reducers/ScheduleReducer";
 
