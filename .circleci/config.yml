@@ -11,7 +11,7 @@ jobs:
             echo "deb http://archive.debian.org/debian/ jessie main" | sudo tee -a /etc/apt/sources.list
             sudo apt-get update
       - run:
-          name: Istall python-dev and python-pip
+          name: Install python-dev and python-pip
           command: sudo apt-get install python-dev python-pip
       - run:
           name: Install awscli
