@@ -2,7 +2,7 @@ version: 2
 jobs:
   deploy:
     docker:
-      - image: circleci/node:9.10
+      - image: circleci/node:10.1
     steps:
       - run:
           name: Update package listing & install python-dev and python-pip
