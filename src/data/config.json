@@ -1,5 +1,8 @@
 {
-  "eventDate": "22.11.2018",
-  "eventTime": "11 - 17",
-  "defaultLocale": "fi"
+  "eventDate": "14.11.2019",
+  "eventTime": "10 - 17",
+  "defaultLocale": "fi",
+  "speedRekryOpen": false,
+  "showProgramView": false,
+  "showCompanies": false
 }

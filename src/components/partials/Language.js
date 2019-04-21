@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { FormattedMessage } from "react-intl";
 
 export const Language = ({ lang }) => {
@@ -29,3 +30,7 @@ export const Language = ({ lang }) => {
       return <span />;
   }
 };
+
+Language.propTypes = {
+  lang: PropTypes.string.isRequired
+}

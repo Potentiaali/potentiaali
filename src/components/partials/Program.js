@@ -1,6 +1,6 @@
 import React from "react";
-import "./Program.scss";
-import { Accordion } from "../Accordion/Accordion";
+import styles from "./Program.module.scss";
+import { Accordion } from "../accordion/Accordion";
 import { FormattedMessage } from "react-intl";
 import Textfit from "react-textfit";
 
@@ -14,7 +14,7 @@ export const Program = () => {
         />
       </h4>
       <br />
-      <div className="program">
+      <div className={styles.program}>
         <Accordion
           imageTitle={true}
           title={<img src="Potentiaali_speeddates.png" alt="Speed dates" />}

@@ -4,6 +4,8 @@ import config from "../../data/config.json";
 import { injectIntl, defineMessages, FormattedMessage } from "react-intl";
 import PropTypes from "prop-types";
 
+import styles from "./Hero.module.scss";
+
 const heroMessages = defineMessages({
   scheduleTitle: {
     id: "hero.potentiaaliDescription",
@@ -30,22 +32,32 @@ const HeroComponent = ({ intl: { formatMessage } }) => {
   ];
 
   return (
-    <section className="hero">
-      <video poster="juku.png" muted loop autoPlay preload="true">
+    <section className={styles.hero}>
+      <video
+        poster="juku.png"
+        muted
+        loop
+        autoPlay
+        preload="true"
+      >
         <source src="DJI_0014.mp4" type="video/mp4" />
       </video>
-      <div className="overlay" />
-      <div className="container">
+      <div className={styles["hero-overlay"]} />
+      <div className={styles["hero-container"]}>
         <h1>
           <img
-            className="hero-logo"
+            className={styles["hero-logo"]}
             src="logos/potentiaali-black.png"
             alt="Kumpulan Potentiaali"
           />
         </h1>
-        <p>
+        <p className={styles["hero-paragraph"]}>
           {formatMessage(heroMessages.scheduleTitle) + " "}
-          <b>{config.eventDate} <FormattedMessage id="hero.timePrefix" defaultMessage="klo"/> {config.eventTime}</b>
+          <b>
+            {config.eventDate}{" "}
+            <FormattedMessage id="hero.timePrefix" defaultMessage="klo" />{" "}
+            {config.eventTime}
+          </b>
           <br />
           {reviews.map(review => (
             <React.Fragment key={review.text}>
@@ -64,7 +76,7 @@ const HeroComponent = ({ intl: { formatMessage } }) => {
 
 HeroComponent.propTypes = {
   intl: PropTypes.any
-}
+};
 
 const Hero = injectIntl(HeroComponent);
 

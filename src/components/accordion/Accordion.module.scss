@@ -1,0 +1,89 @@
+.accordion {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  &.shadow {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  &.imageAccordion {
+    display: inline-block;
+    width: 300px;
+    > .accordion-header {
+      height: auto;
+      justify-content: center;
+      > .accordion-title {
+        width: 100%;
+      }
+    }
+    img {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+.accordion-header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+.accordion-button {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50px;
+}
+.accordion-title {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: calc(100% - 50px);
+}
+.accordion-content {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  overflow: hidden;
+  -moz-transition: max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  max-height: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  &.is-open {
+    max-height: 2000px;
+  }
+  ul {
+    padding-left: 30px;
+    list-style-type: disc !important;
+    li {
+      text-align: left;
+    }
+  }
+}
+
+.content {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+}

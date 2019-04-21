@@ -1,140 +1,6 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* COOL STUFF */
-
 html,
 body {
   line-height: 1.5;
-  margin: 0;
-  padding: 0;
 }
 
 body {
@@ -143,78 +9,17 @@ body {
   padding-top: 80px;
   text-align: center;
   word-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-nav {
-  background: #fff;
-  box-sizing: border-box;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  height: 80px;
-  padding: 20px 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 101;
-}
-
-.mobile-nav-links {
-  width: 100%;
-  background: rgba(0, 0, 0, 0.733);
-  position: fixed;
-  top: 80px;
-  left: 0;
-  visibility: visible;
-  a,
-  .changeLanguage {
-    display: inline-block;
-    font-weight: normal;
-    padding: 0;
-    width: 100%;
-    height: 40px;
-    line-height: 40px;
-    color: rgb(221, 221, 221);
-    border: 0;
-    background: 0;
-  }
-}
-
-a.nav-logo {
-  border: 0;
-  float: left;
-  img {
-    height: 40px;
-  }
-}
-
-.nav-links {
-  float: right;
-  a,
-  .changeLanguage {
-    display: inline-block;
-    border-bottom: 0;
-    font-weight: normal;
-    margin: 10px 0 0 15px;
-    padding: 0;
-    text-transform: uppercase;
-  }
-}
-
-button.changeLanguage {
-  &:hover {
-    cursor: pointer;
-  }
-  border: 0;
-  font-size: 100%;
-  color: gray;
-}
-
-a.active-link {
-  font-weight: 900;
+.active-link {
+  font-weight: 900 !important; // Hack
 }
 
 .nav-links a:focus,
 .nav-links a:hover {
-  letter-spacing: 0;
+  /* letter-spacing: 0; */
 }
 
 h1,
@@ -276,42 +81,6 @@ section {
   font-weight: 300;
 }
 
-section.hero {
-  background: url("/kansikuva2.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-  color: #2d2204;
-
-  text-align: left;
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-}
-
-p.clock {
-  padding-top: 50px;
-  color: white;
-}
-
-section.hero .languages {
-  bottom: 40px;
-  left: 0;
-  position: absolute;
-  width: 100%;
-  z-index: 100;
-  a {
-    color: black;
-    border-color: black;
-  }
-  &.hero-companies {
-    padding-bottom: 8%;
-    padding-top: 8%;
-  }
-}
-
 section.section-skills {
   text-align: left;
   p {
@@ -326,26 +95,6 @@ section.section-skills {
 .container {
   margin: 0 auto;
   max-width: 90%;
-}
-
-section.hero > .container {
-  z-index: 3;
-  position: relative;
-}
-
-section.hero > .overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  background-color: rgba(255, 151, 0, 0.6);
-}
-
-section.hero p {
-  font-size: 24px;
-  font-weight: 400;
 }
 
 section.coop {
@@ -365,27 +114,10 @@ section.speeddates {
   }
 }
 
-footer {
-  background: #222;
-  padding: 40px 20px;
-  text-align: center;
-}
-
-footer img {
-  margin: 10px 10px;
-  max-height: 70px;
-  max-width: 100px;
-  vertical-align: middle;
-}
-
 .centered-block {
   display: inline-block;
   margin: 0 auto;
   width: auto;
-}
-
-.hero-logo {
-  max-width: 70%;
 }
 
 .logos {
@@ -564,6 +296,14 @@ td.happenin a {
   padding: 20px;
 }
 
+@mixin col-x {
+  @for $i from 1 through $columns {
+    .col-#{$i} {
+      width: $column-size * $i;
+    }
+  }
+}
+
 .col-1 {
   width: 8.3333%;
 }
@@ -612,14 +352,20 @@ td.happenin a {
   width: 100%;
 }
 
+// Link styling
 a {
-  border-bottom: 2px solid #666;
-  color: #666;
   display: inline-block;
   font-weight: 700;
   letter-spacing: 0;
   text-decoration: none;
   text-transform: uppercase;
+  &:visited,
+  &:active,
+  &:hover {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+  }
 }
 
 a:not(.event-link) {
@@ -640,29 +386,15 @@ a.bright {
 a:active:not(.event-link),
 a:focus:not(.event-link),
 a:hover:not(.event-link) {
-  letter-spacing: 0.05em;
+  /* letter-spacing: 0.05em; */
   text-decoration: none;
-}
-
-a.mobile-menu {
-  height: 40px;
-  width: 40px;
-  line-height: 40px;
-  border: 0;
-  visibility: hidden;
-  text-decoration: none !important;
-  float: right;
-  :visited,
-  :active,
-  :hover {
-    text-decoration: none !important;
-  }
 }
 
 a.company-logo {
   border: 0;
 }
 
+// Markdown page styling
 div.markdownPage {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -687,6 +419,7 @@ div.markdownPage {
   }
 }
 
+// Speed rekry grid styling
 div.speedRekryGrid {
   display: grid;
   grid-template-columns: auto auto;
@@ -790,7 +523,7 @@ a.basic-link {
   text-decoration: none;
   border: 0;
   &:hover {
-    letter-spacing: normal;
+    /* letter-spacing: normal; */
     text-decoration: underline;
   }
 }
@@ -847,12 +580,12 @@ a.basic-link {
     height: auto;
   }
 
-  a.mobile-menu {
-    visibility: visible;
-  }
-
   .nav-links {
     visibility: hidden;
+  }
+
+  .mobile-menu {
+    visibility: visible;
   }
 
   div.speedRekryGrid {
@@ -866,16 +599,6 @@ a.basic-link {
     margin-left: auto;
     margin-right: auto;
   }
-}
-
-video {
-  left: 50%;
-  min-height: 100%;
-  min-width: 100%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  z-index: 1;
 }
 
 iframe {
@@ -903,7 +626,7 @@ iframe {
     }
     &:focus,
     &:hover {
-      letter-spacing: 0;
+      /* letter-spacing: 0; */
       cursor: pointer;
     }
   }
