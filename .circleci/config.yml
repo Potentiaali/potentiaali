@@ -5,8 +5,14 @@ jobs:
       - image: circleci/node:10.1
     steps:
       - run:
-          name: Update package listing & install python-dev and python-pip
-          command: sudo apt-get update && sudo apt-get install python-dev python-pip
+          name: Fix circleci issue with jessie-update binary list on 20180326
+          command: |
+            sudo cat /dev/null > /etc/apt/sources.list
+            echo "deb http://archive.debian.org/debian/ jessie main" | sudo tee -a /etc/apt/sources.list
+            sudo apt-get update
+      - run:
+          name: Istall python-dev and python-pip
+          command: sudo apt-get install python-dev python-pip
       - run:
           name: Install awscli
           command: sudo pip install awscli
