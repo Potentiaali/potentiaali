@@ -1,4 +1,4 @@
-import { applyMiddleware, combineReducers, createStore, compose } from "redux";
+import { applyMiddleware, combineReducers, createStore } from "redux";
 import thunk from "redux-thunk";
 import ScheduleReducer from "./reducers/ScheduleReducer";
 import LocalizationReducer from "./reducers/LocalizationReducer";
@@ -12,8 +12,5 @@ const middleware = [thunk];
 
 export const store = createStore(
   reducer,
-  compose(
-    applyMiddleware(...middleware),
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
-  )
+  applyMiddleware(...middleware)
 );
