@@ -5,6 +5,9 @@ jobs:
       - image: circleci/node:10.1
     steps:
       - run:
+          name: Hotfix
+          command: sudo sed -i '/jessie-backports/d' /etc/apt/sources.list && sudo sed -i '/jessie-updates/d' /etc/apt/sources.list
+      - run:
           name: Update package listing & install python-dev and python-pip
           command: sudo apt-get update && sudo apt-get install python-dev python-pip
       - run:
