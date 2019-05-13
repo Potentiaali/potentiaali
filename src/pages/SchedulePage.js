@@ -76,6 +76,10 @@ const ScheduleNavComponent = ({
 const ScheduleNav = injectIntl(ScheduleNavComponent);
 */
 export const SchedulePage = ({ schedule, selected, type }) => {
+
+  return (
+    <div />
+  )
   let scheduleComponent = null;
   let allEvents = {};
   switch (selected) {
