@@ -154,13 +154,11 @@ const SpeedRekry = () => (
         defaultMessage="Ilmoittaudu Speed rekryyn"
       />
     </h2>
-    <div className="speedRekryGrid">
-
+    {config.speedRekryOpen === true && <div className="speedRekryGrid">
       {ilmot.map((ilmo, i) =>
         <SpeedRekryItem key={i} {...ilmo} id={i + 1} open={open} />
       )}
-
-    </div>
+    </div>}
   </div>
 );
 
