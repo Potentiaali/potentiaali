@@ -7,7 +7,7 @@ import { colors } from "../../colors/colors";
 import { ScrollView, Text, View } from "react-native-web";
 import { Link } from "react-router-dom";
 
-const fillEmptySlots = function (schedule, programStart, programEnd) {
+const fillEmptySlots = function(schedule, programStart, programEnd) {
   let filledSchedule = schedule
     .sort((a, b) => a.start > b.start)
     .reduce((newSchedule, slot, i) => {
@@ -59,7 +59,7 @@ const fillEmptySlots = function (schedule, programStart, programEnd) {
   return filledSchedule;
 };
 
-const generateHourStrings = function (start, end) {
+const generateHourStrings = function(start, end) {
   const startHour = moment()
     .hours(start.split(":")[0])
     .minutes(0);
@@ -77,11 +77,8 @@ const generateHourStrings = function (start, end) {
 };
 
 export const Schedule = ({ schedule, start, end, type }) => {
-  return (
-    <div>
-    </div>
-  )
 
+  
   return (
     <View style={styles.container}>
       <ScrollView horizontal bounces={false}>
@@ -110,8 +107,8 @@ export const Schedule = ({ schedule, start, end, type }) => {
                       <TimeSlot content={slot} key={slot.start} type={type} />
                     </Link>
                   ) : (
-                      <TimeSlot content={slot} key={slot.start} type={type} />
-                    );
+                    <TimeSlot content={slot} key={slot.start} type={type} />
+                  );
                 })}
               </View>
             );

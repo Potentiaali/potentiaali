@@ -2,7 +2,7 @@
   "eventDate": "14.11.2019",
   "eventTime": "10 - 17",
   "defaultLocale": "fi",
-  "speedRekryOpen": true,
+  "speedRekryOpen": false,
   "showProgramView": false,
   "showCompanies": false
 }
