@@ -3,55 +3,43 @@ import PropTypes from "prop-types";
 import { NavLink, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import { setLanguage, changeLocales } from "../../reducers/LocalizationReducer";
-import { injectIntl, defineMessages } from "react-intl";
-
+import { injectIntl } from "react-intl";
+import { Localized } from "fluent-react/compat";
+import classNames from "classnames";
 import styles from "./Nav.module.scss";
-
-const menuMessages = defineMessages({
-  frontPage: {
-    id: "nav.frontPage",
-    defaultMessage: "Etusivu"
-  },
-  schedule: {
-    id: "nav.schedule",
-    defaultMessage: "Aikataulu"
-  },
-  subjects: {
-    id: "nav.subjects",
-    defaultMessage: "Aineiden esittely"
-  }
-});
 
 const Nav = ({
   lang,
-  intl: { formatMessage },
   setLanguage,
-  //currentLocales,
-  //isFetching,
+  currentLocales,
+  isFetching,
   changeLocales
 }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   // New fluent implementation
-  //const [current] = currentLocales;
-  //const available = ["fi", "en-US"];
-  //const next = available[(available.indexOf(current) + 1) % available.length];
+  const [current] = currentLocales;
+  const available = ["fi", "en-US"];
+  const next = available[(available.indexOf(current) + 1) % available.length];
 
   const menu = [
     {
-      name: formatMessage(menuMessages.frontPage),
+      id: "frontPage",
+      name: "Etusivu",
       linkName: "",
       link: "/",
       disabled: false
     },
     {
-      name: formatMessage(menuMessages.schedule),
+      id: "schedulePage",
+      name: "Aikataulu",
       linkName: "schedule",
       link: "/schedule",
       disabled: false
     },
     {
-      name: formatMessage(menuMessages.subjects),
+      id: "subjectsPage",
+      name: "Aineiden esittely",
       linkName: "subjects",
       link: "/subjects",
       disabled: false
@@ -74,11 +62,12 @@ const Nav = ({
           onClick={() => setMenuOpen(!menuOpen)}
         >
           <span
-            className={
-              !menuOpen
-                ? "fa fa-bars mobile-menu-icon"
-                : "fa fa-close mobile-menu-icon"
-            }
+            className={classNames({
+              fa: true,
+              ["fa-bars"]: !menuOpen,
+              ["fa-close"]: menuOpen,
+              ["mobile-menu-icon"]: true
+            })}
           />
         </a>
         {menuOpen && (
@@ -87,38 +76,31 @@ const Nav = ({
               menu.map(
                 menuItem =>
                   !menuItem.disabled && (
-                    <NavLink
-                      exact
-                      to={menuItem.link}
-                      key={menuItem.linkName}
-                      activeClassName="active-link"
-                      className={styles["mobile-nav-link"]}
-                    >
-                      {menuItem.name}
-                    </NavLink>
+                    <Localized id={menuItem.id}>
+                      <NavLink
+                        exact
+                        to={menuItem.link}
+                        key={menuItem.linkName}
+                        activeClassName="active-link"
+                        className={styles["mobile-nav-link"]}
+                      >
+                        {menuItem.name}
+                      </NavLink>
+                    </Localized>
                   )
               )}
-            {lang === "en" ? (
+            <Localized id="changeLocaleButton" $locale={current}>
               <button
                 className={styles.changeLanguageMobile}
                 onClick={() => {
                   setLanguage("fi");
-                  changeLocales(["fi"]);
+                  changeLocales([next]);
                 }}
+                disabled={isFetching}
               >
-                Suomeksi
+                {"$locale"}
               </button>
-            ) : (
-              <button
-                className={styles.changeLanguageMobile}
-                onClick={() => {
-                  setLanguage("en");
-                  changeLocales(["en-US"]);
-                }}
-              >
-                In English
-              </button>
-            )}
+            </Localized>
           </div>
         )}
         <div className={styles["nav-links"]}>
@@ -126,32 +108,31 @@ const Nav = ({
             menu.map(
               menuItem =>
                 !menuItem.disabled && (
-                  <NavLink
-                    exact
-                    to={menuItem.link}
-                    key={menuItem.linkName}
-                    activeClassName="active-link"
-                    className={styles["nav-link"]}
-                  >
-                    {menuItem.name}
-                  </NavLink>
+                  <Localized id={menuItem.id}>
+                    <NavLink
+                      exact
+                      to={menuItem.link}
+                      key={menuItem.linkName}
+                      activeClassName="active-link"
+                      className={styles["nav-link"]}
+                    >
+                      {menuItem.name}
+                    </NavLink>
+                  </Localized>
                 )
             )}
-          {lang === "en" ? (
+          <Localized id="changeLocaleButton" $locale={next}>
             <button
               className={styles.changeLanguage}
-              onClick={() => setLanguage("fi")}
+              onClick={() => {
+                setLanguage(lang === "fi" ? "en" : "fi");
+                changeLocales([next]);
+              }}
+              disabled={isFetching}
             >
-              Suomeksi
+              {"$locale"}
             </button>
-          ) : (
-            <button
-              className={styles.changeLanguage}
-              onClick={() => setLanguage("en")}
-            >
-              In English
-            </button>
-          )}
+          </Localized>
         </div>
       </div>
     </nav>
@@ -160,13 +141,18 @@ const Nav = ({
 
 Nav.propTypes = {
   intl: PropTypes.any,
+  lang: PropTypes.string,
   setLanguage: PropTypes.func,
-  lang: PropTypes.string
+  currentLocales: PropTypes.array,
+  isFetching: PropTypes.bool,
+  changeLocales: PropTypes.func
 };
 
 const mapStateToProps = state => {
   return {
-    lang: state.localization.lang
+    lang: state.localization.lang,
+    currentLocales: state.localization.currentLocales,
+    isFetching: state.localization.isFetching
   };
 };
 
