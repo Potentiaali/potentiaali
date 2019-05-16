@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { NavLink, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
-import { setLanguage } from "../../reducers/LocalizationReducer";
+import { setLanguage, changeLocales } from "../../reducers/LocalizationReducer";
 import { injectIntl, defineMessages } from "react-intl";
 
 import styles from "./Nav.module.scss";
@@ -22,8 +22,20 @@ const menuMessages = defineMessages({
   }
 });
 
-const Nav = ({ lang, intl: { formatMessage }, setLanguage }) => {
+const Nav = ({
+  lang,
+  intl: { formatMessage },
+  setLanguage,
+  //currentLocales,
+  //isFetching,
+  changeLocales
+}) => {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  // New fluent implementation
+  //const [current] = currentLocales;
+  //const available = ["fi", "en-US"];
+  //const next = available[(available.indexOf(current) + 1) % available.length];
 
   const menu = [
     {
@@ -89,14 +101,20 @@ const Nav = ({ lang, intl: { formatMessage }, setLanguage }) => {
             {lang === "en" ? (
               <button
                 className={styles.changeLanguageMobile}
-                onClick={() => setLanguage("fi")}
+                onClick={() => {
+                  setLanguage("fi");
+                  changeLocales(["fi"]);
+                }}
               >
                 Suomeksi
               </button>
             ) : (
               <button
                 className={styles.changeLanguageMobile}
-                onClick={() => setLanguage("en")}
+                onClick={() => {
+                  setLanguage("en");
+                  changeLocales(["en-US"]);
+                }}
               >
                 In English
               </button>
@@ -153,7 +171,8 @@ const mapStateToProps = state => {
 };
 
 const mapDispatchToProps = {
-  setLanguage
+  setLanguage,
+  changeLocales
 };
 
 export default withRouter(

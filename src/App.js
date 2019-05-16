@@ -7,13 +7,13 @@ import config from "./data/config.json";
 import moment from "moment";
 import "moment/locale/fi";
 import "moment/locale/en-gb";
+import { Localized } from "fluent-react/compat";
 
 import { MainPage } from "./pages/MainPage";
 import Contact from "./components/partials/Contact";
 import SchedulePage from "./pages/SchedulePage";
 import SingleSchedulePage from "./pages/SingleSchedulePage";
 import { SubjectsPage } from "./pages/SubjectsPage";
-import { FormattedMessage } from "react-intl";
 
 moment.locale(config.defaultLocale);
 
@@ -28,19 +28,15 @@ const App = () => {
         <Route exact path="/subjects" component={SubjectsPage} />
         <Route
           render={() => (
+            // This route will render if the page is not found
             <div
               style={{
                 marginTop: 25
               }}
             >
-              <h1>
-                {
-                  <FormattedMessage
-                    id="app.pageNotFound"
-                    defaultMessage="Sivua ei löydy"
-                  />
-                }
-              </h1>
+              <Localized id="pageNotFound" defaultMessage="Sivua ei löydy">
+                <h1>Sivua ei löydy</h1>
+              </Localized>
             </div>
           )}
         />

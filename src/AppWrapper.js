@@ -15,6 +15,7 @@ const AppWrapper = ({ locale }) => {
   // Fallback language is english
   const appLocale = locale || "en";
   const messages = translations[appLocale];
+
   return (
     <IntlProvider locale={appLocale} key={locale} messages={messages}>
       <BrowserRouter>
@@ -25,7 +26,8 @@ const AppWrapper = ({ locale }) => {
 };
 
 AppWrapper.propTypes = {
-  locale: PropTypes.string
+  locale: PropTypes.string,
+  currentLocales: PropTypes.any
 };
 
 const mapStateToProps = state => {

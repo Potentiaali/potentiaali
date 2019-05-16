@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 
 import { LocalizationProvider } from "fluent-react/compat";
 
-import { changeLocales } from "./actions";
+import { changeLocales } from "./reducers/LocalizationReducer";
 
 class AppLocalizationProvider extends Component {
   componentWillMount() {

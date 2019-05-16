@@ -6,6 +6,10 @@
   "dependencies": {
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
+    "fluent": "^0.12.0",
+    "fluent-langneg": "^0.1.1",
+    "fluent-react": "^0.8.4",
+    "intl-pluralrules": "^1.0.1",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
@@ -46,6 +50,7 @@
     "node-sass": "^4.11.0",
     "react-intl-cra": "^0.3.4",
     "react-intl-translations-manager": "^5.0.3",
+    "redux-devtools-extension": "^2.13.8",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0"
   },
