@@ -1,8 +1,9 @@
 {
   "eventDate": "14.11.2019",
   "eventTime": "10 - 17",
-  "defaultLocale": "fi",
+  "defaultLocale": "en",
   "speedRekryOpen": false,
   "showProgramView": false,
+  "showRegistrationInfo": false,
   "showCompanies": false
 }

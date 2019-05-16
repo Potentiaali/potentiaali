@@ -1,6 +1,6 @@
 import { FluentBundle } from "fluent/compat";
 import { negotiateLanguages } from "fluent-langneg/compat";
-
+import config from "./../data/config.json";
 // Localization files
 import fi from "../lang/fi.ftl";
 import enUS from "../lang/en-US.ftl";
@@ -11,7 +11,7 @@ const ftl = {
 };
 
 const initialState = {
-  lang: "fi",
+  lang: config.defaultLocale || "en",
   isFetching: false,
   userLocales: ["fi", "en-US"],
   currentLocales: ["fi", "en-US"],

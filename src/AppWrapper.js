@@ -13,6 +13,7 @@ addLocaleData(enLocaleData);
 
 const AppWrapper = ({ locale }) => {
   // Fallback language is english
+  console.log(locale)
   const appLocale = locale || "en";
   const messages = translations[appLocale];
 

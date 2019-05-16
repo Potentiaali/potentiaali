@@ -38,7 +38,7 @@ const Nav = ({
       disabled: false
     },
     {
-      id: "subjectsPage",
+      id: "fieldsOfStudiesPage",
       name: "Aineiden esittely",
       linkName: "subjects",
       link: "/subjects",
