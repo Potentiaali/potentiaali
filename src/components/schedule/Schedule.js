@@ -77,6 +77,8 @@ const generateHourStrings = function(start, end) {
 };
 
 export const Schedule = ({ schedule, start, end, type }) => {
+
+  
   return (
     <View style={styles.container}>
       <ScrollView horizontal bounces={false}>

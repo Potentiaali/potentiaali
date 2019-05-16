@@ -5,7 +5,121 @@ import { Program } from "./../components/partials/Program";
 import classNames from "classnames";
 import { injectIntl, defineMessages, FormattedMessage } from "react-intl";
 import config from "../data/config.json";
-import ilmo from "../data/ilmo.json";
+
+let ilmot = [
+  {
+    companies: "IBM Finland, Kesko Oyj, OP, Sogeti Finland",
+    full: true,
+    link:
+      "https://docs.google.com/forms/d/e/1FAIpQLSdPMgRDVtP9wZfuIIwU8PI2L1jvvm4uHtoPPHdAfCtiBXPKIQ/viewform"
+  },
+  {
+    companies: "Columbia Road, DAIN Studios, Eatech Oy, Futurice",
+    full: true,
+    link:
+      "https://docs.google.com/forms/d/e/1FAIpQLSe2GCC_oX7-6MXYy09n_2jh0Q45y_kp428rEsI0IG3kKfRSqg/viewform"
+  },
+  {
+    companies:
+      "Codento Oy, Eficode Oy, Keskinäinen Eläkevakuutusyhtiö Ilmarinen, Nokia",
+    full: true,
+    link:
+      "https://docs.google.com/forms/d/e/1FAIpQLScCo3P5ChXFCBnJaG_ami7o_gyKq3BaSkebQf6yBR6HqqLpwg/viewform"
+  },
+  {
+    companies: "Bluefors Oy, Robu Oy, Terveystalo, Vincit",
+    full: true,
+    link:
+      "https://docs.google.com/forms/d/e/1FAIpQLSep5C00FYF65G3ASsL2xgOlx9nxdBnjRdVAc6_8sR3aRgo8Mg/viewform"
+  },
+  {
+    companies: "Accenture Oy, Dream Broker, Streamr",
+    full: true,
+    link:
+      "https://docs.google.com/forms/d/e/1FAIpQLSfNzFvJr-uRFstrnZbTgN083jKpTczPrYDOgDiouyYAjhF8_Q/viewform"
+  },
+  {
+    companies:
+      "Devisioona Oy, Digia Oyj, Foreca Oy, Reaktor Innovations Oy, VALA Group",
+    full: true,
+    link:
+      "https://docs.google.com/forms/d/e/1FAIpQLSfSV90aukQxJ47Mtfnbqo0L-J6MD6d5J46I6sZr4nXyZUqF6Q/viewform"
+  },
+  {
+    companies:
+      "CGI, Perfektio Oy, Siili Solutions Oyj, Taito United Oy, Webscale Oy",
+    full: true,
+    link:
+      "https://docs.google.com/forms/d/e/1FAIpQLSfxrx2I76vNRDzvV8uH8yHpnTIMHODUpABNv5qQV1RRL67e8A/viewform"
+  },
+  {
+    companies:
+      "CSC - Tieteen tietotekniikan keskus Oy, Elisa, Trimble Solutions Oy, Funidata Oy & Unigrafia Oy",
+    full: true,
+    link:
+      "https://docs.google.com/forms/d/e/1FAIpQLSdOuXXx0AcgOjIU4ux1vNqnH1ENdIAHgbnfNsBQ49Pwbm4-Sg/viewform"
+  }
+];
+
+const open = false;
+
+const SpeedRekryItem = ({ companies, full, link, open, id }) => {
+  const luokka = "item-" + id;
+
+  return (
+    <div
+      className={classNames({
+        speedRekryItem: true,
+        [luokka]: true
+      })}
+    >
+      <div className="speedRekryItemTitle">
+        <FormattedMessage
+          id="main.speedRekryRegistrationGroup"
+          defaultMessage="Ryhmä"
+        />
+        &nbsp; {id}
+      </div>
+      <div className="speedRekryItemDesc">
+        {companies}
+        <a
+          href={open ? link : "#"}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={classNames("speedRekryLink", {
+            "rekry-disabled": !open || full
+          })}
+        >
+          {!full ? (
+            <FormattedMessage
+              id="main.speedRekryRegistrationSignUp"
+              defaultMessage="Ilmoittaudu"
+            />
+          ) : (
+            <FormattedMessage
+              id="main.speedRekryRegistrationFull"
+              defaultMessage="Täynnä"
+            />
+          )}
+        </a>
+        {!open && (
+          <FormattedMessage
+            id="main.speedRekryRegistrationTime"
+            defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
+          />
+        )}
+      </div>
+    </div>
+  );
+};
+
+SpeedRekryItem.propTypes = {
+  companies: PropTypes.string.isRequired,
+  full: PropTypes.bool.isRequired,
+  link: PropTypes.string.isRequired,
+  open: PropTypes.bool.isRequired,
+  id: PropTypes.number.isRequired
+};
 
 const mainMessages = defineMessages({
   title: {
@@ -59,310 +173,9 @@ const SpeedRekry = () => (
       />
     </h2>
     <div className="speedRekryGrid">
-      <div className="speedRekryItem item-1">
-        <div className="speedRekryItemTitle">
-          <FormattedMessage
-            id="main.speedRekryRegistrationGroup"
-            defaultMessage="Ryhmä"
-          />
-          &nbsp;1
-        </div>
-        <div className="speedRekryItemDesc">
-          {ilmo.ilmo1.companies}
-          <a
-            href={ilmo.open ? ilmo.ilmo1.link : "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={classNames("speedRekryLink", {
-              "rekry-disabled": !ilmo.open || ilmo.ilmo1.full
-            })}
-          >
-            {!ilmo.ilmo1.full ? (
-              <FormattedMessage
-                id="main.speedRekryRegistrationSignUp"
-                defaultMessage="Ilmoittaudu"
-              />
-            ) : (
-              <FormattedMessage
-                id="main.speedRekryRegistrationFull"
-                defaultMessage="Täynnä"
-              />
-            )}
-          </a>
-          {!ilmo.open && (
-            <FormattedMessage
-              id="main.speedRekryRegistrationTime"
-              defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
-            />
-          )}
-        </div>
-      </div>
-      <div className="speedRekryItem item-2">
-        <div className="speedRekryItemTitle">
-          <FormattedMessage
-            id="main.speedRekryRegistrationGroup"
-            defaultMessage="Ryhmä"
-          />
-          &nbsp;2
-        </div>
-        <div className="speedRekryItemDesc">
-          {ilmo.ilmo2.companies}
-          <a
-            href={ilmo.open ? ilmo.ilmo2.link : "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={classNames("speedRekryLink", {
-              "rekry-disabled": !ilmo.open || ilmo.ilmo2.full
-            })}
-          >
-            {!ilmo.ilmo2.full ? (
-              <FormattedMessage
-                id="main.speedRekryRegistrationSignUp"
-                defaultMessage="Ilmoittaudu"
-              />
-            ) : (
-              <FormattedMessage
-                id="main.speedRekryRegistrationFull"
-                defaultMessage="Täynnä"
-              />
-            )}
-          </a>
-          {!ilmo.open && (
-            <FormattedMessage
-              id="main.speedRekryRegistrationTime"
-              defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
-            />
-          )}
-        </div>
-      </div>
-      <div className="speedRekryItem item-3">
-        <div className="speedRekryItemTitle">
-          <FormattedMessage
-            id="main.speedRekryRegistrationGroup"
-            defaultMessage="Ryhmä"
-          />
-          &nbsp;3
-        </div>
-        <div className="speedRekryItemDesc">
-          {ilmo.ilmo3.companies}
-          <a
-            href={ilmo.open ? ilmo.ilmo3.link : "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={classNames("speedRekryLink", {
-              "rekry-disabled": !ilmo.open || ilmo.ilmo3.full
-            })}
-          >
-            {!ilmo.ilmo3.full ? (
-              <FormattedMessage
-                id="main.speedRekryRegistrationSignUp"
-                defaultMessage="Ilmoittaudu"
-              />
-            ) : (
-              <FormattedMessage
-                id="main.speedRekryRegistrationFull"
-                defaultMessage="Täynnä"
-              />
-            )}
-          </a>
-          {!ilmo.open && (
-            <FormattedMessage
-              id="main.speedRekryRegistrationTime"
-              defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
-            />
-          )}
-        </div>
-      </div>
-      <div className="speedRekryItem item-4">
-        <div className="speedRekryItemTitle">
-          <FormattedMessage
-            id="main.speedRekryRegistrationGroup"
-            defaultMessage="Ryhmä"
-          />
-          &nbsp;4
-        </div>
-        <div className="speedRekryItemDesc">
-          {ilmo.ilmo4.companies}
-          <a
-            href={ilmo.open ? ilmo.ilmo4.link : "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={classNames("speedRekryLink black", {
-              "rekry-disabled": !ilmo.open || ilmo.ilmo4.full
-            })}
-          >
-            {!ilmo.ilmo4.full ? (
-              <FormattedMessage
-                id="main.speedRekryRegistrationSignUp"
-                defaultMessage="Ilmoittaudu"
-              />
-            ) : (
-              <FormattedMessage
-                id="main.speedRekryRegistrationFull"
-                defaultMessage="Täynnä"
-              />
-            )}
-          </a>
-          {!ilmo.open && (
-            <FormattedMessage
-              id="main.speedRekryRegistrationTime"
-              defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
-            />
-          )}
-        </div>
-      </div>
-      <div className="speedRekryItem item-5">
-        <div className="speedRekryItemTitle">
-          <FormattedMessage
-            id="main.speedRekryRegistrationGroup"
-            defaultMessage="Ryhmä"
-          />
-          &nbsp;5
-        </div>
-        <div className="speedRekryItemDesc">
-          {ilmo.ilmo5.companies}
-          <a
-            href={ilmo.open ? ilmo.ilmo5.link : "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={classNames("speedRekryLink", {
-              "rekry-disabled": !ilmo.open || ilmo.ilmo5.full
-            })}
-          >
-            {!ilmo.ilmo5.full ? (
-              <FormattedMessage
-                id="main.speedRekryRegistrationSignUp"
-                defaultMessage="Ilmoittaudu"
-              />
-            ) : (
-              <FormattedMessage
-                id="main.speedRekryRegistrationFull"
-                defaultMessage="Täynnä"
-              />
-            )}
-          </a>
-          {!ilmo.open && (
-            <FormattedMessage
-              id="main.speedRekryRegistrationTime"
-              defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
-            />
-          )}
-        </div>
-      </div>
-      <div className="speedRekryItem item-6">
-        <div className="speedRekryItemTitle">
-          <FormattedMessage
-            id="main.speedRekryRegistrationGroup"
-            defaultMessage="Ryhmä"
-          />
-          &nbsp;6
-        </div>
-        <div className="speedRekryItemDesc">
-          {ilmo.ilmo6.companies}
-          <a
-            href={ilmo.open ? ilmo.ilmo6.link : "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={classNames("speedRekryLink", {
-              "rekry-disabled": !ilmo.open || ilmo.ilmo6.full
-            })}
-          >
-            {!ilmo.ilmo6.full ? (
-              <FormattedMessage
-                id="main.speedRekryRegistrationSignUp"
-                defaultMessage="Ilmoittaudu"
-              />
-            ) : (
-              <FormattedMessage
-                id="main.speedRekryRegistrationFull"
-                defaultMessage="Täynnä"
-              />
-            )}
-          </a>
-          {!ilmo.open && (
-            <FormattedMessage
-              id="main.speedRekryRegistrationTime"
-              defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
-            />
-          )}
-        </div>
-      </div>
-      <div className="speedRekryItem item-7">
-        <div className="speedRekryItemTitle">
-          <FormattedMessage
-            id="main.speedRekryRegistrationGroup"
-            defaultMessage="Ryhmä"
-          />
-          &nbsp;7
-        </div>
-        <div className="speedRekryItemDesc">
-          {ilmo.ilmo7.companies}
-          <a
-            href={ilmo.open ? ilmo.ilmo7.link : "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={classNames("speedRekryLink", {
-              "rekry-disabled": !ilmo.open || ilmo.ilmo7.full
-            })}
-          >
-            {!ilmo.ilmo7.full ? (
-              <FormattedMessage
-                id="main.speedRekryRegistrationSignUp"
-                defaultMessage="Ilmoittaudu"
-              />
-            ) : (
-              <FormattedMessage
-                id="main.speedRekryRegistrationFull"
-                defaultMessage="Täynnä"
-              />
-            )}
-          </a>
-          {!ilmo.open && (
-            <FormattedMessage
-              id="main.speedRekryRegistrationTime"
-              defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
-            />
-          )}
-        </div>
-      </div>
-      <div className="speedRekryItem item-8">
-        <div className="speedRekryItemTitle">
-          <FormattedMessage
-            id="main.speedRekryRegistrationGroup"
-            defaultMessage="Ryhmä"
-          />
-          &nbsp;8
-        </div>
-        <div className="speedRekryItemDesc">
-          {ilmo.ilmo8.companies}
-          <a
-            href={ilmo.open ? ilmo.ilmo8.link : "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={classNames("speedRekryLink black", {
-              "rekry-disabled": !ilmo.open || ilmo.ilmo8.full
-            })}
-          >
-            {!ilmo.ilmo8.full ? (
-              <FormattedMessage
-                id="main.speedRekryRegistrationSignUp"
-                defaultMessage="Ilmoittaudu"
-              />
-            ) : (
-              <FormattedMessage
-                id="main.speedRekryRegistrationFull"
-                defaultMessage="Täynnä"
-              />
-            )}
-          </a>
-          {!ilmo.open && (
-            <FormattedMessage
-              id="main.speedRekryRegistrationTime"
-              defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
-            />
-          )}
-        </div>
-      </div>
+      {ilmot.map((ilmo, i) => (
+        <SpeedRekryItem key={i} {...ilmo} id={i + 1} open={open} />
+      ))}
     </div>
   </div>
 );
