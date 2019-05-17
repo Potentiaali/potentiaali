@@ -6,6 +6,8 @@ import moment from "moment";
 import "moment/locale/fi";
 import "moment/locale/en-gb";
 
+// TODO: Move translations to Fluent syntax
+
 const clockMessages = defineMessages({
   days: {
     id: "clock.days",

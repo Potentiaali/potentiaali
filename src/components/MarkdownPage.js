@@ -2,6 +2,8 @@ import React from "react";
 import ReactMarkdown from "react-markdown";
 import PropTypes from "prop-types";
 
+// TODO: Deprecate this?
+
 class MarkdownPage extends React.Component {
   constructor(props) {
     super(props);

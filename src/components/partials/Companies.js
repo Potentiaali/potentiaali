@@ -2,6 +2,8 @@ import React from "react";
 import { FormattedMessage } from "react-intl";
 import companies from "../../data/companies.json";
 
+// TODO: Move translations to Fluent syntax
+
 const Companies = () => {
   return (
     <section className="two-columned">
@@ -16,27 +18,29 @@ const Companies = () => {
                 />
               }
             </h3>
-            {companies.sort((a,b) => a.alt.localeCompare(b.alt)).map(company => (
-              <a
-                className="company-logo"
-                key={company.alt}
-                href={company.websiteUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  alt={company.alt}
-                  src={company.imgSrc}
-                  style={{
-                    padding: 25,
-                    maxHeight: 90,
-                    height: "auto",
-                    width: "auto",
-                    maxWidth: 120
-                  }}
-                />
-              </a>
-            ))}
+            {companies
+              .sort((a, b) => a.alt.localeCompare(b.alt))
+              .map(company => (
+                <a
+                  className="company-logo"
+                  key={company.alt}
+                  href={company.websiteUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    alt={company.alt}
+                    src={company.imgSrc}
+                    style={{
+                      padding: 25,
+                      maxHeight: 90,
+                      height: "auto",
+                      width: "auto",
+                      maxWidth: 120
+                    }}
+                  />
+                </a>
+              ))}
           </div>
         </div>
       </div>

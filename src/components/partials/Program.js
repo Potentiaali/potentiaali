@@ -4,6 +4,8 @@ import { Accordion } from "../accordion/Accordion";
 import { FormattedMessage } from "react-intl";
 import Textfit from "react-textfit";
 
+// TODO: Move translations to Fluent syntax
+
 export const Program = () => {
   return (
     <div>

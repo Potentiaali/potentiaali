@@ -6,6 +6,8 @@ import PropTypes from "prop-types";
 
 import styles from "./Hero.module.scss";
 
+// TODO: Move translations to Fluent syntax
+
 const heroMessages = defineMessages({
   scheduleTitle: {
     id: "hero.potentiaaliDescription",
@@ -33,13 +35,7 @@ const HeroComponent = ({ intl: { formatMessage } }) => {
 
   return (
     <section className={styles.hero}>
-      <video
-        poster="juku.png"
-        muted
-        loop
-        autoPlay
-        preload="true"
-      >
+      <video poster="juku.png" muted loop autoPlay preload="true">
         <source src="DJI_0014.mp4" type="video/mp4" />
       </video>
       <div className={styles["hero-overlay"]} />

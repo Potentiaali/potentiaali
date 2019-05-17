@@ -6,7 +6,7 @@ import classNames from "classnames";
 import { injectIntl, defineMessages, FormattedMessage } from "react-intl";
 import config from "../data/config.json";
 
-let ilmot = [
+const ilmot = [
   {
     companies: "IBM Finland, Kesko Oyj, OP, Sogeti Finland",
     full: true,

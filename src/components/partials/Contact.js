@@ -1,6 +1,8 @@
 import React from "react";
 import { FormattedMessage } from "react-intl";
 
+// TODO: Move translations to Fluent syntax
+
 const Contact = () => {
   return (
     <section className="darker two-columned">

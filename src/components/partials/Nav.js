@@ -76,7 +76,7 @@ const Nav = ({
               menu.map(
                 menuItem =>
                   !menuItem.disabled && (
-                    <Localized id={menuItem.id}>
+                    <Localized id={menuItem.id} key={menuItem.id + "_mobile"}>
                       <NavLink
                         exact
                         to={menuItem.link}
@@ -108,7 +108,7 @@ const Nav = ({
             menu.map(
               menuItem =>
                 !menuItem.disabled && (
-                  <Localized id={menuItem.id}>
+                  <Localized id={menuItem.id} key={menuItem.id}>
                     <NavLink
                       exact
                       to={menuItem.link}

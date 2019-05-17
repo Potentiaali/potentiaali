@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import { FormattedMessage } from "react-intl";
 
+// TODO: Move translations to Fluent syntax
+
 export const Language = ({ lang }) => {
   switch (lang) {
     case "fi":
@@ -33,4 +35,4 @@ export const Language = ({ lang }) => {
 
 Language.propTypes = {
   lang: PropTypes.string.isRequired
-}
+};

@@ -17,6 +17,18 @@ import { SubjectsPage } from "./pages/SubjectsPage";
 
 moment.locale(config.defaultLocale);
 
+const NotFound = () => (
+  <div
+    style={{
+      marginTop: 25
+    }}
+  >
+    <Localized id="pageNotFound">
+      <h1>Sivua ei löydy</h1>
+    </Localized>
+  </div>
+);
+
 const App = () => {
   return (
     <React.Fragment>
@@ -26,20 +38,7 @@ const App = () => {
         <Route exact path="/schedule" component={SchedulePage} />
         <Route exact path="/schedule/:id" component={SingleSchedulePage} />
         <Route exact path="/subjects" component={SubjectsPage} />
-        <Route
-          render={() => (
-            // This route will render if the page is not found
-            <div
-              style={{
-                marginTop: 25
-              }}
-            >
-              <Localized id="pageNotFound" defaultMessage="Sivua ei löydy">
-                <h1>Sivua ei löydy</h1>
-              </Localized>
-            </div>
-          )}
-        />
+        <Route component={NotFound} />
       </Switch>
       <Contact />
       <Footer logos={logos} />

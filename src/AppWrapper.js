@@ -8,12 +8,13 @@ import enLocaleData from "react-intl/locale-data/en";
 import translations from "./i18n/locales";
 import { connect } from "react-redux";
 
+// TODO: Deprecate react-intl in favor of Fluent
+
 addLocaleData(fiLocaleData);
 addLocaleData(enLocaleData);
 
 const AppWrapper = ({ locale }) => {
   // Fallback language is english
-  console.log(locale)
   const appLocale = locale || "en";
   const messages = translations[appLocale];
 
