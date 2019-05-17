@@ -17,4 +17,5 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-serviceWorker.register();
+// Service worker is disabled for now.
+serviceWorker.unregister();

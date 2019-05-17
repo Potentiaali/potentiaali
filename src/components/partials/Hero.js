@@ -35,8 +35,8 @@ const HeroComponent = ({ intl: { formatMessage } }) => {
 
   return (
     <section className={styles.hero}>
-      <video poster="juku.png" muted loop autoPlay preload="true">
-        <source src="DJI_0014.mp4" type="video/mp4" />
+      <video poster="poster.png" muted loop autoPlay preload="true">
+        <source src="poster_video.mp4" type="video/mp4" />
       </video>
       <div className={styles["hero-overlay"]} />
       <div className={styles["hero-container"]}>
