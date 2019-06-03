@@ -1,35 +1,20 @@
 import React from "react";
 import Clock from "./Clock";
 import config from "../../data/config.json";
-import { injectIntl, defineMessages, FormattedMessage } from "react-intl";
 import PropTypes from "prop-types";
+import { Localized } from "fluent-react/compat";
 
 import styles from "./Hero.module.scss";
 
-// TODO: Move translations to Fluent syntax
-
-const heroMessages = defineMessages({
-  scheduleTitle: {
-    id: "hero.potentiaaliDescription",
-    defaultMessage: "Työelämä- ja rekrytointitapahtuma Kumpulan kampuksella"
-  },
-  review1: {
-    id: "hero.reviewMessage1",
-    defaultMessage: "Default 1"
-  },
-  review2: {
-    id: "hero.reviewMessage2",
-    defaultMessage: "Default 2"
-  }
-});
-
-const HeroComponent = ({ intl: { formatMessage } }) => {
+export const Hero = () => {
   const reviews = [
     {
-      text: formatMessage(heroMessages.review1)
+      id: "hero.review1",
+      text: "Default 1"
     },
     {
-      text: formatMessage(heroMessages.review2)
+      id: "hero.review2",
+      text: "Default 2"
     }
   ];
 
@@ -48,10 +33,12 @@ const HeroComponent = ({ intl: { formatMessage } }) => {
           />
         </h1>
         <p className={styles["hero-paragraph"]}>
-          {formatMessage(heroMessages.scheduleTitle) + " "}
+          <Localized id="heroDescription">
+            Työelämä- ja rekrytointitapahtuma Kumpulan kampuksella
+          </Localized>{" "}
           <b>
             {config.eventDate}{" "}
-            <FormattedMessage id="hero.timePrefix" defaultMessage="klo" />{" "}
+            <Localized id="heroTimePrefix">klo</Localized>{" "}
             {config.eventTime}
           </b>
           <br />
@@ -70,10 +57,6 @@ const HeroComponent = ({ intl: { formatMessage } }) => {
   );
 };
 
-HeroComponent.propTypes = {
+Hero.propTypes = {
   intl: PropTypes.any
 };
-
-const Hero = injectIntl(HeroComponent);
-
-export { Hero };

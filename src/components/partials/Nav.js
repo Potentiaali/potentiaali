@@ -31,6 +31,13 @@ const Nav = ({
       disabled: false
     },
     {
+      id: "companyRegistrationPage",
+      name: "Yritysilmoittautuminen",
+      linkName: "registration",
+      link: "/registration",
+      disabled: false
+    },
+    {
       id: "schedulePage",
       name: "Aikataulu",
       linkName: "schedule",

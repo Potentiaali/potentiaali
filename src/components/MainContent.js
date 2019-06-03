@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 import Companies from "./../components/partials/Companies";
 import { Program } from "./../components/partials/Program";
 import classNames from "classnames";
-import { injectIntl, defineMessages, FormattedMessage } from "react-intl";
 import config from "../data/config.json";
+import { Localized } from "fluent-react/compat";
 
 const ilmot = [
   {
@@ -74,10 +74,7 @@ const SpeedRekryItem = ({ companies, full, link, open, id }) => {
       })}
     >
       <div className="speedRekryItemTitle">
-        <FormattedMessage
-          id="main.speedRekryRegistrationGroup"
-          defaultMessage="Ryhmä"
-        />
+        <Localized id="group-text">Ryhmä</Localized>
         &nbsp; {id}
       </div>
       <div className="speedRekryItemDesc">
@@ -91,22 +88,15 @@ const SpeedRekryItem = ({ companies, full, link, open, id }) => {
           })}
         >
           {!full ? (
-            <FormattedMessage
-              id="main.speedRekryRegistrationSignUp"
-              defaultMessage="Ilmoittaudu"
-            />
+            <Localized id="signup-text">Ilmoittaudu</Localized>
           ) : (
-            <FormattedMessage
-              id="main.speedRekryRegistrationFull"
-              defaultMessage="Täynnä"
-            />
+            <Localized id="full-text">Täynnä</Localized>
           )}
         </a>
         {!open && (
-          <FormattedMessage
-            id="main.speedRekryRegistrationTime"
-            defaultMessage="Ilmoittautuminen aukeaa 17.11. klo 12:00"
-          />
+          <Localized id="registration-opens">
+            Ilmoittautuminen aukeaa myöhemmin syksyllä
+          </Localized>
         )}
       </div>
     </div>
@@ -121,56 +111,13 @@ SpeedRekryItem.propTypes = {
   id: PropTypes.number.isRequired
 };
 
-const mainMessages = defineMessages({
-  title: {
-    id: "main.title1",
-    defaultMessage: "Opiskelija, ennakkoilmoittautuminen alkaa pian!"
-  },
-  part1: {
-    id: "main.part1",
-    defaultMessage:
-      "Kumpulan Potentiaali on Helsingin yliopiston matemaattis-luonnontieteellisen " +
-      "tiedekunnan opiskelijoiden järjestämä työelämä- ja rekrytointitapahtuma, joka järjestettiin " +
-      "ensi kertaa viime syksynä. Ensi kertaa järjestetyksi tapahtumaksi Kumpulan Potentiaali 2017 " +
-      "oli menestys niin opiskelijoiden kuin yritysvieraidenkin puolesta."
-  },
-  part2: {
-    id: "main.part2",
-    defaultMessage:
-      "Palautteeseen vastanneista yritysvieraista yli 95% arvioi tapahtuman" +
-      "annin olevan vähintään hinnan väärti, ja joka neljäs koki tapahtuman" +
-      "annin olevan erinomainen hintaan nähden."
-  },
-  eventInformationTitle: {
-    id: "main.eventInformationTitle",
-    defaultMessage: "TAPAHTUMATIEDOT"
-  },
-  location: {
-    id: "main.locationTitle",
-    defaultMessage: "Paikka"
-  },
-  time: {
-    id: "main.timeTitle",
-    defaultMessage: "Aika"
-  },
-  eventDay: {
-    id: "main.eventDay",
-    defaultMessage: "Torstai"
-  },
-  eventLocation: {
-    id: "main.eventLocation",
-    defaultMessage: "Kumpulan kampus (Gustaf Hällströmin katu 2)"
-  }
-});
-
 // TODO: Move to its own component
 const SpeedRekry = () => (
   <div>
     <h2>
-      <FormattedMessage
-        id="main.speedRekryRegistrationTitle"
-        defaultMessage="Ilmoittaudu Speed rekryyn"
-      />
+      <Localized id="register-to-speed-rekry">
+        Ilmoittaudu Speed rekryyn
+      </Localized>
     </h2>
     <div className="speedRekryGrid">
       {ilmot.map((ilmo, i) => (
@@ -180,15 +127,32 @@ const SpeedRekry = () => (
   </div>
 );
 
-const MainContent = ({ intl: { formatMessage } }) => {
+const MainContent = () => {
   return (
     <section className="">
       <div className="container">
-        <h2>{formatMessage(mainMessages.title)}</h2>
+        <Localized id="title-1">
+          <h2>Mikä on Kumpulan Potentiaali?</h2>
+        </Localized>
         <br />
-        <p>{formatMessage(mainMessages.part1)}</p>
+        <Localized id="main-part-1">
+          <p>
+            Kumpulan Potentiaali on Helsingin yliopiston
+            matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden
+            järjestämä työelämä- ja rekrytointitapahtuma, joka järjestettiin
+            toista kertaa syksyllä 2018. Toista kertaa järjestetyksi
+            tapahtumaksi Kumpulan Potentiaali 2018 oli menestys niin
+            opiskelijoiden kuin yritysvieraidenkin puolesta.
+          </p>
+        </Localized>
         <br />
-        <p>{formatMessage(mainMessages.part2)}</p>
+        <Localized id="main-part-2">
+          <p>
+            Palautteeseen vastanneista yritysvieraista yli 95% arvioi tapahtuman
+            annin olevan vähintään hinnan väärti, ja joka neljäs koki tapahtuman
+            annin olevan erinomainen hintaan nähden.
+          </p>
+        </Localized>
         <br />
         <br />
         {config.showProgramView === true && <Program />}
@@ -200,17 +164,25 @@ const MainContent = ({ intl: { formatMessage } }) => {
         {config.showCompanies === true && <Companies />}
         <br />
         <br />
-        <h3>{formatMessage(mainMessages.eventInformationTitle)}</h3>
+        <Localized id="event-info-title">
+          <h3>Tapahtumatiedot</h3>
+        </Localized>
         <ul>
           <li>
-            <b>{formatMessage(mainMessages.location)}</b>:{" "}
-            {formatMessage(mainMessages.eventLocation)}
+            <Localized id="event-location">
+              <b>Sijainti</b>
+            </Localized>
+            :{" "}
+            <Localized id="event-location-value">
+              Kumpulan kampus (Gustaf Hällströmin katu 2)
+            </Localized>
           </li>
           <li>
-            <b>{formatMessage(mainMessages.time)}</b>:{" "}
-            {formatMessage(mainMessages.eventDay)} {config.eventDate}{" "}
-            <FormattedMessage id="hero.timePrefix" defaultMessage="klo" />{" "}
-            {config.eventTime}
+            <Localized id="event-time">
+              <b>Aika</b>
+            </Localized>
+            : <Localized id="event-day">Torstai</Localized> {config.eventDate}{" "}
+            <Localized id="event-time-prefix">klo</Localized> {config.eventTime}
           </li>
         </ul>
       </div>
@@ -222,4 +194,4 @@ MainContent.propTypes = {
   intl: PropTypes.any
 };
 
-export default injectIntl(MainContent);
+export default MainContent;
