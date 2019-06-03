@@ -12,7 +12,7 @@ full-text = Full
 registration-opens = Registration will open later.
 register-to-speed-rekry = Register to Speed rekry
 title-1 = What is Kumpula's Potential?
-main-oart-1 = Kumpula's Potential is a work life and recruitment event organized by the students of the Faculty of Science. The event was organized last year for the second time, and it was a success among companies and students!
+main-part-1 = Kumpula's Potential is a work life and recruitment event organized by the students of the Faculty of Science. The event was organized last year for the second time, and it was a success among companies and students!
 main-part-2 = Palautteeseen vastanneista yritysvieraista yli 95% arvioi tapahtuman
             annin olevan vähintään hinnan väärti, ja joka neljäs koki tapahtuman
             annin olevan erinomainen hintaan nähden.
