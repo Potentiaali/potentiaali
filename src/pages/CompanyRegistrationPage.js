@@ -26,7 +26,6 @@ const CompanyRegistrationPage = () => (
     </p>
     <br />
     <h2><Localized id="includes"> Sisältö </Localized> </h2>
-    <p><Localized id="participate">Osallistumalla Kumpulan potentiaaliin yritys saa:</Localized></p>
     <br />
     <ul style={{ paddingLeft: 20, listStyleType: "circle" }}>
       <li>
