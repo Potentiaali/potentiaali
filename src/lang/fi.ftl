@@ -12,7 +12,7 @@ full-text = Täynnä
 registration-opens = Ilmoittautuminen aukeaa myöhemmin syksyllä
 register-to-speed-rekry = Ilmoittaudu Speed rekryyn
 title-1 = Mikä on Kumpulan Potentiaali?
-main-oart-1 = Kumpulan Potentiaali on Helsingin yliopiston
+main-part-1 = Kumpulan Potentiaali on Helsingin yliopiston
             matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden
             järjestämä työelämä- ja rekrytointitapahtuma, joka järjestettiin
             toista kertaa syksyllä 2018. Toista kertaa järjestetyksi
@@ -27,3 +27,4 @@ event-location-value = Kumpulan kampus (Gustaf Hällströmin katu 2)
 event-time = Aika
 event-day = Torstai
 event-time-prefix = klo
+registration-starting-from-text = Ilmoittautuminen tästä napista alkaen { $regDate } klo { $regTime }

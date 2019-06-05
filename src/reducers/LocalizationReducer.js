@@ -11,7 +11,7 @@ const ftl = {
 };
 
 const initialState = {
-  lang: config.defaultLocale || "en",
+  lang: config.defaultLocale || "fi",
   isFetching: false,
   userLocales: ["fi", "en-US"],
   currentLocales: ["fi", "en-US"],
@@ -28,7 +28,6 @@ const fetchMessages = async locale => {
 export const changeLocales = userLocales => {
   return async dispatch => {
     dispatch(changeLocalesRequest());
-
     const currentLocales = negotiateLanguages(userLocales, ["fi", "en-US"], {
       defaultLocale: "fi"
     });

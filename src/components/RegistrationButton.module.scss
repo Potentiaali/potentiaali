@@ -1,0 +1,19 @@
+.registrationButton {
+  font-size: 11pt;
+  border: 2px solid #387002;
+  padding: 10px;
+  background-color: #689f38;
+  color: black;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.registrationDisabled {
+  background-color: #c9c9c9;
+  border-color: #9e9e9e;
+  user-select: none;
+  &:hover {
+    cursor: default;
+  }
+}

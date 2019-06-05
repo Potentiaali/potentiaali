@@ -2,6 +2,7 @@ import React from "react";
 import { Accordion } from "../components/accordion/Accordion";
 import "./SubjectsPage.scss";
 import { FormattedMessage } from "react-intl";
+import { Page } from "./../components/Page";
 
 const Physics = () => (
   <Accordion
@@ -886,7 +887,7 @@ const Astrology = () => (
 
 export const SubjectsPage = () => {
   return (
-    <div className="page subjects">
+    <Page>
       <h1>
         <FormattedMessage
           id="subjects.pageTitle"
@@ -903,7 +904,7 @@ export const SubjectsPage = () => {
       <ComputerScience />
       <Statistics />
       <Astrology />
-    </div>
+    </Page>
   );
 };
 
