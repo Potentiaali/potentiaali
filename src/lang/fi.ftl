@@ -27,3 +27,4 @@ event-location-value = Kumpulan kampus (Gustaf Hällströmin katu 2)
 event-time = Aika
 event-day = Torstai
 event-time-prefix = klo
+registration-starting-from-text = Ilmoittautuminen tästä napista alkaen { $regDate } klo { $regTime }

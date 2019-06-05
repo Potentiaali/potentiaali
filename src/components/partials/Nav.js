@@ -16,10 +16,8 @@ const Nav = ({
   changeLocales
 }) => {
   const [menuOpen, setMenuOpen] = useState(false);
-
-  // New fluent implementation
   const [current] = currentLocales;
-  const available = ["fi", "en-US"];
+  const available = ["en-US", "fi"];
   const next = available[(available.indexOf(current) + 1) % available.length];
 
   const menu = [
@@ -71,9 +69,9 @@ const Nav = ({
           <span
             className={classNames({
               fa: true,
-              ["fa-bars"]: !menuOpen,
-              ["fa-close"]: menuOpen,
-              ["mobile-menu-icon"]: true
+              "fa-bars": !menuOpen,
+              "fa-close": menuOpen,
+              "mobile-menu-icon": true
             })}
           />
         </a>

@@ -22,3 +22,4 @@ event-location-value = Kumpula's campus (Gustaf Hällströmin katu 2)
 event-time = Time
 event-day = Thursday
 event-time-prefix = between
+registration-starting-from-text = Registration by clicking this button, starting on { $regDate } at { $regTime }
