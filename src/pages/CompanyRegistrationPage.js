@@ -10,48 +10,60 @@ const CompanyRegistrationPage = () => (
       <h1>Yritysilmoittautuminen</h1>
     </Localized>
     <p>
-      Kumpulan Potentiaali on Helsingin Yliopiston
-      matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden järjestämä
-      työelämä- ja rekrytointitapahtuma, joka järjestetään marraskuussa 2019
-      kolmannen kerran. Aikaisempina vuosina tapahtuma on ollut menestys niin
-      opiskelijoiden kuin yritysvieraiden puolesta.{" "}
+      <Localized id="registration-main-part1">
+        Kumpulan Potentiaali on Helsingin Yliopiston
+        matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden järjestämä
+        työelämä- ja rekrytointitapahtuma, joka järjestetään marraskuussa 2019
+        kolmannen kerran. Aikaisempina vuosina tapahtuma on ollut menestys niin
+        opiskelijoiden kuin yritysvieraiden puolesta.
+      </Localized>
+      {" "}
       <b>
-        Vuonna 2017 yli 95% kertoi tapahtuman olleen vähintään hinnan väärti.
+        <Localized id="registration-main-part2">
+          Vuonna 2017 yli 95% kertoi tapahtuman olleen vähintään hinnan väärti.
+      </Localized>
       </b>
     </p>
     <br />
-    <h2>Sisältö</h2>
-    <p>Osallistumalla Kumpulan potentiaaliin yritys saa:</p>
+    <h2><Localized id="includes"> Sisältö </Localized> </h2>
+    <p><Localized id="participate">Osallistumalla Kumpulan potentiaaliin yritys saa:</Localized></p>
     <br />
     <ul style={{ paddingLeft: 20, listStyleType: "circle" }}>
       <li>
-        Ständipaikan, johon kuuluu sähköt, internetyhteys ja pöytä. Pöydän koko
-        on noin 1,2 m x 0,8 m
+        <Localized id="stand">
+          Ständipaikan, johon kuuluu sähköt, internetyhteys ja pöytä. Pöydän koko
+          on noin 1,2 m x 0,8 m
+        </Localized>
       </li>
-      <li>Oikeuden osallistua Rekry Speed Datingiin</li>
+      <li> <Localized id="speed-rekry">Mahdollisuus osallistua Rekry Speed Datingiin</Localized></li>
       <li>
-        Liput kolmelle hengelle, joka sisältää aamupalan, lounaan ja pääsyn
-        jatkoille
+        <Localized id="tickets"> Kolmelle hengelle liput, jotka sisältävät aamupalan, lounaan ja pääsyn
+        jatkoille </Localized>
       </li>
     </ul>
     <br />
     <p>
       <b>
-        Lisäksi meillä on tarjolla yhteensä neljä suurempaa ständipaikkaa, jotka
-        on sijoiteltu sisäänkäyntien yhteyteen. Tällainen paikka kustantaa
-        2000,00 euroa, ja ne myydään ilmoittautumisjärjestyksessä.
+        <Localized id="bonus-tickets">
+          Lisäksi meillä on tarjolla yhteensä neljä suurempaa ständipaikkaa, jotka
+          on sijoiteltu sisäänkäyntien yhteyteen. Tällainen paikka kustantaa
+          2000,00 euroa, ja ne myydään ilmoittautumisjärjestyksessä.
+        </Localized>
       </b>
     </p>
     <br />
     <p>
       <b>
-        Teillä on myös mahdollisuus saada isomman yleisön huomio pitämällä
-        Workshop tai Keynote.
+        <Localized id="keynote-and-workshop">
+          Teillä on myös mahdollisuus saada isomman yleisön huomio pitämällä
+          Workshop tai Keynote.
+        </Localized>
       </b>{" "}
-      Niiden pitäminen ei tuo lisäkustannuksia. Kumpulan potentiaalin
-      järjestäjät valitsevat sopivat yritykset pitämään kyseiset tapahtumat
-      niiden sisällön perusteella. Alustava kiinnostus pitää jompikumpi
-      ilmoitetaan ilmoittautumislomakkeella.
+      <Localized id="keynote-and-workshop-information">
+        Niiden pitäminen ei tuo lisäkustannuksia. Kumpulan potentiaalin
+        järjestäjät valitsevat sopivat yritykset pitämään kyseiset tapahtumat
+        niiden sisällön perusteella. Alustava kiinnostus pitää jompikumpi
+      ilmoitetaan ilmoittautumislomakkeella. </Localized>
     </p>
     <br />
     <Localized id="event-info-title">
@@ -78,24 +90,27 @@ const CompanyRegistrationPage = () => (
         <Localized id="event-cost">
           <b>Hinta</b>
         </Localized>
-        : <Localized id="event-cost-value">Alkaen 1000,00 €</Localized>
+        : <Localized id="event-cost-value">1000,00 euroa</Localized>
       </li>
     </ul>
     <br />
-    <h2>Ilmoittautuminen</h2>
+    <h2> <Localized id="registration"> Ilmoittautuminen </Localized> </h2>
     <p>
-      Ilmoittautumislomakkeelle kerätään osallistumisesta kiinnostuneiden
-      yritysten yhteystiedot. Ilmoittautumisajan päätyttyä olemme yhteydessä
-      mukaan mahtuviin yrityksiin sekä jonoon jääneisiin.
+      <Localized id="registration-form">
+        Ilmoittautumislomakkeelle kerätään osallistumisesta kiinnostuneiden
+        yritysten yhteystiedot. Ilmoittautumisajan päätyttyä olemme yhteydessä
+        mukaan mahtuviin yrityksiin sekä jonoon jääneisiin. Vain 50 nopeinta yritystä mahtuu mukaan tapahtumaa. Aikaisempina
+        vuosina tapahtuma on tullut täyteen.
+     </Localized>
     </p>
     <br />
     <p>
       <RegistrationButton />
     </p>
     <br />
-    <h2>Yhteystiedot</h2>
+    <h2> <Localized id="contact-information">Yhteystiedot </Localized></h2>
     <p>
-      Vastaamme mielellään heränneisiin kysymyksiin osoitteessa{" "}
+      <Localized id="questions"> Vastaamme mielellään heränneisiin kysymyksiin osoitteessa </Localized>{" "}
       <a href="mailto:info@potentiaali.com">info@potentiaali.com</a>
     </p>
   </Page>

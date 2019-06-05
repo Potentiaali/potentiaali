@@ -27,4 +27,33 @@ event-location-value = Kumpulan kampus (Gustaf Hällströmin katu 2)
 event-time = Aika
 event-day = Torstai
 event-time-prefix = klo
+event-cost = Hinta
+event-cost-value = 1000 euroa
 registration-starting-from-text = Ilmoittautuminen tästä napista alkaen { $regDate } klo { $regTime }
+registration-main-part1 = Kumpulan Potentiaali on Helsingin Yliopiston
+            matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden järjestämä
+            työelämä- ja rekrytointitapahtuma, joka järjestetään marraskuussa 2019
+            kolmannen kerran. Aikaisempina vuosina tapahtuma on ollut menestys niin
+            opiskelijoiden kuin yritysvieraiden puolesta.
+registration-main-part2 = Vuonna 2017 yli 95% kertoi tapahtuman olleen vähintään hinnan väärti.
+includes = Sisältö
+participate = Osallistumalla Kumpulan potentiaaliin yritys saa:
+stand =Ständipaikan, johon kuuluu sähköt, internetyhteys ja pöytä. Pöydän koko on noin 1,2 m x 0,8 m
+speed-rekry = Mahdollisuus osallistua Rekry Speed Datingiin
+tickets = Kolmelle hengelle liput, jotka sisältävät aamupalan, lounaan ja pääsyn
+            jatkoille
+bonus-tickets = Lisäksi meillä on tarjolla yhteensä neljä suurempaa ständipaikkaa, jotka on sijoiteltu sisäänkäyntien yhteyteen. 
+            Tällainen paikka kustantaa 2000,00 euroa, ja ne myydään ilmoittautumisjärjestyksessä.
+keynote-and-workshop = Teillä on myös mahdollisuus saada isomman yleisön huomio pitämällä
+            Workshop tai Keynote   
+keynote-and-workshop-information = Niiden pitäminen ei tuo lisäkustannuksia. Kumpulan potentiaalin
+            järjestäjät valitsevat sopivat yritykset pitämään kyseiset tapahtumat
+            niiden sisällön perusteella. Alustava kiinnostus pitää jompikumpi
+            ilmoitetaan ilmoittautumislomakkeella.  
+registration = Ilmoittautuminen
+registration-form = Ilmoittautumislomakkeelle kerätään osallistumisesta kiinnostuneiden
+            yritysten yhteystiedot. Ilmoittautumisajan päätyttyä olemme yhteydessä
+            mukaan mahtuviin yrityksiin sekä jonoon jääneisiin. Vain 50 nopeinta yritystä mahtuu mukaan tapahtumaa. Aikaisempina
+            vuosina tapahtuma on tullut täyteen.
+contact-information = Yhteystiedot
+questions = Vastaamme mielellään heränneisiin kysymyksiin osoitteessa
