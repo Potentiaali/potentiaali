@@ -1,20 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import AppWrapper from "./AppWrapper";
 
 import { Provider } from "react-redux";
-import { BrowserRouter } from "react-router-dom";
+import { MemoryRouter } from "react-router-dom";
 import { store } from "./store";
 import LocalizationProvider from "./LocalizationProvider";
+import App from "./App";
 
 it("renders without crashing", () => {
   const div = document.createElement("div");
   ReactDOM.render(
     <Provider store={store}>
       <LocalizationProvider>
-        <BrowserRouter>
-          <AppWrapper />
-        </BrowserRouter>
+        <MemoryRouter>
+          <App />
+        </MemoryRouter>
       </LocalizationProvider>
     </Provider>,
     div

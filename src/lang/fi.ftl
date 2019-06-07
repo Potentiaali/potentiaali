@@ -57,3 +57,33 @@ registration-form = Ilmoittautumislomakkeelle kerätään osallistumisesta kiinn
             vuosina tapahtuma on tullut täyteen.
 contact-information = Yhteystiedot
 questions = Vastaamme mielellään heränneisiin kysymyksiin osoitteessa
+seconds-text = { $seconds ->
+        [one] sekunti
+       *[other] sekuntia
+    }
+hours-text = { $hours ->
+        [one] tunti
+       *[other] tuntia
+    }
+minutes-text = { $minutes ->
+        [one] minuutti
+       *[other] minuuttia
+    }
+days-text = { $days ->
+        [one] päivä
+       *[other] päivää
+    }
+time-text = Aika
+review-1-text = "Ehdottomasti laadukas opiskelijatapahtuma!"
+any-questions-title-text = Kysyttävää?
+event-no-description = (Ei kuvausta)
+event-description = Kuvaus
+event-speakers = Puhujat
+event-registration-link = Ilmoittautumislinkki
+event-language = Kieli
+event-time = Aika
+event-location = Sijainti
+event-not-found = Tapahtumaa ei löydy
+finnish-language-text = Suomi
+english-language-text = Englanti
+english-finnish-language-text = Suomi / Englanti

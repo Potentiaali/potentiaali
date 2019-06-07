@@ -9,12 +9,8 @@ import styles from "./Hero.module.scss";
 export const Hero = () => {
   const reviews = [
     {
-      id: "hero.review1",
-      text: "Default 1"
-    },
-    {
-      id: "hero.review2",
-      text: "Default 2"
+      id: "review-1-text",
+      defaultText: '"Ehdottomasti laadukas opiskelijatapahtuma!"'
     }
   ];
 
@@ -37,17 +33,18 @@ export const Hero = () => {
             Työelämä- ja rekrytointitapahtuma Kumpulan kampuksella
           </Localized>{" "}
           <b>
-            {config.eventDate}{" "}
-            <Localized id="heroTimePrefix">klo</Localized>{" "}
+            {config.eventDate} <Localized id="heroTimePrefix">klo</Localized>{" "}
             {config.eventTime}
           </b>
           <br />
           {reviews.map(review => (
-            <React.Fragment key={review.text}>
+            <span key={review.id}>
               <br />
+              <Localized id={review.id}>
+                <i>{review.defaultText}</i>
+              </Localized>
               <br />
-              <span>{review.text}</span>
-            </React.Fragment>
+            </span>
           ))}
         </p>
         <Clock eventDate={config.eventDate} />

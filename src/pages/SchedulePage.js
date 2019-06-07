@@ -6,80 +6,7 @@ import { changeSchedule } from "../reducers/ScheduleReducer";
 
 const uuidv4 = require("uuid/v4");
 
-/*
-const messages = defineMessages({
-  scheduleTitle: {
-    id: "schedule.title",
-    defaultMessage: "Aikataulu"
-  },
-  all: {
-    id: "scheduleNav.all",
-    defaultMessage: "Kaikki"
-  },
-  workshops: {
-    id: "scheduleNav.workshops",
-    defaultMessage: "Workshopit"
-  },
-  lectures: {
-    id: "scheduleNav.lectures",
-    defaultMessage: "Luennot"
-  },
-  speedDating: {
-    id: "scheduleNav.speedDating",
-    defaultMessage: "Speed dating"
-  },
-  notApplicable: {
-    id: "scheduleNav.notApplicable",
-    defaultMessage: "N/A"
-  }
-});
-*/
-/*
-const ScheduleNavComponent = ({
-  selected,
-  schedule,
-  changeSchedule,
-  intl: { formatMessage }
-}) => {
-  const generateLinkText = name => {
-    switch (name) {
-      case "all":
-        return formatMessage(messages.all);
-      case "workshops":
-        return formatMessage(messages.workshops);
-      case "lectures":
-        return formatMessage(messages.lectures);
-      case "speedDating":
-        return formatMessage(messages.speedDating);
-      default:
-        return "N/A";
-    }
-  };
-  const name = "all";
-  return (
-    <div className="schedule-nav-links">
-      <span
-        className={classnames({ "is-selected": selected === name })}
-        onClick={e => {
-          e.preventDefault();
-          changeSchedule(name);
-        }}
-        key={name}
-        style={{ margin: 20 }}
-      >
-        {generateLinkText(name)}
-      </span>
-    </div>
-  );
-};
-
-const ScheduleNav = injectIntl(ScheduleNavComponent);
-*/
 export const SchedulePage = ({ schedule, selected, type }) => {
-
-  return (
-    <div />
-  )
   let scheduleComponent = null;
   let allEvents = {};
   switch (selected) {
@@ -87,7 +14,7 @@ export const SchedulePage = ({ schedule, selected, type }) => {
       Object.keys(schedule).forEach(single => {
         Object.keys(schedule[single]).forEach(stage => {
           const randomKey = uuidv4();
-          allEvents[randomKey] = schedule[single][stage];
+          allEvents = { ...allEvents, [randomKey]: schedule[single][stage] };
         });
       });
       scheduleComponent = (

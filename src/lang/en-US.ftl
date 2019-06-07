@@ -36,7 +36,7 @@ speed-rekry = Opportunity to participate in Speed-Rekry-Dating
 tickets = Tickets for three persons, which each include breakfast, a lunch and an access to the afterparty.
 bonus-tickets = We also have four bigger stands, that will be placed near the entrances.
             These stands cost 2000 euros and they will be sold in registration order.
-keynote-and-workshop = You also have a chance to get attention of a bigger audience, by conducting a workshop or giving a keynote
+keynote-and-workshop = You also have a chance to get attention of a bigger audience, by conducting a workshop or giving a keynote.
 keynote-and-workshop-information = Workshop or keynote won't bring any extra costs. Companies have to tell about their interest to a workshop or keynote in
          the registration form. The companies have to let us know their topic before the event. The organizers of Kumpula Potential will choose the best topics
           and the corresponding companies will have the possibility to conduct the workshops and give the keynotes.
@@ -44,4 +44,34 @@ registration-form = We collect to the registration form the contact information 
             registration time has ended When the registration time has ended we contact the companies, whether or not they made into the event. We have room for only 50 companies and in previous
             years the event has been full.
 contact-information = Contact information
-questions = If you have any questions, please ask 
+questions = If you have any questions, please contact us at 
+seconds-text = { $seconds ->
+        [one] second
+       *[other] seconds
+    }
+hours-text = { $hours ->
+        [one] hour
+       *[other] hours
+    }
+minutes-text = { $minutes ->
+        [one] minute
+       *[other] minutes
+    }
+days-text = { $days ->
+        [one] day
+       *[other] days
+    }
+time-text = Time
+review-1-text = "Absolutely high quality student event!"
+any-questions-title-text = Any questions?
+event-no-description = (No description)
+event-description = Description
+event-speakers = Speakers
+event-registration-link = Registration link
+event-language = Language
+event-time = Time
+event-location = Location
+event-not-found = Event not found
+finnish-language-text = Finnish
+english-language-text = English
+english-finnish-language-text = Finnish / English

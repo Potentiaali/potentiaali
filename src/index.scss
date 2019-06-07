@@ -420,103 +420,6 @@ div.markdownPage {
   }
 }
 
-// Speed rekry grid styling
-div.speedRekryGrid {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
-  justify-items: center;
-  align-items: center;
-  align-content: space-evenly;
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  div.speedRekryItem {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding-bottom: 20px;
-    min-height: 200px;
-    vertical-align: middle;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: black;
-    color: white;
-    &.item-1 {
-      background-color: #303f9f;
-    }
-    &.item-2 {
-      background-color: #1976d2;
-    }
-    &.item-3 {
-      background-color: #388e3c;
-    }
-    &.item-4 {
-      background-color: #ffa000;
-      color: black;
-    }
-    &.item-5 {
-      background-color: #7c4dff;
-    }
-    &.item-6 {
-      background-color: #607d8b;
-    }
-    &.item-7 {
-      background-color: #00bcd4;
-    }
-    &.item-8 {
-      background-color: #cddc39;
-      color: black;
-    }
-
-    div.speedRekryItemTitle {
-      font-weight: bold;
-      font-size: 110%;
-      height: 30%;
-      display: flex;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-    }
-    div.speedRekryItemDesc {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      flex-direction: column;
-      height: 70%;
-      font-size: 90%;
-      a.speedRekryLink {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border: 2px solid white;
-        color: white;
-        width: 80%;
-        margin-top: 15px;
-        height: 40px;
-        line-height: 40px;
-        font-size: 12pt;
-        transition: none;
-        letter-spacing: normal;
-        &.black {
-          color: black;
-          border-color: black;
-        }
-        &.rekry-disabled {
-          opacity: 0.1;
-          pointer-events: none;
-          cursor: default;
-        }
-      }
-    }
-  }
-}
-
 a.basic-link {
   text-transform: none;
   font-size: 100%;
@@ -631,4 +534,8 @@ iframe {
       cursor: pointer;
     }
   }
+}
+
+i {
+  font-style: italic;
 }

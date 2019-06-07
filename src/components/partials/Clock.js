@@ -1,33 +1,12 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
-import { defineMessages, injectIntl } from "react-intl";
 import styles from "./Clock.module.scss";
 import moment from "moment";
 import "moment/locale/fi";
 import "moment/locale/en-gb";
+import { Localized } from "fluent-react/compat";
 
-// TODO: Move translations to Fluent syntax
-
-const clockMessages = defineMessages({
-  days: {
-    id: "clock.days",
-    defaultMessage: "päivää"
-  },
-  hours: {
-    id: "clock.hours",
-    defaultMessage: "tuntia"
-  },
-  minutes: {
-    id: "clock.minutes",
-    defaultMessage: "minuuttia"
-  },
-  seconds: {
-    id: "clock.seconds",
-    defaultMessage: "sekuntia"
-  }
-});
-
-const Clock = ({ intl: { formatMessage }, eventDate }) => {
+const Clock = ({ eventDate }) => {
   const [timeUntil, setUntil] = useState([0, 0, 0, 0]);
 
   useEffect(() => {
@@ -53,12 +32,34 @@ const Clock = ({ intl: { formatMessage }, eventDate }) => {
     };
   }, []);
 
+  const [seconds, hours, minutes, days] = timeUntil;
+
   return (
     <p className={styles.clock}>
-      {timeUntil[3]} {formatMessage(clockMessages.days)} {timeUntil[2]}{" "}
-      {formatMessage(clockMessages.hours)} {timeUntil[1]}{" "}
-      {formatMessage(clockMessages.minutes)} {timeUntil[0]}{" "}
-      {formatMessage(clockMessages.seconds)}
+      {days}{" "}
+      {
+        <Localized id="days-text" $days={days}>
+          {"päivää"}
+        </Localized>
+      }{" "}
+      {hours}{" "}
+      {
+        <Localized id="hours-text" $hours={hours}>
+          {"tuntia"}
+        </Localized>
+      }{" "}
+      {minutes}{" "}
+      {
+        <Localized id="minutes-text" $minutes={minutes}>
+          {"minuuttia"}
+        </Localized>
+      }{" "}
+      {seconds}{" "}
+      {
+        <Localized id="seconds-text" $seconds={seconds}>
+          {"sekuntia"}
+        </Localized>
+      }
     </p>
   );
 };
@@ -68,4 +69,4 @@ Clock.propTypes = {
   eventDate: PropTypes.string.isRequired
 };
 
-export default injectIntl(Clock);
+export default Clock;

@@ -1,7 +1,5 @@
 import React from "react";
-import { FormattedMessage } from "react-intl";
-
-// TODO: Move translations to Fluent syntax
+import { Localized } from "fluent-react/compat";
 
 const Contact = () => {
   return (
@@ -9,21 +7,13 @@ const Contact = () => {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <h2>
-              {
-                <FormattedMessage
-                  id="hero.contactTitle"
-                  defaultMessage="Kysyttävää?"
-                />
-              }
-            </h2>
+            <Localized id="any-questions-title-text">
+              <h2>Kysyttävää?</h2>
+            </Localized>
             <p>
-              {
-                <FormattedMessage
-                  id="hero.contactDescription"
-                  defaultMessage="Tavoitat meidät sähköpostilla osoitteesta"
-                />
-              }
+              <Localized id="any-questions-description-text">
+                Tavoitat meidät sähköpostilla osoitteesta
+              </Localized>
               <br />
               <a href="mailto:info@potentiaali.com">info(at)potentiaali.com</a>
             </p>

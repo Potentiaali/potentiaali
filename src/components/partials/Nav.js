@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { NavLink, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import { setLanguage, changeLocales } from "../../reducers/LocalizationReducer";
-import { injectIntl } from "react-intl";
 import { Localized } from "fluent-react/compat";
 import classNames from "classnames";
 import styles from "./Nav.module.scss";
@@ -170,5 +169,5 @@ export default withRouter(
   connect(
     mapStateToProps,
     mapDispatchToProps
-  )(injectIntl(Nav))
+  )(Nav)
 );

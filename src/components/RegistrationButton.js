@@ -4,6 +4,10 @@ import config from "./../data/config.json";
 import classNames from "classnames";
 import { Localized } from "fluent-react/compat";
 
+/**
+ * Returns the registration link.
+ * @param {boolean} registrationDisabled 
+ */
 const navigateTo = registrationDisabled => {
   if (!registrationDisabled) {
     return config.companyRegistrationLink;

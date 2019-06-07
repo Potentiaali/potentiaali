@@ -2,9 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import styles from "./Footer.module.scss";
 
-// TODO: Move translations to Fluent syntax
-
-const Footer = ({ logos }) => (
+export const Footer = ({ logos }) => (
   <footer className={styles.footer}>
     {logos.map(logo => (
       <img
@@ -20,5 +18,3 @@ const Footer = ({ logos }) => (
 Footer.propTypes = {
   logos: PropTypes.array
 };
-
-export default Footer;
