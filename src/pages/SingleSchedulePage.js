@@ -1,9 +1,10 @@
 import React from "react";
 import { connect } from "react-redux";
 import flatMap from "lodash/flatMap";
-import { FormattedMessage } from "react-intl";
 import { Language } from "../components/partials/Language";
 import PropTypes from "prop-types";
+import { Localized } from "fluent-react/compat";
+import { Page } from "../components/Page";
 
 // A mapping function to parse the schedule json into a better format.
 const mapSchedule = schedule =>
@@ -19,22 +20,16 @@ const mapSchedule = schedule =>
 const SingleSchedulePage = ({ schedule, match }) => {
   if (!match) {
     return (
-      <div className="page" style={{ paddingBottom: 50, paddingTop: 50 }}>
-        <FormattedMessage
-          id="singleSchedule.eventNotFound"
-          defaultMessage="Tapahtumaa ei löydy"
-        />
-      </div>
+      <Page usePadding>
+        <Localized id="event-not-found">Tapahtumaa ei löydy</Localized>
+      </Page>
     );
   }
   if (!schedule) {
     return (
-      <div className="page" style={{ paddingBottom: 50, paddingTop: 50 }}>
-        <FormattedMessage
-          id="singleSchedule.emptySchedule"
-          defaultMessage="Aikataulu on tyhjä"
-        />
-      </div>
+      <Page usePadding>
+        <Localized id="empty-schedule">Aikataulu on tyhjä</Localized>
+      </Page>
     );
   }
   const singleSchedule = mapSchedule(schedule).find(
@@ -42,41 +37,27 @@ const SingleSchedulePage = ({ schedule, match }) => {
   );
   if (!singleSchedule) {
     return (
-      <div className="page" style={{ paddingBottom: 50, paddingTop: 20 }}>
-        <FormattedMessage
-          id="singleSchedule.eventNotFound"
-          defaultMessage="Tapahtumaa ei löydy"
-        />
-      </div>
+      <Page usePadding>
+        <Localized id="event-not-found">Tapahtumaa ei löydy</Localized>
+      </Page>
     );
   }
   return (
-    <div className="page" style={{ paddingBottom: 50, paddingTop: 20 }}>
+    <Page usePadding style={{ paddingBottom: 50, paddingTop: 20 }}>
       <h1>{singleSchedule.name}</h1>
       <h3>{singleSchedule.description}</h3>
       <b>
-        {
-          <FormattedMessage
-            id="singleSchedule.location"
-            defaultMessage="Sijainti"
-          />
-        }
-        :{" "}
+        <Localized id="event-location">Sijainti</Localized>:{" "}
       </b>
       {singleSchedule.stage}
       <br />
-      <b>
-        {<FormattedMessage id="singleSchedule.time" defaultMessage="Aika" />}:{" "}
-      </b>
+      <b>{<Localized id="event-time">Aika</Localized>}: </b>
       {singleSchedule.start} - {singleSchedule.end}
       <br />
       {singleSchedule.language && (
         <span>
           <b>
-            <FormattedMessage
-              id="singleSchedule.language"
-              defaultMessage="Kieli"
-            />
+            <Localized id="event-language">Kieli</Localized>
           </b>
           : <Language lang={singleSchedule.language} />
         </span>
@@ -84,10 +65,9 @@ const SingleSchedulePage = ({ schedule, match }) => {
       {singleSchedule.language && <br />}
       {singleSchedule.link && (
         <b>
-          <FormattedMessage
-            id="singleSchedule.linkText"
-            defaultMessage="Ilmoittautumislinkki"
-          />
+          <Localized id="event-registration-link">
+            Ilmoittautumislinkki
+          </Localized>
           :{" "}
           <a
             className="basic-link break-word"
@@ -102,33 +82,20 @@ const SingleSchedulePage = ({ schedule, match }) => {
       {singleSchedule.speakers && (
         <span>
           <b>
-            <FormattedMessage
-              id="singleSchedule.speakersText"
-              defaultMessage="Puhujat"
-            />
+            <Localized id="event-speakers">Puhujat</Localized>
           </b>
           : {singleSchedule.speakers}
         </span>
       )}
       {singleSchedule.speakers && <br />}
-      <b>
-        {
-          <FormattedMessage
-            id="singleSchedule.description"
-            defaultMessage="Kuvaus"
-          />
-        }
-      </b>
+      <b>{<Localized id="event-description">Kuvaus</Localized>}</b>
       <br />
       {singleSchedule.fullDescription ? (
         <pre>{singleSchedule.fullDescription}</pre>
       ) : (
-        <FormattedMessage
-          id="singleSchedule.noDescription"
-          defaultMessage="(Ei kuvausta)"
-        />
+        <Localized id="event-no-description">(Ei kuvausta)</Localized>
       )}
-    </div>
+    </Page>
   );
 };
 
@@ -143,6 +110,4 @@ const mapStateToProps = state => {
   };
 };
 
-export default connect(
-  mapStateToProps
-)(SingleSchedulePage);
+export default connect(mapStateToProps)(SingleSchedulePage);

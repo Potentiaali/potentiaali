@@ -1,3 +1,5 @@
+$nav-responsive-limit: 1000px;
+
 .navigation {
   // background: rgb(235, 156, 45);
   background: white;
@@ -41,7 +43,7 @@
     text-decoration: none !important;
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: $nav-responsive-limit) {
     visibility: visible;
   }
 }
@@ -60,7 +62,7 @@
   float: right;
   color: white;
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: $nav-responsive-limit) {
     visibility: hidden;
   }
 }

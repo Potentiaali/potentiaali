@@ -1,46 +1,23 @@
 import React from "react";
 import Clock from "./Clock";
 import config from "../../data/config.json";
-import { injectIntl, defineMessages, FormattedMessage } from "react-intl";
 import PropTypes from "prop-types";
+import { Localized } from "fluent-react/compat";
 
 import styles from "./Hero.module.scss";
 
-const heroMessages = defineMessages({
-  scheduleTitle: {
-    id: "hero.potentiaaliDescription",
-    defaultMessage: "Työelämä- ja rekrytointitapahtuma Kumpulan kampuksella"
-  },
-  review1: {
-    id: "hero.reviewMessage1",
-    defaultMessage: "Default 1"
-  },
-  review2: {
-    id: "hero.reviewMessage2",
-    defaultMessage: "Default 2"
-  }
-});
-
-const HeroComponent = ({ intl: { formatMessage } }) => {
+export const Hero = () => {
   const reviews = [
     {
-      text: formatMessage(heroMessages.review1)
-    },
-    {
-      text: formatMessage(heroMessages.review2)
+      id: "review-1-text",
+      defaultText: '"Ehdottomasti laadukas opiskelijatapahtuma!"'
     }
   ];
 
   return (
     <section className={styles.hero}>
-      <video
-        poster="juku.png"
-        muted
-        loop
-        autoPlay
-        preload="true"
-      >
-        <source src="DJI_0014.mp4" type="video/mp4" />
+      <video poster="poster.png" muted loop autoPlay preload="true">
+        <source src="poster_video.mp4" type="video/mp4" />
       </video>
       <div className={styles["hero-overlay"]} />
       <div className={styles["hero-container"]}>
@@ -52,19 +29,22 @@ const HeroComponent = ({ intl: { formatMessage } }) => {
           />
         </h1>
         <p className={styles["hero-paragraph"]}>
-          {formatMessage(heroMessages.scheduleTitle) + " "}
+          <Localized id="heroDescription">
+            Työelämä- ja rekrytointitapahtuma Kumpulan kampuksella
+          </Localized>{" "}
           <b>
-            {config.eventDate}{" "}
-            <FormattedMessage id="hero.timePrefix" defaultMessage="klo" />{" "}
+            {config.eventDate} <Localized id="heroTimePrefix">klo</Localized>{" "}
             {config.eventTime}
           </b>
           <br />
           {reviews.map(review => (
-            <React.Fragment key={review.text}>
+            <span key={review.id}>
               <br />
+              <Localized id={review.id}>
+                <i>{review.defaultText}</i>
+              </Localized>
               <br />
-              <span>{review.text}</span>
-            </React.Fragment>
+            </span>
           ))}
         </p>
         <Clock eventDate={config.eventDate} />
@@ -74,10 +54,6 @@ const HeroComponent = ({ intl: { formatMessage } }) => {
   );
 };
 
-HeroComponent.propTypes = {
+Hero.propTypes = {
   intl: PropTypes.any
 };
-
-const Hero = injectIntl(HeroComponent);
-
-export { Hero };

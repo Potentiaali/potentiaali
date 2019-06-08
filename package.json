@@ -6,6 +6,10 @@
   "dependencies": {
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
+    "fluent": "^0.12.0",
+    "fluent-langneg": "^0.1.1",
+    "fluent-react": "^0.8.4",
+    "intl-pluralrules": "^1.0.1",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
@@ -13,7 +17,6 @@
     "react-art": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-fittext": "^1.0.0",
-    "react-intl": "^2.8.0",
     "react-markdown": "^4.0.6",
     "react-native-web": "^0.11.0",
     "react-redux": "^6.0.1",
@@ -34,8 +37,7 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "fix-js": "eslint --fix src/**/*.js",
-    "extract:messages": "react-intl-cra 'src/**/*.{js,jsx}' -o 'src/i18n/messages/messages.json'",
-    "manage:translations": "node ./translationRunner.js"
+    "lint": "eslint  src/**/*.js"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^5.0.1",
@@ -44,8 +46,7 @@
     "@storybook/react": "^5.0.1",
     "css-loader": "2.1.1",
     "node-sass": "^4.11.0",
-    "react-intl-cra": "^0.3.4",
-    "react-intl-translations-manager": "^5.0.3",
+    "redux-devtools-extension": "^2.13.8",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0"
   },

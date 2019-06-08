@@ -1,30 +1,24 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { FormattedMessage } from "react-intl";
+import { Localized } from "fluent-react/compat";
 
 export const Language = ({ lang }) => {
   switch (lang) {
     case "fi":
-      return <FormattedMessage id="language.finnish" defaultMessage="Suomi" />;
+      return <Localized id="finnish-language-text">Suomi</Localized>;
     case "en":
       return (
-        <FormattedMessage id="language.english" defaultMessage="Englanti" />
+        <Localized id="english-language-text">Englanti</Localized>
       );
 
     case "fi/en":
       return (
-        <FormattedMessage
-          id="language.englishFinnish"
-          defaultMessage="Suomi / Englanti"
-        />
+        <Localized id="english-finnish-language-text">Suomi / Englanti</Localized>
       );
 
     case "en/fi":
       return (
-        <FormattedMessage
-          id="language.englishFinnish"
-          defaultMessage="Suomi / Englanti"
-        />
+        <Localized id="english-finnish-language-text">Suomi / Englanti</Localized>
       );
     default:
       return <span />;
@@ -33,4 +27,4 @@ export const Language = ({ lang }) => {
 
 Language.propTypes = {
   lang: PropTypes.string.isRequired
-}
+};
