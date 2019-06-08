@@ -87,3 +87,4 @@ event-not-found = Tapahtumaa ei löydy
 finnish-language-text = Suomi
 english-language-text = Englanti
 english-finnish-language-text = Suomi / Englanti
+registration-notification-text = Yritysilmoittautuminen Kumpulan Potentiaali 2019 -tapahtumaan aukeaa 10.6.2019 klo 12:00 "Yritysilmoittautuminen" -sivulla

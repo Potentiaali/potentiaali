@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Companies from "./../components/partials/Companies";
+import { Link } from "react-router-dom";
 import { Program } from "./../components/partials/Program";
 import { SpeedRekry } from "./../components/partials/SpeedRekry";
 import config from "../data/config.json";
@@ -18,10 +19,31 @@ const MainContent = () => {
   return (
     <section className="">
       <div className="container">
+        <div
+          style={{
+            border: "2px solid",
+            padding: 10,
+            textAlign: "center",
+            display: "flex",
+            justifyContent: "center",
+            alignContent: "center",
+            alignItems: "center",
+            marginBottom: 30,
+            backgroundColor: "#29b6f6",
+            color: "black"
+          }}
+        >
+          <h2 style={{ marginBottom: 0 }}>
+            <Localized id="registration-notification-text">
+              Yritysilmoittautuminen Kumpulan Potentiaali 2019 -tapahtumaan
+              aukeaa 10.6.2019 klo 12:00 &#34;Yritysilmoittautuminen&#34;
+              -sivulla
+            </Localized>
+          </h2>
+        </div>
         <Localized id="title-1">
-          <h2>Mikä on Kumpulan Potentiaali?</h2>
+          <h1>Mikä on Kumpulan Potentiaali?</h1>
         </Localized>
-        <br />
         <Localized id="main-part-1">
           <p>
             Kumpulan Potentiaali on Helsingin yliopiston

@@ -75,3 +75,4 @@ event-not-found = Event not found
 finnish-language-text = Finnish
 english-language-text = English
 english-finnish-language-text = Finnish / English
+registration-notification-text = Company registration for Kumpula's Potential 2019 opens 10.6.2019 at 12:00pm (GMT +3) in the "Registration for companies" -page
