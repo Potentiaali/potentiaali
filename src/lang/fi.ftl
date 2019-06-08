@@ -29,7 +29,7 @@ event-day = Torstai
 event-time-prefix = klo
 event-cost = Hinta
 event-cost-value = 1000 euroa
-registration-starting-from-text = Ilmoittautuminen tästä napista alkaen { $regDate } klo { $regTime }
+registration-starting-from-text = Ilmoittautuminen { $regDate } klo { $regTime } alkaen tästä napista
 registration-main-part1 = Kumpulan Potentiaali on Helsingin Yliopiston
             matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden järjestämä
             työelämä- ja rekrytointitapahtuma, joka järjestetään marraskuussa 2019
@@ -88,3 +88,4 @@ finnish-language-text = Suomi
 english-language-text = Englanti
 english-finnish-language-text = Suomi / Englanti
 registration-notification-text = Yritysilmoittautuminen Kumpulan Potentiaali 2019 -tapahtumaan aukeaa 10.6.2019 klo 12:00 "Yritysilmoittautuminen" -sivulla
+register-now-text = Ilmoittaudu Kumpulan Potentiaaliin nyt!

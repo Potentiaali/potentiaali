@@ -29,6 +29,7 @@ const RegistrationButton = () => {
         [styles.registrationButton]: true,
         [styles.registrationDisabled]: registrationDisabled
       })}
+      style={{textTransform: "none"}}
     >
       {registrationDisabled ? (
         <Localized
