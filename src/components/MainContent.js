@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Companies from "./../components/partials/Companies";
-import { Link } from "react-router-dom";
 import { Program } from "./../components/partials/Program";
 import { SpeedRekry } from "./../components/partials/SpeedRekry";
 import config from "../data/config.json";

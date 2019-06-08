@@ -7,6 +7,7 @@ import { changeSchedule } from "../reducers/ScheduleReducer";
 const uuidv4 = require("uuid/v4");
 
 export const SchedulePage = ({ schedule, selected, type }) => {
+  return <div/>;
   let scheduleComponent = null;
   let allEvents = {};
   switch (selected) {
