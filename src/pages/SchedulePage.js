@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { SingleSchedule } from "../components/schedule/SingleSchedule";
 import { connect } from "react-redux";
 import { changeSchedule } from "../reducers/ScheduleReducer";
+import { Page } from "./../components/Page";
 
 const uuidv4 = require("uuid/v4");
 
@@ -43,10 +44,10 @@ export const SchedulePage = ({ schedule, selected, type }) => {
       break;
   }
   return (
-    <div className="page">
+    <Page fullWidth noTopPadding noBottomPadding alignText={"center"}>
       {/*<h1>{formatMessage(messages.scheduleTitle)}</h1>*/}
       {scheduleComponent}
-    </div>
+    </Page>
   );
 };
 

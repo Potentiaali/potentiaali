@@ -4,7 +4,7 @@ import flatMap from "lodash/flatMap";
 import { Language } from "../components/partials/Language";
 import PropTypes from "prop-types";
 import { Localized } from "fluent-react/compat";
-import { Page } from "../components/Page";
+
 
 // A mapping function to parse the schedule json into a better format.
 const mapSchedule = schedule =>
@@ -19,31 +19,19 @@ const mapSchedule = schedule =>
 
 const SingleSchedulePage = ({ schedule, match }) => {
   if (!match) {
-    return (
-      <Page usePadding>
-        <Localized id="event-not-found">Tapahtumaa ei löydy</Localized>
-      </Page>
-    );
+    return <Localized id="event-not-found">Tapahtumaa ei löydy</Localized>;
   }
   if (!schedule) {
-    return (
-      <Page usePadding>
-        <Localized id="empty-schedule">Aikataulu on tyhjä</Localized>
-      </Page>
-    );
+    return <Localized id="empty-schedule">Aikataulu on tyhjä</Localized>;
   }
   const singleSchedule = mapSchedule(schedule).find(
     singleSchedule => singleSchedule.id === match.params.id
   );
   if (!singleSchedule) {
-    return (
-      <Page usePadding>
-        <Localized id="event-not-found">Tapahtumaa ei löydy</Localized>
-      </Page>
-    );
+    return <Localized id="event-not-found">Tapahtumaa ei löydy</Localized>;
   }
   return (
-    <Page usePadding style={{ paddingBottom: 50, paddingTop: 20 }}>
+    <>
       <h1>{singleSchedule.name}</h1>
       <h3>{singleSchedule.description}</h3>
       <b>
@@ -95,7 +83,7 @@ const SingleSchedulePage = ({ schedule, match }) => {
       ) : (
         <Localized id="event-no-description">(Ei kuvausta)</Localized>
       )}
-    </Page>
+    </>
   );
 };
 
