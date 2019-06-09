@@ -76,6 +76,7 @@ days-text = { $days ->
 time-text = Aika
 review-1-text = "Ehdottomasti laadukas opiskelijatapahtuma!"
 any-questions-title-text = Kysyttävää?
+any-questions-description-text = Tavoitat meidät sähköpostilla osoitteesta
 event-no-description = (Ei kuvausta)
 event-description = Kuvaus
 event-speakers = Puhujat
