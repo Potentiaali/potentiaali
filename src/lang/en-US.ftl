@@ -64,6 +64,7 @@ days-text = { $days ->
 time-text = Time
 review-1-text = "Absolutely high quality student event!"
 any-questions-title-text = Any questions?
+any-questions-description-text = You can contact us by email at
 event-no-description = (No description)
 event-description = Description
 event-speakers = Speakers

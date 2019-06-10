@@ -2,7 +2,6 @@ $min-width-browser: 900px;
 $max-width-browser: 800px;
 
 .page {
-  text-align: left;
   padding: 20px 0 20px 0;
   @media only screen and (min-width: $min-width-browser) {
     margin-left: auto;
@@ -19,6 +18,14 @@ $max-width-browser: 800px;
 .usePadding {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.noTopPadding {
+  padding-top: 0px;
+}
+
+.noBottomPadding {
+  padding-bottom: 0px;
 }
 
 .fullWidthPage {
