@@ -6265,10 +6265,10 @@ interpret@^1.2.0:
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-1.2.0.tgz#d5061a6224be58e8083985f5014d844359576296"
   integrity sha512-mT34yGKMNceBQUoVn7iCDKDntA7SC6gycMAWzGx1z/CMCTV7b2AAtXlo3nRyHZ1FelRkQbQjprHSYGwzLtkVbw==
 
-intl-pluralrules@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/intl-pluralrules/-/intl-pluralrules-1.0.1.tgz#2d739aa754045e326dececa61249cc900af5b0d7"
-  integrity sha512-Y1ZUnofLtjH1qTQSH8ez05hBIi14Cc53GDtv5sv6HVYdSh4zxK/Dqw156luucmDbx+Yh+rOQ1bQTEMUKeu4dMQ==
+intl-pluralrules@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/intl-pluralrules/-/intl-pluralrules-1.0.2.tgz#ae32d168edb2f643fa260e674f0443e5e6144f0d"
+  integrity sha512-WKOHhcgVsM8BzQzdjYdv2+gPFtyDCKRm+00FPVCjqTk50JVpQpOR4BRMQEEdG5f8neHFQUon+PpdKQW631IuyQ==
   dependencies:
     make-plural "^4.3.0"
 
