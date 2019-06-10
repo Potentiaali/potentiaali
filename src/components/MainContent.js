@@ -2,17 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import Companies from "./../components/partials/Companies";
 import { Program } from "./../components/partials/Program";
-import { SpeedRekry } from "./../components/partials/SpeedRekry";
+import SpeedRekry from "./../components/partials/SpeedRekry";
 import config from "../data/config.json";
 import { Localized } from "fluent-react/compat";
-
-const speedRekryIlmot = [
-  {
-    companies: "Test 1, Test 2, Test 3",
-    full: true,
-    link: "https://potentiaali.com"
-  }
-];
 
 const MainContent = () => {
   return (
@@ -67,7 +59,7 @@ const MainContent = () => {
         <br />
         <br />
         {config.showSpeedRekry === true && (
-          <SpeedRekry ilmot={speedRekryIlmot} open={config.speedRekryOpen} />
+          <SpeedRekry open={config.speedRekryOpen} />
         )}
         <br />
         <br />
