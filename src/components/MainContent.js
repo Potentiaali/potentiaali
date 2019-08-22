@@ -17,7 +17,7 @@ const speedRekryIlmot = [
 const MainContent = () => {
   return (
     <section className="">
-      <div className="container">
+      <div className="container" data-testid="MainContent">
         <div
           style={{
             border: "2px solid",

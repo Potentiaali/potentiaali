@@ -52,7 +52,7 @@ const Nav = ({
 
   return (
     <nav className={styles.navigation}>
-      <div className={styles["navigation-container"]}>
+      <div className={styles["navigation-container"]} data-testid="Navigation">
         <NavLink to="/" className={styles["nav-logo"]}>
           <img
             className=""
