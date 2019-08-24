@@ -23,12 +23,13 @@ const RegistrationButton = () => {
     registrationDisabled = false;
   }
   return (
-    <a
-      href={navigateTo(registrationDisabled)}
+    <a href={navigateTo(registrationDisabled)}
       className={classNames({
         [styles.registrationButton]: true,
         [styles.registrationDisabled]: registrationDisabled
-      })}
+      })} data-testid="RegistButton"
+      rel="noreferrer noopener"
+      target="_blank"
     >
       {registrationDisabled ? (
         <Localized

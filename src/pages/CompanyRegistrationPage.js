@@ -5,7 +5,7 @@ import { RegistrationButton } from "../components/RegistrationButton";
 import config from "./../data/config.json";
 
 const CompanyRegistrationPage = () => (
-  <Page usePadding>
+  <Page usePadding data-testid="RegistPage">
     <Localized id="companyRegistrationPage">
       <h1>Yritysilmoittautuminen</h1>
     </Localized>

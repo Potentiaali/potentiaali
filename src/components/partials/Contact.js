@@ -15,7 +15,7 @@ const Contact = () => {
                 Tavoitat meidät sähköpostilla osoitteesta
               </Localized>
               <br />
-              <a href="mailto:info@potentiaali.com">info(at)potentiaali.com</a>
+              <a href="mailto:info@potentiaali.com" data-testid="contact-email">info(at)potentiaali.com</a>
             </p>
           </div>
         </div>

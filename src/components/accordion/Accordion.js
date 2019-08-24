@@ -14,7 +14,7 @@ export const Accordion = props => {
         [styles.imageAccordion]: props.imageTitle
       })}
     >
-      <div className={styles["accordion-header"]} onClick={() => setOpen(!isOpen)}>
+      <div className={styles["accordion-header"]} onClick={() => setOpen(!isOpen)} data-testid="AccordionHeader">
         {!props.imageTitle && (
           <div className={styles["accordion-button"]}>{isOpen ? "-" : "+"}</div>
         )}
@@ -24,8 +24,7 @@ export const Accordion = props => {
         className={classNames(styles["accordion-content"], {
           [styles["is-open"]]: isOpen,
           [styles["inner-shadow"]]: props.inner
-        })}
-      >
+        })} data-testid="AccordionContent">
         <div className={styles.content}>{props.children}</div>
       </div>
     </div>

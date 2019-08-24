@@ -10,12 +10,12 @@ describe("Navigation in Finnish", function() {
   
     it("registration page can be opened", function() {
       cy.get(`[data-testid="Navigation"]`).contains("Yritysilmoittautuminen").click()
-      cy.get("body").contains("Sisältö")
+      cy.get(`[data-testid="RegistPage"]`).contains("Sisältö")
     });
   
     it("registration is open", function() {
       cy.get(`[data-testid="Navigation"]`).contains("Yritysilmoittautuminen").click()
-      cy.get("body").contains("Ilmoittaudu Kumpulan Potentiaaliin nyt!")
+      cy.get(`[data-testid="RegistButton"]`).contains("Ilmoittaudu Kumpulan Potentiaaliin nyt!")
     });
   
     it("schedule page can be opened", function() {
@@ -25,6 +25,6 @@ describe("Navigation in Finnish", function() {
   
     it("field of studies page can be opened", function() {
       cy.get(`[data-testid="Navigation"]`).contains("Aineiden esittely").click()
-      cy.get("body").contains("Fysiikka")
+      cy.get(`[data-testid="Subject"]`).contains("Fysiikka")
     });
   });

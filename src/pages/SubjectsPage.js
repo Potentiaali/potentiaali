@@ -14,7 +14,7 @@ import { Localized } from "fluent-react/compat";
 
 export const SubjectsPage = () => {
   return (
-    <Page usePadding>
+    <Page usePadding data-testid="Subject">
       <h1>
         <Localized id="subjects-page-title-text">Aineiden esittely</Localized>
       </h1>

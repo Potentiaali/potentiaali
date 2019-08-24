@@ -9,12 +9,12 @@ describe("Navigation in English", function() {
 
   it("registration page can be opened", function() {
     cy.get(`[data-testid="Navigation"]`).contains("Registration for companies").click();
-    cy.get("body").contains("Kumpula's Potential is a work-life and recruitment event organized by the students of the Faculty of Science");
+    cy.get(`[data-testid="RegistPage"]`).contains("The event includes");
   });
 
   it("registration is open", function() {
     cy.get(`[data-testid="Navigation"]`).contains("Registration for companies").click();
-    cy.get("body").contains("Register to Kumpula's Potential now!");
+    cy.get(`[data-testid="RegistButton"]`).contains("Register to Kumpula's Potential now!");
   });
 
   it("schedule page can be opened", function() {
@@ -24,6 +24,6 @@ describe("Navigation in English", function() {
 
   it("field of studies page can be opened", function() {
     cy.get(`[data-testid="Navigation"]`).contains("Fields of studies").click();
-    cy.get("body").contains("Aineiden esittely");
+    cy.get(`[data-testid="Subject"]`).contains("Fysiikka");
   });
 });

@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import styles from "./Footer.module.scss";
 
 export const Footer = ({ logos }) => (
-  <footer className={styles.footer}>
+  <footer className={styles.footer} data-testid="TestFooter">
     {logos.map(logo => (
       <img
         src={logo.src}
