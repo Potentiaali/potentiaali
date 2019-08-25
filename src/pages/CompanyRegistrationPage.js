@@ -115,6 +115,12 @@ const CompanyRegistrationPage = () => (
         tullut täyteen.
       </Localized>
     </p>
+    <br/>
+    <p>
+      <Localized id="registration-deadline">
+        Ilmoittautuminen on auki toistaiseksi. Ilmoitamme mahdollisesta ilmoittautumisen takarajasta tällä sivulla.
+      </Localized>
+    </p>
     <br />
     <p>
       <RegistrationButton />
