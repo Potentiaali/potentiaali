@@ -10,4 +10,4 @@ const NotFoundPage = () => (
   </Page>
 );
 
-export { NotFoundPage };
+export default NotFoundPage;

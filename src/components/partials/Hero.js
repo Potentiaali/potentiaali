@@ -57,3 +57,5 @@ export const Hero = () => {
 Hero.propTypes = {
   intl: PropTypes.any
 };
+
+export default Hero;
