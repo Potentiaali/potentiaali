@@ -18,13 +18,23 @@
     "websiteUrl": "https://www.maanmittauslaitos.fi/"
   },
   {
+    "alt": "Yleisradio",
+    "imgSrc": "companies/yleisradio.png",
+    "websiteUrl": "/https://yle.fi/aihe/yleisradio/"
+  },
+  {
+    "alt": "Ramboll",
+    "imgSrc": "companies/ramboll.png",
+    "websiteUrl": "https://fi.ramboll.com//"
+  },
+  {
     "alt": "Ilmarinen",
     "imgSrc": "companies/ilmarinenlogo_rgb.png",
     "websiteUrl": "https://www.ilmarinen.fi/"
   },
   {
     "alt": "Foreca",
-    "imgSrc": "companies/Foreca_logo_400x92.png",
+    "imgSrc": "companies/foreca.png",
     "websiteUrl": "https://www.foreca.fi/"
   },
   { "alt": "Codento", "imgSrc": "companies/codento.png", "websiteUrl": "https://www.codento.fi/" },
@@ -40,7 +50,7 @@
   },
   {
     "alt": "Digia",
-    "imgSrc": "companies/digia_logo_rgb.png",
+    "imgSrc": "companies/digia.png",
     "websiteUrl": "https://digia.com"
   },
   {
@@ -49,7 +59,6 @@
     "websiteUrl": "https://dreambroker.com/fi/"
   },
   { "alt": "Eficode", "imgSrc": "companies/eficode.png", "websiteUrl": "https://www.eficode.com/home" },
-  { "alt": "Gofore", "imgSrc": "companies/gofore-logo.png", "websiteUrl": "https://gofore.com/en/home/" },
   {
     "alt": "Software Point",
     "imgSrc": "companies/softwarepoint.png",
