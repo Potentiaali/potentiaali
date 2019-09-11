@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import styles from "./Footer.module.scss";
 
-export const Footer = ({ logos }) => (
+const Footer = ({ logos }) => (
   <footer className={styles.footer}>
     {logos.map(logo => (
       <img
@@ -18,3 +18,5 @@ export const Footer = ({ logos }) => (
 Footer.propTypes = {
   logos: PropTypes.array
 };
+
+export default Footer;

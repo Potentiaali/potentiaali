@@ -12,7 +12,7 @@ import { Mathematics } from "./subjects/Mathematics";
 import { ComputerScience } from "./subjects/ComputerScience";
 import { Localized } from "fluent-react/compat";
 
-export const SubjectsPage = () => {
+const SubjectsPage = () => {
   return (
     <Page usePadding>
       <h1>
@@ -33,3 +33,5 @@ export const SubjectsPage = () => {
 };
 
 SubjectsPage.propTypes = {};
+
+export default SubjectsPage;
