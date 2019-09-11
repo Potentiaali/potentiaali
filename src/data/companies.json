@@ -6,7 +6,7 @@
   },
   {
     "alt": "Siili Solutions",
-    "imgSrc": "companies/siilisolutions.png",
+    "imgSrc": "companies/siili.png",
     "websiteUrl": "https://www.siili.com/fi"
   },
   { 
@@ -25,12 +25,13 @@
      "websiteUrl": "https://elisa.fi/"
   },
   { 
-    "alt": "CGI", "imgSrc": "companies/cgi.png",
+    "alt": "CGI",
+     "imgSrc": "companies/cgi.png",
      "websiteUrl": "https://www.cgi.fi/"
   },
   {
     "alt": "Maanmittauslaitos",
-    "imgSrc": "companies/mml.png",
+    "imgSrc": "companies/maanmittauslaitos.png",
     "websiteUrl": "https://www.maanmittauslaitos.fi/"
   },
   {
@@ -88,7 +89,7 @@
   },
   {
     "alt": "Cinia",
-    "imgSrc": "companies/Cinia_Logo_2014_RGB.png",
+    "imgSrc": "companies/cinia.png",
     "websiteUrl": "https://www.cinia.fi/"
   },
   { "alt": "Vincit",
@@ -116,11 +117,6 @@
     "websiteUrl": "https://www.houston-inc.com/"
   },
   {
-    "alt": "Unigrafia",
-    "imgSrc": "companies/Unigrafia_logo.jpg",
-    "websiteUrl": "https://unigrafia.fi/"
-  },
-  {
     "alt": "Trimble Solutions Oy",
     "imgSrc": "companies/trimble.png",
     "websiteUrl": "https://www.tekla.com/fi"
@@ -131,8 +127,8 @@
     "websiteUrl": "https://www.bluefors.com/"
   },
   {
-    "alt": "Startuplifters",
-    "imgSrc": "companies/startuplifters.png",
-    "websiteUrl": "https://startuplifers.org/"
+    "alt": "HiQ Finland Oy",
+    "imgSrc": "companies/hiq.png",
+    "websiteUrl": "https://hiqfinland.fi/"
   }
 ]
