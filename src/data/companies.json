@@ -160,5 +160,15 @@
     "alt": "Vala Group",
     "imgSrc": "companies/vala.png",
     "websiteUrl": "https://www.valagroup.com/fi/ura/"
+  },
+  {
+    "alt": "Relex",
+    "imgSrc": "companies/relex.jpg",
+    "websiteUrl": "https://careers.relexsolutions.com/en/"
+  },
+  {
+    "alt": "Bisnode",
+    "imgSrc": "companies/bisnode.png",
+    "websiteUrl": "https://finland.bisnode.fi/bisnodesta/meista/ura-bisnodella/"
   }
 ]
