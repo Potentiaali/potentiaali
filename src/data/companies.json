@@ -60,11 +60,6 @@
     "websiteUrl": "https://digia.com"
   },
   {
-    "alt": "Vala Group",
-    "imgSrc": "companies/VALA-logo-some-05.png",
-    "websiteUrl": "https://www.valagroup.com/fi/"
-  },
-  {
     "alt": "Perfektio",
     "imgSrc": "companies/perfektio-logo.png",
     "websiteUrl": "https://www.perfektio.fi/"
@@ -130,5 +125,40 @@
     "alt": "HiQ Finland Oy",
     "imgSrc": "companies/hiq.png",
     "websiteUrl": "https://hiqfinland.fi/"
+  },
+  {
+    "alt": "Nitor",
+    "imgSrc": "companies/nitor.png",
+    "websiteUrl": "https://www.nitor.com/fi/tyopaikat"
+  },
+  {
+    "alt": "Digital Goodie",
+    "imgSrc": "companies/digital-goodie.png",
+    "websiteUrl": "http://www.digitalgoodie.com/careers/"
+  },
+  {
+    "alt": "Visma",
+    "imgSrc": "companies/visma.png",
+    "websiteUrl": "https://www.visma.fi/ura/"
+  },
+  {
+    "alt": "Solita",
+    "imgSrc": "companies/solita.png",
+    "websiteUrl": "https://www.solita.fi/avoimet-tyopaikat/"
+  },
+  {
+    "alt": "Puolustusvoimat",
+    "imgSrc": "companies/puolustusvoimat.jpg",
+    "websiteUrl": "https://puolustusvoimat.fi/tyo-ja-koulutus"
+  },
+  {
+    "alt": "Lamia",
+    "imgSrc": "companies/lamia.png",
+    "websiteUrl": "https://lamia.fi/ura"
+  },
+  {
+    "alt": "Vala Group",
+    "imgSrc": "companies/vala.png",
+    "websiteUrl": "https://www.valagroup.com/fi/ura/"
   }
 ]
