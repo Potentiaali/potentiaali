@@ -1,29 +1,23 @@
-import React, { Component } from "react";
+import React, { useEffect } from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import "intl-pluralrules";
-
 import { LocalizationProvider } from "fluent-react/compat";
-
 import { changeLocales } from "./reducers/LocalizationReducer";
 
-class AppLocalizationProvider extends Component {
-  componentWillMount() {
-    this.props.changeLocales(navigator.languages);
+const AppLocalizationProvider = ({ bundles, children, changeLocales }) => {
+  useEffect(() => {
+    changeLocales(navigator.languages);
+  }, [changeLocales]);
+
+  if (!bundles) {
+    return <div />;
   }
 
-  render() {
-    const { bundles, children } = this.props;
-
-    if (!bundles) {
-      return <div />;
-    }
-
-    return (
-      <LocalizationProvider bundles={bundles}>{children}</LocalizationProvider>
-    );
-  }
-}
+  return (
+    <LocalizationProvider bundles={bundles}>{children}</LocalizationProvider>
+  );
+};
 
 AppLocalizationProvider.propTypes = {
   bundles: PropTypes.any,
