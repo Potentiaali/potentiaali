@@ -5,136 +5,200 @@ import { RegistrationButton } from "../components/RegistrationButton";
 import config from "./../data/config.json";
 
 const CompanyRegistrationPage = () => (
-  <Page usePadding>
-    <Localized id="companyRegistrationPage">
-      <h1>Yritysilmoittautuminen</h1>
-    </Localized>
-    <p>
-      <Localized id="registration-main-part1">
-        Kumpulan Potentiaali on Helsingin Yliopiston
-        matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden järjestämä
-        työelämä- ja rekrytointitapahtuma, joka järjestetään marraskuussa 2019
-        kolmannen kerran. Aikaisempina vuosina tapahtuma on ollut menestys niin
-        opiskelijoiden kuin yritysvieraiden puolesta.
-      </Localized>{" "}
-      <b>
-        <Localized id="registration-main-part2">
-          Vuonna 2017 yli 95% kertoi tapahtuman olleen vähintään hinnan väärti.
-        </Localized>
-      </b>
-    </p>
-    <br />
-    <h2>
-      <Localized id="includes"> Sisältö </Localized>{" "}
-    </h2>
-    <br />
-    <ul style={{ paddingLeft: 20, listStyleType: "circle" }}>
-      <li>
-        <Localized id="stand">
-          Ständipaikan, johon kuuluu sähköt, internetyhteys ja pöytä. Pöydän
-          koko on noin 1,2 m x 0,8 m
-        </Localized>
-      </li>
-      <li>
-        {" "}
-        <Localized id="speed-rekry">
-          Mahdollisuus osallistua Rekry Speed Datingiin
-        </Localized>
-      </li>
-      <li>
-        <Localized id="tickets">
-          Kolmelle hengelle liput, jotka sisältävät aamupalan, lounaan ja pääsyn
-          jatkoille
-        </Localized>
-      </li>
-    </ul>
-    <br />
-    <p>
-      <b>
-        <Localized id="bonus-tickets">
-          Lisäksi meillä on tarjolla yhteensä neljä suurempaa ständipaikkaa,
-          jotka on sijoiteltu sisäänkäyntien yhteyteen. Tällainen paikka
-          kustantaa 2000,00 euroa, ja ne myydään ilmoittautumisjärjestyksessä.
-        </Localized>
-      </b>
-    </p>
-    <br />
-    <p>
-      <b>
-        <Localized id="keynote-and-workshop">
-          Teillä on myös mahdollisuus saada isomman yleisön huomio pitämällä
-          Workshop tai Keynote.
-        </Localized>
-      </b>{" "}
-      <Localized id="keynote-and-workshop-information">
-        Niiden pitäminen ei tuo lisäkustannuksia. Kumpulan potentiaalin
-        järjestäjät valitsevat sopivat yritykset pitämään kyseiset tapahtumat
-        niiden sisällön perusteella. Alustava kiinnostus pitää jompikumpi
-        ilmoitetaan ilmoittautumislomakkeella.
+  <Page>
+    <section className="app-section">
+      <Localized id="companyRegistrationPage">
+        <h1>Yritysilmoittautuminen</h1>
       </Localized>
-    </p>
-    <br />
-    <Localized id="event-info-title">
-      <h3>Tapahtumatiedot</h3>
-    </Localized>
-    <ul>
-      <li>
-        <Localized id="event-location">
-          <b>Sijainti</b>
+      <p>
+        <Localized id="registration-main-part1">
+          Kumpulan Potentiaali on Helsingin Yliopiston
+          matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden järjestämä
+          työelämä- ja rekrytointitapahtuma, joka järjestetään marraskuussa 2019
+          kolmannen kerran. Aikaisempina vuosina tapahtuma on ollut menestys
+          niin opiskelijoiden kuin yritysvieraiden puolesta.
+        </Localized>{" "}
+        <b>
+          <Localized id="registration-main-part2">
+            Vuonna 2017 yli 95% kertoi tapahtuman olleen vähintään hinnan
+            väärti.
+          </Localized>
+        </b>
+      </p>
+    </section>
+    <section className="app-section">
+      <h1>
+        <Localized id="includes">Sisältö</Localized>
+      </h1>
+      <p className="event-contents-block">
+        <ul>
+          <li>
+            <Localized id="stand">
+              Ständipaikan, johon kuuluu sähköt, internetyhteys ja pöytä. Pöydän
+              koko on noin 1,2 m x 0,8 m
+            </Localized>
+          </li>
+          <li>
+            {" "}
+            <Localized id="speed-rekry">
+              Mahdollisuus osallistua Rekry Speed Datingiin
+            </Localized>
+          </li>
+          <li>
+            <Localized id="tickets">
+              Kolmelle hengelle liput, jotka sisältävät aamupalan, lounaan ja
+              pääsyn jatkoille
+            </Localized>
+          </li>
+        </ul>
+      </p>
+      <p>
+        <b>
+          <Localized id="bonus-tickets">
+            Lisäksi meillä on tarjolla yhteensä neljä suurempaa ständipaikkaa,
+            jotka on sijoiteltu sisäänkäyntien yhteyteen. Tällainen paikka
+            kustantaa 2000,00 euroa, ja ne myydään ilmoittautumisjärjestyksessä.
+          </Localized>
+        </b>
+      </p>
+      <p>
+        <b>
+          <Localized id="keynote-and-workshop">
+            Teillä on myös mahdollisuus saada isomman yleisön huomio pitämällä
+            Workshop tai Keynote.
+          </Localized>
+        </b>{" "}
+        <Localized id="keynote-and-workshop-information">
+          Niiden pitäminen ei tuo lisäkustannuksia. Kumpulan potentiaalin
+          järjestäjät valitsevat sopivat yritykset pitämään kyseiset tapahtumat
+          niiden sisällön perusteella. Alustava kiinnostus pitää jompikumpi
+          ilmoitetaan ilmoittautumislomakkeella.
         </Localized>
-        :{" "}
-        <Localized id="event-location-value">
-          Kumpulan kampus (Gustaf Hällströmin katu 2)
-        </Localized>
-      </li>
-      <li>
-        <Localized id="event-time">
-          <b>Aika</b>
-        </Localized>
-        : <Localized id="event-day">Torstai</Localized> {config.eventDate}{" "}
-        <Localized id="event-time-prefix">klo</Localized> {config.eventTime}
-      </li>
-      <li>
-        <Localized id="event-cost">
-          <b>Hinta</b>
-        </Localized>
-        : <Localized id="event-cost-value">1000,00 euroa</Localized>
-      </li>
-    </ul>
-    <br />
-    <h2>
-      {" "}
-      <Localized id="registration"> Ilmoittautuminen </Localized>{" "}
-    </h2>
-    <p>
-      <Localized id="registration-form">
-        Ilmoittautumislomakkeelle kerätään osallistumisesta kiinnostuneiden
-        yritysten yhteystiedot. Ilmoittautumisajan päätyttyä olemme yhteydessä
-        mukaan mahtuviin yrityksiin sekä jonoon jääneisiin. Vain 50 nopeinta
-        yritystä mahtuu mukaan tapahtumaa. Aikaisempina vuosina tapahtuma on
-        tullut täyteen.
+      </p>
+    </section>
+    <section className="app-section">
+      <Localized id="event-info-title">
+        <h1>Event information</h1>
       </Localized>
-    </p>
-    <br/>
-    <p>
-      <Localized id="registration-deadline">
-        Ilmoittautuminen on auki toistaiseksi. Ilmoitamme mahdollisesta ilmoittautumisen takarajasta tällä sivulla.
+      <p>
+        <ul className="event-info">
+          <li>
+            <span className="event-info-title">
+              <i className="fas fa-map-marked-alt"></i>
+            </span>
+            <span className="event-info-value">
+              <Localized id="event-location">Location</Localized>
+              {": "}
+              <Localized id="event-location-value">
+                Kumpulan kampus (Gustaf Hällströmin katu 2)
+              </Localized>
+            </span>
+          </li>
+          <li>
+            <span className="event-info-title">
+              <i className="fas fa-calendar-day"></i>
+            </span>
+            <span className="event-info-value">
+              <Localized id="event-date">Date</Localized>
+              {": "}
+              <time dateTime="2019-11-14 10:00">
+                <Localized id="event-day">Torstai</Localized> {config.eventDate}
+              </time>
+            </span>
+          </li>
+          <li>
+            <span className="event-info-title">
+              <i className="fas fa-calendar-day"></i>
+            </span>
+            <span className="event-info-value">
+              <Localized id="event-time">Time</Localized>
+              {": "}
+              <Localized id="event-time-prefix">klo</Localized>{" "}
+              {config.eventTime}
+            </span>
+          </li>
+          <li>
+            <span className="event-info-title">
+              <i className="fas fa-dollar-sign"></i>
+            </span>
+            <span className="event-info-value">
+              <Localized id="event-cost">Price</Localized>
+              {": "}
+              <Localized id="event-cost-value">1000,00 euroa</Localized>
+            </span>
+          </li>
+          <li>
+            <a
+              className="link-btn"
+              alt="Show on Google Maps"
+              href="https://goo.gl/maps/1rh5pJXHwgtVffeGA"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <span className="event-info-title">
+                <i className="fas fa-map-marker-alt"></i>
+              </span>
+              <span className="event-info-value">
+                <Localized id="show-on-google-maps">
+                  Show on Google Maps
+                </Localized>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a
+              className="link-btn"
+              alt="Add the event to your calendar"
+              href="Kumpulan_Potentiaali_2019.ics"
+              target="_blank"
+            >
+              <span className="event-info-title">
+                <i className="fas fa-calendar-plus"></i>
+              </span>
+              <span className="event-info-value">
+                <Localized id="add-to-calendar">
+                  Add the event to your calendar (.ics)
+                </Localized>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </p>
+    </section>
+    <section className="app-section">
+      <Localized id="registration">
+        <h1>Ilmoittautuminen</h1>
       </Localized>
-    </p>
-    <br />
-    <p>
-      <RegistrationButton />
-    </p>
-    <br />
-    <Localized id="contact-information">
-      <h2>Yhteystiedot</h2>
-    </Localized>
-    <p>
-      <Localized id="questions">
-        Vastaamme mielellään heränneisiin kysymyksiin osoitteessa
-      </Localized>{" "}
-      <a href="mailto:info@potentiaali.com">info@potentiaali.com</a>
-    </p>
+      <p>
+        <Localized id="registration-form">
+          Ilmoittautumislomakkeelle kerätään osallistumisesta kiinnostuneiden
+          yritysten yhteystiedot. Ilmoittautumisajan päätyttyä olemme yhteydessä
+          mukaan mahtuviin yrityksiin sekä jonoon jääneisiin. Vain 50 nopeinta
+          yritystä mahtuu mukaan tapahtumaa. Aikaisempina vuosina tapahtuma on
+          tullut täyteen.
+        </Localized>
+      </p>
+      <p>
+        <Localized id="registration-deadline">
+          Ilmoittautuminen on auki toistaiseksi. Ilmoitamme mahdollisesta
+          ilmoittautumisen takarajasta tällä sivulla.
+        </Localized>
+      </p>
+      <p>
+        <RegistrationButton />
+      </p>
+    </section>
+    <section className="app-section">
+      <Localized id="contact-information">
+        <h1>Yhteystiedot</h1>
+      </Localized>
+      <p>
+        <Localized id="questions">
+          Vastaamme mielellään heränneisiin kysymyksiin osoitteessa
+        </Localized>{" "}
+        <a href="mailto:info@potentiaali.com">info@potentiaali.com</a>
+      </p>
+    </section>
   </Page>
 );
 

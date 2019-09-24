@@ -30,8 +30,8 @@ registration-main-part1 = Kumpula's Potential is a work-life and recruitment eve
             that will be organized in November 2019 for the third time.
             In previous years the event has been a success among companies and students.
 registration-main-part2 = In 2017 over 95 % of the companies gave a feedback stating the event was worth it.
-includes = The event includes
-stand = A booth with electicity, internet connection and a table. The size of the table is about 1,2 m x 0,8 m.
+includes = Event contents
+stand = A booth with electricity, internet connection (WiFi) and a table. The size of the table is about 1,2 m x 0,8 m.
 speed-rekry = Opportunity to participate in Rekry Speed Dating
 tickets = Tickets for three persons. A ticket includes breakfast and lunch (which are served during the event) and an access to the event afterparty.
 bonus-tickets = We also have four bigger booths available. The bigger booths are placed near the main entrances of Exactum and Physicum.
@@ -75,6 +75,12 @@ event-not-found = Event not found
 finnish-language-text = Finnish
 english-language-text = English
 english-finnish-language-text = Finnish / English
-registration-notification-text = Company registration for Kumpula's Potential 2019 opens 10.6.2019 at 12:00pm (GMT +3) in the "Registration for companies" -page
+registration-notification-text = Company registration for Kumpula's Potential 2019 is currently open!
 register-now-text = Register to Kumpula's Potential now!
 registration-deadline = The registration is open until further notice. We will notify about the possible registration deadline in the registration form and on this page.
+kumpulas = KUMPULA'S
+potential = POTENTIAL
+big-booth = Big Booth
+area = Area
+show-on-google-maps = Show on Google Maps
+add-to-calendar = Add to calendar (.ics)

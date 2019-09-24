@@ -1,0 +1,25 @@
+.areabadge {
+  text-align: center;
+  font-size: 1.4em;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  width: 130px;
+}
+
+.a {
+  background-color: rgba(245, 128, 32, 200);
+  color: rgb(77, 77, 77);
+}
+
+.b {
+  background-color: rgba(201, 112, 100, 203);
+  color: rgb(0, 0, 0);
+}
+
+.c {
+  background-color: rgba(255, 221, 85, 207);
+  color: rgb(0, 0, 0);
+}

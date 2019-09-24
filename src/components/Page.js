@@ -9,11 +9,9 @@ const Page = ({
   usePadding,
   noTopPadding,
   noBottomPadding,
-  alignText,
   ...rest
 }) => (
   <div
-    style={{ textAlign: alignText ? alignText : "left" }}
     className={classNames({
       [styles.page]: true,
       [styles.fullWidthPage]: fullWidth,
@@ -32,8 +30,7 @@ Page.propTypes = {
   fullWidth: PropTypes.bool,
   usePadding: PropTypes.bool,
   noTopPadding: PropTypes.bool,
-  noBottomPadding: PropTypes.bool,
-  alignText: PropTypes.string
+  noBottomPadding: PropTypes.bool
 };
 
 export { Page };

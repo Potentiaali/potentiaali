@@ -1,7 +1,5 @@
 import React, { Suspense } from "react";
 import { Route, Switch } from "react-router-dom";
-
-import logos from "./data/logos.json";
 import config from "./data/config.json";
 import moment from "moment";
 import "moment/locale/fi";
@@ -9,7 +7,6 @@ import "moment/locale/en-gb";
 import { Page } from "./components/Page";
 import Fallback from "./components/partials/Fallback";
 
-const Contact = React.lazy(() => import("./components/partials/Contact"));
 const SchedulePage = React.lazy(() => import("./pages/SchedulePage"));
 const SingleSchedulePage = React.lazy(() =>
   import("./pages/SingleSchedulePage")
@@ -18,6 +15,7 @@ const SubjectsPage = React.lazy(() => import("./pages/SubjectsPage"));
 const CompanyRegistrationPage = React.lazy(() =>
   import("./pages/CompanyRegistrationPage")
 );
+const MapPage = React.lazy(() => import("./pages/MapPage"));
 const NotFoundPage = React.lazy(() => import("./pages/NotFoundPage"));
 const MainPage = React.lazy(() => import("./pages/MainPage"));
 const Nav = React.lazy(() => import("./components/partials/Nav"));
@@ -43,6 +41,7 @@ const App = () => {
           <Route exact path="/schedule" component={SchedulePage} />
           <Route exact path="/schedule/:id" component={SingleSchedulePage} />
           <Route exact path="/subjects" component={SubjectsPage} />
+          <Route exact path="/map" component={MapPage} />
           <Route
             exact
             path="/registration"
@@ -51,11 +50,8 @@ const App = () => {
           <Route component={NotFoundPage} />
         </Switch>
       </Suspense>
-      <Suspense fallback={<Fallback.Contact />}>
-        <Contact />
-      </Suspense>
       <Suspense fallback={<Fallback.Footer />}>
-        <Footer logos={logos} />
+        <Footer />
       </Suspense>
     </React.Fragment>
   );
