@@ -1,0 +1,13 @@
+@import "mixins";
+@import "vars";
+
+.companies {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  @include tablet {
+    grid-template-columns: auto auto auto;
+  }
+  @include mobile {
+    grid-template-columns: auto auto;
+  }
+}

@@ -9,7 +9,7 @@ import { SpeedRekryItem } from "./SpeedRekryItem";
 export const SpeedRekry = ({ ilmot, open, fetchSpeedRekry }) => {
   useEffect(() => {
     fetchSpeedRekry();
-  }, []);
+  }, [fetchSpeedRekry]);
   return (
     <div>
       <h2>

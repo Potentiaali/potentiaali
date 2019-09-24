@@ -14,13 +14,15 @@ const MainPage = () => (
       <div className="single-stat">
         <span className="single-stat_main">1000+</span>
         <span className="single-stat_secondary">
-          Student attendees<sup>*</sup>
+          <Localized id="student-attendees">Student attendees</Localized>
+          <sup>*</sup>
         </span>
       </div>
       <div className="single-stat">
         <span className="single-stat_main">45+</span>
         <span className="single-stat_secondary">
-          Exhibitors<sup>*</sup>
+          <Localized id="exhibitors">Exhibitors</Localized>
+          <sup>*</sup>
         </span>
       </div>
     </div>
@@ -58,59 +60,95 @@ const MainPage = () => (
           annin olevan erinomainen hintaan nähden.
         </p>
       </Localized>
-      <section className="app-section">
+    </section>
+    <section className="app-section">
+      <Localized id="event-info-title">
         <h1>Event information</h1>
-        <p>
-          <ul className="event-info">
-            <li>
-              <i className="fas fa-map-marked-alt"></i>{" "}
+      </Localized>
+      <p>
+        <ul className="event-info">
+          <li>
+            <span className="event-info-title">
+              <i className="fas fa-map-marked-alt"></i>
+            </span>
+            <span className="event-info-value">
+              <Localized id="event-location">Location</Localized>
+              {": "}
               <Localized id="event-location-value">
                 Kumpulan kampus (Gustaf Hällströmin katu 2)
               </Localized>
-            </li>
-            <li>
-              <i className="fas fa-calendar-day"></i>{" "}
+            </span>
+          </li>
+          <li>
+            <span className="event-info-title">
+              <i className="fas fa-calendar-day"></i>
+            </span>
+            <span className="event-info-value">
+              <Localized id="event-date">Date</Localized>
+              {": "}
               <time dateTime="2019-11-14 10:00">
                 <Localized id="event-day">Torstai</Localized> {config.eventDate}
               </time>
-            </li>
-            <li>
-              <i className="fas fa-clock"></i>{" "}
+            </span>
+          </li>
+          <li>
+            <span className="event-info-title">
+              <i className="fas fa-calendar-day"></i>
+            </span>
+            <span className="event-info-value">
+              <Localized id="event-time">Time</Localized>
+              {": "}
               <Localized id="event-time-prefix">klo</Localized>{" "}
               {config.eventTime}
-            </li>
-            <li>
-              <a
-                className="link-btn"
-                alt="Show on Google Maps"
-                href="https://goo.gl/maps/1rh5pJXHwgtVffeGA"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <i className="fas fa-map-marker-alt"></i>{" "}
+            </span>
+          </li>
+          <li>
+            <a
+              className="link-btn"
+              alt="Show on Google Maps"
+              href="https://goo.gl/maps/1rh5pJXHwgtVffeGA"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <span className="event-info-title">
+                <i className="fas fa-map-marker-alt"></i>
+              </span>
+              <span className="event-info-value">
                 <Localized id="show-on-google-maps">
                   Show on Google Maps
                 </Localized>
-              </a>
-            </li>
-            <li>
-              <a
-                className="link-btn"
-                alt="Add the event to your calendar"
-                href="Kumpulan_Potentiaali_2019.ics"
-                target="_blank"
-              >
-                <i className="fas fa-calendar-plus"></i> Add the event to your
-                calendar
-              </a>
-            </li>
-          </ul>
-        </p>
-      </section>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a
+              className="link-btn"
+              alt="Add the event to your calendar"
+              href="Kumpulan_Potentiaali_2019.ics"
+              target="_blank"
+            >
+              <span className="event-info-title">
+                <i className="fas fa-calendar-plus"></i>
+              </span>
+              <span className="event-info-value">
+                <Localized id="add-to-calendar">
+                  Add the event to your calendar (.ics)
+                </Localized>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </p>
+    </section>
+    <section className="app-section">
       {config.showProgramView === true && <Program />}
+    </section>
+    <section className="app-section">
       {config.showSpeedRekry === true && (
         <SpeedRekry open={config.speedRekryOpen} />
       )}
+    </section>
+    <section className="app-section">
       {config.showCompanies === true && <Companies />}
     </section>
   </Page>
