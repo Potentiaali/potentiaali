@@ -170,5 +170,10 @@
     "alt": "Bisnode",
     "imgSrc": "companies/bisnode.png",
     "websiteUrl": "https://finland.bisnode.fi/bisnodesta/meista/ura-bisnodella/"
+  },
+  {
+    "alt": "Tuxera",
+    "imgSrc": "companies/tuxera.jpg",
+    "websiteUrl": "https://www.tuxera.com/company/careers/"
   }
 ]
