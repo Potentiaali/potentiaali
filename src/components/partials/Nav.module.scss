@@ -2,7 +2,6 @@
 @import "mixins";
 
 .navigation {
-  z-index: 4;
   height: $nav-height;
   background-color: $orange-1;
   display: flex;
@@ -15,15 +14,15 @@
   a:hover {
     color: $orange-2;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     @include tablet {
-      font-size: 0.8em;
+      font-size: 0.8rem;
     }
     @include mobile {
-      font-size: 0.8em;
+      font-size: 0.8rem;
     }
     @include desktop {
-      font-size: 1em;
+      font-size: 1rem;
     }
     &.current {
       text-decoration: underline;
@@ -75,7 +74,7 @@
 .navigation-menu-toggle {
   color: $orange-2;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .navigation-toggle {

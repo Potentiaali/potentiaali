@@ -1,11 +1,12 @@
 import React from "react";
-import { Page } from "./../components/Page";
 import { Localized } from "fluent-react/compat";
 import { RegistrationButton } from "../components/RegistrationButton";
 import config from "./../data/config.json";
+import Logo from "../components/partials/Logo";
 
 const CompanyRegistrationPage = () => (
-  <Page>
+  <>
+    <Logo />
     <section className="app-section">
       <Localized id="companyRegistrationPage">
         <h1>Yritysilmoittautuminen</h1>
@@ -199,7 +200,7 @@ const CompanyRegistrationPage = () => (
         <a href="mailto:info@potentiaali.com">info@potentiaali.com</a>
       </p>
     </section>
-  </Page>
+  </>
 );
 
 export default CompanyRegistrationPage;

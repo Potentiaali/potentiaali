@@ -1,5 +1,4 @@
 import React from "react";
-import { Page } from "../components/Page";
 import Logo from "../components/partials/Logo";
 import Companies from "../components/partials/Companies";
 import { Program } from "../components/partials/Program";
@@ -8,7 +7,7 @@ import config from "../data/config.json";
 import { Localized } from "fluent-react/compat";
 
 const MainPage = () => (
-  <Page fullWidth noTopPadding>
+  <>
     <Logo />
     <div className="app-statistics">
       <div className="single-stat">
@@ -151,7 +150,7 @@ const MainPage = () => (
     <section className="app-section">
       {config.showCompanies === true && <Companies />}
     </section>
-  </Page>
+  </>
 );
 
 export default MainPage;

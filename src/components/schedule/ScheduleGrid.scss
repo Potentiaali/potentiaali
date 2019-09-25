@@ -1,14 +1,25 @@
+@import "vars";
+@import "mixins";
+
 @function get-time($time) {
   $minutes: $time % 60;
   $hours: ($time - ($time % 60)) / 60 + 10;
+  @if ($hours == 0) {
+    $hours: "00";
+  }
+  @if ($minutes == 0) {
+    $minutes: "00";
+  }
   @return inspect($hours) + inspect($minutes);
 }
 
 @for $starting from 0 through 40 {
   @for $ending from ($starting + 2) through 48 {
     @if ($ending - $starting >= 2) {
-      .from-#{get-time($starting*15)}-to-#{get-time($ending*15)} {
-        grid-row: #{$starting + 1} / #{$ending + 1};
+      .from-#{get-time($starting * 15)} {
+        &.to-#{get-time($ending * 15)} {
+          grid-row: #{$starting + 1} / #{$ending + 1};
+        }
       }
     }
   }

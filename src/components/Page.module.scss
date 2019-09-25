@@ -2,29 +2,7 @@
 @import "mixins";
 
 .page {
-  position: relative;
   width: 100%;
   height: calc(100vh - #{$nav-height});
   overflow-y: scroll;
-}
-
-.usePadding {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.noTopPadding {
-  padding-top: 0px;
-}
-
-.noBottomPadding {
-  padding-bottom: 0px;
-}
-
-.fullWidthPage {
-  margin-left: 0;
-  margin-right: 0;
-  width: 100%;
-  // For debugging
-  // background-color: red;
 }
