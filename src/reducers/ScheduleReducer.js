@@ -1,21 +1,18 @@
-const { utcToZonedTime } = require('date-fns-tz')
+const { utcToZonedTime } = require("date-fns-tz");
 
-const things = [
+const schedule = [
   {
     id: 1,
     companyName: "Test company",
     location: "A111",
     title: "Keynote",
-    startTime: utcToZonedTime(
-      new Date(2019, 11, 14, 10, 0),
-      "Europe/Helsinki"
-    ),
-    endTime: utcToZonedTime(new Date(2019, 11, 14, 12, 0), "Europe/Helsinki")
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 10, 0), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 12, 30), "Europe/Helsinki")
   }
-]
+];
 
 const initialState = {
-  schedule: things
+  schedule
 };
 
 const ScheduleTypes = {
