@@ -17,7 +17,14 @@ const getTo = inputDate => {
   return `to-${getHoursAndMinutes(inputDate)}`;
 };
 
-const ScheduleSlot = ({ companyName, title, startTime, endTime, location }) => {
+const ScheduleSlot = ({
+  companyName,
+  title,
+  startTime,
+  endTime,
+  location,
+  hideDetails
+}) => {
   const fromClass = getFrom(startTime);
   const toClass = getTo(endTime);
   return (
@@ -26,9 +33,11 @@ const ScheduleSlot = ({ companyName, title, startTime, endTime, location }) => {
       <div className={styles["slot-bg-2"]}></div>
       <div className={styles["slot-content"]}>
         <span className={styles["slot-title"]}>{title}</span>
-        <span className={styles["slot-company"]}>
-          <i className="fas fa-briefcase"></i> {companyName}
-        </span>
+        {companyName !== "" && (
+          <span className={styles["slot-company"]}>
+            <i className="fas fa-briefcase"></i> {companyName}
+          </span>
+        )}
         <span className={styles["slot-time"]}>
           <i className="fas fa-clock"></i>{" "}
           <time>{format(startTime, "HH.mm")}</time> -{" "}
@@ -37,12 +46,14 @@ const ScheduleSlot = ({ companyName, title, startTime, endTime, location }) => {
         <span className={styles["slot-location"]}>
           <i className="fas fa-home"></i> {location}
         </span>
-        <span className={styles["slot-link"]}>
-          <a href="single_schedule.html">
-            <i className="fas fa-external-link-alt"></i>
-            Details
-          </a>
-        </span>
+        {hideDetails === false && (
+          <span className={styles["slot-link"]}>
+            <a href="single_schedule.html">
+              <i className="fas fa-external-link-alt"></i>
+              Details
+            </a>
+          </span>
+        )}
       </div>
     </div>
   );
@@ -53,7 +64,8 @@ ScheduleSlot.propTypes = {
   title: propTypes.string.isRequired,
   startTime: propTypes.string.isRequired,
   endTime: propTypes.string.isRequired,
-  location: propTypes.string.isRequired
+  location: propTypes.string.isRequired,
+  hideDetails: propTypes.bool.isRequired
 };
 
 export default ScheduleSlot;

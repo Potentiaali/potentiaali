@@ -3,11 +3,23 @@ const { utcToZonedTime } = require("date-fns-tz");
 const schedule = [
   {
     id: 1,
-    companyName: "Test company",
-    location: "A111",
-    title: "Keynote",
-    startTime: utcToZonedTime(new Date(2019, 11, 14, 10, 0), "Europe/Helsinki"),
-    endTime: utcToZonedTime(new Date(2019, 11, 14, 12, 30), "Europe/Helsinki")
+    companyName: "",
+    location: "Exactum",
+    title: "Cocktail event",
+    descroption: "Cocktail event held right before the afterparty",
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 17, 0), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 18, 0), "Europe/Helsinki"),
+    hideDetails: true
+  },
+  {
+    id: 2,
+    companyName: "",
+    location: "Physicum",
+    title: "Afterparty",
+    description: "Afterparty of Kumpula's Potential 2019",
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 18, 0), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 22, 0), "Europe/Helsinki"),
+    hideDetails: true
   }
 ];
 

@@ -18,6 +18,7 @@ export const SchedulePage = ({ schedule }) => (
           title={entry.title}
           startTime={entry.startTime}
           endTime={entry.endTime}
+          hideDetails={entry.hideDetails}
         />
       ))}
     </div>
