@@ -56,3 +56,23 @@
     }
   }
 }
+
+ul.slot-info {
+  list-style-type: none;
+  li {
+    &:first-child {
+      padding-top: 0;
+    }
+    padding-top: 3px;
+    padding-bottom: 3px;
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.slot-info-title {
+  display: inline-block;
+  text-align: left;
+  width: 30px;
+}

@@ -11,7 +11,10 @@
   a,
   a:visited,
   a:active,
-  a:hover {
+  a:hover,
+  button {
+    border: 0;
+    background-color: transparent;
     color: $orange-2;
     font-weight: bold;
     font-size: 1.5rem;
@@ -96,4 +99,8 @@
       }
     }
   }
+}
+
+.localization-button {
+  text-transform: uppercase;
 }

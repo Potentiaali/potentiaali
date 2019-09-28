@@ -4,6 +4,8 @@
 .companies {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  align-items: center;
+  justify-items: center;
   @include tablet {
     grid-template-columns: auto auto auto;
   }

@@ -5,14 +5,9 @@ import { connect } from "react-redux";
 import { setLanguage, changeLocales } from "../../reducers/LocalizationReducer";
 import { Localized } from "fluent-react/compat";
 import styles from "./Nav.module.scss";
+import classNames from "classnames";
 
-const Nav = ({
-  lang,
-  setLanguage,
-  currentLocales,
-  isFetching,
-  changeLocales
-}) => {
+const Nav = ({ currentLocales, isFetching, changeLocales }) => {
   const [current] = currentLocales;
   const available = ["en-US", "fi"];
   const next = available[(available.indexOf(current) + 1) % available.length];
@@ -54,19 +49,6 @@ const Nav = ({
       disabled: false
     }
   ];
-  /*
-  <nav id="navigation">
-            <ul id="navigation-link-container">
-                <li class="menu-toggle-container"><label for="navigation-toggle" id="navigation-menu-toggle"><i
-                            class="fas fa-bars"></i> Menu</label></li>
-                <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Frontpage</a></li>
-                <li><a href="#" class="nav-link"><i class="fas fa-clipboard-list"></i> Registration</a></li>
-                <li><a href="schedule.html" class="nav-link"><i class="fas fa-clock"></i> Schedule</a></li>
-                <li><a href="map.html" class="nav-link"><i class="fas fa-map"></i> Event map</a></li>
-                <li><a href="#" class="nav-link"><i class="fas fa-university"></i> Fields of study</a></li>
-            </ul>
-        </nav>
-  */
 
   return (
     <nav className={styles.navigation}>
@@ -95,19 +77,21 @@ const Nav = ({
                 </li>
               )
           )}
+        <li>
+          <Localized id="changeLocaleButton" $locale={next}>
+            <button
+              className={classNames(
+                styles["nav-link"],
+                styles["localization-button"]
+              )}
+              onClick={() => changeLocales([next])}
+              disabled={isFetching}
+            >
+              {"$locale"}
+            </button>
+          </Localized>
+        </li>
       </ul>
-      <Localized id="changeLocaleButton" $locale={next}>
-        <button
-          className={styles.changeLanguage}
-          onClick={() => {
-            setLanguage(lang === "fi" ? "en" : "fi");
-            changeLocales([next]);
-          }}
-          disabled={isFetching}
-        >
-          {"$locale"}
-        </button>
-      </Localized>
     </nav>
   );
 };
@@ -123,7 +107,6 @@ Nav.propTypes = {
 
 const mapStateToProps = state => {
   return {
-    lang: state.localization.lang,
     currentLocales: state.localization.currentLocales,
     isFetching: state.localization.isFetching
   };

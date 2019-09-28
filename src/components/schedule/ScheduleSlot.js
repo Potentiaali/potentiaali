@@ -4,6 +4,7 @@ import styles from "./ScheduleSlot.module.scss";
 import "./ScheduleGrid.scss";
 import classNames from "classnames";
 import { format } from "date-fns";
+import LanguageString from "../LanguageString";
 
 const getHoursAndMinutes = inputDate => {
   return format(inputDate, "HHmm");
@@ -32,28 +33,44 @@ const ScheduleSlot = ({
       <div className={styles["slot-bg-1"]}></div>
       <div className={styles["slot-bg-2"]}></div>
       <div className={styles["slot-content"]}>
-        <span className={styles["slot-title"]}>{title}</span>
-        {companyName !== "" && (
-          <span className={styles["slot-company"]}>
-            <i className="fas fa-briefcase"></i> {companyName}
-          </span>
-        )}
-        <span className={styles["slot-time"]}>
-          <i className="fas fa-clock"></i>{" "}
-          <time>{format(startTime, "HH.mm")}</time> -{" "}
-          <time>{format(endTime, "HH.mm")}</time>
-        </span>
-        <span className={styles["slot-location"]}>
-          <i className="fas fa-home"></i> {location}
-        </span>
-        {hideDetails === false && (
-          <span className={styles["slot-link"]}>
-            <a href="single_schedule.html">
-              <i className="fas fa-external-link-alt"></i>
-              Details
-            </a>
-          </span>
-        )}
+        <ul className={styles["slot-info"]}>
+          <li className={classNames(styles["slot-title"])}>
+            <LanguageString languageObject={title} />
+          </li>
+          {companyName !== "" && (
+            <li className={styles["slot-company"]}>
+              <span className={styles["slot-info-title"]}>
+                <i className="fas fa-briefcase"></i>
+              </span>
+              {companyName}
+            </li>
+          )}
+          <li className={styles["slot-time"]}>
+            <span className={styles["slot-info-title"]}>
+              <i className="fas fa-clock"></i>
+            </span>
+            <time>{format(startTime, "HH.mm")}</time> -{" "}
+            <time>{format(endTime, "HH.mm")}</time>
+          </li>
+          {location !== "" && (
+            <li className={styles["slot-location"]}>
+              <span className={styles["slot-info-title"]}>
+                <i className="fas fa-home"></i>
+              </span>
+              {location}
+            </li>
+          )}
+          {hideDetails === false && (
+            <li className={styles["slot-link"]}>
+              <a href="single_schedule.html">
+                <span className={styles["slot-info-title"]}>
+                  <i className="fas fa-external-link-alt"></i>
+                </span>
+                Details
+              </a>
+            </li>
+          )}
+        </ul>
       </div>
     </div>
   );
@@ -61,9 +78,9 @@ const ScheduleSlot = ({
 
 ScheduleSlot.propTypes = {
   companyName: propTypes.string.isRequired,
-  title: propTypes.string.isRequired,
-  startTime: propTypes.string.isRequired,
-  endTime: propTypes.string.isRequired,
+  title: propTypes.object.isRequired,
+  startTime: propTypes.any.isRequired,
+  endTime: propTypes.any.isRequired,
   location: propTypes.string.isRequired,
   hideDetails: propTypes.bool.isRequired
 };

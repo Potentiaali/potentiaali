@@ -5,8 +5,14 @@ const schedule = [
     id: 1,
     companyName: "",
     location: "Exactum",
-    title: "Cocktail event",
-    descroption: "Cocktail event held right before the afterparty",
+    title: {
+      fi: "Cocktail-tilaisuus",
+      "en-US": "Cocktail event"
+    },
+    description: {
+      fi: "Cocktail event held right before the afterparty",
+      "en-US": "Cocktail-tilaisuus, joka pidetään ennen jatkoja"
+    },
     startTime: utcToZonedTime(new Date(2019, 11, 14, 17, 0), "Europe/Helsinki"),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 18, 0), "Europe/Helsinki"),
     hideDetails: true
@@ -15,8 +21,14 @@ const schedule = [
     id: 2,
     companyName: "",
     location: "Physicum",
-    title: "Afterparty",
-    description: "Afterparty of Kumpula's Potential 2019",
+    title: {
+      fi: "Jatkot",
+      "en-US": "Afterparty"
+    },
+    description: {
+      fi: "Kumpulan Potentiaali 2019 -tapahtuman jatkot",
+      "en-US": "Afterparty of Kumpula's Potential 2019"
+    },
     startTime: utcToZonedTime(new Date(2019, 11, 14, 18, 0), "Europe/Helsinki"),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 22, 0), "Europe/Helsinki"),
     hideDetails: true

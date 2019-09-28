@@ -89,3 +89,4 @@ student-attendees = Student attendees
 exhibitors = Companies
 mapPage = Map
 companies-title-text = Companies attending Kumpula's Potential 2019
+company-info = Company info
