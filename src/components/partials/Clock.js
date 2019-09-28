@@ -30,7 +30,7 @@ const Clock = ({ eventDate }) => {
     return () => {
       clearInterval(interval);
     };
-  }, []);
+  }, [eventDate]);
 
   const [seconds, hours, minutes, days] = timeUntil;
 
