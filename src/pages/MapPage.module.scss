@@ -6,9 +6,8 @@ $nav-height: 70px;
   grid-template-columns: 200px calc(100% - 200px);
   padding: 20px;
   overflow-x: scroll;
-  overflow-y: scroll;
   width: 100%;
-  height: calc(180% - #{$nav-height} - #{2 * $footer-height});
+  height: calc(100% - #{$nav-height} - #{$footer-height});
   img {
     padding-left: 20px;
     height: calc(100% - 40px);

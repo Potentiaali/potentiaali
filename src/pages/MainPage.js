@@ -27,7 +27,8 @@ const MainPage = () => (
     </div>
     <section className="app-section">
       <small>
-        <sup>*</sup>Average per year
+        <sup>*</sup>
+        <Localized id="average-per-year">Average per year</Localized>
       </small>
     </section>
     <section className="app-section">

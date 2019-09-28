@@ -90,3 +90,4 @@ exhibitors = Companies
 mapPage = Map
 companies-title-text = Companies attending Kumpula's Potential 2019
 company-info = Company info
+average-per-year = Average per year

@@ -4,9 +4,12 @@
 .navigation {
   height: $nav-height;
   background-color: $orange-1;
+  position: sticky;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 999;
 
   a,
   a:visited,
@@ -59,6 +62,7 @@
     @include mobile {
       display: block;
       width: 100%;
+      padding: 20px;
     }
     @include mobile {
       .nav-link {
@@ -78,16 +82,34 @@
   color: $orange-2;
   font-weight: bold;
   font-size: 1.5rem;
+  white-space: nowrap;
+  width: 200px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.navigation-close-cross {
+  display: none;
 }
 
 .navigation-toggle {
   display: none;
   &:checked {
-    & + #navigation {
+    & + .navigation {
       height: 100%;
     }
+    & + .navigation .navigation-link-container .navigation-close-cross {
+      display: inline-block;
+    }
+    & + .navigation .navigation-link-container .navigation-open-hamburger {
+      display: none;
+    }
+    & + .navigation .navigation-link-container .navigation-icon-label {
+      display: none;
+    }
     & + .navigation .navigation-link-container {
-      display: block !important;
+      display: block;
       & li {
         display: block;
         width: 100%;
@@ -103,4 +125,7 @@
 
 .localization-button {
   text-transform: uppercase;
+  &:hover {
+    cursor: pointer;
+  }
 }

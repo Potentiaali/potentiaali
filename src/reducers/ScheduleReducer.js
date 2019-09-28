@@ -32,6 +32,22 @@ const schedule = [
     startTime: utcToZonedTime(new Date(2019, 11, 14, 18, 0), "Europe/Helsinki"),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 22, 0), "Europe/Helsinki"),
     hideDetails: true
+  },
+  {
+    id: 3,
+    companyName: "",
+    location: "Physicum",
+    title: {
+      fi: "Jatkot",
+      "en-US": "Afterparty"
+    },
+    description: {
+      fi: "Kumpulan Potentiaali 2019 -tapahtuman jatkot",
+      "en-US": "Afterparty of Kumpula's Potential 2019"
+    },
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 18, 0), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 22, 0), "Europe/Helsinki"),
+    hideDetails: true
   }
 ];
 

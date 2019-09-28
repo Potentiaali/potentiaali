@@ -100,3 +100,4 @@ exhibitors = Yritystä
 mapPage = Kartta
 companies-title-text = Vuoden 2019 Kumpulan Potentiaali -tapahtuman yritykset
 company-info = Company info
+average-per-year = Vuosittainen keskiarvo

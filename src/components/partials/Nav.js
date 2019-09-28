@@ -51,48 +51,74 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
   ];
 
   return (
-    <nav className={styles.navigation}>
-      <ul className={styles["navigation-link-container"]}>
-        <li className={styles["menu-toggle-container"]}>
-          <label htmlFor="navigation-toggle" id="navigation-menu-toggle">
-            <i className="fas fa-bars"></i> Menu
-          </label>
-        </li>
-        {menu &&
-          menu.map(
-            menuItem =>
-              !menuItem.disabled && (
-                <li key={menuItem.id}>
-                  <Localized id={menuItem.id}>
-                    <NavLink
-                      exact
-                      to={menuItem.link}
-                      key={menuItem.linkName}
-                      activeClassName="active-link"
-                      className={styles["nav-link"]}
-                    >
-                      {menuItem.name}
-                    </NavLink>
-                  </Localized>
-                </li>
-              )
-          )}
-        <li>
-          <Localized id="changeLocaleButton" $locale={next}>
-            <button
-              className={classNames(
-                styles["nav-link"],
-                styles["localization-button"]
-              )}
-              onClick={() => changeLocales([next])}
-              disabled={isFetching}
+    <>
+      <input
+        className={styles["navigation-toggle"]}
+        type="checkbox"
+        id="navigation-toggle"
+      />
+      <nav className={styles.navigation}>
+        <ul className={styles["navigation-link-container"]}>
+          <li className={styles["menu-toggle-container"]}>
+            <label
+              htmlFor="navigation-toggle"
+              className={styles["navigation-menu-toggle"]}
             >
-              {"$locale"}
-            </button>
-          </Localized>
-        </li>
-      </ul>
-    </nav>
+              <i
+                className={classNames(
+                  "fas",
+                  "fa-times",
+                  styles["navigation-close-cross"]
+                )}
+              ></i>
+              <i
+                className={classNames(
+                  "fas",
+                  "fa-bars",
+                  styles["navigation-open-hamburger"]
+                )}
+              ></i>{" "}
+              <span className={classNames(styles["navigation-icon-label"])}>
+                Menu
+              </span>
+            </label>
+          </li>
+          {menu &&
+            menu.map(
+              menuItem =>
+                !menuItem.disabled && (
+                  <li key={menuItem.id}>
+                    <Localized id={menuItem.id}>
+                      <NavLink
+                        exact
+                        to={menuItem.link}
+                        key={menuItem.linkName}
+                        activeClassName="active-link"
+                        className={styles["nav-link"]}
+                      >
+                        {menuItem.name}
+                      </NavLink>
+                    </Localized>
+                  </li>
+                )
+            )}
+          <li>
+            <Localized id="changeLocaleButton" $locale={next}>
+              <button
+                className={classNames(
+                  styles["nav-link"],
+                  styles["localization-button"]
+                )}
+                onClick={() => changeLocales([next])}
+                disabled={isFetching}
+              >
+                {"$locale"}
+              </button>
+            </Localized>
+          </li>
+        </ul>
+      </nav>
+    </>
   );
 };
 

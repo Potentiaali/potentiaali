@@ -19,7 +19,7 @@
   display: grid;
   grid-auto-rows: 25px;
   @include mobile {
-    grid-template-columns: repeat(3, 95%);
+    grid-template-columns: repeat(3, 85%);
   }
   @include tablet {
     grid-template-columns: repeat(3, $tablet-breakpoint * 2/3);

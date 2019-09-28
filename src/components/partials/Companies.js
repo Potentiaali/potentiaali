@@ -13,22 +13,16 @@ const Companies = () => (
         .sort((a, b) => a.alt.localeCompare(b.alt))
         .map(company => (
           <a
-            className="company-logo"
+            className={style["company-logo"]}
             key={company.alt}
             href={company.websiteUrl}
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
+              className={style["company-logo-image"]}
               alt={company.alt}
               src={company.imgSrc}
-              style={{
-                padding: 25,
-                maxHeight: 140,
-                height: "auto",
-                width: "auto",
-                maxWidth: 220
-              }}
             />
           </a>
         ))}
