@@ -4,6 +4,7 @@ import styles from "./ScheduleSlot.module.scss";
 import "./ScheduleGrid.scss";
 import classNames from "classnames";
 import { format } from "date-fns";
+import { Link } from "react-router-dom";
 import LanguageString from "../LanguageString";
 
 const getHoursAndMinutes = inputDate => {
@@ -19,6 +20,7 @@ const getTo = inputDate => {
 };
 
 const ScheduleSlot = ({
+  id,
   companyName,
   title,
   startTime,
@@ -62,12 +64,12 @@ const ScheduleSlot = ({
           )}
           {hideDetails === false && (
             <li className={styles["slot-link"]}>
-              <a href="single_schedule.html">
+              <Link to={"/schedule/" + id}>
                 <span className={styles["slot-info-title"]}>
                   <i className="fas fa-external-link-alt"></i>
                 </span>
                 Details
-              </a>
+              </Link>
             </li>
           )}
         </ul>
@@ -77,6 +79,7 @@ const ScheduleSlot = ({
 };
 
 ScheduleSlot.propTypes = {
+  id: propTypes.number.isRequired,
   companyName: propTypes.string.isRequired,
   title: propTypes.object.isRequired,
   startTime: propTypes.any.isRequired,

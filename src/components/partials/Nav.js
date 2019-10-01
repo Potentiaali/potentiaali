@@ -18,35 +18,40 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
       name: "Etusivu",
       linkName: "",
       link: "/",
-      disabled: false
+      disabled: false,
+      icon: "fa-home"
     },
     {
       id: "companyRegistrationPage",
       name: "Yritysilmoittautuminen",
       linkName: "registration",
       link: "/registration",
-      disabled: false
+      disabled: false,
+      icon: "fa-file-alt"
     },
     {
       id: "schedulePage",
       name: "Aikataulu",
       linkName: "schedule",
       link: "/schedule",
-      disabled: false
+      disabled: false,
+      icon: "fa-clock"
     },
     {
       id: "mapPage",
       name: "Kartta",
       linkName: "map",
       link: "/map",
-      disabled: false
+      disabled: false,
+      icon: "fa-map"
     },
     {
       id: "fieldsOfStudiesPage",
       name: "Aineiden esittely",
       linkName: "subjects",
       link: "/subjects",
-      disabled: false
+      disabled: false,
+      icon: "fa-dna"
     }
   ];
 
@@ -88,33 +93,37 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
               menuItem =>
                 !menuItem.disabled && (
                   <li key={menuItem.id}>
-                    <Localized id={menuItem.id}>
-                      <NavLink
-                        exact
-                        to={menuItem.link}
-                        key={menuItem.linkName}
-                        activeClassName="active-link"
-                        className={styles["nav-link"]}
-                      >
-                        {menuItem.name}
-                      </NavLink>
-                    </Localized>
+                    <NavLink
+                      exact
+                      to={menuItem.link}
+                      key={menuItem.linkName}
+                      activeClassName="active-link"
+                      className={styles["nav-link"]}
+                    >
+                      {menuItem.icon !== undefined && (
+                        <i className={classNames("fas", menuItem.icon)}>
+                          &nbsp;&nbsp;
+                        </i>
+                      )}
+                      <Localized id={menuItem.id}>{menuItem.name}</Localized>
+                    </NavLink>
                   </li>
                 )
             )}
           <li>
-            <Localized id="changeLocaleButton" $locale={next}>
-              <button
-                className={classNames(
-                  styles["nav-link"],
-                  styles["localization-button"]
-                )}
-                onClick={() => changeLocales([next])}
-                disabled={isFetching}
-              >
+            <button
+              className={classNames(
+                styles["nav-link"],
+                styles["localization-button"]
+              )}
+              onClick={() => changeLocales([next])}
+              disabled={isFetching}
+            >
+              <i className="fas fa-globe">&nbsp;&nbsp;</i>
+              <Localized id="changeLocaleButton" $locale={next}>
                 {"$locale"}
-              </button>
-            </Localized>
+              </Localized>
+            </button>
           </li>
         </ul>
       </nav>
