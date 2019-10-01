@@ -93,7 +93,7 @@ const MainPage = () => (
           </li>
           <li>
             <span className="event-info-title">
-              <i className="fas fa-calendar-day"></i>
+              <i className="fas fa-clock"></i>
             </span>
             <span className="event-info-value">
               <Localized id="event-time">Time</Localized>
