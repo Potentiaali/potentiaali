@@ -1,101 +1,101 @@
 import React from "react";
-import { connect } from "react-redux";
-import flatMap from "lodash/flatMap";
+import { useSelector } from "react-redux";
 import { Language } from "../components/partials/Language";
 import PropTypes from "prop-types";
+import { format } from "date-fns";
 import { Localized } from "fluent-react/compat";
+import { Link } from "react-router-dom";
+import LanguageString from "../components/LanguageString";
 
-
-// A mapping function to parse the schedule json into a better format.
-const mapSchedule = schedule =>
-  flatMap(
-    flatMap(Object.values(schedule), stages => Object.values(stages)),
-    inner2 => [
-      ...inner2.schedule.map(event => {
-        return { ...event, stage: inner2.name };
-      })
-    ]
-  );
-
-const SingleSchedulePage = ({ schedule, match }) => {
+const SingleSchedulePage = ({ match }) => {
+  const events = useSelector(state => state.schedule.events);
   if (!match) {
     return <Localized id="event-not-found">Tapahtumaa ei löydy</Localized>;
   }
-  if (!schedule) {
+  if (events.length === 0) {
     return <Localized id="empty-schedule">Aikataulu on tyhjä</Localized>;
   }
-  const singleSchedule = mapSchedule(schedule).find(
-    singleSchedule => singleSchedule.id === match.params.id
-  );
-  if (!singleSchedule) {
+  const event = events.find(evt => Number(evt.id) === Number(match.params.id));
+  if (event === undefined) {
     return <Localized id="event-not-found">Tapahtumaa ei löydy</Localized>;
   }
   return (
     <>
-      <h1>{singleSchedule.name}</h1>
-      <h3>{singleSchedule.description}</h3>
-      <b>
-        <Localized id="event-location">Sijainti</Localized>:{" "}
-      </b>
-      {singleSchedule.stage}
-      <br />
-      <b>{<Localized id="event-time">Aika</Localized>}: </b>
-      {singleSchedule.start} - {singleSchedule.end}
-      <br />
-      {singleSchedule.language && (
-        <span>
+      <section className="app-section">
+        <Link to="/schedule">
+          <h2>Back to schedule</h2>
+        </Link>
+      </section>
+      <section className="app-section">
+        <h1>
+          <LanguageString languageObject={event.title} />
+        </h1>
+        <p>
+          <LanguageString languageObject={event.description} />
+        </p>
+      </section>
+      <section className="app-section">
+        <p>
           <b>
-            <Localized id="event-language">Kieli</Localized>
+            <Localized id="event-location">Sijainti</Localized>:{" "}
           </b>
-          : <Language lang={singleSchedule.language} />
-        </span>
-      )}
-      {singleSchedule.language && <br />}
-      {singleSchedule.link && (
-        <b>
-          <Localized id="event-registration-link">
-            Ilmoittautumislinkki
-          </Localized>
-          :{" "}
-          <a
-            className="basic-link break-word"
-            href={singleSchedule.link}
-            target="__blank"
-          >
-            {singleSchedule.link}
-          </a>
-        </b>
-      )}
-      {singleSchedule.link && <br />}
-      {singleSchedule.speakers && (
-        <span>
-          <b>
-            <Localized id="event-speakers">Puhujat</Localized>
-          </b>
-          : {singleSchedule.speakers}
-        </span>
-      )}
-      {singleSchedule.speakers && <br />}
-      <b>{<Localized id="event-description">Kuvaus</Localized>}</b>
-      <br />
-      {singleSchedule.fullDescription ? (
-        <pre>{singleSchedule.fullDescription}</pre>
-      ) : (
-        <Localized id="event-no-description">(Ei kuvausta)</Localized>
-      )}
+          {event.location}
+        </p>
+        <p>
+          <b>{<Localized id="event-time">Aika</Localized>}: </b>
+          <time>{format(event.startTime, "HH.mm")}</time> -{" "}
+          <time>{format(event.endTime, "HH.mm")}</time>
+        </p>
+        {event.language && (
+          <p>
+            <b>
+              <Localized id="event-language">Kieli</Localized>
+            </b>
+            : <Language lang={event.language} />
+          </p>
+        )}
+        {event.link && (
+          <p>
+            <b>
+              <Localized id="event-registration-link">
+                Ilmoittautumislinkki
+              </Localized>
+              :{" "}
+              <a
+                className="basic-link break-word"
+                href={event.link}
+                target="__blank"
+              >
+                {event.link}
+              </a>
+            </b>
+          </p>
+        )}
+        {event.speakers && (
+          <p>
+            <b>
+              <Localized id="event-speakers">Puhujat</Localized>
+            </b>
+            : {event.speakers}
+          </p>
+        )}
+      </section>
+      <section className="app-section">
+        <h2>{<Localized id="event-description">Kuvaus</Localized>}</h2>
+        <p>
+          {event.fullDescription ? (
+            <LanguageString languageObject={event.fullDescription} />
+          ) : (
+            <Localized id="event-no-description">(Ei kuvausta)</Localized>
+          )}
+        </p>
+      </section>
     </>
   );
 };
 
 SingleSchedulePage.propTypes = {
-  schedule: PropTypes.any,
   match: PropTypes.any
 };
 
-const mapStateToProps = state => {
-  return {
-    schedule: state.schedule.schedule
-  };
-};
-
-export default connect(mapStateToProps)(SingleSchedulePage);
+export default SingleSchedulePage;

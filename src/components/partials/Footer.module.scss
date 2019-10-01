@@ -1,12 +1,40 @@
+@import "vars";
+
 .footer {
-  background: #222;
-  padding: 40px 20px;
-  text-align: center;
+  width: 100%;
+  height: $footer-height * 2;
 }
 
-.footerImg {
-  margin: 10px 10px;
-  max-height: 70px;
-  max-width: 100px;
-  vertical-align: middle;
+.footer-icon {
+  &:last-of-type {
+    margin-right: 0;
+  }
+  &:first-of-type {
+    margin-left: 0;
+  }
+  opacity: 0.6;
+  &:hover {
+    opacity: 1;
+  }
+  margin-left: 10px;
+  margin-right: 10px;
+  color: $orange-2;
+  font-size: 2.2em;
+}
+
+.footer-links {
+  height: $footer-height;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $orange-1;
+}
+
+.footer__top-triangle {
+  display: block;
+  height: $footer-height;
+  width: 100%;
+  .footer__top-triangle-fill {
+    fill: $orange-2;
+  }
 }
