@@ -106,9 +106,10 @@
     "imgSrc": "companies/loimu.png",
     "websiteUrl": "https://www.loimu.fi/"
   },
+  
   {
     "alt": "Houston Inc. Consulting Oy",
-    "imgSrc": "companies/houston_inc.png",
+    "imgSrc": "companies/houston_uusi.png",
     "websiteUrl": "https://www.houston-inc.com/"
   },
   {
@@ -175,5 +176,37 @@
     "alt": "Tuxera",
     "imgSrc": "companies/tuxera.jpg",
     "websiteUrl": "https://www.tuxera.com/company/careers/"
+  },
+  {
+    "alt": "Alten",
+    "imgSrc": "companies/alten.png",
+    "websiteUrl": "https://www.alten.fi/en/#join-us"
+  },
+  {
+    "alt": "BCG",
+    "imgSrc": "companies/bcg.png",
+    "websiteUrl": "https://www.bcg.com/careers/roles.aspx"
+  },
+  {
+    "alt": "ColumbiaRoad",
+    "imgSrc": "companies/columbiaRoad.png",
+    "websiteUrl": "https://www.columbiaroad.com/careers"
+  },
+  {
+    "alt": "Comiq",
+    "imgSrc": "companies/comiq.jpg",
+    "websiteUrl": "https://comiq.fi/rekrytointi/"
+  },
+  {
+    "alt": "ilmatieteenlaitos",
+    "imgSrc": "companies/ilmatieteenlaitos.png",
+    "websiteUrl": "https://en.ilmatieteenlaitos.fi/personnel-and-jobs"
+  },
+  {
+    "alt": "Eficode",
+    "imgSrc": "companies/eficode.png",
+    "websiteUrl": "https://www.eficode.com/careers"
   }
+
+
 ]
