@@ -34,6 +34,15 @@ const Footer = () => (
         <i className="fab fa-linkedin"></i>
       </a>
       <a
+        href="https://instagram.com/kumpulanpotentiaali"
+        rel="noopener noreferrer"
+        target="_blank"
+        className={styles["footer-icon"]}
+        alt="View our Instagram profile"
+      >
+        <i className="fab fa-instagram"></i>
+      </a>
+      <a
         href="mailto:info@potentiaali.com"
         alt="Send an email"
         className={styles["footer-icon"]}
