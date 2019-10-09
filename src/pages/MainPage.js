@@ -32,14 +32,6 @@ const MainPage = () => (
       </small>
     </section>
     <section className="app-section">
-      <div className="registration-notification">
-        <h2>
-          <Localized id="registration-notification-text">
-            Yritysilmoittautuminen Kumpulan Potentiaali 2019 -tapahtumaan aukeaa
-            10.6.2019 klo 12:00 &#34;Yritysilmoittautuminen&#34; -sivulla
-          </Localized>
-        </h2>
-      </div>
       <Localized id="title-1">
         <h1>Mikä on Kumpulan Potentiaali?</h1>
       </Localized>
