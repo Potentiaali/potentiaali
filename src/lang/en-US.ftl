@@ -27,6 +27,7 @@ event-time-prefix = between
 event-cost = Price
 event-cost-value = 1000,00 euros (bigger booths cost 2000,00 euros)
 registration-starting-from-text = Registration by clicking this button, starting on { $regDate } at { $regTime }
+registration-event-full = The event is now full.
 registration-main-part1 = Kumpula's Potential is a work-life and recruitment event organized by the students of the Faculty of Science, 
             that will be organized in November 2019 for the third time.
             In previous years the event has been a success among companies and students.
@@ -79,6 +80,7 @@ english-finnish-language-text = Finnish / English
 registration-notification-text = Company registration for Kumpula's Potential 2019 is currently open!
 register-now-text = Register to Kumpula's Potential now!
 registration-deadline = The registration is open until further notice. We will notify about the possible registration deadline in the registration form and on this page.
+registration-deadline-ended = The registration has been closed. Ask for cancellation slots via email.
 kumpulas = KUMPULA'S
 potential = POTENTIAL
 big-booth = Big Booth
