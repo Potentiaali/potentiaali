@@ -216,5 +216,10 @@
     "alt": "Tilastokeskus",
     "imgSrc": "companies/tilastokeskus.png",
     "websiteUrl": "https://www.stat.fi/ajk/tyopaikat.html"
+  },
+  {
+    "alt": "Helsinki",
+    "imgSrc": "companies/helsinki.png",
+    "websiteUrl": "https://www.erekryhelsinki.fi/OpenJobs.asp?L=1&NODATA=1&Z=H&IE=2"
   }
 ]
