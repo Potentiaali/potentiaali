@@ -206,7 +206,15 @@
     "alt": "Eficode",
     "imgSrc": "companies/eficode.png",
     "websiteUrl": "https://www.eficode.com/careers"
+  },
+  {
+    "alt": "Supermetrics",
+    "imgSrc": "companies/supermetrics.png",
+    "websiteUrl": "https://careers.supermetrics.com/"
+  },
+  {
+    "alt": "Tilastokeskus",
+    "imgSrc": "companies/tilastokeskus.png",
+    "websiteUrl": "https://www.stat.fi/ajk/tyopaikat.html"
   }
-
-
 ]
