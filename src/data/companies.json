@@ -221,5 +221,25 @@
     "alt": "Helsinki",
     "imgSrc": "companies/helsinki.png",
     "websiteUrl": "https://www.erekryhelsinki.fi/OpenJobs.asp?L=1&NODATA=1&Z=H&IE=2"
+  },
+  {
+    "alt": "Wapice",
+    "imgSrc": "companies/wapice.png",
+    "websiteUrl": "https://www.wapice.com/jobs"
+  },
+  {
+    "alt": "SoftwarePoint",
+    "imgSrc": "companies/SoftwarePoint.jpg",
+    "websiteUrl": "https://softwarepoint.com/careers"
+  },
+  {
+    "alt": "RDvelho",
+    "imgSrc": "companies/rdvelho.jpg",
+    "websiteUrl": "https://joinus.rdvelho.com/?_ga=2.3774137.885004269.1571040522-244889611.1571040522"
+  },
+  {
+    "alt": "DB",
+    "imgSrc": "companies/DB.jpg",
+    "websiteUrl": "https://dreambroker.com/careers/"
   }
 ]
