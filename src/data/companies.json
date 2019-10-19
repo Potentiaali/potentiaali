@@ -241,5 +241,15 @@
     "alt": "DB",
     "imgSrc": "companies/DB.jpg",
     "websiteUrl": "https://dreambroker.com/careers/"
+  },
+  {
+    "alt": "Solteq",
+    "imgSrc": "companies/solteq.jpg",
+    "websiteUrl": "https://ura.solteq.com/"
+  },
+  {
+    "alt": "SSF",
+    "imgSrc": "companies/ssf.jpg",
+    "websiteUrl": "https://www.ssf.fi/careers/"
   }
 ]
