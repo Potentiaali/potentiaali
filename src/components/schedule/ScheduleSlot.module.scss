@@ -1,0 +1,78 @@
+@import "../../vars";
+
+.slot {
+  position: relative;
+}
+
+.slot-bg-2 {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: $orange-2;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+}
+
+.slot-bg-1 {
+  z-index: 1;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background-color: $orange-1;
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+}
+
+.slot-content {
+  width: 100%;
+  padding: 10px;
+  font-size: 0.8em;
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-gap: 0px;
+  span {
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    font-size: 1.2em;
+  }
+  .slot-title {
+    font-weight: bold;
+    font-size: 1.8em;
+  }
+  .slot-link {
+    a {
+      color: blue;
+    }
+  }
+}
+
+ul.slot-info {
+  list-style-type: none;
+  li {
+    &:first-child {
+      padding-top: 0;
+    }
+    padding-top: 3px;
+    padding-bottom: 3px;
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.slot-info-title {
+  display: inline-block;
+  text-align: left;
+  width: 30px;
+}

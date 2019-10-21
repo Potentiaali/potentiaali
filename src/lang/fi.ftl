@@ -25,11 +25,13 @@ event-info-title = Tapahtumatiedot
 event-location = Sijainti
 event-location-value = Kumpulan kampus (Gustaf Hällströmin katu 2)
 event-time = Aika
+event-date = Päivä
 event-day = Torstai
 event-time-prefix = klo
 event-cost = Hinta
-event-cost-value = 1000 euroa
+event-cost-value = 1000,00 euroa (isommat ständipaikat 2000,00 euroa)
 registration-starting-from-text = Ilmoittautuminen { $regDate } klo { $regTime } alkaen tästä napista
+registration-event-full = Tapahtuma on täynnä.
 registration-main-part1 = Kumpulan Potentiaali on Helsingin Yliopiston
             matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden järjestämä
             työelämä- ja rekrytointitapahtuma, joka järjestetään marraskuussa 2019
@@ -37,26 +39,23 @@ registration-main-part1 = Kumpulan Potentiaali on Helsingin Yliopiston
             opiskelijoiden kuin yritysvieraiden puolesta.
 registration-main-part2 = Vuonna 2017 yli 95% kertoi tapahtuman olleen vähintään hinnan väärti.
 includes = Sisältö
-participate = Osallistumalla Kumpulan potentiaaliin yritys saa:
-stand =Ständipaikan, johon kuuluu sähköt, internetyhteys ja pöytä. Pöydän koko on noin 1,2 m x 0,8 m
+participate = Osallistumalla Kumpulan Potentiaaliin yritys saa:
+stand = Ständipaikan, johon kuuluu mm. sähköt, internetyhteys ja pöytä. Pöydän koko on noin 1,2 m x 0,8 m.
 speed-rekry = Mahdollisuus osallistua Rekry Speed Datingiin
-tickets = Kolmelle hengelle liput, jotka sisältävät aamupalan, lounaan ja pääsyn
-            jatkoille
-bonus-tickets = Lisäksi meillä on tarjolla yhteensä neljä suurempaa ständipaikkaa, jotka on sijoiteltu sisäänkäyntien yhteyteen. 
-            Tällainen paikka kustantaa 2000,00 euroa, ja ne myydään ilmoittautumisjärjestyksessä.
-keynote-and-workshop = Teillä on myös mahdollisuus saada isomman yleisön huomio pitämällä
-            Workshop tai Keynote   
-keynote-and-workshop-information = Niiden pitäminen ei tuo lisäkustannuksia. Kumpulan potentiaalin
-            järjestäjät valitsevat sopivat yritykset pitämään kyseiset tapahtumat
-            niiden sisällön perusteella. Alustava kiinnostus pitää jompikumpi
-            ilmoitetaan ilmoittautumislomakkeella.  
+tickets = Liput kolmelle hengelle. Liput sisältävät tapahtuman aikana tarjoiltavan aamupalan, lounaan ja pääsyn tapahtuman jälkeen järjestettäville jatkoille.
+bonus-tickets = Tarjoamme lisäksi neljä suurempaa ständipaikkaa, jotka on sijoiteltu sisäänkäyntien yhteyteen. 
+            Tällainen paikka kustantaa 2000,00 euroa, ja ne myydään ilmoittautumisjärjestyksessä. 
+keynote-and-workshop = Yrityksellä on myös mahdollisuus saada isomman yleisön huomio pitämällä
+            Workshop tai Keynote.   
+keynote-and-workshop-information = Keynoten tai workshopin pitäminen ei tuo lisäkustannuksia. Kumpulan Potentiaalin
+            järjestäjät valitsevat sopivat yritykset pitämään keynotet ja workshopit niiden sisällön perusteella. Alustava kiinnostus keynoten tai workshopin pitämisestä ilmoitetaan ilmoittautumislomakkeella.  
 registration = Ilmoittautuminen
 registration-form = Ilmoittautumislomakkeelle kerätään osallistumisesta kiinnostuneiden
             yritysten yhteystiedot. Ilmoittautumisajan päätyttyä olemme yhteydessä
-            mukaan mahtuviin yrityksiin sekä jonoon jääneisiin. Vain 50 nopeinta yritystä mahtuu mukaan tapahtumaa. Aikaisempina
+            mukaan mahtuviin yrityksiin sekä jonoon jääneisiin. Vain 50 nopeinta yritystä mahtuu mukaan tapahtumaan. Aikaisempina
             vuosina tapahtuma on tullut täyteen.
 contact-information = Yhteystiedot
-questions = Vastaamme mielellään heränneisiin kysymyksiin osoitteessa
+questions = Vastaamme mielellään heränneisiin kysymyksiin sähköpostitse osoitteessa
 seconds-text = { $seconds ->
         [one] sekunti
        *[other] sekuntia
@@ -88,5 +87,19 @@ event-not-found = Tapahtumaa ei löydy
 finnish-language-text = Suomi
 english-language-text = Englanti
 english-finnish-language-text = Suomi / Englanti
-registration-notification-text = Yritysilmoittautuminen Kumpulan Potentiaali 2019 -tapahtumaan aukeaa 10.6.2019 klo 12:00 "Yritysilmoittautuminen" -sivulla
+registration-notification-text = Yritysilmoittautuminen Kumpulan Potentiaali 2019 -tapahtumaan on nyt auki!
 register-now-text = Ilmoittaudu Kumpulan Potentiaaliin nyt!
+registration-deadline = Ilmoittautuminen on auki toistaiseksi. Ilmoitamme mahdollisesta ilmoittautumisen takarajasta ilmoittautumislomakkeessa ja tällä sivulla.
+registration-deadline-ended = Ilmoittautuminen on nyt suljettu. Kysy peruutuspaikoista sähköpostitse.
+kumpulas = KUMPULAN
+potential = POTENTIAALI
+big-booth = Iso Ständi
+area = Alue
+show-on-google-maps = Näytä Google Maps -palvelussa
+add-to-calendar = Lisää kalenteriin (.ics)
+student-attendees = Opiskelijavierailijaa
+exhibitors = Yritystä
+mapPage = Kartta
+companies-title-text = Vuoden 2019 Kumpulan Potentiaali -tapahtuman yritykset
+company-info = Company info
+average-per-year = Vuosittainen keskiarvo

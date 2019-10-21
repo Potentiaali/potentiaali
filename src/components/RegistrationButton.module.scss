@@ -1,23 +1,68 @@
+@import "../vars";
+@import "../mixins";
+
+$offset: 4px;
+
 .registrationButton {
-  font-size: 11pt;
-  text-transform: none;
-  border: 2px solid #387002;
-  padding: 10px;
-  background-color: #689f38;
-  color: black;
+  display: block;
+  width: 600px;
+  height: 70px;
+  @include mobile {
+    width: 100%;
+    height: 60px;
+  }
+  position: relative;
   &:hover {
-    text-transform: none;
     cursor: pointer;
   }
 }
 
 .registrationDisabled {
-  background-color: #c9c9c9;
-  border-color: #9e9e9e;
+  opacity: 0.3;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
   user-select: none;
   text-transform: none;
   &:hover {
     text-transform: none;
     cursor: default;
   }
+}
+
+.bg1 {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - #{$offset});
+  height: calc(100% - #{$offset});
+  background-color: $orange-1;
+}
+
+.bg2 {
+  z-index: 0;
+  position: absolute;
+  top: $offset;
+  left: $offset;
+  width: calc(100% - #{$offset});
+  height: calc(100% - #{$offset});
+  background-color: $orange-2;
+}
+
+.buttonText {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% - #{$offset});
+  height: calc(100% - #{$offset});
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  font-size: 1.1em;
+  text-transform: none;
+  padding: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

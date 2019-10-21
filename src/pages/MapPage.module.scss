@@ -1,0 +1,34 @@
+$footer-height: 60px;
+$nav-height: 70px;
+
+.map {
+  display: grid;
+  grid-template-columns: 200px calc(100% - 200px);
+  padding: 20px;
+  overflow-x: scroll;
+  width: 100%;
+  height: calc(100% - #{$nav-height} - #{$footer-height});
+  img {
+    padding-left: 20px;
+    height: calc(100% - 40px);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+}
+
+.mapInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mapInfoEntry {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}

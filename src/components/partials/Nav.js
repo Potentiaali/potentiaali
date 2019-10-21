@@ -1,20 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import { NavLink, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import { setLanguage, changeLocales } from "../../reducers/LocalizationReducer";
 import { Localized } from "fluent-react/compat";
-import classNames from "classnames";
 import styles from "./Nav.module.scss";
+import classNames from "classnames";
 
-const Nav = ({
-  lang,
-  setLanguage,
-  currentLocales,
-  isFetching,
-  changeLocales
-}) => {
-  const [menuOpen, setMenuOpen] = useState(false);
+const Nav = ({ currentLocales, isFetching, changeLocales }) => {
   const [current] = currentLocales;
   const available = ["en-US", "fi"];
   const next = available[(available.indexOf(current) + 1) % available.length];
@@ -25,94 +18,81 @@ const Nav = ({
       name: "Etusivu",
       linkName: "",
       link: "/",
-      disabled: false
+      disabled: false,
+      icon: "fa-home"
     },
     {
       id: "companyRegistrationPage",
       name: "Yritysilmoittautuminen",
       linkName: "registration",
       link: "/registration",
-      disabled: false
+      disabled: false,
+      icon: "fa-file-alt"
     },
     {
       id: "schedulePage",
       name: "Aikataulu",
       linkName: "schedule",
       link: "/schedule",
-      disabled: false
+      disabled: false,
+      icon: "fa-clock"
+    },
+    {
+      id: "mapPage",
+      name: "Kartta",
+      linkName: "map",
+      link: "/map",
+      disabled: false,
+      icon: "fa-map"
     },
     {
       id: "fieldsOfStudiesPage",
       name: "Aineiden esittely",
       linkName: "subjects",
       link: "/subjects",
-      disabled: false
+      disabled: false,
+      icon: "fa-dna"
     }
   ];
 
   return (
-    <nav className={styles.navigation}>
-      <div className={styles["navigation-container"]}>
-        <NavLink to="/" className={styles["nav-logo"]}>
-          <img
-            className=""
-            src="/logos/potentiaali-black.png"
-            alt="Kumpulan Potentiaali"
-          />
-        </NavLink>
-        <a
-          href="#menu"
-          className={styles["mobile-menu"]}
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          <span
-            className={classNames({
-              fa: true,
-              "fa-bars": !menuOpen,
-              "fa-close": menuOpen,
-              "mobile-menu-icon": true
-            })}
-          />
-        </a>
-        {menuOpen && (
-          <div className={styles["mobile-nav-links"]}>
-            {menu &&
-              menu.map(
-                menuItem =>
-                  !menuItem.disabled && (
-                    <Localized id={menuItem.id} key={menuItem.id + "_mobile"}>
-                      <NavLink
-                        exact
-                        to={menuItem.link}
-                        key={menuItem.linkName}
-                        activeClassName="active-link"
-                        className={styles["mobile-nav-link"]}
-                      >
-                        {menuItem.name}
-                      </NavLink>
-                    </Localized>
-                  )
-              )}
-            <Localized id="changeLocaleButton" $locale={current}>
-              <button
-                className={styles.changeLanguageMobile}
-                onClick={() => {
-                  setLanguage("fi");
-                  changeLocales([next]);
-                }}
-                disabled={isFetching}
-              >
-                {"$locale"}
-              </button>
-            </Localized>
-          </div>
-        )}
-        <div className={styles["nav-links"]}>
+    <>
+      <input
+        className={styles["navigation-toggle"]}
+        type="checkbox"
+        id="navigation-toggle"
+      />
+      <nav className={styles.navigation}>
+        <ul className={styles["navigation-link-container"]}>
+          <li className={styles["menu-toggle-container"]}>
+            <label
+              htmlFor="navigation-toggle"
+              className={styles["navigation-menu-toggle"]}
+            >
+              <i
+                className={classNames(
+                  "fas",
+                  "fa-times",
+                  styles["navigation-close-cross"]
+                )}
+              ></i>
+              <i
+                className={classNames(
+                  "fas",
+                  "fa-bars",
+                  styles["navigation-open-hamburger"]
+                )}
+              ></i>{" "}
+              <span className={classNames(styles["navigation-icon-label"])}>
+                Menu
+              </span>
+            </label>
+          </li>
           {menu &&
             menu.map(
               menuItem =>
                 !menuItem.disabled && (
-                  <Localized id={menuItem.id} key={menuItem.id}>
+                  <li key={menuItem.id}>
                     <NavLink
                       exact
                       to={menuItem.link}
@@ -120,26 +100,34 @@ const Nav = ({
                       activeClassName="active-link"
                       className={styles["nav-link"]}
                     >
-                      {menuItem.name}
+                      {menuItem.icon !== undefined && (
+                        <i className={classNames("fas", menuItem.icon)}>
+                          &nbsp;&nbsp;
+                        </i>
+                      )}
+                      <Localized id={menuItem.id}>{menuItem.name}</Localized>
                     </NavLink>
-                  </Localized>
+                  </li>
                 )
             )}
-          <Localized id="changeLocaleButton" $locale={next}>
+          <li>
             <button
-              className={styles.changeLanguage}
-              onClick={() => {
-                setLanguage(lang === "fi" ? "en" : "fi");
-                changeLocales([next]);
-              }}
+              className={classNames(
+                styles["nav-link"],
+                styles["localization-button"]
+              )}
+              onClick={() => changeLocales([next])}
               disabled={isFetching}
             >
-              {"$locale"}
+              <i className="fas fa-globe">&nbsp;&nbsp;</i>
+              <Localized id="changeLocaleButton" $locale={next}>
+                {"$locale"}
+              </Localized>
             </button>
-          </Localized>
-        </div>
-      </div>
-    </nav>
+          </li>
+        </ul>
+      </nav>
+    </>
   );
 };
 
@@ -154,7 +142,6 @@ Nav.propTypes = {
 
 const mapStateToProps = state => {
   return {
-    lang: state.localization.lang,
     currentLocales: state.localization.currentLocales,
     isFetching: state.localization.isFetching
   };

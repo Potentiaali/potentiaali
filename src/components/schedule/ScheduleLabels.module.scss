@@ -1,0 +1,14 @@
+@import "../../vars";
+@import "../../mixins";
+
+.schedule-labels {
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 80px;
+  grid-auto-rows: 25px;
+  grid-gap: 0px;
+}
+
+.main-label {
+  border-top: 2px solid $orange-1;
+}

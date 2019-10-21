@@ -21,27 +21,28 @@ event-info-title = Event information
 event-location = Location
 event-location-value = Kumpula's campus (Gustaf Hällströmin katu 2)
 event-time = Time
+event-date = Date
 event-day = Thursday
 event-time-prefix = between
 event-cost = Price
-event-cost-value = 1000 euros
+event-cost-value = 1000,00 euros (bigger booths cost 2000,00 euros)
 registration-starting-from-text = Registration by clicking this button, starting on { $regDate } at { $regTime }
+registration-event-full = The event is now full.
 registration-main-part1 = Kumpula's Potential is a work-life and recruitment event organized by the students of the Faculty of Science, 
             that will be organized in November 2019 for the third time.
             In previous years the event has been a success among companies and students.
-registration-main-part2 = In 2017 over 95 % of the companies giving a feedback stated the event being worth it.
-includes = The event includes
-stand = Stand with electicity, internet connection and a table. The size of the table is about 1,2 m x 0,8 m
-speed-rekry = Opportunity to participate in Speed-Rekry-Dating
-tickets = Tickets for three persons, which each include breakfast, a lunch and an access to the afterparty.
-bonus-tickets = We also have four bigger stands, that will be placed near the entrances.
-            These stands cost 2000 euros and they will be sold in registration order.
-keynote-and-workshop = You also have a chance to get attention of a bigger audience, by conducting a workshop or giving a keynote.
-keynote-and-workshop-information = Workshop or keynote won't bring any extra costs. Companies have to tell about their interest to a workshop or keynote in
+registration-main-part2 = In 2017 over 95 % of the companies gave a feedback stating the event was worth it.
+includes = Event contents
+stand = A booth with electricity, internet connection (WiFi) and a table. The size of the table is about 1,2 m x 0,8 m.
+speed-rekry = Opportunity to participate in Rekry Speed Dating
+tickets = Tickets for three persons. A ticket includes breakfast and lunch (which are served during the event) and an access to the event afterparty.
+bonus-tickets = We also have four bigger booths available. The bigger booths are placed near the main entrances of Exactum and Physicum.
+            These booths cost 2000,00 euros each and they will be sold in the order of registrations.
+keynote-and-workshop = You also have a chance to get attention of a bigger audience by conducting a workshop or giving a keynote.
+keynote-and-workshop-information = Workshop or keynote won't have any extra costs. Companies have to inform us about their interest to a workshop or keynote in
          the registration form. The companies have to let us know their topic before the event. The organizers of Kumpula Potential will choose the best topics
-          and the corresponding companies will have the possibility to conduct the workshops and give the keynotes.
-registration-form = We collect to the registration form the contact information of the companies that are interested in participating in the event. When the
-            registration time has ended When the registration time has ended we contact the companies, whether or not they made into the event. We have room for only 50 companies and in previous
+          and the corresponding companies will have the possibility to conduct the workshops and keynotes.
+registration-form = We collect the contact information of the companies that are interested in participating in the event. When the registration time has ended, we will contact the companies whether or not they made into the event. We have room for only 50 companies and in the previous
             years the event has been full.
 contact-information = Contact information
 questions = If you have any questions, please contact us at 
@@ -76,5 +77,19 @@ event-not-found = Event not found
 finnish-language-text = Finnish
 english-language-text = English
 english-finnish-language-text = Finnish / English
-registration-notification-text = Company registration for Kumpula's Potential 2019 opens 10.6.2019 at 12:00pm (GMT +3) in the "Registration for companies" -page
+registration-notification-text = Company registration for Kumpula's Potential 2019 is currently open!
 register-now-text = Register to Kumpula's Potential now!
+registration-deadline = The registration is open until further notice. We will notify about the possible registration deadline in the registration form and on this page.
+registration-deadline-ended = The registration has been closed. Ask for cancellation slots via email.
+kumpulas = KUMPULA'S
+potential = POTENTIAL
+big-booth = Big Booth
+area = Area
+show-on-google-maps = Show on Google Maps
+add-to-calendar = Add to calendar (.ics)
+student-attendees = Student attendees
+exhibitors = Companies
+mapPage = Map
+companies-title-text = Companies attending Kumpula's Potential 2019
+company-info = Company info
+average-per-year = Average per year
