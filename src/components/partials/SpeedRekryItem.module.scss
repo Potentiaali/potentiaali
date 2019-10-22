@@ -87,3 +87,18 @@
 .closedRegistration {
   padding-top: 20px;
 }
+
+.speedRekryCompanies {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row-gap: 4px;
+  grid-column-gap: 4px;
+  justify-items: center;
+  align-items: center;
+}
+
+.speedRekryCompany {
+  font-weight: bold;
+  font-size: 1.1em;
+}

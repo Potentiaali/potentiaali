@@ -6,7 +6,7 @@
   "showProgramView": false,
   "showRegistrationInfo": false,
   "showCompanies": true,
-  "showSpeedRekry": false,
+  "showSpeedRekry": true,
   "companyRegistrationStarts": "Mon Jun 10 2019 12:00:00 GMT+0300",
   "companyRegistrationLink": "https://forms.gle/kVcR1KDStVy2UhzB9",
   "companyRegistrationStartDate": "10.6.2019",

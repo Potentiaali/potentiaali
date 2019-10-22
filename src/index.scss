@@ -94,16 +94,46 @@ body {
   h1 {
     font-weight: normal;
     @include mobile {
-      font-size: 1.6em;
+      font-size: 1.8em;
     }
     @include tablet {
-      font-size: 1.7em;
+      font-size: 1.9em;
     }
     @include desktop {
-      font-size: 1.7em;
+      font-size: 1.9em;
     }
     @include bigDesktop {
-      font-size: 2.2em;
+      font-size: 2.4em;
+    }
+  }
+  h2 {
+    font-weight: normal;
+    @include mobile {
+      font-size: 1.4em;
+    }
+    @include tablet {
+      font-size: 1.5em;
+    }
+    @include desktop {
+      font-size: 1.5em;
+    }
+    @include bigDesktop {
+      font-size: 2.0em;
+    }
+  }
+  h3 {
+    font-weight: normal;
+    @include mobile {
+      font-size: 1.2em;
+    }
+    @include tablet {
+      font-size: 1.3em;
+    }
+    @include desktop {
+      font-size: 1.3em;
+    }
+    @include bigDesktop {
+      font-size: 1.8em;
     }
   }
   p {

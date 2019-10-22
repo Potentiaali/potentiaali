@@ -11,12 +11,12 @@ export const SpeedRekry = ({ ilmot, open, fetchSpeedRekry }) => {
     fetchSpeedRekry();
   }, [fetchSpeedRekry]);
   return (
-    <div>
-      <h2>
+    <>
+      <h1>
         <Localized id="register-to-speed-rekry">
           Ilmoittaudu Speed rekryyn
         </Localized>
-      </h2>
+      </h1>
       <div className={styles.speedRekryGrid}>
         {ilmot &&
           ilmot.map((ilmo, i) => (
@@ -30,7 +30,7 @@ export const SpeedRekry = ({ ilmot, open, fetchSpeedRekry }) => {
             />
           ))}
       </div>
-    </div>
+    </>
   );
 };
 

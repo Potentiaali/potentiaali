@@ -103,3 +103,5 @@ mapPage = Kartta
 companies-title-text = Vuoden 2019 Kumpulan Potentiaali -tapahtuman yritykset
 company-info = Company info
 average-per-year = Vuosittainen keskiarvo
+back-to-schedule = Takaisin aikatauluun
+enrollment-link = Tämä ohjelmanumero vaatii ulkoisen ilmoittautumisen. Ilmoittaudu painamalla tätä linkkiä.

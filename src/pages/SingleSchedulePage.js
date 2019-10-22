@@ -23,7 +23,10 @@ const SingleSchedulePage = ({ match }) => {
     <>
       <section className="app-section">
         <Link to="/schedule">
-          <h2>Back to schedule</h2>
+          <h3>
+            <i className="fas fa-chevron-left"></i>&nbsp;&nbsp;
+            <Localized id="back-to-schedule">Back to schedule</Localized>
+          </h3>
         </Link>
       </section>
       <section className="app-section">
@@ -35,51 +38,65 @@ const SingleSchedulePage = ({ match }) => {
         </p>
       </section>
       <section className="app-section">
-        <p>
-          <b>
-            <Localized id="event-location">Sijainti</Localized>:{" "}
-          </b>
-          {event.location}
-        </p>
-        <p>
-          <b>{<Localized id="event-time">Aika</Localized>}: </b>
-          <time>{format(event.startTime, "HH.mm")}</time> -{" "}
-          <time>{format(event.endTime, "HH.mm")}</time>
-        </p>
-        {event.language && (
-          <p>
-            <b>
-              <Localized id="event-language">Kieli</Localized>
-            </b>
-            : <Language lang={event.language} />
-          </p>
-        )}
-        {event.link && (
-          <p>
-            <b>
-              <Localized id="event-registration-link">
-                Ilmoittautumislinkki
-              </Localized>
-              :{" "}
-              <a
-                className="basic-link break-word"
-                href={event.link}
-                target="__blank"
-              >
-                {event.link}
-              </a>
-            </b>
-          </p>
-        )}
-        {event.speakers && (
-          <p>
-            <b>
-              <Localized id="event-speakers">Puhujat</Localized>
-            </b>
-            : {event.speakers}
-          </p>
-        )}
+        <ul className="event-info">
+          <li>
+            <span className="event-info-title">
+              <i className="fas fa-map-marked-alt"></i>
+            </span>
+            <span className="event-info-value">
+              <Localized id="event-location">Location</Localized>
+              {": "}
+              {event.location}
+            </span>
+          </li>
+          <li>
+            <span className="event-info-title">
+              <i className="fas fa-clock"></i>
+            </span>
+            <span className="event-info-value">
+              <Localized id="event-time">Time</Localized>
+              {": "}
+              <time>{format(event.startTime, "HH.mm")}</time> -{" "}
+              <time>{format(event.endTime, "HH.mm")}</time>
+            </span>
+          </li>
+          {event.language && (
+            <li>
+              <span className="event-info-title">
+                <i className="fas fa-globe"></i>
+              </span>
+              <span className="event-info-value">
+                <Localized id="event-language">Language</Localized>
+                {": "}
+                <Language lang={event.language} />
+              </span>
+            </li>
+          )}
+          {event.speakers.length > 0 && (
+            <li>
+              <span className="event-info-title">
+                <i className="fas fa-users"></i>
+              </span>
+              <span className="event-info-value">
+                <Localized id="event-speakers">Speakers</Localized>
+                {": "}
+                {event.speakers.join(", ")}
+              </span>
+            </li>
+          )}
+        </ul>
       </section>
+      {event.link !== "" && (
+        <section className="app-section">
+          <a href={event.link} target="_blank" rel="noopener noreferrer">
+            <i className="fas fa-external-link-alt"></i>&nbsp;
+            <Localized id="enrollment-link">
+              Tämä ohjelmanumero vaatii ulkoisen ilmoittautumisen.
+              Ilmoittaudu painamalla tätä linkkiä.
+            </Localized>
+          </a>
+        </section>
+      )}
       <section className="app-section">
         <h2>{<Localized id="event-description">Kuvaus</Localized>}</h2>
         <p>
