@@ -17,7 +17,7 @@ const schedule = [
       fi: "Cocktail-tilaisuus, joka pidetään ennen jatkoja",
       "en-US": "Cocktail event held right before the afterparty"
     },
-    speakers: "",
+    speakers: [],
     language: "fi",
     link: "",
     startTime: utcToZonedTime(new Date(2019, 11, 14, 17, 0), "Europe/Helsinki"),
@@ -40,7 +40,7 @@ const schedule = [
       fi: "Kumpulan Potentiaali 2019 -tapahtuman jatkot",
       "en-US": "Afterparty of Kumpula's Potential 2019"
     },
-    speakers: "",
+    speakers: [],
     language: "fi",
     link: "",
     startTime: utcToZonedTime(new Date(2019, 11, 14, 18, 0), "Europe/Helsinki"),
