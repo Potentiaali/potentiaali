@@ -19,7 +19,17 @@ export const SpeedRekryItem = ({ companies, full, link, open, id }) => {
         &nbsp; {id}
       </div>
       <div className={styles.speedRekryItemDesc}>
-        {companies}
+        <div className={styles.speedRekryCompanies}>
+          {companies
+            .split(",")
+            .map(company => company.trim())
+            .map(company => (
+              <div className={styles.speedRekryCompany} key={company}>
+                {company}
+              </div>
+            ))}
+        </div>
+
         {open && (
           <a
             href={open ? link : "#"}
