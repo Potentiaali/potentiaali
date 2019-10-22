@@ -23,6 +23,7 @@ export const SpeedRekryItem = ({ companies, full, link, open, id }) => {
           {companies
             .split(",")
             .map(company => company.trim())
+            .filter(company => company !== "")
             .map(company => (
               <div className={styles.speedRekryCompany} key={company}>
                 {company}
