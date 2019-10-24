@@ -307,7 +307,8 @@
     "websiteUrl": "https://www.ssf.fi/careers/"
   },
   {
-    "alt": "Beneq",
+    "id": 52,
+    "name": "Beneq",
     "imgSrc": "companies/Beneq.png",
     "websiteUrl": "https://careers.beneq.com/"
   }
