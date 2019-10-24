@@ -94,7 +94,7 @@ const schedule = [
     hideDetails: false
   },
   {
-    id: 4,
+    id: 5,
     companyName: "",
     location: "Physicum D104",
     title: {
@@ -120,7 +120,7 @@ const schedule = [
     hideDetails: false
   },
   {
-    id: 5,
+    id: 6,
     companyName: "",
     location: "Physicum D105",
     title: {
@@ -146,7 +146,7 @@ const schedule = [
     hideDetails: false
   },
   {
-    id: 6,
+    id: 7,
     companyName: "",
     location: "Physicum D104",
     title: {
@@ -172,7 +172,7 @@ const schedule = [
     hideDetails: false
   },
   {
-    id: 7,
+    id: 8,
     companyName: "",
     location: "Physicum D105",
     title: {

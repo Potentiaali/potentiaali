@@ -1,254 +1,308 @@
 [
   {
-     "alt": "OP",
-     "imgSrc": "companies/op.png",
-      "websiteUrl": "https://uusi.op.fi/op-ryhma/ura-oplla"
+    "id": 1,
+    "name": "OP",
+    "imgSrc": "companies/op.png",
+    "websiteUrl": "https://uusi.op.fi/op-ryhma/ura-oplla"
   },
   {
-    "alt": "Siili Solutions",
+    "id": 2,
+    "name": "Siili Solutions",
     "imgSrc": "companies/siili.png",
     "websiteUrl": "https://www.siili.com/fi"
   },
-  { 
-    "alt": "Reaktor",
-     "imgSrc": "companies/reaktor.png",
-      "websiteUrl": "https://www.reaktor.com/"
-  },
-  { 
-    "alt": "Futurice",
-     "imgSrc": "companies/futurice.png",
-      "websiteUrl": "https://www.futurice.com/"
-  },
-  { 
-    "alt": "Elisa",
-     "imgSrc": "companies/elisa.png",
-     "websiteUrl": "https://elisa.fi/"
-  },
-  { 
-    "alt": "CGI",
-     "imgSrc": "companies/cgi.png",
-     "websiteUrl": "https://www.cgi.fi/"
+  {
+    "id": 3,
+    "name": "Reaktor",
+    "imgSrc": "companies/reaktor.png",
+    "websiteUrl": "https://www.reaktor.com/"
   },
   {
-    "alt": "Maanmittauslaitos",
+    "id": 4,
+    "name": "Futurice",
+    "imgSrc": "companies/futurice.png",
+    "websiteUrl": "https://www.futurice.com/"
+  },
+  {
+    "id": 5,
+    "name": "Elisa",
+    "imgSrc": "companies/elisa.png",
+    "websiteUrl": "https://elisa.fi/"
+  },
+  {
+    "id": 6,
+    "name": "CGI",
+    "imgSrc": "companies/cgi.png",
+    "websiteUrl": "https://www.cgi.fi/"
+  },
+  {
+    "id": 7,
+    "name": "Maanmittauslaitos",
     "imgSrc": "companies/maanmittauslaitos.png",
     "websiteUrl": "https://www.maanmittauslaitos.fi/"
   },
   {
-    "alt": "Yleisradio",
+    "id": 8,
+    "name": "Yleisradio",
     "imgSrc": "companies/yleisradio.png",
     "websiteUrl": "https://yle.fi/aihe/yleisradio/"
   },
   {
-    "alt": "Ramboll",
+    "id": 9,
+    "name": "Ramboll",
     "imgSrc": "companies/ramboll.png",
     "websiteUrl": "https://fi.ramboll.com//"
   },
   {
-    "alt": "Murata Electronics",
+    "id": 10,
+    "name": "Murata Electronics",
     "imgSrc": "companies/murata.png",
     "websiteUrl": "http://muratafinland.com/"
   },
   {
-    "alt": "Foreca",
+    "id": 11,
+    "name": "Foreca",
     "imgSrc": "companies/foreca.png",
     "websiteUrl": "https://www.foreca.fi/"
   },
   {
-    "alt": "Digia",
+    "id": 12,
+    "name": "Digia",
     "imgSrc": "companies/digia.png",
     "websiteUrl": "https://digia.com"
   },
   {
-    "alt": "Perfektio",
+    "id": 13,
+    "name": "Perfektio",
     "imgSrc": "companies/perfektio-logo.png",
     "websiteUrl": "https://www.perfektio.fi/"
   },
-  { "alt": "Webscale",
-     "imgSrc": "companies/webscale.png",
-      "websiteUrl": "https://webscale.fi/"
+  {
+    "id": 14,
+    "name": "Webscale",
+    "imgSrc": "companies/webscale.png",
+    "websiteUrl": "https://webscale.fi/"
   },
   {
-    "alt": "Taito United",
+    "id": 15,
+    "name": "Taito United",
     "imgSrc": "companies/taito_united.png",
     "websiteUrl": "http://taitounited.fi/"
   },
-  { "alt": "IBM",
-     "imgSrc": "companies/ibm.png",
-      "websiteUrl": "https://www.ibm.com/fi-fi/"
-     },
   {
-    "alt": "Sogeti Finland",
+    "id": 16,
+    "name": "IBM",
+    "imgSrc": "companies/ibm.png",
+    "websiteUrl": "https://www.ibm.com/fi-fi/"
+  },
+  {
+    "id": 17,
+    "name": "Sogeti Finland",
     "imgSrc": "companies/Sogeti_Logo.png",
     "websiteUrl": "https://www.sogeti.fi/"
   },
   {
-    "alt": "Cinia",
+    "id": 18,
+    "name": "Cinia",
     "imgSrc": "companies/cinia.png",
     "websiteUrl": "https://www.cinia.fi/"
   },
-  { "alt": "Vincit",
-     "imgSrc": "companies/vincit.jpg",
-      "websiteUrl": "https://www.vincit.fi/"
+  {
+    "id": 19,
+    "name": "Vincit",
+    "imgSrc": "companies/vincit.jpg",
+    "websiteUrl": "https://www.vincit.fi/"
   },
   {
-    "alt": "CSC - Tieteen tietotekniikan keskus Oy",
+    "id": 20,
+    "name": "CSC - Tieteen tietotekniikan keskus Oy",
     "imgSrc": "companies/CSC_logo.png",
     "websiteUrl": "https://www.csc.fi/fi"
   },
   {
-    "alt": "Tekniikan akateemiset TEK",
+    "id": 21,
+    "name": "Tekniikan akateemiset TEK",
     "imgSrc": "companies/tek.png",
     "websiteUrl": "https://www.tek.fi/fi"
   },
   {
-    "alt": "Luonnon-, ympäristö- ja metsätieteilijöiden liitto Loimu ry",
+    "id": 22,
+    "name": "Luonnon-, ympäristö- ja metsätieteilijöiden liitto Loimu ry",
     "imgSrc": "companies/loimu.png",
     "websiteUrl": "https://www.loimu.fi/"
   },
-  
+
   {
-    "alt": "Houston Inc. Consulting Oy",
+    "id": 23,
+    "name": "Houston Inc. Consulting Oy",
     "imgSrc": "companies/houston_uusi.png",
     "websiteUrl": "https://www.houston-inc.com/"
   },
   {
-    "alt": "Trimble Solutions Oy",
+    "id": 24,
+    "name": "Trimble Solutions Oy",
     "imgSrc": "companies/trimble.png",
     "websiteUrl": "https://www.tekla.com/fi"
   },
   {
-    "alt": "Bluefors",
+    "id": 25,
+    "name": "Bluefors",
     "imgSrc": "companies/bluefors.png",
     "websiteUrl": "https://www.bluefors.com/"
   },
   {
-    "alt": "HiQ Finland Oy",
+    "id": 26,
+    "name": "HiQ Finland Oy",
     "imgSrc": "companies/hiq.png",
     "websiteUrl": "https://hiqfinland.fi/"
   },
   {
-    "alt": "Nitor",
+    "id": 27,
+    "name": "Nitor",
     "imgSrc": "companies/nitor.png",
     "websiteUrl": "https://www.nitor.com/fi/tyopaikat"
   },
   {
-    "alt": "Digital Goodie",
+    "id": 28,
+    "name": "Digital Goodie",
     "imgSrc": "companies/digital-goodie.png",
     "websiteUrl": "http://www.digitalgoodie.com/careers/"
   },
   {
-    "alt": "Visma",
+    "id": 29,
+    "name": "Visma",
     "imgSrc": "companies/visma.png",
     "websiteUrl": "https://www.visma.fi/ura/"
   },
   {
-    "alt": "Solita",
+    "id": 30,
+    "name": "Solita",
     "imgSrc": "companies/solita.png",
     "websiteUrl": "https://www.solita.fi/avoimet-tyopaikat/"
   },
   {
-    "alt": "Puolustusvoimat",
+    "id": 31,
+    "name": "Puolustusvoimat",
     "imgSrc": "companies/puolustusvoimat.jpg",
     "websiteUrl": "https://puolustusvoimat.fi/tyo-ja-koulutus"
   },
   {
-    "alt": "Lamia",
+    "id": 32,
+    "name": "Lamia",
     "imgSrc": "companies/lamia.png",
     "websiteUrl": "https://lamia.fi/ura"
   },
   {
-    "alt": "Vala Group",
+    "id": 33,
+    "name": "Vala Group",
     "imgSrc": "companies/vala.png",
     "websiteUrl": "https://www.valagroup.com/fi/ura/"
   },
   {
-    "alt": "Relex",
+    "id": 34,
+    "name": "Relex",
     "imgSrc": "companies/relex.jpg",
     "websiteUrl": "https://careers.relexsolutions.com/en/"
   },
   {
-    "alt": "Bisnode",
+    "id": 35,
+    "name": "Bisnode",
     "imgSrc": "companies/bisnode.png",
     "websiteUrl": "https://finland.bisnode.fi/bisnodesta/meista/ura-bisnodella/"
   },
   {
-    "alt": "Tuxera",
+    "id": 36,
+    "name": "Tuxera",
     "imgSrc": "companies/tuxera.jpg",
     "websiteUrl": "https://www.tuxera.com/company/careers/"
   },
   {
-    "alt": "Alten",
+    "id": 37,
+    "name": "Alten",
     "imgSrc": "companies/alten.png",
     "websiteUrl": "https://www.alten.fi/en/#join-us"
   },
   {
-    "alt": "BCG",
+    "id": 38,
+    "name": "BCG",
     "imgSrc": "companies/bcg.png",
     "websiteUrl": "https://www.bcg.com/careers/roles.aspx"
   },
   {
-    "alt": "ColumbiaRoad",
+    "id": 39,
+    "name": "Columbia Road",
     "imgSrc": "companies/columbiaRoad.png",
     "websiteUrl": "https://www.columbiaroad.com/careers"
   },
   {
-    "alt": "Comiq",
+    "id": 40,
+    "name": "Comiq",
     "imgSrc": "companies/comiq.jpg",
     "websiteUrl": "https://comiq.fi/rekrytointi/"
   },
   {
-    "alt": "ilmatieteenlaitos",
+    "id": 41,
+    "name": "ilmatieteenlaitos",
     "imgSrc": "companies/ilmatieteenlaitos.png",
     "websiteUrl": "https://en.ilmatieteenlaitos.fi/personnel-and-jobs"
   },
   {
-    "alt": "Eficode",
+    "id": 42,
+    "name": "Eficode",
     "imgSrc": "companies/eficode.png",
     "websiteUrl": "https://www.eficode.com/careers"
   },
   {
-    "alt": "Supermetrics",
+    "id": 43,
+    "name": "Supermetrics",
     "imgSrc": "companies/supermetrics.png",
     "websiteUrl": "https://careers.supermetrics.com/"
   },
   {
-    "alt": "Tilastokeskus",
+    "id": 44,
+    "name": "Tilastokeskus",
     "imgSrc": "companies/tilastokeskus.png",
     "websiteUrl": "https://www.stat.fi/ajk/tyopaikat.html"
   },
   {
-    "alt": "Helsinki",
+    "id": 45,
+    "name": "Helsinki",
     "imgSrc": "companies/helsinki.png",
     "websiteUrl": "https://www.erekryhelsinki.fi/OpenJobs.asp?L=1&NODATA=1&Z=H&IE=2"
   },
   {
-    "alt": "Wapice",
+    "id": 46,
+    "name": "Wapice",
     "imgSrc": "companies/wapice.png",
     "websiteUrl": "https://www.wapice.com/jobs"
   },
   {
-    "alt": "SoftwarePoint",
+    "id": 47,
+    "name": "SoftwarePoint",
     "imgSrc": "companies/SoftwarePoint.jpg",
     "websiteUrl": "https://softwarepoint.com/careers"
   },
   {
-    "alt": "RDvelho",
+    "id": 48,
+    "name": "RDvelho",
     "imgSrc": "companies/rdvelho.jpg",
     "websiteUrl": "https://joinus.rdvelho.com/?_ga=2.3774137.885004269.1571040522-244889611.1571040522"
   },
   {
-    "alt": "DB",
+    "id": 49,
+    "name": "DB",
     "imgSrc": "companies/DB.jpg",
     "websiteUrl": "https://dreambroker.com/careers/"
   },
   {
-    "alt": "Solteq",
+    "id": 50,
+    "name": "Solteq",
     "imgSrc": "companies/solteq.jpg",
     "websiteUrl": "https://ura.solteq.com/"
   },
   {
-    "alt": "SSF",
+    "id": 51,
+    "name": "SSF",
     "imgSrc": "companies/ssf.jpg",
     "websiteUrl": "https://www.ssf.fi/careers/"
   }
