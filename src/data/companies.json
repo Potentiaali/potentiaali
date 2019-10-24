@@ -305,5 +305,10 @@
     "name": "SSF",
     "imgSrc": "companies/ssf.jpg",
     "websiteUrl": "https://www.ssf.fi/careers/"
+  },
+  {
+    "alt": "Beneq",
+    "imgSrc": "companies/Beneq.png",
+    "websiteUrl": "https://careers.beneq.com/"
   }
 ]
