@@ -26,7 +26,7 @@ const Logo = () => (
       </text>
     </Localized>
     <Localized id="potential">
-      <text x="50" y="222" className={styles["logo-2"]}>
+      <text x="50" y="226" className={styles["logo-2"]}>
         POTENTIAALI
       </text>
     </Localized>

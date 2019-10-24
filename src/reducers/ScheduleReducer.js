@@ -196,7 +196,30 @@ const schedule = [
     ),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 17, 0), "Europe/Helsinki"),
     hideDetails: false
-  }
+  },
+  {
+    id: 8,
+    companyName: "",
+    location: "Physicum",
+    title: {
+      fi: "Kasmir",
+      "en-US": "Kasmir"
+    },
+    description: {
+      fi: "",
+      "en-US": ""
+    },
+    fullDescription: {
+      fi: "",
+      "en-US": ""
+    },
+    speakers: [],
+    language: "fi",
+    link: "",
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 20, 0), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 21, 0), "Europe/Helsinki"),
+    hideDetails: true
+  },
 ];
 
 const initialState = {
