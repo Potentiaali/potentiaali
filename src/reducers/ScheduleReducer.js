@@ -43,7 +43,7 @@ const schedule = [
     speakers: [],
     language: "fi",
     link: "",
-    startTime: utcToZonedTime(new Date(2019, 11, 14, 18, 0), "Europe/Helsinki"),
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 19, 0), "Europe/Helsinki"),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 22, 0), "Europe/Helsinki"),
     hideDetails: false
   },
