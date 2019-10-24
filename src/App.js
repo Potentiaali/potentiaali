@@ -29,32 +29,38 @@ const App = () => {
       <Suspense fallback={<Fallback.Nav />}>
         <Nav />
       </Suspense>
-      <Page>
-        <Suspense
-          fallback={
-            <Page noTopPadding noBottomPadding>
-              <Fallback.Loader />
-            </Page>
-          }
-        >
-          <Switch>
-            <Route exact path="/" component={MainPage} />
-            <Route exact path="/schedule" component={SchedulePage} />
-            <Route exact path="/schedule/:id" component={SingleSchedulePage} />
-            <Route exact path="/subjects" component={SubjectsPage} />
-            <Route exact path="/map" component={MapPage} />
-            <Route
-              exact
-              path="/registration"
-              component={CompanyRegistrationPage}
-            />
-            <Route component={NotFoundPage} />
-          </Switch>
-        </Suspense>
-        <Suspense fallback={<Fallback.Footer />}>
-          <Footer />
-        </Suspense>
-      </Page>
+      <div className="content-wrapper">
+        <Page>
+          <Suspense
+            fallback={
+              <Page noTopPadding noBottomPadding>
+                <Fallback.Loader />
+              </Page>
+            }
+          >
+            <Switch>
+              <Route exact path="/" component={MainPage} />
+              <Route exact path="/schedule" component={SchedulePage} />
+              <Route
+                exact
+                path="/schedule/:id"
+                component={SingleSchedulePage}
+              />
+              <Route exact path="/subjects" component={SubjectsPage} />
+              <Route exact path="/map" component={MapPage} />
+              <Route
+                exact
+                path="/registration"
+                component={CompanyRegistrationPage}
+              />
+              <Route component={NotFoundPage} />
+            </Switch>
+          </Suspense>
+        </Page>
+      </div>
+      <Suspense fallback={<Fallback.Footer />}>
+        <Footer />
+      </Suspense>
     </React.Fragment>
   );
 };

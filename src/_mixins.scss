@@ -18,3 +18,15 @@
     @content;
   }
 }
+@mixin darkModeFont($lightColor, $darkColor) {
+  color: $lightColor;
+  @media (prefers-color-scheme: dark) {
+    color: $darkColor;
+  }
+}
+@mixin darkModeBackground($lightColor, $darkColor) {
+  background-color: $lightColor;
+  @media (prefers-color-scheme: dark) {
+    background-color: $darkColor;
+  }
+}
