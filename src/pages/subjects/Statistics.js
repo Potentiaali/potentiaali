@@ -62,20 +62,16 @@ export const Statistics = () => (
     </Accordion>
     <Accordion
       title={
-        <Localized id="statistics-insurance-mathematician-title-text">
-          Vakuutusmatemaatikko
+        <Localized id="statistics-data-scientist-title-text">
+          Datatieteilijä
         </Localized>
       }
       noShadow
     >
-      <Localized id="statistics-insurance-mathematician-description-text">
-        Myös vakuutusmatemaatikko on tekemissä erittäin paljon tilastotieteen
-        kanssa. Vakuutusmatemaatikko on esimerkiksi vakuutusyhtiössä luomassa
-        malleja, jonka pohjalta vakuutuksia hinnoitellaan. Myös monilla muilla
-        aloilla työskenteleviä vakuutusmatemaatikkoja on paljon. Vakuutus- ja
-        finanssimatematiikan opintosuunnan voi valita vasta maisterivaiheessa.
-        Kandivaihe sisältää paljon matematiikkaa ja tilastotiedettä. Jo 2.
-        vuoden opiskelijat ovat usein alansa työssä.
+      <Localized id="statistics-data-scientist-description-text">
+      Tilastotiede tarjoaa erinomaiset valmiudet tiedon louhimiseen valtavista datamassoista. 
+      Vahvan matemaattisen perustan ensin hankittuaan moni tilastotieteen opiskelija erikoistuukin 
+      maisterivaiheessa koneoppimiseen ja neuroverkkoihin.
       </Localized>
     </Accordion>
   </Accordion>

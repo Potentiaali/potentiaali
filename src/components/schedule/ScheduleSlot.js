@@ -5,6 +5,7 @@ import "./ScheduleGrid.scss";
 import classNames from "classnames";
 import { format } from "date-fns";
 import { Link } from "react-router-dom";
+import { Localized } from "fluent-react/compat"
 import LanguageString from "../LanguageString";
 
 const getHoursAndMinutes = inputDate => {
@@ -68,7 +69,7 @@ const ScheduleSlot = ({
                 <span className={styles["slot-info-title"]}>
                   <i className="fas fa-external-link-alt"></i>
                 </span>
-                Details
+                <Localized id="schedule-slot-details">Details</Localized>
               </Link>
             </li>
           )}

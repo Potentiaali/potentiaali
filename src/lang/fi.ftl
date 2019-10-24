@@ -10,7 +10,7 @@ group-text = Ryhmä
 signup-text = Ilmoittaudu
 full-text = Täynnä
 registration-opens = Ilmoittautuminen aukeaa myöhemmin syksyllä
-register-to-speed-rekry = Ilmoittaudu Speed rekryyn
+register-to-speed-rekry = Ilmoittaudu Rekry Speed Dating -ohjelmaan
 title-1 = Mikä on Kumpulan Potentiaali?
 main-part-1 = Kumpulan Potentiaali on Helsingin yliopiston
             matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden
@@ -105,3 +105,16 @@ company-info = Company info
 average-per-year = Vuosittainen keskiarvo
 back-to-schedule = Takaisin aikatauluun
 enrollment-link = Tämä ohjelmanumero vaatii ulkoisen ilmoittautumisen. Ilmoittaudu painamalla tätä linkkiä.
+subjects-page-title-text = Aineiden esittely
+astrology-title-text = Tähtitiede
+subjects-introduction = Yleinen esittely
+astrology-introduction-text = Tähtitiede tutkii universumia fysikaalisin keinoin. Alan opiskelija omaa
+        laajan osaamisen, johon sisältyy mm. matematiikka, ohjelmointi,
+        tilastolliset menetelmät sekä kyky käsitellä monimutkaisia ongelmia.
+        Helsingin Yliopistossa tutkitaan universumia kaikilla skaaloilla,
+        aurinkokunnasta galakseihin. Opiskelijoilla on mahdollista tutustua
+        lähiavaruuden ilmiöihin sekä asteroidien tuntemiseen, alueet joiden
+        merkitys suurenee tulevaisuudessa.
+work-descriptions-text = Tittelit
+astrology-researcher-title-text = Tutkija
+schedule-slot-details = Lisätiedot
