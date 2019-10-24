@@ -10,7 +10,7 @@ group-text = Ryhmä
 signup-text = Ilmoittaudu
 full-text = Täynnä
 registration-opens = Ilmoittautuminen aukeaa myöhemmin syksyllä
-register-to-speed-rekry = Ilmoittaudu Speed rekryyn
+register-to-speed-rekry = Ilmoittaudu Rekry Speed Dating -ohjelmaan
 title-1 = Mikä on Kumpulan Potentiaali?
 main-part-1 = Kumpulan Potentiaali on Helsingin yliopiston
             matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden

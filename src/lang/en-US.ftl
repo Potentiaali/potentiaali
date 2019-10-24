@@ -11,7 +11,7 @@ signup-text = Sign up
 full-text = Full
 registration = Registration
 registration-opens = Registration will open later.
-register-to-speed-rekry = Register to Speed rekry
+register-to-speed-rekry = Register to Rekry Speed Dating
 title-1 = What is Kumpula's Potential?
 main-part-1 = Kumpula's Potential is a work-life and recruitment event organized by the students of the Faculty of Science.
             The event was organized last year for the second time, and it was a success among companies and students!
