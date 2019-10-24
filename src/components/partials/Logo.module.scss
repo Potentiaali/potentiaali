@@ -11,17 +11,24 @@
 .bottom-fill-orange-2 {
   fill: $orange-2;
 }
-.logo-1 {
+.logo-1,
+.logo-2,
+.logo-3 {
   font-family: "Big John";
-  font-size: 3.5rem;
-  fill: $orange-2;
   transform: rotate(-5deg);
 }
+.logo-1,
 .logo-2 {
-  font-family: "Big John";
   font-size: 3.5rem;
+}
+.logo-1 {
+  fill: $orange-2;
+}
+.logo-2, .logo-3 {
   fill: $orange-1;
-  transform: rotate(-5deg);
+}
+.logo-3 {
+  font-size: 2.5rem;
 }
 .logo-image {
   transform: rotate(-5deg);

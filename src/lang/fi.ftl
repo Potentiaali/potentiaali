@@ -118,3 +118,4 @@ astrology-introduction-text = Tähtitiede tutkii universumia fysikaalisin keinoi
 work-descriptions-text = Tittelit
 astrology-researcher-title-text = Tutkija
 schedule-slot-details = Lisätiedot
+at-clock = klo

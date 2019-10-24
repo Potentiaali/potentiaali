@@ -110,3 +110,4 @@ mathematics-title-text = Mathematics
 meteorology-title-text = Meteorology
 physics-title-text = Physics
 statistics-title-text = Statistics
+at-clock = at
