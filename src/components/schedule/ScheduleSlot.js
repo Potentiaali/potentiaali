@@ -5,7 +5,7 @@ import "./ScheduleGrid.scss";
 import classNames from "classnames";
 import { format } from "date-fns";
 import { Link } from "react-router-dom";
-import { Localized } from "fluent-react/compat"
+import { Localized } from "fluent-react/compat";
 import LanguageString from "../LanguageString";
 
 const getHoursAndMinutes = inputDate => {
@@ -50,13 +50,14 @@ const ScheduleSlot = ({
             </li>
           )}
           {hideTime === false && (
-          <li className={styles["slot-time"]}>
-            <span className={styles["slot-info-title"]}>
-              <i className="fas fa-clock"></i>
-            </span>
-            <time>{format(startTime, "HH.mm")}</time> -{" "}
-            <time>{format(endTime, "HH.mm")}</time>
-          </li>)}
+            <li className={styles["slot-time"]}>
+              <span className={styles["slot-info-title"]}>
+                <i className="fas fa-clock"></i>
+              </span>
+              <time>{format(startTime, "HH.mm")}</time> -{" "}
+              <time>{format(endTime, "HH.mm")}</time>
+            </li>
+          )}
           {location !== "" && (
             <li className={styles["slot-location"]}>
               <span className={styles["slot-info-title"]}>
