@@ -20,6 +20,7 @@ export const SchedulePage = () => {
             startTime={entry.startTime}
             endTime={entry.endTime}
             hideDetails={entry.hideDetails}
+            hideTime={entry.hideTime}
           />
         ))}
       </div>

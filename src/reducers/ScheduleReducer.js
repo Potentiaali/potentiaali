@@ -376,7 +376,7 @@ const schedule = [
     startTime: utcToZonedTime(new Date(2019, 11, 14, 14, 0), "Europe/Helsinki"),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 14, 30), "Europe/Helsinki"),
     hideDetails: true,
-    hideTime: true
+    hideTime: false
   },
   {
     id: 16,
@@ -403,7 +403,7 @@ const schedule = [
     ),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 15, 0), "Europe/Helsinki"),
     hideDetails: true,
-    hideTime: true
+    hideTime: false
   },
   {
     id: 17,
@@ -427,7 +427,7 @@ const schedule = [
     startTime: utcToZonedTime(new Date(2019, 11, 14, 15, 0), "Europe/Helsinki"),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 15, 30), "Europe/Helsinki"),
     hideDetails: true,
-    hideTime: true
+    hideTime: false
   },
   {
     id: 18,
@@ -454,7 +454,7 @@ const schedule = [
     ),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 16, 0), "Europe/Helsinki"),
     hideDetails: true,
-    hideTime: true
+    hideTime: false
   },
   {
     id: 19,
@@ -478,7 +478,31 @@ const schedule = [
     startTime: utcToZonedTime(new Date(2019, 11, 14, 16, 0), "Europe/Helsinki"),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 16, 30), "Europe/Helsinki"),
     hideDetails: true,
-    hideTime: true
+    hideTime: false
+  },
+  {
+    id: 20,
+    companyName: "",
+    location: "",
+    title: {
+      fi: "Ständit esillä",
+      "en-US": "Booths open"
+    },
+    description: {
+      fi: "",
+      "en-US": ""
+    },
+    fullDescription: {
+      fi: "",
+      "en-US": ""
+    },
+    speakers: [],
+    language: "fi",
+    link: "",
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 11, 0), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 17, 0), "Europe/Helsinki"),
+    hideDetails: true,
+    hideTime: false
   }
 ];
 
