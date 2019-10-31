@@ -242,8 +242,10 @@ const schedule = [
       "en-US": ""
     },
     fullDescription: {
-      fi: "Harjoitteluinfossa saat tietoa työnhausta, opintoihin kuuluvan harjoittelun suorittamisesta, harjoittelupaikan hakemisesta sekä harjoittelun rahoituksesta. Infossa on mukana myös liikkuvuuspalveluiden asiantuntija kertomassa ulkomailla tehtävän harjoittelun rahoitusvaihtoehdoista. \n Tervetuloa mukaan! \n Ilmoittaudu linkin kautta: https://www.lyyti.fi/reg/harjoitteluinfot",
-      "en-US": "Harjoitteluinfossa saat tietoa työnhausta, opintoihin kuuluvan harjoittelun suorittamisesta, harjoittelupaikan hakemisesta sekä harjoittelun rahoituksesta. Infossa on mukana myös liikkuvuuspalveluiden asiantuntija kertomassa ulkomailla tehtävän harjoittelun rahoitusvaihtoehdoista. \n Tervetuloa mukaan! \n Ilmoittaudu linkin kautta: https://www.lyyti.fi/reg/harjoitteluinfot"
+      fi:
+        "Harjoitteluinfossa saat tietoa työnhausta, opintoihin kuuluvan harjoittelun suorittamisesta, harjoittelupaikan hakemisesta sekä harjoittelun rahoituksesta. Infossa on mukana myös liikkuvuuspalveluiden asiantuntija kertomassa ulkomailla tehtävän harjoittelun rahoitusvaihtoehdoista. \n Tervetuloa mukaan! \n Ilmoittaudu linkin kautta: https://www.lyyti.fi/reg/harjoitteluinfot",
+      "en-US":
+        "Harjoitteluinfossa saat tietoa työnhausta, opintoihin kuuluvan harjoittelun suorittamisesta, harjoittelupaikan hakemisesta sekä harjoittelun rahoituksesta. Infossa on mukana myös liikkuvuuspalveluiden asiantuntija kertomassa ulkomailla tehtävän harjoittelun rahoitusvaihtoehdoista. \n Tervetuloa mukaan! \n Ilmoittaudu linkin kautta: https://www.lyyti.fi/reg/harjoitteluinfot"
     },
     speakers: [],
     language: "fi",
@@ -282,18 +284,18 @@ const schedule = [
     companyName: "",
     location: "Exactum B121",
     title: {
-      fi: "Workshop: Working in Finlan",
-      "en-US": "Workshop: Working in Finlan"
+      fi: "Workshop: Working in Finland as an International Student",
+      "en-US": "Workshop: Working in Finland as an International Student"
     },
     description: {
-      fi: "Working in Finland as an International Student ",
-      "en-US": "Working in Finland as an International Student "
+      fi: "Working in Finland as an International Student",
+      "en-US": "Working in Finland as an International Student"
     },
     fullDescription: {
       fi: "",
       "en-US": ""
     },
-    speakers: [],
+    speakers: ["Saija Repo"],
     language: "en",
     link: "",
     startTime: utcToZonedTime(new Date(2019, 11, 14, 13, 0), "Europe/Helsinki"),
@@ -344,11 +346,13 @@ const schedule = [
     speakers: [],
     language: "fi",
     link: "",
-    startTime: utcToZonedTime(new Date(2019, 11, 14, 12, 30), "Europe/Helsinki"),
+    startTime: utcToZonedTime(
+      new Date(2019, 11, 14, 12, 30),
+      "Europe/Helsinki"
+    ),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 14, 0), "Europe/Helsinki"),
     hideDetails: false,
     hideTime: false
-
   },
   {
     id: 15,
@@ -393,7 +397,10 @@ const schedule = [
     speakers: [],
     language: "fi",
     link: "",
-    startTime: utcToZonedTime(new Date(2019, 11, 14, 14, 30), "Europe/Helsinki"),
+    startTime: utcToZonedTime(
+      new Date(2019, 11, 14, 14, 30),
+      "Europe/Helsinki"
+    ),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 15, 0), "Europe/Helsinki"),
     hideDetails: true,
     hideTime: true
@@ -441,7 +448,10 @@ const schedule = [
     speakers: [],
     language: "fi",
     link: "",
-    startTime: utcToZonedTime(new Date(2019, 11, 14, 15, 30), "Europe/Helsinki"),
+    startTime: utcToZonedTime(
+      new Date(2019, 11, 14, 15, 30),
+      "Europe/Helsinki"
+    ),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 16, 0), "Europe/Helsinki"),
     hideDetails: true,
     hideTime: true
@@ -469,7 +479,7 @@ const schedule = [
     endTime: utcToZonedTime(new Date(2019, 11, 14, 16, 30), "Europe/Helsinki"),
     hideDetails: true,
     hideTime: true
-  },
+  }
 ];
 
 const initialState = {

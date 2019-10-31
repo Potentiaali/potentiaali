@@ -17,7 +17,7 @@
 
 .schedule-slots {
   display: grid;
-  grid-auto-rows: 25px;
+  grid-auto-rows: 50px;
   @include mobile {
     grid-template-columns: repeat(5, 85%);
   }

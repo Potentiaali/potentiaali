@@ -5,7 +5,7 @@
   grid-column: 1;
   display: grid;
   grid-template-columns: 80px;
-  grid-auto-rows: 25px;
+  grid-auto-rows: 50px;
   grid-gap: 0px;
   @include darkModeFont($black-1, $white-1);
 }
