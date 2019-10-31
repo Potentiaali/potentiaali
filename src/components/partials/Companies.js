@@ -7,7 +7,7 @@ import { Localized } from "fluent-react/compat";
 const Companies = () => (
   <>
     <Localized id="companies-title-text">
-      <h1>Vuoden 2019 Kumpulan Potentiaali -tapahtuman yritykset</h1>
+      Vuoden 2019 Kumpulan Potentiaali -tapahtuman yritykset
     </Localized>
     <Link to="/companies">
       <Localized id="view-all-companies">View as a list</Localized>

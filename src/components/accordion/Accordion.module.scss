@@ -1,4 +1,9 @@
+@import "../../_mixins";
+@import "../../_vars";
+
 .accordion {
+  @include darkModeBackground($white-1, $black-1);
+  @include darkModeFont($black-1, $white-1);
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -30,7 +35,6 @@
   width: 100%;
   height: 50px;
   display: flex;
-  background-color: white;
   flex-direction: row;
   -ms-user-select: none;
   user-select: none;

@@ -111,3 +111,4 @@ meteorology-title-text = Meteorology
 physics-title-text = Physics
 statistics-title-text = Statistics
 back-to-company-listing = Back to company listing
+at-clock = at

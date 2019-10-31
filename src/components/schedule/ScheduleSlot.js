@@ -5,7 +5,7 @@ import "./ScheduleGrid.scss";
 import classNames from "classnames";
 import { format } from "date-fns";
 import { Link } from "react-router-dom";
-import { Localized } from "fluent-react/compat"
+import { Localized } from "fluent-react/compat";
 import LanguageString from "../LanguageString";
 
 const getHoursAndMinutes = inputDate => {
@@ -27,7 +27,8 @@ const ScheduleSlot = ({
   startTime,
   endTime,
   location,
-  hideDetails
+  hideDetails,
+  hideTime
 }) => {
   const fromClass = getFrom(startTime);
   const toClass = getTo(endTime);
@@ -48,13 +49,15 @@ const ScheduleSlot = ({
               {companyName}
             </li>
           )}
-          <li className={styles["slot-time"]}>
-            <span className={styles["slot-info-title"]}>
-              <i className="fas fa-clock"></i>
-            </span>
-            <time>{format(startTime, "HH.mm")}</time> -{" "}
-            <time>{format(endTime, "HH.mm")}</time>
-          </li>
+          {hideTime === false && (
+            <li className={styles["slot-time"]}>
+              <span className={styles["slot-info-title"]}>
+                <i className="fas fa-clock"></i>
+              </span>
+              <time>{format(startTime, "HH.mm")}</time> -{" "}
+              <time>{format(endTime, "HH.mm")}</time>
+            </li>
+          )}
           {location !== "" && (
             <li className={styles["slot-location"]}>
               <span className={styles["slot-info-title"]}>
@@ -86,7 +89,8 @@ ScheduleSlot.propTypes = {
   startTime: propTypes.any.isRequired,
   endTime: propTypes.any.isRequired,
   location: propTypes.string.isRequired,
-  hideDetails: propTypes.bool.isRequired
+  hideDetails: propTypes.bool.isRequired,
+  hideTime: propTypes.bool.isRequired
 };
 
 export default ScheduleSlot;

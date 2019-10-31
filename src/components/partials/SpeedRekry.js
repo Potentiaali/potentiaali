@@ -5,6 +5,7 @@ import PropTypes from "prop-types";
 import styles from "./SpeedRekry.module.scss";
 import { Localized } from "fluent-react/compat";
 import { SpeedRekryItem } from "./SpeedRekryItem";
+import { Textfit } from "react-textfit";
 
 export const SpeedRekry = ({ ilmot, open, fetchSpeedRekry }) => {
   useEffect(() => {
@@ -12,11 +13,13 @@ export const SpeedRekry = ({ ilmot, open, fetchSpeedRekry }) => {
   }, [fetchSpeedRekry]);
   return (
     <>
-      <h1>
-        <Localized id="register-to-speed-rekry">
-          Ilmoittaudu Speed rekryyn
-        </Localized>
-      </h1>
+      <Textfit mode="single" max={20}>
+        <h1>
+          <Localized id="register-to-speed-rekry">
+            Ilmoittaudu Speed rekryyn
+          </Localized>
+        </h1>
+      </Textfit>
       <div className={styles.speedRekryGrid}>
         {ilmot &&
           ilmot.map((ilmo, i) => (

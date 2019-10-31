@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Logo.module.scss";
 import { Localized } from "fluent-react/compat";
+import config from "../../data/config.json";
 
 const Logo = () => (
   <svg viewBox="0 0 1440 230" className={styles["logo-container"]} height="230">
@@ -25,10 +26,13 @@ const Logo = () => (
       </text>
     </Localized>
     <Localized id="potential">
-      <text x="50" y="222" className={styles["logo-2"]}>
+      <text x="50" y="226" className={styles["logo-2"]}>
         POTENTIAALI
       </text>
     </Localized>
+    <text x="750" y="221" className={styles["logo-3"]}>
+      {config.eventDate} <Localized id="at-clock">at</Localized> {config.eventTime}
+    </text>
   </svg>
 );
 

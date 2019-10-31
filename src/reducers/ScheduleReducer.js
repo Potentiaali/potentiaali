@@ -22,7 +22,8 @@ const schedule = [
     link: "",
     startTime: utcToZonedTime(new Date(2019, 11, 14, 17, 0), "Europe/Helsinki"),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 18, 0), "Europe/Helsinki"),
-    hideDetails: true
+    hideDetails: true,
+    hideTime: false
   },
   {
     id: 2,
@@ -43,9 +44,10 @@ const schedule = [
     speakers: [],
     language: "fi",
     link: "",
-    startTime: utcToZonedTime(new Date(2019, 11, 14, 18, 0), "Europe/Helsinki"),
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 19, 0), "Europe/Helsinki"),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 22, 0), "Europe/Helsinki"),
-    hideDetails: false
+    hideDetails: false,
+    hideTime: false
   },
   {
     id: 3,
@@ -68,7 +70,8 @@ const schedule = [
     link: "",
     startTime: utcToZonedTime(new Date(2019, 11, 14, 12, 0), "Europe/Helsinki"),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 13, 30), "Europe/Helsinki"),
-    hideDetails: false
+    hideDetails: false,
+    hideTime: false
   },
   {
     id: 4,
@@ -91,7 +94,8 @@ const schedule = [
     link: "",
     startTime: utcToZonedTime(new Date(2019, 11, 14, 12, 0), "Europe/Helsinki"),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 13, 30), "Europe/Helsinki"),
-    hideDetails: false
+    hideDetails: false,
+    hideTime: false
   },
   {
     id: 5,
@@ -117,7 +121,8 @@ const schedule = [
       "Europe/Helsinki"
     ),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 15, 15), "Europe/Helsinki"),
-    hideDetails: false
+    hideDetails: false,
+    hideTime: false
   },
   {
     id: 6,
@@ -143,7 +148,8 @@ const schedule = [
       "Europe/Helsinki"
     ),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 15, 15), "Europe/Helsinki"),
-    hideDetails: false
+    hideDetails: false,
+    hideTime: false
   },
   {
     id: 7,
@@ -169,7 +175,8 @@ const schedule = [
       "Europe/Helsinki"
     ),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 17, 0), "Europe/Helsinki"),
-    hideDetails: false
+    hideDetails: false,
+    hideTime: false
   },
   {
     id: 8,
@@ -195,7 +202,331 @@ const schedule = [
       "Europe/Helsinki"
     ),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 17, 0), "Europe/Helsinki"),
-    hideDetails: false
+    hideDetails: false,
+    hideTime: false
+  },
+  {
+    id: 9,
+    companyName: "",
+    location: "Physicum",
+    title: {
+      fi: "Kasmir",
+      "en-US": "Kasmir"
+    },
+    description: {
+      fi: "",
+      "en-US": ""
+    },
+    fullDescription: {
+      fi: "",
+      "en-US": ""
+    },
+    speakers: [],
+    language: "fi",
+    link: "",
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 20, 0), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 21, 0), "Europe/Helsinki"),
+    hideDetails: true,
+    hideTime: false
+  },
+  {
+    id: 10,
+    companyName: "",
+    location: "Exactum B121",
+    title: {
+      fi: "Workshop: Harjoitteluinfo",
+      "en-US": "Workshop: Harjoitteluinfo"
+    },
+    description: {
+      fi: "",
+      "en-US": ""
+    },
+    fullDescription: {
+      fi:
+        "Harjoitteluinfossa saat tietoa työnhausta, opintoihin kuuluvan harjoittelun suorittamisesta, harjoittelupaikan hakemisesta sekä harjoittelun rahoituksesta. Infossa on mukana myös liikkuvuuspalveluiden asiantuntija kertomassa ulkomailla tehtävän harjoittelun rahoitusvaihtoehdoista. \n Tervetuloa mukaan! \n Ilmoittaudu linkin kautta: https://www.lyyti.fi/reg/harjoitteluinfot",
+      "en-US":
+        "Harjoitteluinfossa saat tietoa työnhausta, opintoihin kuuluvan harjoittelun suorittamisesta, harjoittelupaikan hakemisesta sekä harjoittelun rahoituksesta. Infossa on mukana myös liikkuvuuspalveluiden asiantuntija kertomassa ulkomailla tehtävän harjoittelun rahoitusvaihtoehdoista. \n Tervetuloa mukaan! \n Ilmoittaudu linkin kautta: https://www.lyyti.fi/reg/harjoitteluinfot"
+    },
+    speakers: [],
+    language: "fi",
+    link: "",
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 16, 0), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 17, 0), "Europe/Helsinki"),
+    hideDetails: true,
+    hideTime: false
+  },
+  {
+    id: 11,
+    companyName: "",
+    location: "Exactum B121",
+    title: {
+      fi: "Workshop by Loimu",
+      "en-US": "Workshop by Loimu"
+    },
+    description: {
+      fi: "",
+      "en-US": ""
+    },
+    fullDescription: {
+      fi: "",
+      "en-US": ""
+    },
+    speakers: ["Loimu"],
+    language: "fi",
+    link: "",
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 14, 0), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 15, 0), "Europe/Helsinki"),
+    hideDetails: true,
+    hideTime: false
+  },
+  {
+    id: 12,
+    companyName: "",
+    location: "Exactum B121",
+    title: {
+      fi: "Workshop: Working in Finland as an International Student",
+      "en-US": "Workshop: Working in Finland as an International Student"
+    },
+    description: {
+      fi: "Working in Finland as an International Student",
+      "en-US": "Working in Finland as an International Student"
+    },
+    fullDescription: {
+      fi: "",
+      "en-US": ""
+    },
+    speakers: ["Saija Repo"],
+    language: "en",
+    link: "",
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 13, 0), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 14, 0), "Europe/Helsinki"),
+    hideDetails: true,
+    hideTime: false
+  },
+  {
+    id: 13,
+    companyName: "",
+    location: "Exactum B121",
+    title: {
+      fi: "Workshop: Coach Cafe",
+      "en-US": "Workshop: Coach Cafe"
+    },
+    description: {
+      fi: "",
+      "en-US": ""
+    },
+    fullDescription: {
+      fi: "",
+      "en-US": ""
+    },
+    speakers: [],
+    language: "fi",
+    link: "",
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 15, 0), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 16, 0), "Europe/Helsinki"),
+    hideDetails: true,
+    hideTime: false
+  },
+  {
+    id: 14,
+    companyName: "",
+    location: "Exactum B123",
+    title: {
+      fi: "Paneeli koneoppimisesta",
+      "en-US": "Paneeli koneoppimisesta"
+    },
+    description: {
+      fi: "OP, Visma, Ramboll, Relex ja Yle",
+      "en-US": "OP, Visma, Ramboll, Relex and Yle"
+    },
+    fullDescription: {
+      fi: "",
+      "en-US": ""
+    },
+    speakers: [],
+    language: "fi",
+    link: "",
+    startTime: utcToZonedTime(
+      new Date(2019, 11, 14, 12, 30),
+      "Europe/Helsinki"
+    ),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 14, 0), "Europe/Helsinki"),
+    hideDetails: false,
+    hideTime: false
+  },
+  {
+    id: 15,
+    companyName: "",
+    location: "",
+    title: {
+      fi: "Keynote",
+      "en-US": "Keynote"
+    },
+    description: {
+      fi: "",
+      "en-US": ""
+    },
+    fullDescription: {
+      fi: "",
+      "en-US": ""
+    },
+    speakers: [],
+    language: "fi",
+    link: "",
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 14, 0), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 14, 30), "Europe/Helsinki"),
+    hideDetails: true,
+    hideTime: false
+  },
+  {
+    id: 16,
+    companyName: "",
+    location: "",
+    title: {
+      fi: "Keynote by OP",
+      "en-US": "Keynote by OP"
+    },
+    description: {
+      fi: "",
+      "en-US": ""
+    },
+    fullDescription: {
+      fi: "",
+      "en-US": ""
+    },
+    speakers: [],
+    language: "fi",
+    link: "",
+    startTime: utcToZonedTime(
+      new Date(2019, 11, 14, 14, 30),
+      "Europe/Helsinki"
+    ),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 15, 0), "Europe/Helsinki"),
+    hideDetails: true,
+    hideTime: false
+  },
+  {
+    id: 17,
+    companyName: "",
+    location: "",
+    title: {
+      fi: "Keynote by Bluefors",
+      "en-US": "Keynote by Bluefors"
+    },
+    description: {
+      fi: "",
+      "en-US": ""
+    },
+    fullDescription: {
+      fi: "",
+      "en-US": ""
+    },
+    speakers: [],
+    language: "fi",
+    link: "",
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 15, 0), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 15, 30), "Europe/Helsinki"),
+    hideDetails: true,
+    hideTime: false
+  },
+  {
+    id: 18,
+    companyName: "",
+    location: "",
+    title: {
+      fi: "Keynote by Digia",
+      "en-US": "Keynote by Digia"
+    },
+    description: {
+      fi: "",
+      "en-US": ""
+    },
+    fullDescription: {
+      fi: "",
+      "en-US": ""
+    },
+    speakers: [],
+    language: "fi",
+    link: "",
+    startTime: utcToZonedTime(
+      new Date(2019, 11, 14, 15, 30),
+      "Europe/Helsinki"
+    ),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 16, 0), "Europe/Helsinki"),
+    hideDetails: true,
+    hideTime: false
+  },
+  {
+    id: 19,
+    companyName: "",
+    location: "",
+    title: {
+      fi: "Keynote by Futurice",
+      "en-US": "Keynote by Futurice"
+    },
+    description: {
+      fi: "",
+      "en-US": ""
+    },
+    fullDescription: {
+      fi: "",
+      "en-US": ""
+    },
+    speakers: [],
+    language: "fi",
+    link: "",
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 16, 0), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 16, 30), "Europe/Helsinki"),
+    hideDetails: true,
+    hideTime: false
+  },
+  {
+    id: 20,
+    companyName: "",
+    location: "",
+    title: {
+      fi: "Ständit esillä",
+      "en-US": "Booths open"
+    },
+    description: {
+      fi: "",
+      "en-US": ""
+    },
+    fullDescription: {
+      fi: "",
+      "en-US": ""
+    },
+    speakers: [],
+    language: "fi",
+    link: "",
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 11, 0), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 17, 0), "Europe/Helsinki"),
+    hideDetails: true,
+    hideTime: false
+  },
+  {
+    id: 21,
+    companyName: "Helsinki Think Company",
+    location: "Exactum",
+    title: {
+      fi: "Helsinki Think Company esittäytyy",
+      "en-US": "Helsinki Think Company introduction"
+    },
+    description: {
+      fi: "",
+      "en-US": ""
+    },
+    fullDescription: {
+      fi: "",
+      "en-US": ""
+    },
+    speakers: [],
+    language: "fi",
+    link: "",
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 17, 30), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 19, 0), "Europe/Helsinki"),
+    hideDetails: true,
+    hideTime: false
   }
 ];
 
