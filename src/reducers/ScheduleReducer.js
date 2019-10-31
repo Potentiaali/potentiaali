@@ -503,6 +503,30 @@ const schedule = [
     endTime: utcToZonedTime(new Date(2019, 11, 14, 17, 0), "Europe/Helsinki"),
     hideDetails: true,
     hideTime: false
+  },
+  {
+    id: 21,
+    companyName: "Helsinki Think Company",
+    location: "Exactum",
+    title: {
+      fi: "Helsinki Think Company esittäytyy",
+      "en-US": "Helsinki Think Company introduction"
+    },
+    description: {
+      fi: "",
+      "en-US": ""
+    },
+    fullDescription: {
+      fi: "",
+      "en-US": ""
+    },
+    speakers: [],
+    language: "fi",
+    link: "",
+    startTime: utcToZonedTime(new Date(2019, 11, 14, 17, 30), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 19, 0), "Europe/Helsinki"),
+    hideDetails: true,
+    hideTime: false
   }
 ];
 
