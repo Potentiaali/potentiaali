@@ -357,7 +357,7 @@ const schedule = [
   {
     id: 15,
     companyName: "",
-    location: "",
+    location: "Exactum B123",
     title: {
       fi: "Keynote",
       "en-US": "Keynote"
@@ -381,7 +381,7 @@ const schedule = [
   {
     id: 16,
     companyName: "",
-    location: "",
+    location: "Exactum B123",
     title: {
       fi: "Keynote by OP",
       "en-US": "Keynote by OP"
@@ -408,7 +408,7 @@ const schedule = [
   {
     id: 17,
     companyName: "",
-    location: "",
+    location: "Exactum B123",
     title: {
       fi: "Keynote by Bluefors",
       "en-US": "Keynote by Bluefors"
@@ -432,7 +432,7 @@ const schedule = [
   {
     id: 18,
     companyName: "",
-    location: "",
+    location: "Exactum B123",
     title: {
       fi: "Keynote by Digia",
       "en-US": "Keynote by Digia"
@@ -459,7 +459,7 @@ const schedule = [
   {
     id: 19,
     companyName: "",
-    location: "",
+    location: "Exactum B123",
     title: {
       fi: "Keynote by Futurice",
       "en-US": "Keynote by Futurice"
