@@ -256,5 +256,10 @@
     "alt": "Beneq",
     "imgSrc": "companies/Beneq.png",
     "websiteUrl": "https://careers.beneq.com/"
+  },
+  {
+    "alt": "Helsingin Yliopisto",
+    "imgSrc": "companies/hy.jpg",
+    "websiteUrl": "https://www.helsinki.fi/fi/yliopisto/ura-helsingin-yliopistossa"
   }
 ]
