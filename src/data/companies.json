@@ -376,5 +376,12 @@
     "imgSrc": "companies/hy.jpg",
     "websiteUrl": "https://www.helsinki.fi/fi/yliopisto/ura-helsingin-yliopistossa",
     "description": ""
+  },
+  {
+    "id": 55,
+    "name": "Neuroflux",
+    "imgSrc": "companies/neuroflux.svg",
+    "websiteUrl": "https://www.neuroflux.fi/career.html",
+    "description": ""
   }
 ]
