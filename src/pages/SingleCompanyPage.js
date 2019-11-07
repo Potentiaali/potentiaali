@@ -32,7 +32,15 @@ const SingleCompanyPage = ({ match, history }) => {
       </section>
       <section className="app-section">
         <h1>{company.name}</h1>
-        <img alt={company.name} src={"/" + company.imgSrc} width={200} />
+        <div
+          style={{
+            backgroundColor: "white",
+            padding: 20,
+            display: "inline-block"
+          }}
+        >
+          <img alt={company.name} src={"/" + company.imgSrc} width={200} />
+        </div>
         <p>
           <a
             href={company.websiteUrl}
@@ -44,6 +52,9 @@ const SingleCompanyPage = ({ match, history }) => {
             {company.websiteUrl}
           </a>
         </p>
+        <pre style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
+          <p>{company.description}</p>
+        </pre>
       </section>
       <section className="app-section">
         <Link to="/companies">

@@ -245,7 +245,8 @@
     "description": "Bisnode on johtava ja edistyksellinen data- ja analytiikka-alan yritys, joka rakentaa valoisaa tulevaisuutta smart datan avulla. Yrityksessä työskentelee yli 2 100 intohimoista ja uteliasta työntekijää, jotka tekevät yhteistyötä yhteensä 19 Euroopan maassa. Bisnode auttaa yrityksiä ennustamaan asiakkaiden käyttäytymistä, hallitsemaan liiketoimintaan liittyvää riskiä ja löytämään vastauksia erilaisiin liiketoiminnallisiin kysymyksiin analytiikan ja scoring-mallien kautta. \n Bisnode on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut maantieteen, matematiikan, tietojenkäsittelytieteen ja tilastotieteen opiskelijoista."
   },
   {
-    "alt": "TX",
+    "id": 36,
+    "name": "TX",
     "imgSrc": "companies/tx.jpg",
     "websiteUrl": "https://careers.tx.company",
     "description": ""
@@ -336,7 +337,7 @@
   },
   {
     "id": 49,
-    "name": "DB",
+    "name": "Dream Broker",
     "imgSrc": "companies/DB.jpg",
     "websiteUrl": "https://dreambroker.com/careers/",
     "description": ""
@@ -371,7 +372,7 @@
   },
   {
     "id": 54,
-    "alt": "Helsingin Yliopisto",
+    "name": "Helsingin Yliopisto",
     "imgSrc": "companies/hy.jpg",
     "websiteUrl": "https://www.helsinki.fi/fi/yliopisto/ura-helsingin-yliopistossa",
     "description": ""

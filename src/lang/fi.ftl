@@ -120,3 +120,4 @@ astrology-researcher-title-text = Tutkija
 schedule-slot-details = Lisätiedot
 back-to-company-listing = Takaisin yrityslistaukseen
 at-clock = klo
+view-all-companies = Näytä listana

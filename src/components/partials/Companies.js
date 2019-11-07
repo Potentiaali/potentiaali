@@ -9,6 +9,7 @@ const Companies = () => (
     <Localized id="companies-title-text">
       Vuoden 2019 Kumpulan Potentiaali -tapahtuman yritykset
     </Localized>
+    <br />
     <Link to="/companies">
       <Localized id="view-all-companies">View as a list</Localized>
     </Link>
