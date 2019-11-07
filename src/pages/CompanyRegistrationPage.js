@@ -31,7 +31,7 @@ const CompanyRegistrationPage = () => (
       <h1>
         <Localized id="includes">Sisältö</Localized>
       </h1>
-      <p className="event-contents-block">
+      <div className="event-contents-block">
         <ul>
           <li>
             <Localized id="stand">
@@ -52,7 +52,7 @@ const CompanyRegistrationPage = () => (
             </Localized>
           </li>
         </ul>
-      </p>
+      </div>
       <p>
         <b>
           <Localized id="bonus-tickets">
@@ -81,90 +81,87 @@ const CompanyRegistrationPage = () => (
       <Localized id="event-info-title">
         <h1>Event information</h1>
       </Localized>
-      <p>
-        <ul className="event-info">
-          <li>
+      <ul className="event-info">
+        <li>
+          <span className="event-info-title">
+            <i className="fas fa-map-marked-alt"></i>
+          </span>
+          <span className="event-info-value">
+            <Localized id="event-location">Location</Localized>
+            {": "}
+            <Localized id="event-location-value">
+              Kumpulan kampus (Gustaf Hällströmin katu 2)
+            </Localized>
+          </span>
+        </li>
+        <li>
+          <span className="event-info-title">
+            <i className="fas fa-calendar-day"></i>
+          </span>
+          <span className="event-info-value">
+            <Localized id="event-date">Date</Localized>
+            {": "}
+            <time dateTime="2019-11-14 10:00">
+              <Localized id="event-day">Torstai</Localized> {config.eventDate}
+            </time>
+          </span>
+        </li>
+        <li>
+          <span className="event-info-title">
+            <i className="fas fa-clock"></i>
+          </span>
+          <span className="event-info-value">
+            <Localized id="event-time">Time</Localized>
+            {": "}
+            <Localized id="event-time-prefix">klo</Localized> {config.eventTime}
+          </span>
+        </li>
+        <li>
+          <span className="event-info-title">
+            <i className="fas fa-dollar-sign"></i>
+          </span>
+          <span className="event-info-value">
+            <Localized id="event-cost">Price</Localized>
+            {": "}
+            <Localized id="event-cost-value">1000,00 euroa</Localized>
+          </span>
+        </li>
+        <li>
+          <a
+            className="link-btn"
+            alt="Show on Google Maps"
+            href="https://goo.gl/maps/1rh5pJXHwgtVffeGA"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <span className="event-info-title">
-              <i className="fas fa-map-marked-alt"></i>
+              <i className="fas fa-map-marker-alt"></i>
             </span>
             <span className="event-info-value">
-              <Localized id="event-location">Location</Localized>
-              {": "}
-              <Localized id="event-location-value">
-                Kumpulan kampus (Gustaf Hällströmin katu 2)
+              <Localized id="show-on-google-maps">
+                Show on Google Maps
               </Localized>
             </span>
-          </li>
-          <li>
+          </a>
+        </li>
+        <li>
+          <a
+            className="link-btn"
+            alt="Add the event to your calendar"
+            href="Kumpulan_Potentiaali_2019.ics"
+            target="_blank"
+          >
             <span className="event-info-title">
-              <i className="fas fa-calendar-day"></i>
+              <i className="fas fa-calendar-plus"></i>
             </span>
             <span className="event-info-value">
-              <Localized id="event-date">Date</Localized>
-              {": "}
-              <time dateTime="2019-11-14 10:00">
-                <Localized id="event-day">Torstai</Localized> {config.eventDate}
-              </time>
+              <Localized id="add-to-calendar">
+                Add the event to your calendar (.ics)
+              </Localized>
             </span>
-          </li>
-          <li>
-            <span className="event-info-title">
-              <i className="fas fa-clock"></i>
-            </span>
-            <span className="event-info-value">
-              <Localized id="event-time">Time</Localized>
-              {": "}
-              <Localized id="event-time-prefix">klo</Localized>{" "}
-              {config.eventTime}
-            </span>
-          </li>
-          <li>
-            <span className="event-info-title">
-              <i className="fas fa-dollar-sign"></i>
-            </span>
-            <span className="event-info-value">
-              <Localized id="event-cost">Price</Localized>
-              {": "}
-              <Localized id="event-cost-value">1000,00 euroa</Localized>
-            </span>
-          </li>
-          <li>
-            <a
-              className="link-btn"
-              alt="Show on Google Maps"
-              href="https://goo.gl/maps/1rh5pJXHwgtVffeGA"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <span className="event-info-title">
-                <i className="fas fa-map-marker-alt"></i>
-              </span>
-              <span className="event-info-value">
-                <Localized id="show-on-google-maps">
-                  Show on Google Maps
-                </Localized>
-              </span>
-            </a>
-          </li>
-          <li>
-            <a
-              className="link-btn"
-              alt="Add the event to your calendar"
-              href="Kumpulan_Potentiaali_2019.ics"
-              target="_blank"
-            >
-              <span className="event-info-title">
-                <i className="fas fa-calendar-plus"></i>
-              </span>
-              <span className="event-info-value">
-                <Localized id="add-to-calendar">
-                  Add the event to your calendar (.ics)
-                </Localized>
-              </span>
-            </a>
-          </li>
-        </ul>
-      </p>
+          </a>
+        </li>
+      </ul>
     </section>
     <section className="app-section">
       <Localized id="registration">
@@ -185,9 +182,7 @@ const CompanyRegistrationPage = () => (
           ilmoittautumisen takarajasta tällä sivulla.
         </Localized>
       </p>
-      <p>
-        <RegistrationButton />
-      </p>
+      <RegistrationButton />
     </section>
     <section className="app-section">
       <Localized id="contact-information">

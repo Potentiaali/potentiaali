@@ -57,7 +57,7 @@ const MainPage = () => (
       <Localized id="event-info-title">
         <h1>Event information</h1>
       </Localized>
-      <p>
+      <div>
         <ul className="event-info">
           <li>
             <span className="event-info-title">
@@ -130,7 +130,7 @@ const MainPage = () => (
             </a>
           </li>
         </ul>
-      </p>
+      </div>
     </section>
     <section className="app-section">
       {config.showProgramView === true && <Program />}

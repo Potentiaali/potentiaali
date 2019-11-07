@@ -1,265 +1,380 @@
 [
   {
-     "alt": "OP",
-     "imgSrc": "companies/op.png",
-      "websiteUrl": "https://uusi.op.fi/op-ryhma/ura-oplla"
+    "id": 1,
+    "name": "OP",
+    "imgSrc": "companies/op.png",
+    "websiteUrl": "https://uusi.op.fi/op-ryhma/ura-oplla",
+    "description": ""
   },
   {
-    "alt": "Siili Solutions",
+    "id": 2,
+    "name": "Siili Solutions",
     "imgSrc": "companies/siili.png",
-    "websiteUrl": "https://www.siili.com/fi"
-  },
-  { 
-    "alt": "Reaktor",
-     "imgSrc": "companies/reaktor.png",
-      "websiteUrl": "https://www.reaktor.com/"
-  },
-  { 
-    "alt": "Futurice",
-     "imgSrc": "companies/futurice.png",
-      "websiteUrl": "https://www.futurice.com/"
-  },
-  { 
-    "alt": "Elisa",
-     "imgSrc": "companies/elisa.png",
-     "websiteUrl": "https://elisa.fi/"
-  },
-  { 
-    "alt": "CGI",
-     "imgSrc": "companies/cgi.png",
-     "websiteUrl": "https://www.cgi.fi/"
+    "websiteUrl": "https://www.siili.com/fi",
+    "description": ""
   },
   {
-    "alt": "Maanmittauslaitos",
+    "id": 3,
+    "name": "Reaktor",
+    "imgSrc": "companies/reaktor.png",
+    "websiteUrl": "https://www.reaktor.com/",
+    "description": "Reaktor on suomalainen teknologiakonsultointitalo, jonka tiimit ratkaisevat asiakkaiden erilaisia ongelmia, esimerkiksi päivittäistavarakaupassa (Adidas, Kesko), pankkialalla (Nordea) ja media-alalla (HBO, Yle). \n Reaktor on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut fysiikan, matematiikan, tietojenkäsittelytieteen ja tilastotieteen opiskelijoista.Introducing: Reaktor"
+  },
+  {
+    "id": 4,
+    "name": "Futurice",
+    "imgSrc": "companies/futurice.png",
+    "websiteUrl": "https://www.futurice.com/",
+    "description": ""
+  },
+  {
+    "id": 5,
+    "name": "Elisa",
+    "imgSrc": "companies/elisa.png",
+    "websiteUrl": "https://elisa.fi/",
+    "description": ""
+  },
+  {
+    "id": 6,
+    "name": "CGI",
+    "imgSrc": "companies/cgi.png",
+    "websiteUrl": "https://www.cgi.fi/",
+    "description": ""
+  },
+  {
+    "id": 7,
+    "name": "Maanmittauslaitos",
     "imgSrc": "companies/maanmittauslaitos.png",
-    "websiteUrl": "https://www.maanmittauslaitos.fi/"
+    "websiteUrl": "https://www.maanmittauslaitos.fi/",
+    "description": ""
   },
   {
-    "alt": "Yleisradio",
+    "id": 8,
+    "name": "Yleisradio",
     "imgSrc": "companies/yleisradio.png",
-    "websiteUrl": "https://yle.fi/aihe/yleisradio/"
+    "websiteUrl": "https://yle.fi/aihe/yleisradio/",
+    "description": "Yle.dev on modernin sovelluskehitys- ja dataosaamisen koti. Olemme verkosto ohjelmistokehittäjiä, arkkitehtejä ja palvelupäälliköitä, jotka toimivat käytännössä Ylen palvelukehitystiimeissä. Verkoston jäsenenä voit olla mukana kehittämässä esimerkiksi Areenaa, Suomen arvostetuinta verkkobrändiä, tai voit olla mukana modernisoimassa journalismia Yle News Labin kanssa yle.fi- ja Uutisvahti-applikaatioiden, sekä älykkään uutisassarin Voitto-robotin avulla. Voit olla myös mukana pohtimassa miten voimme datan perusteella palvella veronmaksajia paremmin, tai miten voimme käyttää tekoälyä vastuullisesti mediassa. \n IT-ala asettaa nykyään kovat paineet asiantuntijoille pysyä kehityksen mukana. Meillä yle.devissä tavoitteena on tukea sinua työssäsi, sekä tarjota sinulle puitteet henkilökohtaiseen kehitykseen urallasi. Toimimme myös Ylen kehityskulttuurin lähettiläänä ja pidämme huolta siitä, että Ylellä on mukavaa tehdä kehitystyötä. Meille on tärkeää, että saat toteuttaa työsi kuten parhaaksi näet. Pidämme myös huolta siitä, että et jää yksin."
   },
   {
-    "alt": "Ramboll",
+    "id": 9,
+    "name": "Ramboll",
     "imgSrc": "companies/ramboll.png",
-    "websiteUrl": "https://fi.ramboll.com//"
+    "websiteUrl": "https://fi.ramboll.com//",
+    "description": ""
   },
   {
-    "alt": "Murata Electronics",
+    "id": 10,
+    "name": "Murata Electronics",
     "imgSrc": "companies/murata.png",
-    "websiteUrl": "http://muratafinland.com/"
+    "websiteUrl": "http://muratafinland.com/",
+    "description": "Murata Electronics edistää yhteiskunnan kehitystä innovatiivisella anturiteknologialla, joka parantaa autojen turvallisuutta ja ihmisten elämänlaatua. Olemme maailman johtava kiihtyvyys-, kallistus- ja kulmanopeusantureiden valmistaja. Tuotteemme tarjoavat äärimmäistä luotettavuutta ja tarkkuutta käyttökohteissaan autoteollisuudessa, terveysteknologiassa ja erilaisissa teollisissa sovelluksissa. Kuulumme Murata-konserniin, joka työllistää maailmanlaajuisesti 80 000 ihmistä. Vantaalla sijaitsevassa teknologiakeskuksessamme työskentelee yli 1000 ammattilaista. \n Kiinnostaviksi aloiksi Murata Electronics nimeää fysiikan, kemian ja tietojenkäsittelytieteen."
   },
   {
-    "alt": "Foreca",
+    "id": 11,
+    "name": "Foreca",
     "imgSrc": "companies/foreca.png",
-    "websiteUrl": "https://www.foreca.fi/"
+    "websiteUrl": "https://www.foreca.fi/",
+    "description": "Foreca hakee osa-aikaiseen tai kokopäiväiseen työhön ohjelmistokehittäjiä. Olemme kiinnostuneita eri teknologioiden osaajista. Forecalla pääset kehittämään säätuotteita, joita tarjoamme maailmanlaajuisesti kuluttajille, mediataloille ja digitaalisen median toimijoille, kuten Microsoft ja MTV3. Moderni merinäköalan toimistomme ja ilmainen kuntosalimme sijaitsee Keilaniemen metroaseman vieressä. Tule mukaan tuomaan uusia ajatuksia ja oppimiasi asioita kokeneiden ohjelmistokehittäjiemme avuksi. \n Foreca on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista"
   },
   {
-    "alt": "Digia",
+    "id": 12,
+    "name": "Digia",
     "imgSrc": "companies/digia.png",
-    "websiteUrl": "https://digia.com"
+    "websiteUrl": "https://digia.com",
+    "description": ""
   },
   {
-    "alt": "Perfektio",
+    "id": 13,
+    "name": "Perfektio",
     "imgSrc": "companies/perfektio-logo.png",
-    "websiteUrl": "https://www.perfektio.fi/"
-  },
-  { "alt": "Webscale",
-     "imgSrc": "companies/webscale.png",
-      "websiteUrl": "https://webscale.fi/"
+    "websiteUrl": "https://www.perfektio.fi/",
+    "description": ""
   },
   {
-    "alt": "Taito United",
+    "id": 14,
+    "name": "Webscale",
+    "imgSrc": "companies/webscale.png",
+    "websiteUrl": "https://webscale.fi/",
+    "description": "Webscale on helsinkiläinen modernien teknologioiden ohjelmistokehitys- ja konsultointiyhtiö. Toteutamme yhdessä asiakkaidemme kanssa merkityksellisiä digihankkeita ihmisiltä ihmisille. Arkeamme ohjaavat arvot: #huippuosaaminen #tekemisenvapaus #asiakashyöty #etäyhteisöllisyys"
+  },
+  {
+    "id": 15,
+    "name": "Taito United",
     "imgSrc": "companies/taito_united.png",
-    "websiteUrl": "http://taitounited.fi/"
+    "websiteUrl": "http://taitounited.fi/",
+    "description": ""
   },
-  { "alt": "IBM",
-     "imgSrc": "companies/ibm.png",
-      "websiteUrl": "https://www.ibm.com/fi-fi/"
-     },
   {
-    "alt": "Sogeti Finland",
+    "id": 16,
+    "name": "IBM",
+    "imgSrc": "companies/ibm.png",
+    "websiteUrl": "https://www.ibm.com/fi-fi/",
+    "description": ""
+  },
+  {
+    "id": 17,
+    "name": "Sogeti Finland",
     "imgSrc": "companies/Sogeti_Logo.png",
-    "websiteUrl": "https://www.sogeti.fi/"
+    "websiteUrl": "https://www.sogeti.fi/",
+    "description": ""
   },
   {
-    "alt": "Cinia",
+    "id": 18,
+    "name": "Cinia",
     "imgSrc": "companies/cinia.png",
-    "websiteUrl": "https://www.cinia.fi/"
-  },
-  { "alt": "Vincit",
-     "imgSrc": "companies/vincit.jpg",
-      "websiteUrl": "https://www.vincit.fi/"
+    "websiteUrl": "https://www.cinia.fi/",
+    "description": "Cinia toteuttaa pitkän elinkaaren ohjelmistoratkaisuja liikenteen ja logistiikan, terveydenhuollon, teollisuuden sekä julkisen sektorin toimijoille. Vahva osaamisemme kriittisten järjestelmien kehittämisessä perustuu tinkimättömään tapaan varmistaa toimintavarmuus ja tietoturva kaikissa tilanteissa. Cinialla ohjelmistokehitystä tehdään ketteriä menetelmiä soveltaen sekä projektimuotoisesti omalla toimistollamme että asiakkaiden luona konsulttitoimeksiannoissa. Meillä pääset rakentamaan uutta ja ottamaan projektista haluamasi määrän vastuuta. \n Suurin osa projektiemme backendeistä on totetuttu Spring Bootilla ja käyttöliittymistä huolehtivat Angularilla tai Reactilla tehdyt sovellukset. Käytämme Docker-kontteja ja luotamme AWS:ään ympäristönä. \n Kasvamme tänäkin vuonna ja etsimme uusia osaajia vahvistamaan osaamistamme. Olemme tällä hetkellä yli 270 hengen asiantuntijatalo ja tarjoamme palveluita pilvipalveluista ohjelmistoratkaisuihin Tampereen, Helsingin, Jyväskylän ja Riihimäen toimistoiltamme. \n Olemme kiinnostuneita vahvistamaan Cinian ohjelmistokehityksen tiimiä uusilla joukkuepelaajilla. Kerro meille kiinnostuksen kohteistasi sekä ydinosaamisestasi ja mitä haluaisit oppia lisää. Meillä pääset toteuttamaan yhteiskunnan kannalta merkityksellisiä digitaalisia palveluita ja operatiivisia järjestelmiä joihin usein kohdistuu tavanomaista korkeampia vaatimuksia käytettävyyden, suorituskyvyn ja tietoturvan suhteen. \n Katso avoimet työpaikkamme täältä: https://www.cinia.fi/toihin-cinialle/koodareille.html \n Cinia on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista."
   },
   {
-    "alt": "CSC - Tieteen tietotekniikan keskus Oy",
+    "id": 19,
+    "name": "Vincit",
+    "imgSrc": "companies/vincit.jpg",
+    "websiteUrl": "https://www.vincit.fi/",
+    "description": "Vincit syntyi vuonna 2007 ajatuksesta, että asiakastyytyväisyys perustuu tyytyväisiin työntekijöihin. Olemme kasvaneet 450+ huippuammattilaisen pörssiyhtiöksi ja levittäytyneet seitsemään kaupunkiin ympäri Suomea ja Kaliforniaa. Ja uskomme yhä, että töissä on tarkoitus viihtyä – myös maanantaisin. \n Teemme modernia digitalisaatiota tyytyväisyystakuulla. Palveluihimme kuuluvat mm. ohjelmistokehitys & suunnittelu, konsultointi liiketoiminnan murroksen ja digitalisaation saralla sekä data-analytiikan palvelut koneoppimisen ja tekoälyn parissa. Asiakaskenttämme on todella laaja, teemme yhteistyötä niin startupien kuin suurten pörssiyritysten kanssa. Tämän ansiosta projektikirjo on ainutlaatuinen, ulottuen legacy-purkkakoodin ylläpidosta AR/VR-hipsteröintiin ja syväoppimiseen. Jatkuvasti kehittyvä ympäristö varmistaa ettei jumiutumista tarvitse pelätä. \n Tarjoamme mielestämme erinomaisen vaihtoehdon viettää valveillaoloaikaa, sillä yhdessä aikaansaadun hyvän meiningin vuoksi työelämä ei maistu pakkopullalta. Etsimme meille jatkuvasti uusia ohjelmointitaustalla varustettuja työkavereita kaikille toimipisteillemme. Mikäli et ole vielä kerennyt kerryttää ohjelmointikokemusta opintojesi ulkopuolella, seuraa ilmoitteluamme erilaisista trainee- sekä kesätyöhauistamme, joiden kautta tarjoamme sinulle erinomaisen väylän kehittää tuetusti osaamistasi ja päästä kiinni jopa suoraan asiakasprojekteihin. \n Lue lisää ja tsekkaa avoimet työpaikkamme: www.vincit.fi/rekry \n Vincit on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista."
+  },
+  {
+    "id": 20,
+    "name": "CSC - Tieteen tietotekniikan keskus Oy",
     "imgSrc": "companies/CSC_logo.png",
-    "websiteUrl": "https://www.csc.fi/fi"
+    "websiteUrl": "https://www.csc.fi/fi",
+    "description": "Tieteen tietotekniikan keskus CSC tarjoaa korkeatasoisia ICT-palveluja korkeakouluille ja tutkimuslaitoksille: Suomen tehokkaimmat supertietokoneet, monipuolisen ympäristön datanhallintaan ja analyysiin sekä monipuolisen asiantuntijatuen ja koulutuksen. \n Yksi eurooppalaisista esi-eksa-tason supertietokoneista, LUMI, asennetaan CSCn datakeskukseen Kajaaniin ja valmistuessaan se on yksi maailman nopeimmista supertietokoneista. Asiantuntemuksemme perustana on osaava henkilöstö, jota täydentääksemme etsimme jatkuvasti joukkoomme uusia lahjakkuuksia. \n Tulevaksi kesäksi haemme erityisesti opiskelijoita, joilla on jo kokemusta tietotekniikasta ja jotka pystyvät muuntamaan opintonsa käytännön osaamiseksi. Harjoittelijana sinulla on mahdollisuus työskennellä ainutlaatuisten työtehtävien parissa ja kehittää osaamistasi kansainvälisessä yrityksessä. CSC:llä työtehtävät ovat moninaisia ohjelmoinnista, laitepalveluista ja tutkimustiedon hallinnasta yhteiskunnalliseen vaikuttamiseen ja oppimisanalytiikkaan saakka.\n Tervetuloa joukkoomme! Kiinnostaviksi aloiksi CSC nimeää fysiikan, tietojenkäsittelytieteen ja tilastotieteen."
   },
   {
-    "alt": "Tekniikan akateemiset TEK",
+    "id": 21,
+    "name": "Tekniikan akateemiset TEK",
     "imgSrc": "companies/tek.png",
-    "websiteUrl": "https://www.tek.fi/fi"
+    "websiteUrl": "https://www.tek.fi/fi",
+    "description": ""
   },
   {
-    "alt": "Luonnon-, ympäristö- ja metsätieteilijöiden liitto Loimu ry",
+    "id": 22,
+    "name": "Luonnon-, ympäristö- ja metsätieteilijöiden liitto Loimu ry",
     "imgSrc": "companies/loimu.png",
-    "websiteUrl": "https://www.loimu.fi/"
+    "websiteUrl": "https://www.loimu.fi/",
+    "description": ""
   },
-  
   {
-    "alt": "Houston Inc. Consulting Oy",
+    "id": 23,
+    "name": "Houston Inc. Consulting Oy",
     "imgSrc": "companies/houston_uusi.png",
-    "websiteUrl": "https://www.houston-inc.com/"
+    "websiteUrl": "https://www.houston-inc.com/",
+    "description": "Hei Kumpulan jengi, me ollaan Houston! Meidän tiimissä on noin 80 suunnittelijaa, koodaria ja coachia. Kehitämme rakastettavia palveluita, joissa on järkeä niin teknologian kuin strategiankin puolesta. Tuu juttelemaan meidän kanssa vaikka siitä miten tekniikan avulla helpotetaan ihmisten elämää. Nähdään Houstonin ständillä ja speed deiteillä! :) \n Houston Inc. on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut matematiikan ja tietojenkäsittelytieteen opiskelijoista."
   },
   {
-    "alt": "Trimble Solutions Oy",
+    "id": 24,
+    "name": "Trimble Solutions Oy",
     "imgSrc": "companies/trimble.png",
-    "websiteUrl": "https://www.tekla.com/fi"
+    "websiteUrl": "https://www.tekla.com/fi",
+    "description": ""
   },
   {
-    "alt": "Bluefors",
+    "id": 25,
+    "name": "Bluefors",
     "imgSrc": "companies/bluefors.png",
-    "websiteUrl": "https://www.bluefors.com/"
+    "websiteUrl": "https://www.bluefors.com/",
+    "description": "Bluefors suunnittelee ja valmistaa kryogeenivapaita diluutio-jäähdytyslaitteita. Bluefors on alalla tunnettu markkinajohtaja luotettavilla, helppokäyttöisillä ja laadukkailla laitteillaan. Ketterän yritysrakenteemme ansiosta asiakkaamme ovat suoraan yhteydessä fyysikoihimme sekä insinööreihimme, jotka suunnittelevat heidän järjestelmänsä. Toimitamme järjestelmiämme ympäri maailmaa ja markkinat kasvavat jatkuvasti. Tällä hetkellä työllistämme yli 160 ammattilaista 22 eri maasta. \n Tarjoamme kilpailukykyisen etupaketin sekä joustavan työympäristön. Tarvitsemme henkilöitä, jotka haluavat olla osana kehitystä, pitävät laatua tärkeänä arvona ja ovat motivoituneita käyttämään ammattitaitoaan Blueforsin laitteiden toimittamiseksi huipputason tutkimuksen käyttöön. Mikäli olet taitava fyysikko, teknikko, insinööri tai liiketoiminnan ammattilainen, liity kasvutarinaamme! Lue lisää avoimista työpaikoistamme ja vaatimuksistamme sivuiltamme bluefors.com ja seuraa meitä sosiaalisessa mediassa #coolforprogress. Vastaanotamme myös avoimia hakemuksia. \n Bluefors on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut fysiikan opiskelijoista. \n Introducing: Bluefors Oy \n Bluefors designs and manufactures cryogen-free dilution refrigerator systems."
   },
   {
-    "alt": "HiQ Finland Oy",
+    "id": 26,
+    "name": "HiQ Finland Oy",
     "imgSrc": "companies/hiq.png",
-    "websiteUrl": "https://hiqfinland.fi/"
+    "websiteUrl": "https://hiqfinland.fi/",
+    "description": ""
   },
   {
-    "alt": "Nitor",
+    "id": 27,
+    "name": "Nitor",
     "imgSrc": "companies/nitor.png",
-    "websiteUrl": "https://www.nitor.com/fi/tyopaikat"
+    "websiteUrl": "https://www.nitor.com/fi/tyopaikat",
+    "description": ""
   },
   {
-    "alt": "Digital Goodie",
+    "id": 28,
+    "name": "Digital Goodie",
     "imgSrc": "companies/digital-goodie.png",
-    "websiteUrl": "http://www.digitalgoodie.com/careers/"
+    "websiteUrl": "http://www.digitalgoodie.com/careers/",
+    "description": ""
   },
   {
-    "alt": "Visma",
+    "id": 29,
+    "name": "Visma",
     "imgSrc": "companies/visma.png",
-    "websiteUrl": "https://www.visma.fi/ura/"
+    "websiteUrl": "https://www.visma.fi/ura/",
+    "description": ""
   },
   {
-    "alt": "Solita",
+    "id": 30,
+    "name": "Solita",
     "imgSrc": "companies/solita.png",
-    "websiteUrl": "https://www.solita.fi/avoimet-tyopaikat/"
+    "websiteUrl": "https://www.solita.fi/avoimet-tyopaikat/",
+    "description": ""
   },
   {
-    "alt": "Puolustusvoimat",
+    "id": 31,
+    "name": "Puolustusvoimat",
     "imgSrc": "companies/puolustusvoimat.jpg",
-    "websiteUrl": "https://puolustusvoimat.fi/tyo-ja-koulutus"
+    "websiteUrl": "https://puolustusvoimat.fi/tyo-ja-koulutus",
+    "description": ""
   },
   {
-    "alt": "Lamia",
+    "id": 32,
+    "name": "Lamia",
     "imgSrc": "companies/lamia.png",
-    "websiteUrl": "https://lamia.fi/ura"
+    "websiteUrl": "https://lamia.fi/ura",
+    "description": "LAMIA - WE CREATE DIGITAL VALUE \n KOHTI HUOMISEN DIGITAALISUUTTA: PALVELUMUOTOILU, OHJELMISTOKEHITYS, PILVI, DATA \n Me Lamialla luomme asiakkaillemme uutta digitaalista liiketoimintaa sekä verkkokaupparatkaisuja sekä kehitämme nykyisiä ratkaisuja - aina strategiasta oivaltavaan palvelumuotoiluun sekä huipputeknologiasta ja ohjelmistokehityksestä data- ja analytiikkapalveluihin. Olemme asiakkaidemme strateginen kumppani digitaalisella transformaatiopolulla. Asiakkaitamme ovat esimerkiksi Särkänniemi, St1 ja Verifone. Olemme virallinen Google Cloud Platform -kumppani. \n ASENNE, AMMATTITAITO, AKTIIVISUUS: ARVOMME KUVAAVAT JOKAISTA LAMIALAISTA JA TAPAAMME TEHDÄ TÖITÄ \n Ketteristä työskentelytavoistamme on kitketty pois turha byrokratia, jotta kaikki energia voidaan keskittää olennaisimpaan eli työn tekemiseen. Kun löydämme meille oikeat lahjakkuudet, pidämme huolta siitä, että heille suunnitellut urapolut myös toteutuvat. Meillä viihdytään, mikä näkyy korkeana tyytyväisyytenä ja henkilöstön pysyvyytenä. Viihtyvyyttä tukevat upouusi toimisto Helsingin ydinkeskustassa, modernit työvälineet, hyvä työergonomia, kattava työterveyshuolto sekä puhelin- ja lounasetu, loistavaa työilmapiiriä unohtamatta. Lisäksi meillä on tarjolla kompensaatiomalleja, joilla palkitsemme sitoutumisesta yritykseen. \n Etsimme usein kasvuhaluisia osaajia eri palvelualueillemme: design/palvelumuotoilu, ohjelmistokehitys, pilvipalvelut, data- ja analytiikkapalvelut/koneoppiminen! \n lamia.fi"
   },
   {
-    "alt": "Vala Group",
+    "id": 33,
+    "name": "Vala Group",
     "imgSrc": "companies/vala.png",
-    "websiteUrl": "https://www.valagroup.com/fi/ura/"
+    "websiteUrl": "https://www.valagroup.com/fi/ura/",
+    "description": ""
   },
   {
-    "alt": "Relex",
+    "id": 34,
+    "name": "Relex",
     "imgSrc": "companies/relex.jpg",
-    "websiteUrl": "https://careers.relexsolutions.com/en/"
+    "websiteUrl": "https://careers.relexsolutions.com/en/",
+    "description": "RELEX Solutions is a fast-growing software company developing its own products that help retail companies plan and operate more efficiently. By accurately forecasting consumption of goods, we reduce inventory costs, increase availability and cut waste. To achieve this, we use our in-house built terabyte scale in-memory database, which stores tens of billions of rows of data. \n With more than 700 employees around the world, we work in small teams where everyone’s input is valued. We’re passionate about what we do, we like putting our skills to the test and we make sure we have fun during the process — because life is supposed to be fun! \n RELEX Solutions is most interested in hiring mathematics, computer science and statistics students."
   },
   {
-    "alt": "Bisnode",
+    "id": 35,
+    "name": "Bisnode",
     "imgSrc": "companies/bisnode.png",
-    "websiteUrl": "https://finland.bisnode.fi/bisnodesta/meista/ura-bisnodella/"
+    "websiteUrl": "https://finland.bisnode.fi/bisnodesta/meista/ura-bisnodella/",
+    "description": "Bisnode on johtava ja edistyksellinen data- ja analytiikka-alan yritys, joka rakentaa valoisaa tulevaisuutta smart datan avulla. Yrityksessä työskentelee yli 2 100 intohimoista ja uteliasta työntekijää, jotka tekevät yhteistyötä yhteensä 19 Euroopan maassa. Bisnode auttaa yrityksiä ennustamaan asiakkaiden käyttäytymistä, hallitsemaan liiketoimintaan liittyvää riskiä ja löytämään vastauksia erilaisiin liiketoiminnallisiin kysymyksiin analytiikan ja scoring-mallien kautta. \n Bisnode on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut maantieteen, matematiikan, tietojenkäsittelytieteen ja tilastotieteen opiskelijoista."
   },
   {
-    "alt": "TX",
+    "id": 36,
+    "name": "TX",
     "imgSrc": "companies/tx.jpg",
-    "websiteUrl": "https://careers.tx.company"
+    "websiteUrl": "https://careers.tx.company",
+    "description": ""
   },
   {
-    "alt": "Alten",
+    "id": 37,
+    "name": "Alten",
     "imgSrc": "companies/alten.png",
-    "websiteUrl": "https://www.alten.fi/en/#join-us"
+    "websiteUrl": "https://www.alten.fi/en/#join-us",
+    "description": ""
   },
   {
-    "alt": "BCG",
+    "id": 38,
+    "name": "BCG",
     "imgSrc": "companies/bcg.png",
-    "websiteUrl": "https://www.bcg.com/careers/roles.aspx"
+    "websiteUrl": "https://www.bcg.com/careers/roles.aspx",
+    "description": "BCG GAMMA - Making AI Real for Business \n We believe that competitive advantage exists at the intersection of data science, technology, people, and deep business expertise. \n To unlock true power, AI must be woven into processes and ways of working and applied where it really matters. Our talents as creators, inventors, and builders unlock the art of the possible by crafting and implementing fully customized, end-to-end, advanced analytic and AI solutions. \n We build solutions to radically transform the business performance of the world's most iconic companies in nine to twelve months; unleashing the power of large and complex data sets and fostering a culture of innovation and radical change. Our agile, self-funded, and AI-powered solutions ensure continuous improvement for our clients. We focus on enablement from day one, co-creating solutions while building assets and capabilities. \n We think big, start small, and scale fast - constructing end-to-end, fit-for-purpose solutions that our clients own and integrate into their unique technology stack with full transparency into components, services, and code. \n We are made of a special alloy, the GAMMA alloy: passionate and inventive top-notch data scientists and technologists with sharp business minds. \n It’s business with data science and technology built in—an analytics powerhouse with a business backbone. \n Speed, scale, security. Smart. BCG GAMMA. \n BCG is most interested in hiring physics, geophysics, chemistry, mathematics, computer science and statistics students"
   },
   {
-    "alt": "ColumbiaRoad",
+    "id": 39,
+    "name": "Columbia Road",
     "imgSrc": "companies/columbiaRoad.png",
-    "websiteUrl": "https://www.columbiaroad.com/careers"
+    "websiteUrl": "https://www.columbiaroad.com/careers",
+    "description": ""
   },
   {
-    "alt": "Comiq",
+    "id": 40,
+    "name": "Comiq",
     "imgSrc": "companies/comiq.jpg",
-    "websiteUrl": "https://comiq.fi/rekrytointi/"
+    "websiteUrl": "https://comiq.fi/rekrytointi/",
+    "description": ""
   },
   {
-    "alt": "ilmatieteenlaitos",
+    "id": 41,
+    "name": "ilmatieteenlaitos",
     "imgSrc": "companies/ilmatieteenlaitos.png",
-    "websiteUrl": "https://en.ilmatieteenlaitos.fi/personnel-and-jobs"
+    "websiteUrl": "https://en.ilmatieteenlaitos.fi/personnel-and-jobs",
+    "description": ""
   },
   {
-    "alt": "Eficode",
+    "id": 42,
+    "name": "Eficode",
     "imgSrc": "companies/eficode.png",
-    "websiteUrl": "https://www.eficode.com/careers"
+    "websiteUrl": "https://www.eficode.com/careers",
+    "description": ""
   },
   {
-    "alt": "Supermetrics",
+    "id": 43,
+    "name": "Supermetrics",
     "imgSrc": "companies/supermetrics.png",
-    "websiteUrl": "https://careers.supermetrics.com/"
+    "websiteUrl": "https://careers.supermetrics.com/",
+    "description": "Supermetrics on nopeasti kasvava data pipeline-yritys, jonka markkinointiraportoinnin automaatiotuote on yksi maailmanlaajuisesti rakastetuimmista. Me ollaan oikeasti kansainvälisiä - tuotteillamme on >400t käyttäjää yli 120 maassa (alle 1% Suomessa) ja 20 eri kansalaisuutta 60-henkisessä tiimissämme. \n Supermetrics on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut matematiikan ja tietojenkäsittelytieteen opiskelijoista."
   },
   {
-    "alt": "Tilastokeskus",
+    "id": 44,
+    "name": "Tilastokeskus",
     "imgSrc": "companies/tilastokeskus.png",
-    "websiteUrl": "https://www.stat.fi/ajk/tyopaikat.html"
+    "websiteUrl": "https://www.stat.fi/ajk/tyopaikat.html",
+    "description": ""
   },
   {
-    "alt": "Helsinki",
+    "id": 45,
+    "name": "Helsinki",
     "imgSrc": "companies/helsinki.png",
-    "websiteUrl": "https://www.erekryhelsinki.fi/OpenJobs.asp?L=1&NODATA=1&Z=H&IE=2"
+    "websiteUrl": "https://www.erekryhelsinki.fi/OpenJobs.asp?L=1&NODATA=1&Z=H&IE=2",
+    "description": ""
   },
   {
-    "alt": "Wapice",
+    "id": 46,
+    "name": "Wapice",
     "imgSrc": "companies/wapice.png",
-    "websiteUrl": "https://www.wapice.com/jobs"
+    "websiteUrl": "https://www.wapice.com/jobs",
+    "description": ""
   },
   {
-    "alt": "SoftwarePoint",
+    "id": 47,
+    "name": "SoftwarePoint",
     "imgSrc": "companies/SoftwarePoint.jpg",
-    "websiteUrl": "https://softwarepoint.com/careers"
+    "websiteUrl": "https://softwarepoint.com/careers",
+    "description": ""
   },
   {
-    "alt": "RDvelho",
+    "id": 48,
+    "name": "RDvelho",
     "imgSrc": "companies/rdvelho.jpg",
-    "websiteUrl": "https://joinus.rdvelho.com/?_ga=2.3774137.885004269.1571040522-244889611.1571040522"
+    "websiteUrl": "https://joinus.rdvelho.com/?_ga=2.3774137.885004269.1571040522-244889611.1571040522",
+    "description": ""
   },
   {
-    "alt": "DB",
+    "id": 49,
+    "name": "Dream Broker",
     "imgSrc": "companies/DB.jpg",
-    "websiteUrl": "https://dreambroker.com/careers/"
+    "websiteUrl": "https://dreambroker.com/careers/",
+    "description": ""
   },
   {
-    "alt": "Solteq",
+    "id": 50,
+    "name": "Solteq",
     "imgSrc": "companies/solteq.jpg",
-    "websiteUrl": "https://ura.solteq.com/"
+    "websiteUrl": "https://ura.solteq.com/",
+    "description": ""
   },
   {
-    "alt": "SSF",
+    "id": 51,
+    "name": "SSF",
     "imgSrc": "companies/ssf.jpg",
-    "websiteUrl": "https://www.ssf.fi/careers/"
+    "websiteUrl": "https://www.ssf.fi/careers/",
+    "description": ""
   },
   {
-    "alt": "Beneq",
+    "id": 52,
+    "name": "Beneq",
     "imgSrc": "companies/Beneq.png",
-    "websiteUrl": "https://careers.beneq.com/"
+    "websiteUrl": "https://careers.beneq.com/",
+    "description": ""
   },
   {
-    "alt": "Helsingin Yliopisto",
+    "id": 53,
+    "name": "EY",
+    "imgSrc": "companies/ey.png",
+    "websiteUrl": "https://www.ey.com/fi/fi/careers",
+    "description": ""
+  },
+  {
+    "id": 54,
+    "name": "Helsingin Yliopisto",
     "imgSrc": "companies/hy.jpg",
-    "websiteUrl": "https://www.helsinki.fi/fi/yliopisto/ura-helsingin-yliopistossa"
+    "websiteUrl": "https://www.helsinki.fi/fi/yliopisto/ura-helsingin-yliopistossa",
+    "description": ""
   }
 ]
