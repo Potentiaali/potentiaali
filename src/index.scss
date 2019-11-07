@@ -194,3 +194,14 @@ body {
   margin-bottom: 30px;
   color: $orange-1;
 }
+
+.event-full-description-container {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.event-speakers-container {
+  list-style-type: square;
+  margin-top: 10px;
+  margin-left: 60px;
+}

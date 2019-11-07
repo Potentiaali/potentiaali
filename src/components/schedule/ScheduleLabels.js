@@ -52,6 +52,10 @@ const ScheduleLabels = () => (
     <div className={styles["main-label"]}>21:30</div>
     <div></div>
     <div className={styles["main-label"]}>22:00</div>
+    <div></div>
+    <div className={styles["main-label"]}>22:30</div>
+    <div></div>
+    <div className={styles["main-label"]}>23:00</div>
   </div>
 );
 
