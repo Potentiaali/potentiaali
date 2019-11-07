@@ -205,3 +205,27 @@ body {
   margin-top: 10px;
   margin-left: 60px;
 }
+
+.all-companies-list {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 10px;
+  @include mobile {
+    grid-template-columns: auto;
+  }
+}
+
+.all-companies-list--company {
+  align-self: center;
+  justify-self: left;
+}
+
+.all-companies-filter {
+  background-color: transparent;
+  border: 2px solid $orange-1;
+  @include darkModeFont($black-1, $white-1);
+  font-size: 1.4em;
+  padding-left: 15px;
+  height: 56px;
+  width: 50%;
+}
