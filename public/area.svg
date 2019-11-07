@@ -17,9 +17,9 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="area.svg"
-   inkscape:export-filename="/Users/ahuotala/Documents/Matlu ry/potentiaali-new/area.png"
-   inkscape:export-xdpi="176.32529"
-   inkscape:export-ydpi="176.32529">
+   inkscape:export-filename="/Users/ahuotala/Downloads/campus-area.png"
+   inkscape:export-xdpi="183.34634"
+   inkscape:export-ydpi="183.34634">
   <defs
      id="defs4">
     <inkscape:perspective
@@ -48,9 +48,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994951"
-     inkscape:cx="1387.4238"
-     inkscape:cy="574.67947"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="1264.7185"
+     inkscape:cy="507.48187"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -115,14 +115,40 @@
        height="119.16136"
        width="94.118553"
        id="rect4599"
-       style="opacity:1;fill:#80e5ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#80e5ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
+    <rect
+       style="opacity:1;fill:#80e5ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4408"
+       width="30.413313"
+       height="27.237482"
+       x="1138.4429"
+       y="331.82187"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
+    <rect
+       y="180.47191"
+       x="1257.4681"
+       height="217.2894"
+       width="157.25775"
+       id="rect4697"
+       style="opacity:1;fill:#ffdd55;fill-opacity:0.51098902;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="255.62492"
        x="1197.9393"
        height="78.638161"
        width="5"
        id="rect4529"
-       style="opacity:1;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="160.57645"
        x="628"
@@ -136,7 +162,10 @@
        width="117.85714"
        height="80"
        x="413.71426"
-       y="203.43356" />
+       y="203.43356"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        y="369.72342"
        x="679.65894"
@@ -150,14 +179,20 @@
        height="81.785713"
        width="117.85714"
        id="rect4389"
-       style="opacity:1;fill:#ff5555;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ff5555;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#ff5555;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4377"
        width="106.07143"
        height="116.78571"
        x="13.357142"
-       y="203.86215" />
+       y="203.86215"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4181"
@@ -202,7 +237,10 @@
        x="855.83215"
        y="41.655674"
        id="text4245"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529"><tspan
          sodipodi:role="line"
          id="tspan4247"
          x="855.83215"
@@ -256,19 +294,15 @@
        y="41.655796"
        x="1030.345"
        style="font-style:normal;font-weight:normal;font-size:23.97320366px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529"><tspan
          y="41.655796"
          x="1030.345"
          id="tspan4335"
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">PHYSICUM</tspan></text>
-    <rect
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4337"
-       width="5"
-       height="75.89286"
-       x="34.228714"
-       y="126.36215" />
     <rect
        y="320.43356"
        x="13.357142"
@@ -284,33 +318,25 @@
        id="rect4339"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
-       y="201.36215"
-       x="11.235714"
-       height="5"
-       width="111.271"
-       id="rect4341"
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4343"
-       width="1169.8213"
-       height="5"
-       x="34.25"
-       y="126.18356" />
-    <rect
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4495"
        width="4"
        height="103.13582"
        x="144.78227"
-       y="203.56577" />
+       y="203.56577"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        y="203.56577"
        x="162.78227"
        height="103.13582"
        width="4"
        id="rect4497"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        y="205.8309"
        x="205.40939"
@@ -318,13 +344,6 @@
        width="121.49315"
        id="rect4781"
        style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4345"
-       width="191.07143"
-       height="5"
-       x="137.53572"
-       y="201.36215" />
     <rect
        y="425.36209"
        x="137.53572"
@@ -359,7 +378,10 @@
        width="116.44238"
        height="58.507591"
        x="414.00589"
-       y="366.95023" />
+       y="366.95023"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4353"
@@ -380,28 +402,30 @@
        width="111.07143"
        height="5"
        x="11.235714"
-       y="317.36215" />
+       y="317.36215"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        y="204.63718"
        x="352.6394"
        height="103.13582"
        width="4"
        id="rect4473"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4475"
        width="4"
        height="103.13582"
        x="370.6394"
-       y="204.63718" />
-    <rect
-       y="201.36215"
-       x="345.53571"
-       height="5"
-       width="188.54605"
-       id="rect4359"
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       y="204.63718"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        y="201.54074"
        x="137.51471"
@@ -446,7 +470,10 @@
        y="201.54074" />
     <g
        id="g4867"
-       transform="matrix(0.49165836,0.87078818,-0.87078818,0.49165836,488.72624,-375.75298)">
+       transform="matrix(0.49165836,0.87078818,-0.87078818,0.49165836,488.72624,-375.75298)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309">
       <g
          id="g4860">
         <circle
@@ -496,19 +523,162 @@
          style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     </g>
     <rect
-       style="opacity:1;fill:#f58020;fill-opacity:0.78431374;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-ydpi="333.20309"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       y="203.11172"
+       x="551.95312"
+       height="108.01637"
+       width="85.652695"
+       id="rect5034"
+       style="opacity:1;fill:#f58020;fill-opacity:0.78431373;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#f58020;fill-opacity:0.78431373;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4155"
-       width="587.69849"
+       width="564.87274"
        height="73.825241"
-       x="36.775333"
-       y="129.32156" />
+       x="36.039299"
+       y="129.32156"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5052"
+       width="25.9375"
+       height="12.125"
+       x="377.00412"
+       y="183.31709" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4345"
+       width="191.07143"
+       height="5"
+       x="137.53572"
+       y="201.36215"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
+    <rect
+       y="201.36215"
+       x="11.235714"
+       height="5"
+       width="111.271"
+       id="rect4341"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
+    <rect
+       style="opacity:1;fill:#c97064;fill-opacity:0.7955801;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4231"
+       width="304.66827"
+       height="47.364529"
+       x="862.008"
+       y="128.71277"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4343"
+       width="819.73645"
+       height="5"
+       x="347.46429"
+       y="126.18356" />
+    <circle
+       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4794"
+       cx="123.25928"
+       cy="259.75488"
+       r="20"
+       mask="url(#mask4802)"
+       transform="matrix(0.526491,0,0,0.51386409,489.35119,-2.1828965)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
+    <rect
+       y="126.18309"
+       x="34.821377"
+       height="5"
+       width="290.6889"
+       id="rect4746"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4337"
+       width="5"
+       height="75.89286"
+       x="34.228714"
+       y="126.36215"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4748"
+       width="5"
+       height="39.14864"
+       x="320.50815"
+       y="91.995087"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
+    <rect
+       y="92.173439"
+       x="345.38843"
+       height="39.008015"
+       width="5"
+       id="rect4750"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
+    <circle
+       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4870"
+       cx="123.25928"
+       cy="259.75488"
+       r="20"
+       mask="url(#mask4802)"
+       transform="matrix(0.526491,0,0,-0.51386409,443.97299,336.81701)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
+    <rect
+       y="201.36215"
+       x="345.53571"
+       height="5"
+       width="188.54605"
+       id="rect4359"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
+    <circle
+       transform="matrix(-0.526491,0,0,0.51386409,479.76279,-2.1404111)"
+       mask="url(#mask4802)"
+       r="20"
+       cy="259.75488"
+       cx="123.25928"
+       id="circle4812"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="318.69098"
        y="179.15411"
        id="text4187"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
          id="tspan4189"
          x="318.69098"
@@ -520,21 +690,30 @@
        width="119.60314"
        height="5"
        x="412.96338"
-       y="281.36215" />
+       y="281.36215"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        y="363.36215"
        x="412.96338"
        height="5"
        width="119.60314"
        id="rect4375"
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="38.133579"
        y="270.04309"
        id="text4379"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
          id="tspan4381"
          x="38.133579"
@@ -546,7 +725,10 @@
        y="382.57904"
        x="38.084751"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
          y="382.57904"
          x="38.084751"
@@ -558,7 +740,10 @@
        y="333.53088"
        x="444.88089"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
          y="333.53088"
          x="444.88089"
@@ -660,7 +845,10 @@
        y="390.28583"
        id="text4429"
        sodipodi:linespacing="125%"
-       transform="matrix(0,-1,1,0,0,0)"><tspan
+       transform="matrix(0,-1,1,0,0,0)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
          id="tspan4431"
          x="-410.40051"
@@ -744,12 +932,15 @@
        x="732.61871"
        y="189.84097" />
     <rect
-       y="163.83823"
+       y="147.94095"
        x="859.75372"
-       height="30.940741"
+       height="46.838017"
        width="5"
        id="rect4447"
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
     <rect
        y="150.44101"
        x="653.31873"
@@ -791,140 +982,200 @@
        width="5"
        height="28.950001"
        x="626.25372"
-       y="159.15402" />
+       y="159.15402"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4477"
        width="17.930208"
        height="4"
        x="355.13098"
-       y="221.42245" />
+       y="221.42245"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        y="237.42245"
        x="355.13098"
        height="4"
        width="17.930208"
        id="rect4479"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4481"
        width="17.930208"
        height="4"
        x="355.13098"
-       y="253.42245" />
+       y="253.42245"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        y="265.42245"
        x="355.13098"
        height="4"
        width="17.930208"
        id="rect4483"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4485"
        width="17.930208"
        height="4"
        x="355.13098"
-       y="275.42245" />
+       y="275.42245"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        y="275.42245"
        x="355.13098"
        height="4"
        width="17.930208"
        id="rect4487"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4489"
        width="17.930208"
        height="4"
        x="355.13098"
-       y="283.42245" />
+       y="283.42245"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        y="291.42245"
        x="355.13098"
        height="4"
        width="17.930208"
        id="rect4491"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4493"
        width="17.930208"
        height="4"
        x="355.13098"
-       y="299.42245" />
+       y="299.42245"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        y="220.35104"
        x="147.27385"
        height="4"
        width="17.930208"
        id="rect4499"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4501"
        width="17.930208"
        height="4"
        x="147.27385"
-       y="236.35104" />
+       y="236.35104"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        y="252.35104"
        x="147.27385"
        height="4"
        width="17.930208"
        id="rect4503"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4505"
        width="17.930208"
        height="4"
        x="147.27385"
-       y="264.35104" />
+       y="264.35104"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4507"
        width="17.930208"
        height="4"
        x="147.27385"
-       y="274.35104" />
+       y="274.35104"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        y="282.35104"
        x="147.27385"
        height="4"
        width="17.930208"
        id="rect4509"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4511"
        width="17.930208"
        height="4"
        x="147.27385"
-       y="290.35104" />
+       y="290.35104"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        y="298.35104"
        x="147.27385"
        height="4"
        width="17.930208"
        id="rect4513"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        y="174.30527"
        x="860.47589"
        height="5"
        width="274.31018"
        id="rect4515"
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4517"
        width="5"
        height="25.226456"
        x="1129.7538"
-       y="174.33853" />
+       y="174.33853"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="1109.4838"
        x="-199.62997"
@@ -932,7 +1183,10 @@
        width="5"
        id="rect4519"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="matrix(0,-1,1,0,0,0)" />
+       transform="matrix(0,-1,1,0,0,0)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        transform="matrix(0,-1,1,0,0,0)"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -940,21 +1194,30 @@
        width="5"
        height="25.226456"
        x="-233.43002"
-       y="1109.4838" />
+       y="1109.4838"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4398"
        width="38.4081"
        height="74.164955"
        x="1130.6536"
-       y="257.34146" />
+       y="257.34146"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="230.33853"
        x="1129.7538"
        height="103.84865"
        width="5"
        id="rect4523"
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="1130.0642"
        x="-260.63699"
@@ -962,21 +1225,20 @@
        width="5"
        id="rect4525"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="matrix(0,-1,1,0,0,0)" />
+       transform="matrix(0,-1,1,0,0,0)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4527"
        width="5"
        height="76.112785"
        x="1165.5394"
-       y="257.12424" />
-    <rect
-       style="opacity:1;fill:#80e5ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4408"
-       width="30.413313"
-       height="27.237482"
-       x="1138.4429"
-       y="331.82187" />
+       y="257.12424"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="-1139.9207"
        x="334.35767"
@@ -984,7 +1246,10 @@
        width="23.480419"
        id="rect4402"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        transform="matrix(0,1,-1,0,0,0)"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -992,7 +1257,10 @@
        width="23.480419"
        height="4"
        x="334.35767"
-       y="-1133.9207" />
+       y="-1133.9207"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="-1127.9207"
        x="334.35767"
@@ -1000,7 +1268,10 @@
        width="23.480419"
        id="rect4406"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        transform="matrix(0,-1,1,0,0,0)"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1008,7 +1279,10 @@
        width="5"
        height="211.41173"
        x="-361.03702"
-       y="1122.936" />
+       y="1122.936"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="329.65356"
        x="1089.6393"
@@ -1030,7 +1304,10 @@
        height="58.507591"
        width="49.772316"
        id="rect4777"
-       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        transform="matrix(0,-1,1,0,0,0)"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1038,7 +1315,10 @@
        width="5"
        height="52.216999"
        x="-398.33701"
-       y="1171.707" />
+       y="1171.707"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4539"
@@ -1068,7 +1348,10 @@
        width="5"
        id="rect4545"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="matrix(0,-1,1,0,0,0)" />
+       transform="matrix(0,-1,1,0,0,0)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        transform="matrix(0,-1,1,0,0,0)"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1213,42 +1496,50 @@
        width="175.82031"
        height="5"
        x="1162.476"
-       y="174.30527" />
+       y="174.30527"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="126.25583"
-       x="1199.4543"
+       x="1165.4543"
        height="49.975193"
        width="5"
        id="rect4575"
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="152.36777"
        x="1333.3678"
-       height="26.867954"
+       height="34.725098"
        width="5"
        id="rect4577"
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4579"
-       width="5"
-       height="26.867954"
-       x="1368.9678"
-       y="152.36777" />
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="174.30527"
        x="1368.9757"
        height="5"
        width="64.198456"
        id="rect4581"
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="174.29105"
        x="1428.2037"
        height="76.365433"
        width="5"
        id="rect4583"
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4585"
@@ -1283,7 +1574,10 @@
        height="95.305786"
        width="5"
        id="rect4593"
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="1219.1057"
        x="-388.32199"
@@ -1291,7 +1585,10 @@
        width="5"
        id="rect4595"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="matrix(0,-1,1,0,0,0)" />
+       transform="matrix(0,-1,1,0,0,0)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="383.3591"
        x="1337.9608"
@@ -1306,7 +1603,10 @@
        y="1229.3529"
        id="text4601"
        sodipodi:linespacing="125%"
-       transform="matrix(0,-1,1,0,0,0)"><tspan
+       transform="matrix(0,-1,1,0,0,0)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406"><tspan
          sodipodi:role="line"
          id="tspan4603"
          x="-338.56805"
@@ -1319,7 +1619,10 @@
        width="5"
        id="rect4607"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="matrix(0,-1,1,0,0,0)" />
+       transform="matrix(0,-1,1,0,0,0)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:28.66734314px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1387,7 +1690,10 @@
        height="103.13582"
        x="-1268.6395"
        y="-333.77304"
-       transform="scale(-1,-1)" />
+       transform="scale(-1,-1)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="-333.77304"
        x="-1286.6395"
@@ -1395,7 +1701,10 @@
        width="4"
        id="rect4647"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="scale(-1,-1)" />
+       transform="scale(-1,-1)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="-251.42245"
        x="-1285.0612"
@@ -1403,7 +1712,10 @@
        width="17.930208"
        id="rect4649"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="scale(-1,-1)" />
+       transform="scale(-1,-1)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4651"
@@ -1411,7 +1723,10 @@
        height="4"
        x="-1285.0612"
        y="-267.42245"
-       transform="scale(-1,-1)" />
+       transform="scale(-1,-1)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="-283.42245"
        x="-1285.0612"
@@ -1419,7 +1734,10 @@
        width="17.930208"
        id="rect4653"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="scale(-1,-1)" />
+       transform="scale(-1,-1)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4655"
@@ -1427,7 +1745,10 @@
        height="4"
        x="-1285.0612"
        y="-295.42245"
-       transform="scale(-1,-1)" />
+       transform="scale(-1,-1)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4657"
@@ -1435,7 +1756,10 @@
        height="4"
        x="-1285.0612"
        y="-305.42245"
-       transform="scale(-1,-1)" />
+       transform="scale(-1,-1)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="-313.42245"
        x="-1285.0612"
@@ -1443,7 +1767,10 @@
        width="17.930208"
        id="rect4659"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="scale(-1,-1)" />
+       transform="scale(-1,-1)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4661"
@@ -1451,7 +1778,10 @@
        height="4"
        x="-1285.0612"
        y="-321.42245"
-       transform="scale(-1,-1)" />
+       transform="scale(-1,-1)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="-329.42245"
        x="-1285.0612"
@@ -1459,7 +1789,10 @@
        width="17.930208"
        id="rect4663"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="scale(-1,-1)" />
+       transform="scale(-1,-1)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        transform="scale(-1,-1)"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1467,7 +1800,10 @@
        width="57.573067"
        height="4"
        x="-1390.0612"
-       y="-360.85104" />
+       y="-360.85104"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="-354.85104"
        x="-1390.0612"
@@ -1475,14 +1811,10 @@
        width="57.573067"
        id="rect4705"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="scale(-1,-1)" />
-    <rect
-       style="opacity:1;fill:#ffdd55;fill-opacity:0.81176472;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4699"
-       width="42.490547"
-       height="117.13593"
-       x="1344.2032"
-       y="351.63116" />
+       transform="scale(-1,-1)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        transform="scale(-1,-1)"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1490,100 +1822,102 @@
        width="57.573067"
        height="4"
        x="-1390.0612"
-       y="-348.85104" />
+       y="-348.85104"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4665"
        width="5"
        height="23.16293"
        x="1329.4945"
-       y="337.82309" />
+       y="337.82309"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <rect
        y="337.82309"
        x="1387.3948"
        height="23.16293"
        width="5"
        id="rect4667"
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
-       y="267.25763"
-       x="1289.6553"
-       height="84.432251"
-       width="135.92966"
-       id="rect4697"
-       style="opacity:1;fill:#ffdd55;fill-opacity:0.81215471;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <circle
        style="opacity:1;fill:#e9c6af;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4673"
-       cx="618.02319"
-       cy="236.1368"
-       r="28.53681" />
-    <circle
-       r="28.53681"
-       cy="298.94672"
-       cx="591.25415"
-       id="circle4675"
-       style="opacity:1;fill:#e9c6af;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       cx="610.47247"
+       cy="238.79016"
+       r="21.465742"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="609.02905"
-       y="248.53914"
+       style="font-style:normal;font-weight:normal;font-size:25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="598.85748"
+       y="246.86511"
        id="text4677"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
          id="tspan4679"
-         x="609.02905"
-         y="248.53914"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">1</tspan></text>
+         x="598.85748"
+         y="246.86511"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A1</tspan></text>
+    <circle
+       r="21.465742"
+       cy="286.30795"
+       cx="584.94592"
+       id="circle4790"
+       style="opacity:1;fill:#e9c6af;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="580.43384"
-       y="311.80804"
+       x="571.23132"
+       y="294.3829"
        id="text4681"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
          id="tspan4683"
-         x="580.43384"
-         y="311.80804"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">2</tspan></text>
+         x="571.23132"
+         y="294.3829"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A2</tspan></text>
     <circle
-       style="opacity:1;fill:#e9c6af;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="circle4685"
-       cx="1317.0488"
-       cy="235.34775"
-       r="28.53681" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text4687"
-       y="247.80869"
-       x="1306.1699"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="247.80869"
-         x="1306.1699"
-         id="tspan4689"
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">3</tspan></text>
-    <circle
-       r="28.53681"
-       cy="233.32742"
-       cx="1394.8306"
+       r="14.965382"
+       cy="218.31219"
+       cx="1362.2244"
        id="circle4691"
-       style="opacity:1;fill:#e9c6af;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#e9c6af;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1384.645"
-       y="246.14969"
+       style="font-style:normal;font-weight:normal;font-size:22.4869957px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1354.4208"
+       y="223.35858"
        id="text4693"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406"><tspan
          sodipodi:role="line"
          id="tspan4695"
-         x="1384.645"
-         y="246.14969"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">4</tspan></text>
+         x="1354.4208"
+         y="223.35858"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">C1</tspan></text>
     <rect
        transform="matrix(0,-1,1,0,0,0)"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1591,18 +1925,24 @@
        width="5"
        height="45.372261"
        x="-398.43698"
-       y="1387.6827" />
+       y="1387.6827"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1345.5596"
-       y="321.89563"
+       x="1339.4882"
+       y="319.39563"
        id="text4711"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406"><tspan
          sodipodi:role="line"
          id="tspan4713"
-         x="1345.5596"
-         y="321.89563"
+         x="1339.4882"
+         y="319.39563"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">C</tspan></text>
     <rect
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1617,47 +1957,45 @@
        height="37.11805"
        width="5"
        id="rect4717"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
     <rect
        y="68.255836"
        x="998.73999"
        height="37.11805"
        width="5"
        id="rect4719"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4721"
-       width="5"
-       height="37.11805"
-       x="998.73999"
-       y="124.25583" />
-    <rect
-       style="opacity:1;fill:#c97064;fill-opacity:0.79558009;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4231"
-       width="339.98047"
-       height="47.056602"
-       x="862.36078"
-       y="128.86673" />
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:33.16263199px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1023.6798"
-       y="162.70978"
+       style="font-style:normal;font-weight:normal;font-size:27.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="998.27234"
+       y="151.65901"
        id="text4235"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529"><tspan
          sodipodi:role="line"
          id="tspan4237"
-         x="1023.6798"
-         y="162.70978"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">B</tspan></text>
+         x="998.27234"
+         y="151.65901"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:27.5px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">B</tspan></text>
     <rect
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4723"
        width="5"
        height="37.11805"
        x="998.73999"
-       y="188.25583" />
+       y="188.25583"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
     <rect
        y="-54.855801"
        x="1545.2325"
@@ -1768,19 +2106,25 @@
     <circle
        style="opacity:1;fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4765"
-       cx="1200.3214"
+       cx="1192.3214"
        cy="196.65169"
-       r="16.607143" />
+       r="16.607143"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:24.09937859px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1196.191"
+       x="1188.191"
        y="205.80663"
        id="text4767"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406"><tspan
          sodipodi:role="line"
          id="tspan4769"
-         x="1196.191"
+         x="1188.191"
          y="205.80663"
          style="font-weight:bold;fill:#ffffff">i</tspan></text>
     <circle
@@ -1790,7 +2134,10 @@
        cy="259.75488"
        r="20"
        mask="url(#mask4802)"
-       transform="matrix(0,-0.526491,0.51386409,0,-10.892758,360.02986)" />
+       transform="matrix(0,-0.526491,0.51386409,0,-10.892758,360.02986)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <circle
        transform="matrix(0,-0.526491,0.51386409,0,-10.892758,424.02986)"
        mask="url(#mask4802)"
@@ -1798,7 +2145,10 @@
        cy="259.75488"
        cx="123.25928"
        id="circle4806"
-       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <circle
        transform="matrix(0,-0.526491,0.51386409,0,400.67586,393.86997)"
        mask="url(#mask4802)"
@@ -1806,7 +2156,10 @@
        cy="259.75488"
        cx="123.25928"
        id="circle4808"
-       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <circle
        style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle4810"
@@ -1816,21 +2169,16 @@
        mask="url(#mask4802)"
        transform="matrix(0,-0.526491,-0.51386409,0,748.10427,513.4414)" />
     <circle
-       transform="matrix(-0.526491,0,0,0.51386409,479.76279,-2.1404111)"
-       mask="url(#mask4802)"
-       r="20"
-       cy="259.75488"
-       cx="123.25928"
-       id="circle4812"
-       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <circle
        style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle4814"
        cx="123.25928"
        cy="259.75488"
        r="20"
        mask="url(#mask4802)"
-       transform="matrix(0.526491,0,0,0.51386409,439.35119,-2.1828965)" />
+       transform="matrix(0.526491,0,0,0.51386409,443.35119,-2.1828965)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <circle
        style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle4816"
@@ -1870,7 +2218,10 @@
        cy="259.75488"
        r="20"
        mask="url(#mask4802)"
-       transform="matrix(0.526491,0,0,-0.51386409,1251.3212,516.77252)" />
+       transform="matrix(0.526491,0,0,-0.51386409,1255.3212,516.77252)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1890,5 +2241,1381 @@
        height="111.943"
        x="-334.63699"
        y="1091.0217" />
+    <rect
+       y="136.17609"
+       x="569.85712"
+       height="12.125"
+       width="25.9375"
+       id="rect5086"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="575.30969"
+       y="146.54218"
+       id="text4714"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         sodipodi:role="line"
+         id="tspan4716"
+         x="575.30969"
+         y="146.54218"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A3</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5062"
+       width="25.9375"
+       height="12.125"
+       x="521.95062"
+       y="136.17609" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4718"
+       y="146.54218"
+       x="527.4502"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="146.54218"
+         x="527.4502"
+         id="tspan4720"
+         sodipodi:role="line">A5</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5066"
+       width="25.9375"
+       height="12.125"
+       x="477.57968"
+       y="136.17609" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="482.65292"
+       y="146.47504"
+       id="text4722"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         sodipodi:role="line"
+         id="tspan4724"
+         x="482.65292"
+         y="146.47504"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A7</tspan><tspan
+         sodipodi:role="line"
+         x="482.65292"
+         y="163.66254"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         id="tspan4726" /></text>
+    <rect
+       y="136.17609"
+       x="448.05795"
+       height="12.125"
+       width="25.9375"
+       id="rect5068"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4728"
+       y="146.45825"
+       x="453.38632"
+       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="146.45825"
+         x="453.38632"
+         id="tspan4730"
+         sodipodi:role="line">A9</tspan><tspan
+         id="tspan4732"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="163.64575"
+         x="453.38632"
+         sodipodi:role="line" /></text>
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5070"
+       width="25.9375"
+       height="12.125"
+       x="418.53625"
+       y="136.17609" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="421.31671"
+       y="146.67981"
+       id="text4734"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         sodipodi:role="line"
+         id="tspan4736"
+         x="421.31671"
+         y="146.67981"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A11</tspan><tspan
+         sodipodi:role="line"
+         x="421.31671"
+         y="163.86731"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         id="tspan4738" /></text>
+    <rect
+       y="136.17609"
+       x="375.22595"
+       height="12.125"
+       width="25.9375"
+       id="rect5072"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4740"
+       y="146.54218"
+       x="376.87848"
+       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="146.54218"
+         x="376.87848"
+         id="tspan4742"
+         sodipodi:role="line">A13</tspan><tspan
+         id="tspan4744"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="163.72968"
+         x="376.87848"
+         sodipodi:role="line" /></text>
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5074"
+       width="25.9375"
+       height="12.125"
+       x="344.99713"
+       y="136.17609" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="346.69666"
+       y="146.54218"
+       id="text4752"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         sodipodi:role="line"
+         id="tspan4754"
+         x="346.69666"
+         y="146.54218"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A15</tspan><tspan
+         sodipodi:role="line"
+         x="346.69666"
+         y="163.72968"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         id="tspan4756" /></text>
+    <rect
+       y="136.17609"
+       x="294.12213"
+       height="12.125"
+       width="25.9375"
+       id="rect5076"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4758"
+       y="146.47504"
+       x="295.39532"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="146.47504"
+         x="295.39532"
+         id="tspan4760"
+         sodipodi:role="line">A17</tspan><tspan
+         id="tspan4762"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="163.66254"
+         x="295.39532"
+         sodipodi:role="line" /></text>
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5078"
+       width="25.9375"
+       height="12.125"
+       x="261.87213"
+       y="136.17609" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="263.40045"
+       y="146.45825"
+       id="text4764"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         sodipodi:role="line"
+         id="tspan4766"
+         x="263.40045"
+         y="146.45825"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A19</tspan><tspan
+         sodipodi:role="line"
+         x="263.40045"
+         y="163.64575"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         id="tspan4768" /></text>
+    <rect
+       y="136.17609"
+       x="229.12213"
+       height="12.125"
+       width="25.9375"
+       id="rect5080"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4770"
+       y="146.67981"
+       x="231.90259"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="146.67981"
+         x="231.90259"
+         id="tspan4772"
+         sodipodi:role="line">A21</tspan><tspan
+         id="tspan4774"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="163.86731"
+         x="231.90259"
+         sodipodi:role="line" /></text>
+    <circle
+       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4776"
+       cx="123.25928"
+       cy="259.75488"
+       r="20"
+       mask="url(#mask4802)"
+       transform="matrix(-1.3724937,0,0,0.51386409,362.96053,-2.1404111)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5082"
+       width="25.9375"
+       height="12.125"
+       x="196.74713"
+       y="136.17609" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="198.39966"
+       y="146.54218"
+       id="text4778"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         sodipodi:role="line"
+         id="tspan4780"
+         x="198.39966"
+         y="146.54218"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A23</tspan><tspan
+         sodipodi:role="line"
+         x="198.39966"
+         y="163.72968"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         id="tspan4782" /></text>
+    <rect
+       y="136.17609"
+       x="122.72529"
+       height="12.125"
+       width="25.9375"
+       id="rect5084"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4784"
+       y="146.54218"
+       x="124.42481"
+       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="146.54218"
+         x="124.42481"
+         id="tspan4786"
+         sodipodi:role="line">A25</tspan><tspan
+         id="tspan4788"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="163.72968"
+         x="124.42481"
+         sodipodi:role="line" /></text>
+    <circle
+       transform="matrix(0.526491,0,0,0.51386409,539.35119,-2.1828965)"
+       mask="url(#mask4802)"
+       r="20"
+       cy="259.75488"
+       cx="123.25928"
+       id="circle4792"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
+    <circle
+       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4796"
+       cx="123.25928"
+       cy="259.75488"
+       r="20"
+       mask="url(#mask4802)"
+       transform="matrix(-0.526491,0,0,0.51386409,225.76279,-2.1404111)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5040"
+       width="25.9375"
+       height="12.125"
+       x="94.147606"
+       y="183.31709" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="95.475418"
+       y="193.59795"
+       id="text4798"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         sodipodi:role="line"
+         id="tspan4800"
+         x="95.475418"
+         y="193.59795"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A24</tspan><tspan
+         sodipodi:role="line"
+         x="95.475418"
+         y="210.78545"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         id="tspan4802" /></text>
+    <rect
+       y="183.31709"
+       x="168.5706"
+       height="12.125"
+       width="25.9375"
+       id="rect5042"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4804"
+       y="193.65381"
+       x="170.24788"
+       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="193.65381"
+         x="170.24788"
+         id="tspan4806"
+         sodipodi:role="line">A22</tspan><tspan
+         id="tspan4808"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="210.84131"
+         x="170.24788"
+         sodipodi:role="line" /></text>
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5044"
+       width="25.9375"
+       height="12.125"
+       x="200.92415"
+       y="183.31709" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="202.24788"
+       y="193.71866"
+       id="text4810"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         sodipodi:role="line"
+         id="tspan4812"
+         x="202.24788"
+         y="193.71866"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A20</tspan><tspan
+         sodipodi:role="line"
+         x="202.24788"
+         y="210.90616"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         id="tspan4814" /></text>
+    <rect
+       y="183.31709"
+       x="234.68849"
+       height="12.125"
+       width="25.9375"
+       id="rect5046"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4816"
+       y="193.66621"
+       x="236.24788"
+       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="193.66621"
+         x="236.24788"
+         id="tspan4818"
+         sodipodi:role="line">A18</tspan><tspan
+         id="tspan4820"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="210.85371"
+         x="236.24788"
+         sodipodi:role="line" /></text>
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5048"
+       width="25.9375"
+       height="12.125"
+       x="268.27606"
+       y="183.31709" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="270.24786"
+       y="193.94048"
+       id="text4822"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         sodipodi:role="line"
+         id="tspan4824"
+         x="270.24786"
+         y="193.94048"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A16</tspan><tspan
+         sodipodi:role="line"
+         x="270.24786"
+         y="211.12798"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         id="tspan4826" /></text>
+    <rect
+       y="183.31709"
+       x="300.80298"
+       height="12.125"
+       width="25.9375"
+       id="rect5050"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4828"
+       y="193.45621"
+       x="302.24786"
+       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="193.45621"
+         x="302.24786"
+         id="tspan4830"
+         sodipodi:role="line">A14</tspan><tspan
+         id="tspan4832"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="210.64371"
+         x="302.24786"
+         sodipodi:role="line" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="378.62979"
+       y="193.82082"
+       id="text4834"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         sodipodi:role="line"
+         id="tspan4836"
+         x="378.62979"
+         y="193.82082"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A12</tspan><tspan
+         sodipodi:role="line"
+         x="378.62979"
+         y="211.00832"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         id="tspan4838" /></text>
+    <rect
+       y="183.31709"
+       x="412.71301"
+       height="12.125"
+       width="25.9375"
+       id="rect5054"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4840"
+       y="193.67647"
+       x="414.18762"
+       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="193.67647"
+         x="414.18762"
+         id="tspan4842"
+         sodipodi:role="line">A10</tspan><tspan
+         id="tspan4844"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="210.86397"
+         x="414.18762"
+         sodipodi:role="line" /></text>
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5056"
+       width="25.9375"
+       height="12.125"
+       x="447.59351"
+       y="183.2509" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="453.00244"
+       y="193.61699"
+       id="text4846"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         sodipodi:role="line"
+         id="tspan4848"
+         x="453.00244"
+         y="193.61699"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A8</tspan><tspan
+         sodipodi:role="line"
+         x="453.00244"
+         y="210.80449"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         id="tspan4850" /></text>
+    <rect
+       y="183.31676"
+       x="481.1152"
+       height="12.125"
+       width="25.9375"
+       id="rect5058"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4852"
+       y="193.74327"
+       x="486.45029"
+       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="193.74327"
+         x="486.45029"
+         id="tspan4854"
+         sodipodi:role="line">A6</tspan><tspan
+         id="tspan4856"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="210.93077"
+         x="486.45029"
+         sodipodi:role="line" /></text>
+    <rect
+       y="136.17627"
+       x="87.076538"
+       height="12.125"
+       width="25.9375"
+       id="rect5038"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="88.346855"
+       y="146.49379"
+       id="text4872"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         sodipodi:role="line"
+         id="tspan4874"
+         x="88.346855"
+         y="146.49379"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A27</tspan><tspan
+         sodipodi:role="line"
+         x="88.346855"
+         y="163.68129"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         id="tspan4876" /></text>
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5036"
+       width="25.9375"
+       height="12.125"
+       x="154.31685"
+       y="-83.745537"
+       transform="matrix(0,1,-1,0,0,0)" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4878"
+       y="163.76997"
+       x="77.674797"
+       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle"
+         y="163.76997"
+         x="77.674797"
+         id="tspan4880"
+         sodipodi:role="line">A</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle"
+         y="177.83247"
+         x="77.674797"
+         sodipodi:role="line"
+         id="tspan5232">26</tspan><tspan
+         id="tspan4882"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle"
+         y="191.89497"
+         x="77.674797"
+         sodipodi:role="line" /></text>
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5060"
+       width="25.9375"
+       height="12.125"
+       x="521.59705"
+       y="183.31709" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="526.95898"
+       y="193.82082"
+       id="text4884"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"><tspan
+         sodipodi:role="line"
+         id="tspan4886"
+         x="526.95898"
+         y="193.82082"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A4</tspan><tspan
+         sodipodi:role="line"
+         x="526.95898"
+         y="211.00832"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         id="tspan4888" /></text>
+    <circle
+       r="4.7982254"
+       cy="162.79016"
+       cx="870.47247"
+       id="circle4890"
+       style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
+    <circle
+       style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4892"
+       cx="901.26794"
+       cy="162.25983"
+       r="4.7982254"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
+    <circle
+       r="4.7982254"
+       cy="162.79016"
+       cx="953.28497"
+       id="circle4894"
+       style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
+    <circle
+       style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4896"
+       cx="1110.5349"
+       cy="162.79016"
+       r="4.7982254"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
+    <circle
+       r="4.7982254"
+       cy="162.43661"
+       cx="1058.1329"
+       id="circle4898"
+       style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5088"
+       width="18.394421"
+       height="8.5988369"
+       x="876.76733"
+       y="155.42809" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4900"
+       y="163.22665"
+       x="880.91907"
+       style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="163.22665"
+         x="880.91907"
+         id="tspan4902"
+         sodipodi:role="line">B1</tspan></text>
+    <circle
+       style="opacity:1;fill:#e9c6af;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4940"
+       cx="1309.0448"
+       cy="234.32742"
+       r="14.965382"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4942"
+       y="239.77054"
+       x="1299.1711"
+       style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="239.77054"
+         x="1299.1711"
+         id="tspan4944"
+         sodipodi:role="line">C2</tspan></text>
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4950"
+       width="5"
+       height="34.725098"
+       x="1367.3678"
+       y="152.36777"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
+    <rect
+       y="185.16241"
+       x="1283.251"
+       height="11.594074"
+       width="24.270262"
+       id="rect5228"
+       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4952"
+       y="195.23619"
+       x="1287.655"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7"
+         y="195.23619"
+         x="1287.655"
+         id="tspan4954"
+         sodipodi:role="line">C3</tspan></text>
+    <rect
+       y="1382.5074"
+       x="-286.35956"
+       height="11.594074"
+       width="21.353447"
+       id="rect5188"
+       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4962"
+       y="278.85666"
+       x="1382.5964"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7"
+         y="278.85666"
+         x="1382.5964"
+         id="tspan4964"
+         sodipodi:role="line">C6</tspan></text>
+    <rect
+       y="337.82309"
+       x="1309.4945"
+       height="23.16293"
+       width="5"
+       id="rect4982"
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4984"
+       width="5"
+       height="24.99383"
+       x="336.90454"
+       y="-1334.4598"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
+    <circle
+       style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4990"
+       cx="1302.9729"
+       cy="351.71167"
+       r="4.7115679"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
+    <circle
+       r="4.7115679"
+       cy="254.71167"
+       cx="1302.5979"
+       id="circle4992"
+       style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
+    <circle
+       style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4994"
+       cx="1399.4425"
+       cy="350.35257"
+       r="4.7115679"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
+    <circle
+       style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle4996"
+       cx="1312.8016"
+       cy="188.47562"
+       r="4.7115679"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
+    <circle
+       r="4.7115679"
+       cy="186.96039"
+       cx="1224.6659"
+       id="circle4998"
+       style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
+    <circle
+       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle5000"
+       cx="123.25928"
+       cy="259.75488"
+       r="20"
+       mask="url(#mask4802)"
+       transform="matrix(0.526491,0,0,0.51386409,772.69643,-2.1828965)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
+    <circle
+       transform="matrix(0.7158946,0,0,0.51386409,1149.1185,46.304425)"
+       mask="url(#mask4802)"
+       r="20"
+       cy="259.75488"
+       cx="123.25928"
+       id="circle5002"
+       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
+    <rect
+       y="199.89742"
+       x="1377.9934"
+       height="54.374897"
+       width="40.978466"
+       id="rect5004"
+       style="opacity:1;fill:#b7c8c4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
+    <circle
+       style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle5006"
+       cx="1392.8561"
+       cy="259.18631"
+       r="4.7115679"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
+    <rect
+       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5176"
+       width="24.270262"
+       height="11.594074"
+       x="1389.251"
+       y="370.16241" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1389.8281"
+       y="380.23618"
+       id="text5012"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406"><tspan
+         sodipodi:role="line"
+         id="tspan5014"
+         x="1389.8281"
+         y="380.23618"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7">C12</tspan></text>
+    <rect
+       y="387.03165"
+       x="1367.9495"
+       height="9.1450977"
+       width="19.143738"
+       id="rect5174"
+       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5016"
+       y="394.71454"
+       x="1369.1351"
+       style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7"
+         y="394.71454"
+         x="1369.1351"
+         id="tspan5018"
+         sodipodi:role="line">C13</tspan></text>
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5202"
+       width="21.353447"
+       height="11.594074"
+       x="-259.69293"
+       y="1355.9417" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1356.1504"
+       y="252.12167"
+       id="text5028"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406"><tspan
+         sodipodi:role="line"
+         id="tspan5030"
+         x="1356.1504"
+         y="252.12167"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7">C5</tspan></text>
+    <circle
+       style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="circle5032"
+       cx="1005.8474"
+       cy="162.72766"
+       r="4.7982254"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
+    <rect
+       y="155.42809"
+       x="907.14233"
+       height="8.5988369"
+       width="18.394421"
+       id="rect5118"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       inkscape:export-ydpi="176.32529"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="910.34924"
+       y="163.34476"
+       id="text5120"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5122"
+         x="910.34924"
+         y="163.34476"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">B2</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5124"
+       width="18.394421"
+       height="8.5988369"
+       x="929.14233"
+       y="155.42809" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5126"
+       y="163.23215"
+       x="932.37122"
+       style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="163.23215"
+         x="932.37122"
+         id="tspan5128"
+         sodipodi:role="line">B3</tspan></text>
+    <rect
+       y="155.42809"
+       x="959.16376"
+       height="8.5988369"
+       width="18.394421"
+       id="rect5130"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       inkscape:export-ydpi="176.32529"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="962.39264"
+       y="163.23215"
+       id="text5132"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5134"
+         x="962.39264"
+         y="163.23215"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">B4</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5136"
+       width="18.394421"
+       height="8.5988369"
+       x="981.51733"
+       y="155.42809" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5138"
+       y="163.23215"
+       x="984.74622"
+       style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="163.23215"
+         x="984.74622"
+         id="tspan5140"
+         sodipodi:role="line">B5</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5142"
+       width="18.394421"
+       height="8.5988369"
+       x="1011.6254"
+       y="155.42825" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5144"
+       y="163.23232"
+       x="1014.8541"
+       style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="163.23232"
+         x="1014.8541"
+         id="tspan5146"
+         sodipodi:role="line">B6</tspan></text>
+    <rect
+       y="155.42825"
+       x="1033.9789"
+       height="8.5988369"
+       width="18.394421"
+       id="rect5148"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       inkscape:export-ydpi="176.32529"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1037.2078"
+       y="163.23232"
+       id="text5150"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5152"
+         x="1037.2078"
+         y="163.23232"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">B7</tspan></text>
+    <rect
+       y="155.42825"
+       x="1073.1255"
+       height="8.5988369"
+       width="18.394421"
+       id="rect5154"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       inkscape:export-ydpi="176.32529"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1076.3541"
+       y="163.23232"
+       id="text5156"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5158"
+         x="1076.3541"
+         y="163.23232"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">B8</tspan></text>
+    <rect
+       y="155.42825"
+       x="1117.4789"
+       height="8.5988369"
+       width="18.394421"
+       id="rect5166"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       inkscape:export-ydpi="176.32529"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1120.7078"
+       y="163.23232"
+       id="text5168"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5170"
+         x="1120.7078"
+         y="163.23232"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">B9</tspan></text>
+    <rect
+       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5178"
+       width="19.143738"
+       height="9.1450977"
+       x="1345.9495"
+       y="387.03165" />
+    <text
+       inkscape:export-ydpi="324.16406"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1347.1351"
+       y="394.71454"
+       id="text5180"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5182"
+         x="1347.1351"
+         y="394.71454"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7">C14</tspan></text>
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5198"
+       width="21.353447"
+       height="11.594074"
+       x="-309.95926"
+       y="1382.9493" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1382.8479"
+       y="302.34406"
+       id="text4966"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406"><tspan
+         sodipodi:role="line"
+         id="tspan4968"
+         x="1382.8479"
+         y="302.34406"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7">C7</tspan></text>
+    <rect
+       y="1383.2145"
+       x="-335.59189"
+       height="11.594074"
+       width="21.353447"
+       id="rect5200"
+       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4970"
+       y="328.02551"
+       x="1383.3572"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7"
+         y="328.02551"
+         x="1383.3572"
+         id="tspan4972"
+         sodipodi:role="line">C8</tspan></text>
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5204"
+       width="21.353447"
+       height="11.594074"
+       x="-330.39993"
+       y="1315.0385" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1321.3506"
+       y="316.68365"
+       id="text4986"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406"><tspan
+         sodipodi:role="line"
+         id="tspan4988"
+         x="1321.3506"
+         y="316.68365"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#e3f4d7">C</tspan><tspan
+         sodipodi:role="line"
+         x="1321.3506"
+         y="329.18365"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#e3f4d7"
+         id="tspan5210">11</tspan></text>
+    <rect
+       transform="matrix(0,-1,1,0,0,0)"
+       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5208"
+       width="21.353447"
+       height="11.594074"
+       x="-305.40121"
+       y="1312.1843" />
+    <text
+       inkscape:export-ydpi="324.16406"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       sodipodi:linespacing="125%"
+       id="text5212"
+       y="291.57996"
+       x="1317.5468"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#e3f4d7"
+         y="291.57996"
+         x="1317.5468"
+         id="tspan5214"
+         sodipodi:role="line">C</tspan><tspan
+         id="tspan5216"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#e3f4d7"
+         y="304.07996"
+         x="1317.5468"
+         sodipodi:role="line">10</tspan></text>
+    <rect
+       y="1309.8093"
+       x="-280.90121"
+       height="11.594074"
+       width="21.353447"
+       id="rect5218"
+       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="matrix(0,-1,1,0,0,0)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1315.1718"
+       y="267.07996"
+       id="text5220"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406"><tspan
+         sodipodi:role="line"
+         id="tspan5222"
+         x="1315.1718"
+         y="267.07996"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#e3f4d7">C</tspan><tspan
+         sodipodi:role="line"
+         x="1315.1718"
+         y="279.57996"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#e3f4d7"
+         id="tspan5224">9</tspan></text>
+    <rect
+       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5230"
+       width="24.270262"
+       height="11.594074"
+       x="1254.001"
+       y="185.18022" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1258.3145"
+       y="195.24728"
+       id="text4956"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406"><tspan
+         sodipodi:role="line"
+         id="tspan4958"
+         x="1258.3145"
+         y="195.24728"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7">C4</tspan></text>
   </g>
 </svg>
