@@ -14,7 +14,7 @@
 }
 
 @for $starting from 0 through 40 {
-  @for $ending from ($starting + 2) through 48 {
+  @for $ending from ($starting + 2) through 52 {
     @if ($ending - $starting >= 2) {
       .from-#{get-time($starting * 15)} {
         &.to-#{get-time($ending * 15)} {

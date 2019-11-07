@@ -46,7 +46,7 @@ const ScheduleSlot = ({
               <span className={styles["slot-info-title"]}>
                 <i className="fas fa-briefcase"></i>
               </span>
-              {companyName}
+              <span className={styles["slot-info-value"]}>{companyName}</span>
             </li>
           )}
           {hideTime === false && (
@@ -54,8 +54,10 @@ const ScheduleSlot = ({
               <span className={styles["slot-info-title"]}>
                 <i className="fas fa-clock"></i>
               </span>
-              <time>{format(startTime, "HH.mm")}</time> -{" "}
-              <time>{format(endTime, "HH.mm")}</time>
+              <span className={styles["slot-info-value"]}>
+                <time>{format(startTime, "HH.mm")}</time> -{" "}
+                <time>{format(endTime, "HH.mm")}</time>
+              </span>
             </li>
           )}
           {location !== "" && (
@@ -63,7 +65,7 @@ const ScheduleSlot = ({
               <span className={styles["slot-info-title"]}>
                 <i className="fas fa-home"></i>
               </span>
-              {location}
+              <span className={styles["slot-info-value"]}>{location}</span>
             </li>
           )}
           {hideDetails === false && (
@@ -72,7 +74,9 @@ const ScheduleSlot = ({
                 <span className={styles["slot-info-title"]}>
                   <i className="fas fa-external-link-alt"></i>
                 </span>
-                <Localized id="schedule-slot-details">Details</Localized>
+                <span className={styles["slot-info-value"]}>
+                  <Localized id="schedule-slot-details">Details</Localized>
+                </span>
               </Link>
             </li>
           )}

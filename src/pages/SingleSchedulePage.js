@@ -80,7 +80,11 @@ const SingleSchedulePage = ({ match }) => {
               <span className="event-info-value">
                 <Localized id="event-speakers">Speakers</Localized>
                 {": "}
-                {event.speakers.join(", ")}
+                <ul className="event-speakers-container">
+                  {event.speakers.map(speaker => (
+                    <li key={speaker}>{speaker}</li>
+                  ))}
+                </ul>
               </span>
             </li>
           )}
@@ -91,21 +95,23 @@ const SingleSchedulePage = ({ match }) => {
           <a href={event.link} target="_blank" rel="noopener noreferrer">
             <i className="fas fa-external-link-alt"></i>&nbsp;
             <Localized id="enrollment-link">
-              Tämä ohjelmanumero vaatii ulkoisen ilmoittautumisen.
-              Ilmoittaudu painamalla tätä linkkiä.
+              Tämä ohjelmanumero vaatii ulkoisen ilmoittautumisen. Ilmoittaudu
+              painamalla tätä linkkiä.
             </Localized>
           </a>
         </section>
       )}
       <section className="app-section">
         <h2>{<Localized id="event-description">Kuvaus</Localized>}</h2>
-        <p>
-          {event.fullDescription ? (
-            <LanguageString languageObject={event.fullDescription} />
-          ) : (
-            <Localized id="event-no-description">(Ei kuvausta)</Localized>
-          )}
-        </p>
+        <pre>
+          <p className="event-full-description-container">
+            {event.fullDescription ? (
+              <LanguageString languageObject={event.fullDescription} />
+            ) : (
+              <Localized id="event-no-description">(Ei kuvausta)</Localized>
+            )}
+          </p>
+        </pre>
       </section>
     </>
   );

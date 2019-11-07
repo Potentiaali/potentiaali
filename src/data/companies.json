@@ -245,11 +245,10 @@
     "description": "Bisnode on johtava ja edistyksellinen data- ja analytiikka-alan yritys, joka rakentaa valoisaa tulevaisuutta smart datan avulla. Yrityksessä työskentelee yli 2 100 intohimoista ja uteliasta työntekijää, jotka tekevät yhteistyötä yhteensä 19 Euroopan maassa. Bisnode auttaa yrityksiä ennustamaan asiakkaiden käyttäytymistä, hallitsemaan liiketoimintaan liittyvää riskiä ja löytämään vastauksia erilaisiin liiketoiminnallisiin kysymyksiin analytiikan ja scoring-mallien kautta. \n Bisnode on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut maantieteen, matematiikan, tietojenkäsittelytieteen ja tilastotieteen opiskelijoista."
   },
   {
-    "id": 36,
-    "name": "Tuxera",
-    "imgSrc": "companies/tuxera.jpg",
-    "websiteUrl": "https://www.tuxera.com/company/careers/",
-    "description": "TX on sovelluskehitys ja -konsultointitalo, joka on erikoistunut desentraalisiin ratkaisuihin, kuten P2P-verkkoihin ja lohkoketjuteknologioihin. \n TX on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista."
+    "alt": "TX",
+    "imgSrc": "companies/tx.jpg",
+    "websiteUrl": "https://careers.tx.company",
+    "description": ""
   },
   {
     "id": 37,
@@ -368,6 +367,13 @@
     "name": "EY",
     "imgSrc": "companies/ey.png",
     "websiteUrl": "https://www.ey.com/fi/fi/careers",
+    "description": ""
+  },
+  {
+    "id": 54,
+    "alt": "Helsingin Yliopisto",
+    "imgSrc": "companies/hy.jpg",
+    "websiteUrl": "https://www.helsinki.fi/fi/yliopisto/ura-helsingin-yliopistossa",
     "description": ""
   }
 ]
