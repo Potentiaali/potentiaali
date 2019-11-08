@@ -387,30 +387,6 @@ Keskustelun aikana on käytössä Flinga-keskustelualusta, jonne voit halutessas
     hideTime: false
   },
   {
-    id: 15,
-    companyName: "",
-    location: "Exactum B123",
-    title: {
-      fi: "Keynote",
-      "en-US": "Keynote"
-    },
-    description: {
-      fi: "",
-      "en-US": ""
-    },
-    fullDescription: {
-      fi: "",
-      "en-US": ""
-    },
-    speakers: [],
-    language: "fi",
-    link: "",
-    startTime: utcToZonedTime(new Date(2019, 11, 14, 14, 0), "Europe/Helsinki"),
-    endTime: utcToZonedTime(new Date(2019, 11, 14, 14, 30), "Europe/Helsinki"),
-    hideDetails: true,
-    hideTime: false
-  },
-  {
     id: 16,
     companyName: "OP",
     location: "Exactum B123",
