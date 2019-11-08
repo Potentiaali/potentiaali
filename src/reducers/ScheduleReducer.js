@@ -480,7 +480,7 @@ In addition to the similar data analysis methods, risk management and scientific
   },
   {
     id: 19,
-    companyName: "",
+    companyName: "Futurice",
     location: "Exactum B123",
     title: {
       fi: "Futurice: The Art of Side Projects",
