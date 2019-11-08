@@ -121,3 +121,5 @@ schedule-slot-details = Lisätiedot
 back-to-company-listing = Takaisin yrityslistaukseen
 at-clock = klo
 view-all-companies = Näytä listana
+go-back = Takaisin
+go-to-company-listing = Näytä vuoden 2019 Kumpulan Potentiaaliin osallistuvat yritykset
