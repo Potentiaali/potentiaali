@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import PropTypes from "prop-types";
 import { Localized } from "fluent-react/compat";
 import { Link, withRouter } from "react-router-dom";
+import LanguageString from "../components/LanguageString";
 
 const SingleCompanyPage = ({ match, history }) => {
   const companies = useSelector(state => state.company.companies);
@@ -53,7 +54,9 @@ const SingleCompanyPage = ({ match, history }) => {
           </a>
         </p>
         <pre style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
-          <p>{company.description}</p>
+          <p>
+            <LanguageString languageObject={company.description} />
+          </p>
         </pre>
       </section>
       <section className="app-section">

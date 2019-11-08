@@ -4,384 +4,539 @@
     "name": "OP",
     "imgSrc": "companies/op.png",
     "websiteUrl": "https://uusi.op.fi/op-ryhma/ura-oplla",
-    "description": ""
+    "description": {
+      "fi": "“OP on Suomen johtava finanssiryhmä ja alan digitaalisen muutoksen suunnannäyttäjä. Olemme asiakkaidemme omistama, finanssialan suurin työnantaja Suomessa.\nRyhmässämme työskentelee yli 12 000 alan ammattilaista, ja tuotamme sekä kehitämme pankki-, varallisuudenhoito- ja vakuutuspalveluita yli neljälle miljoonalle asiakkaallemme.”\n\nOP on tavattavissa Rekry Speed Dating -ohjelmassa. Kiinnostaviksi aloiksi yritys nimeää erityisesti fysiikan, matematiikan, tietojenkäsittelytieteen ja tilastotieteen.",
+      "en-US": "“OP on Suomen johtava finanssiryhmä ja alan digitaalisen muutoksen suunnannäyttäjä. Olemme asiakkaidemme omistama, finanssialan suurin työnantaja Suomessa.\nRyhmässämme työskentelee yli 12 000 alan ammattilaista, ja tuotamme sekä kehitämme pankki-, varallisuudenhoito- ja vakuutuspalveluita yli neljälle miljoonalle asiakkaallemme.”\n\nOP on tavattavissa Rekry Speed Dating -ohjelmassa. Kiinnostaviksi aloiksi yritys nimeää erityisesti fysiikan, matematiikan, tietojenkäsittelytieteen ja tilastotieteen."
+    }
   },
   {
     "id": 2,
     "name": "Siili Solutions",
     "imgSrc": "companies/siili.png",
     "websiteUrl": "https://www.siili.com/fi",
-    "description": ""
+    "description": {
+      "fi": "“Siili on suomalainen teknologiariippumaton digitaalisten palvelujen kumppani ja ohjelmistointegraattori. Olemme luomassa seuraavia, parempia versioita asiakkaidemme digitaalisista palveluista ja tuotteista. Vahvuutemme ovat monialaiset tiimit sekä ketterä, läpinäkyvä ja tehokas tapa toimia!”\n\nSiili Solutions on tavattavissa Rekry Speed Dating -ohjelmassa. Kiinnostaviksi aloiksi yritys nimeää erityisesti matematiikan, tietojenkäsittelytieteen, tilastotieteen ja fysiikan.\n",
+      "en-US": "“Siili on suomalainen teknologiariippumaton digitaalisten palvelujen kumppani ja ohjelmistointegraattori. Olemme luomassa seuraavia, parempia versioita asiakkaidemme digitaalisista palveluista ja tuotteista. Vahvuutemme ovat monialaiset tiimit sekä ketterä, läpinäkyvä ja tehokas tapa toimia!”\n\nSiili Solutions on tavattavissa Rekry Speed Dating -ohjelmassa. Kiinnostaviksi aloiksi yritys nimeää erityisesti matematiikan, tietojenkäsittelytieteen, tilastotieteen ja fysiikan.\n"
+    }
   },
   {
     "id": 3,
     "name": "Reaktor",
     "imgSrc": "companies/reaktor.png",
     "websiteUrl": "https://www.reaktor.com/",
-    "description": "Reaktor on suomalainen teknologiakonsultointitalo, jonka tiimit ratkaisevat asiakkaiden erilaisia ongelmia, esimerkiksi päivittäistavarakaupassa (Adidas, Kesko), pankkialalla (Nordea) ja media-alalla (HBO, Yle). \n Reaktor on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut fysiikan, matematiikan, tietojenkäsittelytieteen ja tilastotieteen opiskelijoista.Introducing: Reaktor"
+    "description": {
+      "fi": "“Reaktor on suomalainen teknologiakonsultointitalo, jonka tiimit ratkaisevat asiakkaiden erilaisia ongelmia, esimerkiksi päivittäistavarakaupassa (Adidas, Kesko), pankkialalla (Nordea) ja media-alalla (HBO, Yle).”\n\nReaktor on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut fysiikan, matematiikan, tietojenkäsittelytieteen ja tilastotieteen opiskelijoista.",
+      "en-US": "“Reaktor is a Finnish technology consulting agency, whose teams help our customers solve different kinds of problems, related to, for example, retail (Adidas, Kesko), banking (Nordea) and media (HBO, Yle).”\n\nReaktor is participating in Recruitment Speed Dating. They are most interested in hiring physics, mathematics, computer science and statistics students."
+    }
   },
   {
     "id": 4,
     "name": "Futurice",
     "imgSrc": "companies/futurice.png",
     "websiteUrl": "https://www.futurice.com/",
-    "description": ""
+    "description": {
+      "fi": "\"Futurice on kansainvälinen, digitaalisiin palveluihin ja strategiseen konsultointiin keskittyvä yritys. Suunnittelemme ja rakennamme digitaalisia tuotteita ja palveluja. Autamme yrityksiä menestymään innovatiivista kulttuuria ja uusia työtapoja luovien muutosten avulla. Vuodesta 2000 lähtien olemme vieneet menestyksekkäästi loppuun tuhansia projekteja asiakkaille kaikilla aloilla energiasta autoteollisuuteen ja mediasta vähittäiskauppaan.\n\nFuturicella on yli 600 työntekijää ja toimistot Berliinissä, Helsingissä, Lontoossa, Münchenissä, Oslossa, Tukholmassa, Stuttgartissa ja Tampereella.\"\n\nFuturice on tavattavissa Rekry Speed Dating -ohjelmassa. He ovat erityisen kiinnostuneita matematiikan, tietojenkäsittelytieteen ja tilastotieteen opiskelijoista.",
+      "en-US": "\"Futurice is an international digital engineering and innovation company. We create digital products and services and unleash a culture of innovation that make you future capable. Since 2000, we have helped our clients in industries ranging from energy, retail and construction to media, finance and automotive develop their business practices, ways of working and culture to meet the challenges of digital disruption.\n\nFuturice has over 600 employees, with offices in Berlin, Helsinki, London, Munich, Oslo, Stockholm, Stuttgart and Tampere.\"\n\nFuturice is participating in Recruitment Speed Dating. They are most interested in hiring mathematics, computer science and statistics students."
+    }
   },
   {
     "id": 5,
     "name": "Elisa",
     "imgSrc": "companies/elisa.png",
     "websiteUrl": "https://elisa.fi/",
-    "description": ""
+    "description": {
+      "fi": "Elisa on digitaalisten palveluiden todellinen edelläkävijä ja tutkitusti yksi Suomen parhaista työpaikoista. Tiesitkö, että meillä Elisalla pyöritämme kahden miljoonan suomalaisen liittymien lisäksi mm. terveydenhuollon palveluita, kansainvälistä automaatiobisnestä ja sisäistä startup-hubia? Elisa on juuri sinun työmaasi, jos haluat olla mahdollistamassa uusia asioita ja muuttamassa maailmaa. Tähän muutokseen tarvitaan muun muassa koodareita, bisnesosaajia, mobiiliverkon kehittäjiä ja suunnittelijoita, juristeja, viestijöitä, controllereita, puhelinmyyjiä ja monia muita omien alojensa huippuosaajia. Tärkeimpänä on kuitenkin se, että haluamme sinun kaltaisia, aitoja ihmisiä joukkoomme.\n\nMeille tärkeimpiä asioita ovat työn äärimmäinen joustavuus, kannustava johtaminen sekä rento työkulttuuri, jossa saa aidosti olla oma itsensä ja huonot vitsit ovat tervetulleita. Elisa on tietysti myös iso yritys, mikä mahdollistaa urapolkuja, isojakin juttuja on mahdollista toteuttaa ja pienempiä kokeilla rohkeasti. Tule itse kokemaan, miltä tuntuu vastuun ja vapauden tasapaino.\n\nTule moikkaamaan meitä ständillemme messuilla ja juttelemaan niin tulevaisuuden teknologioista kuin kesätyö- ja uramahdollisuuksista! Täältä voit myös tutustua arkeemme, tai somesta #elisalainen: https://corporate.elisa.fi/rekrytointi/.\n\nElisa on erityisen kiinnostunut matematiikan, tietojenkäsittelytieteen, tilastotieteen ja fysiikan opiskelijoista.",
+      "en-US": "Elisa is a true forerunner of digital services, and by proof one of the best places to work in Finland. Did you know that in addition to covering the connections of two million Finns, Elisa also runs an internal startup hub, an international automation business as well as producing digital healthcare services? Elisa is the workplace for you if you want to be part of enabling new things and changing the world. To implement these changes, we need coders, business specialists, mobile network developers and designers, lawyers, controllers, telesales representatives, and many other experts. But most importantly, we want genuine people like you.\n\nWe value our extremely flexible working methods, supportive supervisors, and our friendly and relaxed working environment, where you are truly welcome as you are (and so are bad jokes). Of course, Elisa is a major corporation offering career paths, opportunities to work on larger projects and boldly experiment on smaller ideas. Join us to experience a balance of freedom and responsibility.\n\nCome say hi to us at our stand and have a chat about future tech, summer jobs or career opportunities in general! Read more about Elisa as a work place, or check out #elisalainen on social media here: https://corporate.elisa.com/careers/.\n\nElisa is most interested in hiring mathematics, computer science, statistics and physics students."
+    }
   },
   {
     "id": 6,
     "name": "CGI",
     "imgSrc": "companies/cgi.png",
     "websiteUrl": "https://www.cgi.fi/",
-    "description": ""
+    "description": {
+      "fi": "“CGI on globaali ICT-alan palveluyritys. Konsultoimme asiakkaitamme liiketoiminnan ja ICT-ratkaisujen kehittämisessä. Meitä on 73 000 asiantuntijaa yli 40 maassa.\n\nHaemme nyt opiskelijoita ja vastavalmistuneita CGI Future Talent -trainee-ohjelmaan. Future Talent -harjoittelu tarjoaa sinulle loistavan startin urallesi ja mahdollisuuden työllistyä harjoittelun jälkeen meille vakituiseksi työntekijäksi!\n\nMeillä pääset mielenkiintoisiin projekteihin luomaan innovatiivisia, laadukkaita ja helppokäyttöisiä tuotteita sekä palveluita, joilla on todellista merkitystä asiakkaillemme. Pääset tekemään töitä uusimmilla teknologioilla eri alojen ammattilaisten kanssa. Tarjoamme monenlaisia urapolkuja sekä koulutus- ja kehitysohjelmia. Ammatillinen kehittymisesi on meille tärkeää ja huippuasiantuntijaksi tai esimieheksi kasvamiseen on loistavat mahdollisuudet. Pääset osaksi innostunutta ja ammattitaitoista porukkaa. Meidän palkittiin vuonna 2019 kuudetta kertaa peräkkäin Top Employer -huipputyöpaikaksi!\n\nTule mukaan ja ota työurasi seuraava askel CGI:llä!\nLisätietoja löydät urasivuiltamme osoitteesta: www.cgi.fi/future-talent/”\n\nCGI on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut fysiikan, matematiikan, tietojenkäsittelytieteen, tähtitieteen ja tilastotieteen opiskelijoista.",
+      "en-US": "“Welcome to CGI! We are one of the leading IT companies in the world. We work side-by-side with clients to help maximize the technologies that transform their business. We have more than 73,000 professionals in 40 countries.\n\nWe are now looking for students and recent graduates with various backgrounds to join our CGI Future Talent trainee program. We offer you a great start on your career and an opportunity to continue working with CGI after the trainee period!\n\nYou will work in challenging and meaningful projects with products and services that add true value to our customers. Your career and professional development will be our top priorities. We offer many career paths, and various learning and development programs. You will be part of an enthusiastic and innovative team where everyone’s knowledge and competences are valued. We strive to create an environment where our professionals enjoy working together and feel empowered. We were awarded as a Top Employer for the sixth time in a row in 2019!\n\nJoin us and take the next step on your career with CGI!\nPlease visit www.cgi.fi/future-talent for more information.”\n\nCGI is participating in Recruitment Speed Dating. They are most interested in hiring physics, mathematics, computer science, astronomy and statistics students."
+    }
   },
   {
     "id": 7,
     "name": "Maanmittauslaitos",
     "imgSrc": "companies/maanmittauslaitos.png",
     "websiteUrl": "https://www.maanmittauslaitos.fi/",
-    "description": ""
+    "description": {
+      "fi": "“Maanmittauslaitos tuottaa kansalaisille ja organisaatioille maan käyttöön ja hyödyntämiseen tarvittavaa tietoa.\n\nTeemme maanmittaustoimituksia, ylläpidämme kiinteistöjen tietoja, tuotamme kartta-aineistoja, huolehdimme lainhuudoista ja kiinnityksistä, kehitämme tietojärjestelmiä sekä edistämme paikkatietojen tutkimusta ja soveltamista.\n\nMaanmittauslaitoksessa ollaan suunnannäyttäjiä monissa asioissa, uskotaan kokeilukulttuuriin ja tehdään yhteiskunnan hyvinvoinnin kannalta merkityksellisiä asioita.”\n\nKiinnostaviksi aloiksi Maanmittauslaitos nimeää fysiikan, geofysiikan, maantieteen, matematiikan, tietojenkäsittelytieteen ja tähtitieteen.",
+      "en-US": "“The National Land Survey produces information for the public and various organisations related to the use and utilisation of land.\n\nWe do land surveying, maintain property information, produce map data material, handle registrations of title and mortgages, develop ICT systems, and promote the research and application of spatial data.\n\nAt the National Land Survey, we show the way in many aspects, believe in experimentation and do things that are significant to the well-being of society.”\n\nThe National Land Survey is most interested in hiring physics, geophysics, geography, mathematics, computer science and astronomy students."
+    }
   },
   {
     "id": 8,
     "name": "Yleisradio",
     "imgSrc": "companies/yleisradio.png",
     "websiteUrl": "https://yle.fi/aihe/yleisradio/",
-    "description": "Yle.dev on modernin sovelluskehitys- ja dataosaamisen koti. Olemme verkosto ohjelmistokehittäjiä, arkkitehtejä ja palvelupäälliköitä, jotka toimivat käytännössä Ylen palvelukehitystiimeissä. Verkoston jäsenenä voit olla mukana kehittämässä esimerkiksi Areenaa, Suomen arvostetuinta verkkobrändiä, tai voit olla mukana modernisoimassa journalismia Yle News Labin kanssa yle.fi- ja Uutisvahti-applikaatioiden, sekä älykkään uutisassarin Voitto-robotin avulla. Voit olla myös mukana pohtimassa miten voimme datan perusteella palvella veronmaksajia paremmin, tai miten voimme käyttää tekoälyä vastuullisesti mediassa. \n IT-ala asettaa nykyään kovat paineet asiantuntijoille pysyä kehityksen mukana. Meillä yle.devissä tavoitteena on tukea sinua työssäsi, sekä tarjota sinulle puitteet henkilökohtaiseen kehitykseen urallasi. Toimimme myös Ylen kehityskulttuurin lähettiläänä ja pidämme huolta siitä, että Ylellä on mukavaa tehdä kehitystyötä. Meille on tärkeää, että saat toteuttaa työsi kuten parhaaksi näet. Pidämme myös huolta siitä, että et jää yksin."
+    "description": {
+      "fi": "“Yle.dev on modernin sovelluskehitys- ja dataosaamisen koti. Olemme verkosto ohjelmistokehittäjiä, arkkitehtejä ja palvelupäälliköitä, jotka toimivat käytännössä Ylen palvelukehitystiimeissä. Verkoston jäsenenä voit olla mukana kehittämässä esimerkiksi Areenaa, Suomen arvostetuinta verkkobrändiä, tai voit olla mukana modernisoimassa journalismia Yle News Labin kanssa yle.fi- ja Uutisvahti-applikaatioiden, sekä älykkään uutisassarin Voitto-robotin avulla. Voit olla myös mukana pohtimassa miten voimme datan perusteella palvella veronmaksajia paremmin, tai miten voimme käyttää tekoälyä vastuullisesti mediassa.\n\nIT-ala asettaa nykyään kovat paineet asiantuntijoille pysyä kehityksen mukana. Meillä yle.devissä tavoitteena on tukea sinua työssäsi, sekä tarjota sinulle puitteet henkilökohtaiseen kehitykseen urallasi. Toimimme myös Ylen kehityskulttuurin lähettiläänä ja pidämme huolta siitä, että Ylellä on mukavaa tehdä kehitystyötä. Meille on tärkeää, että saat toteuttaa työsi kuten parhaaksi näet. Pidämme myös huolta siitä, että et jää yksin.”\n\nKiinnostavaksi alaksi Yleisradio nimeää erityisesti tietojenkäsittelytieteen.",
+      "en-US": "“Yle.dev on modernin sovelluskehitys- ja dataosaamisen koti. Olemme verkosto ohjelmistokehittäjiä, arkkitehtejä ja palvelupäälliköitä, jotka toimivat käytännössä Ylen palvelukehitystiimeissä. Verkoston jäsenenä voit olla mukana kehittämässä esimerkiksi Areenaa, Suomen arvostetuinta verkkobrändiä, tai voit olla mukana modernisoimassa journalismia Yle News Labin kanssa yle.fi- ja Uutisvahti-applikaatioiden, sekä älykkään uutisassarin Voitto-robotin avulla. Voit olla myös mukana pohtimassa miten voimme datan perusteella palvella veronmaksajia paremmin, tai miten voimme käyttää tekoälyä vastuullisesti mediassa.\n\nIT-ala asettaa nykyään kovat paineet asiantuntijoille pysyä kehityksen mukana. Meillä yle.devissä tavoitteena on tukea sinua työssäsi, sekä tarjota sinulle puitteet henkilökohtaiseen kehitykseen urallasi. Toimimme myös Ylen kehityskulttuurin lähettiläänä ja pidämme huolta siitä, että Ylellä on mukavaa tehdä kehitystyötä. Meille on tärkeää, että saat toteuttaa työsi kuten parhaaksi näet. Pidämme myös huolta siitä, että et jää yksin.”\n\nKiinnostavaksi alaksi Yleisradio nimeää erityisesti tietojenkäsittelytieteen."
+    }
   },
   {
     "id": 9,
-    "name": "Ramboll",
+    "name": "Ramboll Finland",
     "imgSrc": "companies/ramboll.png",
-    "websiteUrl": "https://fi.ramboll.com//",
-    "description": ""
+    "websiteUrl": "https://fi.ramboll.com/",
+    "description": {
+      "fi": "“Ramboll on johtava kansainvälinen suunnittelu- ja konsultointialan yritys. Säätiöomisteisessa yhtiössämme työskentelee 15 500 eri alojen ammattilaista globaalisti. Suomessa toimimme maanlaajuisesti 2 400 asiantuntijan voimin.\n\nPalvelujamme ovat innovatiiviset ratkaisut kaupunkien, infrastruktuurin, liikenteen, ympäristön ja rakennusten suunnittelussa, rakennuttamisessa, rakentamisessa ja ylläpidossa. Työmme tavoitteena on luoda aidosti koko yhteiskunnan toimintaa kehittäviä ratkaisuja. Perusarvomme heijastavat voimakasta sitoutumista kestävän kehityksen periaatteisiin sekä jatkuvaan ihmisten sekä yhteiskunnan työ- ja elinolosuhteiden edistämiseen ratkaisujemme avulla.”\n\nRamboll on tavattavissa Rekry Speed Dating -ohjelmassa. Kiinnostaviksi aloiksi yritys nimeää erityisesti fysiikan, geofysiikan, geologian, kemian, maantieteen, matematiikan ja tietojenkäsittelytieteen.",
+      "en-US": "“Ramboll is a leading engineering, design and consultancy company founded in Denmark in 1945.The company employs more than 15,500 experts globally and has especially strong representation in the Nordics, UK, North America, Continental Europe, Middle East and Asia-Pacific. Ramboll works across the following markets: Buildings, Transport, Planning & Urban Design, Water, Environment & Health, Energy and Management Consulting. We partner with our clients to create sustainable societies where people and nature flourish.“\n\nRamboll is participating in Recruitment Speed Dating. They are most interested in hiring physics, geophysics, geology, chemistry, geography, mathematics and computer science students."
+    }
   },
   {
     "id": 10,
     "name": "Murata Electronics",
     "imgSrc": "companies/murata.png",
     "websiteUrl": "http://muratafinland.com/",
-    "description": "Murata Electronics edistää yhteiskunnan kehitystä innovatiivisella anturiteknologialla, joka parantaa autojen turvallisuutta ja ihmisten elämänlaatua. Olemme maailman johtava kiihtyvyys-, kallistus- ja kulmanopeusantureiden valmistaja. Tuotteemme tarjoavat äärimmäistä luotettavuutta ja tarkkuutta käyttökohteissaan autoteollisuudessa, terveysteknologiassa ja erilaisissa teollisissa sovelluksissa. Kuulumme Murata-konserniin, joka työllistää maailmanlaajuisesti 80 000 ihmistä. Vantaalla sijaitsevassa teknologiakeskuksessamme työskentelee yli 1000 ammattilaista. \n Kiinnostaviksi aloiksi Murata Electronics nimeää fysiikan, kemian ja tietojenkäsittelytieteen."
+    "description": {
+      "fi": "“Murata Electronics edistää yhteiskunnan kehitystä innovatiivisella anturiteknologialla, joka parantaa autojen turvallisuutta ja ihmisten elämänlaatua. Olemme maailman johtava kiihtyvyys-, kallistus- ja kulmanopeusantureiden valmistaja. Tuotteemme tarjoavat äärimmäistä luotettavuutta ja tarkkuutta käyttökohteissaan autoteollisuudessa, terveysteknologiassa ja erilaisissa teollisissa sovelluksissa. Kuulumme Murata-konserniin, joka työllistää maailmanlaajuisesti 80 000 ihmistä. Vantaalla sijaitsevassa teknologiakeskuksessamme työskentelee yli 1000 ammattilaista.”\n\nKiinnostaviksi aloiksi Murata Electronics nimeää fysiikan, kemian ja tietojenkäsittelytieteen.",
+      "en-US": "“Murata Electronics contributes to the advancement of society with innovative sensor technology that makes driving safer and improves quality of life. We are a global market leading manufacturer of accelerometers, inclinometers and gyro sensors which provide crucial reliability and accuracy in various applications such automotive industry, health technologies and in industrial uses. We are part of Murata which employs 80 000 people globally with over 1000 people working in our technology center in Vantaa.”\n\nMurata Electronics is most interested in hiring physics, chemistry and computer science students."
+    }
   },
   {
     "id": 11,
     "name": "Foreca",
     "imgSrc": "companies/foreca.png",
     "websiteUrl": "https://www.foreca.fi/",
-    "description": "Foreca hakee osa-aikaiseen tai kokopäiväiseen työhön ohjelmistokehittäjiä. Olemme kiinnostuneita eri teknologioiden osaajista. Forecalla pääset kehittämään säätuotteita, joita tarjoamme maailmanlaajuisesti kuluttajille, mediataloille ja digitaalisen median toimijoille, kuten Microsoft ja MTV3. Moderni merinäköalan toimistomme ja ilmainen kuntosalimme sijaitsee Keilaniemen metroaseman vieressä. Tule mukaan tuomaan uusia ajatuksia ja oppimiasi asioita kokeneiden ohjelmistokehittäjiemme avuksi. \n Foreca on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista"
+    "description": {
+      "fi": "“Foreca hakee osa-aikaiseen tai kokopäiväiseen työhön ohjelmistokehittäjiä. Olemme kiinnostuneita eri teknologioiden osaajista. Forecalla pääset kehittämään säätuotteita, joita tarjoamme maailmanlaajuisesti kuluttajille, mediataloille ja digitaalisen median toimijoille, kuten Microsoft ja MTV3. Moderni merinäköalan toimistomme ja ilmainen kuntosalimme sijaitsee Keilaniemen metroaseman vieressä. Tule mukaan tuomaan uusia ajatuksia ja oppimiasi asioita kokeneiden ohjelmistokehittäjiemme avuksi.”\n\nForeca on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista.",
+      "en-US": "“Foreca is looking for part-time and/or full-time software developers. We are interested in experts in different technologies. You will develop weather products aimed for consumers, media houses and digital media companies worldwide, for example Microsoft and MTV3. Our modern office with sea view and free gym is located right next to Keilaniemi subway station. Join our experienced software developer team and bring along your own expertise and new ideas!”\n\nForeca is participating in Recruitment Speed Dating. They are most interested in hiring computer science students."
+    }
   },
   {
     "id": 12,
     "name": "Digia",
     "imgSrc": "companies/digia.png",
     "websiteUrl": "https://digia.com",
-    "description": ""
+    "description": {
+      "fi": "\"Digia on ohjelmisto- ja palveluyritys, joka auttaa asiakkaitaan uudistumaan verkottuvassa maailmassa. Meitä digialaisia on jo yli 1 200 ja meillä jokainen on Senior Trainee. (Uskomme nimittäin, että jokaisella on osaamista jaettavaksi muille, mutta kukaan ei ole koskaan valmis.) Asiakkuudet useilta eri toimialoilta takaavat lukemattomia mahdollisuuksia rakentaa yhteispelillä digitaalisuutta, joka toimii ja tuntuu.\n\nEtsimme uusia junioritekijöitä mm. seuraaviin : integraatiot, ohjelmistokehitys (JS, Java, .NET), automaatiotestaus, toiminnanohjaus ja analytiikka. Tutustu meihin; https://digia.com/rekrytointi/career-compass/\"\n\nDigia on tavattavissa Rekry Speed Dating -ohjelmassa. Kiinnostaviksi aloiksi yritys nimeää erityisesti matematiikan, tietojenkäsittelytieteen ja tilastotieteen.",
+      "en-US": "\"Digia is a software and service company that helps its customers renew themselves in the networked world. There are more than 1,200 of us working at Digia and we are all Senior Trainees. We believe that everyone has something to teach and no one can know everything by themselves. Together with our customers we work to build a world where digitalisation makes a difference.\n\nWe are looking new junior talents for following units: integration, software development (JS, Java, .NET), automation testing, ERP & analytics. Get to know us here: https://digia.com/en/careers/career-compass/\"\n\nDigia is participating in Recruitment Speed Dating. They are most interested in hiring mathematics, computer science and statistics students."
+    }
   },
   {
     "id": 13,
     "name": "Perfektio",
     "imgSrc": "companies/perfektio-logo.png",
     "websiteUrl": "https://www.perfektio.fi/",
-    "description": ""
+    "description": {
+      "fi": "“Me Perfektiolla autamme yrityksiä ja yhteisöjä hyödyntämään todellista potentiaaliaan digitaalisuuden avulla. Kehitämme liiketoimintaamme avoimen innovaation avulla, ratkoen oikeita, merkityksellisiä ongelmia. Meille on tärkeää että töissä viihdytään, samalla kehittäen omaa osaamista. Jokainen työntekijä saa vastuuta ja vapautta, sekä valita itse omat työvälineensä ja työntekopaikkansa. Uskomme, että työskentelemällä ketterästi käyttäen moderneja teknologioita, työntekijämme ja asiakkaamme ovat tyytyväisimpiä.\n\nTaikasanabingo: AWS, C#, Django, Java, Javascript, Rails, React, React Native, Serverless, TensorFlow, Adobe CC, Design Sprint, Sketch, Framer, Invision, Swift”\n\nPerfektio on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut matematiikan, tietojenkäsittelytieteen ja tilastotieteen opiskelijoista.",
+      "en-US": "“We at Perfektio help companies and communities to utilize their true potential through digitalization. Our business model is based on open innovation, and we thrive while solving genuine, meaningful problems. For us it is really important that work does not feel like a burden and every day is a chance to learn something new. Every Perfektio employee gets to freely choose the best tools, ways of working and working environment to suit his or her needs. We believe in the agile way of working and providing value to our customers and employees in every step of the way.\n\nBuzzWordBingo: AWS, C#, Django, Java, Javascript, Rails, React, React Native, Serverless, TensorFlow, Adobe CC, Design Sprint, Sketch, Framer, Invision, Swift”\n\nPerfektio is participating in Recruitment Speed Dating. They are most interested in hiring mathematics, computer science and statistics students."
+    }
   },
   {
     "id": 14,
     "name": "Webscale",
     "imgSrc": "companies/webscale.png",
     "websiteUrl": "https://webscale.fi/",
-    "description": "Webscale on helsinkiläinen modernien teknologioiden ohjelmistokehitys- ja konsultointiyhtiö. Toteutamme yhdessä asiakkaidemme kanssa merkityksellisiä digihankkeita ihmisiltä ihmisille. Arkeamme ohjaavat arvot: #huippuosaaminen #tekemisenvapaus #asiakashyöty #etäyhteisöllisyys"
+    "description": {
+      "fi": "“Webscale on helsinkiläinen modernien teknologioiden ohjelmistokehitys- ja konsultointiyhtiö. Toteutamme yhdessä asiakkaidemme kanssa merkityksellisiä digihankkeita ihmisiltä ihmisille. Arkeamme ohjaavat arvot: #huippuosaaminen #tekemisenvapaus #asiakashyöty #etäyhteisöllisyys”\n\nKiinnostaviksi aloiksi Webscale nimeää erityisesti tietojenkäsittelytieteen.",
+      "en-US": "“Webscale on helsinkiläinen modernien teknologioiden ohjelmistokehitys- ja konsultointiyhtiö. Toteutamme yhdessä asiakkaidemme kanssa merkityksellisiä digihankkeita ihmisiltä ihmisille. Arkeamme ohjaavat arvot: #huippuosaaminen #tekemisenvapaus #asiakashyöty #etäyhteisöllisyys”\n\nKiinnostaviksi aloiksi Webscale nimeää erityisesti tietojenkäsittelytieteen."
+    }
   },
   {
     "id": 15,
-    "name": "Taito United",
+    "name": "Taito United Oy",
     "imgSrc": "companies/taito_united.png",
     "websiteUrl": "http://taitounited.fi/",
-    "description": ""
+    "description": {
+      "fi": "“Rakennamme asiakkaillemme taidokkaita digipalveluita. Meillä pääset tekemään monipuolista uusien palveluiden kehitystä käyttöliittymistä (UX, web, mobiili) aina vaativiin taustapalveluihin (pilvialustat, data, AI/koneoppiminen) asti. Asiakaskuntamme on monipuolista, startupeista isoihin kansainvälisiin yrityksiin.”\n\nTaito United Oy on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista.",
+      "en-US": "“We build state-of-the-art digital services for our clients. As part of our experienced team you get to develop new services from user interfaces (UX, web, mobile) to demanding back-end services (cloud platforms, data, AI / machine learning). Our clientele is diverse, from startups to large international companies.”\n\nTaito United Oy is participating in Recruitment Speed Dating. They are most interested in hiring computer science students."
+    }
   },
   {
     "id": 16,
     "name": "IBM",
     "imgSrc": "companies/ibm.png",
     "websiteUrl": "https://www.ibm.com/fi-fi/",
-    "description": ""
+    "description": {
+      "fi": "“IBM on tekoälyä hyödyntävään tietojenkäsittelyyn ja pilvialustoihin erikoistunut teknologiayritys, joka tukee asiakkaidensa ja kokonaisten toimialojen digitaalista transformaatiota. Uudet innovaatiot ja toimialakyvykkyys ovat strategiamme ydin. IBM toimii yli 170 maassa.”\n\nIBM on tavattavissa Rekry Speed Dating -ohjelmassa. Kiinnostaviksi aloiksi yritys nimeää erityisesti matematiikan, fysiikan, tietojenkäsittelytieteen ja tilastotieteen.",
+      "en-US": "“IBM is a technology company specialized in cloud platforms and information processing that utilizes artificial intelligence. The company supports the digital transformation of its customers and entire industries. Innovations and industry capabilities are at the core of our strategy IBM has operations in more than 170 countries.“\n\nIBM is participating in Recruitment Speed Dating. They are most interested in hiring mathematics, physics, computer science and statistics students."
+    }
   },
   {
     "id": 17,
     "name": "Sogeti Finland",
     "imgSrc": "companies/Sogeti_Logo.png",
     "websiteUrl": "https://www.sogeti.fi/",
-    "description": ""
+    "description": {
+      "fi": "“At Sogeti, we know how to make value from technology. It is our passion. We combine agility and speed of implementation to tailor innovative future-focused solutions in Digital Assurance and Testing as well as Cybersecurity. Our solutions are always fueled by new technologies, e.g. AI and automation, to minimize labour centric work, inefficiency and risk of humane failures. With our hands-on ‘value in the making’ approach and passion for technology, Sogeti helps organizations implement their digital journeys at speed.\n\nWe welcome technology driven young professionals to the Sogeti team. Our career kick start programs, Nordic Graduate Program and Test Automation Academy, are directed to the students who are finalising their studies and interested in working with Digital Assurance and Testing. The programs include both theoretical training as well as an opportunity to test your skills in more practical tasks. In addition to technical knowledge, both academies give you great tools to consultative work too. The international experts of Sogeti community are the ones hosting programs and parts of the programs could be hosted in other Nordic countries.\n\nAt Sogeti, there are around 25 000 Sogetians in 15 countries covering Europe, India and the U.S. In Finland, our team consists of 130 professionals who work mainly as digital assurance and testing and cyber security consultants. The number of fresh graduates started already 2019 is 6.”\n\nSogeti is most interested in hiring mathematics, computer science and statistics students.",
+      "en-US": "“At Sogeti, we know how to make value from technology. It is our passion. We combine agility and speed of implementation to tailor innovative future-focused solutions in Digital Assurance and Testing as well as Cybersecurity. Our solutions are always fueled by new technologies, e.g. AI and automation, to minimize labour centric work, inefficiency and risk of humane failures. With our hands-on ‘value in the making’ approach and passion for technology, Sogeti helps organizations implement their digital journeys at speed.\n\nWe welcome technology driven young professionals to the Sogeti team. Our career kick start programs, Nordic Graduate Program and Test Automation Academy, are directed to the students who are finalising their studies and interested in working with Digital Assurance and Testing. The programs include both theoretical training as well as an opportunity to test your skills in more practical tasks. In addition to technical knowledge, both academies give you great tools to consultative work too. The international experts of Sogeti community are the ones hosting programs and parts of the programs could be hosted in other Nordic countries.\n\nAt Sogeti, there are around 25 000 Sogetians in 15 countries covering Europe, India and the U.S. In Finland, our team consists of 130 professionals who work mainly as digital assurance and testing and cyber security consultants. The number of fresh graduates started already 2019 is 6.”\n\nSogeti is most interested in hiring mathematics, computer science and statistics students."
+    }
   },
   {
     "id": 18,
     "name": "Cinia",
     "imgSrc": "companies/cinia.png",
     "websiteUrl": "https://www.cinia.fi/",
-    "description": "Cinia toteuttaa pitkän elinkaaren ohjelmistoratkaisuja liikenteen ja logistiikan, terveydenhuollon, teollisuuden sekä julkisen sektorin toimijoille. Vahva osaamisemme kriittisten järjestelmien kehittämisessä perustuu tinkimättömään tapaan varmistaa toimintavarmuus ja tietoturva kaikissa tilanteissa. Cinialla ohjelmistokehitystä tehdään ketteriä menetelmiä soveltaen sekä projektimuotoisesti omalla toimistollamme että asiakkaiden luona konsulttitoimeksiannoissa. Meillä pääset rakentamaan uutta ja ottamaan projektista haluamasi määrän vastuuta. \n Suurin osa projektiemme backendeistä on totetuttu Spring Bootilla ja käyttöliittymistä huolehtivat Angularilla tai Reactilla tehdyt sovellukset. Käytämme Docker-kontteja ja luotamme AWS:ään ympäristönä. \n Kasvamme tänäkin vuonna ja etsimme uusia osaajia vahvistamaan osaamistamme. Olemme tällä hetkellä yli 270 hengen asiantuntijatalo ja tarjoamme palveluita pilvipalveluista ohjelmistoratkaisuihin Tampereen, Helsingin, Jyväskylän ja Riihimäen toimistoiltamme. \n Olemme kiinnostuneita vahvistamaan Cinian ohjelmistokehityksen tiimiä uusilla joukkuepelaajilla. Kerro meille kiinnostuksen kohteistasi sekä ydinosaamisestasi ja mitä haluaisit oppia lisää. Meillä pääset toteuttamaan yhteiskunnan kannalta merkityksellisiä digitaalisia palveluita ja operatiivisia järjestelmiä joihin usein kohdistuu tavanomaista korkeampia vaatimuksia käytettävyyden, suorituskyvyn ja tietoturvan suhteen. \n Katso avoimet työpaikkamme täältä: https://www.cinia.fi/toihin-cinialle/koodareille.html \n Cinia on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista."
+    "description": {
+      "fi": "“Cinia toteuttaa pitkän elinkaaren ohjelmistoratkaisuja liikenteen ja logistiikan, terveydenhuollon, teollisuuden sekä julkisen sektorin toimijoille. Vahva osaamisemme kriittisten järjestelmien kehittämisessä perustuu tinkimättömään tapaan varmistaa toimintavarmuus ja tietoturva kaikissa tilanteissa. Cinialla ohjelmistokehitystä tehdään ketteriä menetelmiä soveltaen sekä projektimuotoisesti omalla toimistollamme että asiakkaiden luona konsulttitoimeksiannoissa. Meillä pääset rakentamaan uutta ja ottamaan projektista haluamasi määrän vastuuta.\n\nSuurin osa projektiemme backendeistä on totetuttu Spring Bootilla ja käyttöliittymistä huolehtivat Angularilla tai Reactilla tehdyt sovellukset. Käytämme Docker-kontteja ja luotamme AWS:ään ympäristönä.\nKasvamme tänäkin vuonna ja etsimme uusia osaajia vahvistamaan osaamistamme. Olemme tällä hetkellä yli 270 hengen asiantuntijatalo ja tarjoamme palveluita pilvipalveluista ohjelmistoratkaisuihin Tampereen, Helsingin, Jyväskylän ja Riihimäen toimistoiltamme.\n\nOlemme kiinnostuneita vahvistamaan Cinian ohjelmistokehityksen tiimiä uusilla joukkuepelaajilla. Kerro meille kiinnostuksen kohteistasi sekä ydinosaamisestasi ja mitä haluaisit oppia lisää. Meillä pääset toteuttamaan yhteiskunnan kannalta merkityksellisiä digitaalisia palveluita ja operatiivisia järjestelmiä joihin usein kohdistuu tavanomaista korkeampia vaatimuksia käytettävyyden, suorituskyvyn ja tietoturvan suhteen.\nKatso avoimet työpaikkamme täältä: https://www.cinia.fi/toihin-cinialle/koodareille.html”\n\nCinia on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista.",
+      "en-US": "“At Cinia we have currently around 270 employees, and the number is increasing rapidly. We provide our customers with connection and cloud services, solutions for the Industrial Internet and smart traffic, as well as R&D and quality assurance services. Our aim is to grow, develop and become international in order to offer various attractive career opportunities to Cinia employees.\n\nWe are building the future of Cinia. Therefore it is important to us to employ talented people who bear responsibility, develop their own work and build our shared practices.\nIn addition to skilled and fun colleagues and independent and responsible tasks, we offer support for exercise and culture, comprehensive healthcare services and medical expense insurance, an opportunity to train yourself and improve your skills, a childcare service if your children are ill and, of course, modern equipment and workspaces.\nCurrently, we are looking for new employees in Finland. Applicants are required to be fluent in Finnish, and all job advertisements are in Finnish.\nCheck our open positions (in Finnish): https://www.cinia.fi/toihin-cinialle/koodareille.html”\n\nCinia is participating in Recruitment Speed Dating. They are most interested in hiring computer science students."
+    }
   },
   {
     "id": 19,
     "name": "Vincit",
     "imgSrc": "companies/vincit.jpg",
     "websiteUrl": "https://www.vincit.fi/",
-    "description": "Vincit syntyi vuonna 2007 ajatuksesta, että asiakastyytyväisyys perustuu tyytyväisiin työntekijöihin. Olemme kasvaneet 450+ huippuammattilaisen pörssiyhtiöksi ja levittäytyneet seitsemään kaupunkiin ympäri Suomea ja Kaliforniaa. Ja uskomme yhä, että töissä on tarkoitus viihtyä – myös maanantaisin. \n Teemme modernia digitalisaatiota tyytyväisyystakuulla. Palveluihimme kuuluvat mm. ohjelmistokehitys & suunnittelu, konsultointi liiketoiminnan murroksen ja digitalisaation saralla sekä data-analytiikan palvelut koneoppimisen ja tekoälyn parissa. Asiakaskenttämme on todella laaja, teemme yhteistyötä niin startupien kuin suurten pörssiyritysten kanssa. Tämän ansiosta projektikirjo on ainutlaatuinen, ulottuen legacy-purkkakoodin ylläpidosta AR/VR-hipsteröintiin ja syväoppimiseen. Jatkuvasti kehittyvä ympäristö varmistaa ettei jumiutumista tarvitse pelätä. \n Tarjoamme mielestämme erinomaisen vaihtoehdon viettää valveillaoloaikaa, sillä yhdessä aikaansaadun hyvän meiningin vuoksi työelämä ei maistu pakkopullalta. Etsimme meille jatkuvasti uusia ohjelmointitaustalla varustettuja työkavereita kaikille toimipisteillemme. Mikäli et ole vielä kerennyt kerryttää ohjelmointikokemusta opintojesi ulkopuolella, seuraa ilmoitteluamme erilaisista trainee- sekä kesätyöhauistamme, joiden kautta tarjoamme sinulle erinomaisen väylän kehittää tuetusti osaamistasi ja päästä kiinni jopa suoraan asiakasprojekteihin. \n Lue lisää ja tsekkaa avoimet työpaikkamme: www.vincit.fi/rekry \n Vincit on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista."
+    "description": {
+      "fi": "“Vincit syntyi vuonna 2007 ajatuksesta, että asiakastyytyväisyys perustuu tyytyväisiin työntekijöihin. Olemme kasvaneet 450+ huippuammattilaisen pörssiyhtiöksi ja levittäytyneet seitsemään kaupunkiin ympäri Suomea ja Kaliforniaa. Ja uskomme yhä, että töissä on tarkoitus viihtyä – myös maanantaisin.\n\nTeemme modernia digitalisaatiota tyytyväisyystakuulla. Palveluihimme kuuluvat mm. ohjelmistokehitys & suunnittelu, konsultointi liiketoiminnan murroksen ja digitalisaation saralla sekä data-analytiikan palvelut koneoppimisen ja tekoälyn parissa. Asiakaskenttämme on todella laaja, teemme yhteistyötä niin startupien kuin suurten pörssiyritysten kanssa. Tämän ansiosta projektikirjo on ainutlaatuinen, ulottuen legacy-purkkakoodin ylläpidosta AR/VR-hipsteröintiin ja syväoppimiseen. Jatkuvasti kehittyvä ympäristö varmistaa ettei jumiutumista tarvitse pelätä.\n\nTarjoamme mielestämme erinomaisen vaihtoehdon viettää valveillaoloaikaa, sillä yhdessä aikaansaadun hyvän meiningin vuoksi työelämä ei maistu pakkopullalta. Etsimme meille jatkuvasti uusia ohjelmointitaustalla varustettuja työkavereita kaikille toimipisteillemme. Mikäli et ole vielä kerennyt kerryttää ohjelmointikokemusta opintojesi ulkopuolella, seuraa ilmoitteluamme erilaisista trainee- sekä kesätyöhauistamme, joiden kautta tarjoamme sinulle erinomaisen väylän kehittää tuetusti osaamistasi ja päästä kiinni jopa suoraan asiakasprojekteihin.\n\nLue lisää ja tsekkaa avoimet työpaikkamme: www.vincit.fi/rekry”\n\nVincit on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista.",
+      "en-US": "“Vincit was founded in 2007 on a belief that satisfied customers stem from satisfied employees. Today, we are a listed company of 450+ top experts, based in four cities in Finland and three in California. And we still believe that coming to work shouldn’t suck – not even on Mondays.\n\nWe are known for doing coding-related computing stuff. In other words, we help our customers with digital transformation processes and offer software development, design as well as data science services. Our customer base and the scope of our projects are wide, from small start-ups to globally large enterprises, and from legacy-type maintenance to hipster-friendly AR/VR projects. So, due to our ever-developing working environment, you don’t need to worry about getting stuck or bored.\n\nWe are always seeking skilled Developers with a passion for software excellence to join our fun-loving bunch. Our way of working and thinking usually suits those who are, or want to be, at the top of their profession. Work with us, and you get to be part of our Vincit community that consists of the country’s top developers, designers, and other experts. In case you are looking for an entry-level job, follow our job board for different trainee and summer job positions. They offer you an excellent path to develop your skills and dive into working life!\n\nRead more and check out our openings at www.vincit.fi/careers”\n\nVincit is participating in Recruitment Speed Dating. They are most interested in hiring computer science students."
+    }
   },
   {
     "id": 20,
     "name": "CSC - Tieteen tietotekniikan keskus Oy",
     "imgSrc": "companies/CSC_logo.png",
     "websiteUrl": "https://www.csc.fi/fi",
-    "description": "Tieteen tietotekniikan keskus CSC tarjoaa korkeatasoisia ICT-palveluja korkeakouluille ja tutkimuslaitoksille: Suomen tehokkaimmat supertietokoneet, monipuolisen ympäristön datanhallintaan ja analyysiin sekä monipuolisen asiantuntijatuen ja koulutuksen. \n Yksi eurooppalaisista esi-eksa-tason supertietokoneista, LUMI, asennetaan CSCn datakeskukseen Kajaaniin ja valmistuessaan se on yksi maailman nopeimmista supertietokoneista. Asiantuntemuksemme perustana on osaava henkilöstö, jota täydentääksemme etsimme jatkuvasti joukkoomme uusia lahjakkuuksia. \n Tulevaksi kesäksi haemme erityisesti opiskelijoita, joilla on jo kokemusta tietotekniikasta ja jotka pystyvät muuntamaan opintonsa käytännön osaamiseksi. Harjoittelijana sinulla on mahdollisuus työskennellä ainutlaatuisten työtehtävien parissa ja kehittää osaamistasi kansainvälisessä yrityksessä. CSC:llä työtehtävät ovat moninaisia ohjelmoinnista, laitepalveluista ja tutkimustiedon hallinnasta yhteiskunnalliseen vaikuttamiseen ja oppimisanalytiikkaan saakka.\n Tervetuloa joukkoomme! Kiinnostaviksi aloiksi CSC nimeää fysiikan, tietojenkäsittelytieteen ja tilastotieteen."
+    "description": {
+      "fi": "“CSC – for Brilliant Minds\n\nTieteen tietotekniikan keskus CSC tarjoaa korkeatasoisia ICT-palveluja korkeakouluille ja tutkimuslaitoksille: Suomen tehokkaimmat supertietokoneet, monipuolisen ympäristön datanhallintaan ja analyysiin sekä monipuolisen asiantuntijatuen ja koulutuksen.\n\nYksi eurooppalaisista esi-eksa-tason supertietokoneista, LUMI, asennetaan CSCn datakeskukseen Kajaaniin ja valmistuessaan se on yksi maailman nopeimmista supertietokoneista.\n\nAsiantuntemuksemme perustana on osaava henkilöstö, jota täydentääksemme etsimme jatkuvasti joukkoomme uusia lahjakkuuksia.\nTulevaksi kesäksi haemme erityisesti opiskelijoita, joilla on jo kokemusta tietotekniikasta ja jotka pystyvät muuntamaan opintonsa käytännön osaamiseksi.\n\nHarjoittelijana sinulla on mahdollisuus työskennellä ainutlaatuisten työtehtävien parissa ja kehittää osaamistasi kansainvälisessä yrityksessä. CSC:llä työtehtävät ovat moninaisia ohjelmoinnista, laitepalveluista ja tutkimustiedon hallinnasta yhteiskunnalliseen vaikuttamiseen ja oppimisanalytiikkaan saakka.\n\nTervetuloa joukkoomme!”\n\nKiinnostaviksi aloiksi CSC nimeää fysiikan, tietojenkäsittelytieteen ja tilastotieteen.",
+      "en-US": "“CSC – for Brilliant Minds\n\nCSC – IT Center for Science provides internationally high-quality ICT services for higher education institutions and research institutes. We offer Finland’s most powerful supercomputers, versatile data management and analysis environment as well as expert support and training.\n\nOne of the pan-European pre-exascale supercomputers, LUMI, will be located in CSC's datacenter in Kajaani. LUMI will be one of the fastest supercomputers in the world on the time of its installation.\n\nThe accomplished staff forms the grounds for our expertise and we are constantly seeking for more talents to join our team.\nFor the next summer, we're particularly seeking students who already have some experience in IT and will be able to turn their recent studies into practical know-how.\n\nAs a trainee, you will have the opportunity to work with unique tasks and develop your expertise in an international company. Tasks at CSC are versatile: from programming, hosting and hardware services to research data management, social debate and influence and learning analytics.\n\nCome and join us!”\n\nCSC is most interested in hiring physics, computer science and statistics students."
+    }
   },
   {
     "id": 21,
     "name": "Tekniikan akateemiset TEK",
     "imgSrc": "companies/tek.png",
     "websiteUrl": "https://www.tek.fi/fi",
-    "description": ""
+    "description": {
+      "fi": "“Tekniikan akateemiset TEK on sinun etu- ja palvelujärjestösi. Tekniikan akateemiset on noin 70 000 tekniikan alan ammattilaisen ja opiskelijan yhteisö. Kolmasosa jäsenistä on opiskelijoita, joista yhä kasvava osa on matemaattis-luonnontieteellistä alaa opiskeleva.\n\nAutamme sinua menestyksekkään uran luomisessa, tuemme osaamisen kehittämisessä sekä työhyvinvoinnin vaalimisessa ja verkostojen luomisessa. TEKin jäsenyys on opiskelijalle maksuton ja saat käyttöösi lähes kaikki TEKin edut ja palvelut.\n\nTEK julkaisee vuosittain maailman parhaan työnhakuoppaan - TEKin työkirjan. Tänä vuonna Työkirjan lanseeraus aloitetaan Kumpulan Potentiaalilla, tule noutamaan omasi TEKin pisteeltä!”\n\nTEK on erityisesti kiinnostunut fysiikan, maantieteen, matematiikan, tietojenkäsittelytieteen ja tilastotieteen opiskelijoista.",
+      "en-US": "“Academic Engineers and Architects in Finland TEK is the largest professional body and trusted authority in innovating the future of your profession in Finland.\nWe serve 70,000 professional engineers, architects, physicists, mathematicians, IT specialists and students at every step in their careers.\n\nWe are here for you and to support you in establishing your career. With us, you will have access to our legal advice team, job-seeking guide, networking events, seminars,\nforums and receive discount offers - and for students it is free of charge.\n\nTEK launches the best job-searching and career guidebook for technology students every year - Työkirja. This year the first launch is at Kumpula’s Potential. Come and get yours from TEK’s stand!”\n\nTEK is most interested in physics, geography, mathematics, computer science and statistics students."
+    }
   },
   {
     "id": 22,
     "name": "Luonnon-, ympäristö- ja metsätieteilijöiden liitto Loimu ry",
     "imgSrc": "companies/loimu.png",
     "websiteUrl": "https://www.loimu.fi/",
-    "description": ""
+    "description": {
+      "fi": "“Loimu - Valoisamman tulevaisuuden tekijät\nLuonnon-, ympäristö- ja metsätieteilijöiden liitto Loimu on monialainen liitto, joka tarjoaa jäsenilleen turvaa työelämään, tukea uralle ja tietoa jota ei saa muualta. Opiskelijana voit hyödyntää muun muassa Loimun koulutuksia, työnhakuvinkkejä, palkkaneuvontaa, vakuutuksia ja osallistua oman kampuksesi opiskelijatoimintaan.\nKumpulan kampuksella toimii paikallisyhdistyksemme Loimun opiskelijat Kumpula (LOK). LOK järjestää kampuksella niin CV- kuin LinkedIn-koulutuksia, työelämäiltamia sekä pizza- ja saunailtoja.\n\nTule rohkeasti tutustumaan toimintaamme! Löydät meidät facebookista: https://www.facebook.com/loimukumpula/ sekä osoitteesta loimu.fi”\n\nLoimu on kiinnostunut matemaattis-luonnontieteellisen tiedekunnan kaikkien alojen opiskelijoista.",
+      "en-US": "“Loimu - Valoisamman tulevaisuuden tekijät\nLuonnon-, ympäristö- ja metsätieteilijöiden liitto Loimu on monialainen liitto, joka tarjoaa jäsenilleen turvaa työelämään, tukea uralle ja tietoa jota ei saa muualta. Opiskelijana voit hyödyntää muun muassa Loimun koulutuksia, työnhakuvinkkejä, palkkaneuvontaa, vakuutuksia ja osallistua oman kampuksesi opiskelijatoimintaan.\nKumpulan kampuksella toimii paikallisyhdistyksemme Loimun opiskelijat Kumpula (LOK). LOK järjestää kampuksella niin CV- kuin LinkedIn-koulutuksia, työelämäiltamia sekä pizza- ja saunailtoja.\n\nTule rohkeasti tutustumaan toimintaamme! Löydät meidät facebookista: https://www.facebook.com/loimukumpula/ sekä osoitteesta loimu.fi”\n\nLoimu on kiinnostunut matemaattis-luonnontieteellisen tiedekunnan kaikkien alojen opiskelijoista."
+    }
   },
   {
     "id": 23,
     "name": "Houston Inc. Consulting Oy",
     "imgSrc": "companies/houston_uusi.png",
     "websiteUrl": "https://www.houston-inc.com/",
-    "description": "Hei Kumpulan jengi, me ollaan Houston! Meidän tiimissä on noin 80 suunnittelijaa, koodaria ja coachia. Kehitämme rakastettavia palveluita, joissa on järkeä niin teknologian kuin strategiankin puolesta. Tuu juttelemaan meidän kanssa vaikka siitä miten tekniikan avulla helpotetaan ihmisten elämää. Nähdään Houstonin ständillä ja speed deiteillä! :) \n Houston Inc. on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut matematiikan ja tietojenkäsittelytieteen opiskelijoista."
+    "description": {
+      "fi": "“Hei Kumpulan jengi, me ollaan Houston! Meidän tiimissä on noin 80 suunnittelijaa, koodaria ja coachia. Kehitämme rakastettavia palveluita, joissa on järkeä niin teknologian kuin strategiankin puolesta. Tuu juttelemaan meidän kanssa vaikka siitä miten tekniikan avulla helpotetaan ihmisten elämää. Nähdään Houstonin ständillä ja speed deiteillä! :)”\n\nHouston Inc. on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut matematiikan ja tietojenkäsittelytieteen opiskelijoista.",
+      "en-US": "“Hey there Kumpula folks, this is Houston calling! We are a team of 80 designers, coders and coaches. We develop lovable services in a technologically effective and strategically viable way. Want to chat more about making people's lives easier with technology? Come and meet us at our stand and speed dating! :)”\n\nHouston Inc. is participating in Recruitment Speed Dating. They are most interested in hiring mathematics and computer science students."
+    }
   },
   {
     "id": 24,
     "name": "Trimble Solutions Oy",
     "imgSrc": "companies/trimble.png",
     "websiteUrl": "https://www.tekla.com/fi",
-    "description": ""
+    "description": {
+      "fi": "“Trimble is transforming the way the world works by delivering products and services that connect the physical and digital worlds. Core technologies in positioning, modeling, connectivity and data analytics enable customers to improve productivity, quality, safety and sustainability. From purpose built products to enterprise life-cycle solutions, Trimble software, hardware and services are transforming industries such as agriculture, construction, geospatial and transportation and logistics. Our solutions are used in over 150 countries and we have incredibly diverse lines of business.\n\nOur employees represent this diversity and can be found in over 35 countries, working closely with their colleagues around the world. Due to geographic, product and customer reach, there is plenty of room at Trimble for exceptional people to grow. Come position yourself with an innovative industry leader and position yourself for success! Read more about our open positions: careers.trimble.com\n\nFor more information about Trimble visit: www.trimble.com”\n\nTrimble is participating in Recruitment Speed Dating. They are most interested in hiring mathematics, computer science and physics students.",
+      "en-US": "“Trimble is transforming the way the world works by delivering products and services that connect the physical and digital worlds. Core technologies in positioning, modeling, connectivity and data analytics enable customers to improve productivity, quality, safety and sustainability. From purpose built products to enterprise life-cycle solutions, Trimble software, hardware and services are transforming industries such as agriculture, construction, geospatial and transportation and logistics. Our solutions are used in over 150 countries and we have incredibly diverse lines of business.\n\nOur employees represent this diversity and can be found in over 35 countries, working closely with their colleagues around the world. Due to geographic, product and customer reach, there is plenty of room at Trimble for exceptional people to grow. Come position yourself with an innovative industry leader and position yourself for success! Read more about our open positions: careers.trimble.com\n\nFor more information about Trimble visit: www.trimble.com”\n\nTrimble is participating in Recruitment Speed Dating. They are most interested in hiring mathematics, computer science and physics students."
+    }
   },
   {
     "id": 25,
     "name": "Bluefors",
     "imgSrc": "companies/bluefors.png",
     "websiteUrl": "https://www.bluefors.com/",
-    "description": "Bluefors suunnittelee ja valmistaa kryogeenivapaita diluutio-jäähdytyslaitteita. Bluefors on alalla tunnettu markkinajohtaja luotettavilla, helppokäyttöisillä ja laadukkailla laitteillaan. Ketterän yritysrakenteemme ansiosta asiakkaamme ovat suoraan yhteydessä fyysikoihimme sekä insinööreihimme, jotka suunnittelevat heidän järjestelmänsä. Toimitamme järjestelmiämme ympäri maailmaa ja markkinat kasvavat jatkuvasti. Tällä hetkellä työllistämme yli 160 ammattilaista 22 eri maasta. \n Tarjoamme kilpailukykyisen etupaketin sekä joustavan työympäristön. Tarvitsemme henkilöitä, jotka haluavat olla osana kehitystä, pitävät laatua tärkeänä arvona ja ovat motivoituneita käyttämään ammattitaitoaan Blueforsin laitteiden toimittamiseksi huipputason tutkimuksen käyttöön. Mikäli olet taitava fyysikko, teknikko, insinööri tai liiketoiminnan ammattilainen, liity kasvutarinaamme! Lue lisää avoimista työpaikoistamme ja vaatimuksistamme sivuiltamme bluefors.com ja seuraa meitä sosiaalisessa mediassa #coolforprogress. Vastaanotamme myös avoimia hakemuksia. \n Bluefors on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut fysiikan opiskelijoista. \n Introducing: Bluefors Oy \n Bluefors designs and manufactures cryogen-free dilution refrigerator systems."
+    "description": {
+      "fi": "“Bluefors suunnittelee ja valmistaa kryogeenivapaita diluutio-jäähdytyslaitteita. Bluefors on alalla tunnettu markkinajohtaja luotettavilla, helppokäyttöisillä ja laadukkailla laitteillaan. Ketterän yritysrakenteemme ansiosta asiakkaamme ovat suoraan yhteydessä fyysikoihimme sekä insinööreihimme, jotka suunnittelevat heidän järjestelmänsä. Toimitamme järjestelmiämme ympäri maailmaa ja markkinat kasvavat jatkuvasti. Tällä hetkellä työllistämme yli 160 ammattilaista 22 eri maasta.\n\nTarjoamme kilpailukykyisen etupaketin sekä joustavan työympäristön. Tarvitsemme henkilöitä, jotka haluavat olla osana kehitystä, pitävät laatua tärkeänä arvona ja ovat motivoituneita käyttämään ammattitaitoaan Blueforsin laitteiden toimittamiseksi huipputason tutkimuksen käyttöön. Mikäli olet taitava fyysikko, teknikko, insinööri tai liiketoiminnan ammattilainen, liity kasvutarinaamme! Lue lisää avoimista työpaikoistamme ja vaatimuksistamme sivuiltamme bluefors.com ja seuraa meitä sosiaalisessa mediassa #coolforprogress. Vastaanotamme myös avoimia hakemuksia.”\n\nBluefors on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut fysiikan opiskelijoista.",
+      "en-US": "“Bluefors designs and manufactures cryogen-free dilution refrigerator systems. Bluefors is well known market leader with reliable, easy-to-use quality products. In our agile company structure customers get in direct contact with scientists and engineers who design their system. We deliver systems all around the world and the markets for our products are constantly growing. Currently we employ more than 160 professionals from 22 different nationalities.\n\nWe offer competitive benefits package and a flexible working environment. We need people who want to be part of progress, have a mind-set for high quality and motivation to use their expertise to help deliver Bluefors systems for cutting-edge research fields. If you are a skilled physicist, technician, engineer or business professional join our growth story! Read more about the currently open positions and requirements from our website bluefors.com and follow our social media #coolforprogress. We also welcome open applications.”\n\nBluefors is participating in Recruitment Speed Dating. They are most interested in hiring physics students."
+    }
   },
   {
     "id": 26,
     "name": "HiQ Finland Oy",
     "imgSrc": "companies/hiq.png",
     "websiteUrl": "https://hiqfinland.fi/",
-    "description": ""
+    "description": {
+      "fi": "“Me HiQ:lla yksinkertaistamme tulevaisuutta laadukkailla digitaalisilla ratkaisuilla. Kattavasta asiakaskunnastamme löytyy kansallisesti ja kansainvälisesti tunnettuja tekijöitä, joiden ansiosta pääsemme toteuttamaan mielenkiintoisia ja merkityksellisiä projekteja.\n\nMeillä arvot: tulokset, vastuu, yksinkertaisuus ja ilo ohjaavat kaikkea tekemistä. Matala hierarkia, joustava työkulttuuri ja itseohjautuvuuteen kannustaminen ovat meille tekijöitä, joiden ansiosta meitä hiqlaisia on Pohjoismaissa jo 1700 ja Suomessa noin 250. Pääkonttorimme sijaitsee Espoon Otaniemessä erinomaisten kulkuyhteyksien päässä ja pienempi sivutoimisto Helsingin keskustassa.”\n\nKiinnostaviksi aloiksi HiQ nimeää erityisesti matematiikan, tietojenkäsittelytieteen, tilastotieteen, fysiikan, kemian, maantieteen ja geologian.",
+      "en-US": "“Me HiQ:lla yksinkertaistamme tulevaisuutta laadukkailla digitaalisilla ratkaisuilla. Kattavasta asiakaskunnastamme löytyy kansallisesti ja kansainvälisesti tunnettuja tekijöitä, joiden ansiosta pääsemme toteuttamaan mielenkiintoisia ja merkityksellisiä projekteja.\n\nMeillä arvot: tulokset, vastuu, yksinkertaisuus ja ilo ohjaavat kaikkea tekemistä. Matala hierarkia, joustava työkulttuuri ja itseohjautuvuuteen kannustaminen ovat meille tekijöitä, joiden ansiosta meitä hiqlaisia on Pohjoismaissa jo 1700 ja Suomessa noin 250. Pääkonttorimme sijaitsee Espoon Otaniemessä erinomaisten kulkuyhteyksien päässä ja pienempi sivutoimisto Helsingin keskustassa.”\n\nKiinnostaviksi aloiksi HiQ nimeää erityisesti matematiikan, tietojenkäsittelytieteen, tilastotieteen, fysiikan, kemian, maantieteen ja geologian."
+    }
   },
   {
     "id": 27,
     "name": "Nitor",
     "imgSrc": "companies/nitor.png",
     "websiteUrl": "https://www.nitor.com/fi/tyopaikat",
-    "description": ""
+    "description": {
+      "fi": "“Nitor on Digitaalinen insinööritoimisto ja palkittu Suomen parhaaksi työpaikaksi vuosina 2018 ja 2019.\nNitorin lähes 200 Digitaalista insinööriä työskentelevät ohjelmistokehittäjinä, datatieteilijöinä ja suunnittelijoina kestävän digitaalisen kehityksen puolesta Helsingissä ja Tukholmassa. Nitorilla jokaisesta työkaverista voi olla ylpeä ja annamme työllemme ikitakuun.”\n\nKiinnostaviksi aloiksi Nitor nimeää fysiikan, matematiikan, tilastotieteen ja tietojenkäsittelytieteen.",
+      "en-US": "“Nitor on Digitaalinen insinööritoimisto ja palkittu Suomen parhaaksi työpaikaksi vuosina 2018 ja 2019.\nNitorin lähes 200 Digitaalista insinööriä työskentelevät ohjelmistokehittäjinä, datatieteilijöinä ja suunnittelijoina kestävän digitaalisen kehityksen puolesta Helsingissä ja Tukholmassa. Nitorilla jokaisesta työkaverista voi olla ylpeä ja annamme työllemme ikitakuun.”\n\nKiinnostaviksi aloiksi Nitor nimeää fysiikan, matematiikan, tilastotieteen ja tietojenkäsittelytieteen."
+    }
   },
   {
     "id": 28,
     "name": "Digital Goodie",
     "imgSrc": "companies/digital-goodie.png",
     "websiteUrl": "http://www.digitalgoodie.com/careers/",
-    "description": ""
+    "description": {
+      "fi": "“Jos olet joskus tilannut Alepan Kauppakassista tai Prismasta ruokaa kotiisi, olet jo saanut kosketuksen Digital Goodien rakentamiin palveluihin. Rakennamme ja tarjoamme ruuan verkkokauppa-alustaa alan suurimmille toimijoille Suomessa ja Euroopassa.\n\nMottomme “Goodie as you are” tiivistää tärkeimmän arvomme: ole sellainen kuin olet!”\n\nKiinnostaviksi aloiksi Digital Goodie nimeää erityisesti matematiikan ja tietojenkäsittelytieteen.",
+      "en-US": "“If you have ever ordered groceries on Alepa Kauppakassi or Prisma you have already been in touch with services built by Digital Goodie. We build and provide an online grocery platform for the largest operators on the market in Finland and Europe.\n\nOur motto “Goodie as you are” sums up our most important value: come as you are!“\n\nDigital Goodie is most interested in hiring mathematics and computer science students."
+    }
   },
   {
     "id": 29,
     "name": "Visma",
     "imgSrc": "companies/visma.png",
     "websiteUrl": "https://www.visma.fi/ura/",
-    "description": ""
+    "description": {
+      "fi": "“Visma on ketterä pohjoismainen ohjelmistotalo, joka sujuvoittaa ja digitalisoi liiketoimintaprosesseja. Asiantuntijamme auttavat kaikenkokoisia yrityksiä toimimaan fiksummin ohjelmistoratkaisujen ja IT-konsultoinnin avulla.\n\nArvostamme erityisesti hyvää asennetta sekä oppimiskykyä. Meillä työilmapiiri on rento, mutta teemme työmme rautaisella ammattitaidolla. Tavoitteemme on, että henkilöstö viihtyy ja nauttii työstään. Olemme kasvuyritys ja etsimme jatkuvasti erilaisia talentteja, jotka teknisen osaamisensa lisäksi ovat myös hyviä tyyppejä ja viihtyvät tiimityössä. Meillä työkaverit ja esimiehet ovat avuliaita ja jaamme osaamista puolin ja toisin.\n\nLisätietoja osoitteessa www.visma.fi/ura/”\n\nVisma on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista.",
+      "en-US": "“Visma on ketterä pohjoismainen ohjelmistotalo, joka sujuvoittaa ja digitalisoi liiketoimintaprosesseja. Asiantuntijamme auttavat kaikenkokoisia yrityksiä toimimaan fiksummin ohjelmistoratkaisujen ja IT-konsultoinnin avulla.\n\nArvostamme erityisesti hyvää asennetta sekä oppimiskykyä. Meillä työilmapiiri on rento, mutta teemme työmme rautaisella ammattitaidolla. Tavoitteemme on, että henkilöstö viihtyy ja nauttii työstään. Olemme kasvuyritys ja etsimme jatkuvasti erilaisia talentteja, jotka teknisen osaamisensa lisäksi ovat myös hyviä tyyppejä ja viihtyvät tiimityössä. Meillä työkaverit ja esimiehet ovat avuliaita ja jaamme osaamista puolin ja toisin.\n\nLisätietoja osoitteessa www.visma.fi/ura/”\n\nVisma on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista."
+    }
   },
   {
     "id": 30,
     "name": "Solita",
     "imgSrc": "companies/solita.png",
     "websiteUrl": "https://www.solita.fi/avoimet-tyopaikat/",
-    "description": ""
+    "description": {
+      "fi": "“Solita on suomalainen teknologia-, strategia- ja designyritys.\nValjastamme ihmisymmärryksen ja älykkäät teknologiaratkaisut palvelemaan parempaa elämää. Solita työllistää yli 800 strategisen konsultoinnin, palvelumuotoilun, digitaalisten palvelujen, AI- ja analytiikkaratkaisujen sekä pilvipalvelujen asiantuntijaa Helsingissä, Tampereella, Oulussa, Turussa, Lahdessa, Tallinnassa, Tukholmassa ja Münchenissa. Etsimme jatkuvasti kehittymishaluisia osaajia mm. ohjelmistokehitykseen, palvelumuotoiluun, data scienceen, datalla johtamiseen, integraatioihin, pilvipalveluihin sekä jatkuvien palveluiden operointiin. Avoimet työpaikat: https://www.solita.fi/avoimet-tyopaikat/\n\nSolita Akatemia toimii ponnahduslautana urallesi ja perehdytysmankelina Solitaan. Etsimme akatemiaan ennakkoluulottomia ja oppimishaluisia uusia kykyjä, joita yhdistää kiinnostus ohjelmistokehitystä, analytiikkaa, liiketoimintaa ja palvelumuotoilua kohtaan. Lisätietoja akatemiasta: www.solita.fi/akatemia“\n\nSolita on kiinnostunut erityisesti datatieteen, matematiikan, tietojenkäsittelytieteen ja tilastotieteen opiskelijoista.",
+      "en-US": "“Solita is a digital transformation company driven by data and human insight. We create culture, services and tech solutions that help us reinvent businesses and society for the better. Solita employs over 800 digital business specialists in Finland, Sweden, Estonia and Germany. Career opportunities: https://www.solita.fi/en/careers/\n\nSolita Academy acts as a jump start for your career and an induction to Solita’s culture as a workplace. The Academy will guide you in becoming a broad-minded multi-disciplinary expert and prepare you to work in the industry at Solita. https://www.solita.fi/en/academy/”\n\nSolita is most interested in hiring data science, mathematics, computer science and statistics students.\n\n"
+    }
   },
   {
     "id": 31,
     "name": "Puolustusvoimat",
     "imgSrc": "companies/puolustusvoimat.jpg",
     "websiteUrl": "https://puolustusvoimat.fi/tyo-ja-koulutus",
-    "description": ""
+    "description": {
+      "fi": "“Puolustusvoimien tehtävät ovat Suomen sotilaallinen puolustaminen, muiden viranomaisten tukeminen sekä kansainvälinen kriisinhallinta ja apu. Toimimme modernissa, monipuolisessa ja jatkuvasti muuttuvassa toimintaympäristössä. Puolustusvoimissa on noin 12 000 työntekijää, joista kolmasosa on siviilejä.\n\nTarjoamme tehtäviä mm. informaatioteknologian, tekniikan, logistiikan, talous- ja henkilöstöhallinnon, terveydenhuollon sekä koulutuksen asiantuntijoille eri puolella Suomea. Erityisen tyytyväisiä työntekijämme ovat työn merkitykselliseen sisältöön, oman työyhteisön ilmapiiriin sekä hyvään esimiestyöhön. Puolustusvoimat kannustaa henkilöstöä kehittämään omaa osaamistaan niin kouluttautumalla kuin hakeutumalla erilaisiin ja vaativampiin tehtäviin. Jokaisen työntekijän hyvinvointi on meille tärkeää.”\n\nPuolustusvoimat on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista.",
+      "en-US": "“Puolustusvoimien tehtävät ovat Suomen sotilaallinen puolustaminen, muiden viranomaisten tukeminen sekä kansainvälinen kriisinhallinta ja apu. Toimimme modernissa, monipuolisessa ja jatkuvasti muuttuvassa toimintaympäristössä. Puolustusvoimissa on noin 12 000 työntekijää, joista kolmasosa on siviilejä.\n\nTarjoamme tehtäviä mm. informaatioteknologian, tekniikan, logistiikan, talous- ja henkilöstöhallinnon, terveydenhuollon sekä koulutuksen asiantuntijoille eri puolella Suomea. Erityisen tyytyväisiä työntekijämme ovat työn merkitykselliseen sisältöön, oman työyhteisön ilmapiiriin sekä hyvään esimiestyöhön. Puolustusvoimat kannustaa henkilöstöä kehittämään omaa osaamistaan niin kouluttautumalla kuin hakeutumalla erilaisiin ja vaativampiin tehtäviin. Jokaisen työntekijän hyvinvointi on meille tärkeää.”\n\nPuolustusvoimat on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista."
+    }
   },
   {
     "id": 32,
     "name": "Lamia",
     "imgSrc": "companies/lamia.png",
     "websiteUrl": "https://lamia.fi/ura",
-    "description": "LAMIA - WE CREATE DIGITAL VALUE \n KOHTI HUOMISEN DIGITAALISUUTTA: PALVELUMUOTOILU, OHJELMISTOKEHITYS, PILVI, DATA \n Me Lamialla luomme asiakkaillemme uutta digitaalista liiketoimintaa sekä verkkokaupparatkaisuja sekä kehitämme nykyisiä ratkaisuja - aina strategiasta oivaltavaan palvelumuotoiluun sekä huipputeknologiasta ja ohjelmistokehityksestä data- ja analytiikkapalveluihin. Olemme asiakkaidemme strateginen kumppani digitaalisella transformaatiopolulla. Asiakkaitamme ovat esimerkiksi Särkänniemi, St1 ja Verifone. Olemme virallinen Google Cloud Platform -kumppani. \n ASENNE, AMMATTITAITO, AKTIIVISUUS: ARVOMME KUVAAVAT JOKAISTA LAMIALAISTA JA TAPAAMME TEHDÄ TÖITÄ \n Ketteristä työskentelytavoistamme on kitketty pois turha byrokratia, jotta kaikki energia voidaan keskittää olennaisimpaan eli työn tekemiseen. Kun löydämme meille oikeat lahjakkuudet, pidämme huolta siitä, että heille suunnitellut urapolut myös toteutuvat. Meillä viihdytään, mikä näkyy korkeana tyytyväisyytenä ja henkilöstön pysyvyytenä. Viihtyvyyttä tukevat upouusi toimisto Helsingin ydinkeskustassa, modernit työvälineet, hyvä työergonomia, kattava työterveyshuolto sekä puhelin- ja lounasetu, loistavaa työilmapiiriä unohtamatta. Lisäksi meillä on tarjolla kompensaatiomalleja, joilla palkitsemme sitoutumisesta yritykseen. \n Etsimme usein kasvuhaluisia osaajia eri palvelualueillemme: design/palvelumuotoilu, ohjelmistokehitys, pilvipalvelut, data- ja analytiikkapalvelut/koneoppiminen! \n lamia.fi"
+    "description": {
+      "fi": "“LAMIA - WE CREATE DIGITAL VALUE\n\nKOHTI HUOMISEN DIGITAALISUUTTA: PALVELUMUOTOILU, OHJELMISTOKEHITYS, PILVI, DATA\nMe Lamialla luomme asiakkaillemme uutta digitaalista liiketoimintaa sekä verkkokaupparatkaisuja sekä kehitämme nykyisiä ratkaisuja - aina strategiasta oivaltavaan palvelumuotoiluun sekä huipputeknologiasta ja ohjelmistokehityksestä data- ja analytiikkapalveluihin. Olemme asiakkaidemme strateginen kumppani digitaalisella transformaatiopolulla. Asiakkaitamme ovat esimerkiksi Särkänniemi, St1 ja Verifone. Olemme virallinen Google Cloud Platform -kumppani.\n\nASENNE, AMMATTITAITO, AKTIIVISUUS: ARVOMME KUVAAVAT JOKAISTA LAMIALAISTA JA TAPAAMME TEHDÄ TÖITÄ\nKetteristä työskentelytavoistamme on kitketty pois turha byrokratia, jotta kaikki energia voidaan keskittää olennaisimpaan eli työn tekemiseen. Kun löydämme meille oikeat lahjakkuudet, pidämme huolta siitä, että heille suunnitellut urapolut myös toteutuvat. Meillä viihdytään, mikä näkyy korkeana tyytyväisyytenä ja henkilöstön pysyvyytenä. Viihtyvyyttä tukevat upouusi toimisto Helsingin ydinkeskustassa, modernit työvälineet, hyvä työergonomia, kattava työterveyshuolto sekä puhelin- ja lounasetu, loistavaa työilmapiiriä unohtamatta. Lisäksi meillä on tarjolla kompensaatiomalleja, joilla palkitsemme sitoutumisesta yritykseen.\n\nEtsimme usein kasvuhaluisia osaajia eri palvelualueillemme: design/palvelumuotoilu, ohjelmistokehitys, pilvipalvelut, data- ja analytiikkapalvelut/koneoppiminen!\nlamia.fi”\n\nKiinnostavaksi alaksi Lamia nimeää erityisesti tietojenkäsittelytieteen.",
+      "en-US": "“LAMIA - WE CREATE DIGITAL VALUE\n\nKOHTI HUOMISEN DIGITAALISUUTTA: PALVELUMUOTOILU, OHJELMISTOKEHITYS, PILVI, DATA\nMe Lamialla luomme asiakkaillemme uutta digitaalista liiketoimintaa sekä verkkokaupparatkaisuja sekä kehitämme nykyisiä ratkaisuja - aina strategiasta oivaltavaan palvelumuotoiluun sekä huipputeknologiasta ja ohjelmistokehityksestä data- ja analytiikkapalveluihin. Olemme asiakkaidemme strateginen kumppani digitaalisella transformaatiopolulla. Asiakkaitamme ovat esimerkiksi Särkänniemi, St1 ja Verifone. Olemme virallinen Google Cloud Platform -kumppani.\n\nASENNE, AMMATTITAITO, AKTIIVISUUS: ARVOMME KUVAAVAT JOKAISTA LAMIALAISTA JA TAPAAMME TEHDÄ TÖITÄ\nKetteristä työskentelytavoistamme on kitketty pois turha byrokratia, jotta kaikki energia voidaan keskittää olennaisimpaan eli työn tekemiseen. Kun löydämme meille oikeat lahjakkuudet, pidämme huolta siitä, että heille suunnitellut urapolut myös toteutuvat. Meillä viihdytään, mikä näkyy korkeana tyytyväisyytenä ja henkilöstön pysyvyytenä. Viihtyvyyttä tukevat upouusi toimisto Helsingin ydinkeskustassa, modernit työvälineet, hyvä työergonomia, kattava työterveyshuolto sekä puhelin- ja lounasetu, loistavaa työilmapiiriä unohtamatta. Lisäksi meillä on tarjolla kompensaatiomalleja, joilla palkitsemme sitoutumisesta yritykseen.\n\nEtsimme usein kasvuhaluisia osaajia eri palvelualueillemme: design/palvelumuotoilu, ohjelmistokehitys, pilvipalvelut, data- ja analytiikkapalvelut/koneoppiminen!\nlamia.fi”\n\nKiinnostavaksi alaksi Lamia nimeää erityisesti tietojenkäsittelytieteen."
+    }
   },
   {
     "id": 33,
     "name": "Vala Group",
     "imgSrc": "companies/vala.png",
     "websiteUrl": "https://www.valagroup.com/fi/ura/",
-    "description": ""
+    "description": {
+      "fi": "“VALA Group on testiautomaatioon, laadunvarmistukseen ja laatulähtöiseen ohjelmistokehitykseen erikoistunut yritys. Visionamme on olla kestävästi onnellisin yritys, ja täten merkityksellisen työn ja onnellisuuden tavoittelu ovat meidän tärkeimpiä yksittäisiä tavoitteita. Uskomme, että onnellisen työpaikan tärkeimpiä elementtejä ovat merkityksellinen työ, toisista välittäminen ja empaattisuus sekä henkinen ja fyysinen hyvinvointi. “\n\nVALA on tavattavissa Rekry Speed Dating -ohjelmassa. Kiinnostaviksi aloiksi yritys nimeää erityisesti matematiikan, tietojenkäsittelytieteen ja tilastotieteen.",
+      "en-US": "“We are a software company, specialized in Software automation, quality assurance and quality-focused software development.\n\nVALA is a self-directed company, with a mission of being the happiest company striving for sustainable impact. We believe that we will reach this goal by focusing on comprehensive wellbeing and creating opportunities for meaningful work. “\n\nVALA is participating in Recruitment Speed Dating. They are most interested in hiring mathematics, computer science and statistics students."
+    }
   },
   {
     "id": 34,
     "name": "Relex",
     "imgSrc": "companies/relex.jpg",
     "websiteUrl": "https://careers.relexsolutions.com/en/",
-    "description": "RELEX Solutions is a fast-growing software company developing its own products that help retail companies plan and operate more efficiently. By accurately forecasting consumption of goods, we reduce inventory costs, increase availability and cut waste. To achieve this, we use our in-house built terabyte scale in-memory database, which stores tens of billions of rows of data. \n With more than 700 employees around the world, we work in small teams where everyone’s input is valued. We’re passionate about what we do, we like putting our skills to the test and we make sure we have fun during the process — because life is supposed to be fun! \n RELEX Solutions is most interested in hiring mathematics, computer science and statistics students."
+    "description": {
+      "fi": "“RELEX Solutions is a fast-growing software company developing its own products that help retail companies plan and operate more efficiently. By accurately forecasting consumption of goods, we reduce inventory costs, increase availability and cut waste. To achieve this, we use our in-house built terabyte scale in-memory database, which stores tens of billions of rows of data.\n\nWith more than 700 employees around the world, we work in small teams where everyone’s input is valued. We’re passionate about what we do, we like putting our skills to the test and we make sure we have fun during the process — because life is supposed to be fun!”\n\nRELEX Solutions is most interested in hiring mathematics, computer science and statistics students.",
+      "en-US": "“RELEX Solutions is a fast-growing software company developing its own products that help retail companies plan and operate more efficiently. By accurately forecasting consumption of goods, we reduce inventory costs, increase availability and cut waste. To achieve this, we use our in-house built terabyte scale in-memory database, which stores tens of billions of rows of data.\n\nWith more than 700 employees around the world, we work in small teams where everyone’s input is valued. We’re passionate about what we do, we like putting our skills to the test and we make sure we have fun during the process — because life is supposed to be fun!”\n\nRELEX Solutions is most interested in hiring mathematics, computer science and statistics students."
+    }
   },
   {
     "id": 35,
     "name": "Bisnode",
     "imgSrc": "companies/bisnode.png",
     "websiteUrl": "https://finland.bisnode.fi/bisnodesta/meista/ura-bisnodella/",
-    "description": "Bisnode on johtava ja edistyksellinen data- ja analytiikka-alan yritys, joka rakentaa valoisaa tulevaisuutta smart datan avulla. Yrityksessä työskentelee yli 2 100 intohimoista ja uteliasta työntekijää, jotka tekevät yhteistyötä yhteensä 19 Euroopan maassa. Bisnode auttaa yrityksiä ennustamaan asiakkaiden käyttäytymistä, hallitsemaan liiketoimintaan liittyvää riskiä ja löytämään vastauksia erilaisiin liiketoiminnallisiin kysymyksiin analytiikan ja scoring-mallien kautta. \n Bisnode on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut maantieteen, matematiikan, tietojenkäsittelytieteen ja tilastotieteen opiskelijoista."
+    "description": {
+      "fi": "“Bisnode on johtava ja edistyksellinen data- ja analytiikka-alan yritys, joka rakentaa valoisaa tulevaisuutta smart datan avulla. Yrityksessä työskentelee yli 2 100 intohimoista ja uteliasta työntekijää, jotka tekevät yhteistyötä yhteensä 19 Euroopan maassa. Bisnode auttaa yrityksiä ennustamaan asiakkaiden käyttäytymistä, hallitsemaan liiketoimintaan liittyvää riskiä ja löytämään vastauksia erilaisiin liiketoiminnallisiin kysymyksiin analytiikan ja scoring-mallien kautta.”\n\nBisnode on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut maantieteen, matematiikan, tietojenkäsittelytieteen ja tilastotieteen opiskelijoista.",
+      "en-US": "“Bisnode, a leading progressive data and analytics company in Europe, is building a brighter future using smart data. We have more than 2,100 passionate and curious employees who collaborate in 19 countries using analytics and scoring models to predict customer behavior, deliver remarkable insights, and ultimately find innovative solutions to enduring problems.”\n\nBisnode is participating in Recruitment Speed Dating. They are most interested in hiring geography, mathematics, computer science and statistics students."
+    }
   },
   {
     "id": 36,
     "name": "TX",
     "imgSrc": "companies/tx.jpg",
     "websiteUrl": "https://careers.tx.company",
-    "description": ""
+    "description": {
+      "fi": "“TX on sovelluskehitys ja -konsultointitalo, joka on erikoistunut desentraalisiin ratkaisuihin, kuten P2P-verkkoihin ja lohkoketjuteknologioihin. “\n\nTX on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista.",
+      "en-US": "“TX is an advisory and software development company specialising in the application of blockchain technology and decentralised data.\n\nWe are making technology of tomorrow accessible for clients today.\n\nOur goal is to develop solutions that truly empower industries, organisations and people by unlocking the value of data.”\n\nTX is participating in Recruitment Speed Dating. They are most interested in hiring computer science students."
+    }
   },
   {
     "id": 37,
     "name": "Alten",
     "imgSrc": "companies/alten.png",
     "websiteUrl": "https://www.alten.fi/en/#join-us",
-    "description": ""
+    "description": {
+      "fi": "",
+      "en-US": ""
+    }
   },
   {
     "id": 38,
     "name": "BCG",
     "imgSrc": "companies/bcg.png",
     "websiteUrl": "https://www.bcg.com/careers/roles.aspx",
-    "description": "BCG GAMMA - Making AI Real for Business \n We believe that competitive advantage exists at the intersection of data science, technology, people, and deep business expertise. \n To unlock true power, AI must be woven into processes and ways of working and applied where it really matters. Our talents as creators, inventors, and builders unlock the art of the possible by crafting and implementing fully customized, end-to-end, advanced analytic and AI solutions. \n We build solutions to radically transform the business performance of the world's most iconic companies in nine to twelve months; unleashing the power of large and complex data sets and fostering a culture of innovation and radical change. Our agile, self-funded, and AI-powered solutions ensure continuous improvement for our clients. We focus on enablement from day one, co-creating solutions while building assets and capabilities. \n We think big, start small, and scale fast - constructing end-to-end, fit-for-purpose solutions that our clients own and integrate into their unique technology stack with full transparency into components, services, and code. \n We are made of a special alloy, the GAMMA alloy: passionate and inventive top-notch data scientists and technologists with sharp business minds. \n It’s business with data science and technology built in—an analytics powerhouse with a business backbone. \n Speed, scale, security. Smart. BCG GAMMA. \n BCG is most interested in hiring physics, geophysics, chemistry, mathematics, computer science and statistics students"
+    "description": {
+      "fi": "“BCG GAMMA - Making AI Real for Business\n\nWe believe that competitive advantage exists at the intersection of data science, technology, people, and deep business expertise.\nTo unlock true power, AI must be woven into processes and ways of working and applied where it really matters. Our talents as creators, inventors, and builders unlock the art of the possible by crafting and implementing fully customized, end-to-end, advanced analytic and AI solutions.\n\nWe build solutions to radically transform the business performance of the world's most iconic companies in nine to twelve months; unleashing the power of large and complex data sets and fostering a culture of innovation and radical change. Our agile, self-funded, and AI-powered solutions ensure continuous improvement for our clients. We focus on enablement from day one, co-creating solutions while building assets and capabilities.\nWe think big, start small, and scale fast - constructing end-to-end, fit-for-purpose solutions that our clients own and integrate into their unique technology stack with full transparency into components, services, and code.\n\nWe are made of a special alloy, the GAMMA alloy: passionate and inventive top-notch data scientists and technologists with sharp business minds.\nIt’s business with data science and technology built in—an analytics powerhouse with a business backbone.\nSpeed, scale, security. Smart. BCG GAMMA.”\n\nBCG is most interested in hiring physics, geophysics, chemistry, mathematics, computer science and statistics students.",
+      "en-US": "“BCG GAMMA - Making AI Real for Business\n\nWe believe that competitive advantage exists at the intersection of data science, technology, people, and deep business expertise.\nTo unlock true power, AI must be woven into processes and ways of working and applied where it really matters. Our talents as creators, inventors, and builders unlock the art of the possible by crafting and implementing fully customized, end-to-end, advanced analytic and AI solutions.\n\nWe build solutions to radically transform the business performance of the world's most iconic companies in nine to twelve months; unleashing the power of large and complex data sets and fostering a culture of innovation and radical change. Our agile, self-funded, and AI-powered solutions ensure continuous improvement for our clients. We focus on enablement from day one, co-creating solutions while building assets and capabilities.\nWe think big, start small, and scale fast - constructing end-to-end, fit-for-purpose solutions that our clients own and integrate into their unique technology stack with full transparency into components, services, and code.\n\nWe are made of a special alloy, the GAMMA alloy: passionate and inventive top-notch data scientists and technologists with sharp business minds.\nIt’s business with data science and technology built in—an analytics powerhouse with a business backbone.\nSpeed, scale, security. Smart. BCG GAMMA.”\n\nBCG is most interested in hiring physics, geophysics, chemistry, mathematics, computer science and statistics students."
+    }
   },
   {
     "id": 39,
     "name": "Columbia Road",
     "imgSrc": "companies/columbiaRoad.png",
     "websiteUrl": "https://www.columbiaroad.com/careers",
-    "description": ""
+    "description": {
+      "fi": "“Columbia Road (www.columbiaroad.com) on digitaaliseen kaupankäyntiin ja kasvukonsultointiin keskittyvä yritys, joka auttaa yrityksiä kasvattamaan liiketoimintaansa digitalisaation ajassa. Toimimme Euroopanlaajuisesti osana 450 hengen Futurice Groupia. Columbia Roadin asiakkaita ovat kansainväliset brändit, B2B-yritykset sekä startupit.\n\nIhmiset ovat aina Columbia Roadin toiminnan keskiössä, oli sitten kyse liiketoiminnasta tai työntekijöistämme. Rakennamme vahvoja ja pitkäkestoisia suhteita asiakkaidemme kanssa, minkä vuoksi on olennaisen tärkeää myös tehdä samoin työntekijöidemme suhteen.”\n\nColumbia Road on tavattavissa Rekry Speed Dating -ohjelmassa. Kiinnostaviksi aloiksi yritys nimeää erityisesti matematiikan, tietojenkäsittelytieteen ja tilastotieteen.",
+      "en-US": "“Columbia Road (www.columbiaroad.com) is a digital growth consultancy focusing on digital commerce and marketing. We help businesses across Europe to increase their revenue coming from digital channels. Columbia Road is part of 700 people strong Futurice Group with international brands, B2B companies and startups as its clients.\n\nColumbia Road puts people first in both business and with our employees. We build strong, lasting relationships with our clients, so it’s crucial that we do the same with our employees.”\n\nColumbia Road is participating in Recruitment Speed Dating. They are most interested in hiring mathematics, computer science and statistics students."
+    }
   },
   {
     "id": 40,
     "name": "Comiq",
     "imgSrc": "companies/comiq.jpg",
     "websiteUrl": "https://comiq.fi/rekrytointi/",
-    "description": ""
+    "description": {
+      "fi": "",
+      "en-US": ""
+    }
   },
   {
     "id": 41,
-    "name": "ilmatieteenlaitos",
+    "name": "Ilmatieteen laitos",
     "imgSrc": "companies/ilmatieteenlaitos.png",
     "websiteUrl": "https://en.ilmatieteenlaitos.fi/personnel-and-jobs",
-    "description": ""
+    "description": {
+      "fi": "“Tehtävämme on varmistaa, etteivät sää tai olosuhteet yllätä ketään – olipa kyse olosuhteista maalla, merellä, ilmassa tai avaruudessa, lähitunteina tai tulevaisuudessa. Tämän tavoitteen eteen meillä työskentelee päivittäin noin 700 eri alojen osaajaa.\n\nTeemme tutkimusta ja havaintoja ymmärtääksemme yhä paremmin ilmakehän, merien ja avaruuden vaikutuksen olosuhteisiimme. Tähän pohjautuen kehitämme palveluja, jotka ovat tärkeitä niin suurelle yleisölle, liikenteelle, elinkeinoelämälle kuin medialle ja viranomaisillekin.\n\nMillaista osaamista kaipaamme?\n\nMeteorologiaa opiskelleiden lisäksi työntekijämme ovat taustaltaan mm. kemistejä, fyysikoita, matemaatikoita, insinöörejä ja IT-asiantuntijoita. Meillä on vuosittain avoinna myös lukuisia harjoittelu- ja kesätyöpaikkoja eri aloilta.”",
+      "en-US": "“Our objective is to ensure that weather or conditions don’t take us by surprise – whether inland, at sea or on air, over the next few hours or far ahead in the future. At FMI, 700 specialists from different fields are working every day to achieve this goal.\n\nWe conduct research and make observations constantly to better understand the effects of the atmosphere, seas and space on our conditions. We develop services that are important to the general public, transportation, business, and media and authorities.\n\nWhat kind of expertise are we looking for?\n\nBesides people who have studied meteorology at university, our personnel include chemists, physicists, mathematicians and engineers. We also have every year a number of trainee and summer employee positions open from different fields.”"
+    }
   },
   {
     "id": 42,
     "name": "Eficode",
     "imgSrc": "companies/eficode.png",
     "websiteUrl": "https://www.eficode.com/careers",
-    "description": ""
+    "description": {
+      "fi": "”Me Eficodella rakennamme ohjelmistokehityksen ja digitaalisten palveluiden tulevaisuutta yli 300 DevOps-, ohjelmisto-, automaatio- ja design-ammattilaisten voimin. Kotikuntamme on Helsinki, mutta Eficode toimistoja löytyy nykyään myös muista Pohjoismaista, Alankomaista sekä Saksasta.\n\nOlemme konsultoineet asiakkaitamme jo 15 vuoden ajan, ja asemamme designin ja automaation edelläkävijänä antaa meille erinomaiset edellytykset jatkaa DevOps muutosprojektien läpivientiä, kehittää saumatonta käyttäjäkokemusta ja tarjota mielenkiintoisia urapolkuja Eficodelaisille.”\n\nEficode on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista.",
+      "en-US": "”With over 300 experts on board, at Eficode we believe the future of software development is fun, creative, and automated! Eficode is a DevOps, software, and design consultancy with offices in Finland, Sweden, Denmark, Norway, the Netherlands, and Germany.\n\nFor over a decade, Eficode has been helping companies build software more effectively. Our leading-edge automation and UX expertise makes us uniquely equipped to complete DevOps transformations, create seamless UX, and build exciting career paths for Eficodeans.”\n\nEficode is most interested in hiring computer science students."
+    }
   },
   {
     "id": 43,
     "name": "Supermetrics",
     "imgSrc": "companies/supermetrics.png",
     "websiteUrl": "https://careers.supermetrics.com/",
-    "description": "Supermetrics on nopeasti kasvava data pipeline-yritys, jonka markkinointiraportoinnin automaatiotuote on yksi maailmanlaajuisesti rakastetuimmista. Me ollaan oikeasti kansainvälisiä - tuotteillamme on >400t käyttäjää yli 120 maassa (alle 1% Suomessa) ja 20 eri kansalaisuutta 60-henkisessä tiimissämme. \n Supermetrics on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut matematiikan ja tietojenkäsittelytieteen opiskelijoista."
+    "description": {
+      "fi": "“Supermetrics on nopeasti kasvava data pipeline-yritys, jonka markkinointiraportoinnin automaatiotuote on yksi maailmanlaajuisesti rakastetuimmista. Me ollaan oikeasti kansainvälisiä - tuotteillamme on >400t käyttäjää yli 120 maassa (alle 1% Suomessa) ja 20 eri kansalaisuutta 60-henkisessä tiimissämme ♥“\n\nSupermetrics on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut matematiikan ja tietojenkäsittelytieteen opiskelijoista.",
+      "en-US": "“Supermetrics is a rapidly growing data pipeline company with some of the most loved marketing reporting automation products worldwide. We're truly international, with >400k users from over 120 countries (lees than 1% from Finland) and 20 different nationalities in our 60 people strong team ♥”\n\nSupermetrics is participating in Recruitment Speed Dating. They are most interested in hiring physics, mathematics and computer science students."
+    }
   },
   {
     "id": 44,
     "name": "Tilastokeskus",
     "imgSrc": "companies/tilastokeskus.png",
     "websiteUrl": "https://www.stat.fi/ajk/tyopaikat.html",
-    "description": ""
+    "description": {
+      "fi": "“Tilastokeskuksessa käsitellään ja yhdistellään eri puolella yhteiskuntaa syntyviä tietolähteitä, ja jalostetaan niistä tuotteita ja palveluita tiedon käyttäjille. Tehtävänämme on tuoda luotettavat ja ajantasaiset tilastot ja tiedot asiakkaiden hyödyksi ja yhteiskunnalliseen keskusteluun. Toimimme monissa kansallisissa ja kansainvälisissä tietoekosysteemeissä ja yhteistyöverkostoissa ja haluamme tehdä parhaamme, jotta Suomen tulevaisuutta voidaan rakentaa tiedon varaan. Näissä tehtävissämme tarvitsemme monipuolista osaamista.\n\nMeillä työskentelee 800 asiantuntijaa erilaisilla koulutustaustoilla, mm. yhteiskunta-, kauppa- sekä matemaattis- ja luonnontieteen aloilta. Meitä yhdistää kiinnostus yhteiskunnallisesti merkittävään tietoon sekä sen tuottamiseen laadukkaasti. Tavoitteenamme on olla jatkuvasti oppiva työyhteisö, joka kannustaa jokaista oman osaamisensa uudistamiseen. Asiantuntijatyössä työn sisällöt ja tekemisen tavat muuttuvat; näiden kehittämiseen tartumme yhdessä ideoiden ja kokeillen. Teemme laajaa yhteistyötä muiden organisaatioiden kanssa ja tarjoamme mahdollisuuksia monialaiseen verkosto- ja tiimityöhön, myös kansainvälisesti.”\n\nTilastokeskus on erityisesti kiinnostunut maantieteen, tietojenkäsittelytieteen ja tilastotieteen opiskelijoista.",
+      "en-US": "“Statistics Finland processes and combines data sources generated throughout society. These are processed into products and services for data users. Our task is to bring reliable and up-to-date statistics and information for the benefit of customers and into social debate. We operate in many national and international information ecosystems and cooperation networks and we want to do our best in order to help build Finland’s future on information. We need versatile know-how to produce information and statistics.\n\nWe employ 800 experts with various educational backgrounds, e.g. graduates in social sciences, economics and science. We are united by an interest in socially meaningful information and producing it well. Our aim is to be a continuously learning work community that encourages everyone to renew their competences. The content of work and ways of working are changing in expert work; we develop these together through brainstorming and experimenting. We cooperate extensively with other organisations and offer opportunities for diversified networking and team work also internationally.”\n\nStatistics Finland are especially interested in hiring geography, computer science and statistics students."
+    }
   },
   {
     "id": 45,
     "name": "Helsinki",
     "imgSrc": "companies/helsinki.png",
     "websiteUrl": "https://www.erekryhelsinki.fi/OpenJobs.asp?L=1&NODATA=1&Z=H&IE=2",
-    "description": ""
+    "description": {
+      "fi": "",
+      "en-US": ""
+    }
   },
   {
     "id": 46,
     "name": "Wapice",
     "imgSrc": "companies/wapice.png",
     "websiteUrl": "https://www.wapice.com/jobs",
-    "description": ""
+    "description": {
+      "fi": "“Wapice on suomalainen täyden palvelun ohjelmistotalo. Ohjelmistoratkaisumme ovat toimialansa johtavien teollisuusyritysten käytössä ympäri maailmaa. Digitalisoimme asiakkaidemme liiketoimintaprosessit tuotantoketjun alusta loppuun, anturielektoniikasta digitalisoituihin pilvipalveluihin. Digitalisointiketjumme ulottuu liiketoiminnan kaikille osa-alueille sisältäen myynnin, tuotekehityksen, tuotteiden ylläpito- ja huoltopalvelut sekä lopulta kokonaisten uusien digitaalisten liiketoimintakonseptien kehittämisen. Liiketoimintamme menestys perustuu jatkuvaan teknologia-tutkimukseen ja innovointiin.\n\nVoit katsoa lisätietoa rekrytoinneistamme osoitteesta https://www.wapice.com/fi/tyopaikat”\n\nKiinnostaviksi aloiksi Wapice nimeää erityisesti matematiikan, tietojenkäsittelytieteen ja tilastotieteen.",
+      "en-US": "“Wapice is a Finnish full-service software company whose solutions are used by leading industrial companies around the world. We digitalize our clients’ business processes from the beginning to the end of the production chain, from sensor electronics to cloud services. We provide a digitalisation transformation for all areas of business including sales, product development, product maintenance and servicing, and ultimately the development of entire new digital business concepts. Our business success is based on continuous technology development and innovations.\n\nYou can find more information about our recruitments from: https://www.wapice.com/jobs”\n\nWapice is most interested in hiring mathematics, computer science and statistics students."
+    }
   },
   {
     "id": 47,
-    "name": "SoftwarePoint",
+    "name": "Software Point",
     "imgSrc": "companies/SoftwarePoint.jpg",
     "websiteUrl": "https://softwarepoint.com/careers",
-    "description": ""
-  },
-  {
-    "id": 48,
-    "name": "RDvelho",
-    "imgSrc": "companies/rdvelho.jpg",
-    "websiteUrl": "https://joinus.rdvelho.com/?_ga=2.3774137.885004269.1571040522-244889611.1571040522",
-    "description": ""
+    "description": {
+      "fi": "“Software Point on pohjoismaiden johtava, laboratorioiden toiminnanohjausratkaisuihin (LIMS) keskittynyt ohjelmistoyritys. Meillä on yli 35 vuoden kokemus LIMS-toimituksista. Työllistämme yli 100 laboratoriotiedonhallinnan ammattilaista. Palvelemme asiakkaitamme paikallisesti paikallisella kielellä ja tarjoamme asiantuntijapalveluita LIMS-ratkaisun koko elinkaarelle: kehityksestä ja käyttöönotosta koulutukseen, tukeen ja konsultointiin.\n\nOlemme toimittaneet innovatiivisia LIMS-ratkaisuja suurille ja pienille laboratorioille yksityiselle ja julkiselle sektorille mm. seuraavilla toimialoilla: lääketeollisuus, terveydenhuolto, bioteknologia, energia, vesihuolto ja ympäristönsuojelu, elintarvike, puunjalostus, pakkaus, metalli, kemia ja biopankit. Asiakkaamme edustavat merkittäviä tuotemerkkejä ja luotettavia viranomaisia, jotka tunnetaan korkealaatuisista tutkimus- ja tuotekehitystoiminnoista, tuotteen laadunvarmistuksesta ja analyysipalveluista.”\n\nKiinnostaviksi aloiksi Software Point nimeää kemian, matematiikan ja tietojenkäsittelytieteen.",
+      "en-US": "“Software Point is the leading Laboratory Information Management System (LIMS) company in Northern Europe. We have delivered innovative LIMS and biobank solutions to more than 500 big and small laboratories, in public and private sectors, in virtually all industries including, for example, healthcare, pharmaceutical, biotech, energy, environmental, food, forest, packaging, steel and chemical.\n\nOur customers represent distinguished brands and trusted authorities who are known for their top-notch R&D, manufacturing, and analytical services. Software Point employs 100 dedicated experts with comprehensive IT and laboratory background, plus an excellent customer service attitude. We have five offices in the Nordic countries, and together with the LabVantage Group we provide global LIMS expertise.”\n\nSoftware Point is most interested in hiring mathematics, chemistry and computer science students."
+    }
   },
   {
     "id": 49,
     "name": "Dream Broker",
     "imgSrc": "companies/DB.jpg",
     "websiteUrl": "https://dreambroker.com/careers/",
-    "description": ""
+    "description": {
+      "fi": "“Dream Broker on suomalainen online-video-ohjelmistoyritys ja yksi Euroopan nopeimmin kasvavista teknologiayrityksistä. Yrityksen visiona on mullistaa yritysviestintä hauskalla, luonnollisella ja tuottavalla tavalla, videoilla. Dream Brokerilla on yli 800 yritysasiakasta ja se työllistää yli 100 henkilöä Pohjoismaissa, Hollannissa ja Saksassa.\n\nDream Broker on tullut palkituksi useita kertoja innovatiivisuudestaan ja kasvustaan. Dream Broker saavutti ensimmäisen sijan Deloitte Technology Fast 50 Finland -kilpailussa vuonna 2012 ja kolmannen sijan samassa kilpailussa 2013. Samana vuonna Tietoviikko valitsi yhtiön vuoden kasvuyritykseksi ja vuonna 2016 julkaistussa videonjakelupalveluiden vertailussa lehti valitsi Dream Brokerin online-video-ohjelmiston oman kategoriansa parhaaksi korkeimmilla pisteillä. Dream Broker sai myös Red Herring Top 100 Europe -palkinnon vuonna 2013. Vuosien 2016, 2017 ja 2018 aikana yhtiö on sijoittunut Suomen 250 suurimman IT-yhtiön joukkoon.\n\nYrityksellä on toimistot Helsingissä, Turussa, Tukholmassa, Kööpenhaminassa, Oslossa, Amsterdamissa ja Berliinissä. Dream Broker on yksi harvoista palveluntarjoajista, jolla on kyky tarjota aidosti kyberturvallista videoviestintää. Lisäksi, Dream Broker toimii itsenäisesti ja on ollut yksityisessä omistuksessa perustamisvuodesta 2007 lähtien. Dream Broker korostaa kaikessa toiminnassaan kestävyyttä, sosiaalista vastuuta ja hyviin arvoihin perustuvaa liiketoimintaa.”\n\nDream Broker on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista.",
+      "en-US": "“Dream Broker is a Finnish online video software company and is one of the fastest growing technology companies in Europe. The vision is to revolutionize communication in a fun, natural and productive way, with videos. Dream Broker has over 800 loyal business customers and over 100 employees in the Nordics, The Netherlands and Germany.\n\nDream Broker has been awarded multiple times for its innovativeness and growth. Dream Broker won Deloitte Fast 50 Finland competition in 2012. In 2013, Dream Broker held the 3rd position, and was selected and recognized as a Red Herring Top 100 Europe company. In 2013, Dream Broker was selected “Growth Company of the Year” by Tietoviikko, an authoritative IT newspaper in Finland. And in 2016 in its video distribution services review, Tietoviikko ranked Dream Broker’s online video software as best in its own class, nominating it with a highest score. During the years 2016, 2017 and 2018, Dream Broker has been included among the Top 250 IT companies in Finland.\n\nDream Broker has offices in Helsinki, Turku, Stockholm, Copenhagen, Oslo, Amsterdam and Berlin. Dream Broker is one of the rarest providers that can offer truly cyber secure video communication software. Furthermore, Dream Broker is independent and under private ownership since its establishment in 2007. Dream Broker highlights sustainability, social responsibility and business ethics in all its operations.”\n\nDream Broker is participating in Recruitment Speed Dating. They are most interested in hiring computer science students."
+    }
   },
   {
     "id": 50,
     "name": "Solteq",
     "imgSrc": "companies/solteq.jpg",
     "websiteUrl": "https://ura.solteq.com/",
-    "description": ""
+    "description": {
+      "fi": "“Solteq on pohjoismainen IT-palveluiden ja ohjelmistoratkaisujen tarjoaja, joka on erikoistunut liiketoiminnan digitalisaatioon sekä toimialakohtaisiin ohjelmistoihin.\nYhteisenä tavoitteenamme on tehdä huomisesta parempaa yksinkertaistamalla digitaalista maailmaa. Ratkaisu ja työkalu kerrallaan.\n\nSolteqlaisena työskentelet digitaalisen liiketoiminnan huippuasiantuntijoiden rinnalla kotimaisissa ja globaaleissa asiakasprojekteissa. Tarjoamme sinulle ison ja perinteikkään yrityksen vakauden, ketterästi kehittyvän yrityskulttuurin ja mahtavan työporukan. Solteq rakentuu työntekijöiden ehdoilla, jotta voimme ylittää itsemme kerta toisensa jälkeen.\n\nKuudessa maassa työskentelevien yli 600 osaajan voimin toimimme pääosin Pohjoismaissa. Kasvamme ja kansainvälistymme jatkuvasti, joten kanssamme pääset varmasti kehittämään osaamistasi ja siirtymään halutessasi uusiin rooleihin.”\n\nSolteq on erityisesti kiinnostunut tietojenkäsittelytieteen opiskelijoista.",
+      "en-US": "“Solteq is a Nordic provider of IT services and software solutions specializing in the digitalization of business and industry-specific software. The key sectors in which we have long term experience include retail, industry, energy and services. Our mission is to simplify the digital world to make a better tomorrow.\n\nWe are an insightful and dedicated team of experts. We are passionate and humble listeners, driven by the desire for the best customer understanding. We make customer success stories with remarkable experiences and solutions that deliver lasting value.\nOur over 600 experts, who work in six countries, develop and implement solutions for clients mainly in the Nordic countries.”\n\nSolteq is especially interested in hiring computer science students."
+    }
   },
   {
     "id": 51,
-    "name": "SSF",
+    "name": "SSF + RD Welho",
     "imgSrc": "companies/ssf.jpg",
     "websiteUrl": "https://www.ssf.fi/careers/",
-    "description": ""
+    "description": {
+      "fi": "“Space Systems Finland ja RD Velho ovat yhdistyneet. Palkkaamme ohjelmisto-, elektroniikka ja mekaniikkasuunittelijoita hankkeisiimme. Työskentelemme mm. avaruus-, lääkelaite- ja koneteollisuudessa.”\n\nSSF + RD Velho on tavattavissa Rekry Speed Dating -ohjelmassa. Yritys on erityisesti kiinnostunut fysiikan, matematiikan, meteorologian, tietojenkäsittelytieteen, tilastotieteen ja tähtitieteen opiskelijoista.",
+      "en-US": "“Space Systems Finland and RD Velho have joined forces. We hire software engineers, electronic and mechanical designers. We work with customers in space, medical devices and machinery domains.”\n\nSSF + RD Velho is participating in Rekry Speed Dating. They are most interested in hiring physics, mathematics, meteorology, computer science, statistics and astronomy students."
+    }
   },
   {
     "id": 52,
     "name": "Beneq",
     "imgSrc": "companies/Beneq.png",
     "websiteUrl": "https://careers.beneq.com/",
-    "description": ""
+    "description": {
+      "fi": "",
+      "en-US": ""
+    }
   },
   {
     "id": 53,
     "name": "EY",
     "imgSrc": "companies/ey.png",
     "websiteUrl": "https://www.ey.com/fi/fi/careers",
-    "description": ""
+    "description": {
+      "fi": "",
+      "en-US": ""
+    }
   },
   {
     "id": 54,
     "name": "Helsingin Yliopisto",
     "imgSrc": "companies/hy.jpg",
     "websiteUrl": "https://www.helsinki.fi/fi/yliopisto/ura-helsingin-yliopistossa",
-    "description": ""
+    "description": {
+      "fi": "",
+      "en-US": ""
+    }
   },
   {
     "id": 55,
     "name": "Neuroflux",
     "imgSrc": "companies/neuroflux.svg",
     "websiteUrl": "https://www.neuroflux.fi/career.html",
-    "description": ""
+    "description": {
+      "fi": "",
+      "en-US": ""
+    }
   }
 ]
