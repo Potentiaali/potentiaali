@@ -231,7 +231,7 @@ const schedule = [
   },
   {
     id: 10,
-    companyName: "",
+    companyName: "HY Urapalvelut",
     location: "Exactum B121",
     title: {
       fi: "HY Urapalvelut: Harjoitteluinfo",
@@ -276,16 +276,16 @@ const schedule = [
     link: "",
     startTime: utcToZonedTime(new Date(2019, 11, 14, 14, 0), "Europe/Helsinki"),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 15, 0), "Europe/Helsinki"),
-    hideDetails: true,
+    hideDetails: false,
     hideTime: false
   },
   {
     id: 12,
-    companyName: "",
+    companyName: "TE-toimisto",
     location: "Exactum B121",
     title: {
-      fi: "Workshop: Working in Finland as an International Student",
-      "en-US": "Workshop: Working in Finland as an International Student"
+      fi: "Working in Finland as an International Student",
+      "en-US": "Working in Finland as an International Student"
     },
     description: {
       fi: "Working in Finland as an International Student",
@@ -300,7 +300,7 @@ const schedule = [
     link: "",
     startTime: utcToZonedTime(new Date(2019, 11, 14, 13, 0), "Europe/Helsinki"),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 14, 0), "Europe/Helsinki"),
-    hideDetails: true,
+    hideDetails: false,
     hideTime: false
   },
   {
@@ -416,7 +416,7 @@ In addition to the similar data analysis methods, risk management and scientific
       "Europe/Helsinki"
     ),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 15, 0), "Europe/Helsinki"),
-    hideDetails: true,
+    hideDetails: false,
     hideTime: false
   },
   {
@@ -475,7 +475,7 @@ In addition to the similar data analysis methods, risk management and scientific
       "Europe/Helsinki"
     ),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 16, 0), "Europe/Helsinki"),
-    hideDetails: true,
+    hideDetails: false,
     hideTime: false
   },
   {
@@ -483,8 +483,8 @@ In addition to the similar data analysis methods, risk management and scientific
     companyName: "Futurice",
     location: "Exactum B123",
     title: {
-      fi: "Futurice: The Art of Side Projects",
-      "en-US": "Futurice: The Art of Side Projects"
+      fi: "The Art of Side Projects",
+      "en-US": "The Art of Side Projects"
     },
     description: {
       fi: "",

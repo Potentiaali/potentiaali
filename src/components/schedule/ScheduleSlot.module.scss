@@ -60,25 +60,22 @@
 }
 
 ul.slot-info {
+  width: 100%;
   display: grid;
-  grid-template-columns: auto auto auto;
-  @include desktop {
-    grid-template-columns: auto auto;
-  }
-  @include tablet {
-    grid-template-columns: auto auto;
-  }
+  grid-template-columns: repeat(auto-fill, 1fr);
   list-style-type: none;
   li {
+    white-space: nowrap;
     align-self: center;
     justify-self: left;
     &:first-child {
+      white-space: pre-wrap;
       padding-top: 0;
       grid-column-start: span 3;
-      @include desktop {
+      @include tablet {
         grid-column-start: span 2;
       }
-      @include tablet {
+      @include mobile {
         grid-column-start: span 2;
       }
     }
