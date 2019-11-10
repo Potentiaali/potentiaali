@@ -4,7 +4,7 @@ import { Geophysics } from "./subjects/Geophysics";
 import { Meteorology } from "./subjects/Meteorology";
 import { Geology } from "./subjects/Geology";
 import { Geography } from "./subjects/Geography";
-import { Astrology } from "./subjects/Astrology";
+import { Astronomy } from "./subjects/Astronomy";
 import { Chemistry } from "./subjects/Chemistry";
 import { Statistics } from "./subjects/Statistics";
 import { Mathematics } from "./subjects/Mathematics";
@@ -27,7 +27,7 @@ const SubjectsPage = () => {
         <Meteorology />
         <ComputerScience />
         <Statistics />
-        <Astrology />
+        <Astronomy />
       </section>
     </>
   );

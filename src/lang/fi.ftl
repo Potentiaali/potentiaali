@@ -106,9 +106,9 @@ average-per-year = Vuosittainen keskiarvo
 back-to-schedule = Takaisin aikatauluun
 enrollment-link = Voit ilmoittautua tähän tapahtumaan. Ilmoittaudu painamalla tätä linkkiä.
 subjects-page-title-text = Aineiden esittely
-astrology-title-text = Tähtitiede
+astronomy-title-text = Tähtitiede
 subjects-introduction = Yleinen esittely
-astrology-introduction-text = Tähtitiede tutkii universumia fysikaalisin keinoin. Alan opiskelija omaa
+astronomy-introduction-text = Tähtitiede tutkii universumia fysikaalisin keinoin. Alan opiskelija omaa
         laajan osaamisen, johon sisältyy mm. matematiikka, ohjelmointi,
         tilastolliset menetelmät sekä kyky käsitellä monimutkaisia ongelmia.
         Helsingin Yliopistossa tutkitaan universumia kaikilla skaaloilla,
@@ -116,7 +116,7 @@ astrology-introduction-text = Tähtitiede tutkii universumia fysikaalisin keinoi
         lähiavaruuden ilmiöihin sekä asteroidien tuntemiseen, alueet joiden
         merkitys suurenee tulevaisuudessa.
 work-descriptions-text = Tittelit
-astrology-researcher-title-text = Tutkija
+astronomy-researcher-title-text = Tutkija
 schedule-slot-details = Lisätiedot
 back-to-company-listing = Takaisin yrityslistaukseen
 at-clock = klo

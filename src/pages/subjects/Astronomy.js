@@ -2,14 +2,14 @@ import React from "react";
 import { Accordion } from "../../components/accordion/Accordion";
 import { Localized } from "fluent-react/compat";
 
-export const Astrology = () => (
+export const Astronomy = () => (
   <Accordion
-    title={<Localized id="astrology-title-text">Tähtitiede</Localized>}
+    title={<Localized id="astronomy-title-text">Tähtitiede</Localized>}
   >
     <h5>
       <Localized id="subjects-introduction">Yleinen esittely</Localized>
     </h5>
-    <Localized id="astrology-introduction-text">
+    <Localized id="astronomy-introduction-text">
       <p>
         Tähtitiede tutkii universumia fysikaalisin keinoin. Alan opiskelija omaa
         laajan osaamisen, johon sisältyy mm. matematiikka, ohjelmointi,
@@ -25,11 +25,11 @@ export const Astrology = () => (
     </Localized>
     <Accordion
       title={
-        <Localized id="astrology-researcher-title-text">Tutkija</Localized>
+        <Localized id="astronomy-researcher-title-text">Tutkija</Localized>
       }
       noShadow
     >
-      <Localized id="astrology-researcher-description-text">
+      <Localized id="astronomy-researcher-description-text">
         Yksi tähtitieteilijän uran luonnollisin loppupiste on tutkija.
         Ammattitutkijaksi voi ryhtyä vasta tohtorintutkinnon saatuaan, mutta jo
         kandivaiheessa tähtitieteen opiskelijat kesätöiden kautta saavat
@@ -41,11 +41,11 @@ export const Astrology = () => (
     </Accordion>
     <Accordion
       title={
-        <Localized id="astrology-programmer-title-text">Koodaaja</Localized>
+        <Localized id="astronomy-programmer-title-text">Koodaaja</Localized>
       }
       noShadow
     >
-      <Localized id="astrology-programmer-description-text">
+      <Localized id="astronomy-programmer-description-text">
         Alalla tarvittavien koodaustaitojen ansiosta tähtitieteilijät usein
         suuntaavat koodausalalle. Tähtitieteilijöitä löytyy mm. pelifirmoista,
         sekä pankkialalta, riskianalyysin tutkimuksesta, sekä big data-aloilta.
@@ -55,13 +55,13 @@ export const Astrology = () => (
     </Accordion>
     <Accordion
       title={
-        <Localized id="astrology-satellite-and-space-companies-title-text">
+        <Localized id="astronomy-satellite-and-space-companies-title-text">
           Satelliitti- ja avaruusfirmat
         </Localized>
       }
       noShadow
     >
-      <Localized id="astrology-satellite-and-space-companies-description-text">
+      <Localized id="astronomy-satellite-and-space-companies-description-text">
         Tähtitieteilijät soveltuvat erinomaisesti myös satelliitti- ja
         lähiavaruusfirmoihin, sekä tutkimus- että koodauspuolelle. Helsingin
         yliopistossa on useita erinomaisia lähiavaruuteen perehtyviä ryhmiä,
@@ -70,13 +70,13 @@ export const Astrology = () => (
     </Accordion>
     <Accordion
       title={
-        <Localized id="astrology-popular-science-title-text">
+        <Localized id="astronomy-popular-science-title-text">
           Populaaritiede
         </Localized>
       }
       noShadow
     >
-      <Localized id="astrology-popular-science-description-text">
+      <Localized id="astronomy-popular-science-description-text">
         Tähtitiede kiinnostaa kansaa, ja tähtitieteilijät sopivat erinomaisesti
         alan popularisointiin. Alaan sisältyy mm. museoissa ja tiedekeskuksissa
         työsekentely sekä mediassa esiintyminen ja kirjoittaminen.
