@@ -9,6 +9,7 @@
   width: 100%;
   height: calc(100% - #{$nav-height} - #{$footer-height});
   img {
+    background-color: white;
     padding-left: 20px;
     height: calc(100% - 40px);
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",

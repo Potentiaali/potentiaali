@@ -42,6 +42,7 @@ keynote-and-workshop = You also have a chance to get attention of a bigger audie
 keynote-and-workshop-information = Workshop or keynote won't have any extra costs. Companies have to inform us about their interest to a workshop or keynote in
          the registration form. The companies have to let us know their topic before the event. The organizers of Kumpula Potential will choose the best topics
           and the corresponding companies will have the possibility to conduct the workshops and keynotes.
+registration = Registration
 registration-form = We collect the contact information of the companies that are interested in participating in the event. When the registration time has ended, we will contact the companies whether or not they made into the event. We have room for only 50 companies and in the previous
             years the event has been full.
 contact-information = Contact information

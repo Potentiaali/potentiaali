@@ -46,11 +46,11 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6568543"
-     inkscape:cx="1264.7185"
-     inkscape:cy="507.48187"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="557.40429"
+     inkscape:cy="629.29857"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -63,7 +63,9 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     showborder="true"
+     borderlayer="false" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -72,7 +74,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -136,7 +138,7 @@
        width="157.25775"
        id="rect4697"
        style="opacity:1;fill:#ffdd55;fill-opacity:0.51098902;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -146,7 +148,7 @@
        width="5"
        id="rect4529"
        style="opacity:1;fill:#666666;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -155,7 +157,10 @@
        height="24.642857"
        width="27.85714"
        id="rect4471"
-       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4469"
@@ -163,7 +168,7 @@
        height="80"
        x="413.71426"
        y="203.43356"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -180,7 +185,7 @@
        width="117.85714"
        id="rect4389"
        style="opacity:1;fill:#ff5555;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -190,7 +195,7 @@
        height="116.78571"
        x="13.357142"
        y="203.86215"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -324,7 +329,7 @@
        height="103.13582"
        x="144.78227"
        y="203.56577"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -334,7 +339,7 @@
        width="4"
        id="rect4497"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -403,7 +408,7 @@
        height="5"
        x="11.235714"
        y="317.36215"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -413,7 +418,7 @@
        width="4"
        id="rect4473"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -423,7 +428,7 @@
        height="103.13582"
        x="370.6394"
        y="204.63718"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -471,7 +476,7 @@
     <g
        id="g4867"
        transform="matrix(0.49165836,0.87078818,-0.87078818,0.49165836,488.72624,-375.75298)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309">
       <g
@@ -525,7 +530,7 @@
     <rect
        inkscape:export-ydpi="333.20309"
        inkscape:export-xdpi="333.20309"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        y="203.11172"
        x="551.95312"
        height="108.01637"
@@ -539,7 +544,7 @@
        height="73.825241"
        x="36.039299"
        y="129.32156"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -548,7 +553,10 @@
        width="25.9375"
        height="12.125"
        x="377.00412"
-       y="183.31709" />
+       y="183.31709"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4345"
@@ -556,7 +564,7 @@
        height="5"
        x="137.53572"
        y="201.36215"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -566,7 +574,7 @@
        width="111.271"
        id="rect4341"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -576,7 +584,7 @@
        height="47.364529"
        x="862.008"
        y="128.71277"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        inkscape:export-xdpi="176.32529"
        inkscape:export-ydpi="176.32529" />
     <rect
@@ -594,7 +602,7 @@
        r="20"
        mask="url(#mask4802)"
        transform="matrix(0.526491,0,0,0.51386409,489.35119,-2.1828965)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -604,7 +612,7 @@
        width="290.6889"
        id="rect4746"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -614,7 +622,7 @@
        height="75.89286"
        x="34.228714"
        y="126.36215"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -624,7 +632,7 @@
        height="39.14864"
        x="320.50815"
        y="91.995087"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -634,7 +642,7 @@
        width="5"
        id="rect4750"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <circle
@@ -645,7 +653,7 @@
        r="20"
        mask="url(#mask4802)"
        transform="matrix(0.526491,0,0,-0.51386409,443.97299,336.81701)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -655,7 +663,7 @@
        width="188.54605"
        id="rect4359"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <circle
@@ -666,7 +674,7 @@
        cx="123.25928"
        id="circle4812"
        style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <text
@@ -676,7 +684,7 @@
        y="179.15411"
        id="text4187"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
@@ -691,7 +699,7 @@
        height="5"
        x="412.96338"
        y="281.36215"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -701,7 +709,7 @@
        width="119.60314"
        id="rect4375"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <text
@@ -711,7 +719,7 @@
        y="270.04309"
        id="text4379"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
@@ -741,7 +749,7 @@
        x="444.88089"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
@@ -874,7 +882,10 @@
        width="4"
        height="103.13582"
        x="653.3537"
-       y="209.63718" />
+       y="209.63718"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        y="209.63718"
        x="660.45374"
@@ -938,7 +949,7 @@
        width="5"
        id="rect4447"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        inkscape:export-xdpi="176.32529"
        inkscape:export-ydpi="176.32529" />
     <rect
@@ -954,7 +965,10 @@
        height="58.849922"
        width="5"
        id="rect4451"
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4453"
@@ -968,14 +982,20 @@
        height="5"
        width="31.65716"
        id="rect4455"
-       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4457"
        width="31.65716"
        height="5"
        x="626.29712"
-       y="183.11636" />
+       y="183.11636"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4459"
@@ -983,7 +1003,7 @@
        height="28.950001"
        x="626.25372"
        y="159.15402"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -993,7 +1013,7 @@
        height="4"
        x="355.13098"
        y="221.42245"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -1003,7 +1023,7 @@
        width="17.930208"
        id="rect4479"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -1013,7 +1033,7 @@
        height="4"
        x="355.13098"
        y="253.42245"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -1023,7 +1043,7 @@
        width="17.930208"
        id="rect4483"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -1033,7 +1053,7 @@
        height="4"
        x="355.13098"
        y="275.42245"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -1043,7 +1063,7 @@
        width="17.930208"
        id="rect4487"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -1053,7 +1073,7 @@
        height="4"
        x="355.13098"
        y="283.42245"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -1063,7 +1083,7 @@
        width="17.930208"
        id="rect4491"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -1073,7 +1093,7 @@
        height="4"
        x="355.13098"
        y="299.42245"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -1083,7 +1103,7 @@
        width="17.930208"
        id="rect4499"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -1093,7 +1113,7 @@
        height="4"
        x="147.27385"
        y="236.35104"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -1103,7 +1123,7 @@
        width="17.930208"
        id="rect4503"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -1113,7 +1133,7 @@
        height="4"
        x="147.27385"
        y="264.35104"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -1123,7 +1143,7 @@
        height="4"
        x="147.27385"
        y="274.35104"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -1133,7 +1153,7 @@
        width="17.930208"
        id="rect4509"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -1143,7 +1163,7 @@
        height="4"
        x="147.27385"
        y="290.35104"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -1153,7 +1173,7 @@
        width="17.930208"
        id="rect4513"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -1163,7 +1183,7 @@
        width="274.31018"
        id="rect4515"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        inkscape:export-xdpi="176.32529"
        inkscape:export-ydpi="176.32529" />
     <rect
@@ -1173,9 +1193,9 @@
        height="25.226456"
        x="1129.7538"
        y="174.33853"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
-       inkscape:export-xdpi="324.16406"
-       inkscape:export-ydpi="324.16406" />
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
     <rect
        y="1109.4838"
        x="-199.62997"
@@ -1184,9 +1204,9 @@
        id="rect4519"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(0,-1,1,0,0,0)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
-       inkscape:export-xdpi="324.16406"
-       inkscape:export-ydpi="324.16406" />
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
     <rect
        transform="matrix(0,-1,1,0,0,0)"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1507,9 +1527,9 @@
        width="5"
        id="rect4575"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
-       inkscape:export-xdpi="324.16406"
-       inkscape:export-ydpi="324.16406" />
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
     <rect
        y="152.36777"
        x="1333.3678"
@@ -1517,7 +1537,7 @@
        width="5"
        id="rect4577"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1527,7 +1547,7 @@
        width="64.198456"
        id="rect4581"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1537,7 +1557,7 @@
        width="5"
        id="rect4583"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1575,7 +1595,7 @@
        width="5"
        id="rect4593"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1586,7 +1606,7 @@
        id="rect4595"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(0,-1,1,0,0,0)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1604,7 +1624,7 @@
        id="text4601"
        sodipodi:linespacing="125%"
        transform="matrix(0,-1,1,0,0,0)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406"><tspan
          sodipodi:role="line"
@@ -1620,7 +1640,7 @@
        id="rect4607"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(0,-1,1,0,0,0)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <text
@@ -1691,7 +1711,7 @@
        x="-1268.6395"
        y="-333.77304"
        transform="scale(-1,-1)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1702,7 +1722,7 @@
        id="rect4647"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="scale(-1,-1)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1713,7 +1733,7 @@
        id="rect4649"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="scale(-1,-1)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1724,7 +1744,7 @@
        x="-1285.0612"
        y="-267.42245"
        transform="scale(-1,-1)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1735,7 +1755,7 @@
        id="rect4653"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="scale(-1,-1)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1746,7 +1766,7 @@
        x="-1285.0612"
        y="-295.42245"
        transform="scale(-1,-1)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1757,7 +1777,7 @@
        x="-1285.0612"
        y="-305.42245"
        transform="scale(-1,-1)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1768,7 +1788,7 @@
        id="rect4659"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="scale(-1,-1)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1779,7 +1799,7 @@
        x="-1285.0612"
        y="-321.42245"
        transform="scale(-1,-1)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1790,7 +1810,7 @@
        id="rect4663"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="scale(-1,-1)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1801,7 +1821,7 @@
        height="4"
        x="-1390.0612"
        y="-360.85104"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1812,7 +1832,7 @@
        id="rect4705"
        style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="scale(-1,-1)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1823,7 +1843,7 @@
        height="4"
        x="-1390.0612"
        y="-348.85104"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1833,7 +1853,7 @@
        height="23.16293"
        x="1329.4945"
        y="337.82309"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -1843,7 +1863,7 @@
        width="5"
        id="rect4667"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <circle
@@ -1852,7 +1872,7 @@
        cx="610.47247"
        cy="238.79016"
        r="21.465742"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <text
@@ -1862,7 +1882,7 @@
        y="246.86511"
        id="text4677"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
@@ -1876,7 +1896,7 @@
        cx="584.94592"
        id="circle4790"
        style="opacity:1;fill:#e9c6af;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <text
@@ -1886,7 +1906,7 @@
        y="294.3829"
        id="text4681"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
@@ -1900,7 +1920,7 @@
        cx="1362.2244"
        id="circle4691"
        style="opacity:1;fill:#e9c6af;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <text
@@ -1910,7 +1930,7 @@
        y="223.35858"
        id="text4693"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406"><tspan
          sodipodi:role="line"
@@ -1926,7 +1946,7 @@
        height="45.372261"
        x="-398.43698"
        y="1387.6827"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <text
@@ -1936,7 +1956,7 @@
        y="319.39563"
        id="text4711"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406"><tspan
          sodipodi:role="line"
@@ -1978,7 +1998,7 @@
        y="151.65901"
        id="text4235"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        inkscape:export-xdpi="176.32529"
        inkscape:export-ydpi="176.32529"><tspan
          sodipodi:role="line"
@@ -2119,7 +2139,7 @@
        y="205.80663"
        id="text4767"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406"><tspan
          sodipodi:role="line"
@@ -2135,7 +2155,7 @@
        r="20"
        mask="url(#mask4802)"
        transform="matrix(0,-0.526491,0.51386409,0,-10.892758,360.02986)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <circle
@@ -2146,7 +2166,7 @@
        cx="123.25928"
        id="circle4806"
        style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <circle
@@ -2157,7 +2177,7 @@
        cx="123.25928"
        id="circle4808"
        style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <circle
@@ -2176,7 +2196,7 @@
        r="20"
        mask="url(#mask4802)"
        transform="matrix(0.526491,0,0,0.51386409,443.35119,-2.1828965)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <circle
@@ -2219,7 +2239,7 @@
        r="20"
        mask="url(#mask4802)"
        transform="matrix(0.526491,0,0,-0.51386409,1255.3212,516.77252)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <text
@@ -2247,7 +2267,10 @@
        height="12.125"
        width="25.9375"
        id="rect5086"
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2255,7 +2278,7 @@
        y="146.54218"
        id="text4714"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
@@ -2269,7 +2292,10 @@
        width="25.9375"
        height="12.125"
        x="521.95062"
-       y="136.17609" />
+       y="136.17609"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        sodipodi:linespacing="125%"
        id="text4718"
@@ -2277,7 +2303,7 @@
        x="527.4502"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
@@ -2291,7 +2317,10 @@
        width="25.9375"
        height="12.125"
        x="477.57968"
-       y="136.17609" />
+       y="136.17609"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2299,7 +2328,7 @@
        y="146.47504"
        id="text4722"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
@@ -2318,7 +2347,10 @@
        height="12.125"
        width="25.9375"
        id="rect5068"
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        sodipodi:linespacing="125%"
        id="text4728"
@@ -2326,7 +2358,7 @@
        x="453.38632"
        style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
@@ -2345,7 +2377,10 @@
        width="25.9375"
        height="12.125"
        x="418.53625"
-       y="136.17609" />
+       y="136.17609"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2353,7 +2388,7 @@
        y="146.67981"
        id="text4734"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
@@ -2372,7 +2407,10 @@
        height="12.125"
        width="25.9375"
        id="rect5072"
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        sodipodi:linespacing="125%"
        id="text4740"
@@ -2380,7 +2418,7 @@
        x="376.87848"
        style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
@@ -2399,7 +2437,10 @@
        width="25.9375"
        height="12.125"
        x="344.99713"
-       y="136.17609" />
+       y="136.17609"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2407,7 +2448,7 @@
        y="146.54218"
        id="text4752"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
@@ -2426,7 +2467,10 @@
        height="12.125"
        width="25.9375"
        id="rect5076"
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        sodipodi:linespacing="125%"
        id="text4758"
@@ -2434,7 +2478,7 @@
        x="295.39532"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
@@ -2453,7 +2497,10 @@
        width="25.9375"
        height="12.125"
        x="261.87213"
-       y="136.17609" />
+       y="136.17609"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2461,7 +2508,7 @@
        y="146.45825"
        id="text4764"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
@@ -2480,7 +2527,10 @@
        height="12.125"
        width="25.9375"
        id="rect5080"
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        sodipodi:linespacing="125%"
        id="text4770"
@@ -2488,7 +2538,7 @@
        x="231.90259"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
@@ -2509,7 +2559,7 @@
        r="20"
        mask="url(#mask4802)"
        transform="matrix(-1.3724937,0,0,0.51386409,362.96053,-2.1404111)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -2518,7 +2568,10 @@
        width="25.9375"
        height="12.125"
        x="196.74713"
-       y="136.17609" />
+       y="136.17609"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:13.75px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2526,7 +2579,7 @@
        y="146.54218"
        id="text4778"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
@@ -2545,7 +2598,10 @@
        height="12.125"
        width="25.9375"
        id="rect5084"
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        sodipodi:linespacing="125%"
        id="text4784"
@@ -2553,7 +2609,7 @@
        x="124.42481"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
@@ -2574,7 +2630,7 @@
        cx="123.25928"
        id="circle4792"
        style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <circle
@@ -2585,7 +2641,7 @@
        r="20"
        mask="url(#mask4802)"
        transform="matrix(-0.526491,0,0,0.51386409,225.76279,-2.1404111)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
     <rect
@@ -2594,7 +2650,10 @@
        width="25.9375"
        height="12.125"
        x="94.147606"
-       y="183.31709" />
+       y="183.31709"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2602,7 +2661,7 @@
        y="193.59795"
        id="text4798"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
@@ -2621,7 +2680,10 @@
        height="12.125"
        width="25.9375"
        id="rect5042"
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        sodipodi:linespacing="125%"
        id="text4804"
@@ -2629,7 +2691,7 @@
        x="170.24788"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
@@ -2648,7 +2710,10 @@
        width="25.9375"
        height="12.125"
        x="200.92415"
-       y="183.31709" />
+       y="183.31709"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2656,7 +2721,7 @@
        y="193.71866"
        id="text4810"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
@@ -2675,7 +2740,10 @@
        height="12.125"
        width="25.9375"
        id="rect5046"
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        sodipodi:linespacing="125%"
        id="text4816"
@@ -2683,7 +2751,7 @@
        x="236.24788"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
@@ -2702,7 +2770,10 @@
        width="25.9375"
        height="12.125"
        x="268.27606"
-       y="183.31709" />
+       y="183.31709"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2710,7 +2781,7 @@
        y="193.94048"
        id="text4822"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
@@ -2729,7 +2800,10 @@
        height="12.125"
        width="25.9375"
        id="rect5050"
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        sodipodi:linespacing="125%"
        id="text4828"
@@ -2737,7 +2811,7 @@
        x="302.24786"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
@@ -2757,7 +2831,7 @@
        y="193.82082"
        id="text4834"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
@@ -2776,7 +2850,10 @@
        height="12.125"
        width="25.9375"
        id="rect5054"
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        sodipodi:linespacing="125%"
        id="text4840"
@@ -2784,7 +2861,7 @@
        x="414.18762"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
@@ -2803,7 +2880,10 @@
        width="25.9375"
        height="12.125"
        x="447.59351"
-       y="183.2509" />
+       y="183.2509"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2811,7 +2891,7 @@
        y="193.61699"
        id="text4846"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
@@ -2830,7 +2910,10 @@
        height="12.125"
        width="25.9375"
        id="rect5058"
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        sodipodi:linespacing="125%"
        id="text4852"
@@ -2838,7 +2921,7 @@
        x="486.45029"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
@@ -2857,7 +2940,10 @@
        height="12.125"
        width="25.9375"
        id="rect5038"
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2865,7 +2951,7 @@
        y="146.49379"
        id="text4872"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
@@ -2885,7 +2971,10 @@
        height="12.125"
        x="154.31685"
        y="-83.745537"
-       transform="matrix(0,1,-1,0,0,0)" />
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        sodipodi:linespacing="125%"
        id="text4878"
@@ -2893,21 +2982,21 @@
        x="77.674797"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle"
          y="163.76997"
          x="77.674797"
          id="tspan4880"
          sodipodi:role="line">A</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle"
          y="177.83247"
          x="77.674797"
          sodipodi:role="line"
          id="tspan5232">26</tspan><tspan
          id="tspan4882"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle"
          y="191.89497"
          x="77.674797"
          sodipodi:role="line" /></text>
@@ -2917,7 +3006,10 @@
        width="25.9375"
        height="12.125"
        x="521.59705"
-       y="183.31709" />
+       y="183.31709"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -2925,7 +3017,7 @@
        y="193.82082"
        id="text4884"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area_a"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          sodipodi:role="line"
@@ -2944,7 +3036,7 @@
        cx="870.47247"
        id="circle4890"
        style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        inkscape:export-xdpi="176.32529"
        inkscape:export-ydpi="176.32529" />
     <circle
@@ -2953,7 +3045,7 @@
        cx="901.26794"
        cy="162.25983"
        r="4.7982254"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        inkscape:export-xdpi="176.32529"
        inkscape:export-ydpi="176.32529" />
     <circle
@@ -2962,25 +3054,25 @@
        cx="953.28497"
        id="circle4894"
        style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        inkscape:export-xdpi="176.32529"
        inkscape:export-ydpi="176.32529" />
     <circle
        style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle4896"
-       cx="1110.5349"
+       cx="1108.1345"
        cy="162.79016"
        r="4.7982254"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        inkscape:export-xdpi="176.32529"
        inkscape:export-ydpi="176.32529" />
     <circle
        r="4.7982254"
        cy="162.43661"
-       cx="1058.1329"
+       cx="1056.3326"
        id="circle4898"
        style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        inkscape:export-xdpi="176.32529"
        inkscape:export-ydpi="176.32529" />
     <rect
@@ -2989,7 +3081,10 @@
        width="18.394421"
        height="8.5988369"
        x="876.76733"
-       y="155.42809" />
+       y="155.42809"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
     <text
        sodipodi:linespacing="125%"
        id="text4900"
@@ -2997,7 +3092,7 @@
        x="880.91907"
        style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        inkscape:export-xdpi="176.32529"
        inkscape:export-ydpi="176.32529"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
@@ -3011,7 +3106,7 @@
        cx="1309.0448"
        cy="234.32742"
        r="14.965382"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <text
@@ -3021,7 +3116,7 @@
        x="1299.1711"
        style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
@@ -3036,7 +3131,7 @@
        height="34.725098"
        x="1367.3678"
        y="152.36777"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -3045,7 +3140,10 @@
        height="11.594074"
        width="24.270262"
        id="rect5228"
-       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <text
        sodipodi:linespacing="125%"
        id="text4952"
@@ -3053,7 +3151,7 @@
        x="1287.655"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7"
@@ -3068,7 +3166,10 @@
        width="21.353447"
        id="rect5188"
        style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="matrix(0,-1,1,0,0,0)" />
+       transform="matrix(0,-1,1,0,0,0)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <text
        sodipodi:linespacing="125%"
        id="text4962"
@@ -3076,7 +3177,7 @@
        x="1382.5964"
        style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7"
@@ -3091,7 +3192,7 @@
        width="5"
        id="rect4982"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -3102,7 +3203,7 @@
        x="336.90454"
        y="-1334.4598"
        transform="matrix(0,1,-1,0,0,0)"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <circle
@@ -3111,7 +3212,7 @@
        cx="1302.9729"
        cy="351.71167"
        r="4.7115679"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <circle
@@ -3120,7 +3221,7 @@
        cx="1302.5979"
        id="circle4992"
        style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <circle
@@ -3129,7 +3230,7 @@
        cx="1399.4425"
        cy="350.35257"
        r="4.7115679"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <circle
@@ -3138,7 +3239,7 @@
        cx="1312.8016"
        cy="188.47562"
        r="4.7115679"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <circle
@@ -3147,7 +3248,7 @@
        cx="1224.6659"
        id="circle4998"
        style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <circle
@@ -3169,7 +3270,7 @@
        cx="123.25928"
        id="circle5002"
        style="opacity:1;fill:#cccccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -3179,7 +3280,7 @@
        width="40.978466"
        id="rect5004"
        style="opacity:1;fill:#b7c8c4;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <circle
@@ -3188,7 +3289,7 @@
        cx="1392.8561"
        cy="259.18631"
        r="4.7115679"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -3197,7 +3298,10 @@
        width="24.270262"
        height="11.594074"
        x="1389.251"
-       y="370.16241" />
+       y="370.16241"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -3205,7 +3309,7 @@
        y="380.23618"
        id="text5012"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406"><tspan
          sodipodi:role="line"
@@ -3219,7 +3323,10 @@
        height="9.1450977"
        width="19.143738"
        id="rect5174"
-       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <text
        sodipodi:linespacing="125%"
        id="text5016"
@@ -3227,7 +3334,7 @@
        x="1369.1351"
        style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7"
@@ -3242,7 +3349,10 @@
        width="21.353447"
        height="11.594074"
        x="-259.69293"
-       y="1355.9417" />
+       y="1355.9417"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -3250,7 +3360,7 @@
        y="252.12167"
        id="text5028"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406"><tspan
          sodipodi:role="line"
@@ -3261,10 +3371,10 @@
     <circle
        style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle5032"
-       cx="1005.8474"
+       cx="1004.8475"
        cy="162.72766"
        r="4.7982254"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        inkscape:export-xdpi="176.32529"
        inkscape:export-ydpi="176.32529" />
     <rect
@@ -3273,11 +3383,14 @@
        height="8.5988369"
        width="18.394421"
        id="rect5118"
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
     <text
        inkscape:export-ydpi="176.32529"
        inkscape:export-xdpi="176.32529"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="910.34924"
@@ -3295,7 +3408,10 @@
        width="18.394421"
        height="8.5988369"
        x="929.14233"
-       y="155.42809" />
+       y="155.42809"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
     <text
        sodipodi:linespacing="125%"
        id="text5126"
@@ -3303,7 +3419,7 @@
        x="932.37122"
        style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        inkscape:export-xdpi="176.32529"
        inkscape:export-ydpi="176.32529"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
@@ -3317,11 +3433,14 @@
        height="8.5988369"
        width="18.394421"
        id="rect5130"
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
     <text
        inkscape:export-ydpi="176.32529"
        inkscape:export-xdpi="176.32529"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="962.39264"
@@ -3338,21 +3457,24 @@
        id="rect5136"
        width="18.394421"
        height="8.5988369"
-       x="981.51733"
-       y="155.42809" />
+       x="979.81744"
+       y="155.42809"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
     <text
        sodipodi:linespacing="125%"
        id="text5138"
        y="163.23215"
-       x="984.74622"
+       x="983.04633"
        style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        inkscape:export-xdpi="176.32529"
        inkscape:export-ydpi="176.32529"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
          y="163.23215"
-         x="984.74622"
+         x="983.04633"
          id="tspan5140"
          sodipodi:role="line">B5</tspan></text>
     <rect
@@ -3360,87 +3482,99 @@
        id="rect5142"
        width="18.394421"
        height="8.5988369"
-       x="1011.6254"
-       y="155.42825" />
+       x="1010.7253"
+       y="155.42825"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
     <text
        sodipodi:linespacing="125%"
        id="text5144"
        y="163.23232"
-       x="1014.8541"
+       x="1013.954"
        style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        inkscape:export-xdpi="176.32529"
        inkscape:export-ydpi="176.32529"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
          y="163.23232"
-         x="1014.8541"
+         x="1013.954"
          id="tspan5146"
          sodipodi:role="line">B6</tspan></text>
     <rect
        y="155.42825"
-       x="1033.9789"
+       x="1031.3795"
        height="8.5988369"
        width="18.394421"
        id="rect5148"
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
     <text
        inkscape:export-ydpi="176.32529"
        inkscape:export-xdpi="176.32529"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1037.2078"
+       x="1034.6084"
        y="163.23232"
        id="text5150"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5152"
-         x="1037.2078"
+         x="1034.6084"
          y="163.23232"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">B7</tspan></text>
     <rect
        y="155.42825"
-       x="1073.1255"
+       x="1062.0254"
        height="8.5988369"
        width="18.394421"
        id="rect5154"
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
     <text
        inkscape:export-ydpi="176.32529"
        inkscape:export-xdpi="176.32529"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1076.3541"
+       x="1065.254"
        y="163.23232"
        id="text5156"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5158"
-         x="1076.3541"
+         x="1065.254"
          y="163.23232"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">B8</tspan></text>
     <rect
        y="155.42825"
-       x="1117.4789"
+       x="1083.4792"
        height="8.5988369"
        width="18.394421"
        id="rect5166"
-       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
     <text
        inkscape:export-ydpi="176.32529"
        inkscape:export-xdpi="176.32529"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-b.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1120.7078"
+       x="1086.7081"
        y="163.23232"
        id="text5168"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5170"
-         x="1120.7078"
+         x="1086.7081"
          y="163.23232"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">B9</tspan></text>
     <rect
@@ -3449,11 +3583,14 @@
        width="19.143738"
        height="9.1450977"
        x="1345.9495"
-       y="387.03165" />
+       y="387.03165"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <text
        inkscape:export-ydpi="324.16406"
        inkscape:export-xdpi="324.16406"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="1347.1351"
@@ -3472,7 +3609,10 @@
        width="21.353447"
        height="11.594074"
        x="-309.95926"
-       y="1382.9493" />
+       y="1382.9493"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -3480,7 +3620,7 @@
        y="302.34406"
        id="text4966"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406"><tspan
          sodipodi:role="line"
@@ -3495,7 +3635,10 @@
        width="21.353447"
        id="rect5200"
        style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="matrix(0,-1,1,0,0,0)" />
+       transform="matrix(0,-1,1,0,0,0)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <text
        sodipodi:linespacing="125%"
        id="text4970"
@@ -3503,7 +3646,7 @@
        x="1383.3572"
        style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7"
@@ -3518,7 +3661,10 @@
        width="21.353447"
        height="11.594074"
        x="-330.39993"
-       y="1315.0385" />
+       y="1315.0385"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -3526,7 +3672,7 @@
        y="316.68365"
        id="text4986"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406"><tspan
          sodipodi:role="line"
@@ -3546,11 +3692,14 @@
        width="21.353447"
        height="11.594074"
        x="-305.40121"
-       y="1312.1843" />
+       y="1312.1843"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <text
        inkscape:export-ydpi="324.16406"
        inkscape:export-xdpi="324.16406"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        sodipodi:linespacing="125%"
        id="text5212"
        y="291.57996"
@@ -3574,7 +3723,10 @@
        width="21.353447"
        id="rect5218"
        style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       transform="matrix(0,-1,1,0,0,0)" />
+       transform="matrix(0,-1,1,0,0,0)"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -3582,7 +3734,7 @@
        y="267.07996"
        id="text5220"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406"><tspan
          sodipodi:role="line"
@@ -3601,7 +3753,10 @@
        width="24.270262"
        height="11.594074"
        x="1254.001"
-       y="185.18022" />
+       y="185.18022"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -3609,7 +3764,7 @@
        y="195.24728"
        id="text4956"
        sodipodi:linespacing="125%"
-       inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406"><tspan
          sodipodi:role="line"
@@ -3617,5 +3772,30 @@
          x="1258.3145"
          y="195.24728"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7">C4</tspan></text>
+    <rect
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4588"
+       width="18.394421"
+       height="8.5988369"
+       x="1114.4865"
+       y="155.42825"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4590"
+       y="162.83803"
+       x="1115.4855"
+       style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp11.png"
+       inkscape:export-xdpi="176.32529"
+       inkscape:export-ydpi="176.32529"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
+         y="162.83803"
+         x="1115.4855"
+         id="tspan4592"
+         sodipodi:role="line">B10</tspan></text>
   </g>
 </svg>
