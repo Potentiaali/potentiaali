@@ -45,7 +45,7 @@ const schedule = [
     language: "fi",
     link: "",
     startTime: utcToZonedTime(new Date(2019, 11, 14, 19, 0), "Europe/Helsinki"),
-    endTime: utcToZonedTime(new Date(2019, 11, 14, 23, 0), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2019, 11, 14, 23, 30), "Europe/Helsinki"),
     hideDetails: false,
     hideTime: false
   },
