@@ -36,7 +36,7 @@ const CompanyRegistrationPage = () => (
           <li>
             <Localized id="stand">
               Ständipaikan, johon kuuluu sähköt, internetyhteys ja pöytä. Pöydän
-              koko on noin 1,2 m x 0,8 m
+              koko on noin 1,4 m x 0,8 m
             </Localized>
           </li>
           <li>

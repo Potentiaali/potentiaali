@@ -33,7 +33,7 @@ registration-main-part1 = Kumpula's Potential is a work-life and recruitment eve
             In previous years the event has been a success among companies and students.
 registration-main-part2 = In 2017 over 95 % of the companies gave a feedback stating the event was worth it.
 includes = Event contents
-stand = A booth with electricity, internet connection (WiFi) and a table. The size of the table is about 1,2 m x 0,8 m.
+stand = A booth with electricity, internet connection (WiFi) and a table. The size of the table is about 1,4 m x 0,8 m.
 speed-rekry = Opportunity to participate in Rekry Speed Dating
 tickets = Tickets for three persons. A ticket includes breakfast and lunch (which are served during the event) and an access to the event afterparty.
 bonus-tickets = We also have four bigger booths available. The bigger booths are placed near the main entrances of Exactum and Physicum.
