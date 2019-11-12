@@ -43,7 +43,7 @@ const MapPage = () => (
           </span>
         </div>
         <div className={style.mapInfoEntry}>
-          <ClassRoomBadge text="D116" />
+          <ClassRoomBadge text="D114" />
           <span>
             <Localized id="company-info">Company info</Localized>
           </span>
