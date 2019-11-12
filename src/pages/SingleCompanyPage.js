@@ -35,9 +35,7 @@ const SingleCompanyPage = ({ match, history }) => {
       <section className="app-section">
         <h1>{company.name}</h1>
         <p>
-          <h2>
-            <BoothBadge name={company.booth} />
-          </h2>
+          <BoothBadge name={company.booth} />
         </p>
         <div
           style={{

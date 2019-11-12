@@ -208,16 +208,21 @@ body {
 
 .all-companies-list {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   row-gap: 10px;
+  column-gap: 10px;
   @include mobile {
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
   }
 }
 
 .all-companies-list--company {
   align-self: center;
-  justify-self: left;
+  justify-self: center;
+  @include darkModeFont($black-1, $white-1);
+  @include darkModeBackground(#0000001a, rgba(255, 255, 255, 0.1));
+  padding-right: 5px;
+  white-space: nowrap;
 }
 
 .all-companies-filter {
