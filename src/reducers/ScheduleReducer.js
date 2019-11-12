@@ -232,10 +232,10 @@ const schedule = [
   {
     id: 10,
     companyName: "HY Urapalvelut",
-    location: "Exactum B121",
+    location: "Exactum B120",
     title: {
       fi: "HY Urapalvelut: Harjoitteluinfo",
-      "en-US": "HY Urapalvelut: Harjoitteluinfo"
+      "en-US": "Career Services: Traineeship info (Finnish)"
     },
     description: {
       fi: "",
