@@ -1,6 +1,7 @@
 pageNotFound = Page not found
 changeLocaleButton = { $locale }
 frontPage = Front page
+companyPage = Companies
 companyRegistrationPage = Registration for companies
 schedulePage = Schedule
 fieldsOfStudiesPage = Fields of study

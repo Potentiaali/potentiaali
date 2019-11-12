@@ -1,6 +1,7 @@
 pageNotFound = Sivua ei löydy
 changeLocaleButton = { $locale }
 frontPage = Etusivu
+companyPage = Yritykset
 companyRegistrationPage = Yritysilmoittautuminen
 schedulePage = Aikataulu
 fieldsOfStudiesPage = Aineiden esittely

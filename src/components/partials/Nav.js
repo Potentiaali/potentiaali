@@ -22,11 +22,19 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
       icon: "fa-home"
     },
     {
+      id: "companyPage",
+      name: "Yritykset",
+      linkName: "companies",
+      link: "/companies",
+      disabled: false,
+      icon: "fa-file-alt"
+    },
+    {
       id: "companyRegistrationPage",
       name: "Yritysilmoittautuminen",
       linkName: "registration",
       link: "/registration",
-      disabled: false,
+      disabled: true,
       icon: "fa-file-alt"
     },
     {

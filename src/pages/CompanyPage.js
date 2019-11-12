@@ -32,7 +32,7 @@ const CompanyPage = () => {
               <Link to={"/company/" + company.id} key={company.id}>
                 <div className="all-companies-list--company">
                   <BoothBadge name={company.booth} />{" "}
-                  <span>{company.name}</span>
+                  <span className="all-companies-list--company-name">{company.name}</span>
                 </div>
               </Link>
             ))}
