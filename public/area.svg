@@ -49,8 +49,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8284272"
-     inkscape:cx="769.05369"
-     inkscape:cy="587.60809"
+     inkscape:cx="458.45704"
+     inkscape:cy="633.88226"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -3243,9 +3243,9 @@
        inkscape:export-ydpi="324.16406" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="1360.1504"
-       y="252.12167"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1362.4004"
+       y="245.87167"
        id="text5028"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
@@ -3253,9 +3253,14 @@
        inkscape:export-ydpi="324.16406"><tspan
          sodipodi:role="line"
          id="tspan5030"
-         x="1360.1504"
-         y="252.12167"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#000000;">C6</tspan></text>
+         x="1362.4004"
+         y="245.87167"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#000000">C</tspan><tspan
+         sodipodi:role="line"
+         x="1362.4004"
+         y="258.37167"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#000000"
+         id="tspan4587">6</tspan></text>
     <circle
        style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle5032"
@@ -3479,7 +3484,7 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1384.6157"
+       x="1385.146"
        y="296.33365"
        id="text4966"
        sodipodi:linespacing="125%"
@@ -3488,11 +3493,11 @@
        inkscape:export-ydpi="324.16406"><tspan
          sodipodi:role="line"
          id="tspan4968"
-         x="1384.6157"
+         x="1385.146"
          y="296.33365"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#000000">C</tspan><tspan
          sodipodi:role="line"
-         x="1384.6157"
+         x="1385.146"
          y="308.83365"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#000000"
          id="tspan4628">8</tspan></text>
