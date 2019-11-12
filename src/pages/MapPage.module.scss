@@ -8,8 +8,8 @@
   overflow-x: scroll;
   width: 100%;
   height: calc(100% - #{$nav-height} - #{$footer-height});
+  background-color: white;
   img {
-    background-color: white;
     padding-left: 20px;
     height: calc(100% - 40px);
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -32,5 +32,5 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  @include darkModeFont($black-1, $white-1);
+  color: $black-1;
 }

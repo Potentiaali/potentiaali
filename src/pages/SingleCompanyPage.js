@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { Localized } from "fluent-react/compat";
 import { Link, withRouter } from "react-router-dom";
 import LanguageString from "../components/LanguageString";
+import { BoothBadge } from "../components/partials/badges/BoothBadge";
 
 const SingleCompanyPage = ({ match, history }) => {
   const companies = useSelector(state => state.company.companies);
@@ -33,6 +34,11 @@ const SingleCompanyPage = ({ match, history }) => {
       </section>
       <section className="app-section">
         <h1>{company.name}</h1>
+        <p>
+          <h2>
+            <BoothBadge name={company.booth} />
+          </h2>
+        </p>
         <div
           style={{
             backgroundColor: "white",

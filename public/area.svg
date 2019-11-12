@@ -49,8 +49,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8284272"
-     inkscape:cx="1235.988"
-     inkscape:cy="528.61315"
+     inkscape:cx="769.05369"
+     inkscape:cy="587.60809"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -105,6 +105,16 @@
        x="1172.6305"
        y="508.87665" />
     <rect
+       y="180.47191"
+       x="1178.9794"
+       height="214.10742"
+       width="220.54381"
+       id="rect4697"
+       style="opacity:1;fill:#d40055;fill-opacity:0.50828731;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
+       inkscape:export-xdpi="324.16406"
+       inkscape:export-ydpi="324.16406" />
+    <rect
        y="239.89799"
        x="1168.0143"
        height="119.16136"
@@ -122,16 +132,6 @@
        x="1138.4429"
        y="331.82187"
        inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
-       inkscape:export-xdpi="324.16406"
-       inkscape:export-ydpi="324.16406" />
-    <rect
-       y="180.47191"
-       x="1178.9794"
-       height="214.10742"
-       width="220.54381"
-       id="rect4697"
-       style="opacity:1;fill:#ffdd55;fill-opacity:0.51098902;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
@@ -527,7 +527,7 @@
        width="25.9375"
        height="12.125"
        x="377.00412"
-       y="183.31709"
+       y="185.31709"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
@@ -750,18 +750,6 @@
        width="5"
        id="rect4409"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <text
-       sodipodi:linespacing="125%"
-       id="text4411"
-       y="403.2948"
-       x="718.20703"
-       style="font-style:normal;font-weight:normal;font-size:20.11879349px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         id="tspan4415"
-         y="403.2948"
-         x="718.20703"
-         sodipodi:role="line"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#000000">WC</tspan></text>
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4419"
@@ -821,7 +809,7 @@
        id="rect4435"
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4461"
        width="4"
        height="103.13582"
@@ -836,9 +824,9 @@
        height="103.13582"
        width="4"
        id="rect4463"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4465"
        width="4"
        height="103.13582"
@@ -850,7 +838,7 @@
        height="103.13582"
        width="4"
        id="rect4467"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <rect
        y="307.79099"
        x="653.41669"
@@ -1209,14 +1197,14 @@
        height="4"
        width="23.480419"
        id="rect4402"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(0,1,-1,0,0,0)"
        inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
        transform="matrix(0,1,-1,0,0,0)"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4404"
        width="23.480419"
        height="4"
@@ -1231,7 +1219,7 @@
        height="4"
        width="23.480419"
        id="rect4406"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(0,1,-1,0,0,0)"
        inkscape:export-filename="/Users/ahuotala/Downloads/area-c.png"
        inkscape:export-xdpi="324.16406"
@@ -1635,7 +1623,7 @@
          sodipodi:role="line">D106</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#11002b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="1462.7765"
        y="228.68114"
        id="text4641"
@@ -1644,9 +1632,9 @@
          id="tspan4643"
          x="1462.7765"
          y="228.68114"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">wc</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#11002b;">wc</tspan></text>
     <rect
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4645"
        width="4"
        height="103.13582"
@@ -1662,7 +1650,7 @@
        height="103.13582"
        width="4"
        id="rect4647"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="scale(-1,-1)"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
@@ -1673,13 +1661,13 @@
        height="4"
        width="17.930208"
        id="rect4649"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="scale(-1,-1)"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4651"
        width="17.930208"
        height="4"
@@ -1695,13 +1683,13 @@
        height="4"
        width="17.930208"
        id="rect4653"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="scale(-1,-1)"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4655"
        width="17.930208"
        height="4"
@@ -1712,7 +1700,7 @@
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4657"
        width="17.930208"
        height="4"
@@ -1728,13 +1716,13 @@
        height="4"
        width="17.930208"
        id="rect4659"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="scale(-1,-1)"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4661"
        width="17.930208"
        height="4"
@@ -1750,14 +1738,14 @@
        height="4"
        width="17.930208"
        id="rect4663"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="scale(-1,-1)"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
        transform="scale(-1,-1)"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4703"
        width="57.573067"
        height="4"
@@ -1772,14 +1760,14 @@
        height="4"
        width="57.573067"
        id="rect4705"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="scale(-1,-1)"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <rect
        transform="scale(-1,-1)"
-       style="opacity:1;fill:#b3b3b3;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4709"
        width="57.573067"
        height="4"
@@ -2570,7 +2558,7 @@
        width="25.9375"
        height="12.125"
        x="94.147606"
-       y="183.31709"
+       y="185.31709"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
@@ -2578,7 +2566,7 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="95.475418"
-       y="193.59795"
+       y="195.59795"
        id="text4798"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
@@ -2587,15 +2575,15 @@
          sodipodi:role="line"
          id="tspan4800"
          x="95.475418"
-         y="193.59795"
+         y="195.59795"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A24</tspan><tspan
          sodipodi:role="line"
          x="95.475418"
-         y="210.78545"
+         y="212.78545"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
          id="tspan4802" /></text>
     <rect
-       y="183.31709"
+       y="185.31709"
        x="168.5706"
        height="12.125"
        width="25.9375"
@@ -2607,7 +2595,7 @@
     <text
        sodipodi:linespacing="125%"
        id="text4804"
-       y="193.65381"
+       y="195.65381"
        x="170.24788"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
@@ -2615,13 +2603,13 @@
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
-         y="193.65381"
+         y="195.65381"
          x="170.24788"
          id="tspan4806"
          sodipodi:role="line">A22</tspan><tspan
          id="tspan4808"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
-         y="210.84131"
+         y="212.84131"
          x="170.24788"
          sodipodi:role="line" /></text>
     <rect
@@ -2630,7 +2618,7 @@
        width="25.9375"
        height="12.125"
        x="200.92415"
-       y="183.31709"
+       y="185.31709"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
@@ -2638,7 +2626,7 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="202.24788"
-       y="193.71866"
+       y="195.71866"
        id="text4810"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
@@ -2647,15 +2635,15 @@
          sodipodi:role="line"
          id="tspan4812"
          x="202.24788"
-         y="193.71866"
+         y="195.71866"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A20</tspan><tspan
          sodipodi:role="line"
          x="202.24788"
-         y="210.90616"
+         y="212.90616"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
          id="tspan4814" /></text>
     <rect
-       y="183.31709"
+       y="185.31709"
        x="234.68849"
        height="12.125"
        width="25.9375"
@@ -2667,7 +2655,7 @@
     <text
        sodipodi:linespacing="125%"
        id="text4816"
-       y="193.66621"
+       y="195.66621"
        x="236.24788"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
@@ -2675,13 +2663,13 @@
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
-         y="193.66621"
+         y="195.66621"
          x="236.24788"
          id="tspan4818"
          sodipodi:role="line">A18</tspan><tspan
          id="tspan4820"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
-         y="210.85371"
+         y="212.85371"
          x="236.24788"
          sodipodi:role="line" /></text>
     <rect
@@ -2690,7 +2678,7 @@
        width="25.9375"
        height="12.125"
        x="268.27606"
-       y="183.31709"
+       y="185.31709"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
@@ -2698,7 +2686,7 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="270.24786"
-       y="193.94048"
+       y="195.94048"
        id="text4822"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
@@ -2707,15 +2695,15 @@
          sodipodi:role="line"
          id="tspan4824"
          x="270.24786"
-         y="193.94048"
+         y="195.94048"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A16</tspan><tspan
          sodipodi:role="line"
          x="270.24786"
-         y="211.12798"
+         y="213.12798"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
          id="tspan4826" /></text>
     <rect
-       y="183.31709"
+       y="185.31709"
        x="300.80298"
        height="12.125"
        width="25.9375"
@@ -2727,7 +2715,7 @@
     <text
        sodipodi:linespacing="125%"
        id="text4828"
-       y="193.45621"
+       y="195.45621"
        x="302.24786"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
@@ -2735,20 +2723,20 @@
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
-         y="193.45621"
+         y="195.45621"
          x="302.24786"
          id="tspan4830"
          sodipodi:role="line">A14</tspan><tspan
          id="tspan4832"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
-         y="210.64371"
+         y="212.64371"
          x="302.24786"
          sodipodi:role="line" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="378.62979"
-       y="193.82082"
+       y="195.82082"
        id="text4834"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
@@ -2757,15 +2745,15 @@
          sodipodi:role="line"
          id="tspan4836"
          x="378.62979"
-         y="193.82082"
+         y="195.82082"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A12</tspan><tspan
          sodipodi:role="line"
          x="378.62979"
-         y="211.00832"
+         y="213.00832"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
          id="tspan4838" /></text>
     <rect
-       y="183.31709"
+       y="185.31709"
        x="412.71301"
        height="12.125"
        width="25.9375"
@@ -2777,7 +2765,7 @@
     <text
        sodipodi:linespacing="125%"
        id="text4840"
-       y="193.67647"
+       y="195.67647"
        x="414.18762"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
@@ -2785,13 +2773,13 @@
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
-         y="193.67647"
+         y="195.67647"
          x="414.18762"
          id="tspan4842"
          sodipodi:role="line">A10</tspan><tspan
          id="tspan4844"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
-         y="210.86397"
+         y="212.86397"
          x="414.18762"
          sodipodi:role="line" /></text>
     <rect
@@ -2800,7 +2788,7 @@
        width="25.9375"
        height="12.125"
        x="447.59351"
-       y="183.2509"
+       y="185.2509"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
@@ -2808,7 +2796,7 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="453.00244"
-       y="193.61699"
+       y="195.61699"
        id="text4846"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
@@ -2817,15 +2805,15 @@
          sodipodi:role="line"
          id="tspan4848"
          x="453.00244"
-         y="193.61699"
+         y="195.61699"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A8</tspan><tspan
          sodipodi:role="line"
          x="453.00244"
-         y="210.80449"
+         y="212.80449"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
          id="tspan4850" /></text>
     <rect
-       y="183.31676"
+       y="185.31676"
        x="481.1152"
        height="12.125"
        width="25.9375"
@@ -2837,7 +2825,7 @@
     <text
        sodipodi:linespacing="125%"
        id="text4852"
-       y="193.74327"
+       y="195.74327"
        x="486.45029"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
@@ -2845,13 +2833,13 @@
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
-         y="193.74327"
+         y="195.74327"
          x="486.45029"
          id="tspan4854"
          sodipodi:role="line">A6</tspan><tspan
          id="tspan4856"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
-         y="210.93077"
+         y="212.93077"
          x="486.45029"
          sodipodi:role="line" /></text>
     <rect
@@ -2887,10 +2875,10 @@
     <rect
        style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect5036"
-       width="25.9375"
-       height="12.125"
-       x="154.31685"
-       y="-83.745537"
+       width="32.4375"
+       height="15.163554"
+       x="152.06685"
+       y="-83.764816"
        transform="matrix(0,1,-1,0,0,0)"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
@@ -2898,27 +2886,27 @@
     <text
        sodipodi:linespacing="125%"
        id="text4878"
-       y="163.76997"
-       x="77.674797"
-       style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       y="163.88895"
+       x="76.172729"
+       style="font-style:normal;font-weight:normal;font-size:20.32228851px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle"
-         y="163.76997"
-         x="77.674797"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.50602436px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle"
+         y="163.88895"
+         x="76.172729"
          id="tspan4880"
          sodipodi:role="line">A</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle"
-         y="177.83247"
-         x="77.674797"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.50602436px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle"
+         y="179.52148"
+         x="76.172729"
          sodipodi:role="line"
          id="tspan5232">26</tspan><tspan
          id="tspan4882"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle"
-         y="191.89497"
-         x="77.674797"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.50602436px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle"
+         y="195.15401"
+         x="76.172729"
          sodipodi:role="line" /></text>
     <rect
        style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -2926,7 +2914,7 @@
        width="25.9375"
        height="12.125"
        x="521.59705"
-       y="183.31709"
+       y="185.31709"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
        inkscape:export-xdpi="333.20309"
        inkscape:export-ydpi="333.20309" />
@@ -2934,7 +2922,7 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:16.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="526.95898"
-       y="193.82082"
+       y="195.82082"
        id="text4884"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
@@ -2943,11 +2931,11 @@
          sodipodi:role="line"
          id="tspan4886"
          x="526.95898"
-         y="193.82082"
+         y="195.82082"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">A4</tspan><tspan
          sodipodi:role="line"
          x="526.95898"
-         y="211.00832"
+         y="213.00832"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'"
          id="tspan4888" /></text>
     <circle
@@ -3060,7 +3048,7 @@
        height="11.594074"
        width="24.270262"
        id="rect5228"
-       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
@@ -3069,12 +3057,12 @@
        id="text4952"
        y="191.46841"
        x="1188.7606"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#000000;"
          y="191.46841"
          x="1188.7606"
          id="tspan4954"
@@ -3085,7 +3073,7 @@
        height="11.594074"
        width="21.353447"
        id="rect5188"
-       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(0,-1,1,0,0,0)"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
@@ -3093,18 +3081,23 @@
     <text
        sodipodi:linespacing="125%"
        id="text4962"
-       y="278.85666"
-       x="1382.5964"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       y="272.84625"
+       x="1385.0713"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7"
-         y="278.85666"
-         x="1382.5964"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#000000"
+         y="272.84625"
+         x="1385.0713"
          id="tspan4964"
-         sodipodi:role="line">C7</tspan></text>
+         sodipodi:role="line">C</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#000000"
+         y="285.34625"
+         x="1385.0713"
+         sodipodi:role="line"
+         id="tspan4626">7</tspan></text>
     <rect
        y="337.82309"
        x="1309.4945"
@@ -3218,7 +3211,7 @@
        height="9.1450977"
        width="19.143738"
        id="rect5174"
-       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
@@ -3227,19 +3220,19 @@
        id="text5016"
        y="390.83954"
        x="1368.3851"
-       style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#000000;"
          y="390.83954"
          x="1368.3851"
          id="tspan5018"
          sodipodi:role="line">C14</tspan></text>
     <rect
        transform="matrix(0,-1,1,0,0,0)"
-       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect5202"
        width="21.353447"
        height="11.594074"
@@ -3250,7 +3243,7 @@
        inkscape:export-ydpi="324.16406" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="1360.1504"
        y="252.12167"
        id="text5028"
@@ -3262,7 +3255,7 @@
          id="tspan5030"
          x="1360.1504"
          y="252.12167"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7">C6</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#000000;">C6</tspan></text>
     <circle
        style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="circle5032"
@@ -3448,7 +3441,7 @@
          y="163.23232"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.25px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT'">B8</tspan></text>
     <rect
-       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect5178"
        width="19.143738"
        height="9.1450977"
@@ -3462,7 +3455,7 @@
        inkscape:export-xdpi="324.16406"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:11.25px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="1346.0101"
        y="390.96454"
        id="text5180"
@@ -3471,10 +3464,10 @@
          id="tspan5182"
          x="1346.0101"
          y="390.96454"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7">C15</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#000000;">C15</tspan></text>
     <rect
        transform="matrix(0,-1,1,0,0,0)"
-       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect5198"
        width="21.353447"
        height="11.594074"
@@ -3485,9 +3478,9 @@
        inkscape:export-ydpi="324.16406" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1382.8479"
-       y="302.34406"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1384.6157"
+       y="296.33365"
        id="text4966"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
@@ -3495,9 +3488,14 @@
        inkscape:export-ydpi="324.16406"><tspan
          sodipodi:role="line"
          id="tspan4968"
-         x="1382.8479"
-         y="302.34406"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7">C8</tspan></text>
+         x="1384.6157"
+         y="296.33365"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#000000">C</tspan><tspan
+         sodipodi:role="line"
+         x="1384.6157"
+         y="308.83365"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#000000"
+         id="tspan4628">8</tspan></text>
     <rect
        y="1382.861"
        x="-334.53122"
@@ -3526,7 +3524,7 @@
          sodipodi:role="line">C8</tspan></text>
     <rect
        transform="matrix(0,-1,1,0,0,0)"
-       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect5204"
        width="21.353447"
        height="11.594074"
@@ -3537,7 +3535,7 @@
        inkscape:export-ydpi="324.16406" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="1320.4667"
        y="318.68365"
        id="text4986"
@@ -3549,15 +3547,15 @@
          id="tspan4988"
          x="1320.4667"
          y="318.68365"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#e3f4d7">C</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#000000;">C</tspan><tspan
          sodipodi:role="line"
          x="1320.4667"
          y="331.18365"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#e3f4d7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#000000;"
          id="tspan5210">12</tspan></text>
     <rect
        transform="matrix(0,-1,1,0,0,0)"
-       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect5208"
        width="21.353447"
        height="11.594074"
@@ -3574,15 +3572,15 @@
        id="text5212"
        y="293.57996"
        x="1319.5468"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#e3f4d7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#000000;"
          y="293.57996"
          x="1319.5468"
          id="tspan5214"
          sodipodi:role="line">C</tspan><tspan
          id="tspan5216"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#e3f4d7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#000000;"
          y="306.07996"
          x="1319.5468"
          sodipodi:role="line">11</tspan></text>
@@ -3592,14 +3590,14 @@
        height="11.594074"
        width="21.353447"
        id="rect5218"
-       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        transform="matrix(0,-1,1,0,0,0)"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        inkscape:export-xdpi="324.16406"
        inkscape:export-ydpi="324.16406" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="1319.1718"
        y="269.07996"
        id="text5220"
@@ -3611,14 +3609,14 @@
          id="tspan5222"
          x="1319.1718"
          y="269.07996"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#e3f4d7">C</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#000000;">C</tspan><tspan
          sodipodi:role="line"
          x="1319.1718"
          y="281.57996"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#e3f4d7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#000000;"
          id="tspan5224">10</tspan></text>
     <rect
-       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect5230"
        width="24.270262"
        height="11.594074"
@@ -3629,7 +3627,7 @@
        inkscape:export-ydpi="324.16406" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="1257.0355"
        y="191.95439"
        id="text4956"
@@ -3641,7 +3639,7 @@
          id="tspan4958"
          x="1257.0355"
          y="191.95439"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7">C4</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#000000;">C4</tspan></text>
     <rect
        style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4588"
@@ -3679,7 +3677,7 @@
        inkscape:export-xdpi="324.16406"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        transform="matrix(0,-1,1,0,0,0)"
-       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4596"
        width="21.353447"
        height="11.594074"
@@ -3690,19 +3688,24 @@
        inkscape:export-xdpi="324.16406"
        inkscape:export-filename="/Users/ahuotala/Downloads/tmp12.png"
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1383.0037"
-       y="326.96484"
+       style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="1385.4785"
+       y="320.95444"
        id="text4598"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4600"
-         x="1383.0037"
-         y="326.96484"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7">C9</tspan></text>
+         x="1385.4785"
+         y="320.95444"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#000000">C</tspan><tspan
+         sodipodi:role="line"
+         x="1385.4785"
+         y="333.45444"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#000000"
+         id="tspan4630">9</tspan></text>
     <rect
        transform="matrix(0,-1,1,0,0,0)"
-       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4612"
        width="16.144176"
        height="8.7656469"
@@ -3713,7 +3716,7 @@
        inkscape:export-ydpi="324.16406" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:30.24181747px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:30.24181747px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="1391.6714"
        y="369.34329"
        id="text4614"
@@ -3725,11 +3728,11 @@
          id="tspan4616"
          x="1391.6714"
          y="369.34329"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.56045437px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#e3f4d7">C</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.56045437px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#000000;">C</tspan><tspan
          sodipodi:role="line"
          x="1391.6714"
          y="378.79385"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.56045437px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#e3f4d7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.56045437px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';text-align:center;text-anchor:middle;fill:#000000;"
          id="tspan4618">13</tspan></text>
     <rect
        inkscape:export-ydpi="324.16406"
@@ -3740,7 +3743,7 @@
        height="11.594074"
        width="24.270262"
        id="rect4620"
-       style="opacity:1;fill:#165016;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+       style="opacity:1;fill:#ffdd55;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
     <text
        inkscape:export-ydpi="324.16406"
        inkscape:export-xdpi="324.16406"
@@ -3749,12 +3752,24 @@
        id="text4622"
        y="191.95439"
        x="1285.0355"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#e3f4d7;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#e3f4d7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.75px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#000000;"
          y="191.95439"
          x="1285.0355"
          id="tspan4624"
          sodipodi:role="line">C5</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text4632"
+       y="402.6344"
+       x="719.56201"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#11002b;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35px;font-family:'TW Cen MT';-inkscape-font-specification:'TW Cen MT';fill:#11002b"
+         y="402.6344"
+         x="719.56201"
+         id="tspan4634"
+         sodipodi:role="line">wc</tspan></text>
   </g>
 </svg>
