@@ -21,25 +21,25 @@ const MapPage = () => (
         <div className={style.mapInfoEntry}>
           <BigBoothBadge value="A1" />
           <span>
-            <Localized id="big-booth">Big booth</Localized> 1
+            <Localized id="big-booth">Big booth</Localized>
           </span>
         </div>
         <div className={style.mapInfoEntry}>
           <BigBoothBadge value="A2" />
           <span>
-            <Localized id="big-booth">Big booth</Localized> 2
+            <Localized id="big-booth">Big booth</Localized>
           </span>
         </div>
         <div className={style.mapInfoEntry}>
           <BigBoothBadge value="C1" />
           <span>
-            <Localized id="big-booth">Big booth</Localized> 3
+            <Localized id="big-booth">Big booth</Localized>
           </span>
         </div>
         <div className={style.mapInfoEntry}>
           <BigBoothBadge value="C2" />
           <span>
-            <Localized id="big-booth">Big booth</Localized> 4
+            <Localized id="big-booth">Big booth</Localized>
           </span>
         </div>
         <div className={style.mapInfoEntry}>
