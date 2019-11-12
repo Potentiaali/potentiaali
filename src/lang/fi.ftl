@@ -123,4 +123,5 @@ back-to-company-listing = Takaisin yrityslistaukseen
 at-clock = klo
 view-all-companies = Näytä listana
 go-back = Takaisin
-go-to-company-listing = Näytä vuoden 2019 Kumpulan Potentiaaliin osallistuvat yritykset
+go-to-company-listing = Näytä vuoden 2019 Kumpulan Potentiaaliin osallistuvat 
+fullscreen = Koko näytön tila

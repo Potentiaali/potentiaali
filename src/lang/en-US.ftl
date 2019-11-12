@@ -117,3 +117,4 @@ at-clock = at
 view-all-companies = View as a list
 go-back = Go back
 go-to-company-listing = Go to companies attending Kumpula's Potential 2019
+fullscreen = Fullscreen

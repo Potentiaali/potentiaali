@@ -34,3 +34,25 @@
   align-items: center;
   color: $black-1;
 }
+
+.mapImage {
+  &:fullscreen {
+    background-color: white;
+  }
+}
+
+.fullScreenButton {
+  border: 0;
+  color: $orange-1;
+  background-color: transparent;
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.1em;
+  font-weight: bold;
+  &:hover {
+    cursor: pointer;
+  }
+  &:fullscreen {
+    display: none;
+  }
+}
