@@ -43,6 +43,15 @@ const Footer = () => (
         <i className="fab fa-instagram"></i>
       </a>
       <a
+        href="https://t.me/potentiaali19"
+        rel="noopener noreferrer"
+        target="_blank"
+        className={styles["footer-icon"]}
+        alt="Join the official Telegram channel"
+      >
+        <i className="fab fa-telegram"></i>
+      </a>
+      <a
         href="mailto:info@potentiaali.com"
         alt="Send an email"
         className={styles["footer-icon"]}
