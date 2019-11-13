@@ -553,10 +553,10 @@
     "id": 52,
     "name": "Beneq",
     "imgSrc": "companies/Beneq.png",
-    "websiteUrl": "https://careers.beneq.com/",
+    "websiteUrl": "https://beneq.com/",
     "description": {
-      "fi": "",
-      "en-US": ""
+      "fi": "Beneq is a leading supplier of Atomic Layer Deposition (ALD) equipment and thin film coating services, and the world's premier manufacturer of thin film electroluminescent displays. Beneq’s rugged, transparent and customized Lumineq displays, enabled by atomic layer deposition, are used in a wide array of applications in extreme conditions. Fully transparent Lumineq TASEL displays combine aesthetics with superior reliability and a unique see-through viewing experience.",
+      "en-US": "Beneq is a leading supplier of Atomic Layer Deposition (ALD) equipment and thin film coating services, and the world's premier manufacturer of thin film electroluminescent displays. Beneq’s rugged, transparent and customized Lumineq displays, enabled by atomic layer deposition, are used in a wide array of applications in extreme conditions. Fully transparent Lumineq TASEL displays combine aesthetics with superior reliability and a unique see-through viewing experience."
     },
     "booth": "B6"
   },
