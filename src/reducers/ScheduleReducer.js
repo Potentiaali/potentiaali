@@ -304,58 +304,6 @@ const schedule = [
     hideTime: false
   },
   {
-    id: 13,
-    companyName: "HY Alumnit",
-    location: "Exactum B121",
-    title: {
-      fi: "CoachCafe – parhaat vinkit työnhakuun!",
-      "en-US": "CoachCafe - Looking for a job?"
-    },
-    description: {
-      fi: `Mentorit jakavat vinkkejä ja sparrausta koskien työelämää, työnhakua tai oman uran rakentamista.`,
-      "en-US":
-        "Join us at Kumpula's Potential where mentors share tips and sparring about working life, looking for a job, or building your own career."
-    },
-    fullDescription: {
-      fi: `Mentorit jakavat vinkkejä ja sparrausta koskien työelämää, työnhakua tai oman uran rakentamista.
-Ja mitä parasta keskustelun aiheet rakentuvat vapaasti ryhmän toiveiden mukaan!
-  
-Ilmoittaudu mukaan 11.11. mennessä: https://www.lyyti.in/coachcafe_potentiaali_2019
-Muistathan, että ilmoittautuminen on sitova.
-  
-Mukana ovat seuraavat yritykset ja mentorit:
-  
-Kimmo Kärkkäinen
-Foreca Ltd
-  
-Data Engineer Venla Viljamaa 
-Solita
-      `,
-      "en-US": `Join us at Kumpula's Potential where mentors share tips and sparring about working life, looking for a job, or building your own career.
-  
-Sign up before 11.11. : https://www.lyyti.in/coachcafe_potentiaali_2019
-  
-Companies and mentors:
-  
-Kimmo Kärkkäinen
-Foreca Ltd
-  
-Data Engineer Venla Viljamaa
-Solita
-      `
-    },
-    speakers: [
-      "Kimmo Kärkkäinen, Foreca Ltd",
-      "Venla Viljamaa, Data Engineer at Solita"
-    ],
-    language: "fi",
-    link: "https://www.lyyti.in/coachcafe_potentiaali_2019",
-    startTime: utcToZonedTime(new Date(2019, 11, 14, 15, 0), "Europe/Helsinki"),
-    endTime: utcToZonedTime(new Date(2019, 11, 14, 16, 0), "Europe/Helsinki"),
-    hideDetails: false,
-    hideTime: false
-  },
-  {
     id: 14,
     companyName: "",
     location: "Exactum B123",
