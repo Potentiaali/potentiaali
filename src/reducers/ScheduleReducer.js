@@ -308,8 +308,8 @@ const schedule = [
     companyName: "HY Alumnit",
     location: "Exactum B121",
     title: {
-      fi: "CoachCafe – parhaat vinkit työnhakuun!",
-      "en-US": "CoachCafe - Looking for a job?"
+      fi: "[Peruttu] CoachCafe – parhaat vinkit työnhakuun!",
+      "en-US": "[Cancelled] CoachCafe - Looking for a job?"
     },
     description: {
       fi: `Mentorit jakavat vinkkejä ja sparrausta koskien työelämää, työnhakua tai oman uran rakentamista.`,
