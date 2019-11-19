@@ -6,10 +6,10 @@
   "showProgramView": false,
   "showRegistrationInfo": false,
   "showCompanies": true,
-  "showSpeedRekry": true,
+  "showSpeedRekry": false,
   "companyRegistrationStarts": "Mon Jun 10 2019 12:00:00 GMT+0300",
-  "companyRegistrationLink": "https://forms.gle/kVcR1KDStVy2UhzB9",
+  "companyRegistrationLink": "",
   "companyRegistrationStartDate": "10.6.2019",
   "companyRegistrationStartTime": "12:00",
-  "speedRekryApi": "https://tsdgdid9pa.execute-api.eu-central-1.amazonaws.com/Production"
+  "speedRekryApi": ""
 }
