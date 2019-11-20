@@ -409,7 +409,7 @@ In addition to the similar data analysis methods, risk management and scientific
       `
     },
     speakers: [],
-    language: "fi",
+    language: "en",
     link: "",
     startTime: utcToZonedTime(
       new Date(2019, 11, 14, 14, 30),
@@ -468,7 +468,7 @@ In addition to the similar data analysis methods, risk management and scientific
         "If you have read the newspapers lately you may have noticed the huge hype about the IT sector. Software Developers wanted. Hopefully more alive than dead. Are software developers really the rockstars of the 2020s and is a software developer’s job something that the young people should seriously consider?"
     },
     speakers: [],
-    language: "fi",
+    language: "en",
     link: "",
     startTime: utcToZonedTime(
       new Date(2019, 11, 14, 15, 30),
@@ -497,7 +497,7 @@ In addition to the similar data analysis methods, risk management and scientific
         "Have you ever heard that you need experience to get a job that would help you get experience? One of the ways to bridge that gap is to build hobby projects. In this talk, I'll share insights based on my personal experience and history of building these projects: what to build, how to do it and how to use them to get a job in tech."
     },
     speakers: [],
-    language: "fi",
+    language: "en",
     link: "",
     startTime: utcToZonedTime(new Date(2019, 11, 14, 16, 0), "Europe/Helsinki"),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 16, 30), "Europe/Helsinki"),
