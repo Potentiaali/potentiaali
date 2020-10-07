@@ -14,10 +14,8 @@ registration = Registration
 registration-opens = Registration will open later.
 register-to-speed-rekry = Register to Rekry Speed Dating
 title-1 = What is Kumpula's Potential?
-main-part-1 = Kumpula's Potential is a work-life and recruitment event organized by the students of the Faculty of Science.
-            The event was organized last year for the second time, and it was a success among companies and students!
-main-part-2 = Over 95 % of the companies, that gave us feedback last year, thought that the event was worth it.
-            Every fourth of them thought that the event gave a lot of value for money.
+main-part-1 = Kumpula's Potential is a work-life and recruitment event organized by the students of the Faculty of Science. The event has been organized three times; in 2018, 2019 and 2020. The event has always been a success among companies and students!
+main-part-2 = Over 95 % of the companies, that gave us feedback last year, thought that the event was worth it. Every fourth of them thought that the event gave a lot of value for money.
 event-info-title = Event information
 event-location = Location
 event-location-value = Kumpula's campus (Gustaf Hällströmin katu 2)
@@ -118,3 +116,8 @@ view-all-companies = View as a list
 go-back = Go back
 go-to-company-listing = Go to companies attending Kumpula's Potential 2019
 fullscreen = Fullscreen
+event-notification-title-2020 = Info regarding Kumpula's Potential 2020 -event
+event-notification-body-1-2020 = Due to the current coronavirus situation, we have decided to cancel the physical Kumpula's Potential 2020 -event.
+event-notification-body-2-2020 = We are currently looking for an alternative way to organize the event in the autumn. Stay tuned!
+event-notification-body-3-2020 = If you have any questions regarding this notification, please contact us
+event-notification-body-4-2020 = via email.

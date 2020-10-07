@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-yarn install
+npm install
 rm -rf build
-yarn build
+npm run build
 cd build
 aws s3 sync . s3://$BUCKET/ --region eu-west-1 --acl public-read

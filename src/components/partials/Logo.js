@@ -31,7 +31,7 @@ const Logo = () => (
       </text>
     </Localized>
     <text x="750" y="221" className={styles["logo-3"]}>
-      {config.eventDate} <Localized id="at-clock">at</Localized> {config.eventTime}
+      {config.eventDate !== "" && <>{config.eventDate} <Localized id="at-clock">at</Localized> {config.eventTime}</>}
     </text>
   </svg>
 );

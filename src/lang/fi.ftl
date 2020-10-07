@@ -14,11 +14,10 @@ registration-opens = Ilmoittautuminen aukeaa myöhemmin syksyllä
 register-to-speed-rekry = Ilmoittaudu Rekry Speed Dating -ohjelmaan
 title-1 = Mikä on Kumpulan Potentiaali?
 main-part-1 = Kumpulan Potentiaali on Helsingin yliopiston
-            matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden
-            järjestämä työelämä- ja rekrytointitapahtuma, joka järjestettiin
-            toista kertaa syksyllä 2018. Toista kertaa järjestetyksi
-            tapahtumaksi Kumpulan Potentiaali 2018 oli menestys niin
-            opiskelijoiden kuin yritysvieraidenkin puolesta.
+          matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden järjestämä
+          työelämä- ja rekrytointitapahtuma, joka on järjestetty kolme
+          kertaa; vuosina 2017, 2018 ja 2019. Kumpulan Potentiaali on ollut
+          menestys niin opiskelijoiden kuin yritysvieraidenkin puolesta.
 main-part-2 = Palautteeseen vastanneista yritysvieraista yli 95% arvioi tapahtuman
             annin olevan vähintään hinnan väärti, ja joka neljäs koki tapahtuman
             annin olevan erinomainen hintaan nähden.
@@ -125,3 +124,8 @@ view-all-companies = Näytä listana
 go-back = Takaisin
 go-to-company-listing = Näytä vuoden 2019 Kumpulan Potentiaaliin osallistuvat yritykset
 fullscreen = Koko näytön tila
+event-notification-title-2020 = Tiedote koskien Kumpulan Potentiaali 2020 -tapahtumaa
+event-notification-body-1-2020 = Vallitsevan koronavirustilanteen vuoksi olemme päättäneet perua fyysisen Kumpulan Potentiaali 2020 -tapahtuman.
+event-notification-body-2-2020 = Tutkimme tällä hetkellä vaihtoehtoista tapahtumaformaattia, pysy kuulolla!
+event-notification-body-3-2020 = Jos sinulla on kysyttävää tiedotteesta, olethan meihin yhteydessä
+event-notification-body-4-2020 = sähköpostitse.

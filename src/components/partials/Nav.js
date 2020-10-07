@@ -21,7 +21,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
       disabled: false,
       icon: "fa-home"
     },
-    {
+    /*{
       id: "companyPage",
       name: "Yritykset",
       linkName: "companies",
@@ -52,7 +52,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
       link: "/map",
       disabled: false,
       icon: "fa-map"
-    },
+    },*/
     {
       id: "fieldsOfStudiesPage",
       name: "Aineiden esittely",

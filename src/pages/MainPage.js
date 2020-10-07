@@ -3,12 +3,47 @@ import Logo from "../components/partials/Logo";
 import Companies from "../components/partials/Companies";
 import { Program } from "../components/partials/Program";
 import SpeedRekry from "../components/partials/SpeedRekry";
+import Notification from "../components/partials/Notification";
 import config from "../data/config.json";
 import { Localized } from "fluent-react/compat";
 
 const MainPage = () => (
   <>
     <Logo />
+    <section className="app-section">
+      <Notification
+        type="error"
+        title={
+          <Localized id="event-notification-title-2020">
+            <h2>Tiedote koskien Kumpulan Potentiaali 2020 -tapahtumaa</h2>
+          </Localized>
+        }
+      >
+        <Localized id="event-notification-body-1-2020">
+          <p>
+            Vallitsevan koronavirustilanteen vuoksi olemme päättäneet perua
+            fyysisen Kumpulan Potentiaali 2020 -tapahtuman.
+          </p>
+        </Localized>
+
+        <p>
+          <Localized id="event-notification-body-2-2020">
+            <u>
+              Tutkimme tällä hetkellä vaihtoehtoista tapaa järjestää tapahtuman
+              vielä syksyllä. Stay tuned!
+            </u>
+          </Localized>
+        </p>
+        <p>
+          <Localized id="event-notification-body-3-2020">
+            Jos sinulla on lisää kysyttävää, olethan meihin yhteydessä
+          </Localized>{" "}
+          <Localized id="event-notification-body-4-2020">
+            <a href="mailto:info@potentiaali.com">sähköpostitse.</a>
+          </Localized>
+        </p>
+      </Notification>
+    </section>
     <div className="app-statistics">
       <div className="single-stat">
         <span className="single-stat_main">1000+</span>
@@ -39,10 +74,9 @@ const MainPage = () => (
         <p>
           Kumpulan Potentiaali on Helsingin yliopiston
           matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden järjestämä
-          työelämä- ja rekrytointitapahtuma, joka järjestettiin toista kertaa
-          syksyllä 2018. Toista kertaa järjestetyksi tapahtumaksi Kumpulan
-          Potentiaali 2018 oli menestys niin opiskelijoiden kuin
-          yritysvieraidenkin puolesta.
+          työelämä- ja rekrytointitapahtuma, joka on järjestetty nyt kolme
+          kertaa; vuosina 2017, 2018 ja 2019. Kumpulan Potentiaali on ollut
+          menestys niin opiskelijoiden kuin yritysvieraidenkin puolesta.
         </p>
       </Localized>
       <Localized id="main-part-2">
@@ -53,85 +87,88 @@ const MainPage = () => (
         </p>
       </Localized>
     </section>
-    <section className="app-section">
-      <Localized id="event-info-title">
-        <h1>Event information</h1>
-      </Localized>
-      <div>
-        <ul className="event-info">
-          <li>
-            <span className="event-info-title">
-              <i className="fas fa-map-marked-alt"></i>
-            </span>
-            <span className="event-info-value">
-              <Localized id="event-location">Location</Localized>
-              {": "}
-              <Localized id="event-location-value">
-                Kumpulan kampus (Gustaf Hällströmin katu 2)
-              </Localized>
-            </span>
-          </li>
-          <li>
-            <span className="event-info-title">
-              <i className="fas fa-calendar-day"></i>
-            </span>
-            <span className="event-info-value">
-              <Localized id="event-date">Date</Localized>
-              {": "}
-              <time dateTime="2019-11-14 10:00">
-                <Localized id="event-day">Torstai</Localized> {config.eventDate}
-              </time>
-            </span>
-          </li>
-          <li>
-            <span className="event-info-title">
-              <i className="fas fa-clock"></i>
-            </span>
-            <span className="event-info-value">
-              <Localized id="event-time">Time</Localized>
-              {": "}
-              <Localized id="event-time-prefix">klo</Localized>{" "}
-              {config.eventTime}
-            </span>
-          </li>
-          <li>
-            <a
-              className="link-btn"
-              alt="Show on Google Maps"
-              href="https://goo.gl/maps/1rh5pJXHwgtVffeGA"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
+    {config.eventDate !== "" && (
+      <section className="app-section">
+        <Localized id="event-info-title">
+          <h1>Event information</h1>
+        </Localized>
+        <div>
+          <ul className="event-info">
+            <li>
               <span className="event-info-title">
-                <i className="fas fa-map-marker-alt"></i>
+                <i className="fas fa-map-marked-alt"></i>
               </span>
               <span className="event-info-value">
-                <Localized id="show-on-google-maps">
-                  Show on Google Maps
+                <Localized id="event-location">Location</Localized>
+                {": "}
+                <Localized id="event-location-value">
+                  Kumpulan kampus (Gustaf Hällströmin katu 2)
                 </Localized>
               </span>
-            </a>
-          </li>
-          <li>
-            <a
-              className="link-btn"
-              alt="Add the event to your calendar"
-              href="Kumpulan_Potentiaali_2019.ics"
-              target="_blank"
-            >
+            </li>
+            <li>
               <span className="event-info-title">
-                <i className="fas fa-calendar-plus"></i>
+                <i className="fas fa-calendar-day"></i>
               </span>
               <span className="event-info-value">
-                <Localized id="add-to-calendar">
-                  Add the event to your calendar (.ics)
-                </Localized>
+                <Localized id="event-date">Date</Localized>
+                {": "}
+                <time dateTime="2019-11-14 10:00">
+                  <Localized id="event-day">Torstai</Localized>{" "}
+                  {config.eventDate}
+                </time>
               </span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
+            </li>
+            <li>
+              <span className="event-info-title">
+                <i className="fas fa-clock"></i>
+              </span>
+              <span className="event-info-value">
+                <Localized id="event-time">Time</Localized>
+                {": "}
+                <Localized id="event-time-prefix">klo</Localized>{" "}
+                {config.eventTime}
+              </span>
+            </li>
+            <li>
+              <a
+                className="link-btn"
+                alt="Show on Google Maps"
+                href="https://goo.gl/maps/1rh5pJXHwgtVffeGA"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span className="event-info-title">
+                  <i className="fas fa-map-marker-alt"></i>
+                </span>
+                <span className="event-info-value">
+                  <Localized id="show-on-google-maps">
+                    Show on Google Maps
+                  </Localized>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                className="link-btn"
+                alt="Add the event to your calendar"
+                href="Kumpulan_Potentiaali_2019.ics"
+                target="_blank"
+              >
+                <span className="event-info-title">
+                  <i className="fas fa-calendar-plus"></i>
+                </span>
+                <span className="event-info-value">
+                  <Localized id="add-to-calendar">
+                    Add the event to your calendar (.ics)
+                  </Localized>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    )}
     <section className="app-section">
       {config.showProgramView === true && <Program />}
     </section>
