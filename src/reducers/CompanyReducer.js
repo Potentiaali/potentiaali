@@ -1,8 +1,5 @@
-import companies from "../data/companies.json";
-const companyList = [...companies];
-
 const initialState = {
-  companies: companyList
+  companies: []
 };
 
 const ScheduleTypes = {
