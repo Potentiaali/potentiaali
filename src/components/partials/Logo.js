@@ -16,18 +16,18 @@ const Logo = () => (
     <image
       xlinkHref="lamp_brightorange.svg"
       className={styles["logo-image"]}
-      x="395"
-      y="18"
+      x="355"
+      y="20"
       height="160"
     />
     <Localized id="kumpulas">
-      <text x="25" y="162" className={styles["logo-1"]}>
-        KUMPULAN
+      <text x="25" y="162" className={styles["logo-1"]} aria-hidden="true">
+        Kumpulan
       </text>
     </Localized>
     <Localized id="potential">
-      <text x="50" y="226" className={styles["logo-2"]}>
-        POTENTIAALI
+      <text x="50" y="226" className={styles["logo-2"]} aria-hidden="true">
+        Potentiaali
       </text>
     </Localized>
     <text x="750" y="221" className={styles["logo-3"]}>

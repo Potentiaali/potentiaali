@@ -40,12 +40,16 @@
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
+  &:hover {
+    cursor: pointer;
+  }
 }
 .accordion-button {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  font-size: 1.5em;
+  font-weight: bolder;
+  font-size: 1.8rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,7 +60,7 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  font-size: 1.5em;
+  font-size: 1.6rem;
   display: flex;
   align-items: center;
   justify-content: left;

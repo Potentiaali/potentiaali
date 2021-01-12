@@ -20,15 +20,17 @@
     background-color: transparent;
     color: $orange-2;
     font-weight: bold;
-    font-size: 1.3rem;
     @include tablet {
-      font-size: 0.8rem;
+      font-size: 1.0rem;
     }
     @include mobile {
-      font-size: 0.8rem;
+      font-size: 0.9rem;
     }
     @include desktop {
-      font-size: 0.9rem;
+      font-size: 1.5rem;
+    }
+    @include bigDesktop {
+      font-size: 1.5rem;
     }
     &.current {
       text-decoration: underline;
