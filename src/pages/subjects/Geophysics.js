@@ -4,6 +4,7 @@ import { Localized } from "fluent-react/compat";
 
 export const Geophysics = () => (
   <Accordion
+    accordionId={"geophysics"}
     title={<Localized id="geophysics-title-text">Geofysiikka</Localized>}
   >
     <h5>
@@ -26,6 +27,7 @@ export const Geophysics = () => (
       <h5>Tittelit</h5>
     </Localized>
     <Accordion
+      accordionId={"geophysics-consultant"}
       title={
         <Localized id="geophysics-consultant-title-text">Konsultti</Localized>
       }
@@ -39,6 +41,7 @@ export const Geophysics = () => (
       </Localized>
     </Accordion>
     <Accordion
+      accordionId={"geophysics-hydrologist"}
       title={
         <Localized id="geophysics-hydrologist-title-text">Hydrologi</Localized>
       }
@@ -51,6 +54,7 @@ export const Geophysics = () => (
       </Localized>
     </Accordion>
     <Accordion
+      accordionId={"geophysics-design"}
       title={
         <Localized id="geophysics-design-engineer-title-text">
           Suunnitteluinsinööri
@@ -64,6 +68,7 @@ export const Geophysics = () => (
       </Localized>
     </Accordion>
     <Accordion
+      accordionId={"geophysics-geophysicist"}
       title={
         <Localized id="geophysics-geophysicist-title-text">
           Geofyysikko
@@ -78,6 +83,7 @@ export const Geophysics = () => (
       </Localized>
     </Accordion>
     <Accordion
+      accordionId={"geophysics-research-assistant"}
       title={
         <Localized id="geophysics-research-assistant-title-text">
           Tutkimusavustaja

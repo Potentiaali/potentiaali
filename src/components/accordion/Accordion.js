@@ -13,8 +13,10 @@ export const Accordion = props => {
         [styles.shadow]: !props.noShadow,
         [styles.imageAccordion]: props.imageTitle
       })}
+      aria-expanded={isOpen}
+      id={`accordion-${props.accordionId}`}
     >
-      <div className={styles["accordion-header"]} onClick={() => setOpen(!isOpen)}>
+      <div aria-controls={`accordion-${props.accordionId}`} className={styles["accordion-header"]} onClick={() => setOpen(!isOpen)}>
         {!props.imageTitle && (
           <div className={styles["accordion-button"]}>{isOpen ? "-" : "+"}</div>
         )}
@@ -26,7 +28,7 @@ export const Accordion = props => {
           [styles["inner-shadow"]]: props.inner
         })}
       >
-        <div className={styles.content}>{props.children}</div>
+        <div className={styles.content} aria-hidden={!isOpen}>{props.children}</div>
       </div>
     </div>
   );
@@ -34,6 +36,7 @@ export const Accordion = props => {
 
 Accordion.propTypes = {
   title: PropTypes.any.isRequired,
+  accordionId: PropTypes.any.isRequired,
   children: PropTypes.any,
   noShadow: PropTypes.bool,
   inner: PropTypes.bool,

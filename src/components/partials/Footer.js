@@ -21,6 +21,7 @@ const Footer = () => (
         target="_blank"
         className={styles["footer-icon"]}
         alt="View our Facebook page"
+        aria-label="View our Facebook page"
       >
         <i className="fab fa-facebook-square"></i>
       </a>
@@ -30,6 +31,7 @@ const Footer = () => (
         target="_blank"
         className={styles["footer-icon"]}
         alt="View our LinkedIn profile"
+        aria-label="View our LinkedIn profile"
       >
         <i className="fab fa-linkedin"></i>
       </a>
@@ -39,6 +41,7 @@ const Footer = () => (
         target="_blank"
         className={styles["footer-icon"]}
         alt="View our Instagram profile"
+        aria-label="View our Instagram profile"
       >
         <i className="fab fa-instagram"></i>
       </a>
@@ -48,13 +51,15 @@ const Footer = () => (
         target="_blank"
         className={styles["footer-icon"]}
         alt="Join the official Telegram channel"
+        aria-label="Join the official Telegram channel"
       >
         <i className="fab fa-telegram"></i>
       </a>
       <a
         href="mailto:info@potentiaali.com"
-        alt="Send an email"
+        alt="Contact us via email"
         className={styles["footer-icon"]}
+        aria-label="Contact us via email"
       >
         <i className="fas fa-envelope"></i>
       </a>

@@ -28,10 +28,8 @@ const MainPage = () => (
 
         <p>
           <Localized id="event-notification-body-2-2020">
-            <u>
-              Tutkimme tällä hetkellä vaihtoehtoista tapaa järjestää tapahtuman
-              vielä syksyllä. Stay tuned!
-            </u>
+            Tutkimme tällä hetkellä vaihtoehtoista tapaa järjestää tapahtuman
+            vielä syksyllä. Stay tuned!
           </Localized>
         </p>
         <p>

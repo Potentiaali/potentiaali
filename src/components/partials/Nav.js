@@ -19,7 +19,11 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
       linkName: "",
       link: "/",
       disabled: false,
-      icon: "fa-home"
+      icon: "fa-home",
+      ariaLabel: {
+        fi: "Etusivu",
+        "en-US": "Frontpage",
+      },
     },
     /*{
       id: "companyPage",
@@ -59,8 +63,12 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
       linkName: "subjects",
       link: "/subjects",
       disabled: false,
-      icon: "fa-dna"
-    }
+      icon: "fa-dna",
+      ariaLabel: {
+        fi: "Aineiden esittely",
+        "en-US": "Subjects",
+      },
+    },
   ];
 
   return (
@@ -98,7 +106,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
           </li>
           {menu &&
             menu.map(
-              menuItem =>
+              (menuItem) =>
                 !menuItem.disabled && (
                   <li key={menuItem.id}>
                     <NavLink
@@ -107,6 +115,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
                       key={menuItem.linkName}
                       activeClassName="active-link"
                       className={styles["nav-link"]}
+                      aria-label={menuItem.ariaLabel[current]}
                     >
                       {menuItem.icon !== undefined && (
                         <i className={classNames("fas", menuItem.icon)}>
@@ -126,6 +135,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
               )}
               onClick={() => changeLocales([next])}
               disabled={isFetching}
+              aria-label={`Change page language to ${next}`}
             >
               <i className="fas fa-globe">&nbsp;&nbsp;</i>
               <Localized id="changeLocaleButton" $locale={next}>
@@ -145,24 +155,19 @@ Nav.propTypes = {
   setLanguage: PropTypes.func,
   currentLocales: PropTypes.array,
   isFetching: PropTypes.bool,
-  changeLocales: PropTypes.func
+  changeLocales: PropTypes.func,
 };
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
     currentLocales: state.localization.currentLocales,
-    isFetching: state.localization.isFetching
+    isFetching: state.localization.isFetching,
   };
 };
 
 const mapDispatchToProps = {
   setLanguage,
-  changeLocales
+  changeLocales,
 };
 
-export default withRouter(
-  connect(
-    mapStateToProps,
-    mapDispatchToProps
-  )(Nav)
-);
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Nav));

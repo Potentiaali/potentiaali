@@ -4,6 +4,7 @@ import { Localized } from "fluent-react/compat";
 
 export const ComputerScience = () => (
   <Accordion
+    accordionId={"compsci"}
     title={
       <Localized id="computer-science-title-text">
         Tietojenkäsittelytiede
@@ -25,6 +26,7 @@ export const ComputerScience = () => (
       <h5>Tittelit</h5>
     </Localized>
     <Accordion
+      accordionId={"compsci-full-stack"}
       title={
         <Localized id="computer-science-full-stack-developer-title-text">
           Full-stack Developer
@@ -41,6 +43,7 @@ export const ComputerScience = () => (
       </Localized>
     </Accordion>
     <Accordion
+      accordionId={"compsci-data-scientist"}
       title={
         <Localized id="computer-science-data-sciencist-title-text">
           Data Sciencist
@@ -58,6 +61,7 @@ export const ComputerScience = () => (
       </Localized>
     </Accordion>
     <Accordion
+      accordionId={"compsci-science-security"}
       title={
         <Localized id="computer-science-security-networking-expert-title-text">
           Tietoturva- ja tietoverkkoasiantuntija
@@ -74,6 +78,7 @@ export const ComputerScience = () => (
       </Localized>
     </Accordion>
     <Accordion
+      accordionId={"compsci-software-architect"}
       title={
         <Localized id="computer-science-software-architect-title-text">
           Ohjelmistoarkkitehti

@@ -4,6 +4,7 @@ import { Localized } from "fluent-react/compat";
 
 export const Meteorology = () => (
   <Accordion
+    accordionId={"meteorology"}
     title={<Localized id="meteorology-title-text">Meteorologia</Localized>}
   >
     <h5>
@@ -26,6 +27,7 @@ export const Meteorology = () => (
       <h5>Tittelit</h5>
     </Localized>
     <Accordion
+      accordionId={"meteorology-meteorologist"}
       title={
         <Localized id="meteorology-meteorologist-title-text">
           Meteorologi
@@ -45,6 +47,7 @@ export const Meteorology = () => (
       </Localized>
     </Accordion>
     <Accordion
+      accordionId={"meteorology-consultant"}
       title={
         <Localized id="meteorology-consultant-title-text">Konsultti</Localized>
       }
@@ -60,6 +63,7 @@ export const Meteorology = () => (
       </Localized>
     </Accordion>
     <Accordion
+      accordionId={"meteorology-physicist"}
       title={
         <Localized id="meteorology-physicist-title-text">Fyysikko</Localized>
       }

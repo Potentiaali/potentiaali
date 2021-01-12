@@ -3,7 +3,10 @@ import { Accordion } from "../../components/accordion/Accordion";
 import { Localized } from "fluent-react/compat";
 
 export const Geology = () => (
-  <Accordion title={<Localized id="geology-title-text">Geologia</Localized>}>
+  <Accordion
+    accordionId={"geology"}
+    title={<Localized id="geology-title-text">Geologia</Localized>}
+  >
     <h5>
       <Localized id="subjects-introduction">Yleinen esittely</Localized>
     </h5>
@@ -36,6 +39,7 @@ export const Geology = () => (
       <h5>Tittelit</h5>
     </Localized>
     <Accordion
+      accordionId={"geology-researcher"}
       title={
         <Localized id="geology-researcher-special-researcher-title-text">
           Tutkija / erikoistutkija
@@ -61,6 +65,7 @@ export const Geology = () => (
       </ul>
     </Accordion>
     <Accordion
+      accordionId={"geology-ore-geologist"}
       title={
         <Localized id="geology-ore-geologist-researcher-title-text">
           Malmigeologi
@@ -89,6 +94,7 @@ export const Geology = () => (
       </ul>
     </Accordion>
     <Accordion
+      accordionId={"geology-hydro-geologist"}
       title={
         <Localized id="geology-hydro-geologist-researcher-title-text">
           Hydrogeologisti

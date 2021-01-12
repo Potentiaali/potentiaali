@@ -3,7 +3,10 @@ import { Accordion } from "../../components/accordion/Accordion";
 import { Localized } from "fluent-react/compat";
 
 export const Physics = () => (
-  <Accordion title={<Localized id="physics-title-text">Fysiikka</Localized>}>
+  <Accordion
+    accordionId={"physics"}
+    title={<Localized id="physics-title-text">Fysiikka</Localized>}
+  >
     <h5>
       <Localized id="subjects-introduction">Yleinen esittely</Localized>
     </h5>
@@ -26,6 +29,7 @@ export const Physics = () => (
       <h5>Tittelit</h5>
     </Localized>
     <Accordion
+      accordionId={"physics-researcher"}
       title={<Localized id="physics-researcher-title-text">Tutkija</Localized>}
       noShadow
     >
@@ -46,6 +50,7 @@ export const Physics = () => (
       </Localized>
     </Accordion>
     <Accordion
+      accordionId={"physics-data-analysist"}
       title={
         <Localized id="physics-data-analysist-title-text">
           Data-analyytikko
@@ -69,6 +74,7 @@ export const Physics = () => (
       </Localized>
     </Accordion>
     <Accordion
+      accordionId={"physics-specialist"}
       title={
         <Localized id="physics-specialist-title-text">Asiantuntija</Localized>
       }

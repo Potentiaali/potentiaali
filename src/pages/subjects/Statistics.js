@@ -4,6 +4,7 @@ import { Localized } from "fluent-react/compat";
 
 export const Statistics = () => (
   <Accordion
+    accordionId={"statistics"}
     title={<Localized id="statistics-title-text">Tilastotiede</Localized>}
   >
     <h5>
@@ -23,6 +24,7 @@ export const Statistics = () => (
       <h5>Tittelit</h5>
     </Localized>
     <Accordion
+      accordionId={"statistics-data-analysist"}
       title={
         <Localized id="statistics-data-analysist-title-text">
           Data-analyytikko
@@ -42,6 +44,7 @@ export const Statistics = () => (
       </Localized>
     </Accordion>
     <Accordion
+      accordionId={"statistics-statistician"}
       title={
         <Localized id="statistics-statistician-title-text">
           Tilastotieteilijä
@@ -61,6 +64,7 @@ export const Statistics = () => (
       </Localized>
     </Accordion>
     <Accordion
+      accordionId={"statistics-data-scientist"}
       title={
         <Localized id="statistics-data-scientist-title-text">
           Datatieteilijä
@@ -69,9 +73,10 @@ export const Statistics = () => (
       noShadow
     >
       <Localized id="statistics-data-scientist-description-text">
-      Tilastotiede tarjoaa erinomaiset valmiudet tiedon louhimiseen valtavista datamassoista. 
-      Vahvan matemaattisen perustan ensin hankittuaan moni tilastotieteen opiskelija erikoistuukin 
-      maisterivaiheessa koneoppimiseen ja neuroverkkoihin.
+        Tilastotiede tarjoaa erinomaiset valmiudet tiedon louhimiseen valtavista
+        datamassoista. Vahvan matemaattisen perustan ensin hankittuaan moni
+        tilastotieteen opiskelija erikoistuukin maisterivaiheessa koneoppimiseen
+        ja neuroverkkoihin.
       </Localized>
     </Accordion>
   </Accordion>
