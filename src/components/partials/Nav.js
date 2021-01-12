@@ -110,6 +110,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
                 !menuItem.disabled && (
                   <li key={menuItem.id}>
                     <NavLink
+                      tabIndex={0}
                       exact
                       to={menuItem.link}
                       key={menuItem.linkName}

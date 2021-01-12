@@ -4,6 +4,7 @@ import { Localized } from "fluent-react/compat";
 
 export const Geography = () => (
   <Accordion
+    isRoot
     accordionId={"geography"}
     title={<Localized id="geography-title-text">Maantiede</Localized>}
   >

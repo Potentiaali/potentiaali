@@ -4,6 +4,7 @@ import { Localized } from "fluent-react/compat";
 
 export const Meteorology = () => (
   <Accordion
+    isRoot
     accordionId={"meteorology"}
     title={<Localized id="meteorology-title-text">Meteorologia</Localized>}
   >

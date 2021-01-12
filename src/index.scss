@@ -2,6 +2,11 @@
 @import "fonts";
 @import "mixins";
 
+html {
+  font-size: 100%;
+  font-family: "TW Cen MT", monospace;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -19,17 +24,8 @@ a {
   }
 }
 
-html,
 body {
-  font-family: "TW Cen MT", monospace;
-  font-size: 14pt;
-}
-
-body {
-  background-color: $white-1;
-  @media (prefers-color-scheme: dark) {
-    background-color: $dark-1;
-  }
+  @include darkModeBackground($white-1, $dark-1);
 }
 
 #root {
