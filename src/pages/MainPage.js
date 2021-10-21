@@ -12,14 +12,14 @@ const MainPage = () => (
     <Logo />
     <section className="app-section">
       <Notification
-        type="error"
+        type="success"
         title={
-          <Localized id="event-notification-title-2020">
+          <Localized id="event-notification-title-2021">
             <h2>Tiedote koskien Kumpulan Potentiaali 2020 -tapahtumaa</h2>
           </Localized>
         }
       >
-        <Localized id="event-notification-body-1-2020">
+        <Localized id="event-notification-body-1-2021">
           <p>
             Vallitsevan koronavirustilanteen vuoksi olemme päättäneet perua
             fyysisen Kumpulan Potentiaali 2020 -tapahtuman.
@@ -27,16 +27,16 @@ const MainPage = () => (
         </Localized>
 
         <p>
-          <Localized id="event-notification-body-2-2020">
+          <Localized id="event-notification-body-2-2021">
             Tutkimme tällä hetkellä vaihtoehtoista tapaa järjestää tapahtuman
             vielä syksyllä. Stay tuned!
           </Localized>
         </p>
         <p>
-          <Localized id="event-notification-body-3-2020">
+          <Localized id="event-notification-body-3-2021">
             Jos sinulla on lisää kysyttävää, olethan meihin yhteydessä
           </Localized>{" "}
-          <Localized id="event-notification-body-4-2020">
+          <Localized id="event-notification-body-4-2021">
             <a href="mailto:info@potentiaali.com">sähköpostitse.</a>
           </Localized>
         </p>
