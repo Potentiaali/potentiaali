@@ -1,16 +1,19 @@
+import companies from "../data/companies.json";
+const companyList = [...companies];
+
 const initialState = {
-  companies: []
+  companies: companyList,
 };
 
 const ScheduleTypes = {
-  SET_COMPANIES: "SET_COMPANIES"
+  SET_COMPANIES: "SET_COMPANIES",
 };
 
-export const setCompanies = companies => ({
+export const setCompanies = (companies) => ({
   type: ScheduleTypes.SET_COMPANIES,
   payload: {
-    companies
-  }
+    companies,
+  },
 });
 
 export default (state = initialState, action) => {

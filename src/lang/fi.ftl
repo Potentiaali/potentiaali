@@ -34,7 +34,7 @@ registration-starting-from-text = Ilmoittautuminen { $regDate } klo { $regTime }
 registration-event-full = Tapahtuma on täynnä.
 registration-main-part1 = Kumpulan Potentiaali on Helsingin Yliopiston
             matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden järjestämä
-            työelämä- ja rekrytointitapahtuma, joka järjestetään marraskuussa 2019
+            työelämä- ja rekrytointitapahtuma, joka järjestetään joulukuussa 2021
             kolmannen kerran. Aikaisempina vuosina tapahtuma on ollut menestys niin
             opiskelijoiden kuin yritysvieraiden puolesta.
 registration-main-part2 = Vuonna 2017 yli 95% kertoi tapahtuman olleen vähintään hinnan väärti.
@@ -100,7 +100,7 @@ add-to-calendar = Lisää kalenteriin (.ics)
 student-attendees = Opiskelijavierailijaa
 exhibitors = Yritystä
 mapPage = Kartta
-companies-title-text = Vuoden 2019 Kumpulan Potentiaali -tapahtumaan osallistuvat yritykset
+companies-title-text = Vuoden 2021 Kumpulan Potentiaali -tapahtumaan osallistuvat yritykset
 company-info = Yritysinfo
 average-per-year = Vuosittainen keskiarvo
 back-to-schedule = Takaisin aikatauluun
@@ -122,7 +122,7 @@ back-to-company-listing = Takaisin yrityslistaukseen
 at-clock = klo
 view-all-companies = Näytä listana
 go-back = Takaisin
-go-to-company-listing = Näytä vuoden 2019 Kumpulan Potentiaaliin osallistuvat yritykset
+go-to-company-listing = Näytä vuoden 2021 Kumpulan Potentiaaliin osallistuvat yritykset
 fullscreen = Koko näytön tila
 event-notification-title-2021 = Tiedote koskien Kumpulan Potentiaali 2021 -tapahtumaa
 event-notification-body-1-2021 = Kumpulan Potentiaali järjestetään torstaina 9.12.2021.

@@ -25,15 +25,19 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
         "en-US": "Frontpage",
       },
     },
-    /*{
+    {
       id: "companyPage",
       name: "Yritykset",
       linkName: "companies",
       link: "/companies",
       disabled: false,
-      icon: "fa-file-alt"
+      icon: "fa-file-alt",
+      ariaLabel: {
+        fi: "Yrtiykset",
+        "en-US": "Companies",
+      },
     },
-    {
+    /*{
       id: "companyRegistrationPage",
       name: "Yritysilmoittautuminen",
       linkName: "registration",

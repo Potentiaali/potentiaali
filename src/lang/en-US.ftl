@@ -28,7 +28,7 @@ event-cost-value = 1000,00 euros (bigger booths cost 2000,00 euros)
 registration-starting-from-text = Registration by clicking this button, starting on { $regDate } at { $regTime }
 registration-event-full = The event is now full.
 registration-main-part1 = Kumpulan Potentiaali is a work-life and recruitment event organized by the students of the Faculty of Science, 
-            that will be organized in November 2019 for the third time.
+            that will be organized in November 2021 for the third time.
             In previous years the event has been a success among companies and students.
 registration-main-part2 = In 2017 over 95 % of the companies gave a feedback stating the event was worth it.
 includes = Event contents
@@ -77,7 +77,7 @@ event-not-found = Event not found
 finnish-language-text = Finnish
 english-language-text = English
 english-finnish-language-text = Finnish / English
-registration-notification-text = Company registration for Kumpulan Potentiaali 2019 is currently open!
+registration-notification-text = Company registration for Kumpulan Potentiaali 2021 is currently open!
 register-now-text = Register to Kumpulan Potentiaali now!
 registration-deadline = The registration is open until further notice. We will notify about the possible registration deadline in the registration form and on this page.
 registration-deadline-ended = The registration has been closed. Ask for cancellation slots via email.
@@ -90,7 +90,7 @@ add-to-calendar = Add to calendar (.ics)
 student-attendees = Student attendees
 exhibitors = Companies
 mapPage = Map
-companies-title-text = Companies attending Kumpulan Potentiaali 2019
+companies-title-text = Companies attending Kumpulan Potentiaali 2021
 company-info = Company info
 average-per-year = Average per year
 back-to-schedule = Back to schedule
@@ -114,7 +114,7 @@ back-to-company-listing = Back to company listing
 at-clock = at
 view-all-companies = View as a list
 go-back = Go back
-go-to-company-listing = Go to companies attending Kumpulan Potentiaali 2019
+go-to-company-listing = Go to companies attending Kumpulan Potentiaali 2021
 fullscreen = Fullscreen
 event-notification-title-2021 = Info regarding Kumpulan Potentiaali 2021 -event
 event-notification-body-1-2021 = Kumpulan Potentiaali -event is planned for Thursday 9.12.2021.
