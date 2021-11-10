@@ -31,6 +31,10 @@ const MainPage = () => (
             Tutkimme tällä hetkellä vaihtoehtoista tapaa järjestää tapahtuman
             vielä syksyllä. Stay tuned!
           </Localized>
+          <br />
+          <Localized id="event-notification-body-2-2021-url">
+            <a href="https://forms.gle/BeQDdPUoK4KKtscQA">Ilmoittautumislomake yrityksille</a>
+          </Localized>
         </p>
         <p>
           <Localized id="event-notification-body-3-2021">
