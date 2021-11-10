@@ -25,7 +25,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
         "en-US": "Frontpage",
       },
     },
-    {
+    /*{
       id: "companyPage",
       name: "Yritykset",
       linkName: "companies",
@@ -37,7 +37,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
         "en-US": "Companies",
       },
     },
-    /*{
+    {
       id: "companyRegistrationPage",
       name: "Yritysilmoittautuminen",
       linkName: "registration",
