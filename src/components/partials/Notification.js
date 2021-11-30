@@ -17,7 +17,7 @@ const Notification = ({ type = "info", title, children }) => (
 Notification.propTypes = {
   type: propTypes.string,
   children: propTypes.any.isRequired,
-  title: propTypes.any.isRequired
+  title: propTypes.any.isRequired,
 };
 
 export default Notification;

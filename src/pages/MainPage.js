@@ -12,17 +12,17 @@ const MainPage = () => (
     <Logo />
     <section className="app-section">
       <Notification
-        type="success"
+        type="error"
         title={
           <Localized id="event-notification-title-2021">
-            <h2>Tiedote koskien Kumpulan Potentiaali 2020 -tapahtumaa</h2>
+            <h2>Tiedote koskien Kumpulan Potentiaali 2021 -tapahtumaa</h2>
           </Localized>
         }
       >
         <Localized id="event-notification-body-1-2021">
           <p>
             Vallitsevan koronavirustilanteen vuoksi olemme päättäneet perua
-            fyysisen Kumpulan Potentiaali 2020 -tapahtuman.
+            fyysisen Kumpulan Potentiaali 2021 -tapahtuman.
           </p>
         </Localized>
 
@@ -33,7 +33,9 @@ const MainPage = () => (
           </Localized>
           <br />
           <Localized id="event-notification-body-2-2021-url">
-            <a href="https://forms.gle/BeQDdPUoK4KKtscQA">Ilmoittautumislomake yrityksille</a>
+            <a href="https://forms.gle/BeQDdPUoK4KKtscQA">
+              Ilmoittautumislomake yrityksille
+            </a>
           </Localized>
         </p>
         <p>
