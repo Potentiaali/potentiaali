@@ -1,11 +1,12 @@
 import React, { Suspense } from "react";
-import { Route, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import config from "./data/config.json";
 import moment from "moment";
 import "moment/locale/fi";
 import "moment/locale/en-gb";
 import { Page } from "./components/Page";
 import Fallback from "./components/partials/Fallback";
+//import MainPageTest from "./pages/MainPage"
 
 /*const SchedulePage = React.lazy(() => import("./pages/SchedulePage"));
 const SingleSchedulePage = React.lazy(() =>
@@ -29,7 +30,7 @@ const App = () => {
   return (
     <React.Fragment>
       <Suspense fallback={<Fallback.Nav />}>
-        <Nav />
+        {<Nav />}
       </Suspense>
       <div className="content-wrapper">
         <Page>
@@ -40,25 +41,25 @@ const App = () => {
               </Page>
             }
           >
-            <Switch>
-              <Route exact path="/" component={MainPage} />
-              {/*<Route exact path="/schedule" component={SchedulePage} />
+            <Routes>
+              <Route exact="true" path="/" element={<MainPage/>} />
+              {/*<Route exact path="/schedule" element={<SchedulePage/>} />
               <Route
                 exact
                 path="/schedule/:id"
                 component={SingleSchedulePage}
           />*/}
-              <Route exact path="/company/:id" component={SingleCompanyPage} />
-              <Route exact path="/companies" component={CompanyPage} />
-              <Route exact path="/subjects" component={SubjectsPage} />
-              {/*<Route exact path="/map" component={MapPage} />
+              <Route exact="true" path="/company/:id" element={<SingleCompanyPage/>} />
+              <Route exact="true" path="/companies" element={<CompanyPage/>} />
+              <Route exact="true" path="/subjects" element={<SubjectsPage/>} />
+              {/*<Route exact path="/map" element={<MapPage/>} />
               <Route
                 exact
                 path="/registration"
-                component={CompanyRegistrationPage}
+                element={<CompanyRegistrationPage/>}
           />*/}
-              <Route component={NotFoundPage} />
-            </Switch>
+              <Route component={<NotFoundPage/>} />
+            </Routes>
           </Suspense>
           <Suspense fallback={<Fallback.Footer />}>
             <Footer />

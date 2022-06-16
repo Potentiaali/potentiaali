@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styles from "./SpeedRekryItem.module.scss";
-import { Localized } from "fluent-react/compat";
+import { Localized } from "@fluent/react";
 import classNames from "classnames";
 
 export const SpeedRekryItem = ({ companies, full, link, open, id }) => {

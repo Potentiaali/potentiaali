@@ -1,8 +1,8 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import PropTypes from "prop-types";
-import { Localized } from "fluent-react/compat";
-import { Link, withRouter } from "react-router-dom";
+import { Localized } from "@fluent/react";
+import { Link, useNavigate } from "react-router-dom";
 import LanguageString from "../components/LanguageString";
 import { BoothBadge } from "../components/partials/badges/BoothBadge";
 
@@ -81,4 +81,4 @@ SingleCompanyPage.propTypes = {
   history: PropTypes.any
 };
 
-export default withRouter(SingleCompanyPage);
+export default useNavigate(SingleCompanyPage);

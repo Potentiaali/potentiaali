@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Logo.module.scss";
-import { Localized } from "fluent-react/compat";
+import { Localized } from "@fluent/react";
 import config from "../../data/config.json";
 
 const Logo = () => (

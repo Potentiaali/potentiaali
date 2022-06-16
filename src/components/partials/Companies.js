@@ -2,7 +2,7 @@ import React from "react";
 import companies from "../../data/companies.json";
 import style from "./Companies.module.scss";
 import { Link } from "react-router-dom";
-import { Localized } from "fluent-react/compat";
+import { Localized } from "@fluent/react";
 
 const Companies = () => (
   <>

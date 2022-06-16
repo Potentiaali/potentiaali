@@ -5,7 +5,7 @@ import { Program } from "../components/partials/Program";
 import SpeedRekry from "../components/partials/SpeedRekry";
 import Notification from "../components/partials/Notification";
 import config from "../data/config.json";
-import { Localized } from "fluent-react/compat";
+import { Localized } from "@fluent/react";
 
 const MainPage = () => (
   <>

@@ -3,11 +3,11 @@ import { fetchSpeedRekry } from "./../../reducers/SpeedRekryReducer";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import styles from "./SpeedRekry.module.scss";
-import { Localized } from "fluent-react/compat";
+import { Localized } from "@fluent/react";
 import { SpeedRekryItem } from "./SpeedRekryItem";
-import { Textfit } from "react-textfit";
+import { Textfit } from "@aw-web-design/react-textfit";
 
-export const SpeedRekry = ({ ilmot, open, fetchSpeedRekry }) => {
+export const SpeedRekry = ({ ilmot, fetchSpeedRekry }) => {
   useEffect(() => {
     fetchSpeedRekry();
   }, [fetchSpeedRekry]);

@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import { Language } from "../components/partials/Language";
 import PropTypes from "prop-types";
 import { format } from "date-fns";
-import { Localized } from "fluent-react/compat";
+import { Localized } from "@fluent/react";
 import { Link } from "react-router-dom";
 import LanguageString from "../components/LanguageString";
 
