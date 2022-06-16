@@ -6,7 +6,6 @@ import "moment/locale/fi";
 import "moment/locale/en-gb";
 import { Page } from "./components/Page";
 import Fallback from "./components/partials/Fallback";
-//import MainPageTest from "./pages/MainPage"
 
 /*const SchedulePage = React.lazy(() => import("./pages/SchedulePage"));
 const SingleSchedulePage = React.lazy(() =>
@@ -30,7 +29,7 @@ const App = () => {
   return (
     <React.Fragment>
       <Suspense fallback={<Fallback.Nav />}>
-        {<Nav />}
+        <Nav />
       </Suspense>
       <div className="content-wrapper">
         <Page>

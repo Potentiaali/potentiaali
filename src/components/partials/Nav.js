@@ -13,7 +13,6 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
   //const { l10n } = useLocalization();
   const available = ["en-US", "fi"];
   const next = available[(available.indexOf(current) + 1) % available.length];
-  console.log(current)
   const menu = [
     {
       id: "frontPage",
@@ -76,7 +75,6 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
       },
     },
   ];
-console.log(next)
   return (
     <>
       <input
