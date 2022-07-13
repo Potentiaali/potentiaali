@@ -1,9 +1,11 @@
-import { FluentBundle } from "fluent/compat";
-import { negotiateLanguages } from "fluent-langneg/compat";
+import { negotiateLanguages } from "@fluent/langneg";
 import config from "./../data/config.json";
+//import { ReactLocalization } from "@fluent/react";
 // Localization files
+import { FluentBundle, FluentResource } from "@fluent/bundle";
 import fi from "../lang/fi.ftl";
 import enUS from "../lang/en-US.ftl";
+import { ReactLocalization } from "@fluent/react";
 
 const ftl = {
   fi,
@@ -18,13 +20,23 @@ const initialState = {
   bundles: null
 };
 
-const fetchMessages = async locale => {
-  const response = await fetch(ftl[locale]);
-  const messages = await response.text();
-  return { [locale]: messages };
-};
+async function fetchMessages(locale) {
+  let response = await fetch((ftl[locale]));
+  let messages = await response.text();
+  return [locale, messages];
+}
 
-// https://github.com/projectfluent/fluent.js/blob/master/fluent-react/examples/redux-async/src/actions.js
+function* lazilyParsedBundles(fetchedMessages) {
+  for (let [locale, messages] of fetchedMessages) {
+    let resource = new FluentResource(messages);
+    let bundle = new FluentBundle(locale);
+    bundle.addResource(resource);
+    yield bundle;
+  }
+}
+
+// old: https://github.com/projectfluent/fluent.js/blob/master/fluent-react/examples/redux-async/src/actions.js
+// new: https://github.com/projectfluent/fluent.js/tree/master/fluent-react/example
 export const changeLocales = userLocales => {
   return async dispatch => {
     dispatch(changeLocalesRequest());
@@ -32,23 +44,16 @@ export const changeLocales = userLocales => {
       defaultLocale: "fi"
     });
 
-    const fetched = await Promise.all(currentLocales.map(fetchMessages));
 
-    const messages = fetched.reduce((obj, cur) => Object.assign(obj, cur));
+    let fetchedMessages = await Promise.all(currentLocales.map(fetchMessages));
 
-    const generateBundles = function*() {
-      for (const locale of currentLocales) {
-        const bundle = new FluentBundle(locale);
-        bundle.addMessages(messages[locale]);
-        yield bundle;
-      }
-    };
-
+    let bundles = lazilyParsedBundles(fetchedMessages);
+    let l10n = new ReactLocalization(bundles)
     dispatch(
       changeLocalesResponse({
         userLocales,
         currentLocales,
-        bundles: generateBundles()
+        bundles: l10n
       })
     );
   };

@@ -1,6 +1,6 @@
 import React from "react";
 import { Accordion } from "../../components/accordion/Accordion";
-import { Localized } from "fluent-react/compat";
+import { Localized } from "@fluent/react";
 
 export const Mathematics = () => (
   <Accordion

@@ -1,17 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { NavLink, withRouter } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { connect } from "react-redux";
 import { setLanguage, changeLocales } from "../../reducers/LocalizationReducer";
-import { Localized } from "fluent-react/compat";
+import { Localized } from "@fluent/react";
 import styles from "./Nav.module.scss";
 import classNames from "classnames";
+//import { useLocalization } from "@fluent/react";
 
 const Nav = ({ currentLocales, isFetching, changeLocales }) => {
   const [current] = currentLocales;
+  //const { l10n } = useLocalization();
   const available = ["en-US", "fi"];
   const next = available[(available.indexOf(current) + 1) % available.length];
-
   const menu = [
     {
       id: "frontPage",
@@ -74,7 +75,6 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
       },
     },
   ];
-
   return (
     <>
       <input
@@ -118,7 +118,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
                       exact
                       to={menuItem.link}
                       key={menuItem.linkName}
-                      activeClassName="active-link"
+                      activeclassname="active-link"
                       className={styles["nav-link"]}
                       aria-label={menuItem.ariaLabel[current]}
                     >
@@ -143,9 +143,9 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
               aria-label={`Change page language to ${next}`}
             >
               <i className="fas fa-globe">&nbsp;&nbsp;</i>
-              <Localized id="changeLocaleButton" $locale={next}>
-                {"$locale"}
-              </Localized>
+              <span id="changeLocaleButton" locale={next}>
+                {next}
+              </span>
             </button>
           </li>
         </ul>
@@ -175,4 +175,4 @@ const mapDispatchToProps = {
   changeLocales,
 };
 
-export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Nav));
+export default connect(mapStateToProps, mapDispatchToProps)(Nav);

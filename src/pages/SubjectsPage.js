@@ -9,7 +9,7 @@ import { Chemistry } from "./subjects/Chemistry";
 import { Statistics } from "./subjects/Statistics";
 import { Mathematics } from "./subjects/Mathematics";
 import { ComputerScience } from "./subjects/ComputerScience";
-import { Localized } from "fluent-react/compat";
+import { Localized } from "@fluent/react";
 
 const SubjectsPage = () => {
   return (

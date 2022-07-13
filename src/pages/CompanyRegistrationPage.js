@@ -1,5 +1,5 @@
 import React from "react";
-import { Localized } from "fluent-react/compat";
+import { Localized } from "@fluent/react";
 import { RegistrationButton } from "../components/RegistrationButton";
 import config from "./../data/config.json";
 import Logo from "../components/partials/Logo";

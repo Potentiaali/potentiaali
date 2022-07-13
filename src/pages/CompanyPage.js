@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Localized } from "fluent-react/compat";
+import { Localized } from "@fluent/react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { BoothBadge } from "../components/partials/badges/BoothBadge";

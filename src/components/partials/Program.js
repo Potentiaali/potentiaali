@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Program.module.scss";
 import { Accordion } from "../accordion/Accordion";
-import { Localized } from "fluent-langneg/compat";
-import Textfit from "react-textfit";
+import { Localized } from "@fluent/react";
+import Textfit from "@aw-web-design/react-textfit";
 
 export const Program = () => {
   return (

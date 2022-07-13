@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Localized } from "fluent-react/compat";
+import { Localized } from "@fluent/react";
 
 export const Language = ({ lang }) => {
   switch (lang) {

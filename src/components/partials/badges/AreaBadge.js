@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./AreaBadge.module.scss";
 import PropTypes from "prop-types";
 import className from "classnames";
-import { Localized } from "fluent-react/compat";
+import { Localized } from "@fluent/react";
 
 const AreaBadge = ({ area }) => (
   <div

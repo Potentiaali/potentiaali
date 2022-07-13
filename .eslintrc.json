@@ -8,18 +8,22 @@
   },
   "extends": ["eslint:recommended", "plugin:react/recommended"],
   "parserOptions": {
+    "requireConfigFile": false,
     "ecmaFeatures": {
       "jsx": true
     },
-    "ecmaVersion": 2018,
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+   },
+    "ecmaVersion": 2022,
     "sourceType": "module"
   },
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "settings": {
     "react": {
       "createClass": "createReactClass",
       "pragma": "React",
-      "version": "16.8"
+      "version": "17.0.2"
     },
     "propWrapperFunctions": ["forbidExtraProps"]
   }

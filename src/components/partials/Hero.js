@@ -2,7 +2,7 @@ import React from "react";
 import Clock from "./Clock";
 import config from "../../data/config.json";
 import PropTypes from "prop-types";
-import { Localized } from "fluent-react/compat";
+import { Localized } from "@fluent/react";
 
 import styles from "./Hero.module.scss";
 

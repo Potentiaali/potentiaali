@@ -5,7 +5,7 @@ import "./ScheduleGrid.scss";
 import classNames from "classnames";
 import { format } from "date-fns";
 import { Link } from "react-router-dom";
-import { Localized } from "fluent-react/compat";
+import { Localized } from "@fluent/react";
 import LanguageString from "../LanguageString";
 
 const getHoursAndMinutes = inputDate => {

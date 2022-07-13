@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import React, { Children, useEffect } from "react";
 import PropTypes from "prop-types";
+import { LocalizationProvider } from "@fluent/react";
 import { connect } from "react-redux";
 import "intl-pluralrules";
-import { LocalizationProvider } from "fluent-react/compat";
 import { changeLocales } from "./reducers/LocalizationReducer";
 
 const AppLocalizationProvider = ({ bundles, children, changeLocales }) => {
@@ -13,11 +13,14 @@ const AppLocalizationProvider = ({ bundles, children, changeLocales }) => {
   if (!bundles) {
     return <div />;
   }
-
   return (
-    <LocalizationProvider bundles={bundles}>{children}</LocalizationProvider>
+    <>
+      <LocalizationProvider l10n={bundles}>
+        {Children.only(children)}
+      </LocalizationProvider>
+    </>
   );
-};
+}
 
 AppLocalizationProvider.propTypes = {
   bundles: PropTypes.any,
@@ -27,7 +30,6 @@ AppLocalizationProvider.propTypes = {
 
 const mapStateToProps = state => ({ bundles: state.localization.bundles });
 const mapDispatchToProps = { changeLocales };
-
 export default connect(
   mapStateToProps,
   mapDispatchToProps

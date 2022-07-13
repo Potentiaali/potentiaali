@@ -2,7 +2,7 @@ import React from "react";
 import style from "./MapPage.module.scss";
 import AreaBadge from "../components/partials/badges/AreaBadge";
 import BigBoothBadge from "../components/partials/badges/BigBoothBadge";
-import { Localized } from "fluent-react/compat";
+import { Localized } from "@fluent/react";
 import ClassRoomBadge from "../components/partials/badges/ClassRoomBadge";
 
 const MapPage = () => {

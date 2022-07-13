@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./RegistrationButton.module.scss";
 import config from "./../data/config.json";
 import classNames from "classnames";
-import { Localized } from "fluent-react/compat";
+import { Localized } from "@fluent/react";
 
 /**
  * Returns the registration link.
