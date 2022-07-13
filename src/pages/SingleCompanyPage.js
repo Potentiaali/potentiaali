@@ -67,7 +67,7 @@ const SingleCompanyPage = ({ match, history }) => {
         <Link to="/companies">
           <h3>
             <Localized id="go-to-company-listing">
-              Go to companies attending Kumpula&apos;s Potential 2019
+            Go to companies attending Kumpulan Potentiaali 2022
             </Localized>
           </h3>
         </Link>

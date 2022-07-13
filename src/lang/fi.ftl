@@ -29,12 +29,12 @@ event-date = Päivä
 event-day = Torstai
 event-time-prefix = klo
 event-cost = Hinta
-event-cost-value = 1000,00 euroa (isommat ständipaikat 2000,00 euroa)
+event-cost-value = 1200,00 euroa (isommat ständipaikat 2000,00 euroa)
 registration-starting-from-text = Ilmoittautuminen { $regDate } klo { $regTime } alkaen tästä napista
 registration-event-full = Tapahtuma on täynnä.
 registration-main-part1 = Kumpulan Potentiaali on Helsingin Yliopiston
             matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden järjestämä
-            työelämä- ja rekrytointitapahtuma, joka järjestetään joulukuussa 2021
+            työelämä- ja rekrytointitapahtuma, joka järjestetään joulukuussa 2022
             kolmannen kerran. Aikaisempina vuosina tapahtuma on ollut menestys niin
             opiskelijoiden kuin yritysvieraiden puolesta.
 registration-main-part2 = Vuonna 2017 yli 95% kertoi tapahtuman olleen vähintään hinnan väärti.
@@ -87,7 +87,7 @@ event-not-found = Tapahtumaa ei löydy
 finnish-language-text = Suomi
 english-language-text = Englanti
 english-finnish-language-text = Suomi / Englanti
-registration-notification-text = Yritysilmoittautuminen Kumpulan Potentiaali 2019 -tapahtumaan on nyt auki!
+registration-notification-text = Yritysilmoittautuminen Kumpulan Potentiaali 2022 -tapahtumaan on nyt auki!
 register-now-text = Ilmoittaudu Kumpulan Potentiaaliin nyt!
 registration-deadline = Ilmoittautuminen on auki toistaiseksi. Ilmoitamme mahdollisesta ilmoittautumisen takarajasta ilmoittautumislomakkeessa ja tällä sivulla.
 registration-deadline-ended = Ilmoittautuminen on nyt suljettu. Kysy peruutuspaikoista sähköpostitse.
@@ -100,7 +100,7 @@ add-to-calendar = Lisää kalenteriin (.ics)
 student-attendees = Opiskelijavierailijaa
 exhibitors = Yritystä
 mapPage = Kartta
-companies-title-text = Vuoden 2021 Kumpulan Potentiaali -tapahtumaan osallistuvat yritykset
+companies-title-text = Vuoden 2022 Kumpulan Potentiaali -tapahtumaan osallistuvat yritykset
 company-info = Yritysinfo
 average-per-year = Vuosittainen keskiarvo
 back-to-schedule = Takaisin aikatauluun
@@ -122,11 +122,11 @@ back-to-company-listing = Takaisin yrityslistaukseen
 at-clock = klo
 view-all-companies = Näytä listana
 go-back = Takaisin
-go-to-company-listing = Näytä vuoden 2021 Kumpulan Potentiaaliin osallistuvat yritykset
+go-to-company-listing = Näytä vuoden 2022 Kumpulan Potentiaaliin osallistuvat yritykset
 fullscreen = Koko näytön tila
-event-notification-title-2021 = Kumpulan Potentiaali 2021 on peruttu.
-event-notification-body-1-2021 = Vallitsevan epidemiatilanteen vuoksi Kumpulan Potentiaalia ei valitettavasti järjestetä keväällä 2022.
-event-notification-body-2-2021 = Seuraavan kerran tapahtuma järjestetään ensi syksynä. Lisää tietoa syksyn tapahtumasta vielä ennen kesää!
-event-notification-body-2-2021-url = 
-event-notification-body-3-2021 = Meihin voi olla yhteydessä
-event-notification-body-4-2021 = sähköpostitse.
+event-notification-title = Kumpulan Potentiaali 2022 on tulossa.
+event-notification-body-1 = Kumpulan potentiaali järjestetään 2022 syksyllä 8.12.2022
+event-notification-body-2 = Lisää tietoa tapahtumasta tulossa vielä kesän aikana
+event-notification-body-2-url = 
+event-notification-body-3 = Meihin voi olla yhteydessä
+event-notification-body-4 = sähköpostitse.

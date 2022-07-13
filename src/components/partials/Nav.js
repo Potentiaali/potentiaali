@@ -26,6 +26,18 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
         "en-US": "Frontpage",
       },
     },
+    {
+      id: "companyRegistrationPage",
+      name: "Yritysilmoittautuminen",
+      linkName: "registration",
+      link: "/registration",
+      disabled: false,
+      icon: "fa-file-alt",
+      ariaLabel: {
+        fi: "Ilmoittautuminen",
+        "en-US": "Registration",
+      },
+    },
     /*{
       id: "companyPage",
       name: "Yritykset",
@@ -37,14 +49,6 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
         fi: "Yrtiykset",
         "en-US": "Companies",
       },
-    },
-    {
-      id: "companyRegistrationPage",
-      name: "Yritysilmoittautuminen",
-      linkName: "registration",
-      link: "/registration",
-      disabled: true,
-      icon: "fa-file-alt"
     },
     {
       id: "schedulePage",

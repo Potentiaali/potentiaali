@@ -15,7 +15,7 @@ const CompanyRegistrationPage = () => (
         <Localized id="registration-main-part1">
           Kumpulan Potentiaali on Helsingin Yliopiston
           matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden järjestämä
-          työelämä- ja rekrytointitapahtuma, joka järjestetään marraskuussa 2019
+          työelämä- ja rekrytointitapahtuma, joka järjestetään joulukuussa 2022
           kolmannen kerran. Aikaisempina vuosina tapahtuma on ollut menestys
           niin opiskelijoiden kuin yritysvieraiden puolesta.
         </Localized>{" "}
@@ -101,7 +101,7 @@ const CompanyRegistrationPage = () => (
           <span className="event-info-value">
             <Localized id="event-date">Date</Localized>
             {": "}
-            <time dateTime="2019-11-14 10:00">
+            <time dateTime="2022-12-8 10:00">
               <Localized id="event-day">Torstai</Localized> {config.eventDate}
             </time>
           </span>
@@ -123,7 +123,7 @@ const CompanyRegistrationPage = () => (
           <span className="event-info-value">
             <Localized id="event-cost">Price</Localized>
             {": "}
-            <Localized id="event-cost-value">1000,00 euroa</Localized>
+            <Localized id="event-cost-value">1200,00 euroa</Localized>
           </span>
         </li>
         <li>
