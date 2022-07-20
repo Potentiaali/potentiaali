@@ -115,7 +115,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
                   <li key={menuItem.id}>
                     <NavLink
                       tabIndex={0}
-                      exact
+                      exact="true"
                       to={menuItem.link}
                       key={menuItem.linkName}
                       activeclassname="active-link"

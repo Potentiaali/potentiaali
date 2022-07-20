@@ -44,7 +44,6 @@ export const changeLocales = userLocales => {
       defaultLocale: "fi"
     });
 
-
     let fetchedMessages = await Promise.all(currentLocales.map(fetchMessages));
 
     let bundles = lazilyParsedBundles(fetchedMessages);

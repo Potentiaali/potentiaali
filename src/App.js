@@ -27,19 +27,19 @@ moment.locale(config.defaultLocale);
 
 const App = () => {
   return (
-    <React.Fragment>
-      <Suspense fallback={<Fallback.Nav />}>
-        <Nav />
-      </Suspense>
-      <div className="content-wrapper">
-        <Page>
-          <Suspense
+    <>
+              <Suspense
             fallback={
               <Page noTopPadding noBottomPadding>
                 <Fallback.Loader />
               </Page>
             }
           >
+      <Suspense fallback={<Fallback.Nav />}>
+        <Nav />
+      </Suspense>
+      <div className="content-wrapper">
+        <Page>
             <Routes>
               <Route exact="true" path="/" element={<MainPage/>} />
               {/*<Route exact path="/schedule" element={<SchedulePage/>} />
@@ -51,15 +51,14 @@ const App = () => {
               <Route exact="true" path="/company/:id" element={<SingleCompanyPage/>} />
               <Route exact="true" path="/companies" element={<CompanyPage/>} />
               <Route exact="true" path="/subjects" element={<SubjectsPage/>} />
-              {/*<Route exact path="/map" element={<MapPage/>} />
-              <Route
+              {/*<Route exact path="/map" element={<MapPage/>} />*/}
+              {/*<Route
                 exact
                 path="/registration"
                 element={<CompanyRegistrationPage/>}
-          />*/}
+              />*/}
               <Route component={<NotFoundPage/>} />
             </Routes>
-          </Suspense>
           <Suspense fallback={<Fallback.Footer />}>
             <Footer />
           </Suspense>
@@ -68,7 +67,8 @@ const App = () => {
       <Suspense fallback={<Fallback.Footer />}>
         <Footer />
       </Suspense>
-    </React.Fragment>
+      </Suspense>
+    </>
   );
 };
 

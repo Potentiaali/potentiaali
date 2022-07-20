@@ -1,10 +1,10 @@
-import React from "react";
+import React from "react"
 import Logo from "../components/partials/Logo";
-import Companies from "../components/partials/Companies";
-import { Program } from "../components/partials/Program";
-import SpeedRekry from "../components/partials/SpeedRekry";
-import Notification from "../components/partials/Notification";
-import config from "../data/config.json";
+import Companies from "../components/partials/Companies"
+import { Program } from "../components/partials/Program"
+import SpeedRekry from "../components/partials/SpeedRekry"
+import Notification from "../components/partials/Notification"
+import config from "../data/config.json"
 import { Localized } from "@fluent/react";
 
 const MainPage = () => (
@@ -12,36 +12,33 @@ const MainPage = () => (
     <Logo />
     <section className="app-section">
       <Notification
-        type="error"
+        type="success"
         title={
-          <Localized id="event-notification-title-2021">
-            <h2>Tiedote koskien Kumpulan Potentiaali 2021 -tapahtumaa</h2>
+          <Localized id="event-notification-title">
+            <h2>Kumpulan Potentiaali 2022 on tulossa.</h2>
           </Localized>
         }
       >
-        <Localized id="event-notification-body-1-2021">
+        <Localized id="event-notification-body-1">
           <p>
-            Vallitsevan koronavirustilanteen vuoksi olemme päättäneet perua
-            fyysisen Kumpulan Potentiaali 2021 -tapahtuman.
+          Kumpulan potentiaali järjestetään 2022 syksyllä 8.12.2022
           </p>
         </Localized>
-
         <p>
-          <Localized id="event-notification-body-2-2021">
-            Tutkimme tällä hetkellä vaihtoehtoista tapaa järjestää tapahtuman
-            vielä syksyllä. Stay tuned!
+          <Localized id="event-notification-body-2">
+          Lisää tietoa tapahtumasta tulossa vielä kesän aikana
           </Localized>
           {/* <br />
-          <Localized id="event-notification-body-2-2021-url">
+          <Localized id="event-notification-body-2-url">
             <a href="https://forms.gle/BeQDdPUoK4KKtscQA">
               Ilmoittautumislomake yrityksille</a>
           </Localized> */}
         </p>
         <p>
-          <Localized id="event-notification-body-3-2021">
-            Jos sinulla on lisää kysyttävää, olethan meihin yhteydessä
+          <Localized id="event-notification-body-3">
+          Meihin voi olla yhteydessä
           </Localized>{" "}
-          <Localized id="event-notification-body-4-2021">
+          <Localized id="event-notification-body-4">
             <a href="mailto:info@potentiaali.com">sähköpostitse.</a>
           </Localized>
         </p>
