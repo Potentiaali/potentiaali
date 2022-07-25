@@ -28,17 +28,17 @@ moment.locale(config.defaultLocale);
 const App = () => {
   return (
     <>
-              <Suspense
-            fallback={
-              <Page noTopPadding noBottomPadding>
-                <Fallback.Loader />
-              </Page>
-            }
-          >
       <Suspense fallback={<Fallback.Nav />}>
         <Nav />
       </Suspense>
       <div className="content-wrapper">
+      <Suspense
+        fallback={
+          <Page noTopPadding noBottomPadding>
+            <Fallback.Loader />
+          </Page>
+        }
+      >
         <Page>
             <Routes>
               <Route exact="true" path="/" element={<MainPage/>} />
@@ -63,10 +63,10 @@ const App = () => {
             <Footer />
           </Suspense>
         </Page>
+        </Suspense>
       </div>
       <Suspense fallback={<Fallback.Footer />}>
         <Footer />
-      </Suspense>
       </Suspense>
     </>
   );
