@@ -177,7 +177,7 @@ const CompanyRegistrationPage = () => (
         </Localized>
       </p>
       <p>
-        <Localized id="registration-deadline-ended">
+        <Localized id="registration-deadline">
           Ilmoittautuminen on auki toistaiseksi. Ilmoitamme mahdollisesta
           ilmoittautumisen takarajasta tällä sivulla.
         </Localized>
