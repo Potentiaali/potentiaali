@@ -37,15 +37,19 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
         fi: "Yrtiykset",
         "en-US": "Companies",
       },
-    },
+    },*/
     {
       id: "companyRegistrationPage",
       name: "Yritysilmoittautuminen",
       linkName: "registration",
       link: "/registration",
-      disabled: true,
-      icon: "fa-file-alt"
-    },
+      disabled: false,
+      icon: "fa-file-alt",
+      ariaLabel: {
+        fi: "Yritys ilmoittautuminen",
+        "en-US": "Company registration",
+      },
+    },/*
     {
       id: "schedulePage",
       name: "Aikataulu",
