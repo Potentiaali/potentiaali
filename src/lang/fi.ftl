@@ -29,7 +29,7 @@ event-date = Päivä
 event-day = Torstai
 event-time-prefix = klo
 event-cost = Hinta
-event-cost-value = 1000,00 euroa (isommat ständipaikat 2000,00 euroa)
+event-cost-value = 1200,00 euroa (isommat ständipaikat 2400,00 euroa)
 registration-starting-from-text = Ilmoittautuminen { $regDate } klo { $regTime } alkaen tästä napista
 registration-event-full = Tapahtuma on täynnä.
 registration-main-part1 = Kumpulan Potentiaali on Helsingin Yliopiston
@@ -40,11 +40,11 @@ registration-main-part1 = Kumpulan Potentiaali on Helsingin Yliopiston
 registration-main-part2 = Vuonna 2017 yli 95% kertoi tapahtuman olleen vähintään hinnan väärti.
 includes = Sisältö
 participate = Osallistumalla Kumpulan Potentiaaliin yritys saa:
-stand = Ständipaikan, johon kuuluu mm. sähköt, internetyhteys ja pöytä. Pöydän koko on noin 1,4 m x 0,8 m.
+stand = Ständipaikan, johon kuuluu mm. sähköt, internetyhteys ja pöytä. Tilaa leveyssuunnassa on n. 2 metriä ja voitte tehdä siitä haluamanne näköisen omilla materiaaleillanne.
 speed-rekry = Mahdollisuus osallistua Rekry Speed Datingiin
 tickets = Liput kolmelle hengelle. Liput sisältävät tapahtuman aikana tarjoiltavan aamupalan, lounaan ja pääsyn tapahtuman jälkeen järjestettäville jatkoille.
 bonus-tickets = Tarjoamme lisäksi neljä suurempaa ständipaikkaa, jotka on sijoiteltu sisäänkäyntien yhteyteen. 
-            Tällainen paikka kustantaa 2000,00 euroa, ja ne myydään ilmoittautumisjärjestyksessä. 
+            Tällainen paikka kustantaa 2400,00 euroa, ja ne myydään ilmoittautumisjärjestyksessä. 
 keynote-and-workshop = Yrityksellä on myös mahdollisuus saada isomman yleisön huomio pitämällä
             Workshop tai Keynote.   
 keynote-and-workshop-information = Keynoten tai workshopin pitäminen ei tuo lisäkustannuksia. Kumpulan Potentiaalin

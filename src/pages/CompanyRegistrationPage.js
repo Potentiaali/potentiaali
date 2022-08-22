@@ -36,7 +36,7 @@ const CompanyRegistrationPage = () => (
           <li>
             <Localized id="stand">
               Ständipaikan, johon kuuluu sähköt, internetyhteys ja pöytä. Pöydän
-              koko on noin 1,4 m x 0,8 m
+              koko on noin 2 metriä
             </Localized>
           </li>
           <li>
@@ -58,7 +58,7 @@ const CompanyRegistrationPage = () => (
           <Localized id="bonus-tickets">
             Lisäksi meillä on tarjolla yhteensä neljä suurempaa ständipaikkaa,
             jotka on sijoiteltu sisäänkäyntien yhteyteen. Tällainen paikka
-            kustantaa 2000,00 euroa, ja ne myydään ilmoittautumisjärjestyksessä.
+            kustantaa 2400,00 euroa, ja ne myydään ilmoittautumisjärjestyksessä.
           </Localized>
         </b>
       </p>
@@ -123,7 +123,7 @@ const CompanyRegistrationPage = () => (
           <span className="event-info-value">
             <Localized id="event-cost">Price</Localized>
             {": "}
-            <Localized id="event-cost-value">1000,00 euroa</Localized>
+            <Localized id="event-cost-value">1200,00 euroa</Localized>
           </span>
         </li>
         <li>
