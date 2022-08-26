@@ -28,7 +28,7 @@ event-cost-value = 1200,00 euros (bigger booths cost 2400,00 euros)
 registration-starting-from-text = Registration by clicking this button, starting on { $regDate } at { $regTime }
 registration-event-full = The event is now full.
 registration-main-part1 = Kumpulan Potentiaali is a work-life and recruitment event organized by the students of the Faculty of Science, 
-            that will be organized in November 2021 for the third time.
+            that will be organized in December 2022 for the fourth time.
             In previous years the event has been a success among companies and students.
 registration-main-part2 = In 2017 over 95 % of the companies gave a feedback stating the event was worth it.
 includes = Event contents
