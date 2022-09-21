@@ -25,10 +25,10 @@ const MainPage = () => (
           </p>
         </Localized>
         <p>
-          <Localized id="event-notification-body-2">
+          {/*<Localized id="event-notification-body-2">
           Lisää tietoa tapahtumasta tulossa vielä kesän aikana
-          </Localized>
-           <br />
+      </Localized>
+           <br />*/}
           <Localized id="event-notification-body-2-url">
             <a href="https://forms.gle/61davi2mo5mocF5h7">
               Ilmoittautumislomake yrityksille</a>
