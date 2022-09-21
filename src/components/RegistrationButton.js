@@ -16,12 +16,12 @@ const navigateTo = registrationDisabled => {
 };
 
 const RegistrationButton = () => {
-  // const regDate = +new Date(config.companyRegistrationStarts);
-  // const canRegister = +new Date() - regDate;
-  const registrationDisabled = true;
-  // if (canRegister >= 0) {
-  //   registrationDisabled = false;
-  // }
+  const regDate = +new Date(config.companyRegistrationStarts);
+  const canRegister = +new Date() - regDate;
+  let registrationDisabled = true;
+   if (canRegister >= 0) {
+     registrationDisabled = false;
+   }
   return (
     <a
       href={navigateTo(registrationDisabled)}

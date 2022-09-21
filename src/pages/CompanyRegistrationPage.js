@@ -15,8 +15,8 @@ const CompanyRegistrationPage = () => (
         <Localized id="registration-main-part1">
           Kumpulan Potentiaali on Helsingin Yliopiston
           matemaattis-luonnontieteellisen tiedekunnan opiskelijoiden järjestämä
-          työelämä- ja rekrytointitapahtuma, joka järjestetään marraskuussa 2019
-          kolmannen kerran. Aikaisempina vuosina tapahtuma on ollut menestys
+          työelämä- ja rekrytointitapahtuma, joka järjestetään joulukuussa 2022
+          neljännen kerran. Aikaisempina vuosina tapahtuma on ollut menestys
           niin opiskelijoiden kuin yritysvieraiden puolesta.
         </Localized>{" "}
         <b>
@@ -36,7 +36,7 @@ const CompanyRegistrationPage = () => (
           <li>
             <Localized id="stand">
               Ständipaikan, johon kuuluu sähköt, internetyhteys ja pöytä. Pöydän
-              koko on noin 1,4 m x 0,8 m
+              koko on noin 2 metriä
             </Localized>
           </li>
           <li>
@@ -58,7 +58,7 @@ const CompanyRegistrationPage = () => (
           <Localized id="bonus-tickets">
             Lisäksi meillä on tarjolla yhteensä neljä suurempaa ständipaikkaa,
             jotka on sijoiteltu sisäänkäyntien yhteyteen. Tällainen paikka
-            kustantaa 2000,00 euroa, ja ne myydään ilmoittautumisjärjestyksessä.
+            kustantaa 2400,00 euroa, ja ne myydään ilmoittautumisjärjestyksessä.
           </Localized>
         </b>
       </p>
@@ -101,7 +101,7 @@ const CompanyRegistrationPage = () => (
           <span className="event-info-value">
             <Localized id="event-date">Date</Localized>
             {": "}
-            <time dateTime="2019-11-14 10:00">
+            <time dateTime="2022-12-8 11:00">
               <Localized id="event-day">Torstai</Localized> {config.eventDate}
             </time>
           </span>
@@ -123,7 +123,7 @@ const CompanyRegistrationPage = () => (
           <span className="event-info-value">
             <Localized id="event-cost">Price</Localized>
             {": "}
-            <Localized id="event-cost-value">1000,00 euroa</Localized>
+            <Localized id="event-cost-value">1200,00 euroa</Localized>
           </span>
         </li>
         <li>
@@ -148,7 +148,7 @@ const CompanyRegistrationPage = () => (
           <a
             className="link-btn"
             alt="Add the event to your calendar"
-            href="Kumpulan_Potentiaali_2019.ics"
+            href="Kumpulan_Potentiaali_2022.ics"
             target="_blank"
           >
             <span className="event-info-title">
@@ -177,7 +177,7 @@ const CompanyRegistrationPage = () => (
         </Localized>
       </p>
       <p>
-        <Localized id="registration-deadline-ended">
+        <Localized id="registration-deadline">
           Ilmoittautuminen on auki toistaiseksi. Ilmoitamme mahdollisesta
           ilmoittautumisen takarajasta tällä sivulla.
         </Localized>

@@ -24,19 +24,19 @@ event-date = Date
 event-day = Thursday
 event-time-prefix = between
 event-cost = Price
-event-cost-value = 1000,00 euros (bigger booths cost 2000,00 euros)
+event-cost-value = 1200,00 euros (bigger booths cost 2400,00 euros)
 registration-starting-from-text = Registration by clicking this button, starting on { $regDate } at { $regTime }
 registration-event-full = The event is now full.
 registration-main-part1 = Kumpulan Potentiaali is a work-life and recruitment event organized by the students of the Faculty of Science, 
-            that will be organized in November 2021 for the third time.
+            that will be organized in December 2022 for the fourth time.
             In previous years the event has been a success among companies and students.
 registration-main-part2 = In 2017 over 95 % of the companies gave a feedback stating the event was worth it.
 includes = Event contents
-stand = A booth with electricity, internet connection (WiFi) and a table. The size of the table is about 1,4 m x 0,8 m.
+stand = A booth with electricity, internet connection (WiFi) and a table. Space in width is about 2 meters and you can use your own material to look like your own.
 speed-rekry = Opportunity to participate in Rekry Speed Dating
 tickets = Tickets for three persons. A ticket includes breakfast and lunch (which are served during the event) and an access to the event afterparty.
 bonus-tickets = We also have four bigger booths available. The bigger booths are placed near the main entrances of Exactum and Physicum.
-            These booths cost 2000,00 euros each and they will be sold in the order of registrations.
+            These booths cost 2400,00 euros each and they will be sold in the order of registrations.
 keynote-and-workshop = You also have a chance to get attention of a bigger audience by conducting a workshop or giving a keynote.
 keynote-and-workshop-information = Workshop or keynote won't have any extra costs. Companies have to inform us about their interest to a workshop or keynote in
          the registration form. The companies have to let us know their topic before the event. The organizers of Kumpula Potential will choose the best topics
