@@ -152,7 +152,7 @@ const MainPage = () => (
               <a
                 className="link-btn"
                 alt="Add the event to your calendar"
-                href="Kumpulan_Potentiaali_2019.ics"
+                href="Kumpulan_Potentiaali_2022.ics"
                 target="_blank"
               >
                 <span className="event-info-title">
