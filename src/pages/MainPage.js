@@ -113,7 +113,7 @@ const MainPage = () => (
               <span className="event-info-value">
                 <Localized id="event-date">Date</Localized>
                 {": "}
-                <time dateTime="2019-11-14 10:00">
+                <time dateTime="2022-12-08 11:00">
                   <Localized id="event-day">Torstai</Localized>{" "}
                   {config.eventDate}
                 </time>
