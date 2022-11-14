@@ -1,12 +1,34 @@
 [
   {
     "id": 1,
-    "name": "Siili Solutions",
-    "imgSrc": "companies/siili.png",
-    "websiteUrl": "https://www.siili.com/fi",
+    "name": "Geologian tutkimuskeskus",
+    "imgSrc": "companies/gtk.png",
+    "websiteUrl": "https://www.gtk.fi/",
     "description": {
-      "fi": "“Siili on suomalainen teknologiariippumaton digitaalisten palvelujen kumppani ja ohjelmistointegraattori. Olemme luomassa seuraavia, parempia versioita asiakkaidemme digitaalisista palveluista ja tuotteista. Vahvuutemme ovat monialaiset tiimit sekä ketterä, läpinäkyvä ja tehokas tapa toimia!”\n\nSiili Solutions on tavattavissa Rekry Speed Dating -ohjelmassa. Kiinnostaviksi aloiksi yritys nimeää erityisesti matematiikan, tietojenkäsittelytieteen, tilastotieteen ja fysiikan.\n",
-      "en-US": "“Siili on suomalainen teknologiariippumaton digitaalisten palvelujen kumppani ja ohjelmistointegraattori. Olemme luomassa seuraavia, parempia versioita asiakkaidemme digitaalisista palveluista ja tuotteista. Vahvuutemme ovat monialaiset tiimit sekä ketterä, läpinäkyvä ja tehokas tapa toimia!”\n\nSiili Solutions on tavattavissa Rekry Speed Dating -ohjelmassa. Kiinnostaviksi aloiksi yritys nimeää erityisesti matematiikan, tietojenkäsittelytieteen, tilastotieteen ja fysiikan.\n"
+      "fi": "“Geologian tutkimuskeskuksessa teemme työtä maamme hyväksi. Tuotamme puolueetonta tutkimustietoa, josta on apua esimerkiksi ilmastonmuutoksen, energiamurroksen ja kiertotalouden haasteiden ratkaisemisessa. Yli 400 asiantuntijaamme ovat erikoistuneet mineraalitalouteen, energia-, vesi- ja ympäristökysymyksiin sekä digitaalisiin ratkaisuihin. Yhdessä suomalaisten ja kansainvälisten kumppaneidemme kanssa rakennamme kestävää, hiilineutraalia tulevaisuutta. GTK on työ- ja elinkeinoministeriön alainen tutkimuslaitos. www.gtk.fi\n",
+      "en-US": "“At GTK, we aim to work for the Earth and for Us. We conduct objective research to find solutions to challenges posed by climate change, the energy transition, and the circular economy. Our 400 experts are specialists in the mineral economy, green energy, water management, the environment, and digital solutions. Together with our Finnish and global partners, we are building sustainable and carbon-neutral future. GTK is a research organization governed by the Finnish Ministry of Employment and the Economy. www.gtk.fi/en\n"
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 2,
+    "name": "Loimu ry",
+    "imgSrc": "companies/loimu.png",
+    "websiteUrl": "https://www.loimu.fi/",
+    "description": {
+      "fi": "“Loimu on luonnontieteellisten, ympäristötieteellisten ja metsätieteellisten alojen asiantuntijoiden ammattiliitto. Alojemme opiskelijat ovat laajasti järjestäytyneet Loimuun, Loimussa on tällä hetkellä noin 5000 opiskelijajäsentä. Tunnemme jäsentemme työhön liittyvät asiat ja meillä on pitkä kokemus loimulaisten alojen työ- ja virkasuhdeasioiden hoitamisesta ja työmarkkinaedunvalvonnasta. Meillä on kaikkein ajankohtaisinta tietoa jäsentemme työllistymisestä, palkkauksesta ja uravaihtoehdoista. Autamme ja tuemme jäseniämme kaikissa työelämän vaiheissa ja tilanteissa.\n",
+      "en-US": "“Loimu is a multidisciplinary union professionals in natural, environmental and forestry sciences. We are familiar with the working lives of our members and their special characteristics. We have a long experience of taking care of the members’ terms and conditions of employment as well as their career success. We help and support our members in different stages and versatile situations of the working life.\n"
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 3,
+    "name": "Vincit Oyj",
+    "imgSrc": "companies/vincit.jpg",
+    "websiteUrl": "https://www.vincit.com/",
+    "description": {
+      "fi": "“Coming to work shouldn’t suck. Not even on Mondays.\n\nAt Vincit, we believe in humane work life where wealth arises from appropriate variation: different ways of working and places to work in, meaningful content, suitably-sized challenges, memorable successes and moments of togetherness as well as from tackling everyday challenges together, openly and with respect to one other.\n",
+      "en-US": "“Coming to work shouldn’t suck. Not even on Mondays.\n\nAt Vincit, we believe in humane work life where wealth arises from appropriate variation: different ways of working and places to work in, meaningful content, suitably-sized challenges, memorable successes and moments of togetherness as well as from tackling everyday challenges together, openly and with respect to one other.\n"
     },
     "booth": "TBD"
   }

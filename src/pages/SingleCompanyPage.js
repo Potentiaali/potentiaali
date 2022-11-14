@@ -1,14 +1,16 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import PropTypes from "prop-types";
 import { Localized } from "@fluent/react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link,useParams,useNavigate } from "react-router-dom";
 import LanguageString from "../components/LanguageString";
 import { BoothBadge } from "../components/partials/badges/BoothBadge";
 
-const SingleCompanyPage = ({ match, history }) => {
+const SingleCompanyPage = () => {
   const companies = useSelector(state => state.company.companies);
-  if (!match) {
+  let navigate = useNavigate();
+  let params = useParams();
+  const companyId = params.id
+  if (!companyId) {
     return <Localized id="company-not-found">Yritystä ei löydy</Localized>;
   }
   if (companies.length === 0) {
@@ -17,7 +19,7 @@ const SingleCompanyPage = ({ match, history }) => {
     );
   }
   const company = companies.find(
-    cmpny => Number(cmpny.id) === Number(match.params.id)
+    cmpny => Number(cmpny.id) === Number(companyId)
   );
   if (company === undefined) {
     return <Localized id="company-not-found">Yritystä ei löydy</Localized>;
@@ -25,7 +27,7 @@ const SingleCompanyPage = ({ match, history }) => {
   return (
     <>
       <section className="app-section">
-        <Link to="" onClick={() => history.goBack()}>
+        <Link to="" onClick={() => navigate(-1)}>
           <h3>
             <i className="fas fa-chevron-left"></i>&nbsp;&nbsp;
             <Localized id="go-back">Go back</Localized>
@@ -76,9 +78,4 @@ const SingleCompanyPage = ({ match, history }) => {
   );
 };
 
-SingleCompanyPage.propTypes = {
-  match: PropTypes.any,
-  history: PropTypes.any
-};
-
-export default useNavigate(SingleCompanyPage);
+export default SingleCompanyPage

@@ -39,7 +39,7 @@
 }
 
 .navigation-link-container {
-  width: $base-width-desktop;
+  width: $navbar-width-desktop;
 
   @include mobile {
     width: 100%;
@@ -48,7 +48,7 @@
     width: $tablet-base-width;
   }
   @include desktop {
-    width: $desktop-base-width;
+    width: $desktop-navbar-width;
   }
   @include bigDesktop {
     width: $big-desktop-base-width;
