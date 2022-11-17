@@ -13,7 +13,7 @@
   {
     "id": 2,
     "name": "Loimu ry",
-    "imgSrc": "companies/loimu.png",
+    "imgSrc": "companies/loimu_logo.png",
     "websiteUrl": "https://www.loimu.fi/",
     "description": {
       "fi": "“Loimu on luonnontieteellisten, ympäristötieteellisten ja metsätieteellisten alojen asiantuntijoiden ammattiliitto. Alojemme opiskelijat ovat laajasti järjestäytyneet Loimuun, Loimussa on tällä hetkellä noin 5000 opiskelijajäsentä. Tunnemme jäsentemme työhön liittyvät asiat ja meillä on pitkä kokemus loimulaisten alojen työ- ja virkasuhdeasioiden hoitamisesta ja työmarkkinaedunvalvonnasta. Meillä on kaikkein ajankohtaisinta tietoa jäsentemme työllistymisestä, palkkauksesta ja uravaihtoehdoista. Autamme ja tuemme jäseniämme kaikissa työelämän vaiheissa ja tilanteissa.\n",
@@ -399,7 +399,7 @@
   {
     "id": 37,
     "name": "Reddal Helsinki",
-    "imgSrc": "companies/reddal.jpg",
+    "imgSrc": "companies/reddal.png",
     "websiteUrl": "https://www.reddal.com/locations/helsinki/",
     "description": {
       "fi": "",
