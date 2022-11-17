@@ -5,7 +5,7 @@
   "speedRekryOpen": false,
   "showProgramView": false,
   "showRegistrationInfo": false,
-  "showCompanies": false,
+  "showCompanies": true,
   "showSpeedRekry": false,
   "companyRegistrationStarts": "Mon Aug 22 2022 12:00:00 GMT+0200",
   "companyRegistrationLink": "https://forms.gle/61davi2mo5mocF5h7",

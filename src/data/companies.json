@@ -134,7 +134,7 @@
   {
     "id": 13,
     "name": "Analyse2",
-    "imgSrc": "companies/analyse2.svg",
+    "imgSrc": "companies/analyse2_2.svg",
     "websiteUrl": "https://www.analyse2.com/",
     "description": {
       "fi": "",
@@ -388,7 +388,7 @@
   {
     "id": 36,
     "name": "Contravariant",
-    "imgSrc": "companies/contravariant.jpg",
+    "imgSrc": "companies/contravariant.png",
     "websiteUrl": "https://contravariant.fi/",
     "description": {
       "fi": "",
@@ -410,7 +410,7 @@
   {
     "id": 38,
     "name": "Frends & HiQ",
-    "imgSrc": "companies/frends.jpg",
+    "imgSrc": "companies/hiq.png",
     "websiteUrl": "https://frends.com/",
     "description": {
       "fi": "",
