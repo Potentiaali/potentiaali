@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "name": "Murata Electronics Oy",
+    "name": "Murata Electronics",
     "imgSrc": "companies/murata.png",
     "websiteUrl": "https://muratafinland.com/",
     "description": {
@@ -133,7 +133,7 @@
   },
   {
     "id": 13,
-    "name": "Analyse2 Oyj",
+    "name": "Analyse2",
     "imgSrc": "companies/analyse2.svg",
     "websiteUrl": "https://www.analyse2.com/",
     "description": {
@@ -211,7 +211,7 @@
   },
   {
     "id": 20,
-    "name": "Vaisala Oyj",
+    "name": "Vaisala",
     "imgSrc": "companies/vaisala.svg",
     "websiteUrl": "https://www.vaisala.com/fi",
     "description": {
@@ -222,7 +222,7 @@
   },
   {
     "id": 21,
-    "name": "Bluefors Oy",
+    "name": "Bluefors",
     "imgSrc": "companies/bluefors.png",
     "websiteUrl": "https://bluefors.com/",
     "description": {
