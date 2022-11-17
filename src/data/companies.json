@@ -23,12 +23,409 @@
   },
   {
     "id": 3,
-    "name": "Vincit Oyj",
+    "name": "Vincit",
     "imgSrc": "companies/vincit.jpg",
     "websiteUrl": "https://www.vincit.com/",
     "description": {
       "fi": "“Coming to work shouldn’t suck. Not even on Mondays.\n\nAt Vincit, we believe in humane work life where wealth arises from appropriate variation: different ways of working and places to work in, meaningful content, suitably-sized challenges, memorable successes and moments of togetherness as well as from tackling everyday challenges together, openly and with respect to one other.\n",
       "en-US": "“Coming to work shouldn’t suck. Not even on Mondays.\n\nAt Vincit, we believe in humane work life where wealth arises from appropriate variation: different ways of working and places to work in, meaningful content, suitably-sized challenges, memorable successes and moments of togetherness as well as from tackling everyday challenges together, openly and with respect to one other.\n"
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 4,
+    "name": "Huld",
+    "imgSrc": "companies/huld.png",
+    "websiteUrl": "https://huld.io/fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 5,
+    "name": "Taito United",
+    "imgSrc": "companies/taito_united.svg",
+    "websiteUrl": "https://www.taitounited.fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 6,
+    "name": "Insta Group",
+    "imgSrc": "companies/instagroup.svg",
+    "websiteUrl": "https://www.insta.fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 7,
+    "name": "Vuono Group",
+    "imgSrc": "companies/vuono.png",
+    "websiteUrl": "https://www.vuonogroup.com/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 8,
+    "name": "Murata Electronics Oy",
+    "imgSrc": "companies/murata.png",
+    "websiteUrl": "https://muratafinland.com/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 9,
+    "name": "Siili Solutions",
+    "imgSrc": "companies/siili.png",
+    "websiteUrl": "https://www.siili.com/fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 10,
+    "name": "Capgemini Finland",
+    "imgSrc": "companies/capgemini.svg",
+    "websiteUrl": "https://www.capgemini.com/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 11,
+    "name": "Reaktor",
+    "imgSrc": "companies/reaktor.png",
+    "websiteUrl": "https://www.reaktor.com/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 12,
+    "name": "OP Ryhmä",
+    "imgSrc": "companies/op.png",
+    "websiteUrl": "https://www.op.fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 13,
+    "name": "Analyse2 Oyj",
+    "imgSrc": "companies/analyse2.svg",
+    "websiteUrl": "https://www.analyse2.com/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 14,
+    "name": "Yle",
+    "imgSrc": "companies/yleisradio.png",
+    "websiteUrl": "https://yle.fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 15,
+    "name": "Tietoevry",
+    "imgSrc": "companies/tietoevry.webp",
+    "websiteUrl": "https://www.tietoevry.com/fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 16,
+    "name": "Puolustusvoimat",
+    "imgSrc": "companies/puolustusvoimat.jpg",
+    "websiteUrl": "https://puolustusvoimat.fi/etusivu",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 17,
+    "name": "Futurice",
+    "imgSrc": "companies/futurice.png",
+    "websiteUrl": "https://futurice.com/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 18,
+    "name": "Zalando",
+    "imgSrc": "companies/zalando.svg",
+    "websiteUrl": "https://www.zalando.fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 19,
+    "name": "Maanmittauslaitos & Paikkatietokeskus (Finnish Geospatial Research Institute FGI)",
+    "shorter": "Maanmittauslaitos & Paikkatietokeskus",
+    "imgSrc": "companies/maanmittauslaitos.png",
+    "websiteUrl": "https://www.maanmittauslaitos.fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 20,
+    "name": "Vaisala Oyj",
+    "imgSrc": "companies/vaisala.svg",
+    "websiteUrl": "https://www.vaisala.com/fi",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 21,
+    "name": "Bluefors Oy",
+    "imgSrc": "companies/bluefors.png",
+    "websiteUrl": "https://bluefors.com/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 22,
+    "name": "CGI",
+    "imgSrc": "companies/cgi.png",
+    "websiteUrl": "https://www.cgi.com/fi/fi",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 23,
+    "name": "KPMG",
+    "imgSrc": "companies/kpmg.webp",
+    "websiteUrl": "https://home.kpmg/fi/fi/home.html",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 24,
+    "name": "Accenture",
+    "imgSrc": "companies/accenture.PNG",
+    "websiteUrl": "https://www.accenture.com/fi-en",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 25,
+    "name": "Beneq",
+    "imgSrc": "companies/Beneq.png",
+    "websiteUrl": "https://beneq.com/en/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 26,
+    "name": "Visual Components",
+    "imgSrc": "companies/visualcomponents.svg",
+    "websiteUrl": "https://www.visualcomponents.com/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 27,
+    "name": "Cinia",
+    "imgSrc": "companies/cinia.png",
+    "websiteUrl": "https://www.cinia.fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 28,
+    "name": "Digia",
+    "imgSrc": "companies/digia.png",
+    "websiteUrl": "https://digia.com/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 29,
+    "name": "Funidata",
+    "imgSrc": "companies/funidata.png",
+    "websiteUrl": "https://www.funidata.fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 30,
+    "name": "Perfektio",
+    "imgSrc": "companies/perfektio-logo.png",
+    "websiteUrl": "https://perfektio.fi/en",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 31,
+    "name": "City of Helsinki/ Urban Environment Division",
+    "imgSrc": "companies/logo_helsinki.png",
+    "websiteUrl": "https://www.hel.fi/en/decision-making/city-organization/divisions/urban-environment-division",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 32,
+    "name": "EY",
+    "imgSrc": "companies/ey.png",
+    "websiteUrl": "https://www.ey.com/fi_fi",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 33,
+    "name": "Solidabis Solutions",
+    "imgSrc": "companies/solidabis.png",
+    "websiteUrl": "https://www.solidabis.com/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 34,
+    "name": "Eficode",
+    "imgSrc": "companies/eficode.png",
+    "websiteUrl": "https://www.eficode.com/fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 35,
+    "name": "Helsingin yliopisto",
+    "imgSrc": "companies/hy.jpg",
+    "websiteUrl": "https://www.helsinki.fi/fi",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 36,
+    "name": "Contravariant",
+    "imgSrc": "companies/contravariant.jpg",
+    "websiteUrl": "https://contravariant.fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 37,
+    "name": "Reddal Helsinki",
+    "imgSrc": "companies/reddal.jpg",
+    "websiteUrl": "https://www.reddal.com/locations/helsinki/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 38,
+    "name": "Frends & HiQ",
+    "imgSrc": "companies/frends.jpg",
+    "websiteUrl": "https://frends.com/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
+  },
+  {
+    "id": 39,
+    "name": "Nokia",
+    "imgSrc": "companies/nokia.webp",
+    "websiteUrl": "https://www.nokia.com/fi_fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
     },
     "booth": "TBD"
   }

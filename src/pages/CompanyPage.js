@@ -33,7 +33,7 @@ const CompanyPage = () => {
                 <div className="all-companies-list--company">
                   <BoothBadge name={company.booth} />{" "}
                   <span className="all-companies-list--company-name">
-                    {company.name}
+                    {company.shorter ? company.shorter: company.name}
                   </span>
                 </div>
               </Link>
