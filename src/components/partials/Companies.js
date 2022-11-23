@@ -19,12 +19,12 @@ const Companies = () => (
         .map(company => (
           <Link
             className={style["company-logo"]}
-            key={company.alt}
+            key={company.name}
             to={"/company/" + company.id}
           >
             <img
               className={style["company-logo-image"]}
-              alt={company.alt}
+              alt={`${company.name} logo`}
               src={company.imgSrc}
             />
           </Link>

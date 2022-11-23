@@ -21,19 +21,19 @@ const MainPage = () => (
       >
         <Localized id="event-notification-body-1">
           <p>
-          Kumpulan potentiaali järjestetään 2022 syksyllä 8.12.2022
+          Kumpulan Potentiaali järjestetään 2022 syksyllä 8.12.2022
           </p>
         </Localized>
-        <p>
-          {/*<Localized id="event-notification-body-2">
+        {/*<p>
+          <Localized id="event-notification-body-2">
           Lisää tietoa tapahtumasta tulossa vielä kesän aikana
       </Localized>
-           <br />*/}
+           <br />
           <Localized id="event-notification-body-2-url">
             <a href="https://forms.gle/61davi2mo5mocF5h7">
               Ilmoittautumislomake yrityksille</a>
           </Localized>
-        </p>
+        </p>*/}
         <p>
           <Localized id="event-notification-body-3">
           Meihin voi olla yhteydessä

@@ -38,7 +38,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
         "en-US": "Companies",
       },
     },
-    {
+    /*{
       id: "companyRegistrationPage",
       name: "Yritysilmoittautuminen",
       linkName: "registration",
@@ -49,14 +49,18 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
         fi: "Yritys ilmoittautuminen",
         "en-US": "Company registration",
       },
-    },/*
-    {
+    },*/
+    /*{
       id: "schedulePage",
       name: "Aikataulu",
       linkName: "schedule",
       link: "/schedule",
       disabled: false,
-      icon: "fa-clock"
+      icon: "fa-clock",
+      ariaLabel: {
+        fi: "Aikataulu",
+        "en-US": "Schedule",
+      },
     },
     {
       id: "mapPage",
@@ -64,7 +68,11 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
       linkName: "map",
       link: "/map",
       disabled: false,
-      icon: "fa-map"
+      icon: "fa-map",
+      ariaLabel: {
+        fi: "Kartta",
+        "en-US": "Map",
+      },
     },*/
     {
       id: "fieldsOfStudiesPage",
