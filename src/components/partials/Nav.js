@@ -155,7 +155,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
               aria-label={`Change page language to ${next}`}
             >
               <i className="fas fa-globe">&nbsp;&nbsp;</i>
-              <span id="changeLocaleButton" locale={next}>
+              <span id="changeLocaleButton">
                 {next}
               </span>
             </button>
