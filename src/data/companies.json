@@ -432,18 +432,7 @@
   {
     "id": 40,
     "name": "Helsinki Think Company",
-    "imgSrc": "companies/helsinki_think_company",
-    "websiteUrl": "https://www.thinkcompany.fi/",
-    "description": {
-      "fi": "Helsinki Think Company on yliopiston yrittäjyysyhteisö, joka koostuu opiskelijoista, tutkijoista ja yrittäjistä. Think Companyn missio on auttaa muuttamaan akateeminen tietotaito konkreettiseksi toiminnaksi. Tätä varten tarjoamme yrittäjyyskoulutusta, tukea ja verkostoja niille, jotka haluavat olla tekemässä muutosta.",
-      "en-US": "Consisting of students, researchers, and entrepreneurs of all kinds, Helsinki Think Company transforms academic knowledge into concrete action. This is achieved by providing entrepreneurial education, tools and support for those who want to make an impact on their surroundings."
-    },
-    "booth": "TBD"
-  },
-  {
-    "id": 40,
-    "name": "University of He",
-    "imgSrc": "companies/helsinki_think_company",
+    "imgSrc": "companies/helsinki_think_company.png",
     "websiteUrl": "https://www.thinkcompany.fi/",
     "description": {
       "fi": "Helsinki Think Company on yliopiston yrittäjyysyhteisö, joka koostuu opiskelijoista, tutkijoista ja yrittäjistä. Think Companyn missio on auttaa muuttamaan akateeminen tietotaito konkreettiseksi toiminnaksi. Tätä varten tarjoamme yrittäjyyskoulutusta, tukea ja verkostoja niille, jotka haluavat olla tekemässä muutosta.",
