@@ -93,8 +93,8 @@
     "imgSrc": "companies/siili.png",
     "websiteUrl": "https://www.siili.com/fi/",
     "description": {
-      "fi": "",
-      "en-US": ""
+      "fi": "At Siili, we believe in human-centricity in everything we deliver. We are known as a community of brilliant yet easy-to- approach, honest and hardworking professionals. We transform visions into stand-out digital strategies.",
+      "en-US": "At Siili, we believe in human-centricity in everything we deliver. We are known as a community of brilliant yet easy-to- approach, honest and hardworking professionals. We transform visions into stand-out digital strategies."
     },
     "booth": "TBD"
   },
@@ -157,10 +157,12 @@
     "id": 15,
     "name": "Tietoevry",
     "imgSrc": "companies/tietoevry.webp",
-    "websiteUrl": "https://www.tietoevry.com/fi/",
+    "websiteUrl": "https://www.tietoevry.com/",
     "description": {
-      "fi": "",
-      "en-US": ""
+      "fi": "Tietoevry tukee yhteiskunnan kehitystä vastuullisen teknologian avulla. Olemme johtava teknologiayritys, jolla on pitkä historia Pohjoismaissa sekä globaalit kyvykkyydet. Arvojemme - avoimuus, luottamus ja monimuotoisuus - ohjaamana rakennamme asiakkaidemme kanssa digitaalista tulevaisuutta, jossa yritykset, yhteiskunnat ja ihmiskunta menestyvät.\n\n24 000 pilviteknologiaan, dataan ja ohjelmistoihin erikoistunutta asiantuntijaamme ympäri maailmaa palvelevat tuhansia yksityisen ja julkisen sektorin asiakkaita yli 90 maassa. Tietoevryn vuotuinen liikevaihto on noin 3 miljardia euroa ja yhtiön osakkeet on listattu NASDAQissa Helsingissä ja Tukholmassa sekä Oso Børsissä."
+      ,
+      "en-US": "Tietoevry creates purposeful technology that reinvents the world for good. We are a leading technology company with a strong Nordic heritage and global capabilities. Based on our core values of openness, trust and diversity, we work with our customers to develop digital futures where businesses, societies, and humanity thrive.\n\nOur 24,000 experts globally specialize in cloud, data, and software, serving thousands of enterprise and public-sector customers in more than 90 countries. Tietoevry’s annual turnover is approximately EUR 3 billion and the company’s shares are listed on the NASDAQ exchange in Helsinki and Stockholm, as well as on Oslo Børs."
+      
     },
     "booth": "TBD"
   },
@@ -181,8 +183,8 @@
     "imgSrc": "companies/futurice.png",
     "websiteUrl": "https://futurice.com/",
     "description": {
-      "fi": "",
-      "en-US": ""
+      "fi": "Me olemme Futurice\nVoimaannutamme maailman toimimaan. Tuomme strategian, suunnittelun, teknologian ja datan yhteen auttaaksemme organisaatioita ottamaan ohjat omasta tulevaisuudestaan sekä kehittymään kestävällä tavalla.\n\nUskomme vahvasti, että näkökulmissa on voimaa ja organisaatio on vain niin kykenevä kuin sen ihmiset. Varmistaaksemme menestyksemme tulevaisuudessa, olemme sitoutuneet monimuotoisuuteen, tasapuolisuuteen sekä osallistamiseen kaikilla liiketoimintamme osa-alueilla.",
+      "en-US": "We’re Futurice\nEmpowering the world to act. We bring together strategy, design, engineering and data to help organisations become resilient, so they can take control of their futures.\n\nWe believe that there’s power in perspectives and an organization is only as capable as its people. In order to ensure our success in the future, we are committed to diversity, equity and inclusion in every aspect of our business."
     },
     "booth": "TBD"
   },
@@ -358,8 +360,8 @@
     "imgSrc": "companies/solidabis.png",
     "websiteUrl": "https://www.solidabis.com/",
     "description": {
-      "fi": "",
-      "en-US": ""
+      "fi": "#nobullshit IT-konsultointifirma. Joukkoomme kuuluu noin 80 prosessikehityksen, devauksen ja designin osaajaa, joiden voimin kehitämme luovia ja kestäviä digitaalisia ratkaisuja. Olemme osa twoday-yhtiötä, johon yhdistymme vuoden vaihteessa.",
+      "en-US": "#nobullshit IT company. We offer software development, process development and design services and consist of 80 professionals of these fields. We implement creative and sustainable digital solutions for our customers. Merging with twoday company in 2023."
     },
     "booth": "TBD"
   },
