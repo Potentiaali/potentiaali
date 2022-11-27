@@ -15,6 +15,7 @@ export const Program = () => {
         <Accordion
           imageTitle={true}
           title={<img src="Potentiaali_speeddates.png" alt="Speed dates" />}
+          accordionId={"speed-dates"}
         >
           <Textfit mode="single" max={20}>
             <Localized id="rekry-speed-dating">
@@ -52,6 +53,7 @@ export const Program = () => {
         <Accordion
           imageTitle={true}
           title={<img src="Potentiaali_workshop.png" alt="Workshops" />}
+          accordionId={"workshops"}
         >
           <Textfit mode="single" max={20}>
             <Localized id="workshops-title-text">
@@ -72,6 +74,7 @@ export const Program = () => {
         <Accordion
           imageTitle={true}
           title={<img src="Potentiaali_keynote.png" alt="Keynotes" />}
+          accordionId={"keynotes"}
         >
           <Textfit mode="single" max={20}>
             <Localized id="keynote-title-text">
@@ -90,6 +93,7 @@ export const Program = () => {
         <Accordion
           imageTitle={true}
           title={<img src="Potentiaali_kokkarit.png" alt="Kokkarit" />}
+          accordionId={"cocktail"}
         >
           <Textfit mode="single" max={20}>
             <Localized id="coctail-hour-title-text">
@@ -108,6 +112,7 @@ export const Program = () => {
         <Accordion
           imageTitle={true}
           title={<img src="Potentiaali_paneeli.png" alt="Paneeli" />}
+          accordionId={"panel"}
         >
           <Textfit mode="single" max={20}>
             <Localized id="panel-discussion-title-text">
@@ -131,6 +136,7 @@ export const Program = () => {
         <Accordion
           imageTitle={true}
           title={<img src="Potentiaali_jatkot.png" alt="Jatkot" />}
+          accordionId={"afterparty"}
         >
           <Textfit mode="single" max={20}>
             <Localized id="afterparty-title-text">

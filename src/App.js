@@ -7,10 +7,10 @@ import "moment/locale/en-gb";
 import { Page } from "./components/Page";
 import Fallback from "./components/partials/Fallback";
 
-/*const SchedulePage = React.lazy(() => import("./pages/SchedulePage"));
+const SchedulePage = React.lazy(() => import("./pages/SchedulePage"));
 const SingleSchedulePage = React.lazy(() =>
   import("./pages/SingleSchedulePage")
-);*/
+);
 const SingleCompanyPage = React.lazy(() => import("./pages/SingleCompanyPage"));
 const SubjectsPage = React.lazy(() => import("./pages/SubjectsPage"));
 /*const CompanyRegistrationPage = React.lazy(() =>
@@ -42,12 +42,12 @@ const App = () => {
         <Page>
             <Routes>
               <Route exact="true" path="/" element={<MainPage/>} />
-              {/*<Route exact path="/schedule" element={<SchedulePage/>} />
+              <Route exact path="/schedule" element={<SchedulePage/>} />
               <Route
                 exact
                 path="/schedule/:id"
                 component={SingleSchedulePage}
-          />*/}
+          />
               <Route exact="true" path="/company/:id" element={<SingleCompanyPage/>} />
               <Route exact="true" path="/companies" element={<CompanyPage/>} />
               <Route exact="true" path="/subjects" element={<SubjectsPage/>} />

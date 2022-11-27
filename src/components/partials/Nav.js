@@ -50,7 +50,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
         "en-US": "Company registration",
       },
     },*/
-    /*{
+    {
       id: "schedulePage",
       name: "Aikataulu",
       linkName: "schedule",
@@ -62,7 +62,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
         "en-US": "Schedule",
       },
     },
-    {
+    /*{
       id: "mapPage",
       name: "Kartta",
       linkName: "map",

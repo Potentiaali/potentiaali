@@ -14,18 +14,22 @@
   display: grid;
   grid-auto-rows: 50px;
   @include mobile {
-    grid-template-columns: repeat(5, 85%);
+    grid-template-columns: repeat(5, $mobile-breakpoint * 1/2);
     grid-auto-rows: 75px;
   }
   @include tablet {
-    grid-template-columns: repeat(5, $tablet-breakpoint * 1/3);
+    grid-template-columns: repeat(5, 50%);
     grid-auto-rows: 75px;
+  }
+  @include bigTablet {
+    grid-template-columns: repeat(5, 40%);
+    grid-auto-rows: 80px;
   }
   @include desktop {
     grid-template-columns: repeat(5, $desktop-breakpoint * 1/3);
   }
   @include bigDesktop {
-    grid-template-columns: repeat(5, $desktop-breakpoint * 3/10);
+    grid-template-columns: repeat(5, $desktop-breakpoint * 3.5/10);
   }
   overflow-x: scroll;
 }
