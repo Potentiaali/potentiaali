@@ -35,6 +35,11 @@ const MainPage = () => (
           </Localized>
         </p>*/}
         <p>
+          <Localized id="rekry-speed-dating-notification-body-3-url">
+            <a href="https://forms.gle/BxMrhGDQhxpCqxux7">
+            Ilmoittaudu Rekry Speed Datingiin</a>
+          </Localized></p>
+        <p>
           <Localized id="event-notification-body-3">
           Meihin voi olla yhteydessä
           </Localized>{" "}

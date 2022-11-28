@@ -122,3 +122,4 @@ event-notification-body-2 = More information about the event will come during th
 event-notification-body-2-url = Registration for companies
 event-notification-body-3 = You can reach us
 event-notification-body-4 = via email. 
+rekry-speed-dating-notification-body-3-url = Sign up for Recruitment Speed Dating

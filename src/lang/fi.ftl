@@ -130,3 +130,4 @@ event-notification-body-2 = Lisää tietoa tapahtumasta tulossa vielä kesän ai
 event-notification-body-2-url = 
 event-notification-body-3 = Meihin voi olla yhteydessä
 event-notification-body-4 = sähköpostitse. 
+rekry-speed-dating-notification-body-3-url = Ilmoittaudu Rekry Speed Datingiin
