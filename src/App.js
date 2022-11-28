@@ -44,9 +44,9 @@ const App = () => {
               <Route exact="true" path="/" element={<MainPage/>} />
               <Route exact path="/schedule" element={<SchedulePage/>} />
               <Route
-                exact
+                exact="true"
                 path="/schedule/:id"
-                component={SingleSchedulePage}
+                element={<SingleSchedulePage/>}
           />
               <Route exact="true" path="/company/:id" element={<SingleCompanyPage/>} />
               <Route exact="true" path="/companies" element={<CompanyPage/>} />

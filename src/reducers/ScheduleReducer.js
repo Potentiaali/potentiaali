@@ -320,18 +320,18 @@ const schedule = [  {
     companyName: "Think Company",
     location: "Exactum B123",
     title: {
-      fi: "Paneeli",
-      "en-US": "Panel"
+      fi: "Think Company x Kumpulan Potentiaali: Työelämäpaneeli - Akateeminen yrittäjyys",
+      "en-US": "Think Company x Kumpulan Potentiaali: Työelämäpaneeli - Akateeminen yrittäjyys"
     },
     description: {
-      fi: "Think Company -paneelikeskustelu: akateeminen osaaminen käytäntöön - yrittäjyys",
-      "en-US": "Think Company panel discussion: academic know-how in practice - entrepreneurship"
+      fi: "Millaisia yrittäjiä Kumpulan kampukselta löytyy? Millaisia ovat kumpulalaiset startupit? Mitä yrityksen perustamista miettivän ehdottomasti pitää (tai ei pidä!) tehdä?\n\nHelsinki Think Company järjestää osana Kumpulan Potentiaali -työelämätapahtumaa paneelikeskustelun teemalla Akateeminen osaaminen käytäntöön, näkökulmana yrittäjyys. Tervetuloa seuraamaan paneelikeskustelua opiskelijoiden ja alumnien ja kysymään heidän kokemuksistaan.",
+      "en-US": "Millaisia yrittäjiä Kumpulan kampukselta löytyy? Millaisia ovat kumpulalaiset startupit? Mitä yrityksen perustamista miettivän ehdottomasti pitää (tai ei pidä!) tehdä?\n\nHelsinki Think Company järjestää osana Kumpulan Potentiaali -työelämätapahtumaa paneelikeskustelun teemalla Akateeminen osaaminen käytäntöön, näkökulmana yrittäjyys. Tervetuloa seuraamaan paneelikeskustelua opiskelijoiden ja alumnien ja kysymään heidän kokemuksistaan."
     },
     fullDescription: {
-      fi: ``,
-      "en-US":``
+      fi: `Millaisia yrittäjiä Kumpulan kampukselta löytyy? Millaisia ovat kumpulalaiset startupit? Mitä yrityksen perustamista miettivän ehdottomasti pitää (tai ei pidä!) tehdä?\n\nHelsinki Think Company järjestää osana Kumpulan Potentiaali -työelämätapahtumaa paneelikeskustelun teemalla Akateeminen osaaminen käytäntöön, näkökulmana yrittäjyys. Tervetuloa seuraamaan paneelikeskustelua opiskelijoiden ja alumnien ja kysymään heidän kokemuksistaan.`,
+      "en-US":`Millaisia yrittäjiä Kumpulan kampukselta löytyy? Millaisia ovat kumpulalaiset startupit? Mitä yrityksen perustamista miettivän ehdottomasti pitää (tai ei pidä!) tehdä?\n\nHelsinki Think Company järjestää osana Kumpulan Potentiaali -työelämätapahtumaa paneelikeskustelun teemalla Akateeminen osaaminen käytäntöön, näkökulmana yrittäjyys. Tervetuloa seuraamaan paneelikeskustelua opiskelijoiden ja alumnien ja kysymään heidän kokemuksistaan.`
     },
-    speakers: ["Think Company"],
+    speakers: ["Sanna Kujala", "Teemu Koivisto", "Jere Partanen", "Juho Räsänen", "Sofia Vanhala", "Paneelin juontaa Tuomas Harju"],
     language: "fi",
     link: "",
     startTime: utcToZonedTime(

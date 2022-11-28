@@ -1,21 +1,25 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { Language } from "../components/partials/Language";
-import PropTypes from "prop-types";
 import { format } from "date-fns";
 import { Localized } from "@fluent/react";
-import { Link } from "react-router-dom";
+import { Link,useParams } from "react-router-dom";
+
 import LanguageString from "../components/LanguageString";
 
-const SingleSchedulePage = ({ match }) => {
-  const events = useSelector(state => state.schedule.events);
-  if (!match) {
+const SingleSchedulePage = () => {
+  const events = useSelector(state => state.schedule.events)
+  let params = useParams()
+  const eventId = params.id
+  console.log(events)
+  console.log(eventId)
+  if (!eventId) {
     return <Localized id="event-not-found">Tapahtumaa ei löydy</Localized>;
   }
   if (events.length === 0) {
     return <Localized id="empty-schedule">Aikataulu on tyhjä</Localized>;
   }
-  const event = events.find(evt => Number(evt.id) === Number(match.params.id));
+  const event = events.find(evt => Number(evt.id) === Number(eventId));
   if (event === undefined) {
     return <Localized id="event-not-found">Tapahtumaa ei löydy</Localized>;
   }
@@ -33,9 +37,11 @@ const SingleSchedulePage = ({ match }) => {
         <h1>
           <LanguageString languageObject={event.title} />
         </h1>
+        <pre style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
         <p>
           <LanguageString languageObject={event.description} />
         </p>
+        </pre>
       </section>
       <section className="app-section">
         <ul className="event-info">
@@ -115,10 +121,6 @@ const SingleSchedulePage = ({ match }) => {
       </section>
     </>
   );
-};
-
-SingleSchedulePage.propTypes = {
-  match: PropTypes.any
 };
 
 export default SingleSchedulePage;
