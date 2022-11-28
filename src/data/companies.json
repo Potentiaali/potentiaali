@@ -441,5 +441,16 @@
       "en-US": "Consisting of students, researchers, and entrepreneurs of all kinds, Helsinki Think Company transforms academic knowledge into concrete action. This is achieved by providing entrepreneurial education, tools and support for those who want to make an impact on their surroundings."
     },
     "booth": "TBD"
+  },
+  {
+    "id": 41,
+    "name": "Solita",
+    "imgSrc": "companies/solita.png",
+    "websiteUrl": "https://www.solita.fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": "TBD"
   }
 ]
