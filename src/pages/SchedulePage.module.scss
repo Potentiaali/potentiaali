@@ -12,7 +12,7 @@
 
 .schedule-slots {
   display: grid;
-  grid-auto-rows: 50px;
+  grid-auto-rows: 75px;
   @include mobile {
     grid-template-columns: repeat(5, $mobile-breakpoint * 1/2);
     grid-auto-rows: 75px;
@@ -23,7 +23,7 @@
   }
   @include bigTablet {
     grid-template-columns: repeat(5, 40%);
-    grid-auto-rows: 80px;
+    grid-auto-rows: 75px;
   }
   @include desktop {
     grid-template-columns: repeat(5, $desktop-breakpoint * 1/3);
