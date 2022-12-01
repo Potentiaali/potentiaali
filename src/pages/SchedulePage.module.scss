@@ -22,7 +22,7 @@
     grid-auto-rows: 75px;
   }
   @include bigTablet {
-    grid-template-columns: repeat(5, 40%);
+    grid-template-columns: repeat(1, 30%);
     grid-auto-rows: 75px;
   }
   @include desktop {
