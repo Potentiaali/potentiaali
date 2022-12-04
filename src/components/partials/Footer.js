@@ -46,7 +46,7 @@ const Footer = () => (
         <i className="fab fa-instagram"></i>
       </a>
       <a
-        href="https://t.me/potentiaali19"
+        href="https://t.me/potentiaali22"
         rel="noopener noreferrer"
         target="_blank"
         className={styles["footer-icon"]}
