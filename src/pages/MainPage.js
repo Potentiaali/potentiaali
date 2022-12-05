@@ -3,74 +3,12 @@ import Logo from "../components/partials/Logo";
 import Companies from "../components/partials/Companies"
 import { Program } from "../components/partials/Program"
 import SpeedRekry from "../components/partials/SpeedRekry"
-import Notification from "../components/partials/Notification"
 import config from "../data/config.json"
 import { Localized } from "@fluent/react";
 
 const MainPage = () => (
   <>
     <Logo />
-    <section className="app-section">
-      <Notification
-        type="success"
-        title={
-          <Localized id="event-notification-title">
-            <h2>Kumpulan Potentiaali 2022 on tulossa.</h2>
-          </Localized>
-        }
-      >
-        <Localized id="event-notification-body-1">
-          <p>
-          Kumpulan Potentiaali järjestetään 2022 syksyllä 8.12.2022
-          </p>
-        </Localized>
-        {/*<p>
-          <Localized id="event-notification-body-2">
-          Lisää tietoa tapahtumasta tulossa vielä kesän aikana
-      </Localized>
-           <br />
-          <Localized id="event-notification-body-2-url">
-            <a href="https://forms.gle/61davi2mo5mocF5h7">
-              Ilmoittautumislomake yrityksille</a>
-          </Localized>
-        </p>*/}
-        <p>
-          <Localized id="rekry-speed-dating-notification-body-3-url">
-            <a href="https://forms.gle/BxMrhGDQhxpCqxux7">
-            Ilmoittaudu Rekry Speed Datingiin</a>
-          </Localized></p>
-        <p>
-          <Localized id="event-notification-body-3">
-          Meihin voi olla yhteydessä
-          </Localized>{" "}
-          <Localized id="event-notification-body-4">
-            <a href="mailto:info@potentiaali.com">sähköpostitse.</a>
-          </Localized>
-        </p>
-      </Notification>
-    </section>
-    <div className="app-statistics">
-      <div className="single-stat">
-        <span className="single-stat_main">1000+</span>
-        <span className="single-stat_secondary">
-          <Localized id="student-attendees">Student attendees</Localized>
-          <sup>*</sup>
-        </span>
-      </div>
-      <div className="single-stat">
-        <span className="single-stat_main">45+</span>
-        <span className="single-stat_secondary">
-          <Localized id="exhibitors">Exhibitors</Localized>
-          <sup>*</sup>
-        </span>
-      </div>
-    </div>
-    <section className="app-section">
-      <small>
-        <sup>*</sup>
-        <Localized id="average-per-year">Average per year</Localized>
-      </small>
-    </section>
     <section className="app-section">
       <Localized id="title-1">
         <h1>Mikä on Kumpulan Potentiaali?</h1>
