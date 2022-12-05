@@ -194,11 +194,11 @@ const schedule = [  {
   },
   {
     id: 9,
-    companyName: "TBA",
+    companyName: "Huld",
     location: "Exactum B121",
     title: {
-      fi: "Workshop",
-      "en-US": "Workshop"
+      fi: "SPACE projects (workshop)",
+      "en-US": "SPACE projects (workshop)"
     },
     description: {
       fi: "",
@@ -293,19 +293,19 @@ const schedule = [  {
     companyName: "TBA",
     location: "Exactum B123",
     title: {
-      fi: "Keynote",
-      "en-US": "Keynote"
+      fi: "Accenture: Introduction to 5G Edge Computing Lab", 
+      "en-US": "Accenture: Introduction to 5G Edge Computing Lab"  
     },
     description: {
-      fi: "",
-      "en-US": ""
+      fi: "Accenture: Introduction to 5G Edge Computing Lab at Accenture with use case examples in Employee Safety Video Analytics and Automated Robotic Inspection with Boston Dynamics Spot robot. Live robot demo and Q&A.",
+      "en-US": "Accenture: Introduction to 5G Edge Computing Lab at Accenture with use case examples in Employee Safety Video Analytics and Automated Robotic Inspection with Boston Dynamics Spot robot. Live robot demo and Q&A."
     },
     fullDescription: {
       fi: ``,
       "en-US": ``,
     },
     speakers: [],
-    language: "fi",
+    language: "en",
     link: "",
     startTime: utcToZonedTime(
       new Date(2022, 12, 8, 11, 0),
@@ -344,11 +344,11 @@ const schedule = [  {
   },
   {
     id: 15,
-    companyName: "TBA",
+    companyName: "Reddal",
     location: "Exactum A111",
     title: {
-      fi: "Keynote",
-      "en-US": "Keynote"
+      fi: "Changing how companies drive strategy and growth - business development as a service (BDaaS).",
+      "en-US": "Changing how companies drive strategy and growth - business development as a service (BDaaS)."
     },
     description: {
       fi: "",
@@ -370,11 +370,11 @@ const schedule = [  {
   },
   {
     id: 16,
-    companyName: "TBA",
+    companyName: "OP",
     location: "Exactum A111",
     title: {
-      fi: "Keynote",
-      "en-US": "Keynote"
+      fi: "The innovation possibilities at our very own innovation center OP Lab (keynote)",
+      "en-US": "The innovation possibilities at our very own innovation center OP Lab (keynote)"
     },
     description: {
       fi: "",
@@ -396,11 +396,11 @@ const schedule = [  {
   },
   {
     id: 17,
-    companyName: "TBA",
+    companyName: "Capgemini",
     location: "Exactum A111",
     title: {
-      fi: "Keynote",
-      "en-US": "Keynote"
+      fi: "Test Automation (keynote)",
+      "en-US": "Test Automation (keynote)"
     },
     description: {
       fi: "",
