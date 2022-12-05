@@ -30,11 +30,11 @@ const MainPage = () => (
         </p>
       </Localized>
       <Localized id="title-2">
-        <h2>Mitä Potentiaalista löytyy?</h2>
+        <h2>Mitä Potentiaalissa tapahtuu?</h2>
       </Localized>
       <Localized id="second-part-1">
         <p>
-        Kumpulan Potentiaali on tämän viikon torstaina! Potentiaali on työelämätapahtuma, joka on suunnattu kaikille matemaattis-luonnontieteellisen alan opiskelijoille fukseista vastavalmistuneisiin ja jatko-opiskelijoihin. 40 alan työnantajan pitämän ständin lisäksi tapahtuman ohjelmassa on keynote-luentoja ajankohtaisista puheenaiheista, työnhakuun arvokkaita vinkkejä tarjoavia työpajoja sekä paljon muuta! Tapahtuman ohjelman löydät tämän viestin lopusta sekä nettisivuiltamme osoitteesta https://potentiaali.com/schedule.
+        Kumpulan Potentiaali on tämän viikon torstaina! Potentiaali on työelämätapahtuma, joka on suunnattu kaikille matemaattis-luonnontieteellisen alan opiskelijoille fukseista vastavalmistuneisiin ja jatko-opiskelijoihin. 40 alan työnantajan pitämän ständin lisäksi tapahtuman ohjelmassa on keynote-luentoja ajankohtaisista puheenaiheista, työnhakuun arvokkaita vinkkejä tarjoavia työpajoja sekä paljon muuta! Tapahtuman aikataulun löydät sivulta.
         </p>
       </Localized>
       <Localized id="second-part-2">

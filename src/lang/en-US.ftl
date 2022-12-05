@@ -123,3 +123,7 @@ event-notification-body-2-url = Registration for companies
 event-notification-body-3 = You can reach us
 event-notification-body-4 = via email. 
 rekry-speed-dating-notification-body-3-url = Sign up for Recruitment Speed Dating
+title-1 = What is Kumpulan Potentiaali?
+title-2 = What happens at Kumpulan Potentiaali?
+second-part-1 = Kumpulan Potentiaali is this Thursday! Potentiaali is a career fair, where science students can meet representatives of employers in their field. The event is completely free and aimed for everyone from freshmen to just graduated students and postgraduates. In addition to 40 booths held by employers, Potentiaali will include keynote lectures on current topics, workshops designed to help in finding a job and lots of more! You can find the schedule on the website.
+second-part-2 = At the info there will also be event overall badges for the first 400 people

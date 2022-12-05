@@ -131,3 +131,6 @@ event-notification-body-2-url =
 event-notification-body-3 = Meihin voi olla yhteydessä
 event-notification-body-4 = sähköpostitse. 
 rekry-speed-dating-notification-body-3-url = Ilmoittaudu Rekry Speed Datingiin
+title-2 = Mitä Kumpulan Potentiaalissa tapahtuu?
+second-part-1 = Kumpulan Potentiaali on tämän viikon torstaina! Potentiaali on työelämätapahtuma, joka on suunnattu kaikille matemaattis-luonnontieteellisen alan opiskelijoille fukseista vastavalmistuneisiin ja jatko-opiskelijoihin. 40 alan työnantajan pitämän ständin lisäksi tapahtuman ohjelmassa on keynote-luentoja ajankohtaisista puheenaiheista, työnhakuun arvokkaita vinkkejä tarjoavia työpajoja sekä paljon muuta! Tapahtuman aikataulun löydät sivulta.
+second-part-2 = Nopeimmille 400:lle on myös jaossa tapahtuman virallinen haalarimerkki infopisteeltä.
