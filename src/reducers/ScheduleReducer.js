@@ -50,115 +50,67 @@ const schedule = [  {
   },
   {
     id: 3,
-    companyName: "TBA",
+    companyName: "Rekry Speed Dating #1",
     location: "Physicum D104",
     title: {
-      fi: "Rekry speed dating",
-      "en-US": "Rekry speed dating"
+      fi: "Rekry Speed Dating #1",
+      "en-US": "Rekry Speed Dating #1",
     },
     description: {
-      fi: "",
-      "en-US": ""
+      fi: "Reddal, CGI, Vuono Group, Eficode",
+      "en-US": "Reddal, CGI, Vuono Group, Eficode"
     },
     fullDescription: {
-      fi: "",
-      "en-US": ""
+      fi: "Reddal, CGI, Vuono Group, Eficode",
+      "en-US": "Reddal, CGI, Vuono Group, Eficode"
     },
     speakers: [],
     language: "fi",
     link: "",
-    startTime: utcToZonedTime(new Date(2022, 12, 8, 11, 0), "Europe/Helsinki"),
-    endTime: utcToZonedTime(new Date(2022, 12, 8, 12, 30), "Europe/Helsinki"),
+    startTime: utcToZonedTime(new Date(2022, 12, 8, 12, 30), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2022, 12, 8, 14, 0), "Europe/Helsinki"),
     hideDetails: false,
     hideTime: false
   },
   {
     id: 4,
-    companyName: "TBA",
+    companyName: "",
     location: "Physicum D105",
     title: {
-      fi: "Rekry speed dating",
-      "en-US": "Rekry speed dating"
+      fi: "Rekry Speed Dating #3",
+      "en-US": "Rekry Speed Dating #3"
     },
     description: {
-      fi: "",
-      "en-US": ""
+      fi: "Visual Components, Taito United, Cinia, Funidata, Futurice",
+      "en-US": "Visual Components, Taito United, Cinia, Funidata, Futurice"
     },
     fullDescription: {
-      fi: "",
-      "en-US": ""
+      fi: "Visual Components, Taito United, Cinia, Funidata, Futurice",
+      "en-US": "Visual Components, Taito United, Cinia, Funidata, Futurice"
     },
     speakers: [],
     language: "fi",
     link: "",
-    startTime: utcToZonedTime(new Date(2022, 12, 8, 11, 0), "Europe/Helsinki"),
-    endTime: utcToZonedTime(new Date(2022, 12, 8, 12, 30), "Europe/Helsinki"),
+    startTime: utcToZonedTime(new Date(2022, 12, 8, 12, 30), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2022, 12, 8, 14, 0), "Europe/Helsinki"),
     hideDetails: false,
     hideTime: false
   },
   {
     id: 5,
-    companyName: "TBA",
+    companyName: "",
     location: "Physicum D104",
     title: {
-      fi: "Rekry speed dating",
-      "en-US": "Rekry speed dating"
+      fi: "Rekry Speed Dating #4",
+      "en-US": "Rekry Speed Dating #4",
     },
     description: {
-      fi: "",
-      "en-US": ""
+      fi: "Solita, Insta Group, Tietoevry, Perfektio",
+      "en-US": "Solita, Insta Group, Tietoevry, Perfektio"
     },
     fullDescription: {
-      fi: "",
-      "en-US": ""
-    },
-    speakers: [],
-    language: "fi",
-    link: "",
-    startTime: utcToZonedTime(new Date(2022, 12, 8, 12, 30), "Europe/Helsinki"),
-    endTime: utcToZonedTime(new Date(2022, 12, 8, 14, 0), "Europe/Helsinki"),
-    hideDetails: false,
-    hideTime: false
-  },
-  {
-    id: 6,
-    companyName: "TBA",
-    location: "Physicum D105",
-    title: {
-      fi: "Rekry speed dating",
-      "en-US": "Rekry speed dating"
-    },
-    description: {
-      fi: "",
-      "en-US": ""
-    },
-    fullDescription: {
-      fi: "",
-      "en-US": ""
-    },
-    speakers: [],
-    language: "fi",
-    link: "",
-    startTime: utcToZonedTime(new Date(2022, 12, 8, 12, 30), "Europe/Helsinki"),
-    endTime: utcToZonedTime(new Date(2022, 12, 8, 14, 0), "Europe/Helsinki"),
-    hideDetails: false,
-    hideTime: false
-  },
-  {
-    id: 7,
-    companyName: "TBA",
-    location: "Physicum D104",
-    title: {
-      fi: "Rekry speed dating",
-      "en-US": "Rekry speed dating"
-    },
-    description: {
-      fi: "",
-      "en-US": ""
-    },
-    fullDescription: {
-      fi: "",
-      "en-US": ""
+      fi: "Solita, Insta Group, Tietoevry, Perfektio",
+      "en-US": "Solita, Insta Group, Tietoevry, Perfektio"
     },
     speakers: [],
     language: "fi",
@@ -169,22 +121,22 @@ const schedule = [  {
     hideTime: false
   },
   {
-    id: 8,
-    companyName: "TBA",
+    id: 6,
+    companyName: "",
     location: "Physicum D105",
     title: {
-      fi: "Rekry speed dating",
-      "en-US": "Rekry speed dating"
+      fi: "Rekry Speed Dating #2",
+      "en-US": "Rekry Speed Dating #2"
     },
     description: {
-      fi: "",
-      "en-US": ""
+      fi: "OP Ryhmä, KPMG, Accenture, Digia",
+      "en-US": "OP Ryhmä, KPMG, Accenture, Digia"
     },
     fullDescription: {
-      fi: "",
-      "en-US": ""
+      fi: "OP Ryhmä, KPMG, Accenture, Digia",
+      "en-US": "OP Ryhmä, KPMG, Accenture, Digia"
     },
-    speakers: [],
+    speakers: [""],
     language: "fi",
     link: "",
     startTime: utcToZonedTime(new Date(2022, 12, 8, 14, 0), "Europe/Helsinki"),
@@ -217,36 +169,12 @@ const schedule = [  {
     hideTime: false
   },
   {
-    id: 10,
-    companyName: "TBA",
-    location: "Exactum C123",
-    title: {
-      fi: "Workshop",
-      "en-US": "Workshop"
-    },
-    description: {
-      fi: "",
-      "en-US": ""
-    },
-    fullDescription: {
-      fi: "",
-      "en-US": ""
-    },
-    speakers: [""],
-    language: "en",
-    link: "",
-    startTime: utcToZonedTime(new Date(2022, 12, 8, 14, 0), "Europe/Helsinki"),
-    endTime: utcToZonedTime(new Date(2022, 12, 8, 15, 0), "Europe/Helsinki"),
-    hideDetails: false,
-    hideTime: false
-  },
-  {
     id: 11,
-    companyName: "TBA",
+    companyName: "Loimu + HY",
     location: "Exactum C123",
     title: {
-      fi: "Workshop",
-      "en-US": "Workshop"
+      fi: "CV-paja",
+      "en-US": "CV-workshop"
     },
     description: {
       fi: "",
@@ -265,40 +193,16 @@ const schedule = [  {
     hideTime: false
   },
   {
-    id: 12,
-    companyName: "TBA",
-    location: "Exactum C123",
-    title: {
-      fi: "Workshop",
-      "en-US": "Workshop"
-    },
-    description: {
-      fi: "",
-      "en-US": ""
-    },
-    fullDescription: {
-      fi: "",
-      "en-US": ""
-    },
-    speakers: [""],
-    language: "en",
-    link: "",
-    startTime: utcToZonedTime(new Date(2022, 12, 8, 16, 0), "Europe/Helsinki"),
-    endTime: utcToZonedTime(new Date(2022, 12, 8, 17, 0), "Europe/Helsinki"),
-    hideDetails: false,
-    hideTime: false
-  },
-  {
     id: 13,
-    companyName: "TBA",
+    companyName: "Accenture",
     location: "Exactum B123",
     title: {
-      fi: "Accenture: Introduction to 5G Edge Computing Lab", 
-      "en-US": "Accenture: Introduction to 5G Edge Computing Lab"  
+      fi: "Introduction to 5G Edge Computing Lab", 
+      "en-US": "Introduction to 5G Edge Computing Lab"  
     },
     description: {
-      fi: "Accenture: Introduction to 5G Edge Computing Lab at Accenture with use case examples in Employee Safety Video Analytics and Automated Robotic Inspection with Boston Dynamics Spot robot. Live robot demo and Q&A.",
-      "en-US": "Accenture: Introduction to 5G Edge Computing Lab at Accenture with use case examples in Employee Safety Video Analytics and Automated Robotic Inspection with Boston Dynamics Spot robot. Live robot demo and Q&A."
+      fi: "Introduction to 5G Edge Computing Lab at Accenture with use case examples in Employee Safety Video Analytics and Automated Robotic Inspection with Boston Dynamics Spot robot. Live robot demo and Q&A.",
+      "en-US": "Introduction to 5G Edge Computing Lab at Accenture with use case examples in Employee Safety Video Analytics and Automated Robotic Inspection with Boston Dynamics Spot robot. Live robot demo and Q&A."
     },
     fullDescription: {
       fi: ``,
@@ -399,8 +303,8 @@ const schedule = [  {
     companyName: "Capgemini",
     location: "Exactum A111",
     title: {
-      fi: "Test Automation (keynote)",
-      "en-US": "Test Automation (keynote)"
+      fi: "Introduction to Capgemini",
+      "en-US": "Introduction to Capgemini"
     },
     description: {
       fi: "",
@@ -442,6 +346,30 @@ const schedule = [  {
     startTime: utcToZonedTime(new Date(2019, 11, 14, 11, 0), "Europe/Helsinki"),
     endTime: utcToZonedTime(new Date(2019, 11, 14, 17, 0), "Europe/Helsinki"),
     hideDetails: true,
+    hideTime: false
+  },  
+  {
+    id: 19,
+    companyName: "OP + Accenture",
+    location: "Exactum B121",
+    title: {
+      fi: "CoachCafe",
+      "en-US": "CoachCafe"
+    },
+    description: {
+      fi: "",
+      "en-US": ""
+    },
+    fullDescription: {
+      fi: "",
+      "en-US": ""
+    },
+    speakers: [],
+    language: "fi",
+    link: "",
+    startTime: utcToZonedTime(new Date(2022, 12, 8, 13, 0), "Europe/Helsinki"),
+    endTime: utcToZonedTime(new Date(2022, 12, 8, 14, 0), "Europe/Helsinki"),
+    hideDetails: false,
     hideTime: false
   },];
 

@@ -29,6 +29,19 @@ const MainPage = () => (
           annin olevan erinomainen hintaan nähden.
         </p>
       </Localized>
+      <Localized id="title-2">
+        <h2>Mitä Potentiaalista löytyy?</h2>
+      </Localized>
+      <Localized id="second-part-1">
+        <p>
+        Kumpulan Potentiaali on tämän viikon torstaina! Potentiaali on työelämätapahtuma, joka on suunnattu kaikille matemaattis-luonnontieteellisen alan opiskelijoille fukseista vastavalmistuneisiin ja jatko-opiskelijoihin. 40 alan työnantajan pitämän ständin lisäksi tapahtuman ohjelmassa on keynote-luentoja ajankohtaisista puheenaiheista, työnhakuun arvokkaita vinkkejä tarjoavia työpajoja sekä paljon muuta! Tapahtuman ohjelman löydät tämän viestin lopusta sekä nettisivuiltamme osoitteesta https://potentiaali.com/schedule.
+        </p>
+      </Localized>
+      <Localized id="second-part-2">
+        <p>
+        Nopeimmille 400:lle on myös jaossa tapahtuman virallinen haalarimerkki infopisteeltä.
+        </p>
+      </Localized>
     </section>
     {config.eventDate !== "" && (
       <section className="app-section">
