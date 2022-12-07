@@ -2,8 +2,6 @@ import React from "react";
 import styles from "./Program.module.scss";
 import { Accordion } from "../accordion/Accordion";
 import { Localized } from "@fluent/react";
-import Textfit from "@aw-web-design/react-textfit";
-
 export const Program = () => {
   return (
     <div>
@@ -17,11 +15,13 @@ export const Program = () => {
           title={<img src="rekry_speed_dating.png" alt="Speed dates" />}
           accordionId={"speed-dates"}
         >
+          {/*}
           <Textfit mode="single" max={20}>
-            <Localized id="rekry-speed-dating">
+            <Localized id="rekry-speed-dating-title-text">
               <h2>Rekry Speed Dating</h2>
             </Localized>
           </Textfit>
+  */}
           <Localized id="rekry-speed-dating-info-1">
             <p>
               Rekry Speed Datingissa tapaat pikadeittailun tapaan mahdollisten
@@ -71,11 +71,6 @@ export const Program = () => {
           title={<img src="keynote.png" alt="Keynotes" />}
           accordionId={"keynotes"}
         >
-          <Textfit mode="single" max={20}>
-            <Localized id="keynote-title-text">
-              <h2>Keynotet</h2>
-            </Localized>
-          </Textfit>
           <Localized id="keynote-info-text">
             <p>
               Yritysten puolen tunnin pituisia, nopeita ja innostavia katsauksia
@@ -90,11 +85,6 @@ export const Program = () => {
           title={<img src="cocktail.png" alt="Kokkarit" />}
           accordionId={"cocktail"}
         >
-          <Textfit mode="single" max={20}>
-            <Localized id="coctail-hour-title-text">
-              <h2>Cocktail-tunti</h2>
-            </Localized>
-          </Textfit>
           <Localized id="cocktail-hour-info-text">
             <p>
               Cocktail-tilaisuus järjestetään Exactumissa klo 17-18, jonne saa
@@ -109,11 +99,6 @@ export const Program = () => {
           title={<img src="panel.png" alt="Paneeli" />}
           accordionId={"panel"}
         >
-          <Textfit mode="single" max={20}>
-            <Localized id="panel-discussion-title-text">
-              <h2>Paneelikeskustelu - Helsinki Think Company</h2>
-            </Localized>
-          </Textfit>
           <Localized id="panel-discussion-info-text-1">
             <p>
               Cocktail-tilaisuuden ja jatkojen välissä järjestetään kaikille
@@ -133,11 +118,6 @@ export const Program = () => {
           title={<img src="after_party.png" alt="Jatkot" />}
           accordionId={"afterparty"}
         >
-          <Textfit mode="single" max={20}>
-            <Localized id="afterparty-title-text">
-              <h2>Jatkot</h2>
-            </Localized>
-          </Textfit>
           <Localized id="afterparty-info-text-1">
             <p>
               Jatkot kajahtavat käyntiin klo 19 alkaen Physicumin aulassa.
