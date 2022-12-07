@@ -177,8 +177,8 @@ const schedule = [  {
       "en-US": "CV-workshop"
     },
     description: {
-      fi: "",
-      "en-US": ""
+      fi: "Tule hiomaan CV:si kuntoon CV workshoppiin!!\n\nKumpulan Potentiaalin aika järjestetään CV workshop, jossa pääset hiomaan CV:si kuntoon Helsingin yliopiston uraohjaajien avulla. Voit tuoda oman CV:si mukaan tai aloittaa puhtaalta pöydältä. Työpajassa uraohjaajat jakavat vinkkejä ja auttavat parantelemaan CV:täsi, jotta mahdollisuutesi työmarkkinoilla paranevat. Tämä on ainutlaatuinen mahdollisuus parsia CV kuntoon vaikkapa kesätyönhakua varten kahden asiantuntijan kanssa!",
+      "en-US": "Come polish your CV to a CV workshop!\n\nDuring Kumpulan Potentiaali we’ll hold a CV workshop where you get to polish your CV with the help of career counselors of Helsinki University. You can bring your current CV with you or start completely from scratch. The career counselors share info and tips about building a CV and help you improve your CV so that your job opportunities will improve as well. This is a unique opportunity to get your CV in shape with the help of two experts just in time for summer job search!"
     },
     fullDescription: {
       fi: "",
@@ -357,8 +357,8 @@ const schedule = [  {
       "en-US": "CoachCafe"
     },
     description: {
-      fi: "",
-      "en-US": ""
+      fi: "Hae vinkit ja sparrausta koskien työelämää, työnhakua tai oman uran rakentamista.\nJa mitä parasta keskustelun aiheet rakentuvat vapaasti ryhmän toiveiden mukaan!\n\nKumpulan Potentiaali to 8.11. klo 13:00-14 (Exactum B121)",
+      "en-US": "Mentors share tips and sparring regarding working life, job search or building your own career.\nAnd the best thing is that the topics of the discussion are structured freely according to the wishes of the group!\n\nKumpula Potential Thu 8.11. at 13:00-14 (Exactum B121)\n\nPlease remember that registration is binding.\n\nGet the best tips for job hunting!"
     },
     fullDescription: {
       fi: "",
@@ -366,7 +366,8 @@ const schedule = [  {
     },
     speakers: [],
     language: "fi",
-    link: "",
+    link: "https://www.lyyti.in/Coach_Cafe_Potentiaali_2022_8188/fi",
+    link_en: "https://www.lyyti.in/Coach_Cafe_Potentiaali_2022_8188/en",
     startTime: utcToZonedTime(new Date(2022, 12, 8, 13, 0), "Europe/Helsinki"),
     endTime: utcToZonedTime(new Date(2022, 12, 8, 14, 0), "Europe/Helsinki"),
     hideDetails: false,
