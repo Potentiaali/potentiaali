@@ -14,7 +14,7 @@ export const Program = () => {
       <div className={styles.program}>
         <Accordion
           imageTitle={true}
-          title={<img src="Potentiaali_speeddates.png" alt="Speed dates" />}
+          title={<img src="rekry_speed_dating.png" alt="Speed dates" />}
           accordionId={"speed-dates"}
         >
           <Textfit mode="single" max={20}>
@@ -52,14 +52,9 @@ export const Program = () => {
         </Accordion>
         <Accordion
           imageTitle={true}
-          title={<img src="Potentiaali_workshop.png" alt="Workshops" />}
+          title={<img src="workshop.png" alt="Workshops" />}
           accordionId={"workshops"}
         >
-          <Textfit mode="single" max={20}>
-            <Localized id="workshops-title-text">
-              <h2>Workshops</h2>
-            </Localized>
-          </Textfit>
           <Localized id="workshop-info">
             <p>
               Workshopit ovat intensiivisiä tunnin pituisia työpajoja, joissa
@@ -73,7 +68,7 @@ export const Program = () => {
         </Accordion>
         <Accordion
           imageTitle={true}
-          title={<img src="Potentiaali_keynote.png" alt="Keynotes" />}
+          title={<img src="keynote.png" alt="Keynotes" />}
           accordionId={"keynotes"}
         >
           <Textfit mode="single" max={20}>
@@ -92,7 +87,7 @@ export const Program = () => {
         </Accordion>
         <Accordion
           imageTitle={true}
-          title={<img src="Potentiaali_kokkarit.png" alt="Kokkarit" />}
+          title={<img src="cocktail.png" alt="Kokkarit" />}
           accordionId={"cocktail"}
         >
           <Textfit mode="single" max={20}>
@@ -111,7 +106,7 @@ export const Program = () => {
         </Accordion>
         <Accordion
           imageTitle={true}
-          title={<img src="Potentiaali_paneeli.png" alt="Paneeli" />}
+          title={<img src="panel.png" alt="Paneeli" />}
           accordionId={"panel"}
         >
           <Textfit mode="single" max={20}>
@@ -135,7 +130,7 @@ export const Program = () => {
         </Accordion>
         <Accordion
           imageTitle={true}
-          title={<img src="Potentiaali_jatkot.png" alt="Jatkot" />}
+          title={<img src="after_party.png" alt="Jatkot" />}
           accordionId={"afterparty"}
         >
           <Textfit mode="single" max={20}>

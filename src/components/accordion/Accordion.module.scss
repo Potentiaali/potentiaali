@@ -4,6 +4,8 @@
 .accordion {
   @include darkModeBackground($white-1, $black-1);
   @include darkModeFont($black-1, $white-1);
+  background-color: #f07c07;
+  color: white;
   width: 100%;
   margin-left: auto;
   margin-right: auto;

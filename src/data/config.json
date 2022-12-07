@@ -3,7 +3,7 @@
   "eventTime": "11-17",
   "defaultLocale": "en",
   "speedRekryOpen": false,
-  "showProgramView": false,
+  "showProgramView": true,
   "showRegistrationInfo": false,
   "showCompanies": true,
   "showSpeedRekry": false,
