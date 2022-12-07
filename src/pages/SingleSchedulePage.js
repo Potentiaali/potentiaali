@@ -10,9 +10,11 @@ import LanguageString from "../components/LanguageString";
 const SingleSchedulePage = () => {
   const events = useSelector(state => state.schedule.events)
   let params = useParams()
+  const [currentLocale] = useSelector(
+    state => state.localization.currentLocales
+  );
+  console.log(currentLocale)
   const eventId = params.id
-  console.log(events)
-  console.log(eventId)
   if (!eventId) {
     return <Localized id="event-not-found">Tapahtumaa ei löydy</Localized>;
   }
@@ -98,7 +100,7 @@ const SingleSchedulePage = () => {
       </section>
       {event.link !== "" && (
         <section className="app-section">
-          <a href={event.link} target="_blank" rel="noopener noreferrer">
+          <a href={currentLocale === "en-US" ? event.link_en : event.link} target="_blank" rel="noopener noreferrer">
             <i className="fas fa-external-link-alt"></i>&nbsp;
             <Localized id="enrollment-link">
               Tämä ohjelmanumero vaatii ulkoisen ilmoittautumisen. Ilmoittaudu
