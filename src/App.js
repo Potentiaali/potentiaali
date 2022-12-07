@@ -16,7 +16,7 @@ const SubjectsPage = React.lazy(() => import("./pages/SubjectsPage"));
 /*const CompanyRegistrationPage = React.lazy(() =>
   import("./pages/CompanyRegistrationPage")
 );*/
-//const MapPage = React.lazy(() => import("./pages/MapPage"));
+const MapPage = React.lazy(() => import("./pages/MapPage"));
 const NotFoundPage = React.lazy(() => import("./pages/NotFoundPage"));
 const MainPage = React.lazy(() => import("./pages/MainPage"));
 const CompanyPage = React.lazy(() => import("./pages/CompanyPage"));
@@ -51,7 +51,7 @@ const App = () => {
               <Route exact="true" path="/company/:id" element={<SingleCompanyPage/>} />
               <Route exact="true" path="/companies" element={<CompanyPage/>} />
               <Route exact="true" path="/subjects" element={<SubjectsPage/>} />
-              {/*<Route exact path="/map" element={<MapPage/>} />*/}
+              <Route exact path="/map" element={<MapPage/>} />
               {/*<Route
                 exact
                 path="/registration"

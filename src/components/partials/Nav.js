@@ -62,7 +62,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
         "en-US": "Schedule",
       },
     },
-    /*{
+    {
       id: "mapPage",
       name: "Kartta",
       linkName: "map",
@@ -73,7 +73,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
         fi: "Kartta",
         "en-US": "Map",
       },
-    },*/
+    },
     {
       id: "fieldsOfStudiesPage",
       name: "Aineiden esittely",
