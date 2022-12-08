@@ -31,7 +31,7 @@ export const Program = () => {
               session aikana. Ennen sessiota lähetät CV:n itsestäsi yrityksille
               etukäteen tutustuttavaksi.
             </p>
-          </Localized>
+          </Localized>{/*
           <br />
           <Localized id="rekry-speed-dating-info-2">
             <p>
@@ -48,7 +48,7 @@ export const Program = () => {
               Ennakkoilmoittautuminen on auki nyt ja sulkeutuu kun ryhmät
               täyttyvät.
             </p>
-          </Localized>
+          </Localized>*/}
         </Accordion>
         <Accordion
           imageTitle={true}
@@ -87,10 +87,8 @@ export const Program = () => {
         >
           <Localized id="cocktail-hour-info-text">
             <p>
-              Cocktail-tilaisuus järjestetään Exactumissa klo 17-18, jonne saa
-              tulla myös opiskelijat - erityisesti ne opiskelijat, jotka ovat
-              menossa myös jatkoille. Cocktail-tilaisuudessa tarjoillaan
-              kuohuvaa ja pientä syötävää.
+            Ständien sulkeuduttua klo 17 niin opiskelijat kuin työnantajienkin edustajat pääsevät virkistäytymään 
+            Exactumin pohjakerroksessa pidettävässä cocktail-tilaisuudessa, jossa tarjolla on kuohuvaa ja pientä purtavaa.
             </p>
           </Localized>
         </Accordion>
@@ -103,7 +101,7 @@ export const Program = () => {
             <p>
               Cocktail-tilaisuuden ja jatkojen välissä järjestetään kaikille
               avoin paneelikeskustelu-tilaisuus, jonka houstaa Helsinki Think
-              Company. Aiheesta “Kuinka otin akateemisen osaamiseni käyttöön”
+              Company. Aiheesta “Akateeminen osaaminen käytäntöön”
               tulee puhumaan eri alojen asiantuntijoita sekä Kumpulan omia
               opiskelijoita.
             </p>
@@ -120,11 +118,13 @@ export const Program = () => {
         >
           <Localized id="afterparty-info-text-1">
             <p>
-              Jatkot kajahtavat käyntiin klo 19 alkaen Physicumin aulassa.
-              Jatkoilla on yritysedustajia sekä opiskelijoita yhteensä 500.
-              Jatkoille päästäksesi tarvitset jatkorannekkeen, joita jaetaan
-              tapahtuman info-pisteellä tasatunnein - olethan paikalla, mikäli
-              halajat sellaisen!
+            Potentiaali huipentuu klo 19 Physicumissa alkaviin jatkoihin, joilla esiintyy Kalevauva.fi ja Kimbe.
+             Jano tai nälkä eivät myöskään pääse illalla yllättämään,
+              sillä jatkoilla on avoin baari (myös alkoholittomia vaihtoehtoja),
+               naposteltavaa sekä ruokarekka, joista jatkovieraat voivat ostaa syötävää.
+                Ensimmäiset 100 vierasta saavat 5€ alennuksen ruokarekan annoksista.
+                 Jatkoille pääsyyn vaaditaan ranneke, joita jaetaan Physicumin aulan infopisteessä.
+                  Kello 11 vapautuu jaettavaksi 100 ranneketta, klo 13 ja klo 15 kaikki jäljellä olevat rannekkeet.
             </p>
           </Localized>
           <br />
