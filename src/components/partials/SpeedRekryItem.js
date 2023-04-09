@@ -6,7 +6,7 @@ import classNames from "classnames"
 
 export const SpeedRekryItem = ({ companies, full, link, open, id }) => {
   const luokka = "item-" + id
-
+  const { t } = useTranslation()
   return (
     <div
       className={classNames({
@@ -15,7 +15,7 @@ export const SpeedRekryItem = ({ companies, full, link, open, id }) => {
       })}
     >
       <div className={styles.speedRekryItemTitle}>
-        <Localized id="group-text">Ryhmä</Localized>
+        <span> {t("group-text")}</span>
         &nbsp; {id}
       </div>
       <div className={styles.speedRekryItemDesc}>
@@ -41,18 +41,14 @@ export const SpeedRekryItem = ({ companies, full, link, open, id }) => {
             })}
           >
             {!full ? (
-              <Localized id="signup-text">Ilmoittaudu</Localized>
+              <span> {t("signup-text")}</span>
             ) : (
-              <Localized id="full-text">Täynnä</Localized>
+              <span> {t("full-text")}</span>
             )}
           </a>
         )}
         {!open && (
-          <Localized id="registration-opens">
-            <p className={styles.closedRegistration}>
-              Ilmoittautuminen aukeaa myöhemmin syksyllä
-            </p>
-          </Localized>
+          <p className={styles.closedRegistration}>{t("registration-opens")}</p>
         )}
       </div>
     </div>

@@ -2,7 +2,7 @@ import React from "react"
 import { Accordion } from "../../components/accordion/Accordion"
 import useTranslation from "next-translate/useTranslation"
 
-export const Geography = () => {
+const Geography = () => {
   const { t } = useTranslation()
   return (
     <Accordion
@@ -38,3 +38,4 @@ export const Geography = () => {
     </Accordion>
   )
 }
+export default Geography

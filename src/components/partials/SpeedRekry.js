@@ -11,14 +11,11 @@ export const SpeedRekry = ({ ilmot, fetchSpeedRekry }) => {
   useEffect(() => {
     fetchSpeedRekry()
   }, [fetchSpeedRekry])
+  const { t } = useTranslation()
   return (
     <>
       <Textfit mode="single" max={20}>
-        <h1>
-          <Localized id="register-to-speed-rekry">
-            Ilmoittaudu Speed rekryyn
-          </Localized>
-        </h1>
+        <h1>{t("register-to-speed-rekry")}</h1>
       </Textfit>
       <div className={styles.speedRekryGrid}>
         {ilmot &&

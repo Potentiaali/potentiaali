@@ -1,12 +1,12 @@
 import React from "react"
 import useTranslation from "next-translate/useTranslation"
 
-const NotFoundPage = () => (
-  <>
-    <Localized id="pageNotFound">
-      <h1>Sivua ei löydy</h1>
-    </Localized>
-  </>
-)
-
+const NotFoundPage = () => {
+  const { t } = useTranslation()
+  return (
+    <>
+      <h1>{t("pageNotFound")}</h1>
+    </>
+  )
+}
 export default NotFoundPage

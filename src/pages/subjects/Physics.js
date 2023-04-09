@@ -2,7 +2,7 @@ import React from "react"
 import { Accordion } from "../../components/accordion/Accordion"
 import useTranslation from "next-translate/useTranslation"
 
-export const Physics = () => {
+const Physics = () => {
   const { t } = useTranslation()
   return (
     <Accordion isRoot accordionId={"physics"} title={t("physics-title-text")}>
@@ -33,3 +33,5 @@ export const Physics = () => {
     </Accordion>
   )
 }
+
+export default Physics

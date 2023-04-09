@@ -1,7 +1,7 @@
 import React from "react"
 import { useSelector } from "react-redux"
 import ScheduleLabels from "../components/schedule/ScheduleLabels"
-import styles from "./SchedulePage.module.scss"
+import styles from "./Schedule.module.scss"
 import ScheduleSlot from "../components/schedule/ScheduleSlot"
 
 export const SchedulePage = () => {

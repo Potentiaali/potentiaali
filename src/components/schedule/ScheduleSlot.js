@@ -1,12 +1,12 @@
 import React from "react"
 import propTypes from "prop-types"
 import styles from "./ScheduleSlot.module.scss"
-import "./ScheduleGrid.scss"
 import classNames from "classnames"
 import { format } from "date-fns"
 import Link from "next/link"
 import useTranslation from "next-translate/useTranslation"
 import LanguageString from "../LanguageString"
+//import "./ScheduleGrid.scss"
 
 const getHoursAndMinutes = (inputDate) => {
   return format(inputDate, "HHmm")
@@ -32,6 +32,7 @@ const ScheduleSlot = ({
 }) => {
   const fromClass = getFrom(startTime)
   const toClass = getTo(endTime)
+  const { t } = useTranslation()
   return (
     <div className={classNames(styles.slot, fromClass, toClass)}>
       <div className={styles["slot-bg-1"]}></div>
@@ -75,7 +76,7 @@ const ScheduleSlot = ({
                   <i className="fas fa-external-link-alt"></i>
                 </span>
                 <span className={styles["slot-info-value"]}>
-                  <Localized id="schedule-slot-details">Details</Localized>
+                  <span>{t("schedule-slot-details")}</span>
                 </span>
               </Link>
             </li>

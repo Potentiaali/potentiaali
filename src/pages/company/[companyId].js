@@ -9,20 +9,19 @@ import { BoothBadge } from "../../components/partials/badges/BoothBadge"
 const SingleCompanyPage = () => {
   const companies = useSelector((state) => state.company.companies)
   let router = useRouter()
+  const { t } = useTranslation()
   const companyId = router.query.slug
   if (!companyId) {
-    return <Localized id="company-not-found">Yritystä ei löydy</Localized>
+    return <span> {t("company-not-found")}</span>
   }
   if (companies.length === 0) {
-    return (
-      <Localized id="empty-schedule">Ei yrityksiä järjestelmässä</Localized>
-    )
+    return <span> {t("empty-schedule")}</span>
   }
   const company = companies.find(
     (cmpny) => Number(cmpny.id) === Number(companyId)
   )
   if (company === undefined) {
-    return <Localized id="company-not-found">Yritystä ei löydy</Localized>
+    return <span> {t("company-not-found")}</span>
   }
   return (
     <>
@@ -30,7 +29,7 @@ const SingleCompanyPage = () => {
         <Link href="" onClick={() => router.back()}>
           <h3>
             <i className="fas fa-chevron-left"></i>&nbsp;&nbsp;
-            <Localized id="go-back">Go back</Localized>
+            <span> {t("go-back")}</span>
           </h3>
         </Link>
       </section>
@@ -68,9 +67,7 @@ const SingleCompanyPage = () => {
       <section className="app-section">
         <Link href="/companies">
           <h3>
-            <Localized id="go-to-company-listing">
-              Go to companies attending Kumpula&apos;s Potential 2022
-            </Localized>
+            <span> {t("go-to-company-listing")}</span>
           </h3>
         </Link>
       </section>

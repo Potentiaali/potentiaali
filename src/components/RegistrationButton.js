@@ -17,13 +17,13 @@ const navigateTo = (registrationDisabled) => {
 
 const RegistrationButton = () => {
   const { t } = useTranslation()
+  const regDate = config.companyRegistrationStartDate
+  const regTime = config.companyRegistrationStartTime
   const canRegister = +new Date() - regDate
   let registrationDisabled = true
   if (canRegister >= 0) {
     registrationDisabled = false
   }
-  const regDate = config.companyRegistrationStartDate
-  const regTime = config.companyRegistrationStartTime
   return (
     <a
       href={navigateTo(registrationDisabled)}

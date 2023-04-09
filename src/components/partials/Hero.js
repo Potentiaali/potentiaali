@@ -33,7 +33,7 @@ export const Hero = () => {
           <p>{t("heroDescription")}</p>
           <b>
             {config.eventDate}{" "}
-            {/*<Localized id="heroTimePrefix">klo</Localized>{" "}
+            {/*<p>{t("heroTimePrefix")}</p>{" "}
             {config.eventTime}*/}
           </b>
           <br />

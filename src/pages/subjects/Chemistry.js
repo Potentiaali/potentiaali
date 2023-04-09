@@ -2,7 +2,7 @@ import React from "react"
 import { Accordion } from "../../components/accordion/Accordion"
 import useTranslation from "next-translate/useTranslation"
 
-export const Chemistry = () => {
+const Chemistry = () => {
   const { t } = useTranslation()
   return (
     <Accordion
@@ -44,3 +44,5 @@ export const Chemistry = () => {
     </Accordion>
   )
 }
+
+export default Chemistry

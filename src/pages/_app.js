@@ -1,5 +1,5 @@
 import Head from "next/head"
-import React, { Suspense, useEffect } from "react"
+import React, { Suspense } from "react"
 import { GoogleAnalytics } from "nextjs-google-analytics"
 import { Provider } from "react-redux"
 import { store } from "../store"

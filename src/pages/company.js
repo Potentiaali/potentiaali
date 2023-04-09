@@ -7,12 +7,11 @@ import { BoothBadge } from "../components/partials/badges/BoothBadge"
 const CompanyPage = () => {
   const companies = useSelector((state) => state.company.companies)
   const [inputText, setInputText] = useState("")
+  const { t } = useTranslation()
   return (
     <>
       <section className="app-section">
-        <h1>
-          <Localized id="companies-title-text">Companies</Localized>
-        </h1>
+        <h1>{t("companies-title-text")}</h1>
       </section>
       <section className="app-section">
         <input

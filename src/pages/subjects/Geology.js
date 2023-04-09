@@ -2,7 +2,7 @@ import React from "react"
 import { Accordion } from "../../components/accordion/Accordion"
 import useTranslation from "next-translate/useTranslation"
 
-export const Geology = () => {
+const Geology = () => {
   const { t } = useTranslation()
   return (
     <Accordion isRoot accordionId={"geology"} title={t("geology-title-text")}>
@@ -48,3 +48,5 @@ export const Geology = () => {
     </Accordion>
   )
 }
+
+export default Geology

@@ -2,7 +2,7 @@ import React from "react"
 import { Accordion } from "../../components/accordion/Accordion"
 import useTranslation from "next-translate/useTranslation"
 
-export const Statistics = () => {
+const Statistics = () => {
   const { t } = useTranslation()
   return (
     <Accordion
@@ -37,3 +37,5 @@ export const Statistics = () => {
     </Accordion>
   )
 }
+
+export default Statistics

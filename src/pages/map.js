@@ -1,5 +1,5 @@
 import React from "react"
-import style from "./MapPage.module.scss"
+import style from "./Map.module.scss"
 import AreaBadge from "../components/partials/badges/AreaBadge"
 import BigBoothBadge from "../components/partials/badges/BigBoothBadge"
 import useTranslation from "next-translate/useTranslation"
@@ -14,6 +14,7 @@ const MapPage = () => {
       elem.requestFullscreen()
     }
   }
+  const { t } = useTranslation()
   return (
     <>
       <div className={style.map}>
@@ -23,7 +24,7 @@ const MapPage = () => {
             onClick={() => showFullScreen()}
           >
             <i className="fas fa-expand-arrows-alt"></i>{" "}
-            <Localized id="fullscreen">Fullscreen</Localized>
+            <span> {t("fullscreen")}</span>
           </button>
           <div className={style.mapInfoEntry}>
             <AreaBadge area="A" />
@@ -36,33 +37,24 @@ const MapPage = () => {
           </div>
           <div className={style.mapInfoEntry}>
             <BigBoothBadge value="A1" />
-            <span>
-              <Localized id="big-booth">Big booth</Localized>
-            </span>
+            <span>{t("big-booth")}</span>
           </div>
           <div className={style.mapInfoEntry}>
             <BigBoothBadge value="A2" />
-            <span>
-              <Localized id="big-booth">Big booth</Localized>
-            </span>
+            <span> {t("big-booth")}</span>
           </div>
           <div className={style.mapInfoEntry}>
             <BigBoothBadge value="C1" />
-            <span>
-              <Localized id="big-booth">Big booth</Localized>
-            </span>
+            <span> {t("big-booth")}</span>
           </div>
           <div className={style.mapInfoEntry}>
             <BigBoothBadge value="C2" />
-            <span>
-              <Localized id="big-booth">Big booth</Localized>
-            </span>
+
+            <span> {t("big-booth")}</span>
           </div>
           <div className={style.mapInfoEntry}>
             <ClassRoomBadge text="D114" />
-            <span>
-              <Localized id="company-info">Company info</Localized>
-            </span>
+            <span> {t("company-info")}</span>
           </div>
         </div>
         <img
