@@ -1,24 +1,24 @@
-import React from "react";
-import propTypes from "prop-types";
-import styles from "./ScheduleSlot.module.scss";
-import "./ScheduleGrid.scss";
-import classNames from "classnames";
-import { format } from "date-fns";
-import { Link } from "react-router-dom";
-import { Localized } from "@fluent/react";
-import LanguageString from "../LanguageString";
+import React from "react"
+import propTypes from "prop-types"
+import styles from "./ScheduleSlot.module.scss"
+import "./ScheduleGrid.scss"
+import classNames from "classnames"
+import { format } from "date-fns"
+import Link from "next/link"
+import useTranslation from "next-translate/useTranslation"
+import LanguageString from "../LanguageString"
 
-const getHoursAndMinutes = inputDate => {
-  return format(inputDate, "HHmm");
-};
+const getHoursAndMinutes = (inputDate) => {
+  return format(inputDate, "HHmm")
+}
 
-const getFrom = inputDate => {
-  return `from-${getHoursAndMinutes(inputDate)}`;
-};
+const getFrom = (inputDate) => {
+  return `from-${getHoursAndMinutes(inputDate)}`
+}
 
-const getTo = inputDate => {
-  return `to-${getHoursAndMinutes(inputDate)}`;
-};
+const getTo = (inputDate) => {
+  return `to-${getHoursAndMinutes(inputDate)}`
+}
 
 const ScheduleSlot = ({
   id,
@@ -30,8 +30,8 @@ const ScheduleSlot = ({
   hideDetails,
   hideTime
 }) => {
-  const fromClass = getFrom(startTime);
-  const toClass = getTo(endTime);
+  const fromClass = getFrom(startTime)
+  const toClass = getTo(endTime)
   return (
     <div className={classNames(styles.slot, fromClass, toClass)}>
       <div className={styles["slot-bg-1"]}></div>
@@ -70,7 +70,7 @@ const ScheduleSlot = ({
           )}
           {hideDetails === false && (
             <li className={styles["slot-link"]}>
-              <Link to={"/schedule/" + id}>
+              <Link href={"/schedule/" + id}>
                 <span className={styles["slot-info-title"]}>
                   <i className="fas fa-external-link-alt"></i>
                 </span>
@@ -83,8 +83,8 @@ const ScheduleSlot = ({
         </ul>
       </div>
     </div>
-  );
-};
+  )
+}
 
 ScheduleSlot.propTypes = {
   id: propTypes.number.isRequired,
@@ -95,6 +95,6 @@ ScheduleSlot.propTypes = {
   location: propTypes.string.isRequired,
   hideDetails: propTypes.bool.isRequired,
   hideTime: propTypes.bool.isRequired
-};
+}
 
-export default ScheduleSlot;
+export default ScheduleSlot

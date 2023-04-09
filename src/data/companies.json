@@ -6,7 +6,7 @@
     "websiteUrl": "https://www.gtk.fi/",
     "description": {
       "fi": "“Geologian tutkimuskeskuksessa teemme työtä maamme hyväksi. Tuotamme puolueetonta tutkimustietoa, josta on apua esimerkiksi ilmastonmuutoksen, energiamurroksen ja kiertotalouden haasteiden ratkaisemisessa. Yli 400 asiantuntijaamme ovat erikoistuneet mineraalitalouteen, energia-, vesi- ja ympäristökysymyksiin sekä digitaalisiin ratkaisuihin. Yhdessä suomalaisten ja kansainvälisten kumppaneidemme kanssa rakennamme kestävää, hiilineutraalia tulevaisuutta. GTK on työ- ja elinkeinoministeriön alainen tutkimuslaitos. www.gtk.fi\n",
-      "en-US": "“At GTK, we aim to work for the Earth and for Us. We conduct objective research to find solutions to challenges posed by climate change, the energy transition, and the circular economy. Our 400 experts are specialists in the mineral economy, green energy, water management, the environment, and digital solutions. Together with our Finnish and global partners, we are building sustainable and carbon-neutral future. GTK is a research organization governed by the Finnish Ministry of Employment and the Economy. www.gtk.fi/en\n"
+      "en-US": "“At GTK, we aim to work for the Earth and for Us. We conduct objective research to find solutions to challenges posed by climate change, the energy transition, and the circular economy. Our 400 experts are specialists in the mineral economy, green energy, water management, the environment, and digital solutions. Together with our Finnish and global partners, we are building sustainable and carbon-neutral future. GTK is a research organization governed by the Finnish Ministry of Employment and the Economy. www.gtk.fi/en-US\n"
     },
     "booth": "A18"
   },
@@ -159,10 +159,8 @@
     "imgSrc": "companies/tietoevry.webp",
     "websiteUrl": "https://www.tietoevry.com/",
     "description": {
-      "fi": "Tietoevry tukee yhteiskunnan kehitystä vastuullisen teknologian avulla. Olemme johtava teknologiayritys, jolla on pitkä historia Pohjoismaissa sekä globaalit kyvykkyydet. Arvojemme - avoimuus, luottamus ja monimuotoisuus - ohjaamana rakennamme asiakkaidemme kanssa digitaalista tulevaisuutta, jossa yritykset, yhteiskunnat ja ihmiskunta menestyvät.\n\n24 000 pilviteknologiaan, dataan ja ohjelmistoihin erikoistunutta asiantuntijaamme ympäri maailmaa palvelevat tuhansia yksityisen ja julkisen sektorin asiakkaita yli 90 maassa. Tietoevryn vuotuinen liikevaihto on noin 3 miljardia euroa ja yhtiön osakkeet on listattu NASDAQissa Helsingissä ja Tukholmassa sekä Oso Børsissä."
-      ,
+      "fi": "Tietoevry tukee yhteiskunnan kehitystä vastuullisen teknologian avulla. Olemme johtava teknologiayritys, jolla on pitkä historia Pohjoismaissa sekä globaalit kyvykkyydet. Arvojemme - avoimuus, luottamus ja monimuotoisuus - ohjaamana rakennamme asiakkaidemme kanssa digitaalista tulevaisuutta, jossa yritykset, yhteiskunnat ja ihmiskunta menestyvät.\n\n24 000 pilviteknologiaan, dataan ja ohjelmistoihin erikoistunutta asiantuntijaamme ympäri maailmaa palvelevat tuhansia yksityisen ja julkisen sektorin asiakkaita yli 90 maassa. Tietoevryn vuotuinen liikevaihto on noin 3 miljardia euroa ja yhtiön osakkeet on listattu NASDAQissa Helsingissä ja Tukholmassa sekä Oso Børsissä.",
       "en-US": "Tietoevry creates purposeful technology that reinvents the world for good. We are a leading technology company with a strong Nordic heritage and global capabilities. Based on our core values of openness, trust and diversity, we work with our customers to develop digital futures where businesses, societies, and humanity thrive.\n\nOur 24,000 experts globally specialize in cloud, data, and software, serving thousands of enterprise and public-sector customers in more than 90 countries. Tietoevry’s annual turnover is approximately EUR 3 billion and the company’s shares are listed on the NASDAQ exchange in Helsinki and Stockholm, as well as on Oslo Børs."
-      
     },
     "booth": "A5"
   },
@@ -259,7 +257,7 @@
     "id": 24,
     "name": "Accenture",
     "imgSrc": "companies/accenture.PNG",
-    "websiteUrl": "https://www.accenture.com/fi-en",
+    "websiteUrl": "https://www.accenture.com/fi-en-US",
     "description": {
       "fi": "Accenture on maailmanlaajuisesti toimiva asiantuntijayritys, jonka vahvuuksia ovat digitaalisuus, pilvipalvelut sekä kyberturva. Toimialakohtaiset palvelumme kattavat strategisen muutoksen, konsultoinnin, teknologian, markkinoinnin ja asiakaskokemuksen sekä prosessiulkoistuksen. Asiakkaitamme tukee maailman laajin palvelukeskusten verkosto. Accenturen 710 000 ammattilaista palvelevat asiakkaita yli 120 maassa yhdistäen teknologian mahdollisuudet sekä ihmisten luovan osaamisen. Lue lisää avoimista paikoistamme osoitteesta accenture.com/careers. ",
       "en-US": "Accenture is a global professional services company with leading capabilities in digital, cloud and security. Combining unmatched experience and specialized skills across more than 40 industries, we offer Strategy and Consulting, Technology and Operations services and Accenture Song — all powered by the world’s largest network of Advanced Technology and Intelligent Operations centers. Our 710,000 people deliver on the promise of technology and human ingenuity every day, serving clients in more than 120 countries. We embrace the power of change to create value and shared success for our clients, people, shareholders, partners and communities. Read more about our open positions at www.accenture.com/careers. "
@@ -270,7 +268,7 @@
     "id": 25,
     "name": "Beneq",
     "imgSrc": "companies/Beneq.png",
-    "websiteUrl": "https://beneq.com/en/",
+    "websiteUrl": "https://beneq.com/en-US/",
     "description": {
       "fi": "The world’s first industrial production using atomic layer deposition (ALD), since 1984.\nHeadquarters and ALD fabrication in Espoo, Finland, with 40+ ALD systems for R&D and services. \nGlobal operations and services in Japan, Taiwan, China, USA, and EU. \nRapid growth of more than 50% in headcount and revenue, year-on-year. \n\nOur vision is to enable technological megatrends with engineered ALD solutions.\n\nOur mission is to support the success of our customers by delivering best-in-class, innovative and flexible ALD solutions.",
       "en-US": "The world’s first industrial production using atomic layer deposition (ALD), since 1984.\nHeadquarters and ALD fabrication in Espoo, Finland, with 40+ ALD systems for R&D and services. \nGlobal operations and services in Japan, Taiwan, China, USA, and EU. \nRapid growth of more than 50% in headcount and revenue, year-on-year. \n\nOur vision is to enable technological megatrends with engineered ALD solutions.\n\nOur mission is to support the success of our customers by delivering best-in-class, innovative and flexible ALD solutions."
@@ -325,7 +323,7 @@
     "id": 30,
     "name": "Perfektio",
     "imgSrc": "companies/perfektio-logo.png",
-    "websiteUrl": "https://perfektio.fi/en",
+    "websiteUrl": "https://perfektio.fi/en-US",
     "description": {
       "fi": "Perfektio on nuori ohjelmistoyritys, jossa kokoontuu yhteen todellinen pieni heimo asiantuntijoita ja digitaalisen maailman nikkareita, joilla on sydämenasiana tuoda maailmaan kauniita, käytettäviä ja kannattavia sovelluksia ja ratkaisuja. Perfektio on syntynyt rakkaudesta lajiin sekä ajatuksesta, että töihin meno ei saa ahdistaa. Meitä ajaa eteenpäin jatkuva uuden oppimisen into mukavassa ja motivoituneessa porukassa. Mukavuusalueiden ulkopuolella on hauskempaa luistella yhdessä!\n\nMeillä jokainen saa projekteissa kontolleen sopivissa määrin vastuuta ja vastapainoksi reilusti tekemisen vapautta, joka koskee niin työvälineitä kuin työympäristöäkin. Tiimeillämme ja työntekijöillämme on myös taipumus hitsautua yhteen, ja toimiston ulkopuolella monet meistä jaksavat katsella toistensa naamoja myös vapaa-ajalla omien kiinnostuksiensa mukaan.\n\nYrityskulttuurimme on yhä varsin dynaamista, muovautuvaa ja työntekijälähtöistä, ja voimme puhua rehellisesti itsemmenäköisyydestä. Muutoksista ja uudistuksista keskustellaan tasavertaisesti yhdessä koko yrityksen sisällä. Tasa-arvosta ja avarakatseisuudesta emme tingi.",
       "en-US": "Perfektio is a young and rising software company, a modern tribe of experts and tinkerers of the digital era. We strive to deliver beautiful, practical and valuable solutions into the world. Perfektio was born out of love for our profession and of mentality that going to work shouldn’t be distressing or feel like a chore. We are driven by continuous eagerness to learn new things in great and motivated company. It’s good to gather your party before venturing forth outside the comfort zone!\n\nAt Perfektio everyone gets an appropriate share of responsibility but also a great amount of freedom which includes the tools of your choice and working in an environment you like. Our teams and people are close-knit and we spend time together not just in the office but pastime too, according to the individual interests of everyone.\n\nOur organisational culture is dynamic, adaptive and worker-oriented, something that is truly an image of ourselves. Our size makes it possible that changes and reforms are possible to discuss equally and together with everyone in the company. Equality and open-mindedness are cornerstones that we don’t compromise."
@@ -336,7 +334,7 @@
     "id": 31,
     "name": "City of Helsinki/ Urban Environment Division",
     "imgSrc": "companies/logo_helsinki.png",
-    "websiteUrl": "https://www.hel.fi/en/decision-making/city-organization/divisions/urban-environment-division",
+    "websiteUrl": "https://www.hel.fi/en-US/decision-making/city-organization/divisions/urban-environment-division",
     "description": {
       "fi": "Kaupunkiympäristön toimiala huolehtii Helsingin kaupunkiympäristön suunnittelusta, rakentamisesta ja ylläpidosta, rakennusvalvonnasta sekä ympäristöön liittyvistä palveluista.",
       "en-US": "The City of Helsinki Urban Environment Division is responsible for planning, construction and maintenance as well as building control and environmental services related to the Helsinki urban environment. "

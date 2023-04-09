@@ -1,17 +1,17 @@
-import React, { useState } from "react";
-import PropTypes from "prop-types";
+import React, { useState } from "react"
+import PropTypes from "prop-types"
 
-import styles from "./Accordion.module.scss";
-import classNames from "classnames";
+import styles from "./Accordion.module.scss"
+import classNames from "classnames"
 
 export const Accordion = (props) => {
-  const [isOpen, setOpen] = useState(false);
-  const otherProps = (isOpen || props.isRoot) ? { tabIndex: 0 } : {};
+  const [isOpen, setOpen] = useState(false)
+  const otherProps = isOpen || props.isRoot ? { tabIndex: 0 } : {}
   return (
     <div
       className={classNames(styles.accordion, {
         [styles.shadow]: !props.noShadow,
-        [styles.imageAccordion]: props.imageTitle,
+        [styles.imageAccordion]: props.imageTitle
       })}
       aria-expanded={isOpen}
       id={`accordion-${props.accordionId}`}
@@ -31,7 +31,7 @@ export const Accordion = (props) => {
       <div
         className={classNames(styles["accordion-content"], {
           [styles["is-open"]]: isOpen,
-          [styles["inner-shadow"]]: props.inner,
+          [styles["inner-shadow"]]: props.inner
         })}
       >
         <div className={styles.content} aria-hidden={!isOpen}>
@@ -39,8 +39,8 @@ export const Accordion = (props) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 Accordion.propTypes = {
   title: PropTypes.any.isRequired,
@@ -49,5 +49,5 @@ Accordion.propTypes = {
   noShadow: PropTypes.bool,
   isRoot: PropTypes.bool,
   inner: PropTypes.bool,
-  imageTitle: PropTypes.bool,
-};
+  imageTitle: PropTypes.bool
+}

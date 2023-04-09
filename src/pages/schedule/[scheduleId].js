@@ -1,34 +1,32 @@
-import React from "react";
-import { useSelector } from "react-redux";
-import { Language } from "../components/partials/Language";
-import { format } from "date-fns";
-import { Localized } from "@fluent/react";
-import { Link,useParams } from "react-router-dom";
+import React from "react"
+import { useSelector } from "react-redux"
+import { Language } from "../../components/partials/Language"
+import { format } from "date-fns"
+import useTranslation from "next-translate/useTranslation"
+import Link from "next/link"
+import { useRouter } from "next/router"
 
-import LanguageString from "../components/LanguageString";
+import LanguageString from "../../components/LanguageString"
 
 const SingleSchedulePage = () => {
-  const events = useSelector(state => state.schedule.events)
-  let params = useParams()
-  const [currentLocale] = useSelector(
-    state => state.localization.currentLocales
-  );
-  console.log(currentLocale)
-  const eventId = params.id
+  const events = useSelector((state) => state.schedule.events)
+  let router = useRouter()
+  const eventId = router.query.slug
+  currentLocale = router.locale
   if (!eventId) {
-    return <Localized id="event-not-found">Tapahtumaa ei löydy</Localized>;
+    return <Localized id="event-not-found">Tapahtumaa ei löydy</Localized>
   }
   if (events.length === 0) {
-    return <Localized id="empty-schedule">Aikataulu on tyhjä</Localized>;
+    return <Localized id="empty-schedule">Aikataulu on tyhjä</Localized>
   }
-  const event = events.find(evt => Number(evt.id) === Number(eventId));
+  const event = events.find((evt) => Number(evt.id) === Number(eventId))
   if (event === undefined) {
-    return <Localized id="event-not-found">Tapahtumaa ei löydy</Localized>;
+    return <Localized id="event-not-found">Tapahtumaa ei löydy</Localized>
   }
   return (
     <>
       <section className="app-section">
-        <Link to="/schedule">
+        <Link href="/schedule">
           <h3>
             <i className="fas fa-chevron-left"></i>&nbsp;&nbsp;
             <Localized id="back-to-schedule">Back to schedule</Localized>
@@ -40,9 +38,9 @@ const SingleSchedulePage = () => {
           <LanguageString languageObject={event.title} />
         </h1>
         <pre style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
-        <p>
-          <LanguageString languageObject={event.description} />
-        </p>
+          <p>
+            <LanguageString languageObject={event.description} />
+          </p>
         </pre>
       </section>
       <section className="app-section">
@@ -89,7 +87,7 @@ const SingleSchedulePage = () => {
                 <Localized id="event-speakers">Speakers</Localized>
                 {": "}
                 <ul className="event-speakers-container">
-                  {event.speakers.map(speaker => (
+                  {event.speakers.map((speaker) => (
                     <li key={speaker}>{speaker}</li>
                   ))}
                 </ul>
@@ -100,7 +98,11 @@ const SingleSchedulePage = () => {
       </section>
       {event.link !== "" && (
         <section className="app-section">
-          <a href={currentLocale === "en-US" ? event.link_en : event.link} target="_blank" rel="noopener noreferrer">
+          <a
+            href={currentLocale === "en-US" ? event.link_en : event.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fas fa-external-link-alt"></i>&nbsp;
             <Localized id="enrollment-link">
               Tämä ohjelmanumero vaatii ulkoisen ilmoittautumisen. Ilmoittaudu
@@ -122,7 +124,7 @@ const SingleSchedulePage = () => {
         </pre>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default SingleSchedulePage;
+export default SingleSchedulePage

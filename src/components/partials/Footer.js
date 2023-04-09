@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import styles from "./Footer.module.scss";
+import React from "react"
+import PropTypes from "prop-types"
+import styles from "./Footer.module.scss"
 
 const Footer = () => (
   <footer className={styles.footer}>
@@ -45,7 +45,7 @@ const Footer = () => (
       >
         <i className="fab fa-instagram"></i>
       </a>
-      <a
+      {/*<a
         href="https://t.me/potentiaali22"
         rel="noopener noreferrer"
         target="_blank"
@@ -54,7 +54,7 @@ const Footer = () => (
         aria-label="Join the official Telegram channel"
       >
         <i className="fab fa-telegram"></i>
-      </a>
+</a>*/}
       <a
         href="mailto:info@potentiaali.com"
         alt="Contact us via email"
@@ -65,10 +65,10 @@ const Footer = () => (
       </a>
     </div>
   </footer>
-);
+)
 
 Footer.propTypes = {
   logos: PropTypes.array
-};
+}
 
-export default Footer;
+export default Footer

@@ -1,19 +1,19 @@
-import React from "react";
-import style from "./MapPage.module.scss";
-import AreaBadge from "../components/partials/badges/AreaBadge";
-import BigBoothBadge from "../components/partials/badges/BigBoothBadge";
-import { Localized } from "@fluent/react";
-import ClassRoomBadge from "../components/partials/badges/ClassRoomBadge";
+import React from "react"
+import style from "./MapPage.module.scss"
+import AreaBadge from "../components/partials/badges/AreaBadge"
+import BigBoothBadge from "../components/partials/badges/BigBoothBadge"
+import useTranslation from "next-translate/useTranslation"
+import ClassRoomBadge from "../components/partials/badges/ClassRoomBadge"
 
 const MapPage = () => {
   const showFullScreen = () => {
-    const elem = document.getElementById("map");
+    const elem = document.getElementById("map")
     if (document.webkitFullscreenElement) {
-      document.webkitCancelFullScreen();
+      document.webkitCancelFullScreen()
     } else {
-      elem.requestFullscreen();
+      elem.requestFullscreen()
     }
-  };
+  }
   return (
     <>
       <div className={style.map}>
@@ -73,7 +73,7 @@ const MapPage = () => {
         />
       </div>
     </>
-  );
-};
+  )
+}
 
-export default MapPage;
+export default MapPage

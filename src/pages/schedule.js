@@ -1,16 +1,16 @@
-import React from "react";
-import { useSelector } from "react-redux";
-import ScheduleLabels from "../components/schedule/ScheduleLabels";
-import styles from "./SchedulePage.module.scss";
-import ScheduleSlot from "../components/schedule/ScheduleSlot";
+import React from "react"
+import { useSelector } from "react-redux"
+import ScheduleLabels from "../components/schedule/ScheduleLabels"
+import styles from "./SchedulePage.module.scss"
+import ScheduleSlot from "../components/schedule/ScheduleSlot"
 
 export const SchedulePage = () => {
-  const events = useSelector(state => state.schedule.events);
+  const events = useSelector((state) => state.schedule.events)
   return (
     <div className={styles.schedule}>
       <ScheduleLabels />
       <div className={styles["schedule-slots"]}>
-        {events.map(entry => (
+        {events.map((entry) => (
           <ScheduleSlot
             id={entry.id}
             key={entry.id}
@@ -25,7 +25,7 @@ export const SchedulePage = () => {
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default SchedulePage;
+export default SchedulePage

@@ -37,8 +37,7 @@
     "start": "next start",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "fix-js": "eslint --fix src/**/*.js",
-    "lint": "eslint  src/**/*.js",
+    "lint": "prettier --write 'src/**/*.js'",
     "deploy": "aws s3 sync build s3://potentiaali --profile matlu --cache-control max-age=300"
   },
   "devDependencies": {

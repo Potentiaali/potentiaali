@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import { Localized } from "@fluent/react";
-import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
-import { BoothBadge } from "../components/partials/badges/BoothBadge";
+import React, { useState } from "react"
+import useTranslation from "next-translate/useTranslation"
+import { useSelector } from "react-redux"
+import Link from "next/link"
+import { BoothBadge } from "../components/partials/badges/BoothBadge"
 
 const CompanyPage = () => {
-  const companies = useSelector((state) => state.company.companies);
-  const [inputText, setInputText] = useState("");
+  const companies = useSelector((state) => state.company.companies)
+  const [inputText, setInputText] = useState("")
   return (
     <>
       <section className="app-section">
@@ -29,11 +29,11 @@ const CompanyPage = () => {
               company.name.toLowerCase().includes(inputText.toLowerCase())
             )
             .map((company) => (
-              <Link to={"/company/" + company.id} key={company.id}>
+              <Link href={"/company/" + company.id} key={company.id}>
                 <div className="all-companies-list--company">
                   <BoothBadge name={company.booth} />{" "}
                   <span className="all-companies-list--company-name">
-                    {company.shorter ? company.shorter: company.name}
+                    {company.shorter ? company.shorter : company.name}
                   </span>
                 </div>
               </Link>
@@ -41,7 +41,7 @@ const CompanyPage = () => {
         </div>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default CompanyPage;
+export default CompanyPage

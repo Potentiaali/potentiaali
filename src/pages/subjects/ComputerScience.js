@@ -1,99 +1,47 @@
-import React from "react";
-import { Accordion } from "../../components/accordion/Accordion";
-import { Localized } from "@fluent/react";
+import React from "react"
+import { Accordion } from "../../components/accordion/Accordion"
+import useTranslation from "next-translate/useTranslation"
 
-export const ComputerScience = () => (
-  <Accordion
-    isRoot
-    accordionId={"compsci"}
-    title={
-      <Localized id="computer-science-title-text">
-        Tietojenkäsittelytiede
-      </Localized>
-    }
-  >
-    <h5>
-      <Localized id="subjects-introduction">Yleinen esittely</Localized>
-    </h5>
-    <Localized id="computer-science-introduction-text">
-      <p>
-        Tietojenkäsittelytieteen opinnot lähtevät ohjelmoinnin perusteista mutta
-        monipuolistuvat nopeasti. Mahdollisuuksia osaamisen syventämiseen löytyy
-        niin ohjelmistosuunnittelun, algoritmiikan, koneoppimisen, hajautettujen
-        järjestelmien, bioinformatiikan kuin big datankin saralla.
-      </p>
-    </Localized>
-    <Localized id="work-descriptions-text">
-      <h5>Tittelit</h5>
-    </Localized>
+export const ComputerScience = () => {
+  const { t } = useTranslation()
+  return (
     <Accordion
-      accordionId={"compsci-full-stack"}
-      title={
-        <Localized id="computer-science-full-stack-developer-title-text">
-          Full-stack Developer
-        </Localized>
-      }
-      noShadow
+      isRoot
+      accordionId={"compsci"}
+      title={t("computer-science-title-text")}
     >
-      <Localized id="computer-science-full-stack-developer-description-text">
-        Full-stack Developer on osastomme opiskelijoille tyypillinen titteli jo
-        opintojen aikana. Web-ohjelmoinnin salat aukeavat innokkaimille jo
-        ensimmäisen opiskeluvuoden aikana, joten opiskelijoillamme on usein
-        nuoremmalta ohjelmistokehittäjältä odotettavat taidot hallussa jo hyvin
-        aikaisessa vaiheessa.
-      </Localized>
+      <h5>{t("subjects-introduction")}</h5>
+
+      <p>{t("computer-science-introduction-text")}</p>
+      <h5>{t("work-descriptions-text")}</h5>
+      <Accordion
+        accordionId={"compsci-full-stack"}
+        title={t("computer-science-full-stack-developer-title-text")}
+        noShadow
+      >
+        {t("computer-science-full-stack-developer-description-text")}
+      </Accordion>
+      <Accordion
+        accordionId={"compsci-data-scientist"}
+        title={t("computer-science-data-sciencist-title-text")}
+        noShadow
+      >
+        {t("computer-science-data-sciencist-description-text")}
+      </Accordion>
+      <Accordion
+        accordionId={"compsci-science-security"}
+        title={t("computer-science-security-networking-expert-title-text")}
+        noShadow
+      >
+        {t("computer-science-security-networking-expert-description-text")}
+      </Accordion>
+      <Accordion
+        accordionId={"compsci-software-architect"}
+        title={t("computer-science-software-architect-title-text")}
+        noShadow
+      >
+        {t("computer-science-software-architect-description-text")}
+      </Accordion>
     </Accordion>
-    <Accordion
-      accordionId={"compsci-data-scientist"}
-      title={
-        <Localized id="computer-science-data-sciencist-title-text">
-          Data Sciencist
-        </Localized>
-      }
-      noShadow
-    >
-      <Localized id="computer-science-data-sciencist-description-text">
-        Algoritmeihin ja koneoppimiseen keskittyvät opiskelijat voivat muun
-        muassa päätyä etsimään arvokkaita syy-seuraussuhteita isojen yritysten
-        suurista datamassoista tai kehittämään verkkopalveluiden
-        suosittelujärjestelmiä. Löydät joukostamme paljon maisterivaiheen
-        loppusuoralla olevia koneoppimisen asiantuntijoita, mutta monet jatkavat
-        opintojaan vielä tohtorin tutkintoon asti.
-      </Localized>
-    </Accordion>
-    <Accordion
-      accordionId={"compsci-science-security"}
-      title={
-        <Localized id="computer-science-security-networking-expert-title-text">
-          Tietoturva- ja tietoverkkoasiantuntija
-        </Localized>
-      }
-      noShadow
-    >
-      <Localized id="computer-science-security-networking-expert-description-text">
-        Networking and services -erikoistumislinjan opiskelijat perehtyvät
-        kursseilla esimerkiksi ohjelmistojen ja tietoliikenteen turvallisuuteen
-        sekä hajautettuihin järjestelmiin sekä pilvilaskenta-arkkitehtuureihin.
-        Linjalta valmistuneet voivat työskennellä esimerkiksi tittelillä Cloud
-        infrastructure architect tai Cyber Security Engineer.
-      </Localized>
-    </Accordion>
-    <Accordion
-      accordionId={"compsci-software-architect"}
-      title={
-        <Localized id="computer-science-software-architect-title-text">
-          Ohjelmistoarkkitehti
-        </Localized>
-      }
-      noShadow
-    >
-      <Localized id="computer-science-software-architect-description-text">
-        Ohjelmistojärjestelmien linjalla opiskellaan muun muassa
-        ohjelmistoarkkitehtuureja, ohjelmointitekniikkoita, testausta sekä
-        ohjelmistoprojektien johtamista. Nämä taidot tekevät linjan
-        opiskelijoista erinomaisia, laajoja kokonaisuuksia hallitsevia
-        ohjelmistoarkkitehtejä.
-      </Localized>
-    </Accordion>
-  </Accordion>
-);
+  )
+}

@@ -1,4 +1,4 @@
-import { colors } from "../colors/colors";
+import { colors } from "../colors/colors"
 
 export const defaultStyles = {
   title1: {
@@ -21,4 +21,4 @@ export const defaultStyles = {
     fontFamily: "Lato",
     color: colors.black
   }
-};
+}

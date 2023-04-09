@@ -1,8 +1,8 @@
-import React from "react";
-import styles from "./AreaBadge.module.scss";
-import PropTypes from "prop-types";
-import className from "classnames";
-import { Localized } from "@fluent/react";
+import React from "react"
+import styles from "./AreaBadge.module.scss"
+import PropTypes from "prop-types"
+import className from "classnames"
+import useTranslation from "next-translate/useTranslation"
 
 const AreaBadge = ({ area }) => (
   <div
@@ -17,10 +17,10 @@ const AreaBadge = ({ area }) => (
   >
     <Localized id="area">Alue</Localized> {area}
   </div>
-);
+)
 
 AreaBadge.propTypes = {
   area: PropTypes.string.isRequired
-};
+}
 
-export default AreaBadge;
+export default AreaBadge

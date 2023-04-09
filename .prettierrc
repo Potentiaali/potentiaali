@@ -4,8 +4,6 @@
     "endOfLine": "lf",
     "htmlWhitespaceSensitivity": "css",
     "insertPragma": false,
-    "singleAttributePerLine": false,
-    "bracketSameLine": false,
     "jsxBracketSameLine": false,
     "jsxSingleQuote": false,
     "printWidth": 80,
@@ -15,9 +13,9 @@
     "semi": false,
     "singleQuote": false,
     "tabWidth": 2,
-    "trailingComma": "es5",
+    "trailingComma": "none",
     "useTabs": false,
     "vueIndentScriptAndStyle": false,
-    "filepath": "/home/pegi/projekti/potentiaali/src/pages/subjects/Statistics.js",
+    "filepath": "/home/pegi/projekti/potentiaali/",
     "parser": "babel"
   }

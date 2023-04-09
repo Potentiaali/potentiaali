@@ -1,18 +1,24 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { NavLink } from "react-router-dom";
-import { connect } from "react-redux";
-import { setLanguage, changeLocales } from "../../reducers/LocalizationReducer";
-import { Localized } from "@fluent/react";
-import styles from "./Nav.module.scss";
-import classNames from "classnames";
-//import { useLocalization } from "@fluent/react";
+import React from "react"
+import PropTypes from "prop-types"
+import Link from "next/link"
+import useTranslation from "next-translate/useTranslation"
+import setLanguage from "next-translate/setLanguage"
+import styles from "./Nav.module.scss"
+import classNames from "classnames"
+import { useRouter } from "next/router"
 
-const Nav = ({ currentLocales, isFetching, changeLocales }) => {
-  const [current] = currentLocales;
-  //const { l10n } = useLocalization();
-  const available = ["en-US", "fi"];
-  const next = available[(available.indexOf(current) + 1) % available.length];
+const Nav = () => {
+  const router = useRouter()
+  const { t, i18n } = useTranslation()
+  const current = router.locale
+  const available = ["en-US", "fi"]
+  const next = available[(available.indexOf(current) + 1) % available.length]
+
+  const changeLanguageHandler = () => {
+    console.log(next)
+    setLanguage(next)
+  }
+
   const menu = [
     {
       id: "frontPage",
@@ -23,9 +29,9 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
       icon: "fa-home",
       ariaLabel: {
         fi: "Etusivu",
-        "en-US": "Frontpage",
-      },
-    },
+        "en-US": "Frontpage"
+      }
+    } /*
     {
       id: "companyPage",
       name: "Yritykset",
@@ -38,7 +44,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
         "en-US": "Companies",
       },
     },
-    /*{
+    {
       id: "companyRegistrationPage",
       name: "Yritysilmoittautuminen",
       linkName: "registration",
@@ -49,7 +55,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
         fi: "Yritys ilmoittautuminen",
         "en-US": "Company registration",
       },
-    },*/
+    },
     {
       id: "schedulePage",
       name: "Aikataulu",
@@ -73,7 +79,7 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
         fi: "Kartta",
         "en-US": "Map",
       },
-    },
+    },*/,
     {
       id: "fieldsOfStudiesPage",
       name: "Aineiden esittely",
@@ -83,10 +89,10 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
       icon: "fa-dna",
       ariaLabel: {
         fi: "Aineiden esittely",
-        "en-US": "Subjects",
-      },
-    },
-  ];
+        "en-US": "Subjects"
+      }
+    }
+  ]
   return (
     <>
       <input
@@ -125,22 +131,24 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
               (menuItem) =>
                 !menuItem.disabled && (
                   <li key={menuItem.id}>
-                    <NavLink
+                    <Link
                       tabIndex={0}
                       exact="true"
-                      to={menuItem.link}
+                      href={menuItem.link}
                       key={menuItem.linkName}
                       activeclassname="active-link"
                       className={styles["nav-link"]}
                       aria-label={menuItem.ariaLabel[current]}
                     >
-                      {menuItem.icon !== undefined && (
-                        <i className={classNames("fas", menuItem.icon)}>
-                          &nbsp;&nbsp;
-                        </i>
-                      )}
-                      <Localized id={menuItem.id}>{menuItem.name}</Localized>
-                    </NavLink>
+                      <p>
+                        {menuItem.icon !== undefined && (
+                          <i className={classNames("fas", menuItem.icon)}>
+                            &nbsp;&nbsp;
+                          </i>
+                        )}
+                        {t(menuItem.id)}
+                      </p>
+                    </Link>
                   </li>
                 )
             )}
@@ -150,41 +158,24 @@ const Nav = ({ currentLocales, isFetching, changeLocales }) => {
                 styles["nav-link"],
                 styles["localization-button"]
               )}
-              onClick={() => changeLocales([next])}
-              disabled={isFetching}
+              onClick={() => changeLanguageHandler()}
               aria-label={`Change page language to ${next}`}
             >
               <i className="fas fa-globe">&nbsp;&nbsp;</i>
-              <span id="changeLocaleButton">
-                {next}
-              </span>
+              <span id="changeLocaleButton">{next}</span>
             </button>
           </li>
         </ul>
       </nav>
     </>
-  );
-};
+  )
+}
 
 Nav.propTypes = {
   intl: PropTypes.any,
   lang: PropTypes.string,
   setLanguage: PropTypes.func,
-  currentLocales: PropTypes.array,
   isFetching: PropTypes.bool,
-  changeLocales: PropTypes.func,
-};
-
-const mapStateToProps = (state) => {
-  return {
-    currentLocales: state.localization.currentLocales,
-    isFetching: state.localization.isFetching,
-  };
-};
-
-const mapDispatchToProps = {
-  setLanguage,
-  changeLocales,
-};
-
-export default connect(mapStateToProps, mapDispatchToProps)(Nav);
+  changeLocales: PropTypes.func
+}
+export default Nav

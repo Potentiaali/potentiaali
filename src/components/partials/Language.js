@@ -1,30 +1,26 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Localized } from "@fluent/react";
+import React from "react"
+import PropTypes from "prop-types"
+import useTranslation from "next-translate/useTranslation"
 
 export const Language = ({ lang }) => {
+  const { t } = useTranslation()
+
   switch (lang) {
     case "fi":
-      return <Localized id="finnish-language-text">Suomi</Localized>;
-    case "en":
-      return (
-        <Localized id="english-language-text">Englanti</Localized>
-      );
+      return <span>{t("finnish-language-text")}</span>
+    case "en-US":
+      return <span>{t("english-language-text")}</span>
 
-    case "fi/en":
-      return (
-        <Localized id="english-finnish-language-text">Suomi / Englanti</Localized>
-      );
+    case "fi/en-US":
+      return <span>{t("english-finnish-language-text")}</span>
 
-    case "en/fi":
-      return (
-        <Localized id="english-finnish-language-text">Suomi / Englanti</Localized>
-      );
+    case "en-US/fi":
+      return <span>{t("english-finnish-language-text")}</span>
     default:
-      return <span />;
+      return <span />
   }
-};
+}
 
 Language.propTypes = {
   lang: PropTypes.string.isRequired
-};
+}
