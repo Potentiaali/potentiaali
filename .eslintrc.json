@@ -9,6 +9,6 @@
     "ecmaVersion": 13,
     "sourceType": "module"
   },
-  "plugins": ["html","prettier"],
+  "plugins": ["html", "prettier"],
   "parser": "@babel/eslint-parser"
 }

@@ -6,7 +6,7 @@ import SpeedRekry from "../components/partials/SpeedRekry"
 import config from "../data/config.json"
 import useTranslation from "next-translate/useTranslation"
 import Notification from "../components/partials/Notification"
-
+import Hero from "../components/partials/Hero"
 const MainPage = () => {
   const { t } = useTranslation()
 
@@ -14,6 +14,7 @@ const MainPage = () => {
     <>
       <Logo />
       <section className="app-section">
+        <Hero />
         <Notification
           type="success"
           title={<h2>{t("event-notification-title")}</h2>}

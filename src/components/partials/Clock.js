@@ -35,17 +35,29 @@ const Clock = ({ eventDate }) => {
 
   const [seconds, hours, minutes, days] = timeUntil
 
+  const style = {
+    margin: "0.5em"
+  }
+
   return (
-    <p className={styles.clock}>
-      {days}
-      <p>{t("days-text", days)}</p>
-      {hours}
-      <p>{t("hours-text", hours)}</p>
-      {minutes}
-      <p>{t("minutes-text", minutes)}</p>
-      {seconds}
-      <p>{t("seconds-text", seconds)}</p>
-    </p>
+    <div className={styles.clock}>
+      <div style={style}>
+        <p>{days}</p>
+        <p>{t("days-text", { count: days })}</p>
+      </div>
+      <div style={style}>
+        <p>{hours}</p>
+        <p>{t("hours-text", { count: hours })}</p>
+      </div>
+      <div style={style}>
+        <p>{minutes}</p>
+        <p>{t("minutes-text", { count: minutes })}</p>
+      </div>
+      <div style={style}>
+        <p>{seconds}</p>
+        <p>{t("seconds-text", { count: seconds })}</p>
+      </div>
+    </div>
   )
 }
 

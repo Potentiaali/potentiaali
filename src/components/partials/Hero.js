@@ -29,22 +29,23 @@ export const Hero = () => {
             alt="Kumpulan Potentiaali"
           />
         </h1>
-        <p className={styles["hero-paragraph"]}>
+        <div className={styles["hero-paragraph"]}>
           <p>{t("heroDescription")}</p>
           <b>
-            {config.eventDate}{" "}
-            {/*<p>{t("heroTimePrefix")}</p>{" "}
+            {config.eventDate}
+            {/*{t("heroTimePrefix")}
             {config.eventTime}*/}
           </b>
-          <br />
-          {reviews.map((review) => (
+
+          {/*<br />*/}
+          {/*reviews.map((review) => (
             <span key={review.id}>
               <br />
               <p>{t(review.id)}</p>
               <br />
             </span>
-          ))}
-        </p>
+          ))*/}
+        </div>
         <Clock eventDate={config.eventDate} />
       </div>
       <div className="languages" />
