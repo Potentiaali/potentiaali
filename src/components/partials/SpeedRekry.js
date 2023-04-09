@@ -1,24 +1,21 @@
-import React, { useEffect } from "react";
-import { fetchSpeedRekry } from "./../../reducers/SpeedRekryReducer";
-import { connect } from "react-redux";
-import PropTypes from "prop-types";
-import styles from "./SpeedRekry.module.scss";
-import { Localized } from "@fluent/react";
-import { SpeedRekryItem } from "./SpeedRekryItem";
-import { Textfit } from "@aw-web-design/react-textfit";
+import React, { useEffect } from "react"
+import { fetchSpeedRekry } from "./../../reducers/SpeedRekryReducer"
+import { connect } from "react-redux"
+import PropTypes from "prop-types"
+import styles from "./SpeedRekry.module.scss"
+import useTranslation from "next-translate/useTranslation"
+import { SpeedRekryItem } from "./SpeedRekryItem"
+import { Textfit } from "@aw-web-design/react-textfit"
 
 export const SpeedRekry = ({ ilmot, fetchSpeedRekry }) => {
   useEffect(() => {
-    fetchSpeedRekry();
-  }, [fetchSpeedRekry]);
+    fetchSpeedRekry()
+  }, [fetchSpeedRekry])
+  const { t } = useTranslation()
   return (
     <>
       <Textfit mode="single" max={20}>
-        <h1>
-          <Localized id="register-to-speed-rekry">
-            Ilmoittaudu Speed rekryyn
-          </Localized>
-        </h1>
+        <h1>{t("register-to-speed-rekry")}</h1>
       </Textfit>
       <div className={styles.speedRekryGrid}>
         {ilmot &&
@@ -34,26 +31,23 @@ export const SpeedRekry = ({ ilmot, fetchSpeedRekry }) => {
           ))}
       </div>
     </>
-  );
-};
+  )
+}
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
     ilmot: state.speedRekry.SpeedRekryItems
-  };
-};
+  }
+}
 
 const mapDispatchToProps = {
   fetchSpeedRekry
-};
+}
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(SpeedRekry);
+export default connect(mapStateToProps, mapDispatchToProps)(SpeedRekry)
 
 SpeedRekry.propTypes = {
   ilmot: PropTypes.array,
   open: PropTypes.bool.isRequired,
   fetchSpeedRekry: PropTypes.func
-};
+}

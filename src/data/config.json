@@ -1,15 +1,15 @@
 {
-  "eventDate": "8.12.2022",
-  "eventTime": "11-17",
+  "eventDate": "23.11.2023",
+  "eventTime": "",
   "defaultLocale": "en",
   "speedRekryOpen": false,
-  "showProgramView": true,
+  "showProgramView": false,
   "showRegistrationInfo": false,
-  "showCompanies": true,
+  "showCompanies": false,
   "showSpeedRekry": false,
-  "companyRegistrationStarts": "Mon Aug 22 2022 12:00:00 GMT+0200",
+  "companyRegistrationStarts": "Mon Aug 22 2023 12:00:00 GMT+0200",
   "companyRegistrationLink": "https://forms.gle/61davi2mo5mocF5h7",
-  "companyRegistrationStartDate": "22.8.2022",
+  "companyRegistrationStartDate": "22.8.2023",
   "companyRegistrationStartTime": "12:00",
   "speedRekryApi": ""
 }

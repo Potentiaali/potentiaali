@@ -1,36 +1,35 @@
-import React from "react";
-import { useSelector } from "react-redux";
-import { Localized } from "@fluent/react";
-import { Link,useParams,useNavigate } from "react-router-dom";
-import LanguageString from "../components/LanguageString";
-import { BoothBadge } from "../components/partials/badges/BoothBadge";
+import React from "react"
+import { useSelector } from "react-redux"
+import useTranslation from "next-translate/useTranslation"
+import Link from "next/link"
+import { useRouter } from "next/router"
+import LanguageString from "../../components/LanguageString"
+import { BoothBadge } from "../../components/partials/badges/BoothBadge"
 
 const SingleCompanyPage = () => {
-  const companies = useSelector(state => state.company.companies);
-  let navigate = useNavigate();
-  let params = useParams();
-  const companyId = params.id
+  const companies = useSelector((state) => state.company.companies)
+  let router = useRouter()
+  const { t } = useTranslation()
+  const companyId = router.query.slug
   if (!companyId) {
-    return <Localized id="company-not-found">Yritystä ei löydy</Localized>;
+    return <span> {t("company-not-found")}</span>
   }
   if (companies.length === 0) {
-    return (
-      <Localized id="empty-schedule">Ei yrityksiä järjestelmässä</Localized>
-    );
+    return <span> {t("empty-schedule")}</span>
   }
   const company = companies.find(
-    cmpny => Number(cmpny.id) === Number(companyId)
-  );
+    (cmpny) => Number(cmpny.id) === Number(companyId)
+  )
   if (company === undefined) {
-    return <Localized id="company-not-found">Yritystä ei löydy</Localized>;
+    return <span> {t("company-not-found")}</span>
   }
   return (
     <>
       <section className="app-section">
-        <Link to="" onClick={() => navigate(-1)}>
+        <Link href="" onClick={() => router.back()}>
           <h3>
             <i className="fas fa-chevron-left"></i>&nbsp;&nbsp;
-            <Localized id="go-back">Go back</Localized>
+            <span> {t("go-back")}</span>
           </h3>
         </Link>
       </section>
@@ -66,16 +65,14 @@ const SingleCompanyPage = () => {
         </pre>
       </section>
       <section className="app-section">
-        <Link to="/companies">
+        <Link href="/companies">
           <h3>
-            <Localized id="go-to-company-listing">
-              Go to companies attending Kumpula&apos;s Potential 2022
-            </Localized>
+            <span> {t("go-to-company-listing")}</span>
           </h3>
         </Link>
       </section>
     </>
-  );
-};
+  )
+}
 
 export default SingleCompanyPage

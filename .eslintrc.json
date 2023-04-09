@@ -1,30 +1,14 @@
 {
   "env": {
     "browser": true,
-    "commonjs": true,
-    "es6": true,
-    "node": true,
-    "jest": true
+    "es2022": true,
+    "node": true
   },
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "extends": ["plugin:prettier/recommended"],
   "parserOptions": {
-    "requireConfigFile": false,
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "babelOptions": {
-      "presets": ["@babel/preset-react"]
-   },
-    "ecmaVersion": 2022,
+    "ecmaVersion": 13,
     "sourceType": "module"
   },
-  "parser": "@babel/eslint-parser",
-  "settings": {
-    "react": {
-      "createClass": "createReactClass",
-      "pragma": "React",
-      "version": "17.0.2"
-    },
-    "propWrapperFunctions": ["forbidExtraProps"]
-  }
+  "plugins": ["html", "prettier"],
+  "parser": "@babel/eslint-parser"
 }

@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./ScheduleLabels.module.scss";
+import React from "react"
+import styles from "./ScheduleLabels.module.scss"
 
 const ScheduleLabels = () => (
   <div className={styles["schedule-labels"]}>
@@ -59,6 +59,6 @@ const ScheduleLabels = () => (
     <div></div>
     <div className={styles["main-label"]}>23:30</div>
   </div>
-);
+)
 
-export default ScheduleLabels;
+export default ScheduleLabels

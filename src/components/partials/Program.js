@@ -1,138 +1,72 @@
-import React from "react";
-import styles from "./Program.module.scss";
-import { Accordion } from "../accordion/Accordion";
-import { Localized } from "@fluent/react";
+import React from "react"
+import styles from "./Program.module.scss"
+import { Accordion } from "../accordion/Accordion"
+import useTranslation from "next-translate/useTranslation"
+import Image from "next/image"
 export const Program = () => {
+  const { t } = useTranslation()
   return (
     <div>
-      <Localized id="click-picture-for-instructions">
-        <h4>Paina kuvia saadaksesi lisätietoa ohjelmasta!</h4>
-      </Localized>
+      <h4>{t("click-picture-for-instructions")}</h4>
       <br />
       <div className={styles.program}>
         <Accordion
           imageTitle={true}
-          title={<img src="rekry_speed_dating.png" alt="Speed dates" />}
+          title={<Image src="rekry_speed_dating.png" alt="Speed dates" />}
           accordionId={"speed-dates"}
         >
           {/*}
           <Textfit mode="single" max={20}>
-            <Localized id="rekry-speed-dating-title-text">
-              <h2>Rekry Speed Dating</h2>
-            </Localized>
+             <span>{t("rekry-speed-dating-title-text")}</span>
           </Textfit>
   */}
-          <Localized id="rekry-speed-dating-info-1">
-            <p>
-              Rekry Speed Datingissa tapaat pikadeittailun tapaan mahdollisten
-              kumppaneiden sijasta mahdollisia työnantajia. Opiskelijana
-              ilmoittaudut yhteen (tai useampaan) ryhmään, jossa on 4-5 eri
-              työnantajaa, ja tapaat jokaisen heistä puolen tunnin pikaisen
-              session aikana. Ennen sessiota lähetät CV:n itsestäsi yrityksille
-              etukäteen tutustuttavaksi.
-            </p>
-          </Localized>{/*
+          <p>{t("rekry-speed-dating-info-1")}</p>
+          {/*
           <br />
-          <Localized id="rekry-speed-dating-info-2">
-            <p>
-              Tänä vuonna yritykset saattavat antaa osallistujille
-              jatkoaika-kutsuja, jotka ovat klo 19-21 aikana Physicumissa
-              jatkojen aikana. Siten siis jokainen Rekry Speed Dateen
-              osallistuva saa automaattisesti jatkorannakkeen halutessaan.
-            </p>
-          </Localized>
+            <p>{t("rekry-speed-dating-info-2")}</p>
           <br />
-          <Localized id="rekry-speed-dating-info-3">
-            <p>
-              Rekry Speed Dateihin on ennakkoilmoittautuminen.
-              Ennakkoilmoittautuminen on auki nyt ja sulkeutuu kun ryhmät
-              täyttyvät.
-            </p>
-          </Localized>*/}
+            <p>{t("rekry-speed-dating-info-3")}</p>*/}
         </Accordion>
         <Accordion
           imageTitle={true}
-          title={<img src="workshop.png" alt="Workshops" />}
+          title={<Image src="workshop.png" alt="Workshops" />}
           accordionId={"workshops"}
         >
-          <Localized id="workshop-info">
-            <p>
-              Workshopit ovat intensiivisiä tunnin pituisia työpajoja, joissa
-              opiskelija pääsee lähikontaktiin yritysten ja mentoreiden kanssa.
-              Workshopeihin ei pääsääntöisesti tarvitse ilmoittautua etukäteen*,
-              ja niille voi osallistua kuka vain. Osallistumispaikat täytetään
-              saapumisjärjestyksessä. Workshopiin kannattaa tuoda mukaan oma
-              läppäri. *Poikkeus: CoachCafe
-            </p>
-          </Localized>
+          <p>{t("workshop-info")}</p>
         </Accordion>
         <Accordion
           imageTitle={true}
-          title={<img src="keynote.png" alt="Keynotes" />}
+          title={<Image src="keynote.png" alt="Keynotes" />}
           accordionId={"keynotes"}
         >
-          <Localized id="keynote-info-text">
-            <p>
-              Yritysten puolen tunnin pituisia, nopeita ja innostavia katsauksia
-              kiinnostaviin ja polttaviin puheenaiheisiin. Aiheet ja ajat
-              löytyvät aikataulusta. Keynote-luennot ovat kaikille avoimia (myös
-              Kumpulan ulkopuolisille opiskelijoille).
-            </p>
-          </Localized>
+          <span>{t("keynote-info-text")}</span>
         </Accordion>
         <Accordion
           imageTitle={true}
-          title={<img src="cocktail.png" alt="Kokkarit" />}
+          title={<Image src="cocktail.png" alt="Kokkarit" />}
           accordionId={"cocktail"}
         >
-          <Localized id="cocktail-hour-info-text">
-            <p>
-            Ständien sulkeuduttua klo 17 niin opiskelijat kuin työnantajienkin edustajat pääsevät virkistäytymään 
-            Exactumin pohjakerroksessa pidettävässä cocktail-tilaisuudessa, jossa tarjolla on kuohuvaa ja pientä purtavaa.
-            </p>
-          </Localized>
+          <p>{t("cocktail-hour-info-text")}</p>
         </Accordion>
         <Accordion
           imageTitle={true}
-          title={<img src="panel.png" alt="Paneeli" />}
+          title={<Image src="panel.png" alt="Paneeli" />}
           accordionId={"panel"}
         >
-          <Localized id="panel-discussion-info-text-1">
-            <p>
-              Cocktail-tilaisuuden ja jatkojen välissä järjestetään kaikille
-              avoin paneelikeskustelu-tilaisuus, jonka houstaa Helsinki Think
-              Company. Aiheesta “Akateeminen osaaminen käytäntöön”
-              tulee puhumaan eri alojen asiantuntijoita sekä Kumpulan omia
-              opiskelijoita.
-            </p>
-          </Localized>
+          <p>{t("panel-discussion-info-text-1")}</p>
           <br />
-          <Localized id="panel-discussion-info-text-2">
-            <p>Tilaisuuden kieli on suomi.</p>
-          </Localized>
+          <p>{t("panel-discussion-info-text-2")}</p>
         </Accordion>
         <Accordion
           imageTitle={true}
-          title={<img src="after_party.png" alt="Jatkot" />}
+          title={<Image src="after_party.png" alt="Jatkot" />}
           accordionId={"afterparty"}
         >
-          <Localized id="afterparty-info-text-1">
-            <p>
-            Potentiaali huipentuu klo 19 Physicumissa alkaviin jatkoihin, joilla esiintyy Kalevauva.fi ja Kimbe.
-             Jano tai nälkä eivät myöskään pääse illalla yllättämään,
-              sillä jatkoilla on avoin baari (myös alkoholittomia vaihtoehtoja),
-               naposteltavaa sekä ruokarekka, joista jatkovieraat voivat ostaa syötävää.
-                Ensimmäiset 100 vierasta saavat 5€ alennuksen ruokarekan annoksista.
-                 Jatkoille pääsyyn vaaditaan ranneke, joita jaetaan Physicumin aulan infopisteessä.
-                  Kello 11 vapautuu jaettavaksi 100 ranneketta, klo 13 ja klo 15 kaikki jäljellä olevat rannekkeet.
-            </p>
-          </Localized>
+          <p>{t("afterparty-info-text-1")}</p>
           <br />
-          <Localized id="afterparty-info-text-2">
-            <p>Jatkojen ohjelma tarkentuu syksyllä!</p>
-          </Localized>
+          <p>{t("afterparty-info-text-2")}</p>
         </Accordion>
       </div>
     </div>
-  );
-};
+  )
+}

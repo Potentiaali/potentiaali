@@ -1,19 +1,16 @@
-import React from "react";
-import { Localized } from "@fluent/react";
+import React from "react"
+import useTranslation from "next-translate/useTranslation"
 
 const Contact = () => {
+  const { t } = useTranslation()
   return (
     <section className="darker two-columned">
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <Localized id="any-questions-title-text">
-              <h2>Kysyttävää?</h2>
-            </Localized>
+            <p>{t("any-questions-title-text")}</p>
             <p>
-              <Localized id="any-questions-description-text">
-                Tavoitat meidät sähköpostilla osoitteesta
-              </Localized>
+              <p>{t("any-questions-description-text")}</p>
               <br />
               <a href="mailto:info@potentiaali.com">info(at)potentiaali.com</a>
             </p>
@@ -21,7 +18,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact
