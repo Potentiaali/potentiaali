@@ -21,10 +21,12 @@ const MainPage = () => {
         >
           <p>{t("event-notification-body-1")} </p>
           <p>{t("event-notification-body-2")} </p>
-          <p>{t("event-notification-body-3")} </p>
-          <a href="mailto:info@potentiaali.com">
-            {t("event-notification-body-4")}{" "}
-          </a>
+          <p>
+            {t("event-notification-body-3")}{" "}
+            <a href="mailto:info@potentiaali.com">
+              {t("event-notification-body-4")}{" "}
+            </a>{" "}
+          </p>
         </Notification>
       </section>
       <div className="app-statistics">

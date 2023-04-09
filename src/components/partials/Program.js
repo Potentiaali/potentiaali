@@ -2,6 +2,7 @@ import React from "react"
 import styles from "./Program.module.scss"
 import { Accordion } from "../accordion/Accordion"
 import useTranslation from "next-translate/useTranslation"
+import Image from "next/image"
 export const Program = () => {
   const { t } = useTranslation()
   return (
@@ -11,7 +12,7 @@ export const Program = () => {
       <div className={styles.program}>
         <Accordion
           imageTitle={true}
-          title={<img src="rekry_speed_dating.png" alt="Speed dates" />}
+          title={<Image src="rekry_speed_dating.png" alt="Speed dates" />}
           accordionId={"speed-dates"}
         >
           {/*}
@@ -28,28 +29,28 @@ export const Program = () => {
         </Accordion>
         <Accordion
           imageTitle={true}
-          title={<img src="workshop.png" alt="Workshops" />}
+          title={<Image src="workshop.png" alt="Workshops" />}
           accordionId={"workshops"}
         >
           <p>{t("workshop-info")}</p>
         </Accordion>
         <Accordion
           imageTitle={true}
-          title={<img src="keynote.png" alt="Keynotes" />}
+          title={<Image src="keynote.png" alt="Keynotes" />}
           accordionId={"keynotes"}
         >
           <span>{t("keynote-info-text")}</span>
         </Accordion>
         <Accordion
           imageTitle={true}
-          title={<img src="cocktail.png" alt="Kokkarit" />}
+          title={<Image src="cocktail.png" alt="Kokkarit" />}
           accordionId={"cocktail"}
         >
           <p>{t("cocktail-hour-info-text")}</p>
         </Accordion>
         <Accordion
           imageTitle={true}
-          title={<img src="panel.png" alt="Paneeli" />}
+          title={<Image src="panel.png" alt="Paneeli" />}
           accordionId={"panel"}
         >
           <p>{t("panel-discussion-info-text-1")}</p>
@@ -58,7 +59,7 @@ export const Program = () => {
         </Accordion>
         <Accordion
           imageTitle={true}
-          title={<img src="after_party.png" alt="Jatkot" />}
+          title={<Image src="after_party.png" alt="Jatkot" />}
           accordionId={"afterparty"}
         >
           <p>{t("afterparty-info-text-1")}</p>

@@ -25,10 +25,9 @@ class MyDocument extends Document {
             name="google-site-verification"
             content="LTnT0hR54gkU6bmW_vf_TF6VhNvyGQv6MgAfL0iKThM"
           />
-          <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
           <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
           <link href="css/all.css" rel="stylesheet" />
-          <link rel="manifest" href="manifest.json" />
+          <link rel="manifest" href="/manifest.json" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="apple-mobile-web-app-capable" content="yes" />
           <meta name="application-name" content="Kumpulan potentiaali" />
