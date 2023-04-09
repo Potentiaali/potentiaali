@@ -17,6 +17,7 @@ speed-date/*
 .env.test.local
 .env.production.local
 .env
+.next
 
 npm-debug.log*
 yarn-debug.log*
