@@ -11,7 +11,7 @@ const Nav = () => {
   const router = useRouter()
   const { t, i18n } = useTranslation()
   const current = router.locale
-  const available = ["en-US", "fi"]
+  const available = ["en", "fi"]
   const next = available[(available.indexOf(current) + 1) % available.length]
 
   const changeLanguageHandler = () => {
@@ -29,7 +29,7 @@ const Nav = () => {
       icon: "fa-home",
       ariaLabel: {
         fi: "Etusivu",
-        "en-US": "Frontpage"
+        en: "Frontpage"
       }
     } /*
     {
@@ -41,7 +41,7 @@ const Nav = () => {
       icon: "fa-file-alt",
       ariaLabel: {
         fi: "Yrtiykset",
-        "en-US": "Companies",
+        "en": "Companies",
       },
     },
     {
@@ -53,7 +53,7 @@ const Nav = () => {
       icon: "fa-file-alt",
       ariaLabel: {
         fi: "Yritys ilmoittautuminen",
-        "en-US": "Company registration",
+        "en": "Company registration",
       },
     },
     {
@@ -65,7 +65,7 @@ const Nav = () => {
       icon: "fa-clock",
       ariaLabel: {
         fi: "Aikataulu",
-        "en-US": "Schedule",
+        "en": "Schedule",
       },
     },
     {
@@ -77,7 +77,7 @@ const Nav = () => {
       icon: "fa-map",
       ariaLabel: {
         fi: "Kartta",
-        "en-US": "Map",
+        "en": "Map",
       },
     },*/,
     {
@@ -89,7 +89,7 @@ const Nav = () => {
       icon: "fa-dna",
       ariaLabel: {
         fi: "Aineiden esittely",
-        "en-US": "Subjects"
+        en: "Subjects"
       }
     }
   ]

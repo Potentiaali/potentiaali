@@ -100,7 +100,7 @@ const SingleSchedulePage = () => {
       {event.link !== "" && (
         <section className="app-section">
           <a
-            href={currentLocale === "en-US" ? event.link_en : event.link}
+            href={currentLocale === "en" ? event.link_en : event.link}
             target="_blank"
             rel="noopener noreferrer"
           >

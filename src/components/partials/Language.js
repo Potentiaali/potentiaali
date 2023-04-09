@@ -8,13 +8,13 @@ export const Language = ({ lang }) => {
   switch (lang) {
     case "fi":
       return <span>{t("finnish-language-text")}</span>
-    case "en-US":
+    case "en":
       return <span>{t("english-language-text")}</span>
 
-    case "fi/en-US":
+    case "fi/en":
       return <span>{t("english-finnish-language-text")}</span>
 
-    case "en-US/fi":
+    case "en/fi":
       return <span>{t("english-finnish-language-text")}</span>
     default:
       return <span />
