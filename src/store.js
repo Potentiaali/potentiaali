@@ -4,7 +4,7 @@ import ScheduleReducer from "./reducers/ScheduleReducer"
 //import LocalizationReducer from "./reducers/LocalizationReducer";
 import SpeedRekryReducer from "./reducers/SpeedRekryReducer"
 import CompanyReducer from "./reducers/CompanyReducer"
-import { composeWithDevTools } from "redux-devtools-extension"
+import { composeWithDevTools } from "@redux-devtools/extension"
 
 const reducer = combineReducers({
   schedule: ScheduleReducer,
