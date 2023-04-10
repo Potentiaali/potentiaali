@@ -1,19 +1,18 @@
 import React from "react"
 import { useSelector } from "react-redux"
-import { Language } from "../../components/partials/Language"
+import { Language } from "../components/partials/Language"
 import { format } from "date-fns"
-import useTranslation from "next-translate/useTranslation"
-import Link from "next/link"
-import { useRouter } from "next/router"
+import { useTranslation } from "react-i18next"
+import { Link, useParams } from "react-router-dom"
 
-import LanguageString from "../../components/LanguageString"
+import LanguageString from "../components/LanguageString"
 
 const SingleSchedulePage = () => {
   const events = useSelector((state) => state.schedule.events)
-  let router = useRouter()
-  const { t } = useTranslation()
-  const eventId = router.query.slug
-  currentLocale = router.locale
+  const { t, i18n } = useTranslation()
+  let params = useParams()
+  currentLocale = i18n.language
+  let eventId = params.id
   if (!eventId) {
     return <span> {t("event-not-found")}</span>
   }
@@ -27,7 +26,7 @@ const SingleSchedulePage = () => {
   return (
     <>
       <section className="app-section">
-        <Link href="/schedule">
+        <Link to="/schedule">
           <h3>
             <i className="fas fa-chevron-left"></i>&nbsp;&nbsp;
             <span> {t("back-to-schedule")}</span>

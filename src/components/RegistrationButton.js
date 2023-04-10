@@ -2,7 +2,7 @@ import React from "react"
 import styles from "./RegistrationButton.module.scss"
 import config from "./../data/config.json"
 import classNames from "classnames"
-import useTranslation from "next-translate/useTranslation"
+import { useTranslation } from "react-i18next"
 
 /**
  * Returns the registration link.

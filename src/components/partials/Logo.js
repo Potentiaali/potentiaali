@@ -1,6 +1,6 @@
 import React from "react"
 import styles from "./Logo.module.scss"
-import useTranslation from "next-translate/useTranslation"
+import { useTranslation } from "react-i18next"
 import config from "../../data/config.json"
 
 const Logo = () => {

@@ -2,7 +2,7 @@ import React from "react"
 import style from "./Map.module.scss"
 import AreaBadge from "../components/partials/badges/AreaBadge"
 import BigBoothBadge from "../components/partials/badges/BigBoothBadge"
-import useTranslation from "next-translate/useTranslation"
+import { useTranslation } from "react-i18next"
 import ClassRoomBadge from "../components/partials/badges/ClassRoomBadge"
 
 const MapPage = () => {

@@ -1,5 +1,5 @@
 import React from "react"
-import useTranslation from "next-translate/useTranslation"
+import { useTranslation } from "react-i18next"
 import { RegistrationButton } from "../components/RegistrationButton"
 import config from "../data/config.json"
 import Logo from "../components/partials/Logo"

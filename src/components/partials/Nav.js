@@ -1,22 +1,19 @@
 import React from "react"
 import PropTypes from "prop-types"
-import Link from "next/link"
-import useTranslation from "next-translate/useTranslation"
-import setLanguage from "next-translate/setLanguage"
+import { NavLink } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 import styles from "./Nav.module.scss"
 import classNames from "classnames"
-import { useRouter } from "next/router"
 
 const Nav = () => {
-  const router = useRouter()
   const { t, i18n } = useTranslation()
-  const current = router.locale
+  const current = i18n.language
   const available = ["en", "fi"]
   const next = available[(available.indexOf(current) + 1) % available.length]
 
   const changeLanguageHandler = () => {
     console.log(next)
-    setLanguage(next)
+    i18n.changeLanguage(next)
   }
 
   const menu = [
@@ -131,10 +128,10 @@ const Nav = () => {
               (menuItem) =>
                 !menuItem.disabled && (
                   <li key={menuItem.id}>
-                    <Link
+                    <NavLink
                       tabIndex={0}
                       exact="true"
-                      href={menuItem.link}
+                      to={menuItem.link}
                       key={menuItem.linkName}
                       activeclassname="active-link"
                       className={styles["nav-link"]}
@@ -148,7 +145,7 @@ const Nav = () => {
                         )}
                         {t(menuItem.id)}
                       </p>
-                    </Link>
+                    </NavLink>
                   </li>
                 )
             )}

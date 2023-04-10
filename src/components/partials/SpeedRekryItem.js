@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import styles from "./SpeedRekryItem.module.scss"
-import useTranslation from "next-translate/useTranslation"
+import { useTranslation } from "react-i18next"
 import classNames from "classnames"
 
 export const SpeedRekryItem = ({ companies, full, link, open, id }) => {

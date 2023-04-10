@@ -3,10 +3,10 @@ import propTypes from "prop-types"
 import styles from "./ScheduleSlot.module.scss"
 import classNames from "classnames"
 import { format } from "date-fns"
-import Link from "next/link"
-import useTranslation from "next-translate/useTranslation"
+import { Link } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 import LanguageString from "../LanguageString"
-//import "./ScheduleGrid.scss"
+import "./ScheduleGrid.scss"
 
 const getHoursAndMinutes = (inputDate) => {
   return format(inputDate, "HHmm")
@@ -71,7 +71,7 @@ const ScheduleSlot = ({
           )}
           {hideDetails === false && (
             <li className={styles["slot-link"]}>
-              <Link href={"/schedule/" + id}>
+              <Link to={"/schedule/" + id}>
                 <span className={styles["slot-info-title"]}>
                   <i className="fas fa-external-link-alt"></i>
                 </span>

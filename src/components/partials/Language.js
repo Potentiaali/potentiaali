@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import useTranslation from "next-translate/useTranslation"
+import { useTranslation } from "react-i18next"
 
 export const Language = ({ lang }) => {
   const { t } = useTranslation()
