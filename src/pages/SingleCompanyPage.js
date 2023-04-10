@@ -1,16 +1,16 @@
 import React from "react"
 import { useSelector } from "react-redux"
-import useTranslation from "next-translate/useTranslation"
-import Link from "next/link"
-import { useRouter } from "next/router"
-import LanguageString from "../../components/LanguageString"
-import { BoothBadge } from "../../components/partials/badges/BoothBadge"
+import { useTranslation } from "react-i18next"
+import { Link, useParams } from "react-router-dom"
+import LanguageString from "../components/LanguageString"
+import { BoothBadge } from "../components/partials/badges/BoothBadge"
 
 const SingleCompanyPage = () => {
   const companies = useSelector((state) => state.company.companies)
-  let router = useRouter()
-  const { t } = useTranslation()
-  const companyId = router.query.slug
+  const { t, i18n } = useTranslation()
+  let params = useParams()
+  currentLocale = i18n.language
+  let eventId = params.id
   if (!companyId) {
     return <span> {t("company-not-found")}</span>
   }
@@ -26,7 +26,7 @@ const SingleCompanyPage = () => {
   return (
     <>
       <section className="app-section">
-        <Link href="" onClick={() => router.back()}>
+        <Link to="" onClick={() => router.back()}>
           <h3>
             <i className="fas fa-chevron-left"></i>&nbsp;&nbsp;
             <span> {t("go-back")}</span>
@@ -65,7 +65,7 @@ const SingleCompanyPage = () => {
         </pre>
       </section>
       <section className="app-section">
-        <Link href="/companies">
+        <Link to="/companies">
           <h3>
             <span> {t("go-to-company-listing")}</span>
           </h3>

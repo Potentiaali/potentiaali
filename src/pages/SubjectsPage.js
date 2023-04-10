@@ -9,7 +9,7 @@ import Statistics from "./subjects/Statistics"
 import Mathematics from "./subjects/Mathematics"
 import ComputerScience from "./subjects/ComputerScience"
 import Geology from "./subjects/Geology"
-import useTranslation from "next-translate/useTranslation"
+import { useTranslation } from "react-i18next"
 
 const SubjectsPage = () => {
   const { t } = useTranslation()

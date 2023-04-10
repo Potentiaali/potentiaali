@@ -2,7 +2,7 @@ import React from "react"
 import styles from "./AreaBadge.module.scss"
 import PropTypes from "prop-types"
 import className from "classnames"
-import useTranslation from "next-translate/useTranslation"
+import { useTranslation } from "react-i18next"
 
 const AreaBadge = ({ area }) => {
   const { t } = useTranslation()

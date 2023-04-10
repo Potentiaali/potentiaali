@@ -4,7 +4,7 @@ import styles from "./Clock.module.scss"
 import moment from "moment"
 import "moment/locale/fi"
 import "moment/locale/en-gb"
-import useTranslation from "next-translate/useTranslation"
+import { useTranslation } from "react-i18next"
 
 const Clock = ({ eventDate }) => {
   const [timeUntil, setUntil] = useState([0, 0, 0, 0])

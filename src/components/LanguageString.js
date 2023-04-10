@@ -1,12 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { useRouter } from "next/router"
 
 const defaultLocale = "en"
 
 const LanguageString = ({ languageObject }) => {
-  const router = useRouter()
-  const currentLocale = router.locale
+  const { i18n } = useTranslation()
+  currentLocale = i18n.language
+
   if (languageObject[currentLocale] === undefined) {
     return <>{languageObject[defaultLocale]}</>
   }

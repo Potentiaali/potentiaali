@@ -4,7 +4,7 @@ import Companies from "../components/partials/Companies"
 import { Program } from "../components/partials/Program"
 import SpeedRekry from "../components/partials/SpeedRekry"
 import config from "../data/config.json"
-import useTranslation from "next-translate/useTranslation"
+import { useTranslation } from "react-i18next"
 import Notification from "../components/partials/Notification"
 import Hero from "../components/partials/Hero"
 const MainPage = () => {

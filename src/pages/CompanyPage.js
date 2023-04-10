@@ -1,7 +1,7 @@
 import React, { useState } from "react"
-import useTranslation from "next-translate/useTranslation"
+import { useTranslation } from "react-i18next"
 import { useSelector } from "react-redux"
-import Link from "next/link"
+import { Link } from "react-router-dom"
 import { BoothBadge } from "../components/partials/badges/BoothBadge"
 
 const CompanyPage = () => {
@@ -28,7 +28,7 @@ const CompanyPage = () => {
               company.name.toLowerCase().includes(inputText.toLowerCase())
             )
             .map((company) => (
-              <Link href={"/company/" + company.id} key={company.id}>
+              <Link to={"/company/" + company.id} key={company.id}>
                 <div className="all-companies-list--company">
                   <BoothBadge name={company.booth} />{" "}
                   <span className="all-companies-list--company-name">

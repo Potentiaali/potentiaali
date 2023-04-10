@@ -3,7 +3,7 @@ import { fetchSpeedRekry } from "./../../reducers/SpeedRekryReducer"
 import { connect } from "react-redux"
 import PropTypes from "prop-types"
 import styles from "./SpeedRekry.module.scss"
-import useTranslation from "next-translate/useTranslation"
+import { useTranslation } from "react-i18next"
 import { SpeedRekryItem } from "./SpeedRekryItem"
 import { Textfit } from "@aw-web-design/react-textfit"
 

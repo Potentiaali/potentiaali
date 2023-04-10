@@ -1,8 +1,8 @@
 import React from "react"
 import companies from "../../data/companies.json"
 import style from "./Companies.module.scss"
-import Link from "next/link"
-import useTranslation from "next-translate/useTranslation"
+import { Link } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 
 const Companies = () => {
   const { t } = useTranslation()
@@ -10,7 +10,7 @@ const Companies = () => {
     <>
       <p>{t("companies-title-text")}</p>
       <br />
-      <Link href="/companies">
+      <Link to="/companies">
         <p>{t("view-all-companies")}</p>
       </Link>
       <div className={style.companies}>
@@ -20,7 +20,7 @@ const Companies = () => {
             <Link
               className={style["company-logo"]}
               key={company.name}
-              href={"/company/" + company.id}
+              to={"/company/" + company.id}
             >
               <img
                 className={style["company-logo-image"]}
