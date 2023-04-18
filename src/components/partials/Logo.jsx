@@ -20,7 +20,7 @@ const Logo = () => {
         className={styles['bottom-fill-orange-1']}
       />
       <image
-        xlinkHref="lamp_brightorange.svg"
+        xlinkHref="assets/lamp_brightorange.svg"
         className={styles['logo-image']}
         x="355"
         y="20"
@@ -35,7 +35,7 @@ const Logo = () => {
       <text x="750" y="221" className={styles['logo-3']}>
         {config.eventDate !== '' && (
           <>
-            {config.eventDate} {/*{t("at-clock")} {config.eventTime}*/}
+            {config.eventDate} {/* {t("at-clock")} {config.eventTime}*/}
           </>
         )}
       </text>

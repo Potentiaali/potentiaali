@@ -19,7 +19,7 @@ export const Hero = () => {
   return (
     <section className={styles.hero}>
       <Suspense fallback="Loading">
-        <video poster="poster.png" muted loop autoPlay preload="true">
+        <video poster="assets/poster.png" muted loop autoPlay preload="true">
           <source src="assets/poster_video.mp4" type="video/mp4" />
         </video>
       </Suspense>
