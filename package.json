@@ -28,6 +28,7 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
+    "preview": "vite preview",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "lint": "prettier --write 'src/**/*.jsx'",
@@ -43,6 +44,7 @@
     "@storybook/addons": "7.0.2",
     "@storybook/react": "7.0.2",
     "@vitejs/plugin-react": "^3.1.0",
+    "browserslist-to-esbuild": "^1.2.0",
     "eslint": ">=5.16.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.8.0",

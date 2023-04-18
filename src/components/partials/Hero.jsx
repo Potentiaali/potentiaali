@@ -19,16 +19,17 @@ export const Hero = () => {
   return (
     <section className={styles.hero}>
       <Suspense fallback="Loading">
-        <video poster="assets/poster.png" muted loop autoPlay preload="true">
+        {/* <video poster="assets/poster.webp" muted loop autoPlay>
           <source src="assets/poster_video.mp4" type="video/mp4" />
-        </video>
+  </video >*/}
+    
       </Suspense>
       <div className={styles['hero-overlay']} />
       <div className={styles['hero-container']}>
         <h1>
           <img
             className={styles['hero-logo']}
-            src="/logos/potentiaali-black.png"
+            src="/logos/potentiaali-black.webp"
             alt="Kumpulan Potentiaali"
           />
         </h1>

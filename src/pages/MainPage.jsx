@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import Logo from '../components/partials/Logo'
 import Companies from '../components/partials/Companies'
 import { Program } from '../components/partials/Program'
@@ -14,7 +14,7 @@ const MainPage = () => {
     <>
       <Logo />
       <section className="app-section">
-        <Hero />
+        <Suspense><Hero /></Suspense>
         <Notification
           type="success"
           title={<h2>{t('event-notification-title')}</h2>}
@@ -79,7 +79,7 @@ const MainPage = () => {
                   </time>
                 </span>
               </li>
-              {/*<li>
+              {/* <li>
               <span className="event-info-title">
                 <i className="fas fa-clock"></i>
               </span>
