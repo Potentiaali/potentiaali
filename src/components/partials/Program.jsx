@@ -1,25 +1,25 @@
-import React from "react"
-import styles from "./Program.module.scss"
-import { Accordion } from "../accordion/Accordion"
-import { useTranslation } from "react-i18next"
+import React from 'react'
+import styles from './Program.module.scss'
+import { Accordion } from '../accordion/Accordion'
+import { useTranslation } from 'react-i18next'
 export const Program = () => {
   const { t } = useTranslation()
   return (
     <div>
-      <h4>{t("click-picture-for-instructions")}</h4>
+      <h4>{t('click-picture-for-instructions')}</h4>
       <br />
       <div className={styles.program}>
         <Accordion
           imageTitle={true}
           title={<img src="assets/rekry_speed_dating.png" alt="Speed dates" />}
-          accordionId={"speed-dates"}
+          accordionId={'speed-dates'}
         >
           {/*}
           <Textfit mode="single" max={20}>
              <span>{t("rekry-speed-dating-title-text")}</span>
           </Textfit>
   */}
-          <p>{t("rekry-speed-dating-info-1")}</p>
+          <p>{t('rekry-speed-dating-info-1')}</p>
           {/*
           <br />
             <p>{t("rekry-speed-dating-info-2")}</p>
@@ -29,41 +29,41 @@ export const Program = () => {
         <Accordion
           imageTitle={true}
           title={<img src="assets/workshop.png" alt="Workshops" />}
-          accordionId={"workshops"}
+          accordionId={'workshops'}
         >
-          <p>{t("workshop-info")}</p>
+          <p>{t('workshop-info')}</p>
         </Accordion>
         <Accordion
           imageTitle={true}
           title={<img src="assets/keynote.png" alt="Keynotes" />}
-          accordionId={"keynotes"}
+          accordionId={'keynotes'}
         >
-          <span>{t("keynote-info-text")}</span>
+          <span>{t('keynote-info-text')}</span>
         </Accordion>
         <Accordion
           imageTitle={true}
           title={<img src="assets/cocktail.png" alt="Kokkarit" />}
-          accordionId={"cocktail"}
+          accordionId={'cocktail'}
         >
-          <p>{t("cocktail-hour-info-text")}</p>
+          <p>{t('cocktail-hour-info-text')}</p>
         </Accordion>
         <Accordion
           imageTitle={true}
           title={<img src="assets/panel.png" alt="Paneeli" />}
-          accordionId={"panel"}
+          accordionId={'panel'}
         >
-          <p>{t("panel-discussion-info-text-1")}</p>
+          <p>{t('panel-discussion-info-text-1')}</p>
           <br />
-          <p>{t("panel-discussion-info-text-2")}</p>
+          <p>{t('panel-discussion-info-text-2')}</p>
         </Accordion>
         <Accordion
           imageTitle={true}
           title={<img src="assets/after_party.png" alt="Jatkot" />}
-          accordionId={"afterparty"}
+          accordionId={'afterparty'}
         >
-          <p>{t("afterparty-info-text-1")}</p>
+          <p>{t('afterparty-info-text-1')}</p>
           <br />
-          <p>{t("afterparty-info-text-2")}</p>
+          <p>{t('afterparty-info-text-2')}</p>
         </Accordion>
       </div>
     </div>

@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react"
-import PropTypes from "prop-types"
-import styles from "./Clock.module.scss"
-import moment from "moment"
-import "moment/locale/fi"
-import "moment/locale/en-gb"
-import { useTranslation } from "react-i18next"
+import React, { useState, useEffect } from 'react'
+import PropTypes from 'prop-types'
+import styles from './Clock.module.scss'
+import moment from 'moment'
+import 'moment/locale/fi'
+import 'moment/locale/en-gb'
+import { useTranslation } from 'react-i18next'
 
 const Clock = ({ eventDate }) => {
   const [timeUntil, setUntil] = useState([0, 0, 0, 0])
@@ -12,8 +12,8 @@ const Clock = ({ eventDate }) => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const eventDay = moment(eventDate, "DD.MM.YYYY")
-      const today = moment().format("YYYY-MM-DD HH:mm:ss")
+      const eventDay = moment(eventDate, 'DD.MM.YYYY')
+      const today = moment().format('YYYY-MM-DD HH:mm:ss')
       if (eventDay.isSameOrBefore(today)) {
         setUntil([0, 0, 0, 0])
       } else if (eventDay.isAfter(today)) {
@@ -36,26 +36,26 @@ const Clock = ({ eventDate }) => {
   const [seconds, hours, minutes, days] = timeUntil
 
   const style = {
-    margin: "0.5em"
+    margin: '0.5em'
   }
 
   return (
     <div className={styles.clock}>
       <div style={style}>
         <p>{days}</p>
-        <p>{t("days-text", { count: days })}</p>
+        <p>{t('days-text', { count: days })}</p>
       </div>
       <div style={style}>
         <p>{hours}</p>
-        <p>{t("hours-text", { count: hours })}</p>
+        <p>{t('hours-text', { count: hours })}</p>
       </div>
       <div style={style}>
         <p>{minutes}</p>
-        <p>{t("minutes-text", { count: minutes })}</p>
+        <p>{t('minutes-text', { count: minutes })}</p>
       </div>
       <div style={style}>
         <p>{seconds}</p>
-        <p>{t("seconds-text", { count: seconds })}</p>
+        <p>{t('seconds-text', { count: seconds })}</p>
       </div>
     </div>
   )

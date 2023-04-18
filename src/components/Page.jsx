@@ -1,6 +1,6 @@
-import React from "react"
-import styles from "./Page.module.scss"
-import PropTypes from "prop-types"
+import React from 'react'
+import styles from './Page.module.scss'
+import PropTypes from 'prop-types'
 
 const Page = ({ children }) => <div className={styles.page}>{children}</div>
 

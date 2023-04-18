@@ -1,12 +1,12 @@
-import React from "react"
-import Logo from "../components/partials/Logo"
-import Companies from "../components/partials/Companies"
-import { Program } from "../components/partials/Program"
-import SpeedRekry from "../components/partials/SpeedRekry"
-import config from "../data/config.json"
-import { useTranslation } from "react-i18next"
-import Notification from "../components/partials/Notification"
-import Hero from "../components/partials/Hero"
+import React from 'react'
+import Logo from '../components/partials/Logo'
+import Companies from '../components/partials/Companies'
+import { Program } from '../components/partials/Program'
+import SpeedRekry from '../components/partials/SpeedRekry'
+import config from '../data/config.json'
+import { useTranslation } from 'react-i18next'
+import Notification from '../components/partials/Notification'
+import Hero from '../components/partials/Hero'
 const MainPage = () => {
   const { t } = useTranslation()
 
@@ -17,15 +17,15 @@ const MainPage = () => {
         <Hero />
         <Notification
           type="success"
-          title={<h2>{t("event-notification-title")}</h2>}
+          title={<h2>{t('event-notification-title')}</h2>}
         >
-          <p>{t("event-notification-body-1")} </p>
-          <p>{t("event-notification-body-2")} </p>
+          <p>{t('event-notification-body-1')} </p>
+          <p>{t('event-notification-body-2')} </p>
           <p>
-            {t("event-notification-body-3")}{" "}
+            {t('event-notification-body-3')}{' '}
             <a href="mailto:info@potentiaali.com">
-              {t("event-notification-body-4")}{" "}
-            </a>{" "}
+              {t('event-notification-body-4')}{' '}
+            </a>{' '}
           </p>
         </Notification>
       </section>
@@ -33,14 +33,14 @@ const MainPage = () => {
         <div className="single-stat">
           <span className="single-stat_main">1000+</span>
           <span className="single-stat_secondary">
-            {t("student-attendees")}
+            {t('student-attendees')}
             <sup>*</sup>
           </span>
         </div>
         <div className="single-stat">
           <span className="single-stat_main">45+</span>
           <span className="single-stat_secondary">
-            {t("exhibitors")}
+            {t('exhibitors')}
             <sup>*</sup>
           </span>
         </div>
@@ -48,16 +48,16 @@ const MainPage = () => {
       <section className="app-section">
         <small>
           <sup>*</sup>
-          {t("average-per-year")}
+          {t('average-per-year')}
         </small>
       </section>
       <section className="app-section">
-        <h1>{t("title-1")}</h1>
-        <p> {t("main-part-1")} </p>
+        <h1>{t('title-1')}</h1>
+        <p> {t('main-part-1')} </p>
       </section>
-      {config.eventDate !== "" && (
+      {config.eventDate !== '' && (
         <section className="app-section">
-          <h1>{t("event-info-title")}</h1>
+          <h1>{t('event-info-title')}</h1>
           <div>
             <ul className="event-info">
               <li>
@@ -65,7 +65,7 @@ const MainPage = () => {
                   <i className="fas fa-map-marked-alt"></i>
                 </span>
                 <span className="event-info-value">
-                  {t("event-location")} {": "} {t("event-location-value")}
+                  {t('event-location')} {': '} {t('event-location-value')}
                 </span>
               </li>
               <li>
@@ -73,9 +73,9 @@ const MainPage = () => {
                   <i className="fas fa-calendar-day"></i>
                 </span>
                 <span className="event-info-value">
-                  {t("event-date")} {": "}
+                  {t('event-date')} {': '}
                   <time dateTime="2022-12-08 11:00">
-                    {t("event-day")} {config.eventDate}
+                    {t('event-day')} {config.eventDate}
                   </time>
                 </span>
               </li>
@@ -99,7 +99,7 @@ const MainPage = () => {
                     <i className="fas fa-map-marker-alt"></i>
                   </span>
                   <span className="event-info-value">
-                    {t("show-on-google-maps")}
+                    {t('show-on-google-maps')}
                   </span>
                 </a>
               </li>
@@ -114,7 +114,7 @@ const MainPage = () => {
                     <i className="fas fa-calendar-plus"></i>
                   </span>
                   <span className="event-info-value">
-                    {t("add-to-calendar")}
+                    {t('add-to-calendar')}
                   </span>
                 </a>
               </li>

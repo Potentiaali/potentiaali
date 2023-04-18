@@ -1,9 +1,9 @@
-import React from "react"
-import propTypes from "prop-types"
-import styles from "./Notification.module.scss"
-import classNames from "classnames"
+import React from 'react'
+import propTypes from 'prop-types'
+import styles from './Notification.module.scss'
+import classNames from 'classnames'
 
-const Notification = ({ type = "info", title, children }) => (
+const Notification = ({ type = 'info', title, children }) => (
   <div
     className={classNames(styles.notification, styles[`${type}-notification`])}
   >

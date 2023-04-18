@@ -1,5 +1,5 @@
-import React from "react"
-import styles from "./Fallback.module.scss"
+import React from 'react'
+import styles from './Fallback.module.scss'
 
 const FallbackNav = () => <nav className={styles.fallbackNav} />
 

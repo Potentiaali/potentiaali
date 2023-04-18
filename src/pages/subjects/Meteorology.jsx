@@ -1,6 +1,6 @@
-import React from "react"
-import { Accordion } from "../../components/accordion/Accordion"
-import { useTranslation } from "react-i18next"
+import React from 'react'
+import { Accordion } from '../../components/accordion/Accordion'
+import { useTranslation } from 'react-i18next'
 
 const Meteorology = () => {
   const { t } = useTranslation()
@@ -8,33 +8,33 @@ const Meteorology = () => {
   return (
     <Accordion
       isRoot
-      accordionId={"meteorology"}
-      title={t("meteorology-title-text")}
+      accordionId={'meteorology'}
+      title={t('meteorology-title-text')}
     >
-      <h5>{t("subjects-introduction")}</h5>
-      <p>{t("meteorology-introduction-text")}</p>
-      <h5>{t("work-descriptions-text")}</h5>
+      <h5>{t('subjects-introduction')}</h5>
+      <p>{t('meteorology-introduction-text')}</p>
+      <h5>{t('work-descriptions-text')}</h5>
 
       <Accordion
-        accordionId={"meteorology-meteorologist"}
-        title={t("meteorology-meteorologist-title-text")}
+        accordionId={'meteorology-meteorologist'}
+        title={t('meteorology-meteorologist-title-text')}
         noShadow
       >
-        {t("meteorology-meteorologist-description-text")}
+        {t('meteorology-meteorologist-description-text')}
       </Accordion>
       <Accordion
-        accordionId={"meteorology-consultant"}
-        title={t("meteorology-consultant-title-text")}
+        accordionId={'meteorology-consultant'}
+        title={t('meteorology-consultant-title-text')}
         noShadow
       >
-        {t("meteorology-consultant-description-text")}
+        {t('meteorology-consultant-description-text')}
       </Accordion>
       <Accordion
-        accordionId={"meteorology-physicist"}
-        title={t("meteorology-physicist-title-text")}
+        accordionId={'meteorology-physicist'}
+        title={t('meteorology-physicist-title-text')}
         noShadow
       >
-        {t("meteorology-physicist-description-text")}
+        {t('meteorology-physicist-description-text')}
       </Accordion>
     </Accordion>
   )

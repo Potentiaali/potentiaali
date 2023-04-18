@@ -1,9 +1,9 @@
-import React, { Children, useEffect } from "react"
-import PropTypes from "prop-types"
-import { LocalizationProvider } from "@fluent/react"
-import { connect } from "react-redux"
-import "intl-pluralrules"
-import { changeLocales } from "./reducers/LocalizationReducer"
+import React, { Children, useEffect } from 'react'
+import PropTypes from 'prop-types'
+import { LocalizationProvider } from '@fluent/react'
+import { connect } from 'react-redux'
+import 'intl-pluralrules'
+import { changeLocales } from './reducers/LocalizationReducer'
 
 const AppLocalizationProvider = ({ bundles, children, changeLocales }) => {
   useEffect(() => {

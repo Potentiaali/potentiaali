@@ -1,16 +1,16 @@
-import React, { Suspense } from "react"
-import { Route, Routes } from "react-router-dom"
-import config from "./data/config.json"
-import moment from "moment"
-import "moment/locale/fi"
-import "moment/locale/en-gb"
-import { Page } from "./components/Page"
-import Fallback from "./components/partials/Fallback"
+import React, { Suspense } from 'react'
+import { Route, Routes } from 'react-router-dom'
+import config from './data/config.json'
+import moment from 'moment'
+import 'moment/locale/fi'
+import 'moment/locale/en-gb'
+import { Page } from './components/Page'
+import Fallback from './components/partials/Fallback'
 
-const SubjectsPage = React.lazy(() => import("./pages/SubjectsPage"))
-const NotFoundPage = React.lazy(() => import("./pages/NotFoundPage"))
-const MainPage = React.lazy(() => import("./pages/MainPage"))
-const Nav = React.lazy(() => import("./components/partials/Nav"))
+const SubjectsPage = React.lazy(() => import('./pages/SubjectsPage'))
+const NotFoundPage = React.lazy(() => import('./pages/NotFoundPage'))
+const MainPage = React.lazy(() => import('./pages/MainPage'))
+const Nav = React.lazy(() => import('./components/partials/Nav'))
 /*const Footer = React.lazy(() => import("./components/partials/Footer"))
 const CompanyPage = React.lazy(() => import("./pages/CompanyPage"))
 const MapPage = React.lazy(() => import("./pages/MapPage"))

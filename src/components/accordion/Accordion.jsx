@@ -1,8 +1,8 @@
-import React, { useState } from "react"
-import PropTypes from "prop-types"
+import React, { useState } from 'react'
+import PropTypes from 'prop-types'
 
-import styles from "./Accordion.module.scss"
-import classNames from "classnames"
+import styles from './Accordion.module.scss'
+import classNames from 'classnames'
 
 export const Accordion = (props) => {
   const [isOpen, setOpen] = useState(false)
@@ -20,18 +20,18 @@ export const Accordion = (props) => {
         {...otherProps}
         aria-controls={`accordion-${props.accordionId}`}
         role="button"
-        className={styles["accordion-header"]}
+        className={styles['accordion-header']}
         onClick={() => setOpen(!isOpen)}
       >
         {!props.imageTitle && (
-          <div className={styles["accordion-button"]}>{isOpen ? "-" : "+"}</div>
+          <div className={styles['accordion-button']}>{isOpen ? '-' : '+'}</div>
         )}
-        <div className={styles["accordion-title"]}>{props.title}</div>
+        <div className={styles['accordion-title']}>{props.title}</div>
       </div>
       <div
-        className={classNames(styles["accordion-content"], {
-          [styles["is-open"]]: isOpen,
-          [styles["inner-shadow"]]: props.inner
+        className={classNames(styles['accordion-content'], {
+          [styles['is-open']]: isOpen,
+          [styles['inner-shadow']]: props.inner
         })}
       >
         <div className={styles.content} aria-hidden={!isOpen}>

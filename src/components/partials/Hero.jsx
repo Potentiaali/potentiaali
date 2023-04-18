@@ -1,16 +1,16 @@
-import React from "react"
-import Clock from "./Clock"
-import config from "../../data/config.json"
-import PropTypes from "prop-types"
-import { useTranslation } from "react-i18next"
-import styles from "./Hero.module.scss"
-import { Suspense } from "react"
+import React from 'react'
+import Clock from './Clock'
+import config from '../../data/config.json'
+import PropTypes from 'prop-types'
+import { useTranslation } from 'react-i18next'
+import styles from './Hero.module.scss'
+import { Suspense } from 'react'
 
 export const Hero = () => {
   const { t } = useTranslation()
   const reviews = [
     {
-      id: "review-1-text",
+      id: 'review-1-text',
       defaultText: '"Ehdottomasti laadukas opiskelijatapahtuma!"'
     }
   ]
@@ -22,17 +22,17 @@ export const Hero = () => {
           <source src="assets/poster_video.mp4" type="video/mp4" />
         </video>
       </Suspense>
-      <div className={styles["hero-overlay"]} />
-      <div className={styles["hero-container"]}>
+      <div className={styles['hero-overlay']} />
+      <div className={styles['hero-container']}>
         <h1>
           <img
-            className={styles["hero-logo"]}
+            className={styles['hero-logo']}
             src="/logos/potentiaali-black.png"
             alt="Kumpulan Potentiaali"
           />
         </h1>
-        <div className={styles["hero-paragraph"]}>
-          <p>{t("heroDescription")}</p>
+        <div className={styles['hero-paragraph']}>
+          <p>{t('heroDescription')}</p>
           <b>
             {config.eventDate}
             {/*{t("heroTimePrefix")}

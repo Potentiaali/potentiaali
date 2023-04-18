@@ -1,9 +1,9 @@
-import React from "react"
-import { useSelector } from "react-redux"
-import { useTranslation } from "react-i18next"
-import { Link, useParams } from "react-router-dom"
-import LanguageString from "../components/LanguageString"
-import { BoothBadge } from "../components/partials/badges/BoothBadge"
+import React from 'react'
+import { useSelector } from 'react-redux'
+import { useTranslation } from 'react-i18next'
+import { Link, useParams } from 'react-router-dom'
+import LanguageString from '../components/LanguageString'
+import { BoothBadge } from '../components/partials/badges/BoothBadge'
 
 const SingleCompanyPage = () => {
   const companies = useSelector((state) => state.company.companies)
@@ -12,16 +12,16 @@ const SingleCompanyPage = () => {
   currentLocale = i18n.language
   let eventId = params.id
   if (!companyId) {
-    return <span> {t("company-not-found")}</span>
+    return <span> {t('company-not-found')}</span>
   }
   if (companies.length === 0) {
-    return <span> {t("empty-schedule")}</span>
+    return <span> {t('empty-schedule')}</span>
   }
   const company = companies.find(
     (cmpny) => Number(cmpny.id) === Number(companyId)
   )
   if (company === undefined) {
-    return <span> {t("company-not-found")}</span>
+    return <span> {t('company-not-found')}</span>
   }
   return (
     <>
@@ -29,7 +29,7 @@ const SingleCompanyPage = () => {
         <Link to="" onClick={() => router.back()}>
           <h3>
             <i className="fas fa-chevron-left"></i>&nbsp;&nbsp;
-            <span> {t("go-back")}</span>
+            <span> {t('go-back')}</span>
           </h3>
         </Link>
       </section>
@@ -40,12 +40,12 @@ const SingleCompanyPage = () => {
         </p>
         <div
           style={{
-            backgroundColor: "white",
+            backgroundColor: 'white',
             padding: 20,
-            display: "inline-block"
+            display: 'inline-block'
           }}
         >
-          <img alt={company.name} src={"/" + company.imgSrc} width={200} />
+          <img alt={company.name} src={'/' + company.imgSrc} width={200} />
         </div>
         <p>
           <a
@@ -58,7 +58,7 @@ const SingleCompanyPage = () => {
             {company.websiteUrl}
           </a>
         </p>
-        <pre style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
+        <pre style={{ whiteSpace: 'pre-wrap', wordWrap: 'break-word' }}>
           <p>
             <LanguageString languageObject={company.description} />
           </p>
@@ -67,7 +67,7 @@ const SingleCompanyPage = () => {
       <section className="app-section">
         <Link to="/companies">
           <h3>
-            <span> {t("go-to-company-listing")}</span>
+            <span> {t('go-to-company-listing')}</span>
           </h3>
         </Link>
       </section>

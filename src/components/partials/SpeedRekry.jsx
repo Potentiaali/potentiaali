@@ -1,11 +1,11 @@
-import React, { useEffect } from "react"
-import { fetchSpeedRekry } from "./../../reducers/SpeedRekryReducer"
-import { connect } from "react-redux"
-import PropTypes from "prop-types"
-import styles from "./SpeedRekry.module.scss"
-import { useTranslation } from "react-i18next"
-import { SpeedRekryItem } from "./SpeedRekryItem"
-import { Textfit } from "@aw-web-design/react-textfit"
+import React, { useEffect } from 'react'
+import { fetchSpeedRekry } from './../../reducers/SpeedRekryReducer'
+import { connect } from 'react-redux'
+import PropTypes from 'prop-types'
+import styles from './SpeedRekry.module.scss'
+import { useTranslation } from 'react-i18next'
+import { SpeedRekryItem } from './SpeedRekryItem'
+import { Textfit } from '@aw-web-design/react-textfit'
 
 export const SpeedRekry = ({ ilmot, fetchSpeedRekry }) => {
   useEffect(() => {
@@ -15,7 +15,7 @@ export const SpeedRekry = ({ ilmot, fetchSpeedRekry }) => {
   return (
     <>
       <Textfit mode="single" max={20}>
-        <h1>{t("register-to-speed-rekry")}</h1>
+        <h1>{t('register-to-speed-rekry')}</h1>
       </Textfit>
       <div className={styles.speedRekryGrid}>
         {ilmot &&

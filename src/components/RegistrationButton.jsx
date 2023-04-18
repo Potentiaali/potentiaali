@@ -1,8 +1,8 @@
-import React from "react"
-import styles from "./RegistrationButton.module.scss"
-import config from "./../data/config.json"
-import classNames from "classnames"
-import { useTranslation } from "react-i18next"
+import React from 'react'
+import styles from './RegistrationButton.module.scss'
+import config from './../data/config.json'
+import classNames from 'classnames'
+import { useTranslation } from 'react-i18next'
 
 /**
  * Returns the registration link.
@@ -12,7 +12,7 @@ const navigateTo = (registrationDisabled) => {
   if (!registrationDisabled) {
     return config.companyRegistrationLink
   }
-  return "#"
+  return '#'
 }
 
 const RegistrationButton = () => {
@@ -36,11 +36,11 @@ const RegistrationButton = () => {
       <div className={styles.bg2}></div>
       <div className={styles.buttonText}>
         {registrationDisabled ? (
-          <p>{t("registration-event-full", regDate, regTime)}</p>
+          <p>{t('registration-event-full', regDate, regTime)}</p>
         ) : (
           <>
             <i className="fas fa-external-link-alt"></i>&nbsp;&nbsp;&nbsp;
-            <p>{t("register-now-text")}</p>
+            <p>{t('register-now-text')}</p>
           </>
         )}
       </div>

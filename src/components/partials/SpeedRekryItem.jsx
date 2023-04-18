@@ -1,11 +1,11 @@
-import React from "react"
-import PropTypes from "prop-types"
-import styles from "./SpeedRekryItem.module.scss"
-import { useTranslation } from "react-i18next"
-import classNames from "classnames"
+import React from 'react'
+import PropTypes from 'prop-types'
+import styles from './SpeedRekryItem.module.scss'
+import { useTranslation } from 'react-i18next'
+import classNames from 'classnames'
 
 export const SpeedRekryItem = ({ companies, full, link, open, id }) => {
-  const luokka = "item-" + id
+  const luokka = 'item-' + id
   const { t } = useTranslation()
   return (
     <div
@@ -15,15 +15,15 @@ export const SpeedRekryItem = ({ companies, full, link, open, id }) => {
       })}
     >
       <div className={styles.speedRekryItemTitle}>
-        <span> {t("group-text")}</span>
+        <span> {t('group-text')}</span>
         &nbsp; {id}
       </div>
       <div className={styles.speedRekryItemDesc}>
         <div className={styles.speedRekryCompanies}>
           {companies
-            .split(",")
+            .split(',')
             .map((company) => company.trim())
-            .filter((company) => company !== "")
+            .filter((company) => company !== '')
             .map((company) => (
               <div className={styles.speedRekryCompany} key={company}>
                 {company}
@@ -33,22 +33,22 @@ export const SpeedRekryItem = ({ companies, full, link, open, id }) => {
 
         {open && (
           <a
-            href={open ? link : "#"}
+            href={open ? link : '#'}
             target="_blank"
             rel="noopener noreferrer"
             className={classNames([styles.speedRekryLink], {
-              [styles["rekry-disabled"]]: !open || full
+              [styles['rekry-disabled']]: !open || full
             })}
           >
             {!full ? (
-              <span> {t("signup-text")}</span>
+              <span> {t('signup-text')}</span>
             ) : (
-              <span> {t("full-text")}</span>
+              <span> {t('full-text')}</span>
             )}
           </a>
         )}
         {!open && (
-          <p className={styles.closedRegistration}>{t("registration-opens")}</p>
+          <p className={styles.closedRegistration}>{t('registration-opens')}</p>
         )}
       </div>
     </div>
