@@ -9,13 +9,13 @@ jobs:
           name: "Install dependencies"
           command: 'npm install'
       - run:
-          name: "Build CRA"
+          name: "Build Vite"
           command: 'npm run build'
       - aws-s3/sync:
           arguments: |
             --acl public-read \
             --cache-control "max-age=1200"
-          from: build
+          from: dist
           to: 's3://potentiaali/'
 
 workflows:
