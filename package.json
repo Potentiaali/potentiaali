@@ -13,7 +13,7 @@
     "i18next": "^22.4.14",
     "i18next-http-backend": "^2.2.0",
     "intl-pluralrules": "^2.0.0",
-    "moment": "2.29.3",
+    "moment": "^2.29.4",
     "prop-types": "^15.7.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -21,20 +21,17 @@
     "react-redux": "^8.0.0",
     "react-router": "^6.10.0",
     "react-router-dom": "^6.10.0",
-    "react-scripts": "^5.0.1",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "require-from-string": "^2.0.2",
     "uuid": "^9.0.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "vite",
+    "build": "vite build",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "lint": "prettier --write 'src/**/*.js'",
+    "lint": "prettier --write 'src/**/*.jsx'",
     "deploy": "aws s3 sync build s3://potentiaali --profile matlu --cache-control max-age=300"
   },
   "devDependencies": {
@@ -47,6 +44,7 @@
     "@storybook/addon-links": "7.0.2",
     "@storybook/addons": "7.0.2",
     "@storybook/react": "7.0.2",
+    "@vitejs/plugin-react": "^3.1.0",
     "css-loader": "^6.7.3",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-html": "^7.1.0",
@@ -58,6 +56,7 @@
     "sass-loader": "^13.2.2",
     "style-loader": "^3.3.2",
     "typescript": "4.7",
+    "vite": "^4.2.2",
     "webpack": "^5.78.0"
   },
   "browserslist": [

@@ -18,7 +18,7 @@
     "parser": "babel",
     "overrides": [
       {
-        "files": ["*.mjs", "*.cjs", "*.js"],
+        "files": ["*.mjs", "*.cjs", "*.js", "*.jsx"],
         "options": {
           "parser": "babel"
         }

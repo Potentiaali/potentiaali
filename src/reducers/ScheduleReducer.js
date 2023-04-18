@@ -1,4 +1,4 @@
-const { utcToZonedTime } = require("date-fns-tz")
+import { utcToZonedTime } from "date-fns-tz"
 
 const schedule = [
   {
