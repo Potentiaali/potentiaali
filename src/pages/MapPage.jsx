@@ -59,7 +59,7 @@ const MapPage = () => {
         </div>
         <img
           alt="Event map"
-          src="kartta_2022.png"
+          src="assets/kartta_2022.png"
           className={style.mapImage}
           id="map"
         />
