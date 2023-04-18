@@ -8,13 +8,14 @@ import { Suspense } from 'react'
 
 export const Hero = () => {
   const { t } = useTranslation()
+  /*
   const reviews = [
     {
       id: 'review-1-text',
       defaultText: '"Ehdottomasti laadukas opiskelijatapahtuma!"'
     }
   ]
-
+*/
   return (
     <section className={styles.hero}>
       <Suspense fallback="Loading">
@@ -35,12 +36,12 @@ export const Hero = () => {
           <p>{t('heroDescription')}</p>
           <b>
             {config.eventDate}
-            {/*{t("heroTimePrefix")}
+            {/* {t("heroTimePrefix")}
             {config.eventTime}*/}
           </b>
 
-          {/*<br />*/}
-          {/*reviews.map((review) => (
+          {/* <br />*/}
+          {/* reviews.map((review) => (
             <span key={review.id}>
               <br />
               <p>{t(review.id)}</p>
