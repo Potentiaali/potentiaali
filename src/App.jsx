@@ -1,9 +1,7 @@
 import React, { Suspense } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import config from './data/config.json'
-import moment from 'moment'
-import 'moment/locale/fi'
-import 'moment/locale/en-gb'
+import dayjs from 'dayjs'
 import { Page } from './components/Page'
 import Fallback from './components/partials/Fallback'
 
@@ -20,7 +18,7 @@ const SingleSchedulePage = React.lazy(() =>
   import("./pages/SingleSchedulePage")
 )
 */
-moment.locale(config.defaultLocale)
+dayjs.locale(config.defaultLocale)
 
 const App = () => {
   return (

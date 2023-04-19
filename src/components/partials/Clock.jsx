@@ -1,23 +1,26 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import styles from './Clock.module.scss'
-import moment from 'moment'
-import 'moment/locale/fi'
-import 'moment/locale/en-gb'
+import dayjs from 'dayjs'
+import isSameOrBefore from 'dayjs/plugin/isSameOrBefore'
 import { useTranslation } from 'react-i18next'
 
 const Clock = ({ eventDate }) => {
   const [timeUntil, setUntil] = useState([0, 0, 0, 0])
   const { t } = useTranslation()
+  dayjs.extend(isSameOrBefore)
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const eventDay = moment(eventDate, 'DD.MM.YYYY')
-      const today = moment().format('YYYY-MM-DD HH:mm:ss')
-      if (eventDay.isSameOrBefore(today)) {
+
+      const eventDay = dayjs(eventDate).format('YYYY-MM-DD')
+
+      const today = dayjs().format('YYYY-MM-DD HH:mm:ss')
+
+      if (dayjs(eventDay).isSameOrBefore(dayjs(today))) {
         setUntil([0, 0, 0, 0])
-      } else if (eventDay.isAfter(today)) {
-        const remaining = eventDay.diff(today)
+      } else if (dayjs(eventDay).isAfter(dayjs(today))) {
+        const remaining = dayjs(eventDay).diff(dayjs(today))
         let seconds = Math.floor(remaining / 1000)
         let minutes = Math.floor(seconds / 60)
         seconds = seconds % 60
