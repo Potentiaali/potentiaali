@@ -12,9 +12,7 @@ const Clock = ({ eventDate }) => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-
       const eventDay = dayjs(eventDate).format('YYYY-MM-DD')
-
       const today = dayjs().format('YYYY-MM-DD HH:mm:ss')
 
       if (dayjs(eventDay).isSameOrBefore(dayjs(today))) {
@@ -38,25 +36,21 @@ const Clock = ({ eventDate }) => {
 
   const [seconds, hours, minutes, days] = timeUntil
 
-  const style = {
-    margin: '0.5em'
-  }
-
   return (
     <div className={styles.clock}>
-      <div style={style}>
+      <div className={styles.text}>
         <p>{days}</p>
         <p>{t('days-text', { count: days })}</p>
       </div>
-      <div style={style}>
+      <div className={styles.text}>
         <p>{hours}</p>
         <p>{t('hours-text', { count: hours })}</p>
       </div>
-      <div style={style}>
+      <div className={styles.text}>
         <p>{minutes}</p>
         <p>{t('minutes-text', { count: minutes })}</p>
       </div>
-      <div style={style}>
+      <div className={styles.text}>
         <p>{seconds}</p>
         <p>{t('seconds-text', { count: seconds })}</p>
       </div>

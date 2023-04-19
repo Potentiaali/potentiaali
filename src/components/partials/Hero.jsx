@@ -22,7 +22,6 @@ export const Hero = () => {
         {/* <video poster="assets/poster.webp" muted loop autoPlay>
           <source src="assets/poster_video.mp4" type="video/mp4" />
   </video >*/}
-    
       </Suspense>
       <div className={styles['hero-overlay']} />
       <div className={styles['hero-container']}>

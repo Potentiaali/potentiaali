@@ -14,7 +14,9 @@ const MainPage = () => {
     <>
       <Logo />
       <section className="app-section">
-        <Suspense><Hero /></Suspense>
+        <Suspense>
+          <Hero />
+        </Suspense>
         <Notification
           type="success"
           title={<h2>{t('event-notification-title')}</h2>}
