@@ -5,9 +5,11 @@ import PropTypes from 'prop-types'
 import { useTranslation } from 'react-i18next'
 import styles from './Hero.module.scss'
 import { Suspense } from 'react'
+import dayjs from 'dayjs'
 
 export const Hero = () => {
   const { t } = useTranslation()
+  const date = dayjs(config.eventDate).format('DD.MM.YYYY')
   /*
   const reviews = [
     {
@@ -35,7 +37,7 @@ export const Hero = () => {
         <div className={styles['hero-paragraph']}>
           <p>{t('heroDescription')}</p>
           <b>
-            {config.eventDate}
+            {date}
             {/* {t("heroTimePrefix")}
             {config.eventTime}*/}
           </b>
