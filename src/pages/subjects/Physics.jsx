@@ -3,7 +3,7 @@ import { Accordion } from '../../components/accordion/Accordion'
 import { useTranslation } from 'react-i18next'
 
 const Physics = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation("subjects")
   return (
     <Accordion isRoot accordionId={'physics'} title={t('physics-title-text')}>
       <h5>{t('subjects-introduction')}</h5>

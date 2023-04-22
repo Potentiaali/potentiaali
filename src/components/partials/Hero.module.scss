@@ -1,5 +1,5 @@
 .hero {
-  background: url("/assets/hero-bg.jpg") no-repeat center center;
+  background: url("/assets/hero-bg.webp") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -24,8 +24,8 @@
 }
 
 .hero-logo {
-  max-width: 55%;
-  height: "200px";
+  width: 55%;
+  height:100%;
 }
 
 .hero-container {

@@ -2,9 +2,11 @@ import React from 'react'
 import styles from './Logo.module.scss'
 import { useTranslation } from 'react-i18next'
 import config from '../../data/config.json'
+import dayjs from 'dayjs'
 
 const Logo = () => {
   const { t } = useTranslation()
+  const eventDay = dayjs(config.eventDate).format('YYYY-MM-DD')
   return (
     <svg
       viewBox="0 0 1440 230"
@@ -35,7 +37,7 @@ const Logo = () => {
       <text x="750" y="221" className={styles['logo-3']}>
         {config.eventDate !== '' && (
           <>
-            {config.eventDate} {/* {t("at-clock")} {config.eventTime}*/}
+            {eventDay} {/* {t("at-clock")} {config.eventTime}*/}
           </>
         )}
       </text>

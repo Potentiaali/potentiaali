@@ -4,30 +4,33 @@ import styles from './Clock.module.scss'
 import dayjs from 'dayjs'
 import isSameOrBefore from 'dayjs/plugin/isSameOrBefore'
 import { useTranslation } from 'react-i18next'
+dayjs.extend(isSameOrBefore)
+
+const formatClock = (eventDate) => {
+  const eventDay = dayjs(eventDate).format('YYYY-MM-DD')
+    const today = dayjs().format('YYYY-MM-DD HH:mm:ss')
+    if (dayjs(eventDay).isSameOrBefore(dayjs(today))) {
+      return [0, 0, 0, 0]
+    } else if (dayjs(eventDay).isAfter(dayjs(today))) {
+      const remaining = dayjs(eventDay).diff(dayjs(today))
+      let seconds = Math.floor(remaining / 1000)
+      let minutes = Math.floor(seconds / 60)
+      seconds = seconds % 60
+      let hours = Math.floor(minutes / 60)
+      minutes = minutes % 60
+      const days = Math.floor(hours / 24)
+      hours = hours % 24
+      return [seconds, minutes, hours, days]
+    }
+}
 
 const Clock = ({ eventDate }) => {
-  const [timeUntil, setUntil] = useState([0, 0, 0, 0])
+  const [timeUntil, setUntil] = useState(formatClock(eventDate))
   const { t } = useTranslation()
-  dayjs.extend(isSameOrBefore)
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const eventDay = dayjs(eventDate).format('YYYY-MM-DD')
-      const today = dayjs().format('YYYY-MM-DD HH:mm:ss')
-
-      if (dayjs(eventDay).isSameOrBefore(dayjs(today))) {
-        setUntil([0, 0, 0, 0])
-      } else if (dayjs(eventDay).isAfter(dayjs(today))) {
-        const remaining = dayjs(eventDay).diff(dayjs(today))
-        let seconds = Math.floor(remaining / 1000)
-        let minutes = Math.floor(seconds / 60)
-        seconds = seconds % 60
-        let hours = Math.floor(minutes / 60)
-        minutes = minutes % 60
-        const days = Math.floor(hours / 24)
-        hours = hours % 24
-        setUntil([seconds, minutes, hours, days])
-      }
+      setUntil(formatClock(eventDate))
     }, 1000)
     return () => {
       clearInterval(interval)

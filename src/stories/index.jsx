@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { storiesOf } from '@storybook/react'
-import { Accordion } from '../components/Accordion/Accordion'
+import { Accordion } from '../components/accordion/Accordion'
 import { Schedule } from '../components/Schedule/Schedule'
 import { SingleSchedule } from '../components/Schedule/SingleSchedule'
 import scheduleData from '../data/schedule'

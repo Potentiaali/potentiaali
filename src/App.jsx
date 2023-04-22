@@ -23,17 +23,10 @@ dayjs.locale(config.defaultLocale)
 const App = () => {
   return (
     <>
-      <Suspense fallback={<Fallback.Nav />}>
         <Nav />
-      </Suspense>
+
       <div className="content-wrapper">
-        <Suspense
-          fallback={
-            <Page noTopPadding noBottomPadding>
-              <Fallback.Loader />
-            </Page>
-          }
-        >
+      <Suspense fallback={<Fallback.Loader/>}>
           <Page>
             <Routes>
               <Route exact="true" path="/" element={<MainPage />} />
@@ -49,7 +42,7 @@ const App = () => {
                 element={<SingleCompanyPage />}
               />
               <Route exact="true" path="/companies" element={<CompanyPage />} />*/}
-              <Route exact="true" path="/subjects" element={<SubjectsPage />} />
+              <Route exact="true" path="/subjects" element={<Suspense fallback={<Fallback.Loader/>}><SubjectsPage /></Suspense>} />
               {/*  <Route exact path="/map" element={<MapPage />} />
               <Route
                 exact
@@ -62,7 +55,7 @@ const App = () => {
               <Footer />
         </Suspense>*/}
           </Page>
-        </Suspense>
+          </Suspense>
       </div>
       {/* 
       <Suspense fallback={<Fallback.Footer />}>

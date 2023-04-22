@@ -11,9 +11,9 @@ i18n
     locales: ['en', 'fi'],
     localeDetection: false,
     defaultLocale: 'fi',
-    defaultNS: 'common',
+    defaultNS: 'translation',
     pages: {
-      '*': ['common']
+      '*': ['translation']
     },
     lng: 'fi',
     fallbackLng: 'fi',

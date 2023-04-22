@@ -3,7 +3,7 @@ import { Accordion } from '../../components/accordion/Accordion'
 import { useTranslation } from 'react-i18next'
 
 const Geography = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation("subjects")
   return (
     <Accordion
       isRoot

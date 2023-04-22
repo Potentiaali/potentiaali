@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react'
+import React from 'react'
 import Logo from '../components/partials/Logo'
 import Companies from '../components/partials/Companies'
 import { Program } from '../components/partials/Program'
@@ -14,9 +14,7 @@ const MainPage = () => {
     <>
       <Logo />
       <section className="app-section">
-        <Suspense>
           <Hero />
-        </Suspense>
         <Notification
           type="success"
           title={<h2>{t('event-notification-title')}</h2>}
