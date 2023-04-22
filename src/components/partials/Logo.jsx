@@ -6,7 +6,7 @@ import dayjs from 'dayjs'
 
 const Logo = () => {
   const { t } = useTranslation()
-  const eventDay = dayjs(config.eventDate).format('YYYY-MM-DD')
+  const eventDay = dayjs(config.eventDate).format('DD.MM.YYYY')
   return (
     <svg
       viewBox="0 0 1440 230"
