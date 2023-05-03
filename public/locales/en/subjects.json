@@ -1,5 +1,5 @@
 {
-    "astronomy-popular-science-description-text": "Tähtitiede kiinnostaa kansaa, ja tähtitieteilijät sopivat erinomaisesti alan popularisointiin. Alaan sisältyy mm. museoissa ja tiedekeskuksissa työsekentely sekä mediassa esiintyminen ja kirjoittaminen.",
+  "astronomy-popular-science-description-text": "Tähtitiede kiinnostaa kansaa, ja tähtitieteilijät sopivat erinomaisesti alan popularisointiin. Alaan sisältyy mm. museoissa ja tiedekeskuksissa työsekentely sekä mediassa esiintyminen ja kirjoittaminen.",
   "astronomy-popular-science-title-text": "Populaaritiede",
   "astronomy-programmer-description-text": "Alalla tarvittavien koodaustaitojen ansiosta tähtitieteilijät usein suuntaavat koodausalalle. Tähtitieteilijöitä löytyy mm. pelifirmoista, sekä pankkialalta, riskianalyysin tutkimuksesta, sekä big data-aloilta. Alan opiskelijat ovat tottuneet käsittelemään ja analysoimaan suuria määriä dataa. IT-aloille voi päätyä jo kandivaiheessa.",
   "astronomy-programmer-title-text": "Koodaaja",
@@ -16,6 +16,7 @@
   "chemistry-researcher-description-text": "Helsingin yliopiston kouluttama kemisti voi myös erikoistua fysikaaliseen kemiaan, jossa simuloidaan kemiallisia rakenteita kvanttimekaniikan avulla, tai kehitetään uusia mittausmenetelmiä vain teoriassa tunnettujen reaktioiden seuraamiseen. Lisäksi Helsingin Yliopistolla on Suomen ainoa Radiokemian osasto, jossa opiskelija voi erikoistua epästabiilien atomien tutkimiseen ja hyödyntämiseen.",
   "chemistry-researcher-title-text": "Tutkija",
   "chemistry-the-synthetic-description-text": "Jokaisen lääkeaineen tulo markkinoille vaatii kemistin, joka sitä osaa valmistaa. Ja Kemian koulutusohjelma tarjoaa tähän hyvän alustuksen reaktio-oppeineen ja pitkine laboratoriotöineen. Ja mikäli opiskelija on suorittanut tai suorittamassa Synteettisen Kemian maisteriohjelmaa, hän ei osaa pelkästään tehdä yksinkertaisia synteesitöitä, vaan myös suunnitella ja ketjuttaa pidempiä prosesseja, ja pähkäillä esille helpoimmat, halvimmat, ja tuottoisimmat tavat tuottaa jokin tietty kemikaali.",
+  "chemistry-the-synthetic-title-text": "Synteetikko",
   "chemistry-title-text": "Chemistry",
   "computer-science-data-sciencist-description-text": "Algoritmeihin ja koneoppimiseen keskittyvät opiskelijat voivat muun muassa päätyä etsimään arvokkaita syy-seuraussuhteita isojen yritysten suurista datamassoista tai kehittämään verkkopalveluiden suosittelujärjestelmiä. Löydät joukostamme paljon maisterivaiheen loppusuoralla olevia koneoppimisen asiantuntijoita, mutta monet jatkavat opintojaan vielä tohtorin tutkintoon asti.",
   "computer-science-data-sciencist-title-text": "Data Sciencist",
@@ -94,5 +95,8 @@
   "statistics-introduction-text": "Tilastotiede on väline todellisuuden ilmiöiden ymmärtämiseen ja analysoimiseen. Tilastollisten mallien rakentaminen perustuu aineiston, datan, tehokkaaseen käsittelyyn, minkä vuoksi monet tilastotieteilijät opiskelevat myös ohjelmointia. Malleja voidaan rakentaa esimerkiksi asiakastyytyväisyyskyselyjen tuloksista, palveluiden käyttötilastoista ja vaikka työttömyystilastoista.",
   "statistics-statistician-description-text": "Tilastotieteilijä pyrkii selittämään ihmisen ja luonnon toimintaa havaintojen pohjalta. Tilastotieteilijää tarvitaan käytännössä kaikilla yhteiskunnan aloilla. Useasti myös akateemisen tutkimuksen tekeminen vaatii tilastotieteilijän. Ei ole sattumaa että monien tieteellisten alojen opintoihin kuuluu hieman tilastotiedettä. Tilastotieteen opintosuunnan voi valita jo kandivaiheessa, josta on mahdollista jatkaa tilastotieteen maisterivaiheeseen. Jo 2. vuoden opiskelijat ovat usein alansa työssä.",
   "statistics-statistician-title-text": "Tilastotieteilijä",
-  "statistics-title-text": "Statistics"
+  "statistics-title-text": "Statistics",
+  "student-attendees": "Student attendees",
+  "subjects-introduction": "Introduction",
+  "work-descriptions-text": "Titles"
 }

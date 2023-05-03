@@ -16,6 +16,7 @@
   "contact-information": "Yhteystiedot",
   "days-text_one": "päivä",
   "days-text_other": "päivää",
+  "empty-schedule": "Aikataulu on tyhjä",
   "english-finnish-language-text": "Suomi / Englanti",
   "english-language-text": "Englanti",
   "enrollment-link": "Voit ilmoittautua tähän tapahtumaan. Ilmoittaudu painamalla tätä linkkiä.",
@@ -90,13 +91,10 @@
   "signup-text": "Ilmoittaudu",
   "speed-rekry": "Mahdollisuus osallistua Rekry Speed Datingiin",
   "student-attendees": "Opiskelijavierailijaa",
-  "subjects-introduction": "Yleinen esittely",
   "subjects-page-title-text": "Aineiden esittely",
   "tickets": "Liput kolmelle hengelle. Liput sisältävät tapahtuman aikana tarjoiltavan aamupalan, lounaan ja pääsyn tapahtuman jälkeen järjestettäville jatkoille.",
   "time-text": "Aika",
   "title-1": "Mikä on Kumpulan Potentiaali?",
   "title-2": "Mitä Kumpulan Potentiaalissa tapahtuu?",
-  "view-all-companies": "Näytä listana",
-  "work-descriptions-text": "Tittelit",
-  "empty-schedule": "Aikataulu on tyhjä"
+  "view-all-companies": "Näytä listana"
 }
