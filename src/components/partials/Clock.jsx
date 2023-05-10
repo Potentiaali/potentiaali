@@ -12,11 +12,14 @@ const formatClock = (eventDate) => {
     if (dayjs(eventDay).isSameOrBefore(dayjs(today))) {
       return [0, 0, 0, 0]
     } else if (dayjs(eventDay).isAfter(dayjs(today))) {
-      const diff = dayjs(eventDay).diff(dayjs(today), 'days', true)
-      const seconds = Math.floor(diff * 24 * 60 * 60) % 60
-      const minutes = Math.floor(diff * 24 * 60) % 60
-      const hours = Math.floor(diff * 24) % 24
-      const days = Math.floor(diff)
+      const diff = dayjs(eventDay).diff(dayjs(today))
+      let seconds = Math.floor(diff / 1000)
+      let minutes = Math.floor(seconds / 60)
+      let hours = Math.floor(minutes / 60)
+      const days = Math.floor(hours / 24)
+      hours = hours % 24
+      minutes = minutes % 60
+      seconds = seconds % 60
  
       return [seconds, minutes, hours, days]
     }
