@@ -57,7 +57,7 @@ observer.observe();
           ))*/}
         </div>
         <Suspense fallback={<div>Loading clock</div>}>
-        <Clock eventDate={config.eventDate} />
+        <Clock eventDate={`${config.eventDate} ${config.eventTime}`} />
         </Suspense>
       </div>
       <div className="languages" />
