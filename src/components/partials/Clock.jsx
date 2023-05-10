@@ -7,19 +7,17 @@ import { useTranslation } from 'react-i18next'
 dayjs.extend(isSameOrBefore)
 
 const formatClock = (eventDate) => {
-  const eventDay = dayjs(eventDate).format('YYYY-MM-DD')
+  const eventDay = dayjs(eventDate).format('YYYY-MM-DD HH:mm:ss')
     const today = dayjs().format('YYYY-MM-DD HH:mm:ss')
     if (dayjs(eventDay).isSameOrBefore(dayjs(today))) {
       return [0, 0, 0, 0]
     } else if (dayjs(eventDay).isAfter(dayjs(today))) {
-      const remaining = dayjs(eventDay).diff(dayjs(today))
-      let seconds = Math.floor(remaining / 1000)
-      let minutes = Math.floor(seconds / 60)
-      seconds = seconds % 60
-      let hours = Math.floor(minutes / 60)
-      minutes = minutes % 60
-      const days = Math.floor(hours / 24)
-      hours = hours % 24
+      const diff = dayjs(eventDay).diff(dayjs(today), 'days', true)
+      const seconds = Math.floor(diff * 24 * 60 * 60) % 60
+      const minutes = Math.floor(diff * 24 * 60) % 60
+      const hours = Math.floor(diff * 24) % 24
+      const days = Math.floor(diff)
+ 
       return [seconds, minutes, hours, days]
     }
 }
@@ -37,7 +35,7 @@ const Clock = ({ eventDate }) => {
     }
   }, [eventDate])
 
-  const [seconds, hours, minutes, days] = timeUntil
+  const [seconds, minutes, hours, days] = timeUntil
 
   return (
     <div className={styles.clock}>
