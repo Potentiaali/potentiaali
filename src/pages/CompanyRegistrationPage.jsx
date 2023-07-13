@@ -118,8 +118,8 @@ const CompanyRegistrationPage = () => {
       <section className="app-section">
         <h1>{t('contact-information')}</h1>
         <p>
-          {t('questions')}
-          <a href="mailto:info@potentiaali.com">info@potentiaali.com</a>
+          {t('questions')}:  
+          <a href="mailto:info@potentiaali.com">&nbsp;info@potentiaali.com</a>
         </p>
       </section>
     </>

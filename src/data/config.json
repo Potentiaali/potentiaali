@@ -4,12 +4,12 @@
   "defaultLocale": "en",
   "speedRekryOpen": false,
   "showProgramView": false,
-  "showRegistrationInfo": false,
+  "showRegistrationInfo": true,
   "showCompanies": false,
   "showSpeedRekry": false,
-  "companyRegistrationStarts": "Mon Aug 22 2023 12:00:00 GMT+0200",
-  "companyRegistrationLink": "https://forms.gle/61davi2mo5mocF5h7",
-  "companyRegistrationStartDate": "22.8.2023",
+  "companyRegistrationStarts": "Mon Jul 13 2023 12:00:00 GMT+0200",
+  "companyRegistrationLink": "https://forms.gle/AVDLu88ELHUNabe17",
+  "companyRegistrationStartDate": "13.7.2023",
   "companyRegistrationStartTime": "12:00",
   "speedRekryApi": ""
 }

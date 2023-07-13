@@ -3,6 +3,7 @@ import styles from './RegistrationButton.module.scss'
 import config from './../data/config.json'
 import classNames from 'classnames'
 import { useTranslation } from 'react-i18next'
+import dayjs from 'dayjs'
 
 /**
  * Returns the registration link.
@@ -19,7 +20,8 @@ const RegistrationButton = () => {
   const { t } = useTranslation()
   const regDate = config.companyRegistrationStartDate
   const regTime = config.companyRegistrationStartTime
-  const canRegister = +new Date() - regDate
+  const canRegister = dayjs(dayjs(regDate)).isBefore(new Date())
+  console.log(canRegister)
   let registrationDisabled = true
   if (canRegister >= 0) {
     registrationDisabled = false

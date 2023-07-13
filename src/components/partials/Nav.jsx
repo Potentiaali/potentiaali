@@ -28,8 +28,8 @@ const Nav = () => {
         fi: 'Etusivu',
         en: 'Frontpage'
       }
-    } /*
-    {
+    },
+    /* {
       id: "companyPage",
       name: "Yritykset",
       linkName: "companies",
@@ -40,7 +40,7 @@ const Nav = () => {
         fi: "Yrtiykset",
         "en": "Companies",
       },
-    },
+    },*/
     {
       id: "companyRegistrationPage",
       name: "Yritysilmoittautuminen",
@@ -52,7 +52,7 @@ const Nav = () => {
         fi: "Yritys ilmoittautuminen",
         "en": "Company registration",
       },
-    },
+    },/*
     {
       id: "schedulePage",
       name: "Aikataulu",
