@@ -20,10 +20,10 @@ const MainPage = () => {
           title={<h2>{t('event-notification-title')}</h2>}
         >
           <p>{t('event-notification-body-1')} </p>
-          <p>{t('event-notification-body-2')} </p>
+          <p><a target="_blank" href={config.companyRegistrationLink} rel="noreferrer">{t('event-notification-body-2-url')} </a></p>
           <p>
             {t('event-notification-body-3')}{' '}
-            <a href="mailto:info@potentiaali.com">
+            <a target="_blank" href="mailto:info@potentiaali.com" rel="noreferrer">
               {t('event-notification-body-4')}{' '}
             </a>{' '}
           </p>
