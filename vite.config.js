@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import browserslistToEsbuild from "browserslist-to-esbuild";
+import legacy from '@vitejs/plugin-legacy'
 import { VitePluginRadar as vitePluginRadar } from "vite-plugin-radar";
 import { dependencies } from "./package.json";
 const renderChunks = (dependencies) => {
@@ -23,17 +23,15 @@ export default defineConfig({
         id: "UA-141725249-1",
       },
     }),
+    legacy({
+      targets: ['defaults', 'not IE 11'],
+    }),
   ],
   server: {
     port: 3000,
   },
   build: {
-    target: browserslistToEsbuild([
-      ">0.2%",
-      "not dead",
-      "not op_mini all",
-      "not ie <= 11",
-    ]),
+
     sourcemap: false,
     rollupOptions: {
       output: {
