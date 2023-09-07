@@ -113,12 +113,17 @@ const CompanyRegistrationPage = () => {
         <h1>{t('registration')}</h1>
         <p>{t('registration-form')}</p>
         <p>{t('registration-deadline')}</p>
-        <RegistrationButton />
+        <RegistrationButton href={config.companyRegistrationLink}>
+          {t('register-now-text')}
+          </RegistrationButton>
+        <RegistrationButton href={config.discountedRegistrationLink}>
+          {t('noncommercial-register-now-text')}
+        </RegistrationButton>
       </section>
       <section className="app-section">
         <h1>{t('contact-information')}</h1>
         <p>
-          {t('questions')}:  
+          {t('questions')}:
           <a href="mailto:info@potentiaali.com">&nbsp;info@potentiaali.com</a>
         </p>
       </section>

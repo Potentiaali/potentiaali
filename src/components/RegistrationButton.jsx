@@ -1,22 +1,14 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 import styles from './RegistrationButton.module.scss'
 import config from './../data/config.json'
 import classNames from 'classnames'
 import { useTranslation } from 'react-i18next'
 import dayjs from 'dayjs'
 
-/**
- * Returns the registration link.
- * @param {boolean} registrationDisabled
- */
-const navigateTo = (registrationDisabled) => {
-  if (!registrationDisabled) {
-    return config.companyRegistrationLink
-  }
-  return '#'
-}
 
-const RegistrationButton = () => {
+const RegistrationButton = ({ children, href }) => {
   const { t } = useTranslation()
   const regDate = config.companyRegistrationStartDate
   const regTime = config.companyRegistrationStartTime
@@ -28,7 +20,7 @@ const RegistrationButton = () => {
   }
   return (
     <a
-      href={navigateTo(registrationDisabled)}
+      href={registrationDisabled ? '#' : href}
       className={classNames({
         [styles.registrationButton]: true,
         [styles.registrationDisabled]: registrationDisabled
@@ -42,12 +34,17 @@ const RegistrationButton = () => {
         ) : (
           <>
             <i className="fas fa-external-link-alt"></i>&nbsp;&nbsp;&nbsp;
-            <p>{t('register-now-text')}</p>
+            <p className={styles.buttonParagraph}>{children}</p>
           </>
         )}
       </div>
     </a>
   )
+}
+
+RegistrationButton.propTypes = {
+  children: PropTypes.node.isRequired,
+  href: PropTypes.string.isRequired,
 }
 
 export { RegistrationButton }
