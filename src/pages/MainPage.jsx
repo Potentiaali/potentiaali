@@ -21,6 +21,7 @@ const MainPage = () => {
         >
           <p>{t('event-notification-body-1')} </p>
           <p><a target="_blank" href={config.companyRegistrationLink} rel="noreferrer">{t('event-notification-body-2-url')} </a></p>
+          <p><a target="_blank" href={config.discountedRegistrationLink} rel="noreferrer">{t('discounted-registration-url')} </a></p>
           <p>
             {t('event-notification-body-3')}{' '}
             <a target="_blank" href="mailto:info@potentiaali.com" rel="noreferrer">
