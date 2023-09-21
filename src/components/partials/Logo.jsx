@@ -24,9 +24,9 @@ const Logo = () => {
       <image
         xlinkHref="assets/lamp_brightorange.svg"
         className={styles['logo-image']}
-        x="355"
-        y="20"
-        height="160"
+        x="385"
+        y="45"
+        height="120"
       />
       <text x="25" y="162" className={styles['logo-1']} aria-hidden="true">
         {t('kumpulas')}
