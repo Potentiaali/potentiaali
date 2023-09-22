@@ -4,10 +4,10 @@
 <svg
    version="1.1"
    id="svg44"
-   width="1464.176"
-   height="1604.1445"
-   viewBox="0 0 1464.176 1604.1445"
-   sodipodi:docname="profiilikuva_test2.svg"
+   width="2048"
+   height="2047.9999"
+   viewBox="0 0 2048 2047.9999"
+   sodipodi:docname="potentiaali_bulb.svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -86,8 +86,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="0.50146488"
-     inkscape:cx="329.036"
-     inkscape:cy="797.66304"
+     inkscape:cx="337.01263"
+     inkscape:cy="1028.9853"
      inkscape:window-width="2560"
      inkscape:window-height="1381"
      inkscape:window-x="0"
@@ -98,14 +98,50 @@
        x="0"
        y="0"
        id="page50"
-       width="1464.176"
-       height="1604.1445" />
+       width="2048"
+       height="2047.9999" />
   </sodipodi:namedview>
   <g
      id="g52"
      inkscape:groupmode="layer"
      inkscape:label="Page 1"
-     transform="matrix(0.31999998,0,0,0.31999998,-328.13746,-224.86884)">
+     transform="matrix(0.31999998,0,0,0.31999998,0,5.8130664e-5)">
+    <g
+       id="g54"
+       style="display:inline;fill:#000000;fill-opacity:0">
+      <g
+         id="g56"
+         clip-path="url(#clipPath60)"
+         style="display:inline;fill:#000000;fill-opacity:0">
+        <g
+           id="g62"
+           transform="scale(3.125)"
+           style="display:inline;fill:#000000;fill-opacity:0">
+          <path
+             d="M 0,0 H 2048 V 2048 H 0 Z"
+             style="display:inline;fill:#000000;fill-opacity:0;fill-rule:nonzero;stroke:none"
+             id="path64" />
+        </g>
+      </g>
+    </g>
+    <g
+       id="g66"
+       style="display:inline;fill:#f58020;fill-opacity:1">
+      <g
+         id="g68"
+         clip-path="url(#clipPath72)"
+         style="fill:#f58020;fill-opacity:1">
+        <g
+           id="g74"
+           transform="scale(3.125)"
+           style="display:inline;fill:#f58020;fill-opacity:1">
+          <path
+             d="M 0,0 H 2048 V 2048 H 0 Z"
+             style="display:inline;fill:#f58020;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             id="path76" />
+        </g>
+      </g>
+    </g>
     <g
        id="g78"
        style="display:inline;fill:#fed3ac;fill-opacity:1">
