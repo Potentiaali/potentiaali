@@ -29,7 +29,7 @@ const Nav = () => {
         en: 'Frontpage'
       }
     },
-    /* {
+    {
       id: "companyPage",
       name: "Yritykset",
       linkName: "companies",
@@ -40,7 +40,7 @@ const Nav = () => {
         fi: "Yrtiykset",
         "en": "Companies",
       },
-    },*/
+    },
     {
       id: "companyRegistrationPage",
       name: "Yritysilmoittautuminen",

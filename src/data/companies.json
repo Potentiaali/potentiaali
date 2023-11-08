@@ -8,7 +8,7 @@
       "fi": "“Geologian tutkimuskeskuksessa teemme työtä maamme hyväksi. Tuotamme puolueetonta tutkimustietoa, josta on apua esimerkiksi ilmastonmuutoksen, energiamurroksen ja kiertotalouden haasteiden ratkaisemisessa. Yli 400 asiantuntijaamme ovat erikoistuneet mineraalitalouteen, energia-, vesi- ja ympäristökysymyksiin sekä digitaalisiin ratkaisuihin. Yhdessä suomalaisten ja kansainvälisten kumppaneidemme kanssa rakennamme kestävää, hiilineutraalia tulevaisuutta. GTK on työ- ja elinkeinoministeriön alainen tutkimuslaitos. www.gtk.fi\n",
       "en-US": "“At GTK, we aim to work for the Earth and for Us. We conduct objective research to find solutions to challenges posed by climate change, the energy transition, and the circular economy. Our 400 experts are specialists in the mineral economy, green energy, water management, the environment, and digital solutions. Together with our Finnish and global partners, we are building sustainable and carbon-neutral future. GTK is a research organization governed by the Finnish Ministry of Employment and the Economy. www.gtk.fi/en-US\n"
     },
-    "booth": "A18"
+    "booth": null
   },
   {
     "id": 2,
@@ -19,29 +19,7 @@
       "fi": "“Loimu on luonnontieteellisten, ympäristötieteellisten ja metsätieteellisten alojen asiantuntijoiden ammattiliitto. Alojemme opiskelijat ovat laajasti järjestäytyneet Loimuun, Loimussa on tällä hetkellä noin 5000 opiskelijajäsentä. Tunnemme jäsentemme työhön liittyvät asiat ja meillä on pitkä kokemus loimulaisten alojen työ- ja virkasuhdeasioiden hoitamisesta ja työmarkkinaedunvalvonnasta. Meillä on kaikkein ajankohtaisinta tietoa jäsentemme työllistymisestä, palkkauksesta ja uravaihtoehdoista. Autamme ja tuemme jäseniämme kaikissa työelämän vaiheissa ja tilanteissa.\n",
       "en-US": "“Loimu is a multidisciplinary union professionals in natural, environmental and forestry sciences. We are familiar with the working lives of our members and their special characteristics. We have a long experience of taking care of the members’ terms and conditions of employment as well as their career success. We help and support our members in different stages and versatile situations of the working life.\n"
     },
-    "booth": "A22"
-  },
-  {
-    "id": 3,
-    "name": "Vincit",
-    "imgSrc": "companies/vincit.jpg",
-    "websiteUrl": "https://www.vincit.com/",
-    "description": {
-      "fi": "“Coming to work shouldn’t suck. Not even on Mondays.\n\nAt Vincit, we believe in humane work life where wealth arises from appropriate variation: different ways of working and places to work in, meaningful content, suitably-sized challenges, memorable successes and moments of togetherness as well as from tackling everyday challenges together, openly and with respect to one other.\n",
-      "en-US": "“Coming to work shouldn’t suck. Not even on Mondays.\n\nAt Vincit, we believe in humane work life where wealth arises from appropriate variation: different ways of working and places to work in, meaningful content, suitably-sized challenges, memorable successes and moments of togetherness as well as from tackling everyday challenges together, openly and with respect to one other.\n"
-    },
-    "booth": "A19"
-  },
-  {
-    "id": 4,
-    "name": "Huld",
-    "imgSrc": "companies/huld.png",
-    "websiteUrl": "https://huld.io/fi/",
-    "description": {
-      "fi": "",
-      "en-US": ""
-    },
-    "booth": "C4"
+    "booth": null
   },
   {
     "id": 5,
@@ -52,29 +30,7 @@
       "fi": "Taito United nostaa palvelusi seuraavalle tasolle designia ja teknologiaa taitavasti yhdistämällä. Haluamme luoda asiakkaillemme parasta mahdollista softaa ja tarjota työntekijöillemme parhaan mahdollisen työpaikan. Tämä ydintarkoituksemme on kantanut meidät hienoihin onnistumisiin ja johtanut pitkiin kumppanuuksiin sekä pysyviin työsuhteisiin.",
       "en-US": "Taito United takes your digital services to the next level by skillfully combining design and technology. We want to create the best possible software for our customers and offer the best possible workplace for our employees. These core purposes have carried us to great successes and led us to long partnerships and lasting employment relationships."
     },
-    "booth": "A23"
-  },
-  {
-    "id": 6,
-    "name": "Insta Group",
-    "imgSrc": "companies/instagroup.svg",
-    "websiteUrl": "https://www.insta.fi/",
-    "description": {
-      "fi": "",
-      "en-US": ""
-    },
-    "booth": "B5"
-  },
-  {
-    "id": 7,
-    "name": "Vuono Group",
-    "imgSrc": "companies/vuono_group_black_bg.png",
-    "websiteUrl": "https://www.vuonogroup.com/",
-    "description": {
-      "fi": "Vuono Group is the latest startup in Futurice Family. We're a business engineering company focusing on software engineering, process development, automation and AI.",
-      "en-US": "Vuono Group is the latest startup in Futurice Family. We're a business engineering company focusing on software engineering, process development, automation and AI."
-    },
-    "booth": "A6"
+    "booth": null
   },
   {
     "id": 8,
@@ -85,40 +41,7 @@
       "fi": "Murata Electronics edistää yhteiskunnan kehitystä innovatiivisella anturiteknologialla, joka parantaa autojen turvallisuutta ja ihmisten elämänlaatua. Olemme maailman johtava kiihtyvyys-, kallistus- ja kulmanopeusantureiden valmistaja. Tuotteemme tarjoavat äärimmäistä luotettavuutta ja tarkkuutta käyttökohteissaan autoteollisuudessa, terveysteknologiassa ja erilaisissa teollisissa sovelluksissa. Kuulumme Murata-konserniin, joka työllistää maailmanlaajuisesti 74 000 ihmistä. Vantaalla sijaitsevassa teknologiakeskuksessamme työskentelee yli 1000 ammattilaista.",
       "en-US": "Murata Electronics contributes to the advancement of society with innovative sensor technology that makes driving safer and improves quality of life. We are a global market leading manufacturer of accelerometers, inclinometers and gyro sensors which provide crucial reliability and accuracy in various applications such automotive industry, health technologies and in industrial uses. We are part of Murata which employs 74 000 people globally with over 1000 people working in our technology center in Vantaa."
     },
-    "booth": "A16"
-  },
-  {
-    "id": 9,
-    "name": "Siili Solutions",
-    "imgSrc": "companies/siili.png",
-    "websiteUrl": "https://www.siili.com/fi/",
-    "description": {
-      "fi": "At Siili, we believe in human-centricity in everything we deliver. We are known as a community of brilliant yet easy-to- approach, honest and hardworking professionals. We transform visions into stand-out digital strategies.",
-      "en-US": "At Siili, we believe in human-centricity in everything we deliver. We are known as a community of brilliant yet easy-to- approach, honest and hardworking professionals. We transform visions into stand-out digital strategies."
-    },
-    "booth": "A4"
-  },
-  {
-    "id": 10,
-    "name": "Capgemini Finland",
-    "imgSrc": "companies/capgemini.svg",
-    "websiteUrl": "https://www.capgemini.com/",
-    "description": {
-      "fi": "",
-      "en-US": ""
-    },
-    "booth": "A1"
-  },
-  {
-    "id": 11,
-    "name": "Reaktor",
-    "imgSrc": "companies/reaktor.png",
-    "websiteUrl": "https://www.reaktor.com/",
-    "description": {
-      "fi": "",
-      "en-US": ""
-    },
-    "booth": "A2"
+    "booth": null
   },
   {
     "id": 12,
@@ -129,7 +52,7 @@
       "fi": "OP Ryhmä on Suomen suurin finanssiryhmä. Olemme asiakkaidemme omistama, finanssialan houkuttelevin työnantaja Suomessa. Ryhmässämme työskentelee yli 12 000 alan ammattilaista, ja tuotamme sekä kehitämme pankki-, sijoitus-, vakuutus- ja kiinteistönvälityspalveluita neljälle miljoonalle asiakkaallemme. Lisätietoa OP:sta työnantajana ja kaikki avoimet tehtävämme löydät osoitteesta www.op-careers.fi.  ",
       "en-US": "OP Financial Group is the leading financial services group in Finland. Owned by our customers, we are the most alluring employer in the Financial sector. OP Financial Group employs over 12,000 professionals and provides banking, asset management, wealth management, insurance and brokerage services for our four million customers. For more information about OP as an employer and for all vacancies, go to www.op-careers.fi.  "
     },
-    "booth": "A12"
+    "booth": null
   },
   {
     "id": 13,
@@ -140,18 +63,7 @@
       "fi": "Analyse² on Pohjoismaiden johtava päivittäistavarakaupan analytiikkaratkaisujen toimittaja. Meillä on yli 100 asiakasta, mukaan lukien suurimmat paikalliset kuluttajabrändit ja joidenkin maailman tunnetuimpien tuotemerkkien pohjoismaiset yksiköt. Asiakkaamme käyttävät analytiikka- ja tekoälyratkaisujamme vastatakseen tarkemmin asiakkaiden kysyntään, saavuttaakseen kilpailuetua ja menestyäkseen alan muutoksessa.",
       "en-US": "Analyse² is a leading provider of analytics solutions for the grocery retail industry in the Nordics. We have over 100 clients including biggest local consumer brands and the Nordic units of some of the world’s best known brands. Our clients use our analytics and AI solutions to cater to customer demand more precisely, gain competitive advantage and thrive in the industry transformation."
     },
-    "booth": "B6"
-  },
-  {
-    "id": 14,
-    "name": "Yle",
-    "imgSrc": "companies/yleisradio.png",
-    "websiteUrl": "https://yle.fi/",
-    "description": {
-      "fi": "",
-      "en-US": ""
-    },
-    "booth": "A17"
+    "booth": null
   },
   {
     "id": 15,
@@ -162,7 +74,7 @@
       "fi": "Tietoevry tukee yhteiskunnan kehitystä vastuullisen teknologian avulla. Olemme johtava teknologiayritys, jolla on pitkä historia Pohjoismaissa sekä globaalit kyvykkyydet. Arvojemme - avoimuus, luottamus ja monimuotoisuus - ohjaamana rakennamme asiakkaidemme kanssa digitaalista tulevaisuutta, jossa yritykset, yhteiskunnat ja ihmiskunta menestyvät.\n\n24 000 pilviteknologiaan, dataan ja ohjelmistoihin erikoistunutta asiantuntijaamme ympäri maailmaa palvelevat tuhansia yksityisen ja julkisen sektorin asiakkaita yli 90 maassa. Tietoevryn vuotuinen liikevaihto on noin 3 miljardia euroa ja yhtiön osakkeet on listattu NASDAQissa Helsingissä ja Tukholmassa sekä Oso Børsissä.",
       "en-US": "Tietoevry creates purposeful technology that reinvents the world for good. We are a leading technology company with a strong Nordic heritage and global capabilities. Based on our core values of openness, trust and diversity, we work with our customers to develop digital futures where businesses, societies, and humanity thrive.\n\nOur 24,000 experts globally specialize in cloud, data, and software, serving thousands of enterprise and public-sector customers in more than 90 countries. Tietoevry’s annual turnover is approximately EUR 3 billion and the company’s shares are listed on the NASDAQ exchange in Helsinki and Stockholm, as well as on Oslo Børs."
     },
-    "booth": "A5"
+    "booth": null
   },
   {
     "id": 16,
@@ -173,7 +85,7 @@
       "fi": "Puolustusvoimissa voit työskennellä siviilinä tai sotilaana - armeijataustalla tai ilman. Meillä on kehittymiseen kannustava työkulttuuri sekä joustavat työolosuhteet työn ja vapaa-ajan tasapainottamiseksi. Kannustamme työntekijöitämme pitämään huolta omasta hyvinvoinnistaan mm. viikoittaisella liikuntaedulla. Voit työskennellä strategisissa hankkeissa, tutkimuksessa ja kehityksessä - kansainvälisesti tai kansallisesti mm. tietotekniikan, tekniikan, talouden ja hallinnon, kouluttamisen sekä terveydenhuollon tehtävissä. Meidän 12 500 työntekijäämme operaattorista ohjusinsinööriin tekevät yhdessä työtä, jolla on tarkoitus. \n\nLisätietoa meistä löydät: \npuolustusvoimat.fi\nfacebook.com/pvrekry \nlinkedin.com/company/finnish-defence-forces\nyoutube.com/puolustusvoimat\n\n#Puolustusvoimat #PVrekry #rekry",
       "en-US": "The Finnish Defence Forces secures Finland’s territorial integrity, the livelihood and basic rights of its population and the freedom of action of the government, as well as defends the rule of law. The Defence Forces is a notable public employer in Finland. Our 12 500 employees work in various occupations around Finland.\n\nWe employ into military positions and civilian positions. Our education and training system gives personnel a great basis for their know-how. They are also encouraged to competence development and applying for even more demanding tasks in the Defence Forces. All employees are required to be Finnish citizens.\n\nMore information about us: \npuolustusvoimat.fi\nfacebook.com/pvrekry \nlinkedin.com/company/finnish-defence-forces\nyoutube.com/puolustusvoimat\n\n#Puolustusvoimat #PVrekry #rekry"
     },
-    "booth": "A3"
+    "booth": null
   },
   {
     "id": 17,
@@ -184,7 +96,7 @@
       "fi": "Me olemme Futurice\nVoimaannutamme maailman toimimaan. Tuomme strategian, suunnittelun, teknologian ja datan yhteen auttaaksemme organisaatioita ottamaan ohjat omasta tulevaisuudestaan sekä kehittymään kestävällä tavalla.\n\nUskomme vahvasti, että näkökulmissa on voimaa ja organisaatio on vain niin kykenevä kuin sen ihmiset. Varmistaaksemme menestyksemme tulevaisuudessa, olemme sitoutuneet monimuotoisuuteen, tasapuolisuuteen sekä osallistamiseen kaikilla liiketoimintamme osa-alueilla.",
       "en-US": "We’re Futurice\nEmpowering the world to act. We bring together strategy, design, engineering and data to help organisations become resilient, so they can take control of their futures.\n\nWe believe that there’s power in perspectives and an organization is only as capable as its people. In order to ensure our success in the future, we are committed to diversity, equity and inclusion in every aspect of our business."
     },
-    "booth": "C3"
+    "booth": null
   },
   {
     "id": 18,
@@ -195,41 +107,19 @@
       "fi": "",
       "en-US": ""
     },
-    "booth": "A21"
+    "booth": null
   },
   {
     "id": 19,
-    "name": "Maanmittauslaitos & Paikkatietokeskus (Finnish Geospatial Research Institute FGI)",
-    "shorter": "Maanmittauslaitos & Paikkatietokeskus",
+    "name": "Maanmittauslaitos",
+    "shorter": "Maanmittauslaitos",
     "imgSrc": "companies/maanmittauslaitos.png",
     "websiteUrl": "https://www.maanmittauslaitos.fi/",
     "description": {
       "fi": "Maanmittauslaitos tuottaa tietoa, palvelua ja tutkimusta Maasta.\n\nTeemme maanmittaustoimituksia, ylläpidämme kiinteistöjen tietoja, tuotamme kartta-aineistoja, huolehdimme lainhuudoista ja kiinnityksistä, kehitämme tietojärjestelmiä sekä teemme paikkatietoalan tutkimusta.  \n\nMaanmittauslaitoksen Paikkatietokeskuksen tutkijat tekevät koko yhteiskuntaa hyödyttävää paikkatietoalan mittaus- ja tutkimustyötä yhteistyössä yliopistojen ja tutkimuslaitosten, julkisyhteisöjen ja yritysten kanssa Suomessa ja kansainvälisesti.\n\nTietohallinnon toimintayksikkö vastaa Maanmittauslaitoksen IT- ja kehityspalveluista, tiedonhallinnasta sekä arkistopalveluista.\n\nMaanmittauslaitoksessa panostetaan yhteistyöhön, uskotaan kokeilukulttuuriin ja kehitetään vastuullisuutta. Huomioimme työssämme ympäristön, ihmisten ja talouden hyvinvoinnin. ",
       "en-US": "The National Land Survey produces information, services and research about the Earth.\n\nWe do land surveying, maintain property information, produce map data material, handle registrations of title and mortgages, develop ICT systems, and promote the research and application of spatial data.\n\nThe researchers of the Finnish Geospatial Research Institute at the National Land Survey perform measurements and research benefiting the whole society in the field of mapping in cooperation with universities and research institutes, public organisations and companies in Finland and internationally.\n\nThe specialists at the Centre for ICT Services at the National Land Survey are responsible for the information systems and information management of the National Land Survey.\n\nAt the National Land Survey, we invest in cooperation, believe in a culture where you can try and fail as well as improve our sustainability. In our work, we take into account the wellbeing of the environment, people, and the economy."
     },
-    "booth": "C5"
-  },
-  {
-    "id": 20,
-    "name": "Vaisala",
-    "imgSrc": "companies/vaisala.svg",
-    "websiteUrl": "https://www.vaisala.com/fi",
-    "description": {
-      "fi": "",
-      "en-US": ""
-    },
-    "booth": "C9"
-  },
-  {
-    "id": 21,
-    "name": "Bluefors",
-    "imgSrc": "companies/bluefors.png",
-    "websiteUrl": "https://bluefors.com/",
-    "description": {
-      "fi": "",
-      "en-US": ""
-    },
-    "booth": "B7"
+    "booth": null
   },
   {
     "id": 22,
@@ -240,7 +130,7 @@
       "fi": "Olemme yksi suurimpia IT-yrityksiä Suomessa ja maailmalla. Vahva kokemus eri toimialoilta sekä konkreettisiin tuloksiin tähtäävä lähestymistapamme auttavat yrityksiä ja julkisen sektorin organisaatioita saavuttamaan tavoitteitaan tehokkaammin. Asiantuntijamme työskentelevät Suomessa 17 paikkakunnalla ja globaalisti toimipisteitä on yli 400. Olemme asiakkaillemme paikallisesti läsnä, mutta tarjoamme käyttöön globaalit resurssit.\n\nSpace & Geo -yksikkömme työskentelee mielenkiintoisissa ja merkityksellisissä projekteissa, joissa pureudutaan esimerkiksi ympäristö-, metsä- ja maatalous sektorin kehittämiseen, liikenteen sujuvoittamiseen, paikkatietodatan analytiikkaan ja vauhdilla kasvavaan avaruusliiketoimintaan.",
       "en-US": "CGI is among the largest IT and business consulting services firms in Finland and in the world. We are insights-driven and outcomes-based to help accelerate returns on your investments. Across 21 industry sectors in 400 locations worldwide, our 77,000 professionals provide comprehensive, scalable and sustainable IT and business consulting services that are informed globally and delivered locally.\n\nOur Space & Geo unit in Finland helps organizations across industries take advantage of space and geo data technologies to pursue new business opportunities made possible by advancements in space, as well as address pressing societal challenges, such as climate change and security threats."
     },
-    "booth": "B3"
+    "booth": null
   },
   {
     "id": 23,
@@ -251,7 +141,7 @@
       "fi": "",
       "en-US": ""
     },
-    "booth": "B1"
+    "booth": null
   },
   {
     "id": 24,
@@ -262,7 +152,7 @@
       "fi": "Accenture on maailmanlaajuisesti toimiva asiantuntijayritys, jonka vahvuuksia ovat digitaalisuus, pilvipalvelut sekä kyberturva. Toimialakohtaiset palvelumme kattavat strategisen muutoksen, konsultoinnin, teknologian, markkinoinnin ja asiakaskokemuksen sekä prosessiulkoistuksen. Asiakkaitamme tukee maailman laajin palvelukeskusten verkosto. Accenturen 710 000 ammattilaista palvelevat asiakkaita yli 120 maassa yhdistäen teknologian mahdollisuudet sekä ihmisten luovan osaamisen. Lue lisää avoimista paikoistamme osoitteesta accenture.com/careers. ",
       "en-US": "Accenture is a global professional services company with leading capabilities in digital, cloud and security. Combining unmatched experience and specialized skills across more than 40 industries, we offer Strategy and Consulting, Technology and Operations services and Accenture Song — all powered by the world’s largest network of Advanced Technology and Intelligent Operations centers. Our 710,000 people deliver on the promise of technology and human ingenuity every day, serving clients in more than 120 countries. We embrace the power of change to create value and shared success for our clients, people, shareholders, partners and communities. Read more about our open positions at www.accenture.com/careers. "
     },
-    "booth": "C6"
+    "booth": null
   },
   {
     "id": 25,
@@ -273,29 +163,7 @@
       "fi": "The world’s first industrial production using atomic layer deposition (ALD), since 1984.\nHeadquarters and ALD fabrication in Espoo, Finland, with 40+ ALD systems for R&D and services. \nGlobal operations and services in Japan, Taiwan, China, USA, and EU. \nRapid growth of more than 50% in headcount and revenue, year-on-year. \n\nOur vision is to enable technological megatrends with engineered ALD solutions.\n\nOur mission is to support the success of our customers by delivering best-in-class, innovative and flexible ALD solutions.",
       "en-US": "The world’s first industrial production using atomic layer deposition (ALD), since 1984.\nHeadquarters and ALD fabrication in Espoo, Finland, with 40+ ALD systems for R&D and services. \nGlobal operations and services in Japan, Taiwan, China, USA, and EU. \nRapid growth of more than 50% in headcount and revenue, year-on-year. \n\nOur vision is to enable technological megatrends with engineered ALD solutions.\n\nOur mission is to support the success of our customers by delivering best-in-class, innovative and flexible ALD solutions."
     },
-    "booth": "B8"
-  },
-  {
-    "id": 26,
-    "name": "Visual Components",
-    "imgSrc": "companies/visualcomponents.svg",
-    "websiteUrl": "https://www.visualcomponents.com/",
-    "description": {
-      "fi": "",
-      "en-US": ""
-    },
-    "booth": "A11"
-  },
-  {
-    "id": 27,
-    "name": "Cinia",
-    "imgSrc": "companies/cinia.png",
-    "websiteUrl": "https://www.cinia.fi/",
-    "description": {
-      "fi": "",
-      "en-US": ""
-    },
-    "booth": "A14"
+    "booth": null
   },
   {
     "id": 28,
@@ -306,7 +174,7 @@
       "fi": "",
       "en-US": ""
     },
-    "booth": "C7"
+    "booth": null
   },
   {
     "id": 29,
@@ -317,51 +185,7 @@
       "fi": "",
       "en-US": ""
     },
-    "booth": "B2"
-  },
-  {
-    "id": 30,
-    "name": "Perfektio",
-    "imgSrc": "companies/perfektio-logo.png",
-    "websiteUrl": "https://perfektio.fi/en-US",
-    "description": {
-      "fi": "Perfektio on nuori ohjelmistoyritys, jossa kokoontuu yhteen todellinen pieni heimo asiantuntijoita ja digitaalisen maailman nikkareita, joilla on sydämenasiana tuoda maailmaan kauniita, käytettäviä ja kannattavia sovelluksia ja ratkaisuja. Perfektio on syntynyt rakkaudesta lajiin sekä ajatuksesta, että töihin meno ei saa ahdistaa. Meitä ajaa eteenpäin jatkuva uuden oppimisen into mukavassa ja motivoituneessa porukassa. Mukavuusalueiden ulkopuolella on hauskempaa luistella yhdessä!\n\nMeillä jokainen saa projekteissa kontolleen sopivissa määrin vastuuta ja vastapainoksi reilusti tekemisen vapautta, joka koskee niin työvälineitä kuin työympäristöäkin. Tiimeillämme ja työntekijöillämme on myös taipumus hitsautua yhteen, ja toimiston ulkopuolella monet meistä jaksavat katsella toistensa naamoja myös vapaa-ajalla omien kiinnostuksiensa mukaan.\n\nYrityskulttuurimme on yhä varsin dynaamista, muovautuvaa ja työntekijälähtöistä, ja voimme puhua rehellisesti itsemmenäköisyydestä. Muutoksista ja uudistuksista keskustellaan tasavertaisesti yhdessä koko yrityksen sisällä. Tasa-arvosta ja avarakatseisuudesta emme tingi.",
-      "en-US": "Perfektio is a young and rising software company, a modern tribe of experts and tinkerers of the digital era. We strive to deliver beautiful, practical and valuable solutions into the world. Perfektio was born out of love for our profession and of mentality that going to work shouldn’t be distressing or feel like a chore. We are driven by continuous eagerness to learn new things in great and motivated company. It’s good to gather your party before venturing forth outside the comfort zone!\n\nAt Perfektio everyone gets an appropriate share of responsibility but also a great amount of freedom which includes the tools of your choice and working in an environment you like. Our teams and people are close-knit and we spend time together not just in the office but pastime too, according to the individual interests of everyone.\n\nOur organisational culture is dynamic, adaptive and worker-oriented, something that is truly an image of ourselves. Our size makes it possible that changes and reforms are possible to discuss equally and together with everyone in the company. Equality and open-mindedness are cornerstones that we don’t compromise."
-    },
-    "booth": "A20"
-  },
-  {
-    "id": 31,
-    "name": "City of Helsinki/ Urban Environment Division",
-    "imgSrc": "companies/logo_helsinki.png",
-    "websiteUrl": "https://www.hel.fi/en-US/decision-making/city-organization/divisions/urban-environment-division",
-    "description": {
-      "fi": "Kaupunkiympäristön toimiala huolehtii Helsingin kaupunkiympäristön suunnittelusta, rakentamisesta ja ylläpidosta, rakennusvalvonnasta sekä ympäristöön liittyvistä palveluista.",
-      "en-US": "The City of Helsinki Urban Environment Division is responsible for planning, construction and maintenance as well as building control and environmental services related to the Helsinki urban environment. "
-    },
-    "booth": "A15"
-  },
-  {
-    "id": 32,
-    "name": "EY",
-    "imgSrc": "companies/ey.png",
-    "websiteUrl": "https://www.ey.com/fi_fi",
-    "description": {
-      "fi": "",
-      "en-US": ""
-    },
-    "booth": "C8"
-  },
-  {
-    "id": 33,
-    "name": "Solidabis Solutions",
-    "imgSrc": "companies/solidabis.png",
-    "websiteUrl": "https://www.solidabis.com/",
-    "description": {
-      "fi": "#nobullshit IT-konsultointifirma. Joukkoomme kuuluu noin 80 prosessikehityksen, devauksen ja designin osaajaa, joiden voimin kehitämme luovia ja kestäviä digitaalisia ratkaisuja. Olemme osa twoday-yhtiötä, johon yhdistymme vuoden vaihteessa.",
-      "en-US": "#nobullshit IT company. We offer software development, process development and design services and consist of 80 professionals of these fields. We implement creative and sustainable digital solutions for our customers. Merging with twoday company in 2023."
-    },
-    "booth": "A8"
+    "booth": null
   },
   {
     "id": 34,
@@ -372,7 +196,7 @@
       "fi": "",
       "en-US": ""
     },
-    "booth": "A10"
+    "booth": null
   },
   {
     "id": 35,
@@ -383,18 +207,7 @@
       "fi": "The University of Helsinki is Finland’s largest and oldest academic institution and an innovative centre of science and thinking. Since 1640, we have contributed to the establishment of a fair and equal society that is considered one of the best in the world. Today, our multidisciplinary academic community solves problems that affect us all – with the power of knowledge, for the world.",
       "en-US": "The University of Helsinki is Finland’s largest and oldest academic institution and an innovative centre of science and thinking. Since 1640, we have contributed to the establishment of a fair and equal society that is considered one of the best in the world. Today, our multidisciplinary academic community solves problems that affect us all – with the power of knowledge, for the world."
     },
-    "booth": "A9"
-  },
-  {
-    "id": 36,
-    "name": "Contravariant",
-    "imgSrc": "companies/contravariant.png",
-    "websiteUrl": "https://contravariant.fi/",
-    "description": {
-      "fi": "",
-      "en-US": ""
-    },
-    "booth": "B4"
+    "booth": null
   },
   {
     "id": 37,
@@ -405,18 +218,7 @@
       "fi": "",
       "en-US": ""
     },
-    "booth": "A7"
-  },
-  {
-    "id": 38,
-    "name": "Frends & HiQ",
-    "imgSrc": "companies/frends_and_hiq.png",
-    "websiteUrl": "https://frends.com/",
-    "description": {
-      "fi": "HiQ yksinkertaistaa ihmisten elämää teknologian avulla. Kehitämme asiakkaidemme liiketoiminnan tarpeisiin mutkattomia ja kestäviä käyttäjäystävällisiä ratkaisuja, joissa yhdistyvät tasapainoisesti teknologia, design, vuorovaikutus ja viestintä. Palvelutarjontamme kattaa koko ketjun ideasta valmiiseen palveluun ja palvelun elinkaaren aikaiseen tukeen ja jatkokehitykseen. https://hiq.fi/ \nFrends eiPaaS mahdollistaa niin digitalisaation APIen ja API-hallinnan kautta kuin hyperautomaationkin. Erikoisuutenamme on oma, suomalainen integraatioalusta Frends, jota käytämme useimmissa projekteissamme. Frendsin erottaa kilpailijoistaan sen kattavuus sekä helppokäyttöisyys. Vahva tiimihenki sekä luottamus, vapaus ja joustavuus ovat kulttuurimme kulmakiviä. Huipputyökaverit yhdistettynä haastaviin ja monipuolisiin projekteihin tehokkaalla ja modernilla alustalla – tätä on Frendszone. Frendsissä meitä on noin 200 henkeä neljässä eri maassa. Frends on osa HiQ-konsernia. https://frends.com/ ",
-      "en-US": "At HiQ we aim to simplify people’s lives through technology. Think of us as the one-stop shop where technology, design and communication intersect. We span the entire tech- and media landscape – from initial business development and innovation of new services, all the way to implementation, marketing and maintenance. https://hiq.fi/\nFrends enterprise iPaaS enables digitalization and process automation. We have an own integration platform Frends. With Frends you get to see the development of the modern enterprise iPaaS platform from various angles. Strong team spirit as well as trust, freedom and flexibility are the cornerstones of our culture. Top workmates coupled with challenging and versatile projects with a powerful platform which enables digitalization and process automation – this is Frendszone. Frends is part of HiQ group. https://frends.com/ "
-    },
-    "booth": "C1"
+    "booth": null
   },
   {
     "id": 39,
@@ -427,18 +229,7 @@
       "fi": "At Nokia, we create technology that helps the world act together. \n\nNokia Finland is a community of 6500 employees representing 80 nationalities, and our three sites in Finland – headquarter in Espoo, Tampere and Oulu – play a key role in in advanced technology development and in creating products and solutions for mobile networks as well as management systems. \n\nOur three sites work closely with universities, research institutes and other companies in Finland – building best-of-breed technology to deliver collaborative advantage and enable impact at scale. Each site in Finland has its own focus area: Espoo focuses on the development of mobile networks and cloud products; Oulu specializes in the radio technologies; and Tampere is the home of network management and leading SoC development. Currently, our main focus is on 5G development.\n\nWe have a great variety of open positions in Finland. Relevant skills for the positions are for example: SW coding (e.g. C/C++, JavaScript, Python and Golang), SW testing, automation and integration (e.g. Gerrit, GitLab CI, Jenkins), Cloud technology (Webscale clouds, Kubernetes, Docker), System on chip development (MATLAB, System Verilog, UVM). Each year, we welcome around 500 trainees across our three sites.\n\nTo view open positions and to apply, please visit: www.nokia.com/careers. \nFollow us on Instagram @nokiafinland and on TikTok @nokia.\n\nWe challenge ourselves to create an inclusive way of working where we are open to new ideas, empowered to take risks and fearless to bring our authentic selves to work. And to do this, we need the best experts in the world.",
       "en-US": "At Nokia, we create technology that helps the world act together. \n\nNokia Finland is a community of 6500 employees representing 80 nationalities, and our three sites in Finland – headquarter in Espoo, Tampere and Oulu – play a key role in in advanced technology development and in creating products and solutions for mobile networks as well as management systems. \n\nOur three sites work closely with universities, research institutes and other companies in Finland – building best-of-breed technology to deliver collaborative advantage and enable impact at scale. Each site in Finland has its own focus area: Espoo focuses on the development of mobile networks and cloud products; Oulu specializes in the radio technologies; and Tampere is the home of network management and leading SoC development. Currently, our main focus is on 5G development.\n\nWe have a great variety of open positions in Finland. Relevant skills for the positions are for example: SW coding (e.g. C/C++, JavaScript, Python and Golang), SW testing, automation and integration (e.g. Gerrit, GitLab CI, Jenkins), Cloud technology (Webscale clouds, Kubernetes, Docker), System on chip development (MATLAB, System Verilog, UVM). Each year, we welcome around 500 trainees across our three sites.\n\nTo view open positions and to apply, please visit: www.nokia.com/careers. \nFollow us on Instagram @nokiafinland and on TikTok @nokia.\n\nWe challenge ourselves to create an inclusive way of working where we are open to new ideas, empowered to take risks and fearless to bring our authentic selves to work. And to do this, we need the best experts in the world."
     },
-    "booth": "C2"
-  },
-  {
-    "id": 40,
-    "name": "Helsinki Think Company",
-    "imgSrc": "companies/helsinki_think_company.png",
-    "websiteUrl": "https://www.thinkcompany.fi/",
-    "description": {
-      "fi": "Helsinki Think Company on yliopiston yrittäjyysyhteisö, joka koostuu opiskelijoista, tutkijoista ja yrittäjistä. Think Companyn missio on auttaa muuttamaan akateeminen tietotaito konkreettiseksi toiminnaksi. Tätä varten tarjoamme yrittäjyyskoulutusta, tukea ja verkostoja niille, jotka haluavat olla tekemässä muutosta.",
-      "en-US": "Consisting of students, researchers, and entrepreneurs of all kinds, Helsinki Think Company transforms academic knowledge into concrete action. This is achieved by providing entrepreneurial education, tools and support for those who want to make an impact on their surroundings."
-    },
-    "booth": "#"
+    "booth": null
   },
   {
     "id": 41,
@@ -449,6 +240,6 @@
       "fi": "",
       "en-US": ""
     },
-    "booth": "A13"
+    "booth": null
   }
 ]

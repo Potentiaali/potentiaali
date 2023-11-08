@@ -7,10 +7,9 @@ import { BoothBadge } from '../components/partials/badges/BoothBadge'
 
 const SingleCompanyPage = () => {
   const companies = useSelector((state) => state.company.companies)
-  const { t, i18n } = useTranslation()
-  let params = useParams()
-  currentLocale = i18n.language
-  let eventId = params.id
+  const { t } = useTranslation()
+  const params = useParams()
+  const companyId = params.id
   if (!companyId) {
     return <span> {t('company-not-found')}</span>
   }
@@ -26,7 +25,7 @@ const SingleCompanyPage = () => {
   return (
     <>
       <section className="app-section">
-        <Link to="" onClick={() => router.back()}>
+        <Link to="/companies">
           <h3>
             <i className="fas fa-chevron-left"></i>&nbsp;&nbsp;
             <span> {t('go-back')}</span>
@@ -35,9 +34,7 @@ const SingleCompanyPage = () => {
       </section>
       <section className="app-section">
         <h1>{company.name}</h1>
-        <p>
-          <BoothBadge name={company.booth} />
-        </p>
+        <BoothBadge name={company.booth} />
         <div
           style={{
             backgroundColor: 'white',
