@@ -14,6 +14,9 @@ const CompanyPage = () => {
         <h1>{t('companies-title-text')}</h1>
       </section>
       <section className="app-section">
+        {t('company-list-will-be-updated')}
+      </section>
+      <section className="app-section">
         <input
           className="all-companies-filter"
           value={inputText}

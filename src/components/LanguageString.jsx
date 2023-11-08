@@ -6,7 +6,7 @@ const defaultLocale = 'en'
 
 const LanguageString = ({ languageObject }) => {
   const { i18n } = useTranslation()
-  currentLocale = i18n.language
+  const currentLocale = i18n.language
 
   if (languageObject[currentLocale] === undefined) {
     return <>{languageObject[defaultLocale]}</>

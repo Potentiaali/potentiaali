@@ -7,5 +7,5 @@ export const BoothBadge = ({ name }) => (
 )
 
 BoothBadge.propTypes = {
-  name: PropTypes.string.isRequired
+  name: PropTypes.string
 }
