@@ -242,4 +242,15 @@
     },
     "booth": null
   }
+  {
+    "id": 42,
+    "name": "Cinia",
+    "imgSrc": "companies/cinia.png",
+    "websiteUrl": "https://www.cinia.fi/",
+    "description": {
+      "fi": "", 
+      "en" :"" 
+    }, 
+    "booth": null
+  },
 ]
