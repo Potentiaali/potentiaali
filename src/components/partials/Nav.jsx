@@ -40,7 +40,7 @@ const Nav = () => {
         fi: "Yrtiykset",
         "en": "Companies",
       },
-    },
+    },/*
     {
       id: "companyRegistrationPage",
       name: "Yritysilmoittautuminen",
@@ -52,8 +52,8 @@ const Nav = () => {
         fi: "Yritys ilmoittautuminen",
         "en": "Company registration",
       },
-    },/*
-    {
+    },*/
+    /* {
       id: "schedulePage",
       name: "Aikataulu",
       linkName: "schedule",
@@ -65,7 +65,7 @@ const Nav = () => {
         "en": "Schedule",
       },
     },
-    {
+     {
       id: "mapPage",
       name: "Kartta",
       linkName: "map",
@@ -76,7 +76,7 @@ const Nav = () => {
         fi: "Kartta",
         "en": "Map",
       },
-    },*/,
+    },*/
     {
       id: 'fieldsOfStudiesPage',
       name: 'Aineiden esittely',

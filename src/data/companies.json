@@ -55,17 +55,6 @@
     "booth": null
   },
   {
-    "id": 13,
-    "name": "Analyse2",
-    "imgSrc": "companies/analyse2_2.svg",
-    "websiteUrl": "https://www.analyse2.com/",
-    "description": {
-      "fi": "Analyse² on Pohjoismaiden johtava päivittäistavarakaupan analytiikkaratkaisujen toimittaja. Meillä on yli 100 asiakasta, mukaan lukien suurimmat paikalliset kuluttajabrändit ja joidenkin maailman tunnetuimpien tuotemerkkien pohjoismaiset yksiköt. Asiakkaamme käyttävät analytiikka- ja tekoälyratkaisujamme vastatakseen tarkemmin asiakkaiden kysyntään, saavuttaakseen kilpailuetua ja menestyäkseen alan muutoksessa.",
-      "en-US": "Analyse² is a leading provider of analytics solutions for the grocery retail industry in the Nordics. We have over 100 clients including biggest local consumer brands and the Nordic units of some of the world’s best known brands. Our clients use our analytics and AI solutions to cater to customer demand more precisely, gain competitive advantage and thrive in the industry transformation."
-    },
-    "booth": null
-  },
-  {
     "id": 15,
     "name": "Tietoevry",
     "imgSrc": "companies/tietoevry.webp",
@@ -380,8 +369,8 @@
     "imgSrc": "companies/ey.png",
     "websiteUrl": "https://www.ey.com/fi_fi/careers",
     "description": {
-      "fi": "",
-      "en-US": ""
+      "fi": "EY exists to build a better working world, helping to create long-term value for clients, people and society and build trust in the capital markets.\n\nEnabled by data and technology, diverse EY teams in over 150 countries provide trust through assurance and help clients grow, transform and operate.\n\nWorking across assurance, consulting, law, strategy, tax and transactions, EY teams ask better questions to find new answers for the complex issues facing our world today.",
+      "en-US": "EY exists to build a better working world, helping to create long-term value for clients, people and society and build trust in the capital markets.\n\nEnabled by data and technology, diverse EY teams in over 150 countries provide trust through assurance and help clients grow, transform and operate.\n\nWorking across assurance, consulting, law, strategy, tax and transactions, EY teams ask better questions to find new answers for the complex issues facing our world today."
     },
     "booth": null
   }

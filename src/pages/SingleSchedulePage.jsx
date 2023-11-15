@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 import { Language } from '../components/partials/Language'
-import { format } from 'date-fns'
+import dayjs from 'dayjs'
 import { useTranslation } from 'react-i18next'
 import { Link, useParams } from 'react-router-dom'
 
@@ -10,9 +10,9 @@ import LanguageString from '../components/LanguageString'
 const SingleSchedulePage = () => {
   const events = useSelector((state) => state.schedule.events)
   const { t, i18n } = useTranslation()
-  let params = useParams()
+  const params = useParams()
   currentLocale = i18n.language
-  let eventId = params.id
+  const eventId = params.id
   if (!eventId) {
     return <span> {t('event-not-found')}</span>
   }
@@ -62,8 +62,8 @@ const SingleSchedulePage = () => {
             <span className="event-info-value">
               <span> {t('event-time')}</span>
               {': '}
-              <time>{format(event.startTime, 'HH.mm')}</time> -{' '}
-              <time>{format(event.endTime, 'HH.mm')}</time>
+              <time>{dayjs(event.startTime).format('HH:mm')}</time> -{' '}
+              <time>{dayjs(event.endTime).format('HH:mm')}</time>
             </span>
           </li>
           {event.language && (

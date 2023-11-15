@@ -13,26 +13,23 @@ const CompanyRegistrationPage = React.lazy(() => import('./pages/CompanyRegistra
 const CompanyPage = React.lazy(() => import("./pages/CompanyPage"))
 const SingleCompanyPage = React.lazy(() => import("./pages/SingleCompanyPage"))
 
-/* const Footer = React.lazy(() => import("./components/partials/Footer"))
-const MapPage = React.lazy(() => import("./pages/MapPage"))
-const SchedulePage = React.lazy(() => import("./pages/SchedulePage"))
-const SingleSchedulePage = React.lazy(() =>
-  import("./pages/SingleSchedulePage")
-)
-*/
+ const Footer = React.lazy(() => import("./components/partials/Footer"))
+// const MapPage = React.lazy(() => import("./pages/MapPage"))
+// const SchedulePage = React.lazy(() => import("./pages/SchedulePage"))
+// const SingleSchedulePage = React.lazy(() =>import("./pages/SingleSchedulePage"))
+
 dayjs.locale(config.defaultLocale)
 
 const App = () => {
   return (
     <>
-        <Nav />
-
+      <Nav />
       <div className="content-wrapper">
       <Suspense fallback={<Fallback.Loader/>}>
           <Page>
             <Routes>
               <Route exact="true" path="/" element={<MainPage />} />
-              {/*  <Route exact path="/schedule" element={<SchedulePage />} />
+{/*               <Route exact path="/schedule" element={<SchedulePage />} />
               <Route
                 exact="true"
                 path="/schedule/:id"
@@ -45,23 +42,23 @@ const App = () => {
               />
               <Route exact="true" path="/companies" element={<CompanyPage />} />
               <Route exact="true" path="/subjects" element={<Suspense fallback={<Fallback.Loader/>}><SubjectsPage /></Suspense>} />
-               {/* <Route exact path="/map" element={<MapPage />} />*/}
+              {/* <Route exact path="/map" element={<MapPage />} />*/}
               <Route
                 exact
                 path="/registration"
                 element={<CompanyRegistrationPage/>}></Route>
               <Route component={<NotFoundPage />} />
             </Routes>
-            {/*  <Suspense fallback={<Fallback.Footer />}>
+              <Suspense fallback={<Fallback.Footer />}>
               <Footer />
-        </Suspense>*/}
+        </Suspense>
           </Page>
           </Suspense>
       </div>
-      {/*
+      
       <Suspense fallback={<Fallback.Footer />}>
         <Footer />
-      </Suspense>*/}
+      </Suspense>
     </>
   )
 }

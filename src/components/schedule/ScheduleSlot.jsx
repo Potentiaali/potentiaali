@@ -2,14 +2,14 @@ import React from 'react'
 import propTypes from 'prop-types'
 import styles from './ScheduleSlot.module.scss'
 import classNames from 'classnames'
-import { format } from 'date-fns'
+import dayjs from 'dayjs'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import LanguageString from '../LanguageString'
-import './ScheduleGrid.scss'
+ import './ScheduleGrid.scss'
 
 const getHoursAndMinutes = (inputDate) => {
-  return format(inputDate, 'HHmm')
+  return dayjs(inputDate).format('HHmm')
 }
 
 const getFrom = (inputDate) => {
@@ -30,8 +30,8 @@ const ScheduleSlot = ({
   hideDetails,
   hideTime
 }) => {
-  const fromClass = getFrom(startTime)
-  const toClass = getTo(endTime)
+  const fromClass = getFrom(dayjs(startTime).toString())
+  const toClass = getTo(dayjs(endTime).toString())
   const { t } = useTranslation()
   return (
     <div className={classNames(styles.slot, fromClass, toClass)}>
@@ -56,8 +56,8 @@ const ScheduleSlot = ({
                 <i className="fas fa-clock"></i>
               </span>
               <span className={styles['slot-info-value']}>
-                <time>{format(startTime, 'HH.mm')}</time> -{' '}
-                <time>{format(endTime, 'HH.mm')}</time>
+                <time>{dayjs(dayjs(startTime)).format('HH.mm')}</time> -{' '}
+                <time>{dayjs(dayjs(endTime)).format('HH.mm')}</time>
               </span>
             </li>
           )}

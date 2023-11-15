@@ -45,8 +45,8 @@ const Footer = () => (
       >
         <i className="fab fa-instagram"></i>
       </a>
-      {/*<a
-        href="https://t.me/potentiaali22"
+      <a
+        href="https://t.me/potentiaali"
         rel="noopener noreferrer"
         target="_blank"
         className={styles["footer-icon"]}
@@ -54,7 +54,7 @@ const Footer = () => (
         aria-label="Join the official Telegram channel"
       >
         <i className="fab fa-telegram"></i>
-</a>*/}
+      </a>
       <a
         href="mailto:info@potentiaali.com"
         alt="Contact us via email"

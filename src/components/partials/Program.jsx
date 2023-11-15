@@ -2,11 +2,12 @@ import React from 'react'
 import styles from './Program.module.scss'
 import { Accordion } from '../accordion/Accordion'
 import { useTranslation } from 'react-i18next'
+import { Textfit } from '@aw-web-design/react-textfit'
 export const Program = () => {
   const { t } = useTranslation()
   return (
     <div>
-      <h4>{t('click-picture-for-instructions')}</h4>
+      <h4>{t('click-picture-for-more-info')}</h4>
       <br />
       <div className={styles.program}>
         <Accordion
@@ -14,11 +15,10 @@ export const Program = () => {
           title={<img src="assets/rekry_speed_dating.png" alt="Speed dates" />}
           accordionId={'speed-dates'}
         >
-          {/*}
           <Textfit mode="single" max={20}>
              <span>{t("rekry-speed-dating-title-text")}</span>
           </Textfit>
-  */}
+
           <p>{t('rekry-speed-dating-info-1')}</p>
           {/*
           <br />
