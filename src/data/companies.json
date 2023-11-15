@@ -241,16 +241,148 @@
       "en-US": ""
     },
     "booth": null
-  }, 
+  },
   {
     "id": 42,
     "name": "Cinia",
     "imgSrc": "companies/cinia.png",
     "websiteUrl": "https://www.cinia.fi/",
     "description": {
-      "fi": "", 
-      "en-US" :"" 
-    }, 
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": null
+  },
+  {
+    "id": 43,
+    "name": "Ambientia",
+    "imgSrc": "companies/ambientia.webp",
+    "websiteUrl": "https://www.ambientia.fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": null
+  },
+  {
+    "id": 44,
+    "name": "ASM",
+    "imgSrc": "companies/asm.svg",
+    "websiteUrl": "https://www.asm.com/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": null
+  },
+  {
+    "id": 45,
+    "name": "VTT",
+    "imgSrc": "companies/vtt.svg",
+    "websiteUrl": "https://www.vttresearch.com/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": null
+  },
+  {
+    "id": 46,
+    "name": "Netlight",
+    "imgSrc": "companies/netlight.svg",
+    "websiteUrl": "https://www.netlight.com/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": null
+  },
+  {
+    "id": 47,
+    "name": "Netum",
+    "imgSrc": "companies/netum.svg",
+    "websiteUrl": "https://www.netum.fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": null
+  },
+  {
+    "id": 48,
+    "name": "Elisa",
+    "imgSrc": "companies/elisa.png",
+    "websiteUrl": "https://elisa.fi/yhtiotieto/rekrytointi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": null
+  },
+  {
+    "id": 49,
+    "name": "Alma Media",
+    "imgSrc": "companies/alma_media.svg",
+    "websiteUrl": "https://www.almamedia.fi/tyopaikat/avoimet-tyopaikat/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": null
+  },
+  {
+    "id": 50,
+    "name": "CSC",
+    "imgSrc": "companies/CSC_logo.png",
+    "websiteUrl": "https://www.csc.fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": null
+  },
+  {
+    "id": 51,
+    "name": "Okmetic",
+    "imgSrc": "companies/okmetic.svg",
+    "websiteUrl": "https://www.okmetic.com/fi/toihin-meille/avoimet-tyopaikat/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": null
+  },
+  {
+    "id": 52,
+    "name": "Ilmarinen",
+    "imgSrc": "companies/ilmarinen.png",
+    "websiteUrl": "https://www.ilmarinen.fi/",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": null
+  },
+  {
+    "id": 53,
+    "name": "Tulli",
+    "imgSrc": "companies/tulli.svg",
+    "websiteUrl": "https://tulli.fi/tietoa-tullista/rekry/tulli-tyopaikkana",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
+    "booth": null
+  },
+  {
+    "id": 54,
+    "name": "EY",
+    "imgSrc": "companies/ey.png",
+    "websiteUrl": "https://www.ey.com/fi_fi/careers",
+    "description": {
+      "fi": "",
+      "en-US": ""
+    },
     "booth": null
   }
 ]
