@@ -42,9 +42,9 @@ observer.observe();
         <div className={styles['hero-paragraph']}>
           <p>{t('heroDescription')}</p>
           <b>
-            {date}
-            {/* {t("heroTimePrefix")}
-            {config.eventTime}*/}
+            {date} {' '}
+            {t("heroTimePrefix")} {' '}
+            {config.eventStartTime} - {config.eventEndTime}
           </b>
 
           {/* <br />*/}
@@ -57,7 +57,7 @@ observer.observe();
           ))*/}
         </div>
         <Suspense fallback={<div>Loading clock</div>}>
-        <Clock eventDate={`${config.eventDate} ${config.eventTime}`} />
+        <Clock eventDate={`${config.eventDate} ${config.eventStartTime}`} />
         </Suspense>
       </div>
       <div className="languages" />
