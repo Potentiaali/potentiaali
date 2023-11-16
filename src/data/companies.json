@@ -13,7 +13,7 @@
   {
     "id": 2,
     "name": "Loimu ry",
-    "imgSrc": "companies/loimu.png",
+    "imgSrc": "companies/loimu.jpg",
     "websiteUrl": "https://www.loimu.fi/",
     "description": {
       "fi": "“Loimu on luonnontieteellisten, ympäristötieteellisten ja metsätieteellisten alojen asiantuntijoiden ammattiliitto. Alojemme opiskelijat ovat laajasti järjestäytyneet Loimuun, Loimussa on tällä hetkellä noin 5000 opiskelijajäsentä. Tunnemme jäsentemme työhön liittyvät asiat ja meillä on pitkä kokemus loimulaisten alojen työ- ja virkasuhdeasioiden hoitamisesta ja työmarkkinaedunvalvonnasta. Meillä on kaikkein ajankohtaisinta tietoa jäsentemme työllistymisestä, palkkauksesta ja uravaihtoehdoista. Autamme ja tuemme jäseniämme kaikissa työelämän vaiheissa ja tilanteissa.\n",
@@ -91,7 +91,7 @@
     "id": 18,
     "name": "Zalando",
     "imgSrc": "companies/zalando.svg",
-    "websiteUrl": "https://www.zalando.fi/",
+    "websiteUrl": "https://jobs.zalando.com/en",
     "description": {
       "fi": "",
       "en-US": ""
@@ -147,7 +147,7 @@
     "id": 25,
     "name": "Beneq",
     "imgSrc": "companies/Beneq.png",
-    "websiteUrl": "https://beneq.com/en-US/",
+    "websiteUrl": "https://beneq.com",
     "description": {
       "fi": "The world’s first industrial production using atomic layer deposition (ALD), since 1984.\nHeadquarters and ALD fabrication in Espoo, Finland, with 40+ ALD systems for R&D and services. \nGlobal operations and services in Japan, Taiwan, China, USA, and EU. \nRapid growth of more than 50% in headcount and revenue, year-on-year. \n\nOur vision is to enable technological megatrends with engineered ALD solutions.\n\nOur mission is to support the success of our customers by delivering best-in-class, innovative and flexible ALD solutions.",
       "en-US": "The world’s first industrial production using atomic layer deposition (ALD), since 1984.\nHeadquarters and ALD fabrication in Espoo, Finland, with 40+ ALD systems for R&D and services. \nGlobal operations and services in Japan, Taiwan, China, USA, and EU. \nRapid growth of more than 50% in headcount and revenue, year-on-year. \n\nOur vision is to enable technological megatrends with engineered ALD solutions.\n\nOur mission is to support the success of our customers by delivering best-in-class, innovative and flexible ALD solutions."
@@ -157,7 +157,7 @@
   {
     "id": 28,
     "name": "Digia",
-    "imgSrc": "companies/digia.png",
+    "imgSrc": "companies/digia.svg",
     "websiteUrl": "https://digia.com/",
     "description": {
       "fi": "",
@@ -212,7 +212,7 @@
   {
     "id": 39,
     "name": "Nokia",
-    "imgSrc": "companies/nokia.webp",
+    "imgSrc": "companies/nokia.svg",
     "websiteUrl": "https://www.nokia.com/fi_fi/",
     "description": {
       "fi": "At Nokia, we create technology that helps the world act together. \n\nNokia Finland is a community of 6500 employees representing 80 nationalities, and our three sites in Finland – headquarter in Espoo, Tampere and Oulu – play a key role in in advanced technology development and in creating products and solutions for mobile networks as well as management systems. \n\nOur three sites work closely with universities, research institutes and other companies in Finland – building best-of-breed technology to deliver collaborative advantage and enable impact at scale. Each site in Finland has its own focus area: Espoo focuses on the development of mobile networks and cloud products; Oulu specializes in the radio technologies; and Tampere is the home of network management and leading SoC development. Currently, our main focus is on 5G development.\n\nWe have a great variety of open positions in Finland. Relevant skills for the positions are for example: SW coding (e.g. C/C++, JavaScript, Python and Golang), SW testing, automation and integration (e.g. Gerrit, GitLab CI, Jenkins), Cloud technology (Webscale clouds, Kubernetes, Docker), System on chip development (MATLAB, System Verilog, UVM). Each year, we welcome around 500 trainees across our three sites.\n\nTo view open positions and to apply, please visit: www.nokia.com/careers. \nFollow us on Instagram @nokiafinland and on TikTok @nokia.\n\nWe challenge ourselves to create an inclusive way of working where we are open to new ideas, empowered to take risks and fearless to bring our authentic selves to work. And to do this, we need the best experts in the world.",
@@ -234,7 +234,7 @@
   {
     "id": 42,
     "name": "Cinia",
-    "imgSrc": "companies/cinia.png",
+    "imgSrc": "companies/cinia.svg",
     "websiteUrl": "https://www.cinia.fi/",
     "description": {
       "fi": "",
