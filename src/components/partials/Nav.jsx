@@ -53,7 +53,7 @@ const Nav = () => {
         "en": "Company registration",
       },
     },*/
-    /* {
+     {
       id: "schedulePage",
       name: "Aikataulu",
       linkName: "schedule",
@@ -65,7 +65,7 @@ const Nav = () => {
         "en": "Schedule",
       },
     },
-     {
+     /* {
       id: "mapPage",
       name: "Kartta",
       linkName: "map",

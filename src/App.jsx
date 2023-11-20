@@ -15,8 +15,8 @@ const SingleCompanyPage = React.lazy(() => import("./pages/SingleCompanyPage"))
 
  const Footer = React.lazy(() => import("./components/partials/Footer"))
 // const MapPage = React.lazy(() => import("./pages/MapPage"))
-// const SchedulePage = React.lazy(() => import("./pages/SchedulePage"))
-// const SingleSchedulePage = React.lazy(() =>import("./pages/SingleSchedulePage"))
+ const SchedulePage = React.lazy(() => import("./pages/SchedulePage"))
+ const SingleSchedulePage = React.lazy(() =>import("./pages/SingleSchedulePage"))
 
 dayjs.locale(config.defaultLocale)
 
@@ -29,12 +29,12 @@ const App = () => {
           <Page>
             <Routes>
               <Route exact="true" path="/" element={<MainPage />} />
-{/*               <Route exact path="/schedule" element={<SchedulePage />} />
+               <Route exact path="/schedule" element={<SchedulePage />} />
               <Route
                 exact="true"
                 path="/schedule/:id"
                 element={<SingleSchedulePage />}
-  />*/}
+  />
               <Route
                 exact="true"
                 path="/company/:id"

@@ -11,7 +11,7 @@ const SingleSchedulePage = () => {
   const events = useSelector((state) => state.schedule.events)
   const { t, i18n } = useTranslation()
   const params = useParams()
-  currentLocale = i18n.language
+  const currentLocale = i18n.language
   const eventId = params.id
   if (!eventId) {
     return <span> {t('event-not-found')}</span>

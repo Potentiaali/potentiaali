@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { useTranslation } from 'react-i18next'
 
-const defaultLocale = 'en'
+const defaultLocale = 'en-US'
 
 const LanguageString = ({ languageObject }) => {
   const { i18n } = useTranslation()
