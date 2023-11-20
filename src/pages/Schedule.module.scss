@@ -14,11 +14,11 @@
   display: grid;
   grid-auto-rows: 75px;
   @include mobile {
-    grid-template-columns: repeat(5, $mobile-breakpoint * 1/2);
+    grid-template-columns: repeat(5, $mobile-breakpoint * 1/3);
     grid-auto-rows: 75px;
   }
   @include tablet {
-    grid-template-columns: repeat(5, 50%);
+    grid-template-columns: repeat(5, 20%);
     grid-auto-rows: 75px;
   }
   @include bigTablet {
