@@ -65,7 +65,7 @@ const CompanyRegistrationPage = () => {
             <span className="event-info-value">
               {t('event-time')}
               {': '}
-              {t('event-time-prefix')} {config.eventTime}
+              {t('event-time-prefix')} {config.eventStartTime}
             </span>
           </li>
           <li>

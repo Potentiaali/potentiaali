@@ -37,7 +37,7 @@ const Logo = () => {
       <text x="750" y="221" className={styles['logo-3']}>
         {config.eventDate !== '' && (
           <>
-            {eventDay} {/* {t("at-clock")} {config.eventTime}*/}
+            {eventDay} {config.eventStartTime} - {config.eventEndTime}
           </>
         )}
       </text>

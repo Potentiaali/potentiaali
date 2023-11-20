@@ -1,6 +1,7 @@
 {
   "eventDate": "2023-11-23",
-  "eventTime": "11:00:00",
+  "eventStartTime": "11:00",
+  "eventEndTime": "17:00",
   "defaultLocale": "en",
   "speedRekryOpen": false,
   "showProgramView": false,
