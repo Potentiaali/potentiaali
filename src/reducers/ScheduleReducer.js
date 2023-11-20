@@ -34,8 +34,8 @@ const schedule = [
     companyName: '',
     location: 'Physicum',
     title: {
-      fi: 'Jatkot',
-      'en-US': 'Afterparty'
+      fi: 'Jatkot: Arppa',
+      'en-US': 'Afterparty: Arppa'
     },
     description: {
       fi: 'Kumpulan Potentiaali 2022 -tapahtuman jatkot',
@@ -311,6 +311,78 @@ const schedule = [
     link: '',
     startTime: dayjs.tz(new Date(2023, 11, 23, 15, 30), 'Europe/Helsinki'),
     endTime: dayjs.tz(new Date(2023, 11, 23, 16, 30), 'Europe/Helsinki'),
+    hideDetails: false,
+    hideTime: false
+  },
+  {
+    id: 22,
+    companyName: '',
+    location: 'Info desk',
+    title: {
+      fi: 'Rannekkeet jatkoille',
+      'en-US': 'Afterparty tickets'
+    },
+    description: {
+      fi: 'Lunasta ilmainen jatkoranneke Kumpulan Potentiaalin jatkoille!',
+      'en-US': 'Claim a free ticket to Kumpulan Potentiaali afterparty!'
+    },
+    fullDescription: {
+      fi: '100 ranneketta.',
+      'en-US': '100 tickets.'
+    },
+    speakers: [],
+    language: 'fi',
+    link: '',
+    startTime: dayjs.tz(new Date(2023, 11, 23, 11, 0), 'Europe/Helsinki'),
+    endTime: dayjs.tz(new Date(2023, 11, 23, 11, 30), 'Europe/Helsinki'),
+    hideDetails: false,
+    hideTime: false
+  },
+  {
+    id: 23,
+    companyName: '',
+    location: 'Info desk',
+    title: {
+      fi: 'Rannekkeet jatkoille',
+      'en-US': 'Afterparty tickets'
+    },
+    description: {
+      fi: 'Lunasta ilmainen jatkoranneke Kumpulan Potentiaalin jatkoille!',
+      'en-US': 'Claim a free ticket to Kumpulan Potentiaali afterparty!'
+    },
+    fullDescription: {
+      fi: '150 ranneketta.',
+      'en-US': '150 tickets.'
+    },
+    speakers: [],
+    language: 'fi',
+    link: '',
+    startTime: dayjs.tz(new Date(2023, 11, 23, 13, 0), 'Europe/Helsinki'),
+    endTime: dayjs.tz(new Date(2023, 11, 23, 13, 30), 'Europe/Helsinki'),
+    hideDetails: false,
+    hideTime: false
+  },
+  {
+    id: 24,
+    companyName: '',
+    location: 'Info desk',
+    title: {
+      fi: 'Rannekkeet jatkoille',
+      'en-US': 'Afterparty tickets'
+    },
+    description: {
+      fi: 'Lunasta ilmainen jatkoranneke Kumpulan Potentiaalin jatkoille!',
+      'en-US': 'Claim a free ticket to Kumpulan Potentiaali afterparty!'
+    },
+    fullDescription: {
+      fi: 'Jäljellä olevat rannekkeet.',
+      'en-US': 'All remaining tickets..'
+    },
+    speakers: [],
+    language: 'fi',
+    link: '',
+    startTime: dayjs.tz(new Date(2023, 11, 23, 15, 0), 'Europe/Helsinki'),
+    endTime: dayjs.tz(new Date(2023, 11, 23, 15, 30), 'Europe/Helsinki'),
     hideDetails: false,
     hideTime: false
   }
