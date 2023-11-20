@@ -178,14 +178,14 @@ const schedule = [
     companyName: 'CSC',
     location: 'Exactum B123',
     title: {
-      fi: 'CSC - Tieteen tietotekniinan keskus Oy: "Physicist in the world of supercomputers"',
+      fi: 'CSC - Tieteen tietotekniikan keskus Oy: "Physicist in the world of supercomputers"',
       'en-US':
-        'CSC - Tieteen tietotekniinan keskus Oy: "Physicist in the world of supercomputers"'
+        'CSC - Tieteen tietotekniikan keskus Oy: "Physicist in the world of supercomputers"'
     },
     description: {
-      fi: 'CSC - Tieteen tietotekniinan keskus Oy: "Physicist in the world of supercomputers"',
+      fi: 'CSC - Tieteen tietotekniikan keskus Oy: "Physicist in the world of supercomputers"',
       'en-US':
-        'CSC - Tieteen tietotekniinan keskus Oy: "Physicist in the world of supercomputers"'
+        'CSC - Tieteen tietotekniikan keskus Oy: "Physicist in the world of supercomputers"'
     },
     fullDescription: {
       fi: '',
