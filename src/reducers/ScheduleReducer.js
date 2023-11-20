@@ -38,8 +38,8 @@ const schedule = [
       'en-US': 'Afterparty: Arppa'
     },
     description: {
-      fi: 'Kumpulan Potentiaali 2022 -tapahtuman jatkot',
-      'en-US': "Afterparty of Kumpula's Potential 2022"
+      fi: 'Kumpulan Potentiaali 2023 -tapahtuman jatkot',
+      'en-US': "Afterparty of Kumpula's Potential 2023"
     },
     fullDescription: {
       fi: 'Muista lunastaa päivän aikana jaettava ilmainen jatkoranneke!\n\nTänä vuonna Potentiaalin jatkojen pääesiintyjä on Arppa! Ennen kaikkea energisistä, improvisaatioon perustuvista keikoistaan tunnettu Arppa yhtyeineen on yksi tämänhetkisen Suomi-indien kärkinimistä. Arpan ihastuttava musiikki on ajatonta ja tekstit kuin liikkuvaa kuvaa – oivaltavat, vilpittömät ja tarkkanäköisesti kuvatut tunnelmat liikkuvat Kokkolan Ykspihlajasta aina öisen Helsingin kautta Laila Kinnusen kanssa salakapakkaan heinäkuuhun ’58.\n\nArpan yhtyeessä vaikuttavat muusikot Ville-Veikko Airaniemi, Eero Seppä ja Okko Saastamoinen. Luontevan vaivaton olemus ja yhtyeen esiintymisistä huokuva vilpitön riemu ei voi olla tempaamatta läsnäolijoita mukaansa!\n\nPotentiaalin jatkoilla lämppärinä soittaa tänä vuonna Bastu! Viiden ystävyksen muodostaman helsinkiläisen indie rock -yhtyeen tarina sai alkunsa Vaskivuoren lukiosta noin vuosikymmen sitten. Bastussa yhdistyy taitava biisinkirjoitus sekä räjähtävä live-energia.',
@@ -376,7 +376,7 @@ const schedule = [
     },
     fullDescription: {
       fi: 'Jäljellä olevat rannekkeet.',
-      'en-US': 'All remaining tickets..'
+      'en-US': 'All remaining tickets.'
     },
     speakers: [],
     language: 'fi',

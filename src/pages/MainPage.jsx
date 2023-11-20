@@ -75,7 +75,7 @@ const MainPage = () => {
                 </span>
                 <span className="event-info-value">
                   {t('event-date')} {': '}
-                  <time dateTime="2022-12-08 11:00">
+                  <time dateTime="2023-11-23 11:00">
                     {t('event-day')} {config.eventDate}
                   </time>
                 </span>
