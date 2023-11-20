@@ -323,10 +323,10 @@
     "id": 50,
     "name": "CSC",
     "imgSrc": "companies/CSC_logo.png",
-    "websiteUrl": "https://www.csc.fi/",
+    "websiteUrl": "https://www.csc.fi/rekry",
     "description": {
-      "fi": "",
-      "en-US": ""
+      "fi": "Would you like to be part of building future ICT solutions?\n\nCSC is a unique combination of advanced technology, the future of learning and teaching, and the power of networks. We employ a wide range of specialists from different areas of expertise and from different stages of career paths. We are constantly looking for new talents to join us.\n\nRead more about us as an employer: www.csc.fi/rekry",
+      "en-US": "Would you like to be part of building future ICT solutions?\n\nCSC is a unique combination of advanced technology, the future of learning and teaching, and the power of networks. We employ a wide range of specialists from different areas of expertise and from different stages of career paths. We are constantly looking for new talents to join us.\n\nRead more about us as an employer: www.csc.fi/rekry"
     },
     "booth": null
   },
