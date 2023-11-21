@@ -91,7 +91,7 @@ const MapPage = () => {
         />
       </div>
       <aside className={`app-section ${style.boothTableContainer}`}>
-          {Object.entries(groupedCompanies).map(([area, companies]) => (
+          {Object.entries(groupedCompanies).sort(([area1,], [area2,]) => area1.localeCompare(area2)).map(([area, companies]) => (
             <div key={area}>
               <h2>{t('map-area')} {area}</h2>
               <table className={style.boothTable}>

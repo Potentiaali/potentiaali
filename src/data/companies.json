@@ -144,17 +144,6 @@
     "booth": "C6"
   },
   {
-    "id": 25,
-    "name": "Beneq",
-    "imgSrc": "companies/Beneq.png",
-    "websiteUrl": "https://beneq.com",
-    "description": {
-      "fi": "The world’s first industrial production using atomic layer deposition (ALD), since 1984.\nHeadquarters and ALD fabrication in Espoo, Finland, with 40+ ALD systems for R&D and services. \nGlobal operations and services in Japan, Taiwan, China, USA, and EU. \nRapid growth of more than 50% in headcount and revenue, year-on-year. \n\nOur vision is to enable technological megatrends with engineered ALD solutions.\n\nOur mission is to support the success of our customers by delivering best-in-class, innovative and flexible ALD solutions.",
-      "en": "The world’s first industrial production using atomic layer deposition (ALD), since 1984.\nHeadquarters and ALD fabrication in Espoo, Finland, with 40+ ALD systems for R&D and services. \nGlobal operations and services in Japan, Taiwan, China, USA, and EU. \nRapid growth of more than 50% in headcount and revenue, year-on-year. \n\nOur vision is to enable technological megatrends with engineered ALD solutions.\n\nOur mission is to support the success of our customers by delivering best-in-class, innovative and flexible ALD solutions."
-    },
-    "booth": null
-  },
-  {
     "id": 28,
     "name": "Digia",
     "imgSrc": "companies/digia.svg",
@@ -163,7 +152,7 @@
       "fi": "",
       "en": ""
     },
-    "booth": "C7"
+    "booth": "A14"
   },
   {
     "id": 29,
@@ -240,7 +229,7 @@
       "fi": "",
       "en": ""
     },
-    "booth": "A14"
+    "booth": "A1"
   },
   {
     "id": 43,
@@ -350,7 +339,7 @@
       "fi": "",
       "en": ""
     },
-    "booth": "C8"
+    "booth": "C7"
   },
   {
     "id": 53,
@@ -372,6 +361,6 @@
       "fi": "EY exists to build a better working world, helping to create long-term value for clients, people and society and build trust in the capital markets.\n\nEnabled by data and technology, diverse EY teams in over 150 countries provide trust through assurance and help clients grow, transform and operate.\n\nWorking across assurance, consulting, law, strategy, tax and transactions, EY teams ask better questions to find new answers for the complex issues facing our world today.",
       "en": "EY exists to build a better working world, helping to create long-term value for clients, people and society and build trust in the capital markets.\n\nEnabled by data and technology, diverse EY teams in over 150 countries provide trust through assurance and help clients grow, transform and operate.\n\nWorking across assurance, consulting, law, strategy, tax and transactions, EY teams ask better questions to find new answers for the complex issues facing our world today."
     },
-    "booth": "C9"
+    "booth": "C8"
   }
 ]
