@@ -144,8 +144,8 @@ const schedule = [
     speakers: [''],
     language: 'en-US',
     link: '',
-    startTime: dayjs.tz(new Date(2023, 11, 23, 11, 0), 'Europe/Helsinki'),
-    endTime: dayjs.tz(new Date(2023, 11, 23, 12, 15), 'Europe/Helsinki'),
+    startTime: dayjs.tz(new Date(2023, 11, 23, 13, 0), 'Europe/Helsinki'),
+    endTime: dayjs.tz(new Date(2023, 11, 23, 14, 0), 'Europe/Helsinki'),
     hideDetails: false,
     hideTime: false
   },
