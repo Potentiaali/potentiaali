@@ -56,7 +56,7 @@ const schedule = [
   {
     id: 3,
     companyName: '',
-    location: 'Physicum D104',
+    location: 'Physicum D204',
     title: {
       fi: 'CV Profile Photography',
       'en-US': 'CV Profile Photography'
@@ -66,8 +66,8 @@ const schedule = [
       'en-US': 'CV Profile Photography'
     },
     fullDescription: {
-      fi: '',
-      'en-US': ''
+      fi: 'Uupuuko linkkarista tai CV:stä päivitetty profiilikuva? Harmittaako, että sinulta ei löydy valmiiksi sopivaa kuvaa laittaa liitteeksi rekryhakemuksiin?😔\n\nTorstaina on mahdollisuus päästä nappaamaan asiallinen profiilikuva kuvaajan kanssa !📸 Kuvaajan löytää klo 11-12 huoneesta D204 ja 13-14 huoneesta D104.\n\nTule nappaamaan uusi päivitetty kuva rekryhommiin ja seuraava kesä ei taatusti matele MOOC-kursseja suoritettaessa!',
+      'en-US': "Does you linkedin or CV lack an updated photo of yourself? Does it bother you that you can't find a suitable picture to attach to your recruitment applications? 😔\n\nOn Thursday you have the opportunity to get a proper profile picture with the photographer!📸 You can find the photographer 11-12 in room D204 and 13-14 in room D104.\n\nCome and get a new updated picture taken for recruitment and you won't spend the next summer completing MOOC courses!"
     },
     speakers: [],
     language: 'fi',
@@ -128,7 +128,7 @@ const schedule = [
   {
     id: 11,
     companyName: '',
-    location: 'Exactum D204',
+    location: 'Exactum D104',
     title: {
       fi: 'CV Profile Photography',
       'en-US': 'CV Profile Photography'
@@ -138,10 +138,10 @@ const schedule = [
       'en-US':''
     },
     fullDescription: {
-      fi: '',
-      'en-US': ''
+      fi: 'Uupuuko linkkarista tai CV:stä päivitetty profiilikuva? Harmittaako, että sinulta ei löydy valmiiksi sopivaa kuvaa laittaa liitteeksi rekryhakemuksiin?😔\n\nTorstaina on mahdollisuus päästä nappaamaan asiallinen profiilikuva kuvaajan kanssa !📸 Kuvaajan löytää klo 11-12 huoneesta D204 ja 13-14 huoneesta D104.\n\nTule nappaamaan uusi päivitetty kuva rekryhommiin ja seuraava kesä ei taatusti matele MOOC-kursseja suoritettaessa!',
+      'en-US': "Does you linkedin or CV lack an updated photo of yourself? Does it bother you that you can't find a suitable picture to attach to your recruitment applications? 😔\n\nOn Thursday you have the opportunity to get a proper profile picture with the photographer!📸 You can find the photographer 11-12 in room D204 and 13-14 in room D104.\n\nCome and get a new updated picture taken for recruitment and you won't spend the next summer completing MOOC courses!"
     },
-    speakers: [''],
+    speakers: [],
     language: 'en-US',
     link: '',
     startTime: dayjs.tz(new Date(2023, 11, 23, 13, 0), 'Europe/Helsinki'),
