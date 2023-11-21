@@ -56,3 +56,25 @@
     display: none;
   }
 }
+
+.boothTable {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.boothCol {
+  text-align: right;
+}
+
+.boothTableContainer {
+  display: flex;
+  width: auto;
+
+  @include tablet {
+    display: block;
+  }
+
+  & > div {
+    margin-right: 100px;
+  }
+}

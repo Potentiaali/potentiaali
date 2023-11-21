@@ -65,7 +65,7 @@ const Nav = () => {
         "en": "Schedule",
       },
     },
-     /* {
+    {
       id: "mapPage",
       name: "Kartta",
       linkName: "map",
@@ -76,7 +76,7 @@ const Nav = () => {
         fi: "Kartta",
         "en": "Map",
       },
-    },*/
+    },
     {
       id: 'fieldsOfStudiesPage',
       name: 'Aineiden esittely',
