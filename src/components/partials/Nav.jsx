@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { NavLink } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import styles from './Nav.module.scss'
+import config from '../../data/config.json'
 import classNames from 'classnames'
 
 const Nav = () => {
@@ -149,6 +150,14 @@ const Nav = () => {
                   </li>
                 )
             )}
+            <li>
+                <a className={styles['nav-link']} href={config.studentFeedbackForm}>
+                <p>
+                <i className={classNames('fas', 'fa-pen')}>&nbsp;&nbsp;</i>
+                {t('feedback-link')}
+              </p>
+              </a>
+            </li>
           <li>
             <button
               className={classNames(

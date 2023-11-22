@@ -39,7 +39,7 @@ const MainPage = () => {
           </span>
         </div>
         <div className="single-stat">
-          <span className="single-stat_main">45+</span>
+          <span className="single-stat_main">35+</span>
           <span className="single-stat_secondary">
             {t('exhibitors')}
             <sup>*</sup>
