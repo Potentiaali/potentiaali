@@ -25,6 +25,7 @@
   "event-cost-value": "1200,00 euros (bigger booths cost 2400,00 euros)",
   "event-cost": "Price",
   "event-date": "Date",
+  "event-organizer": "Organizer",
   "event-day": "Thursday",
   "event-description": "Description",
   "event-info-title": "Event information",

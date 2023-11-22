@@ -45,6 +45,18 @@ const SingleSchedulePage = () => {
       </section>
       <section className="app-section">
         <ul className="event-info">
+          {event.companyName && (
+            <li>
+              <span className="event-info-title">
+                <i className="fas fa-microphone-alt"></i>
+              </span>
+              <span className="event-info-value">
+                <span> {t('event-organizer')}</span>
+                {': '}
+                {event.companyName}
+              </span>
+            </li>
+          )}
           <li>
             <span className="event-info-title">
               <i className="fas fa-map-marked-alt"></i>
