@@ -175,12 +175,12 @@ const schedule = [
   },
   {
     id: 14,
-    companyName: 'CSC',
+    companyName: 'CSC: Tieteen tietotekniikan keskus Oy',
     location: 'Exactum B123',
     title: {
-      fi: 'CSC - Tieteen tietotekniikan keskus Oy: "Physicist in the world of supercomputers"',
+      fi: 'Keynote: "Physicist in the world of supercomputers"',
       'en-US':
-        'CSC - Tieteen tietotekniikan keskus Oy: "Physicist in the world of supercomputers"'
+        'Keynote: "Physicist in the world of supercomputers"'
     },
     description: {
       fi: 'Tule katsomaan luento ja lunasta harvinainen "minussa on potentiaalia"-haalarimerkki!',
@@ -188,11 +188,11 @@ const schedule = [
         'Come watch the keynote and claim a rare \"Minussa on potentiaalia\"-patch!'
     },
     fullDescription: {
-      fi: 'CSC - Tieteen tietotekniikan keskus Oy: "Physicist in the world of supercomputers"',
-      'en-US': 'CSC - Tieteen tietotekniikan keskus Oy: "Physicist in the world of supercomputers"'
+      fi: 'In this talk Jussi Enkovaara tells how he ended up at CSC, the Finnish national supercomputing center and discusses his training as  physicist in relation to different duties in his career.',
+      'en-US': 'In this talk Jussi Enkovaara tells how he ended up at CSC, the Finnish national supercomputing center and discusses his training as  physicist in relation to different duties in his career.'
     },
-    speakers: [],
-    language: 'fi',
+    speakers: ['Jussi Enkovaara'],
+    language: 'en',
     link: '',
     startTime: dayjs.tz(new Date(2023, 11,23, 12, 30), 'Europe/Helsinki'),
     endTime: dayjs.tz(new Date(2023, 11, 23, 13, 15), 'Europe/Helsinki'),
@@ -204,9 +204,9 @@ const schedule = [
     companyName: 'OP Ryhmä',
     location: 'Exactum B123',
     title: {
-      fi: 'OP Ryhmä: "Banks as quantitative phenomenon"',
+      fi: 'Keynote: "Banks as quantitative phenomenon"',
       'en-US':
-        'OP Ryhmä: "Banks as quantitative phenomenon"'
+        'Keynote: "Banks as quantitative phenomenon"'
     },
     description: {
       fi: 'Tule katsomaan luento ja lunasta harvinainen "minussa on potentiaalia"-haalarimerkki!',
@@ -216,8 +216,8 @@ const schedule = [
       fi: 'OP Ryhmä: "Banks as quantitative phenomenon"',
       'en-US': 'OP Ryhmä: "Banks as quantitative phenomenon"'
     },
-    speakers: [],
-    language: 'en-US',
+    speakers: ['Juho Lahti, Lead Quantitative Analyst, OP Financial Group'],
+    language: 'en',
     link: '',
     startTime: dayjs.tz(new Date(2023, 11, 23, 14, 0), 'Europe/Helsinki'),
     endTime: dayjs.tz(new Date(2023, 11, 23, 14, 45), 'Europe/Helsinki'),
@@ -249,41 +249,23 @@ const schedule = [
     hideTime: false
   },
   {
-    id: 19,
-    companyName: 'TietoEvry',
-    location: 'Exactum A114',
-    title: {
-      fi: 'Keynote: TietoEvry',
-      'en-US': 'Keynote: TietoEvry'
-    },
-    description: {
-      fi: 'Tule katsomaan luento ja lunasta harvinainen "minussa on potentiaalia"-haalarimerkki!',
-      'en-US': 'Come watch the keynote and claim a rare \"Minussa on potentiaalia\"-patch!'
-    },
-    fullDescription: null,
-    speakers: [],
-    language: 'en-US',
-    link: '',
-    startTime: dayjs.tz(new Date(2023, 11, 23, 12, 0), 'Europe/Helsinki'),
-    endTime: dayjs.tz(new Date(2023, 11, 23, 12, 45), 'Europe/Helsinki'),
-    hideDetails: false,
-    hideTime: false
-  },
-  {
     id: 20,
     companyName: 'TietoEvry',
     location: 'Exactum A114',
     title: {
-      fi: 'Workshop: TietoEvry',
-      'en-US': 'Workshop: TietoEvry'
+      fi: 'Workshop: Building Trusted Digital Societies ',
+      'en-US': 'Workshop: Building Trusted Digital Societies '
     },
     description: {
       fi: 'Osallistu työpajaan ja lunasta harvinainen "minussa on potentiaalia"-haalarimerkki!',
       'en-US': 'Participate in the workshop and claim a rare \"Minussa on potentiaalia\"-patch!'
     },
-    fullDescription: null,
-    speakers: [],
-    language: 'en-US',
+    fullDescription: {
+      fi: 'This is your chance to learn about massive and impactful initiative by the largest Nordic IT company Tietoevry and Business Finland to advance the digital services in the areas of Banking and Finance, Energy and Smart City, and Health and Care. Join the Strategy Development and Innovation expert, Ksenia Avetisova, for a rapid introduction and ideation session to address the latest challenges real business and technology leaders are facing in their pursuit of creating purposeful technology. ',
+      'en-US': 'This is your chance to learn about massive and impactful initiative by the largest Nordic IT company Tietoevry and Business Finland to advance the digital services in the areas of Banking and Finance, Energy and Smart City, and Health and Care. Join the Strategy Development and Innovation expert, Ksenia Avetisova, for a rapid introduction and ideation session to address the latest challenges real business and technology leaders are facing in their pursuit of creating purposeful technology. '
+    },
+    speakers: ['Ksenia Avetisova'],
+    language: 'en',
     link: '',
     startTime: dayjs.tz(new Date(2023, 11, 23, 13, 0), 'Europe/Helsinki'),
     endTime: dayjs.tz(new Date(2023, 11, 23, 14, 0), 'Europe/Helsinki'),
@@ -292,11 +274,11 @@ const schedule = [
   },
   {
     id: 21,
-    companyName: 'Reddal',
+    companyName: 'Reddal Helsinki Oy',
     location: 'Exactum A114',
     title: {
-      fi: 'Workshop: Reddal Helsinki Oy; "Case interviews and how to prepare"',
-      'en-US': 'Workshop: Reddal Helsinki Oy; "Case interviews and how to prepare"'
+      fi: 'Workshop: Case interviews and how to prepare',
+      'en-US': 'Workshop: Case interviews and how to prepare'
     },
     description: {
       fi: 'Osallistu työpajaan ja lunasta harvinainen "minussa on potentiaalia"-haalarimerkki!',
