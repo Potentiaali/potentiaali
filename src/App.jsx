@@ -20,6 +20,10 @@ const MapPage = React.lazy(() => import("./pages/MapPage"))
 
 dayjs.locale(config.defaultLocale)
 
+const RedirectToFeedbck = () => {
+  window.location.href = config.studentFeedbackForm
+}
+
 const App = () => {
   return (
     <>
@@ -42,6 +46,7 @@ const App = () => {
               />
               <Route exact="true" path="/companies" element={<CompanyPage />} />
               <Route exact="true" path="/subjects" element={<Suspense fallback={<Fallback.Loader/>}><SubjectsPage /></Suspense>} />
+              <Route exact="true" path="/feedback" element={<RedirectToFeedbck />} />
               <Route exact path="/map" element={<MapPage />} />
               <Route
                 exact
