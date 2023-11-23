@@ -128,7 +128,7 @@ const schedule = [
   {
     id: 11,
     companyName: '',
-    location: 'Exactum D104',
+    location: 'Physicum D104',
     title: {
       fi: 'CV Profile Photography',
       'en-US': 'CV Profile Photography'
