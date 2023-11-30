@@ -16,7 +16,8 @@
         "react"
     ],
     "rules": {
-        "valid-jsdoc": "off"
+        "valid-jsdoc": "off",
+        "require-jsdoc": "off"
     },
     "settings": {
         "react": {

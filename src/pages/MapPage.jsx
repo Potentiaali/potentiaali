@@ -9,7 +9,7 @@ import companies from "../data/companies.json";
 /**
  * Divide companies into groups according to their "booth" property.
  *
- * @returns {"A": [company1], "B": [company2]}
+ * Returns e.g. {"A": [company1], "B": [company2]}
  */
 const groupCompaniesByBoothArea = () => {
   return companies.reduce((agg, company) => {
