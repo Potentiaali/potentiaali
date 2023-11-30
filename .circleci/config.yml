@@ -7,10 +7,10 @@ jobs:
       - checkout
       - run:
           name: "Install dependencies"
-          command: 'npm install'
+          command: 'yarn install --frozen-lockfile'
       - run:
           name: "Build Vite"
-          command: 'npm run build'
+          command: 'yarn run build'
       - aws-s3/sync:
           arguments: |
             --acl public-read \
