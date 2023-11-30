@@ -17,16 +17,10 @@ This repository contains the source code for **Kumpulan potentiaali** webapp, lo
 4. Run `yarn build`
 5. Optionally, install `serve` and run `serve -s build` to serve the production app
 
-## Compiling translations
-
-1. Run `yarn extract:messages`
-2. Run `yarn manage:translations`
-
 ## Tech stack
 
 - React
-- React Redux for app state management
-- Localization using i18n
+- Localization using i18next
 - CSS Modules + SCSS
 
 ## Directory structure
@@ -42,5 +36,4 @@ This repository contains the source code for **Kumpulan potentiaali** webapp, lo
 | src/data                 | Data & configuration used by the app (schedule, companies, speed rekry) |
 | src/i18n                 | Localization files of the app                                           |
 | src/pages                | Pages of the app                                                        |
-| src/reducers             | Reducers that manage schedule & app language                            |
 | src/stories              | Storybook stories                                                       |
