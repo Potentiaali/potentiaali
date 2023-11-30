@@ -1,14 +1,12 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
 import { Language } from '../components/partials/Language'
 import dayjs from 'dayjs'
 import { useTranslation } from 'react-i18next'
 import { Link, useParams } from 'react-router-dom'
-
+import events from '../reducers/ScheduleReducer'
 import LanguageString from '../components/LanguageString'
 
 const SingleSchedulePage = () => {
-  const events = useSelector((state) => state.schedule.events)
   const { t, i18n } = useTranslation()
   const params = useParams()
   const currentLocale = i18n.language

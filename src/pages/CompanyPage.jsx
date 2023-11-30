@@ -1,11 +1,10 @@
 import React, { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { useSelector } from 'react-redux'
+import companies from '../data/companies.json'
 import { Link } from 'react-router-dom'
 import { BoothBadge } from '../components/partials/badges/BoothBadge'
 
 const CompanyPage = () => {
-  const companies = useSelector((state) => state.company.companies)
   const [inputText, setInputText] = useState('')
   const { t } = useTranslation()
   return (

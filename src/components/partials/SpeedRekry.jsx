@@ -1,16 +1,34 @@
-import React, { useEffect } from 'react'
-import { fetchSpeedRekry } from './../../reducers/SpeedRekryReducer'
-import { connect } from 'react-redux'
+import React, { useEffect, useState } from 'react'
+import config from "../../data/config.json";
 import PropTypes from 'prop-types'
 import styles from './SpeedRekry.module.scss'
 import { useTranslation } from 'react-i18next'
 import { SpeedRekryItem } from './SpeedRekryItem'
 import { Textfit } from '@aw-web-design/react-textfit'
 
-export const SpeedRekry = ({ ilmot, fetchSpeedRekry }) => {
+
+const rekryFilter = (rekryItem) => ({
+  ...rekryItem,
+  open: rekryItem.open === "TRUE" ? true : false,
+  full: rekryItem.full === "TRUE" ? true : false,
+});
+
+const fetchSpeedRekry = async () => {
+  const rekries = await axios.get(config.speedRekryApi);
+  const filteredData = rekries.data.map(rekryFilter);
+  return filteredData;
+};
+
+
+export const SpeedRekry = () => {
+  const [ilmot, setIlmot] = useState([])
   useEffect(() => {
-    fetchSpeedRekry()
-  }, [fetchSpeedRekry])
+    const f = async () => {
+      const res = await fetchSpeedRekry()
+      setIlmot(res)
+    }
+    f()
+  }, [])
   const { t } = useTranslation()
   return (
     <>
@@ -34,17 +52,7 @@ export const SpeedRekry = ({ ilmot, fetchSpeedRekry }) => {
   )
 }
 
-const mapStateToProps = (state) => {
-  return {
-    ilmot: state.speedRekry.SpeedRekryItems
-  }
-}
-
-const mapDispatchToProps = {
-  fetchSpeedRekry
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(SpeedRekry)
+export default SpeedRekry;
 
 SpeedRekry.propTypes = {
   ilmot: PropTypes.array,

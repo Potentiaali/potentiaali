@@ -1,12 +1,11 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
+import companies from '../data/companies.json'
 import { useTranslation } from 'react-i18next'
 import { Link, useParams } from 'react-router-dom'
 import LanguageString from '../components/LanguageString'
 import { BoothBadge } from '../components/partials/badges/BoothBadge'
 
 const SingleCompanyPage = () => {
-  const companies = useSelector((state) => state.company.companies)
   const { t } = useTranslation()
   const params = useParams()
   const companyId = params.id

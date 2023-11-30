@@ -370,13 +370,4 @@ const schedule = [
   }
 ]
 
-const initialState = {
-  events: schedule
-}
-
-export default (state = initialState, action) => {
-  switch (action.type) {
-    default:
-      return state
-  }
-}
+export default schedule

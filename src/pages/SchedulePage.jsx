@@ -1,11 +1,10 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
 import ScheduleLabels from '../components/schedule/ScheduleLabels'
 import styles from './Schedule.module.scss'
+import events from '../reducers/ScheduleReducer'
 import ScheduleSlot from '../components/schedule/ScheduleSlot'
 
 export const SchedulePage = () => {
-  const events = useSelector((state) => state.schedule.events)
   return (
     <div className={styles.schedule}>
       <ScheduleLabels />
