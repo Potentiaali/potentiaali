@@ -3,7 +3,7 @@ import { Language } from '../components/partials/Language'
 import dayjs from 'dayjs'
 import { useTranslation } from 'react-i18next'
 import { Link, useParams } from 'react-router-dom'
-import events from '../reducers/ScheduleReducer'
+import events from '../data/schedule'
 import LanguageString from '../components/LanguageString'
 
 const SingleSchedulePage = () => {
