@@ -1,14 +1,14 @@
-import React from 'react'
-import ScheduleLabels from '../components/schedule/ScheduleLabels'
-import styles from './Schedule.module.scss'
-import events from '../data/schedule'
-import ScheduleSlot from '../components/schedule/ScheduleSlot'
+import React from "react";
+import ScheduleLabels from "../components/schedule/ScheduleLabels";
+import styles from "./Schedule.module.scss";
+import events from "../data/schedule";
+import ScheduleSlot from "../components/schedule/ScheduleSlot";
 
 export const SchedulePage = () => {
   return (
     <div className={styles.schedule}>
       <ScheduleLabels />
-      <div className={styles['schedule-slots']}>
+      <div className={styles["schedule-slots"]}>
         {events.map((entry) => (
           <ScheduleSlot
             id={entry.id}
@@ -24,7 +24,7 @@ export const SchedulePage = () => {
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default SchedulePage
+export default SchedulePage;

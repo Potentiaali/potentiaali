@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import legacy from '@vitejs/plugin-legacy'
+import legacy from "@vitejs/plugin-legacy";
 import { VitePluginRadar as vitePluginRadar } from "vite-plugin-radar";
 import { dependencies } from "./package.json";
 const renderChunks = (dependencies) => {
@@ -24,14 +24,13 @@ export default defineConfig({
       },
     }),
     legacy({
-      targets: ['defaults', 'not IE 11'],
+      targets: ["defaults", "not IE 11"],
     }),
   ],
   server: {
     port: 3000,
   },
   build: {
-
     sourcemap: false,
     rollupOptions: {
       output: {

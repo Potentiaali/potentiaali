@@ -1,29 +1,29 @@
-import React from 'react'
-import companies from '../../data/companies.json'
-import style from './Companies.module.scss'
-import { Link } from 'react-router-dom'
-import { useTranslation } from 'react-i18next'
+import React from "react";
+import companies from "../../data/companies.json";
+import style from "./Companies.module.scss";
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Companies = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
   return (
     <>
-      <p>{t('companies-title-text')}</p>
+      <p>{t("companies-title-text")}</p>
       <br />
       <Link to="/companies">
-        <p>{t('view-all-companies')}</p>
+        <p>{t("view-all-companies")}</p>
       </Link>
       <div className={style.companies}>
         {companies
           .sort((a, b) => a.name.localeCompare(b.name))
           .map((company) => (
             <Link
-              className={style['company-logo']}
+              className={style["company-logo"]}
               key={company.name}
-              to={'/company/' + company.id}
+              to={"/company/" + company.id}
             >
               <img
-                className={style['company-logo-image']}
+                className={style["company-logo-image"]}
                 alt={`${company.name} logo`}
                 src={company.imgSrc}
               />
@@ -31,6 +31,6 @@ const Companies = () => {
           ))}
       </div>
     </>
-  )
-}
-export default Companies
+  );
+};
+export default Companies;

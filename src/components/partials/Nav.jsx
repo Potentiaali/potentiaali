@@ -1,34 +1,34 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { NavLink } from 'react-router-dom'
-import { useTranslation } from 'react-i18next'
-import styles from './Nav.module.scss'
-import config from '../../data/config.json'
-import classNames from 'classnames'
+import React from "react";
+import PropTypes from "prop-types";
+import { NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import styles from "./Nav.module.scss";
+import config from "../../data/config.json";
+import classNames from "classnames";
 
 const Nav = () => {
-  const { t, i18n } = useTranslation()
-  const current = i18n.language
-  const available = ['en', 'fi']
-  const next = available[(available.indexOf(current) + 1) % available.length]
+  const { t, i18n } = useTranslation();
+  const current = i18n.language;
+  const available = ["en", "fi"];
+  const next = available[(available.indexOf(current) + 1) % available.length];
 
   const changeLanguageHandler = () => {
-    console.log(next)
-    i18n.changeLanguage(next)
-  }
+    console.log(next);
+    i18n.changeLanguage(next);
+  };
 
   const menu = [
     {
-      id: 'frontPage',
-      name: 'Etusivu',
-      linkName: '',
-      link: '/',
+      id: "frontPage",
+      name: "Etusivu",
+      linkName: "",
+      link: "/",
       disabled: false,
-      icon: 'fa-home',
+      icon: "fa-home",
       ariaLabel: {
-        fi: 'Etusivu',
-        en: 'Frontpage'
-      }
+        fi: "Etusivu",
+        en: "Frontpage",
+      },
     },
     {
       id: "companyPage",
@@ -39,9 +39,9 @@ const Nav = () => {
       icon: "fa-file-alt",
       ariaLabel: {
         fi: "Yrtiykset",
-        "en": "Companies",
+        en: "Companies",
       },
-    },/*
+    } /*
     {
       id: "companyRegistrationPage",
       name: "Yritysilmoittautuminen",
@@ -53,8 +53,8 @@ const Nav = () => {
         fi: "Yritys ilmoittautuminen",
         "en": "Company registration",
       },
-    },*/
-     {
+    },*/,
+    {
       id: "schedulePage",
       name: "Aikataulu",
       linkName: "schedule",
@@ -63,7 +63,7 @@ const Nav = () => {
       icon: "fa-clock",
       ariaLabel: {
         fi: "Aikataulu",
-        "en": "Schedule",
+        en: "Schedule",
       },
     },
     {
@@ -75,51 +75,51 @@ const Nav = () => {
       icon: "fa-map",
       ariaLabel: {
         fi: "Kartta",
-        "en": "Map",
+        en: "Map",
       },
     },
     {
-      id: 'fieldsOfStudiesPage',
-      name: 'Aineiden esittely',
-      linkName: 'subjects',
-      link: '/subjects',
+      id: "fieldsOfStudiesPage",
+      name: "Aineiden esittely",
+      linkName: "subjects",
+      link: "/subjects",
       disabled: false,
-      icon: 'fa-dna',
+      icon: "fa-dna",
       ariaLabel: {
-        fi: 'Aineiden esittely',
-        en: 'Subjects'
-      }
-    }
-  ]
+        fi: "Aineiden esittely",
+        en: "Subjects",
+      },
+    },
+  ];
   return (
     <>
       <input
-        className={styles['navigation-toggle']}
+        className={styles["navigation-toggle"]}
         type="checkbox"
         id="navigation-toggle"
       />
       <nav className={styles.navigation}>
-        <ul className={styles['navigation-link-container']}>
-          <li className={styles['menu-toggle-container']}>
+        <ul className={styles["navigation-link-container"]}>
+          <li className={styles["menu-toggle-container"]}>
             <label
               htmlFor="navigation-toggle"
-              className={styles['navigation-menu-toggle']}
+              className={styles["navigation-menu-toggle"]}
             >
               <i
                 className={classNames(
-                  'fas',
-                  'fa-times',
-                  styles['navigation-close-cross']
+                  "fas",
+                  "fa-times",
+                  styles["navigation-close-cross"],
                 )}
               ></i>
               <i
                 className={classNames(
-                  'fas',
-                  'fa-bars',
-                  styles['navigation-open-hamburger']
+                  "fas",
+                  "fa-bars",
+                  styles["navigation-open-hamburger"],
                 )}
-              ></i>{' '}
-              <span className={classNames(styles['navigation-icon-label'])}>
+              ></i>{" "}
+              <span className={classNames(styles["navigation-icon-label"])}>
                 Menu
               </span>
             </label>
@@ -135,12 +135,12 @@ const Nav = () => {
                       to={menuItem.link}
                       key={menuItem.linkName}
                       activeclassname="active-link"
-                      className={styles['nav-link']}
+                      className={styles["nav-link"]}
                       aria-label={menuItem.ariaLabel[current]}
                     >
                       <p>
                         {menuItem.icon !== undefined && (
-                          <i className={classNames('fas', menuItem.icon)}>
+                          <i className={classNames("fas", menuItem.icon)}>
                             &nbsp;&nbsp;
                           </i>
                         )}
@@ -148,21 +148,21 @@ const Nav = () => {
                       </p>
                     </NavLink>
                   </li>
-                )
+                ),
             )}
-            <li>
-                <a className={styles['nav-link']} href={config.studentFeedbackForm}>
-                <p>
-                <i className={classNames('fas', 'fa-pen')}>&nbsp;&nbsp;</i>
-                {t('feedback-link')}
+          <li>
+            <a className={styles["nav-link"]} href={config.studentFeedbackForm}>
+              <p>
+                <i className={classNames("fas", "fa-pen")}>&nbsp;&nbsp;</i>
+                {t("feedback-link")}
               </p>
-              </a>
-            </li>
+            </a>
+          </li>
           <li>
             <button
               className={classNames(
-                styles['nav-link'],
-                styles['localization-button']
+                styles["nav-link"],
+                styles["localization-button"],
               )}
               onClick={() => changeLanguageHandler()}
               aria-label={`Change page language to ${next}`}
@@ -174,14 +174,14 @@ const Nav = () => {
         </ul>
       </nav>
     </>
-  )
-}
+  );
+};
 
 Nav.propTypes = {
   intl: PropTypes.any,
   lang: PropTypes.string,
   setLanguage: PropTypes.func,
   isFetching: PropTypes.bool,
-  changeLocales: PropTypes.func
-}
-export default Nav
+  changeLocales: PropTypes.func,
+};
+export default Nav;

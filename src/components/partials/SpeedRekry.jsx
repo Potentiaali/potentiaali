@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState } from "react";
 import config from "../../data/config.json";
-import PropTypes from 'prop-types'
-import styles from './SpeedRekry.module.scss'
-import { useTranslation } from 'react-i18next'
-import { SpeedRekryItem } from './SpeedRekryItem'
-import { Textfit } from '@aw-web-design/react-textfit'
-
+import PropTypes from "prop-types";
+import styles from "./SpeedRekry.module.scss";
+import { useTranslation } from "react-i18next";
+import { SpeedRekryItem } from "./SpeedRekryItem";
+import { Textfit } from "@aw-web-design/react-textfit";
 
 const rekryFilter = (rekryItem) => ({
   ...rekryItem,
@@ -19,21 +18,20 @@ const fetchSpeedRekry = async () => {
   return filteredData;
 };
 
-
 export const SpeedRekry = () => {
-  const [ilmot, setIlmot] = useState([])
+  const [ilmot, setIlmot] = useState([]);
   useEffect(() => {
     const f = async () => {
-      const res = await fetchSpeedRekry()
-      setIlmot(res)
-    }
-    f()
-  }, [])
-  const { t } = useTranslation()
+      const res = await fetchSpeedRekry();
+      setIlmot(res);
+    };
+    f();
+  }, []);
+  const { t } = useTranslation();
   return (
     <>
       <Textfit mode="single" max={20}>
-        <h1>{t('register-to-speed-rekry')}</h1>
+        <h1>{t("register-to-speed-rekry")}</h1>
       </Textfit>
       <div className={styles.speedRekryGrid}>
         {ilmot &&
@@ -49,13 +47,13 @@ export const SpeedRekry = () => {
           ))}
       </div>
     </>
-  )
-}
+  );
+};
 
 export default SpeedRekry;
 
 SpeedRekry.propTypes = {
   ilmot: PropTypes.array,
   open: PropTypes.bool.isRequired,
-  fetchSpeedRekry: PropTypes.func
-}
+  fetchSpeedRekry: PropTypes.func,
+};

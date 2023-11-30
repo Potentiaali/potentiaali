@@ -29,6 +29,7 @@
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
     "lint": "eslint --ext 'js,jsx' .",
+    "lint:fix": "eslint --ext 'js,jsx' --fix .",
     "deploy": "aws s3 sync build s3://potentiaali --profile matlu --cache-control max-age=300"
   },
   "devDependencies": {

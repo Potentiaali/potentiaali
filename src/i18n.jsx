@@ -1,39 +1,38 @@
-import i18n from 'i18next'
+import i18n from "i18next";
 // import LanguageDetector from "i18next-browser-languagedetector"
-import { initReactI18next } from 'react-i18next'
-import fi from './locales/fi/translation.json'
-import en from './locales/en/translation.json'
-import fiSubjects from './locales/fi/subjects.json'
-import enSubjects from './locales/en/subjects.json'
+import { initReactI18next } from "react-i18next";
+import fi from "./locales/fi/translation.json";
+import en from "./locales/en/translation.json";
+import fiSubjects from "./locales/fi/subjects.json";
+import enSubjects from "./locales/en/subjects.json";
 
 i18n
   //  .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    locales: ['en', 'fi'],
+    locales: ["en", "fi"],
     localeDetection: false,
-    defaultLocale: 'fi',
-    defaultNS: 'translation',
+    defaultLocale: "fi",
+    defaultNS: "translation",
     pages: {
-      '*': ['translation']
+      "*": ["translation"],
     },
-    lng: 'fi',
-    fallbackLng: 'fi',
+    lng: "fi",
+    fallbackLng: "fi",
 
     interpolation: {
-      escapeValue: false
+      escapeValue: false,
     },
     resources: {
       fi: {
         translation: fi,
-        subjects: fiSubjects
+        subjects: fiSubjects,
       },
       en: {
         translation: en,
-        subjects: enSubjects
-
+        subjects: enSubjects,
       },
-    }
-  })
+    },
+  });
 
-export default i18n
+export default i18n;

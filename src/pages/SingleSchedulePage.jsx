@@ -1,25 +1,25 @@
-import React from 'react'
-import { Language } from '../components/partials/Language'
-import dayjs from 'dayjs'
-import { useTranslation } from 'react-i18next'
-import { Link, useParams } from 'react-router-dom'
-import events from '../data/schedule'
-import LanguageString from '../components/LanguageString'
+import React from "react";
+import { Language } from "../components/partials/Language";
+import dayjs from "dayjs";
+import { useTranslation } from "react-i18next";
+import { Link, useParams } from "react-router-dom";
+import events from "../data/schedule";
+import LanguageString from "../components/LanguageString";
 
 const SingleSchedulePage = () => {
-  const { t, i18n } = useTranslation()
-  const params = useParams()
-  const currentLocale = i18n.language
-  const eventId = params.id
+  const { t, i18n } = useTranslation();
+  const params = useParams();
+  const currentLocale = i18n.language;
+  const eventId = params.id;
   if (!eventId) {
-    return <span> {t('event-not-found')}</span>
+    return <span> {t("event-not-found")}</span>;
   }
   if (events.length === 0) {
-    return <span> {t('empty-schedule')}</span>
+    return <span> {t("empty-schedule")}</span>;
   }
-  const event = events.find((evt) => Number(evt.id) === Number(eventId))
+  const event = events.find((evt) => Number(evt.id) === Number(eventId));
   if (event === undefined) {
-    return <span> {t('event-not-found')}</span>
+    return <span> {t("event-not-found")}</span>;
   }
   return (
     <>
@@ -27,7 +27,7 @@ const SingleSchedulePage = () => {
         <Link to="/schedule">
           <h3>
             <i className="fas fa-chevron-left"></i>&nbsp;&nbsp;
-            <span> {t('back-to-schedule')}</span>
+            <span> {t("back-to-schedule")}</span>
           </h3>
         </Link>
       </section>
@@ -35,7 +35,7 @@ const SingleSchedulePage = () => {
         <h1>
           <LanguageString languageObject={event.title} />
         </h1>
-        <pre style={{ whiteSpace: 'pre-wrap', wordWrap: 'break-word' }}>
+        <pre style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
           <p>
             <LanguageString languageObject={event.description} />
           </p>
@@ -49,8 +49,8 @@ const SingleSchedulePage = () => {
                 <i className="fas fa-microphone-alt"></i>
               </span>
               <span className="event-info-value">
-                <span> {t('event-organizer')}</span>
-                {': '}
+                <span> {t("event-organizer")}</span>
+                {": "}
                 {event.companyName}
               </span>
             </li>
@@ -60,8 +60,8 @@ const SingleSchedulePage = () => {
               <i className="fas fa-map-marked-alt"></i>
             </span>
             <span className="event-info-value">
-              <span> {t('event-location')}</span>
-              {': '}
+              <span> {t("event-location")}</span>
+              {": "}
               {event.location}
             </span>
           </li>
@@ -70,10 +70,10 @@ const SingleSchedulePage = () => {
               <i className="fas fa-clock"></i>
             </span>
             <span className="event-info-value">
-              <span> {t('event-time')}</span>
-              {': '}
-              <time>{dayjs(event.startTime).format('HH:mm')}</time> -{' '}
-              <time>{dayjs(event.endTime).format('HH:mm')}</time>
+              <span> {t("event-time")}</span>
+              {": "}
+              <time>{dayjs(event.startTime).format("HH:mm")}</time> -{" "}
+              <time>{dayjs(event.endTime).format("HH:mm")}</time>
             </span>
           </li>
           {event.language && (
@@ -82,8 +82,8 @@ const SingleSchedulePage = () => {
                 <i className="fas fa-globe"></i>
               </span>
               <span className="event-info-value">
-                <span> {t('event-language')}</span>
-                {': '}
+                <span> {t("event-language")}</span>
+                {": "}
                 <Language lang={event.language} />
               </span>
             </li>
@@ -94,8 +94,8 @@ const SingleSchedulePage = () => {
                 <i className="fas fa-users"></i>
               </span>
               <span className="event-info-value">
-                <span> {t('event-speakers')}</span>
-                {': '}
+                <span> {t("event-speakers")}</span>
+                {": "}
                 <ul className="event-speakers-container">
                   {event.speakers.map((speaker) => (
                     <li key={speaker}>{speaker}</li>
@@ -106,32 +106,32 @@ const SingleSchedulePage = () => {
           )}
         </ul>
       </section>
-      {event.link !== '' && (
+      {event.link !== "" && (
         <section className="app-section">
           <a
-            href={currentLocale === 'en' ? event.link_en : event.link}
+            href={currentLocale === "en" ? event.link_en : event.link}
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fas fa-external-link-alt"></i>&nbsp;
-            <span> {t('enrollment-link')}</span>
+            <span> {t("enrollment-link")}</span>
           </a>
         </section>
       )}
       <section className="app-section">
-        <h2>{t('event-description')}</h2>
+        <h2>{t("event-description")}</h2>
         <pre>
           <p className="event-full-description-container">
             {event.fullDescription ? (
               <LanguageString languageObject={event.fullDescription} />
             ) : (
-              <span> {t('event-no-description')}</span>
+              <span> {t("event-no-description")}</span>
             )}
           </p>
         </pre>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default SingleSchedulePage
+export default SingleSchedulePage;
