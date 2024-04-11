@@ -7,6 +7,9 @@ import dayjs from "dayjs";
 const Logo = () => {
   const { t } = useTranslation();
   const eventDay = dayjs(config.eventDate).format("DD.MM.YYYY");
+
+  const eventTime = config.showTime ? `${config.eventStartTime} - ${config.eventEndTime}` : null;
+
   return (
     <svg
       viewBox="0 0 1440 230"
@@ -37,7 +40,7 @@ const Logo = () => {
       <text x="750" y="221" className={styles["logo-3"]}>
         {config.eventDate !== "" && (
           <>
-            {eventDay} {config.eventStartTime} - {config.eventEndTime}
+            {eventDay} {eventTime}
           </>
         )}
       </text>

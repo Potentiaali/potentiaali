@@ -16,6 +16,13 @@ export const Hero = () => {
     enableAutoReload: true, // it will reload the new image when validating attributes changes
   });
   observer.observe();
+
+  let time = '';
+
+  if (config.showTime) {
+    time = `${config.eventStartTime} - ${config.eventEndTime}`;
+  }
+
   /*
   const reviews = [
     {
@@ -41,10 +48,7 @@ export const Hero = () => {
         </h1>
         <div className={styles["hero-paragraph"]}>
           <p>{t("heroDescription")}</p>
-          <b>
-            {date} {t("heroTimePrefix")} {config.eventStartTime} -{" "}
-            {config.eventEndTime}
-          </b>
+          <b>{date} {time}</b>
 
           {/* <br />*/}
           {/* reviews.map((review) => (
