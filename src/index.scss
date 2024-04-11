@@ -198,7 +198,9 @@ body {
   color: black;
   background-color: $orange-2;
   padding: 30px;
+
   ul {
+    padding-left: 10px;
     list-style-type: square;
   }
 }
