@@ -80,7 +80,7 @@ const MainPage = () => {
                   </time>
                 </span>
               </li>
-              <li>
+              {/*<li>
                 <span className="event-info-title">
                   <i className="fas fa-clock"></i>
                 </span>
@@ -88,7 +88,7 @@ const MainPage = () => {
                   {t("event-time")} {": "} {t("event-time-prefix")}{" "}
                   {config.eventStartTime} - {config.eventEndTime}
                 </span>
-              </li>
+              </li>*/}
               <li>
                 <a
                   className="link-btn"
