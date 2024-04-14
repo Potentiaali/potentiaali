@@ -1,0 +1,85 @@
+{
+  "2023": {
+    "testimonials": [
+      "Nice event overall! I enjoyed it and you have clearly worked hard.",
+      "Hyvin toimi, erityisesti kiitos aktiivisesta ja ystävällisestä henkilökunnasta!",
+      "Hyvä tapahtuma! Kiitos :)"
+    ],
+    "stats": [
+      {
+        "label": {
+          "fi": "Saimme vastinetta tapahtuman tapahtuman hinnalle",
+          "en-US": "We got what we paid for or more"
+        },
+        "value": ">90%"
+      },
+      {
+        "label": {
+          "fi": "Tavoitimme opiskelijoita aloita, joita etsimme",
+          "en-US": "We met students from relevant fields"
+        },
+        "value": "100%"
+      }
+    ]
+  },
+  "2022": {
+    "testimonials": [
+      "Kokonaisuutena tapahtumassa on todella paljon hyvää ja monta elementtiä joita ei kannata liikaa muuttaa. … Kiitos järjestäjille! <3"
+    ]
+  },
+  "2019": {
+    "testimonials": [
+      "Kiitos erittäin hyvin järjestetystä tapahtumasta, nähdään ensi vuonna!",
+      "Tapahtuma oli todella hyvä mahdollisuus tavata luonnontieteellisten alojen opiskelijoita, kiitos järjestämisestä!",
+      "Kiitos mainiosta tapahtumasta, hyvä työtä! Laittakaa kutsu tulemaan ajoissa ennen seuraavaa kertaa."
+    ],
+    "stats": [
+      {
+        "label": {
+          "fi": "Saimme vastinetta tapahtuman tapahtuman hinnalle",
+          "en-US": "We got what we paid for or more"
+        },
+        "value": ">80%"
+      },
+      {
+        "label": {
+          "fi": "Tavoitimme opiskelijoita aloita, joita etsimme",
+          "en-US": "We met students from relevant fields"
+        },
+        "value": ">80%"
+      }
+    ]
+  },
+  "2018": {
+    "testimonials": [
+      "Propsit järjestäjille! Erittäin hyvin järjestetty tapahtuma, jossa kaikki yksinkertaisesti toimi ilman mitään mutkia. Lisäksi kävijät olivat todella kiinnostuneita ja skarppina mukana. Ensi vuonna ehdottomasti uudestaan :) Kiitos",
+      "6/5 rekrytapahtuma, nähdään taas!",
+      "Tosi hyvä tapahtuma. Sijainti on loistava koska luontevasti on paljon oikeaa porukkaa. Ständillä oli koko ajan porukkaa."
+    ],
+    "stats": [
+      {
+        "label": {
+          "fi": "Saimme vastinetta tapahtuman tapahtuman hinnalle",
+          "en-US": "We got what we paid for or more"
+        },
+        "value": ">90%"
+      }
+    ]
+  },
+  "2017": {
+    "testimonials": [
+      "Ehdottomasti laadukas opiskelijatapahtuma!",
+      "Tunnelma! Ei liian virallinen tai jäykkä. Myös hinta-laatu suhde oli kunnossa, mikä on tärkeää.",
+      "[Parasta oli] kokonaisuus! Erittäin hyvin järjestetty tapahtuma, tiedotus pelasi ja kaikki toimi hyvin päivän aikana."
+    ],
+    "stats": [
+      {
+        "label": {
+          "fi": "Saimme vastinetta tapahtuman tapahtuman hinnalle",
+          "en-US": "We got what we paid for or more"
+        },
+        "value": ">95%"
+      }
+    ]
+  }
+}

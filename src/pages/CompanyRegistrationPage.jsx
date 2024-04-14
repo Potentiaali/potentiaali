@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { RegistrationButton } from "../components/RegistrationButton";
 import config from "../data/config.json";
 import Logo from "../components/partials/Logo";
+import { Link } from "react-router-dom";
 
 const CompanyRegistrationPage = () => {
   const { t } = useTranslation();
@@ -14,6 +15,7 @@ const CompanyRegistrationPage = () => {
         <p>
           {t("registration-main-part-1")}
           <b>{t("registration-main-part-2")}</b>
+          {' '}<Link to="/testimonials">{t('testimonials-link')}</Link>
         </p>
       </section>
       { config.earlyBirdRegistrationLink && (

@@ -119,5 +119,9 @@
   "view-all-companies": "Näytä listana",
   "early-bird-registration-description": "Rajoitettu määrä Early Bird -lippuja on nyt saatavilla alennettuun 900,00 € hintaan!",
   "early-bird-registration-title": "Early Bird -ilmoittautuminen on nyt auki!",
-  "early-bird-register-now": "Varaa paikkasi nyt!"
+  "early-bird-register-now": "Varaa paikkasi nyt!",
+  "testimonials.header": "Näytteilleasettajien palaute",
+  "testimonials.body": "Tälle sivulle on koottu otteita tapahtumaan osallistuneiden yritysten palautteita menneiltä vuosilta.",
+  "testimonials.statsSnippet": "Kaikenkaikkiaan saamamme palaute jakautui seuraavasti:",
+  "testimonials-link": "Lue tästä lisää saamaamme palautetta."
 }

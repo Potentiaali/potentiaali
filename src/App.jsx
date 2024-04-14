@@ -4,6 +4,7 @@ import config from "./data/config.json";
 import dayjs from "dayjs";
 import { Page } from "./components/Page";
 import Fallback from "./components/partials/Fallback";
+import TestimonialsPage from "./pages/TestimonialsPage";
 
 const SubjectsPage = React.lazy(() => import("./pages/SubjectsPage"));
 const NotFoundPage = React.lazy(() => import("./pages/NotFoundPage"));
@@ -69,6 +70,7 @@ const App = () => {
                 path="/registration"
                 element={<CompanyRegistrationPage />}
               ></Route>
+              <Route exact path="/testimonials" element={<TestimonialsPage />} />
               <Route component={<NotFoundPage />} />
             </Routes>
             <Suspense fallback={<Fallback.Footer />}>

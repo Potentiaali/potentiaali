@@ -1,0 +1,77 @@
+@import "../vars";
+@import "../mixins";
+
+.testimonialQuote {
+  background-color: $orange-2;
+  padding: 8px 16px;
+  margin: 20px;
+  width: max-content;
+  position: relative;
+  filter: drop-shadow(4px 4px 00px $orange-1);
+  max-width: calc(100% - 4px - 20px);
+
+  $arrow-size: 10px;
+
+  &::after {
+    content: '';
+    width: $arrow-size;
+    height: $arrow-size;
+    background-color: $orange-2;
+    position: absolute;
+    top: 0;
+  }
+
+  &:nth-child(odd)::after {
+    left: #{-1 * $arrow-size};
+    clip-path: polygon(100% 0, 100% 100%, 0 0);
+  }
+
+  &:nth-child(even)::after {
+    right: #{-1 * $arrow-size};
+    clip-path: polygon(0 0, 100% 0, 0 100%);
+  }
+}
+
+.statValue {
+  font-weight: bold;
+  font-size: 2em;
+  background-color: $orange-1;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  width: 7ch;
+  flex-shrink: 0;
+  justify-content: center;
+}
+
+.statBlock {
+  display: flex;
+  width: 100%;
+  color: white;
+  align-items: stretch;
+  font-size: 0.9em;
+
+  @include mobile {
+    grid-column: 1 / -1;
+  }
+
+  @include tablet {
+    grid-column: 1 / -1;
+  }
+}
+
+.statLabel {
+  padding: 1rem 1.5rem;
+  background-color: $orange-2;
+  color: black;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.statContainer {
+  display: grid;
+  grid-auto-columns: 1fr;
+  gap: 20px 1.5em;
+  margin: 20px 0 20px 20px;
+}

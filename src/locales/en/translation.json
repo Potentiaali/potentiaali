@@ -105,5 +105,9 @@
   "view-all-companies": "View as a list",
   "early-bird-registration-description": "A limited number or early bird tickets with a discounted price of 900,00\u00a0€ are being sold now!",
   "early-bird-registration-title": "Early Bird registration is open!",
-  "early-bird-register-now": "Register now!"
+  "early-bird-register-now": "Register now!",
+  "testimonials.header": "Testimonials",
+  "testimonials.body": "On this page, we have collected testimonials and feedback we have received from companies over the years.",
+  "testimonials.statsSnippet": "Overall the feedback we received can be summarised followingly:",
+  "testimonials-link": "Read more feedback we have received here."
 }
