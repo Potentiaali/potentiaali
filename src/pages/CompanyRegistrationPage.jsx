@@ -1,12 +1,39 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { RegistrationButton } from "../components/RegistrationButton";
 import config from "../data/config.json";
 import Logo from "../components/partials/Logo";
 import { Link } from "react-router-dom";
+import Fallback from "../components/partials/Fallback";
 
 const CompanyRegistrationPage = () => {
   const { t } = useTranslation();
+
+  const [forms, setForms] = useState(null);
+
+  useEffect(() => {
+    const fetchForms = async () => {
+      const response = await fetch(config.formApiEndpoint);
+      const { forms } = await response.json();
+      setForms(forms);
+    }
+
+    fetchForms();
+  }, [setForms]);
+
+  const isFormOpen = (id) => forms.some((form) => form.id === id && form.open);
+
+  if (forms === null) {
+    return (
+      <>
+        <Logo />
+        <div>
+          <Fallback.Loader /> 
+        </div>
+      </>
+    );
+  }
+
   return (
     <>
       <Logo />
@@ -18,7 +45,7 @@ const CompanyRegistrationPage = () => {
           {' '}<Link to="/testimonials">{t('testimonials-link')}</Link>
         </p>
       </section>
-      { config.earlyBirdRegistrationLink && (
+      { config.earlyBirdRegistrationLink && isFormOpen(config.earlyBirdFormId) && (
         <section className="app-section">
           <div className="event-contents-block">
             <h3>{t("early-bird-registration-title")}</h3>
@@ -126,10 +153,11 @@ const CompanyRegistrationPage = () => {
         <h1>{t("registration")}</h1>
         <p>{t("registration-form")}</p>
         <p>{t("registration-deadline")}</p>
-        <RegistrationButton href={config.companyRegistrationLink}>
+
+        <RegistrationButton href={config.companyRegistrationLink} open={isFormOpen(config.generalFormId)}>
           {t("register-now-text")}
         </RegistrationButton>
-        <RegistrationButton href={config.discountedRegistrationLink}>
+        <RegistrationButton href={config.discountedRegistrationLink} open={isFormOpen(config.nonprofitFormId)}>
           {t("noncommercial-register-now-text")}
         </RegistrationButton>
       </section>

@@ -16,5 +16,9 @@
   "studentFeedbackForm": "https://forms.gle/91mM2m3C1qzdD2UE6",
   "companyRegistrationStartDate": "22.4.2024",
   "companyRegistrationStartTime": "12:00",
-  "speedRekryApi": ""
+  "speedRekryApi": "",
+  "formApiEndpoint": "https://script.google.com/macros/s/AKfycbxzHPmCbcJLQaZ8-QEM3xs7syLQIIHHXdgy5m199DTNqR6pEyd8fdOVppb5vAXYYMnm/exec",
+  "earlyBirdFormId": "1taTXKeTQhSL3F6tYQdcal5-DQ7kM-8c7OvHlF2O9rfQ",
+  "generalFormId": "1KCeTf8psnxNJuq6SlZTboa7rs1GuU8-R0urfXFAx6QE",
+  "nonprofitFormId": "1VaK0yjqs8uXeHeGpfbVm9qrEFeOHUUzxJBgdGEYIpn0"
 }
