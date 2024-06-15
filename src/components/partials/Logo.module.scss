@@ -33,3 +33,16 @@
 .logo-image {
   transform: rotate(-5deg);
 }
+
+.logo-registration-text {
+  font-family: "Big John";
+  transform: rotate(-5deg);
+  font-size: 2rem;
+  fill: $orange-2;
+  position: relative;
+  transition-duration: 200ms;
+}
+
+.logo-registration-text:hover {
+  transform: rotate(-5deg) translateX(20px);
+}

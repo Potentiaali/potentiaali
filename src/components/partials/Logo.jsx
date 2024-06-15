@@ -12,10 +12,14 @@ const Logo = () => {
 
   return (
     <svg
-      viewBox="0 0 1440 230"
+      viewBox="0 0 1440 290"
       className={styles["logo-container"]}
       height="230"
     >
+      <polygon
+        points="0,290 1440,170 1440,0 0,0"
+        className={styles["bottom-fill-orange-1"]}
+      />
       <polygon
         points="0,230 1440,110 1440,0 0,0"
         className={styles["bottom-fill-orange-2"]}
@@ -43,6 +47,11 @@ const Logo = () => {
             {eventDay} {eventTime}
           </>
         )}
+      </text>
+      <text x="75" y="272.5" className={styles["logo-registration-text"]}>
+        <a href="/registration">
+          Registration Open Now! ➜
+        </a>
       </text>
     </svg>
   );
