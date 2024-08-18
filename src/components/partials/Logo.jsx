@@ -8,7 +8,7 @@ const Logo = () => {
   const { t } = useTranslation();
   const eventDay = dayjs(config.eventDate).format("DD.MM.YYYY");
 
-  const eventTime = config.showTime ? `${config.eventStartTime} - ${config.eventEndTime}` : null;
+  const eventTime = config.showTime ? `${config.eventStartTime} - ${config.eventEndTime}` : null;
 
   return (
     <svg
