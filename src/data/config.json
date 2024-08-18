@@ -2,7 +2,7 @@
   "eventDate": "2024-11-7",
   "eventStartTime": "11:00",
   "eventEndTime": "17:00",
-  "showTime": false,
+  "showTime": true,
   "defaultLocale": "en",
   "speedRekryOpen": false,
   "showProgramView": false,
