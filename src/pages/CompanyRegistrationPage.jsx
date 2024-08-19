@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import { RegistrationButton } from "../components/RegistrationButton";
 import config from "../data/config.json";
 import Logo from "../components/partials/Logo";
@@ -166,6 +166,11 @@ const CompanyRegistrationPage = () => {
         <p>
           {t("questions")}:
           <a href="mailto:info@potentiaali.com">&nbsp;info@potentiaali.com</a>
+        </p>
+        <p>
+          <Trans i18nKey="matlu-contact">
+            Tapahtuman järjestää <a href="https://matlu.fi/">Matlu ry</a>, jonka yhteystiedot löytyvät <a href="https://matlu.fi/contact/">täältä.</a>
+          </Trans>
         </p>
       </section>
     </>
