@@ -8,7 +8,7 @@ const schedule = [
   {
     id: 1,
     companyName: "",
-    location: "Kumpulan kampus",
+    location: "Kumpula campus",
     title: {
       fi: 'Kumpulan Potentiaali 2024',
       "en-US": 'Kumpulan Potentiaali 2024',
@@ -22,9 +22,30 @@ const schedule = [
     language: "en",
     link: "",
     startTime: dayjs.tz(new Date(2024, 11, 7, 11, 0), "Europe/Helsinki"),
-    endTime: dayjs.tz(new Date(2024, 11, 7, 23, 0), "Europe/Helsinki"),
-    hideDetails: false,
+    endTime: dayjs.tz(new Date(2024, 11, 7, 17, 0), "Europe/Helsinki"),
+    hideDetails: true,
     hideTime: false,
+  },
+  {
+    id: 2,
+    companyName: "",
+    location: "Physicum lobby",
+    title: {
+      fi: "Viralliset jatkot",
+      "en-US": "Official afterparty",
+    },
+    description: "",
+    fullDescription: {
+      fi: "Lisää tietoa tulossa myöhemmin.",
+      "en-US": "More information coming later."
+    },
+    speakers: [],
+    language: "en",
+    link: "",
+    startTime: dayjs.tz(new Date(2024, 11, 7, 19, 0), "Europe/Helsinki"),
+    endTime: dayjs.tz(new Date(2024, 11, 7, 23, 0), "Europe/Helsinki"),
+    hideDetails: true,
+    hideTime: false
   },
 ];
 
