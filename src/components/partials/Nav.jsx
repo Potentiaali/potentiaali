@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -6,8 +6,26 @@ import styles from "./Nav.module.scss";
 import config from "../../data/config.json";
 import classNames from "classnames";
 
+const NavToggle = ({ open, onChange }) => {
+  const classes = open
+    ? classNames("fas", "fa-times", styles["navigation-icon"])
+    : classNames("fas", "fa-bars", styles["navigation-icon"])
+
+  return (
+    <div onClick={() => onChange(!open)} className={classNames(styles['navigation-toggle'], 'navigation-toggle')}>
+      <div className={styles['navigation-icon-wrapper']}>
+        <i className={classes} />
+      </div>
+      <span className={classNames(styles["navigation-icon-label"])}>
+        Menu
+      </span>
+    </div>
+  );
+};
+
 const Nav = () => {
   const { t, i18n } = useTranslation();
+  const [open, setOpen] = useState();
   const current = i18n.language;
   const available = ["en", "fi"];
   const next = available[(available.indexOf(current) + 1) % available.length];
@@ -92,88 +110,59 @@ const Nav = () => {
     },
   ];
   return (
-    <>
-      <input
-        className={styles["navigation-toggle"]}
-        type="checkbox"
-        id="navigation-toggle"
-      />
-      <nav className={styles.navigation}>
-        <ul className={styles["navigation-link-container"]}>
-          <li className={styles["menu-toggle-container"]}>
-            <label
-              htmlFor="navigation-toggle"
-              className={styles["navigation-menu-toggle"]}
-            >
-              <i
-                className={classNames(
-                  "fas",
-                  "fa-times",
-                  styles["navigation-close-cross"],
-                )}
-              ></i>
-              <i
-                className={classNames(
-                  "fas",
-                  "fa-bars",
-                  styles["navigation-open-hamburger"],
-                )}
-              ></i>{" "}
-              <span className={classNames(styles["navigation-icon-label"])}>
-                Menu
-              </span>
-            </label>
-          </li>
-          {menu &&
-            menu.map(
-              (menuItem) =>
-                !menuItem.disabled && (
-                  <li key={menuItem.id}>
-                    <NavLink
-                      tabIndex={0}
-                      exact="true"
-                      to={menuItem.link}
-                      key={menuItem.linkName}
-                      activeclassname="active-link"
-                      className={styles["nav-link"]}
-                      aria-label={menuItem.ariaLabel[current]}
-                    >
-                      <p>
-                        {menuItem.icon !== undefined && (
-                          <i className={classNames("fas", menuItem.icon)}>
-                            &nbsp;&nbsp;
-                          </i>
-                        )}
-                        {t(menuItem.id)}
-                      </p>
-                    </NavLink>
-                  </li>
-                ),
-            )}
-          <li>
-            <a className={styles["nav-link"]} href={config.studentFeedbackForm}>
-              <p>
-                <i className={classNames("fas", "fa-pen")}>&nbsp;&nbsp;</i>
-                {t("feedback-link")}
-              </p>
-            </a>
-          </li>
-          <li>
-            <button
-              className={classNames(
-                styles["nav-link"],
-                styles["localization-button"],
-              )}
-              onClick={() => changeLanguageHandler()}
-              aria-label={`Change page language to ${next}`}
-            >
-              <i className="fas fa-globe">&nbsp;&nbsp;</i>
-              <span id="changeLocaleButton">{next}</span>
-            </button>
-          </li>
-        </ul>
-      </nav>
-    </>
+    <nav className={classNames(styles["navigation"], { [styles["open"]]: open })}>
+      <NavToggle onChange={setOpen} open={open} />
+      <ul className={styles["navigation-link-container"]}>
+        {menu &&
+          menu.map(
+            (menuItem) =>
+              !menuItem.disabled && (
+                <li key={menuItem.id}>
+                  <NavLink
+                    tabIndex={0}
+                    exact="true"
+                    to={menuItem.link}
+                    key={menuItem.linkName}
+                    activeClassName="active-link"
+                    className={styles["nav-link"]}
+                    onClick={() => setOpen(false)}
+                    aria-label={menuItem.ariaLabel[current]}
+                  >
+                    {menuItem.icon !== undefined && (
+                      <div className={styles['navigation-icon-wrapper']}>
+                        <i className={classNames("fas", menuItem.icon, styles['navigation-icon'])} />
+                      </div>
+                    )}
+                    {t(menuItem.id)}
+                  </NavLink>
+                </li>
+              ),
+          )}
+        <li>
+          <a className={styles["nav-link"]} href={config.studentFeedbackForm}>
+            <p>
+              <div className={styles['navigation-icon-wrapper']}>
+                <i className={classNames("fas", "fa-pen", styles['navigation-icon'])} />
+              </div>
+              {t("feedback-link")}
+            </p>
+          </a>
+        </li>
+      </ul>
+      <button
+        className={classNames(
+          styles["nav-link"],
+          styles["localization-button"],
+        )}
+        data-current={current}
+        onClick={() => changeLanguageHandler()}
+        aria-label={`Change page language to ${next}`}
+      >
+        {available.map((lang) => (
+          <div className={current === lang ? styles.active : ''}>{lang}</div>
+        ))}
+      </button>
+    </nav>
   );
 };
 

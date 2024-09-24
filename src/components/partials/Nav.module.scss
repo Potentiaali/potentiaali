@@ -1,133 +1,125 @@
 @import "../../vars";
 @import "../../mixins";
 
-.navigation {
-  height: $nav-height;
-  background-color: $orange-1;
-  position: sticky;
-  top: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 999;
+$nav-breakpoint: 1300px;
 
-  a,
-  a:visited,
-  a:active,
-  a:hover,
-  button {
-    border: 0;
-    background-color: transparent;
-    color: $orange-2;
-    font-weight: bold;
-    @include tablet {
-      font-size: 1.0rem;
-    }
-    @include mobile {
-      font-size: 0.9rem;
-    }
-    @include desktop {
-      font-size: 1.5rem;
-    }
-    @include bigDesktop {
-      font-size: 1.5rem;
-    }
-    &.current {
-      text-decoration: underline;
-    }
-  }
-}
-
-.navigation-link-container {
-  width: $navbar-width-desktop;
-
-  @include mobile {
-    width: 100%;
-  }
-  @include tablet {
-    width: $tablet-base-width;
-  }
-  @include desktop {
-    width: $desktop-navbar-width;
-  }
-  @include bigDesktop {
-    width: $big-desktop-base-width;
-  }
-
-  height: 100%;
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  li {
-    display: inline-block;
-    @include mobile {
-      display: block;
-      width: 100%;
-      padding: 20px;
-    }
-    @include mobile {
-      .nav-link {
-        display: none;
-      }
-    }
-    &.menu-toggle-container {
-      display: none;
-      @include mobile {
-        display: inline-block;
-      }
-    }
-  }
-}
-
-.navigation-menu-toggle {
-  color: $orange-2;
-  font-weight: bold;
-  font-size: 1.5rem;
+.nav-link {
   white-space: nowrap;
-  width: 200px;
-  &:hover {
-    cursor: pointer;
+}
+
+.navigation {
+  display: grid;
+  width: 100vw;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: $nav-height;
+  align-items: center;
+  background-color: $orange-1;
+  color: $orange-2;
+  padding: 0 1em;
+  font-size: 1.5rem;
+
+  &.open {
+    .navigation-toggle {
+      min-width: 50dvw;
+    }
   }
 }
 
-.navigation-close-cross {
-  display: none;
+.navigation-icon-wrapper {
+  width: 3rem;
+  text-align: center;
+  display: inline-block;
+
+  @media (max-width: $nav-breakpoint) {
+    margin-right: 0.5em;
+  }
 }
 
 .navigation-toggle {
+  grid-column-start: 1;
   display: none;
-  &:checked {
-    & + .navigation {
-      height: 100%;
-    }
-    & + .navigation .navigation-link-container .navigation-close-cross {
-      display: inline-block;
-    }
-    & + .navigation .navigation-link-container .navigation-open-hamburger {
-      display: none;
-    }
-    & + .navigation .navigation-link-container .navigation-icon-label {
-      display: none;
-    }
-    & + .navigation .navigation-link-container {
-      display: block;
-      & li {
-        display: block;
-        width: 100%;
-        padding: 20px;
-        height: 80px;
-        & .nav-link {
-          display: block;
-        }
-      }
-    }
+  margin-left: -1em;
+  padding: 0 1em;
+  min-width: 0;
+  transition-property: min-width;
+  transition-duration: 200ms;
+
+  &:hover {
+    background-color: lighten($orange-1, 5);
+  }
+
+  @media (max-width: $nav-breakpoint) {
+    display: block;
   }
 }
 
 .localization-button {
   text-transform: uppercase;
-  &:hover {
-    cursor: pointer;
+  background: none;
+  border: 2px solid $orange-2;
+  line-height: calc(2em - 2 * 2px);
+  padding: 2px;
+
+  div {
+    display: inline-block;
+    padding: 0 0.4em;
+    text-align: center;
+    font-weight: bold;
+    color: $orange-2;
+    width: 2.25em;
+
+    &.active {
+      background-color: $orange-2;
+      color: $orange-1;
+    }
   }
+}
+
+.navigation:not(.open) .navigation-link-container {
+  @media (max-width: $nav-breakpoint) {
+    height: 0;
+  }
+}
+
+.navigation-link-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  overflow: hidden;
+  transition-property: height;
+  transition-duration: 200ms;
+
+  @media (max-width: $nav-breakpoint) {
+    height: #{3em * 6};
+    grid-column: 1 / span 3;
+    width: calc(100% + 2em);
+    flex-direction: column;
+    justify-self: start;
+    align-items: start;
+    margin-left: -1em;
+  }
+
+  & > li {
+    align-self: stretch;
+    
+    a {
+      padding: 0 1em;
+      display: block;
+      height: $nav-height;
+      line-height: $nav-height;
+    }
+
+    &:hover {
+      background-color: lighten($orange-1, 5);
+    }
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+.localization-button {
+  grid-row: 1 / span 1;
+  grid-column: 3 / span 1;
 }
