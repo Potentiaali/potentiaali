@@ -35,13 +35,13 @@ const Logo = () => {
         y="45"
         height="120"
       />
-      <text x="25" y="162" className={styles["logo-1"]} aria-hidden="true">
+      <text x="25" y="160" className={styles["logo-1"]} aria-hidden="true">
         {t("kumpulas")}
       </text>
-      <text x="50" y="226" className={styles["logo-2"]} aria-hidden="true">
+      <text x="50" y="222" className={styles["logo-2"]} aria-hidden="true">
         {t("potential")}
       </text>
-      <text x="750" y="221" className={styles["logo-3"]}>
+      <text x="1370" y="218" className={styles["logo-3"]} textAnchor="end">
         {config.eventDate !== "" && (
           <>
             {eventDay} {eventTime}

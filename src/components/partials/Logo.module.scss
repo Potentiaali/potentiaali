@@ -3,7 +3,14 @@
 .logo-container {
   display: block;
   height: auto;
-  width: 100%;
+  width: 100vw;
+  overflow: hidden;
+
+  @media (max-width: $tablet-breakpoint) {
+    transform-origin: 0 0;
+    transform: scale(200%);
+    margin-bottom: 25%;
+  }
 }
 .bottom-fill-orange-1 {
   fill: $orange-1;
