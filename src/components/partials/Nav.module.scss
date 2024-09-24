@@ -20,7 +20,7 @@ $nav-breakpoint: 1300px;
 
   &.open {
     .navigation-toggle {
-      min-width: 50dvw;
+      min-width: 100%;
     }
   }
 }
@@ -36,13 +36,16 @@ $nav-breakpoint: 1300px;
 }
 
 .navigation-toggle {
-  grid-column-start: 1;
+  grid-column: 1 / span 2;
   display: none;
   margin-left: -1em;
+  margin-right: 1em;
   padding: 0 1em;
   min-width: 0;
   transition-property: min-width;
   transition-duration: 200ms;
+  line-height: $nav-height;
+  justify-self: start;
 
   &:hover {
     background-color: lighten($orange-1, 5);
