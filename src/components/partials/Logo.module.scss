@@ -3,6 +3,7 @@
 .logo-wrapper {
   aspect-ratio: 1440 / 290;
   width: 100dvw;
+  overflow: hidden;
 
   @media (max-width: $tablet-breakpoint) {
     aspect-ratio: 720 / 290;
@@ -15,9 +16,6 @@
   width: 100vw;
   overflow: hidden;
   text-transform: uppercase;
-  position: absolute;
-  left: 0;
-  right: 0;
 
   @media (max-width: $tablet-breakpoint) {
     transform-origin: 0 0;
