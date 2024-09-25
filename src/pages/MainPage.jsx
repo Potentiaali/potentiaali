@@ -5,8 +5,10 @@ import { Program } from "../components/partials/Program";
 import SpeedRekry from "../components/partials/SpeedRekry";
 import config from "../data/config.json";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 // import Notification from '../components/partials/Notification'
 import Hero from "../components/partials/Hero";
+import classNames from "classnames";
 const MainPage = () => {
   const { t } = useTranslation();
 
@@ -51,7 +53,7 @@ const MainPage = () => {
           {t("average-per-year")}
         </small>
       </section>*/}
-      <section className="app-section">
+      <section className="app-section hero-section">
         <div className="app-section-text">
           <h1>{t("title-1")}</h1>
           <p> {t("main-part-1")} </p>
@@ -87,7 +89,7 @@ const MainPage = () => {
                       <span className="event-info-value">
                         <b style={{ fontWeight: 'bold' }}>{t("event-time")}</b><br />
                         <time dateTime="2024-11-07 11:00">
-                          {t("event-day")} {config.eventDate} {config.eventStartTime} <br />
+                          {t("event-day")} {config.eventDate} {config.eventStartTime}-{config.eventEndTime} <br />
                         </time>
                         <a
                           className="link-btn"
@@ -118,6 +120,29 @@ const MainPage = () => {
                 </div>
               </>
             )}
+        </div>
+        <div className="hero-actions">
+          <Link to="/companies" className="hero-action">
+            <div>
+              <div className="hero-action-text">{t('hero-action-companies')}</div>
+              <div className="hero-action-subtitle">{t('hero-action-companies-subtitle')}</div>
+            </div>
+            <i className={classNames('fa', 'fa-chevron-right')} />
+          </Link>
+          <Link to="/subjects" className="hero-action">
+            <div>
+              <div className="hero-action-text">{t('hero-action-students')}</div>
+              <div className="hero-action-subtitle">{t('hero-action-students-subtitle')}</div>
+            </div>
+            <i className={classNames('fa', 'fa-chevron-right')} />
+          </Link>
+          <Link to="/registration" className="hero-action">
+            <div>
+              <div className="hero-action-text">{t('hero-action-register')}</div>
+              <div className="hero-action-subtitle">{t('hero-action-register-subtitle')}</div>
+            </div>
+            <i className={classNames('fa', 'fa-chevron-right')} />
+          </Link>
         </div>
       </section>
       <section className="app-section">

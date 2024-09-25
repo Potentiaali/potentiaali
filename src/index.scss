@@ -82,6 +82,32 @@ body {
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
+
+  &.hero-section {
+    display: flex;
+    gap: 5em;
+
+    @include mobile {
+      flex-direction: column;
+    }
+
+    @include tablet {
+      flex-direction: column;
+    }
+
+    @include bigTablet {
+      gap: 1em;
+    }
+
+    @include desktop {
+      gap: 3em;
+    }
+
+    @include bigDesktop {
+      gap: 5em;
+    }
+  }
+
   @include mobile {
     width: 100%;
     margin-left: 0;
@@ -294,4 +320,63 @@ body {
   padding-left: 15px;
   height: 56px;
   width: 50%;
+}
+
+.hero-action {
+  overflow: hidden;
+  color: black;
+  background: $orange-2;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  height: 4.5em;
+  padding-left: 1em;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+  &:hover i {
+    width: 3em;
+    margin-left: 1em;
+  }
+
+  i {
+    display: flex;
+    background: $orange-1;
+    align-self: stretch;
+    font-size: 1.5em;
+    color: $orange-2;
+    align-items: center;
+    width: 2em;
+    justify-content: center;
+    position: relative;
+    transition-property: width margin-left;
+    transition-duration: 200ms;
+    margin-left: 2em;
+
+    &::after {
+      content: '';
+      background: $orange-1;
+      position: absolute;
+      right: 100%;
+      width: .5em;
+      height: 100%;
+      clip-path: polygon(0% 100%, 100% 100%, 100% 0%);
+    }
+  }
+
+  .hero-action-text {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .hero-action-subtitle {
+    margin-top: -0.5em;
+  }
+}
+
+.hero-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
