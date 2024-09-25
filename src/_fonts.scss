@@ -1,6 +1,9 @@
 @font-face {
   font-family: "Big John";
-  src: url("/fonts/BIG_JOHN.otf");
+  // src: url("/fonts/BIG_JOHN.otf");
+  src: url("/fonts/BigJohnPRO-Bold.otf"),
+       url("/fonts/BigJohnPRO-Normal.otf"),
+       url("/fonts/BigJohnPRO-Light.otf");
   font-display: swap;
 }
 
