@@ -85,14 +85,15 @@ body {
 
   &.hero-section {
     display: flex;
-    gap: 5em;
 
     @include mobile {
       flex-direction: column;
+      gap: 1em;
     }
 
     @include tablet {
       flex-direction: column;
+      gap: 1em;
     }
 
     @include bigTablet {
@@ -109,9 +110,8 @@ body {
   }
 
   @include mobile {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    width: auto;
+    margin: 0 1em;
   }
   @include tablet {
     width: $tablet-base-width;
