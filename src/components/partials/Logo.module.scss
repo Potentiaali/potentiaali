@@ -1,10 +1,23 @@
 @import "../../vars";
 
+.logo-wrapper {
+  aspect-ratio: 1440 / 290;
+  width: 100dvw;
+
+  @media (max-width: $tablet-breakpoint) {
+    aspect-ratio: 720 / 290;
+  }
+}
+
 .logo-container {
   display: block;
   height: auto;
   width: 100vw;
   overflow: hidden;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0;
+  right: 0;
 
   @media (max-width: $tablet-breakpoint) {
     transform-origin: 0 0;
@@ -48,8 +61,26 @@
   fill: $orange-2;
   position: relative;
   transition-duration: 200ms;
+  font-variant-numeric: tabular-nums;
 }
 
 .logo-registration-text:hover {
   transform: rotate(-5deg) translateX(20px);
+}
+
+.logo-countdown {
+  font-family: "Big John";
+  transform: rotate(-5deg);
+  font-size: 2rem;
+  fill: $orange-2;
+  position: relative;
+
+  @media (max-width: $tablet-breakpoint) {
+    display: none;
+  }
+}
+
+.logo-countdown-unit {
+  font-size: 0.75em;
+  opacity: 0.75;
 }

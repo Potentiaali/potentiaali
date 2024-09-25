@@ -14,7 +14,6 @@ const MainPage = () => {
     <>
       <Logo />
       <section className="app-section">
-        <Hero />
         {/* <Notification
           type="success"
           title={<h2>{t('event-notification-title')}</h2>}
@@ -30,7 +29,7 @@ const MainPage = () => {
           </p>
         </Notification> */}
       </section>
-      <div className="app-statistics">
+      {/*<div className="app-statistics">
         <div className="single-stat">
           <span className="single-stat_main">1000+</span>
           <span className="single-stat_secondary">
@@ -51,7 +50,7 @@ const MainPage = () => {
           <sup>*</sup>
           {t("average-per-year")}
         </small>
-      </section>
+      </section>*/}
       <section className="app-section">
         <h1>{t("title-1")}</h1>
         <p> {t("main-part-1")} </p>
