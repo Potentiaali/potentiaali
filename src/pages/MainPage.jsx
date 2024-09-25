@@ -52,77 +52,74 @@ const MainPage = () => {
         </small>
       </section>*/}
       <section className="app-section">
-        <h1>{t("title-1")}</h1>
-        <p> {t("main-part-1")} </p>
+        <div className="app-section-text">
+          <h1>{t("title-1")}</h1>
+          <p> {t("main-part-1")} </p>
+          {config.eventDate !== "" && (
+            <>
+                <h1>{t("event-info-title")}</h1>
+                <div>
+                  <ul className="event-info">
+                    <li>
+                      <span className="event-info-title">
+                        <i className="fas fa-map-marked-alt"></i>
+                      </span>
+                      <span className="event-info-value">
+                        <b style={{ fontWeight: 'bold' }}>{t("event-location")}</b><br />
+                        {t("event-location-value")} <br />
+                        <a
+                          className="link-btn"
+                          alt="Show on Google Maps"
+                          href="https://goo.gl/maps/1rh5pJXHwgtVffeGA"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                        >
+                          <span className="event-info-value">
+                            {t("show-on-google-maps")}
+                          </span>
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span className="event-info-title">
+                        <i className="fas fa-calendar-day"></i>
+                      </span>
+                      <span className="event-info-value">
+                        <b style={{ fontWeight: 'bold' }}>{t("event-time")}</b><br />
+                        <time dateTime="2024-11-07 11:00">
+                          {t("event-day")} {config.eventDate} {config.eventStartTime} <br />
+                        </time>
+                        <a
+                          className="link-btn"
+                          alt="Add the event to your calendar"
+                          href="Kumpulan_Potentiaali_2024.ics"
+                          target="_blank"
+                        >
+                          <span className="event-info-value">
+                            {t("add-to-calendar")}
+                          </span>
+                        </a>
+                      </span>
+                    </li>
+                    {/*<li>
+                      <span className="event-info-title">
+                        <i className="fas fa-clock"></i>
+                      </span>
+                      <span className="event-info-value">
+                        {t("event-time")} {": "} {t("event-time-prefix")}{" "}
+                        {config.eventStartTime} - {config.eventEndTime}
+                      </span>
+                    </li>*/}
+                    <li>
+                    </li>
+                    <li>
+                    </li>
+                  </ul>
+                </div>
+              </>
+            )}
+        </div>
       </section>
-      {config.eventDate !== "" && (
-        <section className="app-section">
-          <h1>{t("event-info-title")}</h1>
-          <div>
-            <ul className="event-info">
-              <li>
-                <span className="event-info-title">
-                  <i className="fas fa-map-marked-alt"></i>
-                </span>
-                <span className="event-info-value">
-                  {t("event-location")} {": "} {t("event-location-value")}
-                </span>
-              </li>
-              <li>
-                <span className="event-info-title">
-                  <i className="fas fa-calendar-day"></i>
-                </span>
-                <span className="event-info-value">
-                  {t("event-date")} {": "}
-                  <time dateTime="2023-11-23 11:00">
-                    {t("event-day")} {config.eventDate}
-                  </time>
-                </span>
-              </li>
-              {/*<li>
-                <span className="event-info-title">
-                  <i className="fas fa-clock"></i>
-                </span>
-                <span className="event-info-value">
-                  {t("event-time")} {": "} {t("event-time-prefix")}{" "}
-                  {config.eventStartTime} - {config.eventEndTime}
-                </span>
-              </li>*/}
-              <li>
-                <a
-                  className="link-btn"
-                  alt="Show on Google Maps"
-                  href="https://goo.gl/maps/1rh5pJXHwgtVffeGA"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <span className="event-info-title">
-                    <i className="fas fa-map-marker-alt"></i>
-                  </span>
-                  <span className="event-info-value">
-                    {t("show-on-google-maps")}
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a
-                  className="link-btn"
-                  alt="Add the event to your calendar"
-                  href="Kumpulan_Potentiaali_2024.ics"
-                  target="_blank"
-                >
-                  <span className="event-info-title">
-                    <i className="fas fa-calendar-plus"></i>
-                  </span>
-                  <span className="event-info-value">
-                    {t("add-to-calendar")}
-                  </span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </section>
-      )}
       <section className="app-section">
         {config.showProgramView === true && <Program />}
       </section>
