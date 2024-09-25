@@ -55,11 +55,11 @@ const MainPage = () => {
       </section>*/}
       <section className="app-section hero-section">
         <div className="app-section-text">
-          <h1>{t("title-1")}</h1>
+          <h1><span>{t("title-1")}</span></h1>
           <p> {t("main-part-1")} </p>
           {config.eventDate !== "" && (
             <>
-                <h1>{t("event-info-title")}</h1>
+                <h1><span>{t("event-info-title")}</span></h1>
                 <div>
                   <ul className="event-info">
                     <li>
