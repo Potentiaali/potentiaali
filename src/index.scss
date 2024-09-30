@@ -252,6 +252,7 @@ body {
   color: $orange-1;
   width: 2em;
   margin-right: 0.5em;
+  flex-shrink: 0;
 }
 
 .registration-notification {
