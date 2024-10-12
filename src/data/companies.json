@@ -319,5 +319,15 @@
       "fi": "",
       "en": ""
     }
+  },
+  {
+    "id": 63,
+    "name": "Think Company",
+    "imgSrc": "companies/Think_Company.png",
+    "websiteUrl": "https://www.thinkcompany.fi/",
+    "description": {
+      "fi": "",
+      "en": ""
+    }
   }
 ]
