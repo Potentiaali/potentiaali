@@ -11,7 +11,7 @@
   "big-booth": "Iso Ständi",
   "bonus-tickets": "Tarjoamme lisäksi neljä suurempaa ständipaikkaa, jotka on sijoiteltu sisäänkäyntien yhteyteen. Tällainen paikka kustantaa 2400,00 euroa, ja ne myydään ilmoittautumisjärjestyksessä. ",
   "changeLocaleButton": "{{ $locale }}",
-  "companies-title-text": "Vuoden 2024 Kumpulan Potentiaali -tapahtumaan osallistuneet yritykset",
+  "companies-title-text": "Vuoden 2024 Kumpulan Potentiaali -tapahtumaan osallistuvat yritykset",
   "company-list-will-be-updated": "Osallistuvien yritysten listaa päivitetään jatkuvasti tapahtuman lähestyessä!",
   "company-info": "Yritysinfo",
   "companyPage": "Yritykset",
