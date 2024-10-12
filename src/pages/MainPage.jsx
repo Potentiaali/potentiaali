@@ -136,13 +136,15 @@ const MainPage = () => {
             </div>
             <i className={classNames('fa', 'fa-chevron-right')} />
           </Link>
-          <Link to="/registration" className="hero-action">
-            <div>
-              <div className="hero-action-text">{t('hero-action-register')}</div>
-              <div className="hero-action-subtitle">{t('hero-action-register-subtitle')}</div>
-            </div>
-            <i className={classNames('fa', 'fa-chevron-right')} />
-          </Link>
+          { config.showRegistrationInfo && (
+            <Link to="/registration" className="hero-action">
+              <div>
+                <div className="hero-action-text">{t('hero-action-register')}</div>
+                <div className="hero-action-subtitle">{t('hero-action-register-subtitle')}</div>
+              </div>
+              <i className={classNames('fa', 'fa-chevron-right')} />
+            </Link>
+          ) }
         </div>
       </section>
       <section className="app-section">

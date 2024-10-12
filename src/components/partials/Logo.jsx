@@ -116,11 +116,13 @@ const Logo = () => {
         <text x="1370" y="275" className={styles["logo-countdown"]} textAnchor="end">
           <Countdown start={eventStartTime} end={eventEndTime} />
         </text>
-        <text x="75" y="272.5" className={styles["logo-registration-text"]}>
-          <a href="/registration">
-            Registration Open Now! ➜
-          </a>
-        </text>
+        { config.showRegistrationInfo && (
+          <text x="75" y="272.5" className={styles["logo-registration-text"]}>
+            <a href="/registration">
+              Registration Open Now! ➜
+            </a>
+          </text>
+        )}
       </svg>
     </div>
   );
