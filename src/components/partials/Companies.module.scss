@@ -29,4 +29,18 @@ a.company-logo {
 img.company-logo-image {
   object-fit: contain;
   width: 80%;
+  text-align: center;
+  position: relative;
+  display: block;
+
+  &:before {
+    position: absolute;
+    background: $orange-2;
+    padding: 1em;
+    background-size: contain;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
