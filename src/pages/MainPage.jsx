@@ -4,7 +4,7 @@ import Companies from "../components/partials/Companies";
 import { Program } from "../components/partials/Program";
 import SpeedRekry from "../components/partials/SpeedRekry";
 import config from "../data/config.json";
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import { Link } from "react-router-dom";
 // import Notification from '../components/partials/Notification'
 import Hero from "../components/partials/Hero";
@@ -56,7 +56,9 @@ const MainPage = () => {
       <section className="app-section hero-section">
         <div className="app-section-text">
           <h1><span>{t("title-1")}</span></h1>
-          <p> {t("main-part-1")} </p>
+          <Trans i18nKey="main-part-1">
+            A <a href="https://matlu.fi/">Matlu ry</a> B
+          </Trans>
           {config.eventDate !== "" && (
             <>
                 <h1><span>{t("event-info-title")}</span></h1>
