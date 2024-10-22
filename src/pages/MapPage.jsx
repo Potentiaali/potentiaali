@@ -101,11 +101,14 @@ const MapPage = () => {
               <table className={style.boothTable}>
                 <tbody>
                   {companies
-                    .sort((a, b) =>
-                      a.booth.localeCompare(b.booth, undefined, {
+                    .sort((a, b) => {
+                      const boothA = a.booth ?? '';
+                      const boothB = b.booth ?? '';
+
+                      boothA.localeCompare(boothB, undefined, {
                         numeric: true,
-                      }),
-                    )
+                      });
+                    })
                     .map((company) => (
                       <tr key={company.id}>
                         <td className={style.boothCol}>{company.booth}</td>
