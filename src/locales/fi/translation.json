@@ -130,5 +130,6 @@
   "hero-action-students": "+1000 opiskelijaa",
   "hero-action-students-subtitle": "Tutustu aineisiin",
   "hero-action-register": "Ilmoittautuminen auki",
-  "hero-action-register-subtitle": "Ilmoita yrityksesi mukaan"
+  "hero-action-register-subtitle": "Ilmoita yrityksesi mukaan",
+  "description-not-available-in-current-language": "Tämä kuvaus on saatavilla vain Englanniksi."
 }

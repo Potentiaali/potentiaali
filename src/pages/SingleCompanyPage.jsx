@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./SingleCompanyPage.module.scss";
 import companies from "../data/companies.json";
 import { useTranslation } from "react-i18next";
 import { Link, useParams } from "react-router-dom";
@@ -6,21 +7,28 @@ import LanguageString from "../components/LanguageString";
 import { BoothBadge } from "../components/partials/badges/BoothBadge";
 
 const SingleCompanyPage = () => {
-  const { t } = useTranslation();
+  const { t , i18n} = useTranslation();
+  const currentLocale = i18n.language;
+
   const params = useParams();
   const companyId = params.id;
+
   if (!companyId) {
     return <span> {t("company-not-found")}</span>;
   }
+
   if (companies.length === 0) {
     return <span> {t("empty-schedule")}</span>;
   }
+
   const company = companies.find(
     (cmpny) => Number(cmpny.id) === Number(companyId),
   );
+
   if (company === undefined) {
     return <span> {t("company-not-found")}</span>;
   }
+
   return (
     <>
       <section className="app-section">
@@ -55,8 +63,11 @@ const SingleCompanyPage = () => {
           </a>
         </p>
         <pre style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
+          { !company.description[currentLocale] && (
+            <div class={styles.descriptionNotAvailable}>{t("description-not-available-in-current-language")}</div>
+          ) }
           <p>
-            <LanguageString languageObject={company.description} />
+            { company.description[currentLocale] ?? Object.values(company.description)[0] }
           </p>
         </pre>
       </section>

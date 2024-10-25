@@ -116,5 +116,6 @@
   "hero-action-students": "+1000 students",
   "hero-action-students-subtitle": "View subjects",
   "hero-action-register": "Registration open",
-  "hero-action-register-subtitle": "Register your company!"
+  "hero-action-register-subtitle": "Register your company!",
+  "description-not-available-in-current-language": "This description is only available in Finnish."
 }
