@@ -1,0 +1,10 @@
+@import "../vars";
+
+.descriptionNotAvailable {
+  background: $orange-1;
+  padding: 0.25em 0.5em;
+  color: white;
+  filter: drop-shadow(5px 5px 0px $orange-2);
+  margin: 1em 0;
+}
+
