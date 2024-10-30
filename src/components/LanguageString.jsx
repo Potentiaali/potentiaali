@@ -8,10 +8,15 @@ const LanguageString = ({ languageObject }) => {
   const { i18n } = useTranslation();
   const currentLocale = i18n.language;
 
-  if (languageObject[currentLocale] === undefined) {
-    return <>{languageObject[defaultLocale]}</>;
-  }
-  return <>{languageObject[currentLocale]}</>;
+  const keys = [
+    currentLocale,
+    currentLocale.split('-')[0],
+    defaultLocale,
+    defaultLocale.split('-')[0],
+    Object.keys(languageObject)[0],
+  ];
+
+  return keys.map((key) => languageObject[key]).find(Boolean);
 };
 
 LanguageString.propTypes = {
