@@ -1,20 +1,9 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useMemo } from "react";
 import styles from "./Logo.module.scss";
 import { useTranslation } from "react-i18next";
+import { useClock } from "../../utils/clock";
 import config from "../../data/config.json";
 import dayjs from "dayjs";
-
-const useClock = (interval) => {
-  const [date, setDate] = useState(new Date());
-
-  useEffect(() => {
-    const id = setInterval(() => setDate(new Date()), interval);
-
-    return () => clearInterval(id);
-  }, []);
-
-  return date;
-};
 
 const Countdown = ({ start, end, interval = 1000 }) => {
   const { t } = useTranslation();
