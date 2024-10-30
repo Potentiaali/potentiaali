@@ -63,7 +63,7 @@ const SingleCompanyPage = () => {
           </a>
         </p>
         <pre style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
-          { !company.description[currentLocale] && (
+          { !company.description[currentLocale] && Object.values(company.description).find(Boolean) && (
             <div class={styles.descriptionNotAvailable}>{t("description-not-available-in-current-language")}</div>
           ) }
           <p>
