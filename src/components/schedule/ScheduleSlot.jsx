@@ -3,10 +3,12 @@ import propTypes from "prop-types";
 import styles from "./ScheduleSlot.module.scss";
 import classNames from "classnames";
 import dayjs from "dayjs";
+import { useClock } from "../../utils/clock";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import LanguageString from "../LanguageString";
 import "./ScheduleGrid.scss";
+import { tracks } from "../../data/schedule";
 
 const getHoursAndMinutes = (inputDate) => {
   return dayjs(inputDate).format("HHmm");
@@ -24,14 +26,19 @@ const ScheduleSlot = ({ slot }) => {
   const fromClass = getFrom(dayjs(slot.startTime).toString());
   const toClass = getTo(dayjs(slot.endTime).toString());
   const { t } = useTranslation();
+  const time = useClock(60 * 1000);
+  const now = dayjs(time).isAfter(slot.startTime) && dayjs(time).isBefore(slot.endTime);
+  const track = tracks[slot.track - 1];
+
   return (
-    <div className={classNames(styles.slot, fromClass, toClass)}>
+    <div className={classNames(styles.slot, fromClass, toClass)} style={{ '--track': slot.track, '--hue': `${track?.hue}deg` }}>
       <div className={styles["slot-bg-1"]}></div>
       <div className={styles["slot-bg-2"]}></div>
       <div className={styles["slot-content"]}>
         <ul className={styles["slot-info"]}>
           <li className={classNames(styles["slot-title"])}>
             <LanguageString languageObject={slot.title} />
+            { now && <span className={styles.now}>{t('slot-now')}</span> }
           </li>
           {slot.companyName !== "" && (
             <li className={styles["slot-company"]}>
