@@ -30,10 +30,10 @@ export const schedule = [
   {
     id: 1,
     companyName: "",
-    location: "Kumpula campus",
+    location: "Physicum & Exactum",
     title: {
-      fi: 'Kumpulan Potentiaali 2024',
-      "en-US": 'Kumpulan Potentiaali 2024',
+      fi: 'Ständit auki',
+      "en-US": 'Booths open',
     },
     description: "",
     fullDescription: {
