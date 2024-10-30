@@ -113,7 +113,7 @@ const Logo = () => {
             </>
           )}
         </text>
-        <text x="1370" y="275" className={styles["logo-countdown"]} textAnchor="end">
+        <text x="1370" y="265" className={styles["logo-countdown"]} dominantBaseline="central" alignmentBaseline="central">
           <Countdown start={eventStartTime} end={eventEndTime} />
         </text>
         { config.showRegistrationInfo && (

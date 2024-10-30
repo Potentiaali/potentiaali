@@ -72,9 +72,12 @@
   font-size: 2rem;
   fill: $orange-2;
   position: relative;
+  text-anchor: end;
 
   @media (max-width: $tablet-breakpoint) {
-    display: none;
+    transform: rotate(-5deg) translateX(calc(-1370px + 3 * 25px)) translateY(-4px);
+    font-size: 1.75em;
+    text-anchor: start;
   }
 }
 
