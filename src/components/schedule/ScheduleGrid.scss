@@ -4,24 +4,25 @@
 
 @function get-time($time) {
   $minutes: $time % 60;
-  $hours: math.div($time - ($time % 60), 60) + 10;
-  @if ($hours == 0) {
-    $hours: "00";
-  }
+  $hours: math.div($time - ($time % 60), 60) + 9;
+  $prefix: "";
   @if ($minutes == 0) {
     $minutes: "00";
   }
-  @return #{$hours} + #{$minutes};
+  @if ($hours < 10) {
+    $prefix: "0";
+  }
+  @return #{$prefix} + #{$hours} + #{$minutes};
 }
 
 @for $starting from 0 through 40 {
-  @for $ending from ($starting + 2) through 54 {
-    @if ($ending - $starting >= 2) {
-      .from-#{get-time($starting * 15)} {
-        &.to-#{get-time($ending * 15)} {
-          grid-row: #{$starting + 1} / #{$ending + 1};
-        }
-      }
-    }
+  .from-#{get-time($starting * 15)} {
+    grid-row-start: #{$starting};
+  }
+}
+
+@for $ending from 0 through 60 {
+  .to-#{get-time($ending * 15)} {
+    grid-row-end: #{$ending};
   }
 }

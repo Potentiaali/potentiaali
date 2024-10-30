@@ -5,17 +5,13 @@
   grid-column: 1;
   display: grid;
   grid-template-columns: 55px;
-  grid-auto-rows: 75px;
-  @include mobile{
-    grid-auto-rows: 75px;
-  }
-  @include tablet{
-    grid-auto-rows: 75px;
-  }
-  grid-gap: 0px;
+  grid-template-rows: 4em;
+  grid-auto-rows: $schedule-size;
+  grid-gap: 0.5em;
   @include darkModeFont($black-1, $white-1);
 }
 
 .main-label {
+  padding-top: 0.25em;
   border-top: 2px solid $orange-1;
 }

@@ -9,13 +9,31 @@
   padding-left: 10px;
   display: grid;
   grid-template-columns: 55px auto;
-  grid-gap: 0px;
+  grid-gap: .75em;
+  --slot-size: #{$schedule-size + 0.5em};
 }
 
 .schedule-slots {
   display: grid;
-  grid-auto-rows: 75px;
-  grid-template-columns: repeat(6, math.div($mobile-breakpoint, 2));
+  grid-template-rows: 4em;
+  grid-auto-rows: $schedule-size;
+  grid-template-columns: repeat(3, 14em);
+  gap: 0.5em;
 
   overflow-x: scroll;
+}
+
+.schedule-track-title {
+  grid-row: 1;
+  justify-self: center;
+  align-self: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 0.1em 0.1em;
+  line-height: 1.5;
+  text-align: center;
+  
+  span {
+    border-bottom: 3px solid $orange-1;
+  }
 }

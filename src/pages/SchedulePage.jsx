@@ -6,22 +6,10 @@ import ScheduleSlot from "../components/schedule/ScheduleSlot";
 
 export const SchedulePage = () => {
   return (
-    <div className={styles.schedule}>
+    <div className={styles.schedule} style={{ position: 'relative' }}>
       <ScheduleLabels />
       <div className={styles["schedule-slots"]}>
-        {events.map((entry) => (
-          <ScheduleSlot
-            id={entry.id}
-            key={entry.id}
-            companyName={entry.companyName}
-            location={entry.location}
-            title={entry.title}
-            startTime={entry.startTime}
-            endTime={entry.endTime}
-            hideDetails={entry.hideDetails}
-            hideTime={entry.hideTime}
-          />
-        ))}
+        {events.map((entry) => <ScheduleSlot slot={entry} />)}
       </div>
     </div>
   );

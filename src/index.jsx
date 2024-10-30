@@ -9,6 +9,12 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 const container = document.getElementById("root");
 
+import dayjs from "dayjs";
+import relativeTime from "dayjs/plugin/relativeTime"; 
+import "dayjs/locale/fi"; 
+
+dayjs.extend(relativeTime);
+
 const root = ReactDOMClient.createRoot(container);
 
 root.render(

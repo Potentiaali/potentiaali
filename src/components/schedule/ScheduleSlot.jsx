@@ -20,18 +20,9 @@ const getTo = (inputDate) => {
   return `to-${getHoursAndMinutes(inputDate)}`;
 };
 
-const ScheduleSlot = ({
-  id,
-  companyName,
-  title,
-  startTime,
-  endTime,
-  location,
-  hideDetails,
-  hideTime,
-}) => {
-  const fromClass = getFrom(dayjs(startTime).toString());
-  const toClass = getTo(dayjs(endTime).toString());
+const ScheduleSlot = ({ slot }) => {
+  const fromClass = getFrom(dayjs(slot.startTime).toString());
+  const toClass = getTo(dayjs(slot.endTime).toString());
   const { t } = useTranslation();
   return (
     <div className={classNames(styles.slot, fromClass, toClass)}>
@@ -40,38 +31,39 @@ const ScheduleSlot = ({
       <div className={styles["slot-content"]}>
         <ul className={styles["slot-info"]}>
           <li className={classNames(styles["slot-title"])}>
-            <LanguageString languageObject={title} />
+            <LanguageString languageObject={slot.title} />
           </li>
-          {companyName !== "" && (
+          {slot.companyName !== "" && (
             <li className={styles["slot-company"]}>
               <span className={styles["slot-info-title"]}>
                 <i className="fas fa-briefcase"></i>
               </span>
-              <span className={styles["slot-info-value"]}>{companyName}</span>
+              <span className={styles["slot-info-value"]}>{slot.companyName}</span>
             </li>
           )}
-          {hideTime === false && (
+          {slot.hideTime === false && (
             <li className={styles["slot-time"]}>
               <span className={styles["slot-info-title"]}>
                 <i className="fas fa-clock"></i>
               </span>
               <span className={styles["slot-info-value"]}>
-                <time>{dayjs(dayjs(startTime)).format("HH.mm")}</time> -{" "}
-                <time>{dayjs(dayjs(endTime)).format("HH.mm")}</time>
+                <time>{dayjs(dayjs(slot.startTime)).format("HH:mm")}</time>{" – "}
+                <time>{dayjs(dayjs(slot.endTime)).format("HH:mm")}</time>
+                <div style={{ whiteSpace: 'nowrap' }}>{' '}({dayjs(dayjs(slot.startTime)).locale('fi').fromNow()})</div>
               </span>
             </li>
           )}
-          {location !== "" && (
+          {slot.location !== "" && (
             <li className={styles["slot-location"]}>
               <span className={styles["slot-info-title"]}>
                 <i className="fas fa-home"></i>
               </span>
-              <span className={styles["slot-info-value"]}>{location}</span>
+              <span className={styles["slot-info-value"]}>{slot.location}</span>
             </li>
           )}
-          {hideDetails === false && (
+          {slot.hideDetails === false && (
             <li className={styles["slot-link"]}>
-              <Link to={"/schedule/" + id}>
+              <Link to={"/schedule/" + slot.id}>
                 <span className={styles["slot-info-title"]}>
                   <i className="fas fa-external-link-alt"></i>
                 </span>

@@ -36,22 +36,6 @@
   display: grid;
   grid-template-columns: repeat(1, auto);
   grid-gap: 0px;
-  span {
-    align-self: center;
-    justify-self: center;
-    &:first-child {
-      margin-top: 0;
-    }
-    &:last-child {
-      margin-bottom: 0;
-    }
-    margin-top: 2.5px;
-    margin-bottom: 2.5px;
-  }
-  .slot-title {
-    font-weight: bold;
-    font-size: 1.0em;
-  }
   .slot-link {
     a {
       color: blue;
@@ -60,40 +44,41 @@
 }
 
 ul.slot-info {
-  width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 1fr);
-  list-style-type: none;
+  grid-template-columns: 2em 1fr;
+
+  .slot-title {
+    display: block;
+    grid-column: 1 / span 2;
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    font-size: 1.1em;
+    line-height: 1;
+  }
+
   li {
-    white-space: nowrap;
-    align-self: center;
-    justify-self: left;
-    &:first-child {
-      white-space: pre-wrap;
-      padding-top: 0;
-      grid-column-start: span 1;
-      @include tablet {
-        grid-column-start: span 1;
-      }
-      @include mobile {
-        grid-column-start: span 1;
-      }
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-column: 1 / span 2;
+    align-items: first baseline;
+    line-height: 1.5;
+
+    .slot-info-title {
+      justify-self: center;
+      margin-right: 0.5em;
+      color: darken($orange-1, 40);
     }
-    padding-top: 3px;
-    padding-bottom: 3px;
-    &:last-child {
-      padding-bottom: 0;
+
+    .slot-info-value {
+      justify-self: flex-start;
+    }
+
+    a {
+      display: contents;
+
+      .slot-info-value, .slot-info-title {
+        color: $orange-1;
+      }
     }
   }
-}
-
-.slot-info-title {
-  display: inline-block;
-  text-align: left;
-  padding-right: 5px;
-}
-
-.slot-info-value {
-  font-size: 0.8em;
-  white-space: pre-wrap;
 }
