@@ -4,7 +4,29 @@ import timezone from "dayjs/plugin/timezone";
 dayjs.extend(utc);
 dayjs.extend(timezone);
 
-const schedule = [
+export const tracks = [
+  {
+    name: {
+      fi: 'Auloissa',
+      en: 'In Lobbies',
+    },
+  },
+  {
+    name: {
+      fi: 'Saleissa',
+      en: 'In Lecture halls'
+    },
+  },
+  {
+    name: {
+      fi: 'Yritysedustajille',
+      en: 'For company representatives',
+    },
+    hue: 215
+  },
+];
+
+export const schedule = [
   {
     id: 1,
     companyName: "",

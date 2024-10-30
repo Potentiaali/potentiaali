@@ -3,6 +3,8 @@
 
 .slot {
   position: relative;
+  grid-column: var(--track);
+  filter: hue-rotate(var(--hue));
 }
 
 .slot-bg-2 {
