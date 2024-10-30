@@ -51,9 +51,9 @@ const Countdown = ({ start, end, interval = 1000 }) => {
   }, [time, start, end]); 
 
   if (status === 'current') {
-    return 'Tapahtuma käynnissä!';
+    return t('countdown-current');
   } else if (status === 'after') {
-    return 'Nähdään ensi vuonna!';
+    return t('countdown-past');
   }
 
   return (

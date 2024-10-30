@@ -117,5 +117,7 @@
   "hero-action-students-subtitle": "View subjects",
   "hero-action-register": "Registration open",
   "hero-action-register-subtitle": "Register your company!",
-  "description-not-available-in-current-language": "This description is only available in Finnish."
+  "description-not-available-in-current-language": "This description is only available in Finnish.",
+  "countdown-current": "Happening now!",
+  "countdown-past": "See you next year!"
 }
