@@ -120,5 +120,7 @@
   "description-not-available-in-current-language": "This description is only available in Finnish.",
   "slot-now": "Now!",
   "countdown-current": "Happening now!",
-  "countdown-past": "See you next year!"
+  "countdown-past": "See you next year!",
+  "workshops": "Workshops",
+  "keynotes": "Keynotes"
 }

@@ -57,13 +57,18 @@
   }
 }
 
+.areaHeader span {
+  border-bottom: .125em solid $orange-1;
+}
+
 .boothTable {
   border-collapse: separate;
   border-spacing: 10px;
 }
 
 .boothCol {
-  text-align: right;
+  text-align: left;
+  font-weight: 900;
 }
 
 .boothTableContainer {

@@ -20,7 +20,11 @@ const groupCompaniesByBoothArea = () => {
       };
     }
 
-    const section = company.booth[0];
+    let section = company.booth[0];
+
+    if (section == 'X') {
+      section = 'A';
+    }
 
     return {
       ...agg,
@@ -62,30 +66,25 @@ const MapPage = () => {
             <AreaBadge area="C" />
           </div>
           <div className={style.mapInfoEntry}>
-            <BigBoothBadge value="A1" />
-            <span>{t("big-booth")}</span>
-          </div>
-          <div className={style.mapInfoEntry}>
-            <BigBoothBadge value="A2" />
-            <span> {t("big-booth")}</span>
-          </div>
-          <div className={style.mapInfoEntry}>
             <BigBoothBadge value="C1" />
             <span> {t("big-booth")}</span>
           </div>
           <div className={style.mapInfoEntry}>
-            <BigBoothBadge value="C2" />
-
-            <span> {t("big-booth")}</span>
+            <ClassRoomBadge text="D115" />
+            <span> {t("company-info")}</span>
           </div>
           <div className={style.mapInfoEntry}>
-            <ClassRoomBadge text="D106" />
-            <span> {t("company-info")}</span>
+            <ClassRoomBadge text="A111" />
+            <span> {t("keynotes")}</span>
+          </div>
+          <div className={style.mapInfoEntry}>
+            <ClassRoomBadge text="A114" />
+            <span> {t("workshops")}</span>
           </div>
         </div>
         <img
           alt="Event map"
-          src="assets/kartta_2023.png"
+          src="assets/kartta_2024.svg"
           className={style.mapImage}
           id="map"
         />
@@ -95,8 +94,10 @@ const MapPage = () => {
           .sort(([area1], [area2]) => area1.localeCompare(area2))
           .map(([area, companies]) => (
             <div key={area}>
-              <h2>
-                {t("map-area")} {area}
+              <h2 className={style.areaHeader}>
+                <span>
+                  {t("map-area")} {area}
+                </span>
               </h2>
               <table className={style.boothTable}>
                 <tbody>
@@ -105,7 +106,7 @@ const MapPage = () => {
                       const boothA = a.booth ?? '';
                       const boothB = b.booth ?? '';
 
-                      boothA.localeCompare(boothB, undefined, {
+                      return boothA.localeCompare(boothB, undefined, {
                         numeric: true,
                       });
                     })
