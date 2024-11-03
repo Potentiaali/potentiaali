@@ -68,6 +68,11 @@ const ScheduleSlot = ({ slot }) => {
               <span className={styles["slot-info-value"]}>{slot.location}</span>
             </li>
           )}
+          {slot.description && (
+            <li style={{ display: 'block', margin: '1em 0', whiteSpace: 'pre-wrap' }}>
+              <LanguageString languageObject={slot.description} />
+            </li>
+          )}
           {slot.hideDetails === false && (
             <li className={styles["slot-link"]}>
               <Link to={"/schedule/" + slot.id}>

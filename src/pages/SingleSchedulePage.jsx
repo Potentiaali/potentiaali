@@ -35,11 +35,13 @@ const SingleSchedulePage = () => {
         <h1>
           <LanguageString languageObject={event.title} />
         </h1>
-        <pre style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
-          <p>
-            <LanguageString languageObject={event.description} />
-          </p>
-        </pre>
+        { event.description && (
+          <pre style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
+            <p>
+              <LanguageString languageObject={event.description} />
+            </p>
+          </pre>
+        )}
       </section>
       <section className="app-section">
         <ul className="event-info">
