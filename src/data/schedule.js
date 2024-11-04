@@ -127,7 +127,7 @@ export const schedule = [
   },*/
   {
     id: 4,
-    companyName: "University of Helsinki",
+    companyName: "University of Helsinki, Urapalvelut",
     location: "Exactum A111",
     title: {
       en: "Create good luck in your career – planned happenstance in practice",
