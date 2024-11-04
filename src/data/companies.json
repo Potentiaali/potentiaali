@@ -159,7 +159,7 @@
     "description": {
       "en": "Reddal offers business development as a service (BDaaS) on a global basis. Working with senior management and front-line staff on issues ranging from strategy, M&A and business building to operational efficiency and financial turnarounds, our mission is to drive growth across companies of all sizes. Our business model is revolutionizing the cost structure of top management professional services, making BDaaS competitive with in-house resources. We bring an analytical, systematic, forward looking, and flexible approach to business development and building. Our client base is global, and we work across multiple industry sectors.\n\nWhat differentiates us from our competitors from a customer point of view is that we share our knowledge openly with our clients, and do not work with competing companies. With these principles, we set a strong foundation to grow together with our clients and form long-term relationships. Currently, Reddal has offices in Helsinki, Seoul and Kuala Lumpur, and maintains operative locations in Germany and the Middle East.\n\nAs a Reddalian, you help building businesses and drive growth of companies of all sizes, across industries, globally. From the first day, you have the opportunity to work alongside executives and front-line staff solving real business problems. Aside close collaboration with our client and exposure to interesting work and industries, we place strong focus on supporting your personal and professional development also through our extensive in-house training program, career mentorship and a low-threshold for support by seniors and peers alike. The strong Reddal community, which is characterized by kindness and openness, is something we are proud of and look forward to welcoming new members to."
     },
-    "booth": "A8"
+    "booth": "A2"
   },
   {
     "id": 39,
@@ -241,7 +241,7 @@
     "description": {
       "en": "Ilmarinen is Finland’s largest private earnings-related pension insurance company. As a mutual pension insurance company, we are wholly owned by our customers. Our task is to ensure that our customers receive the pension they earned from work. We offer statutory employees’ and self-employed persons’ pension insurance for employers and entrepreneurs operating in Finland."
     },
-    "booth": "A7"
+    "booth": "A8"
   },
   {
     "id": 54,
@@ -348,6 +348,17 @@
       "fi": "",
       "en": ""
     },
-    "booth": "X3"
+    "booth": "A7"
+  },
+  {
+    "id": 64,
+    "name": "Helsingin kaupunki, kaupunkiympäristö",
+    "imgSrc": "companies/helsinki.png",
+    "websiteUrl": "https://helsinki.fi",
+    "booth": "A11",
+    "description": {
+      "fi": "Helsingin kaupunkiympäristön toimiala huolehtii Helsingin kaupunkiympäristön suunnittelusta, rakentamisesta ja ylläpidosta, rakennusvalvonnasta sekä ympäristöön liittyvistä palveluista. Toimialalla työskentelee noin 1700 asiantuntijaa.",
+      "en": "The City of Helsinki Urban Environment Division is responsible for planning, construction and maintenance as well as building control and environmental services related to the Helsinki urban environment. We employ around 1,700 experts"
+    }
   }
 ]
