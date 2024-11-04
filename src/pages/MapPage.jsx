@@ -5,6 +5,7 @@ import BigBoothBadge from "../components/partials/badges/BigBoothBadge";
 import { useTranslation } from "react-i18next";
 import ClassRoomBadge from "../components/partials/badges/ClassRoomBadge";
 import companies from "../data/companies.json";
+import { Link } from "react-router-dom";
 
 /**
  * Divide companies into groups according to their "booth" property.
@@ -113,7 +114,7 @@ const MapPage = () => {
                     .map((company) => (
                       <tr key={company.id}>
                         <td className={style.boothCol}>{company.booth}</td>
-                        <td>{company.name}</td>
+                        <td><Link to={`/company/${company.id}`} style={{ color: 'black' }}>{company.name} <i className="fas fa-chevron-right" /></Link></td>
                       </tr>
                     ))}
                 </tbody>

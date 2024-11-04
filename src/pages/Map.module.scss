@@ -64,6 +64,21 @@
 .boothTable {
   border-collapse: separate;
   border-spacing: 10px;
+
+  tr:has(i) {
+    i {
+      font-size: 0.8em;
+      color: $orange-1;
+      transition-duration: 100ms;
+      margin-right: 0.25em;
+      margin-left: 0em;
+    }
+
+    &:hover i {
+      margin-left: 0.25em;
+      margin-right: 0em;
+    }
+  }
 }
 
 .boothCol {
