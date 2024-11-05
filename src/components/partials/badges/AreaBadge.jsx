@@ -17,7 +17,7 @@ const AreaBadge = ({ area }) => {
         styles.areabadge,
       )}
     >
-      <span>{t("area")}</span>
+      <span>{t("area")}{'\xA0'}</span>
       {area}
     </div>
   );

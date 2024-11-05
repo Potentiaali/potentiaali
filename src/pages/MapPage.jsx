@@ -82,6 +82,14 @@ const MapPage = () => {
             <ClassRoomBadge text="A114" />
             <span> {t("workshops")}</span>
           </div>
+          <div className={style.mapInfoEntry}>
+            <ClassRoomBadge basement text="DK116" />
+            <span>Think{'\xA0'}Company<br/>({t("floor")} K)</span>
+          </div>
+          <div className={style.mapInfoEntry}>
+            <ClassRoomBadge basement text="Atrium" />
+            <span>{t("atrium")}<br/>({t("floor")} K)</span>
+          </div>
         </div>
         <img
           alt="Event map"

@@ -85,7 +85,7 @@ export const schedule = [
   {
     id: 3,
     companyName: "",
-    location: "Exactum Atrium (East)",
+    location: "Exactum Atrium",
     title: {
       fi: "Yritysedustajien cocktailtilaisuus",
       "en-US": "Company representatives' cocktail hour",

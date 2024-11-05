@@ -3,8 +3,8 @@ import styles from "./ClassRoomBadge.module.scss";
 import PropTypes from "prop-types";
 import className from "classnames";
 
-const ClassRoomBadge = ({ text }) => (
-  <div className={className(styles.classRoomBadge)}>{text}</div>
+const ClassRoomBadge = ({ text, basement }) => (
+  <div className={className(styles.classRoomBadge, basement && styles.basement )}><span>{text}</span></div>
 );
 
 ClassRoomBadge.propTypes = {

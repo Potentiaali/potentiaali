@@ -30,9 +30,12 @@
   font-size: 1.2em;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
   color: $black-1;
+
+  & > span {
+    margin-left: 0.75em;
+  }
 }
 
 .mapImage {

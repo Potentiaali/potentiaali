@@ -1,3 +1,5 @@
+@use "sass:math";
+
 .classRoomBadge {
   height: 60px;
   width: 60px;
@@ -9,4 +11,30 @@
   font-weight: bold;
   background-color: #d80073;
   color: rgb(255, 255, 255);
+}
+
+@mixin stripe($color1, $width1, $color2, $width2) {
+  $w1: $width1 / ($width1 + $width2);
+  $w2: $width2 / ($width1 + $width2);
+
+  $stop1: $w1 / 4 * 100%;
+  $stop2: $stop1 + ($w2 / 2 * 100%);
+  $stop3: $stop2 + ($w1 / 2 * 100%);
+  $stop4: $stop3 + ($w2 / 2 * 100%);
+
+  background-image: linear-gradient(-45deg, $color1 0%, $color1 $stop1, $color2 $stop1, $color2 $stop2, $color1 $stop2, $color1 $stop3, $color2 $stop3, $color2 $stop4, $color1 $stop4);
+  // background-size: #{($width1 + $width2) / math.sqrt(2)} #{($width1 + $width2) / math.sqrt(2)};
+  background-size: 20% 20%;
+}
+
+.basement {
+  $bg-color: #d80073;
+  background-color: transparent;
+  @include stripe(white, .05em, $bg-color, .05em);
+
+  span {
+    background-color: $bg-color;
+    display: inline-block;
+    padding: 0.2em 0.2em;
+  }
 }
