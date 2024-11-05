@@ -85,7 +85,7 @@ export const schedule = [
   {
     id: 3,
     companyName: "",
-    location: "Exactum atrium",
+    location: "Exactum Atrium (East)",
     title: {
       fi: "Yritysedustajien cocktailtilaisuus",
       "en-US": "Company representatives' cocktail hour",
@@ -190,7 +190,7 @@ export const schedule = [
   {
     id: 7,
     companyName: "",
-    location: "Exactum D115",
+    location: "Physicum D115",
     title: {
       fi: "Aamupala",
       "en-US": "Breakfast",
@@ -212,7 +212,7 @@ export const schedule = [
   {
     id: 8,
     companyName: "",
-    location: "Exactum atrium",
+    location: "Exactum Atrium (West)",
     title: {
       en: "Panel Discussion: From Research to Startup - Bridging Science and Entrepreneurship",
     },
