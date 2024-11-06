@@ -90,6 +90,14 @@ const MapPage = () => {
             <ClassRoomBadge basement text="Atrium" />
             <span>{t("atrium")}<br/>({t("floor")} K)</span>
           </div>
+          <div className={style.mapInfoEntry}>
+            <BigBoothBadge value="i" blue />
+            <span> {t("info-point")}</span>
+          </div>
+          <div className={style.mapInfoEntry}>
+            <BigBoothBadge value="V" blue />
+            <span> {t("usher")}</span>
+          </div>
         </div>
         <img
           alt="Event map"
