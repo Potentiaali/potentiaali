@@ -37,3 +37,33 @@
     border-bottom: 3px solid $orange-1;
   }
 }
+
+.timeline {
+  position: absolute;
+  height: 3px;
+  background: $orange-1;
+  left: 0;
+  right: 0;
+
+  &::after {
+    content: attr(data-label);
+    position: absolute;
+    right: 0;
+    background: $orange-1;
+    width: 4em;
+    line-height: 2em;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    right: 4em;
+    width: 2em;
+    height: 2em;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+    background: $orange-1;
+  }
+}
