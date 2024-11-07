@@ -23,7 +23,7 @@ export const SchedulePage = () => {
 
   return (
     <div className={styles.schedule} style={{ position: 'relative' }}>
-      <div ref={timelineRef} onClick={() => setFollow(!follow)} className={styles.timeline} style={{ top: `calc(${segments} * var(--slot-size))` }} data-label={ follow ? 'Now! (F)' : 'Now!' } />
+      <div ref={timelineRef} onClick={() => setFollow(!follow)} className={styles.timeline} style={{ top: `calc(${segments} * ( var(--slot-size) + 0.5em ))` }} data-label={ follow ? 'Now! (F)' : 'Now!' } />
       <ScheduleLabels />
       <div className={styles["schedule-slots"]}>
         {tracks.map(({ name }, i) => (
