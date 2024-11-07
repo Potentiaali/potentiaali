@@ -10,7 +10,7 @@
   display: grid;
   grid-template-columns: 55px auto;
   grid-gap: .75em;
-  --slot-size: #{$schedule-size + 0.5em};
+  --slot-size: #{$schedule-size + 0.75em};
 }
 
 .schedule-slots {
