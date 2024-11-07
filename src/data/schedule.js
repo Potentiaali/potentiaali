@@ -212,7 +212,7 @@ export const schedule = [
   {
     id: 8,
     companyName: "",
-    location: "Exactum Atrium (West)",
+    location: "DK1106 (Think Company)",
     title: {
       en: "Panel Discussion: From Research to Startup - Bridging Science and Entrepreneurship",
     },
