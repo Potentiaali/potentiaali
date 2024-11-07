@@ -182,7 +182,7 @@ export const schedule = [
     language: "en",
     link: "",
     startTime: dayjs.tz(new Date(2024, 10, 7, 14, 30), "Europe/Helsinki"),
-    endTime: dayjs.tz(new Date(2024, 10, 7, 16, 15), "Europe/Helsinki"),
+    endTime: dayjs.tz(new Date(2024, 10, 7, 16, 0), "Europe/Helsinki"),
     hideDetails: false,
     hideTime: false,
     track: 3
@@ -256,8 +256,8 @@ export const schedule = [
     fullDescription: {
       en: "Large-scale simulations and machine learning models power a significant number of the most recent advances across all fields of science. Students and researchers who develop their scientific computing skills will find a world of exciting possibilities waiting for them.",
     },
-    startTime: dayjs.tz(new Date(2024, 10, 7, 15, 15), "Europe/Helsinki"),
-    endTime: dayjs.tz(new Date(2024, 10, 7, 15, 45), "Europe/Helsinki"),
+    startTime: dayjs.tz(new Date(2024, 10, 7, 13, 45), "Europe/Helsinki"),
+    endTime: dayjs.tz(new Date(2024, 10, 7, 14, 15), "Europe/Helsinki"),
     hideDetails: false,
     hideTime: false,
     track: 2
@@ -276,11 +276,11 @@ export const schedule = [
     speakers: [],
     language: "fi",
     link: "",
-    startTime: dayjs.tz(new Date(2024, 10, 7, 12, 30), "Europe/Helsinki"),
-    endTime: dayjs.tz(new Date(2024, 10, 7, 13, 0), "Europe/Helsinki"),
+    startTime: dayjs.tz(new Date(2024, 10, 7, 15, 15), "Europe/Helsinki"),
+    endTime: dayjs.tz(new Date(2024, 10, 7, 15, 45), "Europe/Helsinki"),
     hideDetails: false,
     hideTime: false,
-    track: 3
+    track: 2
   },
   {
     id: 11,
@@ -297,8 +297,8 @@ export const schedule = [
     speakers: [],
     language: "en",
     link: "",
-    startTime: dayjs.tz(new Date(2024, 10, 7, 13, 30), "Europe/Helsinki"),
-    endTime: dayjs.tz(new Date(2024, 10, 7, 14, 0), "Europe/Helsinki"),
+    startTime: dayjs.tz(new Date(2024, 10, 7, 13, 15), "Europe/Helsinki"),
+    endTime: dayjs.tz(new Date(2024, 10, 7, 13, 45), "Europe/Helsinki"),
     hideDetails: true,
     hideTime: false,
     track: 3
