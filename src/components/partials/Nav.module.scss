@@ -9,7 +9,7 @@ $nav-breakpoint: 1300px;
 
 .navigation {
   display: grid;
-  width: 100vw;
+  width: 100%;
   grid-template-columns: auto 1fr auto;
   grid-template-rows: $nav-height;
   align-items: center;

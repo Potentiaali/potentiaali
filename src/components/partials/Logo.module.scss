@@ -2,7 +2,7 @@
 
 .logo-wrapper {
   aspect-ratio: 1440 / 290;
-  width: 100dvw;
+  width: 100%;
   overflow: hidden;
 
   @media (max-width: $tablet-breakpoint) {
@@ -13,7 +13,7 @@
 .logo-container {
   display: block;
   height: auto;
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
   text-transform: uppercase;
 

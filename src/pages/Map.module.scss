@@ -6,7 +6,7 @@
   grid-template-columns: 200px calc(100% - 200px);
   padding: 20px;
   overflow-x: scroll;
-  width: 95vw;
+  width: 100%;
   height: calc(100% - #{$nav-height} - #{$footer-height});
   background-color: white;
   img {
