@@ -1,6 +1,6 @@
 version: 2.1
 jobs:
-  deploy:
+  run:
     docker:
       - image: cimg/node:22.14.0
     steps:
@@ -22,7 +22,7 @@ workflows:
   version: 2
   build_and_deploy:
     jobs:
-      - deploy:
+      - run:
           filters:
             branches:
               only: master
