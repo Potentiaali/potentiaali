@@ -13,9 +13,7 @@ jobs:
           command: 'yarn run build'
       - aws-cli/setup
       - aws-s3/sync:
-          arguments: |
-            --acl public-read \
-            --cache-control "max-age=1200"
+          arguments: '--acl public-read --cache-control "max-age=1200"'
           from: dist
           to: 's3://potentiaali/'
 
