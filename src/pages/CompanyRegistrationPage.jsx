@@ -138,7 +138,7 @@ const CompanyRegistrationPage = () => {
             <a
               className="link-btn"
               alt="Add the event to your calendar"
-              href="Kumpulan_Potentiaali_2024.ics"
+              href="Kumpulan_Potentiaali_2025.ics"
               target="_blank"
             >
               <span className="event-info-title">

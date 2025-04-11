@@ -90,13 +90,13 @@ const MainPage = () => {
                       </span>
                       <span className="event-info-value">
                         <b style={{ fontWeight: 'bold' }}>{t("event-time")}</b><br />
-                        <time dateTime="2024-11-07 11:00">
+                        <time dateTime="2025-12-04 11:00">
                           {t("event-day")} {config.eventDate} {config.eventStartTime}-{config.eventEndTime} <br />
                         </time>
                         <a
                           className="link-btn"
                           alt="Add the event to your calendar"
-                          href="Kumpulan_Potentiaali_2024.ics"
+                          href="Kumpulan_Potentiaali_2025.ics"
                           target="_blank"
                         >
                           <span className="event-info-value">

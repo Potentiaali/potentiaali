@@ -138,7 +138,7 @@ const Nav = () => {
                 </li>
               ),
           )}
-        <li>
+        {/*<li>
           <a className={styles["nav-link"]} href={config.studentFeedbackForm}>
             <p>
               <div className={styles['navigation-icon-wrapper']}>
@@ -147,7 +147,7 @@ const Nav = () => {
               {t("feedback-link")}
             </p>
           </a>
-        </li>
+        </li>*/}
       </ul>
       <button
         className={classNames(
