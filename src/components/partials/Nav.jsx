@@ -59,7 +59,7 @@ const Nav = () => {
         fi: "Yrtiykset",
         en: "Companies",
       },
-    } /*
+    },
     {
       id: "companyRegistrationPage",
       name: "Yritysilmoittautuminen",
@@ -71,7 +71,7 @@ const Nav = () => {
         fi: "Yritys ilmoittautuminen",
         "en": "Company registration",
       },
-    },*/,
+    },
     {
       id: "schedulePage",
       name: "Aikataulu",
