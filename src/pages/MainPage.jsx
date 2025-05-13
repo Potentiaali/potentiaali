@@ -6,7 +6,7 @@ import SpeedRekry from "../components/partials/SpeedRekry";
 import config from "../data/config.json";
 import { useTranslation, Trans } from "react-i18next";
 import { Link } from "react-router-dom";
-// import Notification from '../components/partials/Notification'
+import Notification from '../components/partials/Notification'
 import Hero from "../components/partials/Hero";
 import classNames from "classnames";
 const MainPage = () => {
@@ -16,7 +16,7 @@ const MainPage = () => {
     <>
       <Logo />
       <section className="app-section">
-        {/* <Notification
+        { <Notification
           type="success"
           title={<h2>{t('event-notification-title')}</h2>}
         >
@@ -29,7 +29,7 @@ const MainPage = () => {
               {t('event-notification-body-4')}{' '}
             </a>{' '}
           </p>
-        </Notification> */}
+        </Notification> }
       </section>
       {/*<div className="app-statistics">
         <div className="single-stat">
