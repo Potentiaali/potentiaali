@@ -45,17 +45,6 @@ const CompanyRegistrationPage = () => {
           {' '}<Link to="/testimonials">{t('testimonials-link')}</Link>
         </p>
       </section>
-      { config.earlyBirdRegistrationLink && isFormOpen(config.earlyBirdFormId) && (
-        <section className="app-section">
-          <div className="event-contents-block">
-            <h3>{t("early-bird-registration-title")}</h3>
-            <p>{t("early-bird-registration-description")}</p>
-            <RegistrationButton href={config.earlyBirdRegistrationLink}>
-              {t("early-bird-register-now")}
-            </RegistrationButton>
-          </div>
-        </section>
-      )}
       <section className="app-section">
         <h1>{t("includes")}</h1>
         <div className="event-contents-block">
