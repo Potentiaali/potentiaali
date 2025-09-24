@@ -22,16 +22,6 @@
     "booth": "A6"
   },
   {
-    "id": 8,
-    "name": "Murata Electronics",
-    "imgSrc": "companies/murata.svg",
-    "websiteUrl": "https://muratafinland.com/",
-    "description": {
-      "en": "Murata is a globally leading manufacturer of electronics components and solutions. We contribute to the advancement of society with innovative sensor technology that makes driving safer and improves quality of life. Our vision is to enable safe and autonomous driving. Based in Vantaa, Finland, we develop and manufacture MEMS sensors, which are used in the automotive industry, health technologies and various industrial applications. We offer you the opportunity to work together with top experts on important and challenging tasks related to unique technologies and products."
-    },
-    "booth": "A15"
-  },
-  {
     "id": 12,
     "name": "OP Ryhmä",
     "imgSrc": "companies/op.png",
@@ -43,27 +33,6 @@
     "booth": "C2"
   },
   {
-    "id": 15,
-    "name": "Tietoevry",
-    "imgSrc": "companies/tietoevry.webp",
-    "websiteUrl": "https://www.tietoevry.com/",
-    "description": {
-      "en": "Tietoevry creates purposeful technology that reinvents the world for good. We are a leading technology company with a strong Nordic heritage and global capabilities. Based on our core values of openness, trust and diversity, we work with our customers to develop digital futures where businesses, societies, and humanity thrive. Our 24 000 experts globally specialize in cloud, data, and software, serving thousands of enterprise and public-sector customers in around 90 countries."
-    },
-    "booth": "A9"
-  },
-  {
-    "id": 16,
-    "name": "Puolustusvoimat",
-    "imgSrc": "companies/puolustusvoimat.jpg",
-    "websiteUrl": "https://puolustusvoimat.fi/etusivu",
-    "description": {
-      "fi": "Puolustusvoimissa voit työskennellä siviilinä tai sotilaana - armeijataustalla tai ilman. Meillä on kehittymiseen kannustava työkulttuuri sekä joustavat työolosuhteet työn ja vapaa-ajan tasapainottamiseksi. Kannustamme työntekijöitämme pitämään huolta omasta hyvinvoinnistaan mm. viikoittaisella liikuntaedulla. Voit työskennellä strategisissa hankkeissa, tutkimuksessa ja kehityksessä - kansainvälisesti tai kansallisesti mm. tietotekniikan, tekniikan, talouden ja hallinnon, kouluttamisen sekä terveydenhuollon tehtävissä. Meidän 12 500 työntekijäämme operaattorista ohjusinsinööriin tekevät yhdessä työtä, jolla on tarkoitus. \n\nLisätietoa meistä löydät: \npuolustusvoimat.fi\nfacebook.com/pvrekry \nlinkedin.com/company/finnish-defence-forces\nyoutube.com/puolustusvoimat\n\n#Puolustusvoimat #PVrekry #rekry",
-      "en": "The Finnish Defence Forces secures Finland’s territorial integrity, the livelihood and basic rights of its population and the freedom of action of the government, as well as defends the rule of law. The Defence Forces is a notable public employer in Finland. Our 12 500 employees work in various occupations around Finland.\n\nWe employ into military positions and civilian positions. Our education and training system gives personnel a great basis for their know-how. They are also encouraged to competence development and applying for even more demanding tasks in the Defence Forces. All employees are required to be Finnish citizens.\n\nMore information about us: \npuolustusvoimat.fi\nfacebook.com/pvrekry \nlinkedin.com/company/finnish-defence-forces\nyoutube.com/puolustusvoimat\n\n#Puolustusvoimat #PVrekry #rekry"
-    },
-    "booth": "A16"
-  },
-  {
     "id": 18,
     "name": "Zalando",
     "imgSrc": "companies/zalando.svg",
@@ -73,18 +42,6 @@
       "en": ""
     },
     "booth": "B4"
-  },
-  {
-    "id": 19,
-    "name": "Maanmittauslaitos",
-    "shorter": "Maanmittauslaitos",
-    "imgSrc": "companies/maanmittauslaitos.png",
-    "websiteUrl": "https://www.maanmittauslaitos.fi/",
-    "description": {
-      "fi": "Maanmittauslaitos tuottaa tietoa, palvelua ja tutkimusta Maasta.\n\nTeemme maanmittaustoimituksia, ylläpidämme kiinteistöjen tietoja, tuotamme kartta-aineistoja, huolehdimme lainhuudoista ja kiinnityksistä, kehitämme tietojärjestelmiä sekä teemme paikkatietoalan tutkimusta.  \n\nMaanmittauslaitoksen Paikkatietokeskuksen tutkijat tekevät koko yhteiskuntaa hyödyttävää paikkatietoalan mittaus- ja tutkimustyötä yhteistyössä yliopistojen ja tutkimuslaitosten, julkisyhteisöjen ja yritysten kanssa Suomessa ja kansainvälisesti.\n\nTietohallinnon toimintayksikkö vastaa Maanmittauslaitoksen IT- ja kehityspalveluista, tiedonhallinnasta sekä arkistopalveluista.\n\nMaanmittauslaitoksessa panostetaan yhteistyöhön, uskotaan kokeilukulttuuriin ja kehitetään vastuullisuutta. Huomioimme työssämme ympäristön, ihmisten ja talouden hyvinvoinnin. ",
-      "en": "The National Land Survey produces information, services and research about the Earth.\n\nWe do land surveying, maintain property information, produce map data material, handle registrations of title and mortgages, develop ICT systems, and promote the research and application of spatial data.\n\nThe researchers of the Finnish Geospatial Research Institute at the National Land Survey perform measurements and research benefiting the whole society in the field of mapping in cooperation with universities and research institutes, public organisations and companies in Finland and internationally.\n\nThe specialists at the Centre for ICT Services at the National Land Survey are responsible for the information systems and information management of the National Land Survey.\n\nAt the National Land Survey, we invest in cooperation, believe in a culture where you can try and fail as well as improve our sustainability. In our work, we take into account the wellbeing of the environment, people, and the economy."
-    },
-    "booth": "C8"
   },
   {
     "id": 22,
@@ -108,17 +65,6 @@
     "booth": "C7"
   },
   {
-    "id": 24,
-    "name": "Accenture",
-    "imgSrc": "companies/accenture.PNG",
-    "websiteUrl": "https://www.accenture.com/fi-en-US",
-    "description": {
-      "fi": "Accenture on maailmanlaajuisesti toimiva asiantuntijayritys, jonka vahvuuksia ovat digitaalisuus, pilvipalvelut sekä kyberturva. Toimialakohtaiset palvelumme kattavat strategisen muutoksen, konsultoinnin, teknologian, markkinoinnin ja asiakaskokemuksen sekä prosessiulkoistuksen. Asiakkaitamme tukee maailman laajin palvelukeskusten verkosto. Accenturen 710 000 ammattilaista palvelevat asiakkaita yli 120 maassa yhdistäen teknologian mahdollisuudet sekä ihmisten luovan osaamisen. Lue lisää avoimista paikoistamme osoitteesta accenture.com/careers. ",
-      "en": "Accenture is a global professional services company with leading capabilities in digital, cloud and security. Combining unmatched experience and specialized skills across more than 40 industries, we offer Strategy and Consulting, Technology and Operations services and Accenture Song — all powered by the world’s largest network of Advanced Technology and Intelligent Operations centers. Our 710,000 people deliver on the promise of technology and human ingenuity every day, serving clients in more than 120 countries. We embrace the power of change to create value and shared success for our clients, people, shareholders, partners and communities. Read more about our open positions at www.accenture.com/careers. "
-    },
-    "booth": "A1"
-  },
-  {
     "id": 28,
     "name": "Digia",
     "imgSrc": "companies/digia.svg",
@@ -130,28 +76,6 @@
     "booth": "C6"
   },
   {
-    "id": 34,
-    "name": "Eficode",
-    "imgSrc": "companies/eficode.png",
-    "websiteUrl": "https://www.eficode.com/fi/",
-    "description": {
-      "fi": "",
-      "en": ""
-    },
-    "booth": "A12"
-  },
-  {
-    "id": 35,
-    "name": "University of Helsinki",
-    "imgSrc": "companies/hy.jpg",
-    "websiteUrl": "https://www.helsinki.fi/fi",
-    "description": {
-      "fi": "The University of Helsinki is Finland’s largest and oldest academic institution and an innovative centre of science and thinking. Since 1640, we have contributed to the establishment of a fair and equal society that is considered one of the best in the world. Today, our multidisciplinary academic community solves problems that affect us all – with the power of knowledge, for the world.",
-      "en": "The University of Helsinki is Finland’s largest and oldest academic institution and an innovative centre of science and thinking. Since 1640, we have contributed to the establishment of a fair and equal society that is considered one of the best in the world. Today, our multidisciplinary academic community solves problems that affect us all – with the power of knowledge, for the world."
-    },
-    "booth": "C5"
-  },
-  {
     "id": 37,
     "name": "Reddal Helsinki",
     "imgSrc": "companies/reddal.png",
@@ -160,16 +84,6 @@
       "en": "Reddal offers business development as a service (BDaaS) on a global basis. Working with senior management and front-line staff on issues ranging from strategy, M&A and business building to operational efficiency and financial turnarounds, our mission is to drive growth across companies of all sizes. Our business model is revolutionizing the cost structure of top management professional services, making BDaaS competitive with in-house resources. We bring an analytical, systematic, forward looking, and flexible approach to business development and building. Our client base is global, and we work across multiple industry sectors.\n\nWhat differentiates us from our competitors from a customer point of view is that we share our knowledge openly with our clients, and do not work with competing companies. With these principles, we set a strong foundation to grow together with our clients and form long-term relationships. Currently, Reddal has offices in Helsinki, Seoul and Kuala Lumpur, and maintains operative locations in Germany and the Middle East.\n\nAs a Reddalian, you help building businesses and drive growth of companies of all sizes, across industries, globally. From the first day, you have the opportunity to work alongside executives and front-line staff solving real business problems. Aside close collaboration with our client and exposure to interesting work and industries, we place strong focus on supporting your personal and professional development also through our extensive in-house training program, career mentorship and a low-threshold for support by seniors and peers alike. The strong Reddal community, which is characterized by kindness and openness, is something we are proud of and look forward to welcoming new members to."
     },
     "booth": "A2"
-  },
-  {
-    "id": 39,
-    "name": "Nokia",
-    "imgSrc": "companies/nokia.svg",
-    "websiteUrl": "https://www.nokia.com/fi_fi/",
-    "description": {
-      "en": "We are a B2B technology innovation leader in networking, bringing together the world's people, machines and devices to realize the potential of digital in every industry."
-    },
-    "booth": "C3"
   },
   {
     "id": 44,
@@ -202,16 +116,6 @@
     "booth": "B2"
   },
   {
-    "id": 49,
-    "name": "Alma Media",
-    "imgSrc": "companies/alma_media.svg",
-    "websiteUrl": "https://www.almamedia.fi/tyopaikat/avoimet-tyopaikat/",
-    "description": {
-      "en": "Alma Media is a digital service business and media company with a strong capacity for renewal. We are building sustainable growth from media to services, providing content and services that benefit users in their everyday lives, work and leisure time. In Finland, our business operations include leading housing and automotive marketplaces, financial and professional media, national consumer media and content and data services for professionals and businesses. Our international business in Eastern Central Europe, Sweden and the Baltic countries consists of recruitment services and an online marketplace for commercial properties.\n\nWe operate in 12 countries in Europe and employ approximately 1,700 professionals. At Alma, we value courage, collaboration, and a friendly culture where everyone can be themselves. In our ever-changing business environment, courage is essential. It means challenging the status quo, pushing boundaries, and embracing innovation. For us, courage isn’t just about grand heroic acts but also about everyday actions: speaking your mind, trying new approaches, experimenting, and learning from failures. To foster new growth, we need courage, and it thrives best when we work together."
-    },
-    "booth": "A10"
-  },
-  {
     "id": 50,
     "name": "CSC",
     "imgSrc": "companies/CSC_logo.png",
@@ -221,17 +125,6 @@
       "en-US": "Are you passionate about cutting-edge technology and eager to make a meaningful impact on the digitalization of society? CSC - IT Center for Science is a unique combination of advanced technology, the future of learning and teaching, and the power of networks. Our offices are located in Kajaani and Espoo. Our diverse group of experts from different fields is working together with a purpose. At CSC, we offer interesting and diverse tasks in an encouraging atmosphere and the opportunity to develop your own competence in an international company.\n\nRead more about us as an employer: https://csc.fi/en/careers"
     },
     "booth": "B3"
-  },
-  {
-    "id": 51,
-    "name": "Okmetic",
-    "imgSrc": "companies/okmetic.svg",
-    "websiteUrl": "https://www.okmetic.com/fi/toihin-meille/avoimet-tyopaikat/",
-    "description": {
-      "fi": "",
-      "en": ""
-    },
-    "booth": "C9"
   },
   {
     "id": 52,
@@ -255,17 +148,6 @@
     "booth": "B6"
   },
   {
-    "id": 55,
-    "name": "Visma",
-    "imgSrc": "companies/Visma.png",
-    "websiteUrl": "https://www.visma.fi",
-    "description": {
-      "fi": "Visma on yksi Euroopan johtavista ohjelmistotaloista, jossa autamme yrityksiä ja julkishallintoa onnistumaan sekä rakentamaan toimivampaa yhteiskuntaa. Luomme ohjelmistoja mm. laskutuksen, palkanlaskennan ja kirjanpidon helpottamiseen sekä liiketoiminnan, henkilöstön ja taloushallinnon sujuvoittamiseen. Miljoonat suomalaiset käyttävät pilvipohjaisia ohjelmistojamme päivittäin!\n\n Suurena ohjelmistoalan yrityksenä, meillä on mahdollisuus tarjota tekniikan ja kaupallisen alan opiskelijoille sekä vastavalmistuneille monenlaisia mielenkiintoisia mahdollisuuksia. Seuraa kanaviamme erityisesti loppuvuodesta, mikäli innostavat ja ammatillisesti kehittävät tehtävät ohjelmistotalon eri liiketoiminta-alueilla kiinnostavat 🚀\n\nSeuraa meitä:\nInstagramissa @visma_finland\nTikTokissa @vismafinland\nLinkedInissä Visma Finland\nNetissä visma.fi/ura",
-      "en": "Europe's leading software companies, where we help businesses and the public sector succeed and build a more functional society. We create software to facilitate invoicing, payroll, and accounting, as well as to streamline business, personnel, and financial management. Millions of Finns use our cloud-based software everyday!\n\n As a big operator in the field of software, we have the opportunity to offer various interesting possibilities for students and recent graduates in technology and commercial fields. Follow our channels during the end of this year, if inspiring and professionally developing tasks in a software company sound interesting to you 😉\n\n Follow us:\nInstagram @visma_finland\nTikTok @vismafinland\nLinkedIn Visma Finland\nWeb visma.fi/ura"
-    },
-    "booth": "A5"
-  },
-  {
     "id": 56,
     "name": "Frends",
     "imgSrc": "companies/Frends-2.png",
@@ -274,28 +156,6 @@
       "en": "Time to meet your new Frends! We’re all about making connections between apps, data, and people. With Frends you get to see the development of the modern enterprise iPaaS platform from various angles. In our wide range portfolio of clients, you can find nationally and internationally known companies across 16 different countries that will lead you to interesting and meaningful projects. Strong team spirit as well as trust, freedom and flexibility are the cornerstones of our culture. Top workmates coupled with challenging and versatile projects with a powerful platform which enables digitalization and process automation – this is Frendszone."
     },
     "booth": "C4"
-  },
-  {
-    "id": 57,
-    "name": "Sanoma Media",
-    "imgSrc": "companies/Sanoma.png",
-    "websiteUrl": "https://sanoma.fi",
-    "description": {
-      "fi": "Sanoma Media Finland on Suomen johtava monimediayritys ja edelläkävijä median digitaalisessa muutoksessa. Brändimme tarjoavat ajankohtaista, inspiroivaa ja mukaansatempaavaa sisältöä eri mediakanavissa ja tavoittavat lähes jokaisen suomalaisen viikoittain. Mainostajille olemme luotettava kumppani, jolla on näkemystä, vaikuttavuutta ja laaja tavoittavuus.\n\nJulkaisemme Helsingin Sanomia, Pohjoismaiden johtavaa päivälehteä, Ilta-Sanomia, digitaalisen ja mobiiliuutisten markkinajohtajaa, alueellisia medioita kuten Aamulehti ja Satakunnan Kansa sekä suuren määrän paikallis- ja aluelehtiä sekä rakastettuja lifestyle-brändejä. Nelonen Media on johtava viihdetalo, jolla on laaja video-, audio- ja tapahtumaportfolio. Missiomme on tarjota suomalaista mediasisältöä myös tuleville sukupolville.",
-      "en": "Sanoma Media Finland is the leading Finnish cross-media company and a forerunner in the digital transformation of media. Our brands deliver relevant, inspiring and captivating content across media channels and reach almost every Finn every week. For advertisers, we are a trusted partner with insight, impact and reach.\n\nWe publish Helsingin Sanomat, the leading daily newspaper in Scandinavia, Ilta-Sanomat, the market leader in digital and mobile news, regional media Aamulehti, Satakunnan Kansa and a large number of local and regional newspapers as well as beloved lifestyle brands. Nelonen Media is the leading entertainment house with an extensive video, audio and event portfolio. Our mission is to offer Finnish media content also to next generations."
-    },
-    "booth": "A14"
-  },
-  {
-    "id": 58,
-    "name": "Luonnonvarakeskus",
-    "imgSrc": "companies/Luke.jpg",
-    "websiteUrl": "https://luke.fi",
-    "description": {
-      "fi": "",
-      "en": ""
-    },
-    "booth": "A13"
   },
   {
     "id": 59,
@@ -308,38 +168,6 @@
     "booth": "A4"
   },
   {
-    "id": 60,
-    "name": "Elo",
-    "imgSrc": "companies/elo.png",
-    "websiteUrl": "https://elo.fi",
-    "description": {
-      "en": "We are Elo, a large Finnish pension insurance company. We make sure that our customers get the pensions that they have earned. We help our customer companies succeed and to rise to the challenges of changing work life. We manage our customers’ pension funds profitably, securely and responsibly. The pension funds are carefully diversified – internationally and into different asset classes. They secure pensions and set a foundation for sustainable profits decades into the future.\n\nOne third of all Finnish companies and about 40% of self-employed people in Finland have chosen Elo to manage their pension insurance needs. We have been entrusted with the provision of future pensions of around 500,000 employees and self-employed persons, the payment of pensions for 250,000 pensioners and the management of EUR 30 billion in investment assets.",
-      "fi": "Olemme Elo, suuri suomalainen työeläkevakuuttaja. Huolehdimme, että asiakkaamme saavat ansaitsemansa eläkkeet. Autamme asiakasyrityksiämme menestymään ja vastaamaan muuttuvan työelämän haasteisiin. Hoidamme asiakkaidemme eläkevaroja tuottavasti, turvaavasti ja vastuullisesti. Sijoitusvarat on hyvin hajautettu kansainvälisesti ja eri omaisuusluokkiin. Ne turvaavat eläkkeet ja luovat pohjaa kestäville tuotoille vuosikymmeniksi eteenpäin.\n\nSuomalaisista yrityksistä joka kolmas ja yrittäjistä noin 40 prosenttia on valinnut Elon työeläkekumppanikseen. Vastaamme 490 000 työntekijän ja yrittäjän tulevista eläkkeistä, huolehdimme 250 000 eläkkeensaajasta ja 30 miljardin euron sijoitusomaisuudesta."
-    },
-    "booth": "A3"
-  },
-  {
-    "id": 61,
-    "name": "Tekniikan Akateemiset",
-    "imgSrc": "companies/TEK.png",
-    "websiteUrl": "https://tek.fi",
-    "description": {
-      "en": "",
-      "fi": ""
-    },
-    "booth": "X1"
-  },
-  {
-    "id": 62,
-    "name": "Webso",
-    "imgSrc": "companies/Webso.png",
-    "websiteUrl": "https://webso.fi",
-    "description": {
-      "en": "Webso is a software consulting firm with a core focus on web development and cloud infrastructure solutions. Our mission revolves around tackling two key challenges in the industry: improving communication and ensuring transparency. We strive to simplify the process of hiring a software consultant, offering unparalleled service that builds trust and fosters long-term relationships.\n\n\"Never stop the madness.\""
-    },
-    "booth": "X3"
-  },
-  {
     "id": 63,
     "name": "Think Company",
     "imgSrc": "companies/Think_Company.png",
@@ -349,16 +177,4 @@
       "en": ""
     },
     "booth": "A7"
-  },
-  {
-    "id": 64,
-    "name": "Helsingin kaupunki, kaupunkiympäristö",
-    "imgSrc": "companies/helsinki.png",
-    "websiteUrl": "https://helsinki.fi",
-    "booth": "A11",
-    "description": {
-      "fi": "Helsingin kaupunkiympäristön toimiala huolehtii Helsingin kaupunkiympäristön suunnittelusta, rakentamisesta ja ylläpidosta, rakennusvalvonnasta sekä ympäristöön liittyvistä palveluista. Toimialalla työskentelee noin 1700 asiantuntijaa.",
-      "en": "The City of Helsinki Urban Environment Division is responsible for planning, construction and maintenance as well as building control and environmental services related to the Helsinki urban environment. We employ around 1,700 experts"
-    }
   }
-]
