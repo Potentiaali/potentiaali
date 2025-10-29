@@ -7,9 +7,7 @@
     "description": {
       "en": "A labour union of Professions in Natural, Environmental and Forestry Sciences.",
       "fi": "Luonnon-, ympäristö- ja metsätieteilijöiden ammattiliitto."
-    },
-    "booth": "X2"
-  },
+    }  },
   {
     "id": 5,
     "name": "Taito United",
@@ -18,10 +16,19 @@
     "description": {
       "fi": "Taito United nostaa palvelusi seuraavalle tasolle designia ja teknologiaa taitavasti yhdistämällä. Haluamme luoda asiakkaillemme parasta mahdollista softaa ja tarjota työntekijöillemme parhaan mahdollisen työpaikan. Tämä ydintarkoituksemme on kantanut meidät hienoihin onnistumisiin ja johtanut pitkiin kumppanuuksiin sekä pysyviin työsuhteisiin.",
       "en": "Taito United takes your digital services to the next level by skillfully combining design and technology. We want to create the best possible software for our customers and offer the best possible workplace for our employees. These core purposes have carried us to great successes and led us to long partnerships and lasting employment relationships."
+    }  },
+    {
+    "id": 19,
+    "name": "Maanmittauslaitos",
+    "shorter": "Maanmittauslaitos",
+    "imgSrc": "companies/maanmittauslaitos.png",
+    "websiteUrl": "https://www.maanmittauslaitos.fi/",
+    "description": {
+      "fi": "Maanmittauslaitos tuottaa tietoa, palvelua ja tutkimusta Maasta.\n\nTeemme maanmittaustoimituksia, ylläpidämme kiinteistöjen tietoja, tuotamme kartta-aineistoja, huolehdimme lainhuudoista ja kiinnityksistä, kehitämme tietojärjestelmiä sekä teemme paikkatietoalan tutkimusta.  \n\nMaanmittauslaitoksen Paikkatietokeskuksen tutkijat tekevät koko yhteiskuntaa hyödyttävää paikkatietoalan mittaus- ja tutkimustyötä yhteistyössä yliopistojen ja tutkimuslaitosten, julkisyhteisöjen ja yritysten kanssa Suomessa ja kansainvälisesti.\n\nTietohallinnon toimintayksikkö vastaa Maanmittauslaitoksen IT- ja kehityspalveluista, tiedonhallinnasta sekä arkistopalveluista.\n\nMaanmittauslaitoksessa panostetaan yhteistyöhön, uskotaan kokeilukulttuuriin ja kehitetään vastuullisuutta. Huomioimme työssämme ympäristön, ihmisten ja talouden hyvinvoinnin. ",
+      "en": "The National Land Survey produces information, services and research about the Earth.\n\nWe do land surveying, maintain property information, produce map data material, handle registrations of title and mortgages, develop ICT systems, and promote the research and application of spatial data.\n\nThe researchers of the Finnish Geospatial Research Institute at the National Land Survey perform measurements and research benefiting the whole society in the field of mapping in cooperation with universities and research institutes, public organisations and companies in Finland and internationally.\n\nThe specialists at the Centre for ICT Services at the National Land Survey are responsible for the information systems and information management of the National Land Survey.\n\nAt the National Land Survey, we invest in cooperation, believe in a culture where you can try and fail as well as improve our sustainability. In our work, we take into account the wellbeing of the environment, people, and the economy."
+    }
     },
-    "booth": "A6"
-  },
-  {
+    {
     "id": 12,
     "name": "OP Ryhmä",
     "imgSrc": "companies/op.png",
@@ -29,19 +36,25 @@
     "description": {
       "fi": "OP Ryhmä on Suomen suurin finanssiryhmä. Olemme asiakkaidemme omistama, finanssialan houkuttelevin työnantaja Suomessa. Ryhmässämme työskentelee yli 12 000 alan ammattilaista, ja tuotamme sekä kehitämme pankki-, sijoitus-, vakuutus- ja kiinteistönvälityspalveluita neljälle miljoonalle asiakkaallemme. Lisätietoa OP:sta työnantajana ja kaikki avoimet tehtävämme löydät osoitteesta www.op-careers.fi.  ",
       "en": "OP Financial Group is the leading financial services group in Finland. Owned by our customers, we are the most alluring employer in the Financial sector. OP Financial Group employs over 12,000 professionals and provides banking, asset management, wealth management, insurance and brokerage services for our four million customers. For more information about OP as an employer and for all vacancies, go to www.op-careers.fi.  "
-    },
-    "booth": "C2"
-  },
-  {
-    "id": 18,
-    "name": "Zalando",
-    "imgSrc": "companies/zalando.svg",
-    "websiteUrl": "https://jobs.zalando.com/en",
+    }  },
+    {
+    "id": 61,
+    "name": "Tekniikan Akateemiset",
+    "imgSrc": "companies/TEK.png",
+    "websiteUrl": "https://tek.fi",
     "description": {
-      "fi": "",
-      "en": ""
+      "en": "",
+      "fi": ""
+    }  },
+  {
+    "id": 62,
+    "name": "Webso",
+    "imgSrc": "companies/Webso.png",
+    "websiteUrl": "https://webso.fi",
+    "description": {
+      "en": "Webso is a software consulting firm with a core focus on web development and cloud infrastructure solutions. Our mission revolves around tackling two key challenges in the industry: improving communication and ensuring transparency. We strive to simplify the process of hiring a software consultant, offering unparalleled service that builds trust and fosters long-term relationships.\n\n\"Never stop the madness.\""
     },
-    "booth": "B4"
+    "booth": "X3"
   },
   {
     "id": 22,
@@ -51,9 +64,7 @@
     "description": {
       "fi": "Olemme yksi suurimpia IT-yrityksiä Suomessa ja maailmalla. Vahva kokemus eri toimialoilta sekä konkreettisiin tuloksiin tähtäävä lähestymistapamme auttavat yrityksiä ja julkisen sektorin organisaatioita saavuttamaan tavoitteitaan tehokkaammin. Asiantuntijamme työskentelevät Suomessa 17 paikkakunnalla ja globaalisti toimipisteitä on yli 400. Olemme asiakkaillemme paikallisesti läsnä, mutta tarjoamme käyttöön globaalit resurssit.\n\nSpace & Geo -yksikkömme työskentelee mielenkiintoisissa ja merkityksellisissä projekteissa, joissa pureudutaan esimerkiksi ympäristö-, metsä- ja maatalous sektorin kehittämiseen, liikenteen sujuvoittamiseen, paikkatietodatan analytiikkaan ja vauhdilla kasvavaan avaruusliiketoimintaan.",
       "en": "CGI is among the largest IT and business consulting services firms in Finland and in the world. We are insights-driven and outcomes-based to help accelerate returns on your investments. Across 21 industry sectors in 400 locations worldwide, our 77,000 professionals provide comprehensive, scalable and sustainable IT and business consulting services that are informed globally and delivered locally.\n\nOur Space & Geo unit in Finland helps organizations across industries take advantage of space and geo data technologies to pursue new business opportunities made possible by advancements in space, as well as address pressing societal challenges, such as climate change and security threats."
-    },
-    "booth": "B5"
-  },
+    }  },
   {
     "id": 23,
     "name": "KPMG",
@@ -61,9 +72,7 @@
     "websiteUrl": "https://home.kpmg/fi/fi/home.html",
     "description": {
       "en": "KPMG is one of the world's leading professional organizations, providing Audit, Tax, Legal and Advisory services. We have 270,000 professionals working in 143 countries worldwide. Yearly we offer more than 100 trainee positions for technical, business and law students in all our service areas. The next application period for our Autumn 2025 KPMG Trainee program kicks off right after new year's.\n\nFor more details, check out trainee.kpmg.fi."
-    },
-    "booth": "C7"
-  },
+    }  },
   {
     "id": 28,
     "name": "Digia",
@@ -72,9 +81,7 @@
     "description": {
       "fi": "",
       "en": ""
-    },
-    "booth": "C6"
-  },
+    }  },
   {
     "id": 37,
     "name": "Reddal Helsinki",
@@ -82,9 +89,7 @@
     "websiteUrl": "https://www.reddal.com/about-us/",
     "description": {
       "en": "Reddal offers business development as a service (BDaaS) on a global basis. Working with senior management and front-line staff on issues ranging from strategy, M&A and business building to operational efficiency and financial turnarounds, our mission is to drive growth across companies of all sizes. Our business model is revolutionizing the cost structure of top management professional services, making BDaaS competitive with in-house resources. We bring an analytical, systematic, forward looking, and flexible approach to business development and building. Our client base is global, and we work across multiple industry sectors.\n\nWhat differentiates us from our competitors from a customer point of view is that we share our knowledge openly with our clients, and do not work with competing companies. With these principles, we set a strong foundation to grow together with our clients and form long-term relationships. Currently, Reddal has offices in Helsinki, Seoul and Kuala Lumpur, and maintains operative locations in Germany and the Middle East.\n\nAs a Reddalian, you help building businesses and drive growth of companies of all sizes, across industries, globally. From the first day, you have the opportunity to work alongside executives and front-line staff solving real business problems. Aside close collaboration with our client and exposure to interesting work and industries, we place strong focus on supporting your personal and professional development also through our extensive in-house training program, career mentorship and a low-threshold for support by seniors and peers alike. The strong Reddal community, which is characterized by kindness and openness, is something we are proud of and look forward to welcoming new members to."
-    },
-    "booth": "A2"
-  },
+    }  },
   {
     "id": 44,
     "name": "ASM",
@@ -92,9 +97,7 @@
     "websiteUrl": "https://www.asm.com/",
     "description": {
       "en": "ASM is a leading, global supplier of semiconductor wafer processing equipment. Our smart and ambitious team is dedicated to delivering innovative technology solutions to the world’s leading semiconductor manufacturers. We have over 4,000 talented and skilled employees, based in 15 different hubs worldwide. Together we work to develop thin-film deposition technologies for our customers through epitaxy, ALD, PEALD, vertical furnaces and PECVD. Our goal is to remain an industry leader by being ahead of what’s next. Focusing on finding collaborative solutions to make integrated circuits, or chips, smaller, faster and even more powerful."
-    },
-    "booth": "C1"
-  },
+    }  },
   {
     "id": 46,
     "name": "Netlight",
@@ -102,9 +105,7 @@
     "websiteUrl": "https://www.netlight.com/",
     "description": {
       "en": "Netlight is an international IT consultancy working with market leaders across industries - e.g. medtech, retail, renewables, media, and gaming to name a few. Our colleagues join clients in critical roles helping the client teams succeed and build sustainable solutions. Netlight has been awarded several times as a top employer, as well as for growth, continued profitability, and engagement for equality and diversity within the IT industry.\n\nWe're located in Helsinki, and 10 other cities in Europe, as well as one in North America. If you want to work not only with code/design/data but also with people - helping others and growing as a person, you might be a future Netlighter! Visit us by the horse to hear more from our colleagues, about client stories and personal growth."
-    },
-    "booth": "B1"
-  },
+    }  },
   {
     "id": 47,
     "name": "Netum",
@@ -112,9 +113,7 @@
     "websiteUrl": "https://www.netum.fi/tyopaikat",
     "description": {
       "fi": "Netum on vahvasti ja kannattavasti kasvava IT-palvelukumppani, joka rakentaa toimivaa ja turvallista digitaalista yhteiskuntaa. Meillä on yli 20 vuoden kokemus vaativista IT-hankkeista. Tavoitteenamme on olla alan luotetuin kumppani ja halutuin työyhteisö vastuullisessa ja turvallisessa digimuutoksessa. Autamme asiakkaitamme digitaalisen liiketoiminnan kehittämisessä suunnittelemalla ja toteuttamalla juuri heidän tarpeisiinsa sopivia ja kestäviä digiratkaisuja – viisaasti ja vastuullisesti.\n\nMeitä netumilaisia on yli 400 asiantuntijaa ympäri Suomen. Toimistoja meillä on Tampereella, Helsingissä, Turussa, Porissa, Jyväskylässä, Hämeenlinnassa, Kuopiossa ja Oulussa. Tarjoamme mielenkiintoisia työmahdollisuuksia IT-alan asiantuntijoille ja opiskelijoille. Meillä voit työskennellä esimerkiksi ohjelmistokehityksen, testauksen, käyttöliittymäsuunnittelun, tietoturvan, datan ja tiedolla johtamisen sekä monipuolisten projektinhallinnan tehtävien parissa.\n\nLue lisää: https://www.netum.fi/tyopaikat"
-    },
-    "booth": "B2"
-  },
+    }  },
   {
     "id": 50,
     "name": "CSC",
@@ -123,9 +122,7 @@
     "description": {
       "fi": "Oletko kiinnostunut huipputeknologiasta ja haluatko tehdä merkityksellistä työtä yhteiskunnan digitalisaation parissa? CSC - Tieteen tietotekniikan keskus on ainutlaatuinen yhdistelmä edistyksellistä tekniikkaa, oppimisen ja opettamisen tulevaisuutta, sekä verkostojen voimaa. Toimipisteemme sijaitsevat Kajaanissa ja Espoossa. Monimuotoinen joukkomme eri alojen asiantuntijoita tekee yhdessä työtä, jolla on tarkoitus. Me CSC:llä tarjoamme mielenkiintoisia ja monipuolisia työtehtäviä kannustavassa ilmapiirissä sekä mahdollisuuden oman osaamisen kehittämiseen kansainvälisessä yrityksessä.\n\nLue lisää meistä työnantajana: https://csc.fi/toihin-meille",
       "en-US": "Are you passionate about cutting-edge technology and eager to make a meaningful impact on the digitalization of society? CSC - IT Center for Science is a unique combination of advanced technology, the future of learning and teaching, and the power of networks. Our offices are located in Kajaani and Espoo. Our diverse group of experts from different fields is working together with a purpose. At CSC, we offer interesting and diverse tasks in an encouraging atmosphere and the opportunity to develop your own competence in an international company.\n\nRead more about us as an employer: https://csc.fi/en/careers"
-    },
-    "booth": "B3"
-  },
+    }  },
   {
     "id": 52,
     "name": "Ilmarinen",
@@ -133,9 +130,7 @@
     "websiteUrl": "https://www.ilmarinen.fi/",
     "description": {
       "en": "Ilmarinen is Finland’s largest private earnings-related pension insurance company. As a mutual pension insurance company, we are wholly owned by our customers. Our task is to ensure that our customers receive the pension they earned from work. We offer statutory employees’ and self-employed persons’ pension insurance for employers and entrepreneurs operating in Finland."
-    },
-    "booth": "A8"
-  },
+    }  },
   {
     "id": 54,
     "name": "EY",
@@ -144,9 +139,7 @@
     "description": {
       "fi": "EY exists to build a better working world, helping to create long-term value for clients, people and society and build trust in the capital markets.\n\nEnabled by data and technology, diverse EY teams in over 150 countries provide trust through assurance and help clients grow, transform and operate.\n\nWorking across assurance, consulting, law, strategy, tax and transactions, EY teams ask better questions to find new answers for the complex issues facing our world today.",
       "en": "EY exists to build a better working world, helping to create long-term value for clients, people and society and build trust in the capital markets.\n\nEnabled by data and technology, diverse EY teams in over 150 countries provide trust through assurance and help clients grow, transform and operate.\n\nWorking across assurance, consulting, law, strategy, tax and transactions, EY teams ask better questions to find new answers for the complex issues facing our world today."
-    },
-    "booth": "B6"
-  },
+    }  },
   {
     "id": 56,
     "name": "Frends",
@@ -154,9 +147,7 @@
     "websiteUrl": "https://frends.fi",
     "description": {
       "en": "Time to meet your new Frends! We’re all about making connections between apps, data, and people. With Frends you get to see the development of the modern enterprise iPaaS platform from various angles. In our wide range portfolio of clients, you can find nationally and internationally known companies across 16 different countries that will lead you to interesting and meaningful projects. Strong team spirit as well as trust, freedom and flexibility are the cornerstones of our culture. Top workmates coupled with challenging and versatile projects with a powerful platform which enables digitalization and process automation – this is Frendszone."
-    },
-    "booth": "C4"
-  },
+    }  },
   {
     "id": 59,
     "name": "Terveystalo",
@@ -164,9 +155,7 @@
     "websiteUrl": "https://www.terveystalo.com/fi/avoimet-tyopaikat/digikehitys",
     "description": {
       "fi": "Terveystalo on liikevaihdoltaan ja verkostoltaan Suomen suurin yksityinen terveyspalveluyritys ja johtava toimija työterveydessä Pohjoismaissa. Tarjoamme monipuolisia perusterveydenhuollon, erikoissairaanhoidon, sekä hyvinvoinnin palveluja yritys- ja yksityisasiakkaille ja julkiselle sektorille. Terveystalon digivastaanotto palvelee ajasta ja paikasta riippumatta, 24/7. Terveyden ja hyvinvoinnin palveluja tarjoaa myös noin 377 toimipaikkaa eri puolilla Suomea. Ruotsissa tarjoamme työterveyden palveluita 152 toimipaikassa.\n\nTerveystalo on Helsingin pörssissä listattu yhtiö, jolla on vahva suomalainen omistus. Terveystalon ohjelmistokehityksen Digital Health -tiimi etsii jatkuvasti uusia osaajia. Meillä saat mahdollisuuden kasvaa johtavaan rooliin liiketoiminnalle kriittisten ratkaisujen suunnittelemisessa, rakentamisessa ja kehittämisessä. Voit erikoistua esimerkiksi arkkitehtuuriin, pilviratkaisuihin, ohjelmistojen tietoturvaan, maksamisen ratkaisuihin, laatuun, autentikaatioihin tai integraatioihin.\n\nAvoimet digikehityksen työpaikkamme: https://www.terveystalo.com/fi/avoimet-tyopaikat/digikehitys"
-    },
-    "booth": "A4"
-  },
+    }  },
   {
     "id": 63,
     "name": "Think Company",
@@ -175,7 +164,5 @@
     "description": {
       "fi": "",
       "en": ""
-    },
-    "booth": "A7"
-  }
+    }  }
 ]
