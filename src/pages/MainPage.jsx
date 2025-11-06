@@ -15,6 +15,9 @@ const MainPage = () => {
   return (
     <>
       <Logo />
+      {/* Remove company registration notification */} 
+
+      {/* 
       <section className="app-section">
         { <Notification
           type="success"
@@ -31,6 +34,7 @@ const MainPage = () => {
           </p>
         </Notification> }
       </section>
+      */} 
       {/*<div className="app-statistics">
         <div className="single-stat">
           <span className="single-stat_main">1000+</span>
