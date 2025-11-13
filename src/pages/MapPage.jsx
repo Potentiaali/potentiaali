@@ -75,7 +75,7 @@ const MapPage = () => {
             <span> {t("company-info")}</span>
           </div>
           <div className={style.mapInfoEntry}>
-            <ClassRoomBadge text="Physicum D101" />
+            <ClassRoomBadge text="D101" />
             <span> {t("keynotes")}</span>
           </div>
           <div className={style.mapInfoEntry}>
