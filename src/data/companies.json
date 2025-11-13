@@ -5,8 +5,8 @@
     "imgSrc": "companies/loimu.jpg",
     "websiteUrl": "https://www.loimu.fi/",
     "description": {
-      "en": "A labour union of Professions in Natural, Environmental and Forestry Sciences.",
-      "fi": "Luonnon-, ympäristö- ja metsätieteilijöiden ammattiliitto."
+      "en": "Loimu is the trade union for highly educated professionals and university students in the fields of natural, environmental and forest sciences, as well as agriculture, food and nutrition sciences. How do I get started in my field of work? What skills do I need? Who’s on my side if something goes wrong? Could I do my thesis for an organization? How much should I ask for as a salary? What if I become unemployed after graduation? At Loimu, we know the answers — and we’re here to help. Join the professional community of your field. Membership includes leisure-time traveller’s insurance. For first-year students, membership is free until the end of 2026!",
+      "fi": "Loimu on luonnon-, ympäristö- ja metsätieteellisten sekä maatalous-, elintarvike- ja ravitsemusalan korkeasti koulutettujen asiantuntijoiden ja alamme korkeakouluopiskelijoiden ammattiliitto. Miten pääsen kiinni oman alani töihin? Mitä pitäisi osata? Kuka on puolellani, jos jotain sattuu? Voisiko gradun tehdä jollekin? Paljonko pitäisi pyytää palkkaa? Entä jos jään valmistumisen jälkeen työttömäksi? Me Loimussa tiedämme ja autamme. Liity oman alasi yhteisöön. Jäsenyyteen kuuluu vapaa-ajan matkustajavakuutus. Jäsenyys fuksille maksutta 2026 loppuun saakka!"
     },
     "booth": "B6"
   },
@@ -40,8 +40,8 @@
     "imgSrc": "companies/op.png",
     "websiteUrl": "https://www.op.fi/",
     "description": {
-      "fi": "OP Ryhmä on Suomen suurin finanssiryhmä. Olemme asiakkaidemme omistama, finanssialan houkuttelevin työnantaja Suomessa. Ryhmässämme työskentelee yli 12 000 alan ammattilaista, ja tuotamme sekä kehitämme pankki-, sijoitus-, vakuutus- ja kiinteistönvälityspalveluita neljälle miljoonalle asiakkaallemme. Lisätietoa OP:sta työnantajana ja kaikki avoimet tehtävämme löydät osoitteesta www.op-careers.fi.  ",
-      "en": "OP Financial Group is the leading financial services group in Finland. Owned by our customers, we are the most alluring employer in the Financial sector. OP Financial Group employs over 12,000 professionals and provides banking, asset management, wealth management, insurance and brokerage services for our four million customers. For more information about OP as an employer and for all vacancies, go to www.op-careers.fi.  "
+      "fi": "OP Ryhmä on Suomen suurin finanssiryhmä, jolla on yli kaksi miljoonaa omistaja-asiakasta ja yli 14 000 työntekijää. Tarjoamme kattavan pankki- ja vakuutuspalvelujen kokonaisuuden henkilö- ja yritysasiakkaille. Ryhmässämme työskentelee monien eri alojen osaajia finanssialan ammattilaisista, kovan luokan kehittäjistä ja ketteristä muutoksentekijöistä aina asiakaspalvelun ammattilaisiin. Tuemme henkilöstöämme henkilökohtaiseen kasvuun ja urakehitykseen asiantuntijoina. Meillä pääset rakentamaan asiantuntijuuttasi ja kehittämään vahvuuksiasi monipuolisten työtehtävien parissa.",
+      "en": "OP Financial Group, which has over two million owner-customers and over 14,000 employees, is Finland’s largest financial services group. We provide a comprehensive range of banking and insurance services for private and corporate customers. OP Financial Group employs experts representing various fields, ranging from financial-sector specialists, hard-core developers and agile promoters of change all the way to customer service professionals. We foster our employees' personal growth and career development as specialists. With us, you will be able to build your expertise and develop your strengths in a variety of duties."
     },
     "booth": "A1"  },
     {
@@ -50,8 +50,8 @@
     "imgSrc": "companies/TEK.png",
     "websiteUrl": "https://tek.fi",
     "description": {
-      "en": "",
-      "fi": ""
+      "fi": "Tekniikan akateemiset TEK on noin 85 000 tekniikan ja luonnontieteiden yliopisto-opiskelijan sekä alalta valmistuneen yhteisö. Opiskelijana voit liittyä jäseneksi maksutta ja saat käyttöösi parhaat asiantuntijapalvelut urasi tueksi, aina opintojen alusta alkaen: 📑 tarkistamme työsopimuksia 📈 annamme palkkaneuvontaa 🔍 kerromme vinkkejä työnhakuun 💡 autamme eteenpäin yrittäjyyden polulla 🎙️ tarjoamme valmennuksia ja huippupuhujien tähdittämiä tapahtumia Me TEKissä teemme töitä sen eteen, että jäsenemme voivat keskittyä työarjessaan oleelliseen ja vapaa-ajalla vielä oleellisempaan – elämään! Lue lisää: www.tek.fi ja liity opiskelijajäseneksi: tek.fi/liityopiskelija",
+      "en": "Academic Engineers and Architects in Finland TEK is a community of around 85,000 university students in the field of technology and natural sciences as well as graduates from these field. As a student, you can join for free and gain access to top expert services to support your career from the very beginning of your studies: 📑 we review employment contracts 📈 we offer salary advice 🔍 we share tips for job hunting 💡 we help you move forward on the path to entrepreneurship 🎙️ we provide coaching and events featuring top speakers At TEK, we work to ensure our members can focus on what matters at work—and even more so during their free time: life! Read more: www.tek.fi/en and join as a student member at: tek.fi/joinstudent"
     },
     "booth": "C9"
   },
@@ -61,8 +61,8 @@
     "imgSrc": "companies/cgi.png",
     "websiteUrl": "https://www.cgi.com/fi/fi",
     "description": {
-      "fi": "Olemme yksi suurimpia IT-yrityksiä Suomessa ja maailmalla. Vahva kokemus eri toimialoilta sekä konkreettisiin tuloksiin tähtäävä lähestymistapamme auttavat yrityksiä ja julkisen sektorin organisaatioita saavuttamaan tavoitteitaan tehokkaammin. Asiantuntijamme työskentelevät Suomessa 17 paikkakunnalla ja globaalisti toimipisteitä on yli 400. Olemme asiakkaillemme paikallisesti läsnä, mutta tarjoamme käyttöön globaalit resurssit.\n\nSpace & Geo -yksikkömme työskentelee mielenkiintoisissa ja merkityksellisissä projekteissa, joissa pureudutaan esimerkiksi ympäristö-, metsä- ja maatalous sektorin kehittämiseen, liikenteen sujuvoittamiseen, paikkatietodatan analytiikkaan ja vauhdilla kasvavaan avaruusliiketoimintaan.",
-      "en": "CGI is among the largest IT and business consulting services firms in Finland and in the world. We are insights-driven and outcomes-based to help accelerate returns on your investments. Across 21 industry sectors in 400 locations worldwide, our 77,000 professionals provide comprehensive, scalable and sustainable IT and business consulting services that are informed globally and delivered locally.\n\nOur Space & Geo unit in Finland helps organizations across industries take advantage of space and geo data technologies to pursue new business opportunities made possible by advancements in space, as well as address pressing societal challenges, such as climate change and security threats."
+      "fi": "Vuonna 1976 perustettu CGI on maailman ja Suomen suurimpia IT- ja liiketoimintakonsultoinnin palveluyhtiöitä. Meillä CGI Suomessa työskentelee noin 3 700 IT- ja liiketoimintakonsultoinnin asiantuntijaa 11 paikkakunnalla. Maailmanlaajuisesti meillä on 93 000 kollegaa ympäri maailman. Etsimme jatkuvasti uusia osaajia täydentämään tiimejämme! Tarjoamme monipuolisia kehittymismahdollisuuksia niin uraansa aloitteleville kuin kokeneillekin teknologia-ammattilaisille. Haku palkalliseen Future Talent -harjoittelujaksoon käynnistyy tammikuussa. Seuraa Future Talent -hakuajan käynnistymistä ja muita avoimia paikkojamme urasivuillamme osoitteessa cgi.fi/ura!",
+      "en": "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. In Finland, we employ approximately 3,700 IT and business consulting experts in 11 locations. Globally, we have around 93,000 colleagues around the world. We are constantly looking for new additions to our diverse teams! We offer a wide range of development opportunities for both entry-level experienced technology professionals.  Application period for our paid Future Talent Trainee period will open in January. Follow the launch of the trainee application period and check out our other vacancies on our careers page at cgi.fi/ura! "
     },
     "booth": "B1"
   },
@@ -72,7 +72,8 @@
     "imgSrc": "companies/kpmg.webp",
     "websiteUrl": "https://home.kpmg/fi/fi/home.html",
     "description": {
-      "en": "KPMG is one of the world's leading professional organizations, providing Audit, Tax, Legal and Advisory services. We have 270,000 professionals working in 143 countries worldwide. Yearly we offer more than 100 trainee positions for technical, business and law students in all our service areas. The next application period for our Autumn 2025 KPMG Trainee program kicks off right after new year's.\n\nFor more details, check out trainee.kpmg.fi."
+      "fi": "KPMG on yksi maailman johtavista asiantuntijaorganisaatioista. Palveluihimme kuuluvat tilintarkastus-, vero- ja laki- sekä neuvontapalvelut. Suomessa meitä KPMG:läisiä työskentelee 18 eri paikkakunnalla. Tutustu meidän uramahdollisuuksiin opiskelijoille ja vastavalmistuneille täällä: https://kpmg.com/fi/fi/tyopaikat/opiskelijat-ja-vastavalmistuneet.html" ,
+      "en": "KPMG on yksi maailman johtavista asiantuntijaorganisaatioista. Palveluihimme kuuluvat tilintarkastus-, vero- ja laki- sekä neuvontapalvelut. Suomessa meitä KPMG:läisiä työskentelee 18 eri paikkakunnalla. Tutustu meidän uramahdollisuuksiin opiskelijoille ja vastavalmistuneille täällä: https://kpmg.com/fi/fi/tyopaikat/opiskelijat-ja-vastavalmistuneet.html."
     },
     "booth": "C3"  
 },
@@ -82,8 +83,8 @@
     "imgSrc": "companies/digia.svg",
     "websiteUrl": "https://digia.com/",
     "description": {
-      "fi": "",
-      "en": ""
+      "fi": "Digia on ihmisille suunniteltu yritys - työpaikka, jossa on hyvä olla ja asiat toimivat. Olemme ohjelmisto- ja palveluyritys, joka yhdistää teknologian mahdollisuudet ja ihmisten kyvykkyydet älykkäämmän liiketoiminnan ja yhteiskunnan sekä kestävän tulevaisuuden rakentamiseksi. Jos oman ammattitaidon kehittyminen, asiantuntevat kollegat ja työyhteisö, jossa mennään rohkeasti eteenpäin vastaa sinun toiveitasi tutustu urasivuihimme!",
+      "en": "Digia is a company designed for people – a workplace where well-being and functionality go hand in hand. We are a software and service company that combines the possibilities of technology with human capabilities to build smarter business, a better society, and a sustainable future. If you're looking for professional growth, knowledgeable colleagues, and a work community that boldly moves forward, explore our career pages!"
     },
     "booth": "C2"
   },
@@ -113,7 +114,7 @@
     "imgSrc": "companies/netlight.svg",
     "websiteUrl": "https://www.netlight.com/",
     "description": {
-      "en": "Netlight is an international IT consultancy working with market leaders across industries - e.g. medtech, retail, renewables, media, and gaming to name a few. Our colleagues join clients in critical roles helping the client teams succeed and build sustainable solutions. Netlight has been awarded several times as a top employer, as well as for growth, continued profitability, and engagement for equality and diversity within the IT industry.\n\nWe're located in Helsinki, and 10 other cities in Europe, as well as one in North America. If you want to work not only with code/design/data but also with people - helping others and growing as a person, you might be a future Netlighter! Visit us by the horse to hear more from our colleagues, about client stories and personal growth."
+      "en": "Netlight is an international digital consulting firm, helping leading companies to succeed in the digital landscape, from advice to implementation. Our service contains the collective intelligence of 2000 consultants offering a comprehensive range of digital services, from strategy to technology. We support industries that are facing new challenges and opportunities based on new technology, to make better business. Netlight has been awarded several times for profitable growth and management, as a top employer, and for our engagement in Diversity, Equity, and Inclusion. Located in Stockholm, Oslo, Helsinki, Copenhagen, Munich, Hamburg, Berlin, Frankfurt, Zurich, Cologne, Amsterdam, Toronto and London. Co-creating the future today, since 1999."
     },
     "booth":"B2"  },
   {
@@ -122,7 +123,8 @@
     "imgSrc": "companies/netum.svg",
     "websiteUrl": "https://www.netum.fi/tyopaikat",
     "description": {
-      "fi": "Netum on vahvasti ja kannattavasti kasvava IT-palvelukumppani, joka rakentaa toimivaa ja turvallista digitaalista yhteiskuntaa. Meillä on yli 20 vuoden kokemus vaativista IT-hankkeista. Tavoitteenamme on olla alan luotetuin kumppani ja halutuin työyhteisö vastuullisessa ja turvallisessa digimuutoksessa. Autamme asiakkaitamme digitaalisen liiketoiminnan kehittämisessä suunnittelemalla ja toteuttamalla juuri heidän tarpeisiinsa sopivia ja kestäviä digiratkaisuja – viisaasti ja vastuullisesti.\n\nMeitä netumilaisia on yli 400 asiantuntijaa ympäri Suomen. Toimistoja meillä on Tampereella, Helsingissä, Turussa, Porissa, Jyväskylässä, Hämeenlinnassa, Kuopiossa ja Oulussa. Tarjoamme mielenkiintoisia työmahdollisuuksia IT-alan asiantuntijoille ja opiskelijoille. Meillä voit työskennellä esimerkiksi ohjelmistokehityksen, testauksen, käyttöliittymäsuunnittelun, tietoturvan, datan ja tiedolla johtamisen sekä monipuolisten projektinhallinnan tehtävien parissa.\n\nLue lisää: https://www.netum.fi/tyopaikat"
+      "fi": "Netum on IT-palvelukumppani, joka rakentaa toimivaa ja turvallista digitaalista yhteiskuntaa. Meillä on yli 20 vuoden kokemus vaativista IT-hankkeista. Tavoitteenamme on olla alan luotetuin kumppani ja halutuin työyhteisö vastuullisessa ja turvallisessa digimuutoksessa. Autamme asiakkaitamme digitaalisen liiketoiminnan kehittämisessä suunnittelemalla ja toteuttamalla juuri heidän tarpeisiinsa sopivia ja kestäviä digiratkaisuja – viisaasti ja vastuullisesti. Netum-konserniin kuuluvat emoyhtiö Netum Group Oyj ja tytäryhtiöt Netum Oy, Studyo Oy sekä Buutti Oy.  Netum Oy tarjoaa digipalveluiden kehittämistä ja ylläpitoa, kyberturvallisuuspalveluita, data- ja integraatiopalveluja, tietovarasto- ja analytiikkaratkaisuja, tietojärjestelmien kehittämis-, tuki- ja ylläpitopalveluita sekä johdon konsultointia. Studyo Oy:n ohjelmistotuotteet ja -palvelut sujuvoittavat oppilaitosten arkea ja tukevat koulutuksen laadun kehittämistä. Buutti Oy tarjoaa IT-konsultointi- ja ohjelmistokehityspalveluja, joissa osaamisen paras kärki on sulautettujen järjestelmien, pilvi­palveluiden ja web-sovellusten piirissä.",
+      "en": "Netum is an IT service partner that builds a functional and secure digital society, with over 20 years of experience of demanding IT projects. Our goal is to be the most trusted partner in the industry and the preferred work community in responsible and safe digital transformation. We help our customers develop their digital business by designing and implementing sustainable digital solutions tailored to their needs – wisely and responsibly. The Netum Group includes the parent company Netum Group Plc and subsidiaries Netum Ltd, Studyo Oy and Buutti Oy. Netum Ltd offers digital services development and maintenance, cyber security services, data and integration services, development, support, and maintenance of information systems, as well as management consulting. Studyo Oy's software products and services streamline the everyday life of educational institutions and support the development of the quality of education. Buutti Oy offers IT consulting and software development services, in which embedded systems SW and web development are the core of the company's expertise."
     },
     "booth": "A4"
   },
@@ -132,8 +134,8 @@
     "imgSrc": "companies/CSC_logo.png",
     "websiteUrl": "https://csc.fi/toihin-meille",
     "description": {
-      "fi": "Oletko kiinnostunut huipputeknologiasta ja haluatko tehdä merkityksellistä työtä yhteiskunnan digitalisaation parissa? CSC - Tieteen tietotekniikan keskus on ainutlaatuinen yhdistelmä edistyksellistä tekniikkaa, oppimisen ja opettamisen tulevaisuutta, sekä verkostojen voimaa. Toimipisteemme sijaitsevat Kajaanissa ja Espoossa. Monimuotoinen joukkomme eri alojen asiantuntijoita tekee yhdessä työtä, jolla on tarkoitus. Me CSC:llä tarjoamme mielenkiintoisia ja monipuolisia työtehtäviä kannustavassa ilmapiirissä sekä mahdollisuuden oman osaamisen kehittämiseen kansainvälisessä yrityksessä.\n\nLue lisää meistä työnantajana: https://csc.fi/toihin-meille",
-      "en-US": "Are you passionate about cutting-edge technology and eager to make a meaningful impact on the digitalization of society? CSC - IT Center for Science is a unique combination of advanced technology, the future of learning and teaching, and the power of networks. Our offices are located in Kajaani and Espoo. Our diverse group of experts from different fields is working together with a purpose. At CSC, we offer interesting and diverse tasks in an encouraging atmosphere and the opportunity to develop your own competence in an international company.\n\nRead more about us as an employer: https://csc.fi/en/careers"
+      "fi": "CSC - Tieteen tietotekniikan keskus on ainutlaatuinen yhdistelmä kehittynyttä teknologiaa, oppimisen ja opetuksen tulevaisuutta sekä verkostojen voimaa. CSC on voittoa tavoittelematon valtion ja korkeakoulujen omistama yritys, jolla on erityinen tehtävä. Missiomme on kehittää, integroida ja tarjota laadukkaita tietoteknisiä palveluita sekä varmistaa, että Suomi pysyy kehityksen kärjessä.",
+      "en-US": "CSC - IT Center for Science is a unique combination of advanced technology, the future of learning and teaching, and the power of networks. CSC is a non-profit state and higher education owned enterprise with a special mission. Our mission is to develop, integrate, and provide high-quality information technology services and ensure that Finland remains at the forefront of development."
     },
     "booth": "A10"
   },
@@ -143,7 +145,8 @@
     "imgSrc": "companies/ilmarinen.png",
     "websiteUrl": "https://www.ilmarinen.fi/",
     "description": {
-      "en": "Ilmarinen is Finland’s largest private earnings-related pension insurance company. As a mutual pension insurance company, we are wholly owned by our customers. Our task is to ensure that our customers receive the pension they earned from work. We offer statutory employees’ and self-employed persons’ pension insurance for employers and entrepreneurs operating in Finland."
+      "fi": "Me olemme työeläkeyhtiö ihmistä varten. Pidämme huolta yli 1,1 miljoonan ihmisen eläketurvasta ja turvaamme tulevien sukupolvien eläkkeet sijoittamalla eläkevarat tuottavasti, turvaavasti ja vastuullisesti. Huolehdimme eläketurvasta ja eläkevaroista sekä pidennämme työuria, jotta sinä voit suhtautua huomiseen luottavaisena ja toiveikkaana. ",
+        "en": "We are a pension company with a human touch. We look after the pensions of more than 1.1 million people and protect the pensions of future generations by investing pension funds profitably, securely, and responsibly. We take care of pension security and pension funds as well as extend careers, so that you can feel confident and optimistic about tomorrow."
     },
     "booth": "A3"
   },
@@ -160,11 +163,11 @@
   },
   {
     "id": 56,
-    "name": "Frends",
+    "name": "Frends Technology",
     "imgSrc": "companies/Frends-2.png",
     "websiteUrl": "https://frends.fi",
     "description": {
-      "en": "Time to meet your new Frends! We’re all about making connections between apps, data, and people. With Frends you get to see the development of the modern enterprise iPaaS platform from various angles. In our wide range portfolio of clients, you can find nationally and internationally known companies across 16 different countries that will lead you to interesting and meaningful projects. Strong team spirit as well as trust, freedom and flexibility are the cornerstones of our culture. Top workmates coupled with challenging and versatile projects with a powerful platform which enables digitalization and process automation – this is Frendszone."
+      "en": "At Frends, we are dedicated to redefining the future of integrations and automation. Our mission is to make integrations fast, easy, and transparent. Frends iPaaS is a modern European, low-code integration platform. Frends solves the digitalization challenges of both global and smaller customers and in both private and public sectors in various industries."
     },
     "booth": "C4"
   },
@@ -184,8 +187,8 @@
     "imgSrc": "companies/Think_Company.png",
     "websiteUrl": "https://www.thinkcompany.fi/",
     "description": {
-      "fi": "",
-      "en": ""
+      "fi": "Helsinki Think Company on Helsingin yliopiston yrittäjyysyhteisö. Se kokoaa yhteen yrittäjyydestä kiinnostuneet opiskelijat ja tarjoaa väylän ja työkalut omaehtoisen toiminnan toteuttamiseen. Helsinki Think Companyn toimintaan kuuluvat innostavat tapahtumat, kuten yrittäjyysaiheiset keskustelutilaisuudet ja työpajat sekä hackathonit. Helsinki Think Companylle ovat tervetulleita kaikki tekijät opintojen vaiheeseen, opiskelualaan ja taustaan katsomatta.",
+      "en": "Helsinki Think Company is the University of Helsinki's entrepreneurship community. It brings together students interested in entrepreneurship and provides a platform and tools for independent action. Helsinki Think Company's activities include inspiring events such as entrepreneurship-themed discussions, workshops, and hackathons. Helsinki Think Company welcomes all creators, regardless of their academic age, field of study, or background."
     },
     "booth": "A5"
   },
@@ -194,7 +197,10 @@
     "name": "Geological Survey of Finland (GTK)",
     "imgSrc": "",
     "websiteUrl": "https://gtk.fi",
-    "description": { "fi": "", "en": "" },
+    "description": { 
+        "fi": "GTK:ssa teet vaikuttavaa työtä Suomen, luonnon ja koko maapallon hyväksi. Meillä voit tehdä töitä joustavasti, vaikuttaa omaan työhösi sekä kehittää joka päivä osaamistasi. Olet osa alansa parhaimpien osaajien yhteisöä.​ Meitä GTK:laisia on yli 400. Joukostamme löydät asiantuntijoita ja osaajia monenlaisilla taustoilla. Geo- ja ympäristöalan asiantuntijamme ovat erikoistuneet mineraalitalouteen, kiertotalouteen, energia-, vesi- ja ympäristökysymyksiin sekä digitaalisiin ratkaisuihin. Huipputason laboratorio-osaajat, tiedonhallinnan asiantuntijat ja tutkimusta avustavat henkilöt mahdollistavat tutkimustyömme.​ Lisäksi löydät joukostamme muun muassa viestinnän, henkilöstö- ja taloushallinnon, ICT:n, asianhallinnan ja lakiasioiden asiantuntijoita. GTK:laisista 91 % on suomalaisia ja loput muita kuin Suomen kansalaisia.",
+        "en": "At GTK, you do meaningful work for Finland, nature and the entire planet. With us, you can work flexibly, influence your own work and develop your competence every day. You are part of a community of the best experts in their field.​ There are more than 400 of us at GTK. Among us, you will find experts with a wide range of backgrounds. Our geo and environmental experts specialise in mineral economy, circular economy, energy, water and environmental issues as well as digital solutions. Top-level laboratory experts, information management experts and research assistants enable our research work. In addition, you will find experts in communications, HR and financial administration, ICT, records management and legal matters. 91% of GTK’s employees are Finns and the rest are non-Finnish citizens." 
+    },
     "booth": "B4"
   },
   {
@@ -218,7 +224,9 @@
     "name": "University of Helsinki – Institute of Physics",
     "imgSrc": "companies/hip.png",
     "websiteUrl": "",
-    "description": { "fi": "", "en": "" },
+    "description": { "fi": "Tule mukaan rakentamaan tulevaisuuden fysiikkaa! Fysiikan tutkimuslaitos (HIP) yhdistää kotimaisen asiantuntemuksen ja kansainvälisen yhteistyön CERNin ja FAIRin kaltaisissa huippulaboratorioissa. Tarjoamme mahdollisuuksia uraauurtavaan tutkimukseen ja kansainvälisiin projekteihin. Fysiikan tutkimuslaitos (HIP) on kansallinen tutkimusorganisaatio, joka yhdistää viiden suomalaisen yliopiston ja STUKin asiantuntemuksen. HIP tutkii teoreettista ja kokeellista alkeishiukkasfysiikkaa, tekee yhteistyötä CERNin ja muiden kansainvälisten kiihdytinlaboratorioiden kanssa sekä osallistuu merkittäviin projekteihin, kuten FAIR-laboratorioon Saksassa. Laitos tarjoaa mahdollisuuksia huippututkimukseen, kansainväliseen yhteistyöhön ja uraan fysiikan parissa.",
+     "en": "Join us in shaping the future of physics! The Helsinki Institute of Physics (HIP) brings together national expertise and international collaboration at world-class laboratories like CERN and FAIR. We offer opportunities for groundbreaking research and global projects. The Helsinki Institute of Physics (HIP) is a national research organization that brings together the expertise of five Finnish universities and STUK. HIP conducts research in theoretical and experimental subatomic physics, collaborates with CERN and other international accelerator laboratories, and contributes to major projects such as the FAIR facility in Germany. The institute offers opportunities for cutting-edge research, international collaboration, and careers in physics." 
+    },
     "booth": "C8"
   },
   {
