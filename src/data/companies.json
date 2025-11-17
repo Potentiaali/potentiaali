@@ -135,7 +135,7 @@
     "websiteUrl": "https://csc.fi/toihin-meille",
     "description": {
       "fi": "CSC - Tieteen tietotekniikan keskus on ainutlaatuinen yhdistelmä kehittynyttä teknologiaa, oppimisen ja opetuksen tulevaisuutta sekä verkostojen voimaa. CSC on voittoa tavoittelematon valtion ja korkeakoulujen omistama yritys, jolla on erityinen tehtävä. Missiomme on kehittää, integroida ja tarjota laadukkaita tietoteknisiä palveluita sekä varmistaa, että Suomi pysyy kehityksen kärjessä.",
-      "en-US": "CSC - IT Center for Science is a unique combination of advanced technology, the future of learning and teaching, and the power of networks. CSC is a non-profit state and higher education owned enterprise with a special mission. Our mission is to develop, integrate, and provide high-quality information technology services and ensure that Finland remains at the forefront of development."
+      "en": "CSC - IT Center for Science is a unique combination of advanced technology, the future of learning and teaching, and the power of networks. CSC is a non-profit state and higher education owned enterprise with a special mission. Our mission is to develop, integrate, and provide high-quality information technology services and ensure that Finland remains at the forefront of development."
     },
     "booth": "A10"
   },
@@ -145,7 +145,7 @@
     "imgSrc": "companies/Ilmarinen_Logo.png",
     "websiteUrl": "https://www.ilmarinen.fi/",
     "description": {
-      "fi": "Me olemme työeläkeyhtiö ihmistä varten. Pidämme huolta yli 1,1 miljoonan ihmisen eläketurvasta ja turvaamme tulevien sukupolvien eläkkeet sijoittamalla eläkevarat tuottavasti, turvaavasti ja vastuullisesti. Huolehdimme eläketurvasta ja eläkevaroista sekä pidennämme työuria, jotta sinä voit suhtautua huomiseen luottavaisena ja toiveikkaana. ",
+        "fi": "Me olemme työeläkeyhtiö ihmistä varten. Pidämme huolta yli 1,1 miljoonan ihmisen eläketurvasta ja turvaamme tulevien sukupolvien eläkkeet sijoittamalla eläkevarat tuottavasti, turvaavasti ja vastuullisesti. Huolehdimme eläketurvasta ja eläkevaroista sekä pidennämme työuria, jotta sinä voit suhtautua huomiseen luottavaisena ja toiveikkaana. ",
         "en": "We are a pension company with a human touch. We look after the pensions of more than 1.1 million people and protect the pensions of future generations by investing pension funds profitably, securely, and responsibly. We take care of pension security and pension funds as well as extend careers, so that you can feel confident and optimistic about tomorrow."
     },
     "booth": "A3"
@@ -156,7 +156,6 @@
     "imgSrc": "companies/EY_Logo.png",
     "websiteUrl": "https://www.ey.com/fi_fi/careers",
     "description": {
-      "fi": "EY exists to build a better working world, helping to create long-term value for clients, people and society and build trust in the capital markets.\n\nEnabled by data and technology, diverse EY teams in over 150 countries provide trust through assurance and help clients grow, transform and operate.\n\nWorking across assurance, consulting, law, strategy, tax and transactions, EY teams ask better questions to find new answers for the complex issues facing our world today.",
       "en": "EY exists to build a better working world, helping to create long-term value for clients, people and society and build trust in the capital markets.\n\nEnabled by data and technology, diverse EY teams in over 150 countries provide trust through assurance and help clients grow, transform and operate.\n\nWorking across assurance, consulting, law, strategy, tax and transactions, EY teams ask better questions to find new answers for the complex issues facing our world today."
     },
     "booth": "B5"
