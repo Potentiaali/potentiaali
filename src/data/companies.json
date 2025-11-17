@@ -13,7 +13,7 @@
   {
     "id": 5,
     "name": "Taito United",
-    "imgSrc": "companies/taito_united.svg",
+    "imgSrc": "companies/Taito_united_logo.jpg",
     "websiteUrl": "https://www.taitounited.fi/",
     "description": {
       "fi": "Taito United nostaa palvelusi seuraavalle tasolle designia ja teknologiaa taitavasti yhdistämällä. Haluamme luoda asiakkaillemme parasta mahdollista softaa ja tarjota työntekijöillemme parhaan mahdollisen työpaikan. Tämä ydintarkoituksemme on kantanut meidät hienoihin onnistumisiin ja johtanut pitkiin kumppanuuksiin sekä pysyviin työsuhteisiin.",
@@ -26,7 +26,7 @@
     "id": 19,
     "name": "Maanmittauslaitos",
     "shorter": "Maanmittauslaitos",
-    "imgSrc": "companies/maanmittauslaitos.png",
+    "imgSrc": "companies/FGI.jpg",
     "websiteUrl": "https://www.maanmittauslaitos.fi/",
     "description": {
       "fi": "Maanmittauslaitos tuottaa tietoa, palvelua ja tutkimusta Maasta.\n\nTeemme maanmittaustoimituksia, ylläpidämme kiinteistöjen tietoja, tuotamme kartta-aineistoja, huolehdimme lainhuudoista ja kiinnityksistä, kehitämme tietojärjestelmiä sekä teemme paikkatietoalan tutkimusta.  \n\nMaanmittauslaitoksen Paikkatietokeskuksen tutkijat tekevät koko yhteiskuntaa hyödyttävää paikkatietoalan mittaus- ja tutkimustyötä yhteistyössä yliopistojen ja tutkimuslaitosten, julkisyhteisöjen ja yritysten kanssa Suomessa ja kansainvälisesti.\n\nTietohallinnon toimintayksikkö vastaa Maanmittauslaitoksen IT- ja kehityspalveluista, tiedonhallinnasta sekä arkistopalveluista.\n\nMaanmittauslaitoksessa panostetaan yhteistyöhön, uskotaan kokeilukulttuuriin ja kehitetään vastuullisuutta. Huomioimme työssämme ympäristön, ihmisten ja talouden hyvinvoinnin. ",
@@ -37,7 +37,7 @@
     {
     "id": 12,
     "name": "OP Pohjola",
-    "imgSrc": "companies/op.png",
+    "imgSrc": "companies/OP_POHJOLA.jpg",
     "websiteUrl": "https://www.op.fi/",
     "description": {
       "fi": "OP Ryhmä on Suomen suurin finanssiryhmä, jolla on yli kaksi miljoonaa omistaja-asiakasta ja yli 14 000 työntekijää. Tarjoamme kattavan pankki- ja vakuutuspalvelujen kokonaisuuden henkilö- ja yritysasiakkaille. Ryhmässämme työskentelee monien eri alojen osaajia finanssialan ammattilaisista, kovan luokan kehittäjistä ja ketteristä muutoksentekijöistä aina asiakaspalvelun ammattilaisiin. Tuemme henkilöstöämme henkilökohtaiseen kasvuun ja urakehitykseen asiantuntijoina. Meillä pääset rakentamaan asiantuntijuuttasi ja kehittämään vahvuuksiasi monipuolisten työtehtävien parissa.",
@@ -47,7 +47,7 @@
     {
     "id": 61,
     "name": "Tekniikan Akateemiset",
-    "imgSrc": "companies/TEK.png",
+    "imgSrc": "companies/TEK_logo.png",
     "websiteUrl": "https://tek.fi",
     "description": {
       "fi": "Tekniikan akateemiset TEK on noin 85 000 tekniikan ja luonnontieteiden yliopisto-opiskelijan sekä alalta valmistuneen yhteisö. Opiskelijana voit liittyä jäseneksi maksutta ja saat käyttöösi parhaat asiantuntijapalvelut urasi tueksi, aina opintojen alusta alkaen: 📑 tarkistamme työsopimuksia 📈 annamme palkkaneuvontaa 🔍 kerromme vinkkejä työnhakuun 💡 autamme eteenpäin yrittäjyyden polulla 🎙️ tarjoamme valmennuksia ja huippupuhujien tähdittämiä tapahtumia Me TEKissä teemme töitä sen eteen, että jäsenemme voivat keskittyä työarjessaan oleelliseen ja vapaa-ajalla vielä oleellisempaan – elämään! Lue lisää: www.tek.fi ja liity opiskelijajäseneksi: tek.fi/liityopiskelija",
@@ -69,7 +69,7 @@
   {
     "id": 23,
     "name": "KPMG",
-    "imgSrc": "companies/kpmg.webp",
+    "imgSrc": "companies/KPMG_logo.png",
     "websiteUrl": "https://home.kpmg/fi/fi/home.html",
     "description": {
       "fi": "KPMG on yksi maailman johtavista asiantuntijaorganisaatioista. Palveluihimme kuuluvat tilintarkastus-, vero- ja laki- sekä neuvontapalvelut. Suomessa meitä KPMG:läisiä työskentelee 18 eri paikkakunnalla. Tutustu meidän uramahdollisuuksiin opiskelijoille ja vastavalmistuneille täällä: https://kpmg.com/fi/fi/tyopaikat/opiskelijat-ja-vastavalmistuneet.html" ,
@@ -131,7 +131,7 @@
   {
     "id": 50,
     "name": "CSC",
-    "imgSrc": "companies/CSC_logo.png",
+    "imgSrc": "companies/CSC_logo.jpg",
     "websiteUrl": "https://csc.fi/toihin-meille",
     "description": {
       "fi": "CSC - Tieteen tietotekniikan keskus on ainutlaatuinen yhdistelmä kehittynyttä teknologiaa, oppimisen ja opetuksen tulevaisuutta sekä verkostojen voimaa. CSC on voittoa tavoittelematon valtion ja korkeakoulujen omistama yritys, jolla on erityinen tehtävä. Missiomme on kehittää, integroida ja tarjota laadukkaita tietoteknisiä palveluita sekä varmistaa, että Suomi pysyy kehityksen kärjessä.",
@@ -142,7 +142,7 @@
   {
     "id": 52,
     "name": "Ilmarinen",
-    "imgSrc": "companies/ilmarinen.png",
+    "imgSrc": "companies/Ilmarinen_Logo.png",
     "websiteUrl": "https://www.ilmarinen.fi/",
     "description": {
       "fi": "Me olemme työeläkeyhtiö ihmistä varten. Pidämme huolta yli 1,1 miljoonan ihmisen eläketurvasta ja turvaamme tulevien sukupolvien eläkkeet sijoittamalla eläkevarat tuottavasti, turvaavasti ja vastuullisesti. Huolehdimme eläketurvasta ja eläkevaroista sekä pidennämme työuria, jotta sinä voit suhtautua huomiseen luottavaisena ja toiveikkaana. ",
@@ -153,7 +153,7 @@
   {
     "id": 54,
     "name": "EY",
-    "imgSrc": "companies/ey.png",
+    "imgSrc": "companies/EY_Logo.png",
     "websiteUrl": "https://www.ey.com/fi_fi/careers",
     "description": {
       "fi": "EY exists to build a better working world, helping to create long-term value for clients, people and society and build trust in the capital markets.\n\nEnabled by data and technology, diverse EY teams in over 150 countries provide trust through assurance and help clients grow, transform and operate.\n\nWorking across assurance, consulting, law, strategy, tax and transactions, EY teams ask better questions to find new answers for the complex issues facing our world today.",
@@ -174,7 +174,7 @@
   {
     "id": 59,
     "name": "Terveystalo",
-    "imgSrc": "companies/Terveystalo.png",
+    "imgSrc": "companies/Terveystalologo.png",
     "websiteUrl": "https://www.terveystalo.com/fi/avoimet-tyopaikat/digikehitys",
     "description": {
       "fi": "Terveystalo on liikevaihdoltaan ja verkostoltaan Suomen suurin yksityinen terveyspalveluyritys ja johtava toimija työterveydessä Pohjoismaissa. Tarjoamme monipuolisia perusterveydenhuollon, erikoissairaanhoidon, sekä hyvinvoinnin palveluja yritys- ja yksityisasiakkaille ja julkiselle sektorille. Terveystalon digivastaanotto palvelee ajasta ja paikasta riippumatta, 24/7. Terveyden ja hyvinvoinnin palveluja tarjoaa myös noin 377 toimipaikkaa eri puolilla Suomea. Ruotsissa tarjoamme työterveyden palveluita 152 toimipaikassa.\n\nTerveystalo on Helsingin pörssissä listattu yhtiö, jolla on vahva suomalainen omistus. Terveystalon ohjelmistokehityksen Digital Health -tiimi etsii jatkuvasti uusia osaajia. Meillä saat mahdollisuuden kasvaa johtavaan rooliin liiketoiminnalle kriittisten ratkaisujen suunnittelemisessa, rakentamisessa ja kehittämisessä. Voit erikoistua esimerkiksi arkkitehtuuriin, pilviratkaisuihin, ohjelmistojen tietoturvaan, maksamisen ratkaisuihin, laatuun, autentikaatioihin tai integraatioihin.\n\nAvoimet digikehityksen työpaikkamme: https://www.terveystalo.com/fi/avoimet-tyopaikat/digikehitys"
@@ -184,7 +184,7 @@
   {
     "id": 63,
     "name": "Think Company",
-    "imgSrc": "companies/Think_Company.png",
+    "imgSrc": "companies/think_logo.png",
     "websiteUrl": "https://www.thinkcompany.fi/",
     "description": {
       "fi": "Helsinki Think Company on Helsingin yliopiston yrittäjyysyhteisö. Se kokoaa yhteen yrittäjyydestä kiinnostuneet opiskelijat ja tarjoaa väylän ja työkalut omaehtoisen toiminnan toteuttamiseen. Helsinki Think Companyn toimintaan kuuluvat innostavat tapahtumat, kuten yrittäjyysaiheiset keskustelutilaisuudet ja työpajat sekä hackathonit. Helsinki Think Companylle ovat tervetulleita kaikki tekijät opintojen vaiheeseen, opiskelualaan ja taustaan katsomatta.",
@@ -195,7 +195,7 @@
   {
     "id": 70,
     "name": "Geological Survey of Finland (GTK)",
-    "imgSrc": "",
+    "imgSrc": "companies/GTK_logo.jpg",
     "websiteUrl": "https://gtk.fi",
     "description": { 
         "fi": "GTK:ssa teet vaikuttavaa työtä Suomen, luonnon ja koko maapallon hyväksi. Meillä voit tehdä töitä joustavasti, vaikuttaa omaan työhösi sekä kehittää joka päivä osaamistasi. Olet osa alansa parhaimpien osaajien yhteisöä.​ Meitä GTK:laisia on yli 400. Joukostamme löydät asiantuntijoita ja osaajia monenlaisilla taustoilla. Geo- ja ympäristöalan asiantuntijamme ovat erikoistuneet mineraalitalouteen, kiertotalouteen, energia-, vesi- ja ympäristökysymyksiin sekä digitaalisiin ratkaisuihin. Huipputason laboratorio-osaajat, tiedonhallinnan asiantuntijat ja tutkimusta avustavat henkilöt mahdollistavat tutkimustyömme.​ Lisäksi löydät joukostamme muun muassa viestinnän, henkilöstö- ja taloushallinnon, ICT:n, asianhallinnan ja lakiasioiden asiantuntijoita. GTK:laisista 91 % on suomalaisia ja loput muita kuin Suomen kansalaisia.",
@@ -206,7 +206,7 @@
   {
     "id": 71,
     "name": "Helsinki Alumni",
-    "imgSrc": "",
+    "imgSrc": "companies/Helsinki_Alumni_logo",
     "websiteUrl": "https://www.helsinki.fi",
     "description": { "fi": "", "en": "" },
     "booth": "A6"
@@ -222,7 +222,7 @@
   {
     "id": 73,
     "name": "University of Helsinki – Institute of Physics",
-    "imgSrc": "companies/hip.png",
+    "imgSrc": "companies/HIP_Logo.png",
     "websiteUrl": "",
     "description": { "fi": "Tule mukaan rakentamaan tulevaisuuden fysiikkaa! Fysiikan tutkimuslaitos (HIP) yhdistää kotimaisen asiantuntemuksen ja kansainvälisen yhteistyön CERNin ja FAIRin kaltaisissa huippulaboratorioissa. Tarjoamme mahdollisuuksia uraauurtavaan tutkimukseen ja kansainvälisiin projekteihin. Fysiikan tutkimuslaitos (HIP) on kansallinen tutkimusorganisaatio, joka yhdistää viiden suomalaisen yliopiston ja STUKin asiantuntemuksen. HIP tutkii teoreettista ja kokeellista alkeishiukkasfysiikkaa, tekee yhteistyötä CERNin ja muiden kansainvälisten kiihdytinlaboratorioiden kanssa sekä osallistuu merkittäviin projekteihin, kuten FAIR-laboratorioon Saksassa. Laitos tarjoaa mahdollisuuksia huippututkimukseen, kansainväliseen yhteistyöhön ja uraan fysiikan parissa.",
      "en": "Join us in shaping the future of physics! The Helsinki Institute of Physics (HIP) brings together national expertise and international collaboration at world-class laboratories like CERN and FAIR. We offer opportunities for groundbreaking research and global projects. The Helsinki Institute of Physics (HIP) is a national research organization that brings together the expertise of five Finnish universities and STUK. HIP conducts research in theoretical and experimental subatomic physics, collaborates with CERN and other international accelerator laboratories, and contributes to major projects such as the FAIR facility in Germany. The institute offers opportunities for cutting-edge research, international collaboration, and careers in physics." 
@@ -240,7 +240,7 @@
   {
     "id": 75,
     "name": "Ilmatieteen laitos",
-    "imgSrc": "",
+    "imgSrc": "Ilmatieteenlaitos_logo.jpg",
     "websiteUrl": "https://www.fmi.fi/",
     "description": { "fi": "", "en": "" },
     "booth": "A9"
