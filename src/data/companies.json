@@ -205,7 +205,7 @@
   {
     "id": 71,
     "name": "Helsinki Alumni",
-    "imgSrc": "companies/Helsinki_Alumni_logo",
+    "imgSrc": "companies/Helsinki_Alumni_logo.jpg",
     "websiteUrl": "https://www.helsinki.fi",
     "description": { "fi": "", "en": "" },
     "booth": "A6"
@@ -239,7 +239,7 @@
   {
     "id": 75,
     "name": "Ilmatieteen laitos",
-    "imgSrc": "Ilmatieteenlaitos_logo.jpg",
+    "imgSrc": "companies/Ilmatieteenlaitos_logo.jpg",
     "websiteUrl": "https://www.fmi.fi/",
     "description": { "fi": "", "en": "" },
     "booth": "A9"
