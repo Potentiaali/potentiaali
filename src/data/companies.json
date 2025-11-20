@@ -247,8 +247,8 @@
   {
     "id": 76,
     "name": "HELSINKIUNI HELP",
-    "imgSrc": "",
-    "websiteUrl": "",
+    "imgSrc": "companies/HY_HelsinkiUni Help_logo_two colors_RGB.png",
+    "websiteUrl": "www.uni-help.helsinki.fi",
     "description": {
       "fi": "Kysy mitä vain – me autamme! \n\n Ei enää kymmeniä muistettavia sähköpostiosoitteita tai verkkosivuja!",
       "en": "Ask anything – We help you! \n\n No more dozens of email addresses or websites to remember!" },
