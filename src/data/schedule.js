@@ -7,8 +7,8 @@ dayjs.extend(timezone);
 export const tracks = [
   {
     name: {
-      fi: 'Auloissa',
-      en: 'In Lobbies',
+      fi: 'Kumpulan Kampus',
+      en: 'Kumpula Campus',
     },
   },
   {
@@ -35,6 +35,7 @@ export const tracks = [
 export const schedule = [
   {
     id: 1,
+    track: 1,
     companyName: "",
     location: "Kumpulan kampus",
     title: {
@@ -50,12 +51,13 @@ export const schedule = [
     language: "en",
     link: "",
     startTime: dayjs.tz(new Date(2025, 12, 4, 11, 0), "Europe/Helsinki"),
-    endTime: dayjs.tz(new Date(2025, 12, 4, 23, 0), "Europe/Helsinki"),
+    endTime: dayjs.tz(new Date(2025, 12, 4, 19, 0), "Europe/Helsinki"),
     hideDetails: false,
     hideTime: false,
   },
     {
     id: 2,
+    track: 2,
     companyName: "TEK",
     location: "Exactum B121",
     title: {
@@ -77,6 +79,7 @@ export const schedule = [
   },
     {
     id: 3,
+    tracl: 2,
     companyName: "Netlight",
     location: "Exactum B121",
     title: {
@@ -98,6 +101,7 @@ export const schedule = [
   },    
   {
     id: 4,
+    track: 2,
     companyName: "Reddal",
     location: "Exactum B121",
     title: {
@@ -119,6 +123,7 @@ export const schedule = [
   },  
   {
     id: 5,
+    track: 3,
     companyName: "Kumpula doctoral programmes",
     location: "Physicum D101",
     title: {
@@ -140,6 +145,7 @@ export const schedule = [
   },  
   {
     id: 6,
+    track: 3,
     companyName: "Ilmatieteenlaitos",
     location: "Physicum D101",
     title: {
@@ -161,6 +167,7 @@ export const schedule = [
   },
   {
     id: 7,
+    track: 3,
     companyName: "Maanmittauslaitos",
     location: "Physicum D101",
     title: {
@@ -182,6 +189,7 @@ export const schedule = [
   },
     {
     id: 1,
+    track: 1,
     companyName: "",
     location: "Kumpulan kampus",
     title: {
