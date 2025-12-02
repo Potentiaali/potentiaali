@@ -30,6 +30,12 @@ export const tracks = [
     },
     hue: 215
   },
+  {
+    name: {
+      fi: 'Think Company DK116',
+      en: 'Think Company DK116'
+    },
+  }
 ];
 
 export const schedule = [
@@ -228,6 +234,29 @@ export const schedule = [
     link: "",
     startTime: dayjs.tz(new Date(2025, 11, 4, 17, 0), "Europe/Helsinki"),
     endTime: dayjs.tz(new Date(2025, 11, 4, 19, 0), "Europe/Helsinki"),
+    hideDetails: false,
+    hideTime: false,
+  },
+
+  {
+    id: 10,
+    track: 4,
+    companyName: "",
+    location: "Exactum Valopiha",
+    title: {
+      fi: 'Aamiainen!',
+      "en-US": 'Breakfast!',
+    },
+    description: "",
+    fullDescription: {
+      fi: "",
+      "en-US": "",
+    },
+    speakers: [],
+    language: "en",
+    link: "",
+    startTime: dayjs.tz(new Date(2025, 11, 4, 9, 0), "Europe/Helsinki"),
+    endTime: dayjs.tz(new Date(2025, 11, 4, 11, 0), "Europe/Helsinki"),
     hideDetails: false,
     hideTime: false,
   },
