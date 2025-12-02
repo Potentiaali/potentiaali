@@ -58,8 +58,8 @@ export const schedule = [
     link: "",
     startTime: dayjs.tz(new Date(2025, 11, 4, 11, 0), "Europe/Helsinki"),
     endTime: dayjs.tz(new Date(2025, 11, 4, 17, 0), "Europe/Helsinki"),
-    hideDetails: false,
-    hideTime: false,
+    hideDetails: true,
+    hideTime: true,
   },
     {
     id: 2,
@@ -80,8 +80,8 @@ export const schedule = [
     link: "https://docs.google.com/forms/d/e/1FAIpQLSeA-sCLYaSlOV6FmcC0e-z_jVQrzumzalZRdce3WvZrHlrH3Q/viewform",
     startTime: dayjs.tz(new Date(2025, 11, 4, 12, 0), "Europe/Helsinki"),
     endTime: dayjs.tz(new Date(2025, 11, 4, 13, 0), "Europe/Helsinki"),
-    hideDetails: false,
-    hideTime: false,
+    hideDetails: true,
+    hideTime: true,
   },
     {
     id: 3,
@@ -102,8 +102,8 @@ export const schedule = [
     link: "",
     startTime: dayjs.tz(new Date(2025, 11, 4, 13, 0), "Europe/Helsinki"),
     endTime: dayjs.tz(new Date(2025, 11, 4, 14, 0), "Europe/Helsinki"),
-    hideDetails: false,
-    hideTime: false,
+    hideDetails: true,
+    hideTime: true,
   },    
   {
     id: 4,
@@ -124,8 +124,8 @@ export const schedule = [
     link: "",
     startTime: dayjs.tz(new Date(2025, 11, 4, 14, 0), "Europe/Helsinki"),
     endTime: dayjs.tz(new Date(2025, 11, 4, 15, 0), "Europe/Helsinki"),
-    hideDetails: false,
-    hideTime: false,
+    hideDetails: true,
+    hideTime: true,
   },  
   {
     id: 5,
@@ -146,8 +146,8 @@ export const schedule = [
     link: "",
     startTime: dayjs.tz(new Date(2025, 11, 4, 11, 0), "Europe/Helsinki"),
     endTime: dayjs.tz(new Date(2025, 11, 4, 11, 45), "Europe/Helsinki"),
-    hideDetails: false,
-    hideTime: false,
+    hideDetails: true,
+    hideTime: true,
   },  
   {
     id: 6,
@@ -168,8 +168,8 @@ export const schedule = [
     link: "",
     startTime: dayjs.tz(new Date(2025, 11, 4, 11, 45), "Europe/Helsinki"),
     endTime: dayjs.tz(new Date(2025, 11, 4, 12, 30), "Europe/Helsinki"),
-    hideDetails: false,
-    hideTime: false,
+    hideDetails: true,
+    hideTime: true,
   },
   {
     id: 7,
@@ -190,8 +190,8 @@ export const schedule = [
     link: "",
     startTime: dayjs.tz(new Date(2025, 11, 4, 12, 30), "Europe/Helsinki"),
     endTime: dayjs.tz(new Date(2025, 11, 4, 13, 15), "Europe/Helsinki"),
-    hideDetails: false,
-    hideTime: false,
+    hideDetails: true,
+    hideTime: true,
   },
     {
     id: 8,
@@ -212,8 +212,8 @@ export const schedule = [
     link: "",
     startTime: dayjs.tz(new Date(2025, 11, 4, 19, 0), "Europe/Helsinki"),
     endTime: dayjs.tz(new Date(2025, 11, 4, 23, 0), "Europe/Helsinki"),
-    hideDetails: false,
-    hideTime: false,
+    hideDetails: true,
+    hideTime: true,
   },
   {
     id: 9,
@@ -234,8 +234,8 @@ export const schedule = [
     link: "",
     startTime: dayjs.tz(new Date(2025, 11, 4, 17, 0), "Europe/Helsinki"),
     endTime: dayjs.tz(new Date(2025, 11, 4, 19, 0), "Europe/Helsinki"),
-    hideDetails: false,
-    hideTime: false,
+    hideDetails: true,
+    hideTime: true,
   },
 
   {
@@ -257,8 +257,8 @@ export const schedule = [
     link: "",
     startTime: dayjs.tz(new Date(2025, 11, 4, 9, 0), "Europe/Helsinki"),
     endTime: dayjs.tz(new Date(2025, 11, 4, 11, 0), "Europe/Helsinki"),
-    hideDetails: false,
-    hideTime: false,
+    hideDetails: true,
+    hideTime: true,
   },
 ];
 
