@@ -6,7 +6,7 @@ const ScheduleLabels = () => (
     <div />
     {new Array(28).fill(true).map((_, i) => (
       <>
-        <div className={styles["main-label"]}>{Math.floor((i + 19) / 2)}:{(i + 19) % 2 ? '30' : '00'}</div>
+        <div className={styles["main-label"]}>{Math.floor((i + 18) / 2)}:{(i + 18) % 2 ? '30' : '00'}</div>
         <div></div>
       </>
     ))}
