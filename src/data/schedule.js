@@ -242,7 +242,7 @@ export const schedule = [
     id: 10,
     track: 4,
     companyName: "",
-    location: "Exactum Valopiha",
+    location: "Physicum D115",
     title: {
       fi: 'Aamiainen!',
       "en-US": 'Breakfast!',
@@ -257,7 +257,7 @@ export const schedule = [
     link: "",
     startTime: dayjs.tz(new Date(2025, 11, 4, 9, 0), "Europe/Helsinki"),
     endTime: dayjs.tz(new Date(2025, 11, 4, 11, 0), "Europe/Helsinki"),
-    hideDetails: true,
+    hideDetails: false,
     hideTime: true,
   },
 ];
