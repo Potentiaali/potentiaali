@@ -23,7 +23,6 @@ export const tracks = [
       en: 'In Physicum D101'
     },
   },
-  {},
   {
     name: {
       fi: 'Yritysedustajille',
@@ -218,7 +217,7 @@ export const schedule = [
   },
   {
     id: 9,
-    track: 4,
+    track: 5,
     companyName: "",
     location: "Exactum Valopiha",
     title: {
@@ -241,7 +240,7 @@ export const schedule = [
 
   {
     id: 10,
-    track: 4,
+    track: 5,
     companyName: "",
     location: "Physicum D115",
     title: {
@@ -263,7 +262,7 @@ export const schedule = [
   },
     {
     id: 11,
-    track: 5,
+    track: 6,
     companyName: "Think Company",
     location: "Think Company DK116",
     title: {
