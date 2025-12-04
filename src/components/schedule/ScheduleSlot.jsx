@@ -28,7 +28,7 @@ const ScheduleSlot = ({ slot }) => {
   const { t } = useTranslation();
   const time = useClock(60 * 1000);
   const now = dayjs(time).isAfter(slot.startTime) && dayjs(time).isBefore(slot.endTime);
-  const track = tracks[slot.track ];
+  const track = tracks[slot.track -1];
 
   return (
     <div className={classNames(styles.slot, fromClass, toClass)} style={{ '--track': slot.track, '--hue': `${track?.hue}deg` }}>

@@ -17,7 +17,7 @@
   display: grid;
   grid-template-rows: 4em;
   grid-auto-rows: $schedule-size;
-  grid-template-columns: repeat(4, 14em);
+  grid-template-columns: repeat(5, 14em);
   gap: 0.5em;
 
   overflow-x: scroll;
