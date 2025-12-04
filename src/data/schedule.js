@@ -258,7 +258,7 @@ export const schedule = [
     startTime: dayjs.tz(new Date(2025, 11, 4, 9, 0), "Europe/Helsinki"),
     endTime: dayjs.tz(new Date(2025, 11, 4, 11, 0), "Europe/Helsinki"),
     hideDetails: false,
-    hideTime: true,
+    hideTime: false,
   },
     {
     id: 11,
