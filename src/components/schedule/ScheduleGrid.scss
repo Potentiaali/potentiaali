@@ -17,12 +17,12 @@
 
 @for $starting from 0 through 40 {
   .from-#{get-time(($starting ) * 15)} {
-    grid-row-start: #{$starting + 1};
+    grid-row-start: #{$starting };
   }
 }
 
 @for $ending from 0 through 60 {
   .to-#{get-time(($ending ) * 15)} {
-    grid-row-end: #{$ending + 1};
+    grid-row-end: #{$ending };
   }
 }
