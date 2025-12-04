@@ -85,7 +85,7 @@ export const schedule = [
   },
     {
     id: 3,
-    tracl: 2,
+    track: 2,
     companyName: "Netlight",
     location: "Exactum B121",
     title: {
@@ -217,7 +217,7 @@ export const schedule = [
   },
   {
     id: 9,
-    track: 5,
+    track: 4,
     companyName: "",
     location: "Exactum Valopiha",
     title: {
@@ -240,7 +240,7 @@ export const schedule = [
 
   {
     id: 10,
-    track: 5,
+    track: 4,
     companyName: "",
     location: "Physicum D115",
     title: {
@@ -262,7 +262,7 @@ export const schedule = [
   },
     {
     id: 11,
-    track: 6,
+    track: 5,
     companyName: "Think Company",
     location: "Think Company DK116",
     title: {

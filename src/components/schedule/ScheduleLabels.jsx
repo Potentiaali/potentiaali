@@ -1,15 +1,22 @@
-import React from "react";
+import React, { Fragment } from "react";
 import styles from "./ScheduleLabels.module.scss";
 
 const ScheduleLabels = () => (
   <div className={styles["schedule-labels"]}>
     <div />
-    {new Array(28).fill(true).map((_, i) => (
-      <>
-        <div className={styles["main-label"]}>{Math.floor((i + 18) / 2)}:{(i + 18) % 2 ? '30' : '00'}</div>
-        <div></div>
-      </>
-    ))}
+    {Array.from({ length: 29 }).map((_, i) => {
+      const hour = 9 + Math.floor(i / 2);
+      const minutes = i % 2 === 0 ? "00" : "30";
+
+      return (
+        <Fragment key={i}>
+          <div className={styles["main-label"]}>
+            {hour}:{minutes}
+          </div>
+          <div />
+        </Fragment>
+      );
+    })}
   </div>
 );
 
