@@ -8,7 +8,7 @@ import { useClock } from "../utils/clock";
 
 export const SchedulePage = () => {
   const now = useClock(60 * 1000);
-  const minutes = now.getHours() * 60 + now.getMinutes() - 9.5 * 60;
+  const minutes = now.getHours() * 60 + now.getMinutes() - 9 * 60;
   const segments = minutes / 15;
   const timelineRef = useRef();
   const [follow, setFollow] = useState(false);
