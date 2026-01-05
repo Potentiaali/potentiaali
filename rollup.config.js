@@ -1,4 +1,4 @@
-/* eslint-disable new-cap */
+ 
 // rollup.config.js
 
 import PluginCritical from "rollup-plugin-critical";

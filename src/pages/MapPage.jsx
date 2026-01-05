@@ -1,4 +1,3 @@
-import React from "react";
 import style from "./Map.module.scss";
 import AreaBadge from "../components/partials/badges/AreaBadge";
 import BigBoothBadge from "../components/partials/badges/BigBoothBadge";

@@ -1,0 +1,10 @@
+.cqwContainer {
+  container-type: inline-size;
+}
+
+.cqwTextFit {
+  font-size: 5cqw; /* Adjust this value as needed */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow */
+  text-overflow: ellipsis; /* Add ellipsis if text overflows */
+}

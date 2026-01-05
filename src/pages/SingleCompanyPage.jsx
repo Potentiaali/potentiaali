@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./SingleCompanyPage.module.scss";
 import companies from "../data/companies.json";
 import { useTranslation } from "react-i18next";
@@ -64,7 +63,7 @@ const SingleCompanyPage = () => {
         </p>
         <pre style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
           { !company.description[currentLocale] && Object.values(company.description).find(Boolean) && (
-            <div class={styles.descriptionNotAvailable}>{t("description-not-available-in-current-language")}</div>
+            <div className={styles.descriptionNotAvailable}>{t("description-not-available-in-current-language")}</div>
           ) }
           <p>
             { company.description[currentLocale] ?? Object.values(company.description)[0] }

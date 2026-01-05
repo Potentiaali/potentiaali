@@ -4,7 +4,9 @@
   "private": true,
   "homepage": "https://potentiaali.com",
   "dependencies": {
-    "@aw-web-design/react-textfit": "^4.1.70",
+    "@babel/eslint-parser": "^7.28.5",
+    "@babel/preset-react": "^7.28.5",
+    "@eslint/compat": "^1.4.1",
     "@fortawesome/fontawesome-free": "6.7.2",
     "axios": "^1.6.7",
     "classnames": "2.5.1",
@@ -28,8 +30,8 @@
     "critical": "node critical.js",
     "storybook": "start-storybook -p 9009 -s public",
     "build-storybook": "build-storybook -s public",
-    "lint": "eslint --ext 'js,jsx' .",
-    "lint:fix": "eslint --ext 'js,jsx' --fix .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "deploy": "aws s3 sync build s3://potentiaali --profile matlu --cache-control max-age=300"
   },
   "devDependencies": {
@@ -42,7 +44,7 @@
     "browserslist-to-esbuild": "^2.1.1",
     "eslint": "9.23.0",
     "eslint-config-google": "0.14.0",
-    "eslint-plugin-react": "7.37.4",
+    "eslint-plugin-react": "^7.37.4",
     "prettier": "3.5.3",
     "rollup-plugin-critical": "^1.0.13",
     "sass": "^1.61.0",

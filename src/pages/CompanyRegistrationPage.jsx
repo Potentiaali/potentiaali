@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useTranslation, Trans } from "react-i18next";
 import { RegistrationButton } from "../components/RegistrationButton";
 import config from "../data/config.json";

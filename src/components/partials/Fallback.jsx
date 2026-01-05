@@ -1,4 +1,4 @@
-import React from "react";
+import { Component } from "react";
 import styles from "./Fallback.module.scss";
 
 const FallbackNav = () => <nav className={styles.fallbackNav} />;
@@ -11,7 +11,7 @@ const FallbackHero = () => <div className={styles.fallbackHero} />;
 
 const FallbackLoader = () => <div className={styles.loader} />;
 
-export default class Fallback extends React.Component {
+export default class Fallback extends Component {
   static Nav = FallbackNav;
   static Contact = FallbackContact;
   static Footer = FallbackFooter;

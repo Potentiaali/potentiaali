@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import config from "../../data/config.json";
 import PropTypes from "prop-types";
 import styles from "./SpeedRekry.module.scss";
 import { useTranslation } from "react-i18next";
 import { SpeedRekryItem } from "./SpeedRekryItem";
-import { Textfit } from "@aw-web-design/react-textfit";
+import "../../_text-fit.scss"; // New import for cqwTextFit
 
 const rekryFilter = (rekryItem) => ({
   ...rekryItem,
@@ -29,10 +29,8 @@ export const SpeedRekry = () => {
   }, []);
   const { t } = useTranslation();
   return (
-    <>
-      <Textfit mode="single" max={20}>
-        <h1>{t("register-to-speed-rekry")}</h1>
-      </Textfit>
+    <div className={styles.speedRekryContainer}> {/* Added container div */}
+      <h1 className="cqwTextFit">{t("register-to-speed-rekry")}</h1>
       <div className={styles.speedRekryGrid}>
         {ilmot &&
           ilmot.map((ilmo, i) => (
@@ -46,7 +44,7 @@ export const SpeedRekry = () => {
             />
           ))}
       </div>
-    </>
+    </div>
   );
 };
 

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import ScheduleLabels from "../components/schedule/ScheduleLabels";
 import styles from "./Schedule.module.scss";
 import { schedule as events, tracks } from "../data/schedule";

@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 import styles from "./Logo.module.scss";
 import { useTranslation } from "react-i18next";
 import { useClock } from "../../utils/clock";

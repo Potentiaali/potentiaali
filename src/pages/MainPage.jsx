@@ -1,4 +1,3 @@
-import React from "react";
 import Logo from "../components/partials/Logo";
 import Companies from "../components/partials/Companies";
 import { Program } from "../components/partials/Program";

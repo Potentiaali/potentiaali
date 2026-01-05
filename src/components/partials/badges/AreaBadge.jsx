@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from "prop-types";
 import styles from "./AreaBadge.module.scss";
 import PropTypes from "prop-types";
 import className from "classnames";

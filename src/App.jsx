@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import { Suspense, lazy } from "react";
 import { Route, Routes } from "react-router-dom";
 import config from "./data/config.json";
 import dayjs from "dayjs";
@@ -6,20 +6,20 @@ import { Page } from "./components/Page";
 import Fallback from "./components/partials/Fallback";
 import TestimonialsPage from "./pages/TestimonialsPage";
 
-const SubjectsPage = React.lazy(() => import("./pages/SubjectsPage"));
-const NotFoundPage = React.lazy(() => import("./pages/NotFoundPage"));
-const MainPage = React.lazy(() => import("./pages/MainPage"));
-const Nav = React.lazy(() => import("./components/partials/Nav"));
-const CompanyRegistrationPage = React.lazy(() =>
+const SubjectsPage = lazy(() => import("./pages/SubjectsPage"));
+const NotFoundPage = lazy(() => import("./pages/NotFoundPage"));
+const MainPage = lazy(() => import("./pages/MainPage"));
+const Nav = lazy(() => import("./components/partials/Nav"));
+const CompanyRegistrationPage = lazy(() =>
   import("./pages/CompanyRegistrationPage"),
 );
-const CompanyPage = React.lazy(() => import("./pages/CompanyPage"));
-const SingleCompanyPage = React.lazy(() => import("./pages/SingleCompanyPage"));
+const CompanyPage = lazy(() => import("./pages/CompanyPage"));
+const SingleCompanyPage = lazy(() => import("./pages/SingleCompanyPage"));
 
-const Footer = React.lazy(() => import("./components/partials/Footer"));
-const MapPage = React.lazy(() => import("./pages/MapPage"));
-const SchedulePage = React.lazy(() => import("./pages/SchedulePage"));
-const SingleSchedulePage = React.lazy(() =>
+const Footer = lazy(() => import("./components/partials/Footer"));
+const MapPage = lazy(() => import("./pages/MapPage"));
+const SchedulePage = lazy(() => import("./pages/SchedulePage"));
+const SingleSchedulePage = lazy(() =>
   import("./pages/SingleSchedulePage"),
 );
 

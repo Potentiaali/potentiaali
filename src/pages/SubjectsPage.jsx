@@ -1,4 +1,3 @@
-import React from "react";
 import Meteorology from "./subjects/Meteorology";
 import Physics from "./subjects/Physics";
 import Geophysics from "./subjects/Geophysics";

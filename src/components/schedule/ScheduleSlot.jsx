@@ -1,4 +1,3 @@
-import React from "react";
 import propTypes from "prop-types";
 import styles from "./ScheduleSlot.module.scss";
 import classNames from "classnames";

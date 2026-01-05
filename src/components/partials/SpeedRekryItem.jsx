@@ -1,4 +1,3 @@
-import React from "react";
 import PropTypes from "prop-types";
 import styles from "./SpeedRekryItem.module.scss";
 import { useTranslation } from "react-i18next";

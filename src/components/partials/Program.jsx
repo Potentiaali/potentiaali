@@ -1,8 +1,8 @@
-import React from "react";
 import styles from "./Program.module.scss";
 import { Accordion } from "../accordion/Accordion";
 import { useTranslation } from "react-i18next";
-import { Textfit } from "@aw-web-design/react-textfit";
+import "../../_text-fit.scss"; // New import for cqwTextFit
+
 export const Program = () => {
   const { t } = useTranslation();
   return (
@@ -15,9 +15,9 @@ export const Program = () => {
           title={<img src="assets/rekry_speed_dating.png" alt="Speed dates" />}
           accordionId={"speed-dates"}
         >
-          <Textfit mode="single" max={20}>
-            <span>{t("rekry-speed-dating-title-text")}</span>
-          </Textfit>
+          <div className="cqwContainer">
+            <span className="cqwTextFit">{t("rekry-speed-dating-title-text")}</span>
+          </div>
 
           <p>{t("rekry-speed-dating-info-1")}</p>
           {/*

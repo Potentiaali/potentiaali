@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import { Suspense } from "react";
 import Clock from "./Clock";
 import config from "../../data/config.json";
 import PropTypes from "prop-types";
