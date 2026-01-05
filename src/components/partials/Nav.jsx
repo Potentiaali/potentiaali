@@ -120,11 +120,10 @@ const Nav = () => {
                 <li key={menuItem.id}>
                   <NavLink
                     tabIndex={0}
-                    exact="true"
                     to={menuItem.link}
-                    key={menuItem.linkName}
-                    activeClassName="active-link"
-                    className={styles["nav-link"]}
+                    className={({ isActive }) => 
+                      classNames(styles["nav-link"], { [styles["active-link"]]: isActive })
+                    }
                     onClick={() => setOpen(false)}
                     aria-label={menuItem.ariaLabel[current]}
                   >
@@ -159,7 +158,7 @@ const Nav = () => {
         aria-label={`Change page language to ${next}`}
       >
         {available.map((lang) => (
-          <div className={current === lang ? styles.active : ''}>{lang}</div>
+          <div key={lang} className={current === lang ? styles.active : ''}>{lang}</div>
         ))}
       </button>
     </nav>

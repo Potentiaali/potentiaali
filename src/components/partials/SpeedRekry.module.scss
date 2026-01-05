@@ -1,5 +1,5 @@
-@import "../../mixins";
-@import "../../vars";
+@use "../../mixins" as *;
+@use "../../vars" as *;
 
 // Speed rekry grid styling
 .speedRekryGrid {

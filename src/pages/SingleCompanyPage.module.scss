@@ -1,4 +1,4 @@
-@import "../vars";
+@use "../vars" as *;
 
 .descriptionNotAvailable {
   background: $orange-1;
@@ -7,4 +7,5 @@
   filter: drop-shadow(5px 5px 0px $orange-2);
   margin: 1em 0;
 }
+
 

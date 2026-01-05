@@ -1,4 +1,4 @@
-@import "../../../vars";
+@use "../../../vars" as *;
 
 .bigBoothBadge {
   height: 60px;
@@ -20,3 +20,4 @@
     font-family: serif;
   }
 }
+

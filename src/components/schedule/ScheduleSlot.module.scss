@@ -1,5 +1,6 @@
-@import "../../vars";
-@import "../../mixins";
+@use "sass:color";
+@use "../../vars" as *;
+@use "../../mixins" as *;
 
 .slot {
   position: relative;
@@ -68,7 +69,7 @@ ul.slot-info {
     .slot-info-title {
       justify-self: center;
       margin-right: 0.5em;
-      color: darken($orange-1, 40);
+      color: color.adjust($orange-1, $lightness: -40%);
     }
 
     .slot-info-value {
@@ -92,3 +93,4 @@ ul.slot-info {
   padding: 0.15em 0.2em;
   margin-left: 0.75ch;
 }
+

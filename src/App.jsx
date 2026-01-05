@@ -22,6 +22,7 @@ const SchedulePage = lazy(() => import("./pages/SchedulePage"));
 const SingleSchedulePage = lazy(() =>
   import("./pages/SingleSchedulePage"),
 );
+const Venue3D = lazy(() => import("./components/Venue3D"));
 
 dayjs.locale(config.defaultLocale);
 
@@ -37,21 +38,18 @@ const App = () => {
         <Suspense fallback={<Fallback.Loader />}>
           <Page>
             <Routes>
-              <Route exact="true" path="/" element={<MainPage />} />
-              <Route exact path="/schedule" element={<SchedulePage />} />
+              <Route path="/" element={<MainPage />} />
+              <Route path="/schedule" element={<SchedulePage />} />
               <Route
-                exact="true"
                 path="/schedule/:id"
                 element={<SingleSchedulePage />}
               />
               <Route
-                exact="true"
                 path="/company/:id"
                 element={<SingleCompanyPage />}
               />
-              <Route exact="true" path="/companies" element={<CompanyPage />} />
+              <Route path="/companies" element={<CompanyPage />} />
               <Route
-                exact="true"
                 path="/subjects"
                 element={
                   <Suspense fallback={<Fallback.Loader />}>
@@ -60,18 +58,17 @@ const App = () => {
                 }
               />
               <Route
-                exact="true"
                 path="/feedback"
                 element={<RedirectToFeedbck />}
               />
-              <Route exact path="/map" element={<MapPage />} />
+              <Route path="/map" element={<MapPage />} />
+              <Route path="/venue" element={<Venue3D />} />
               <Route
-                exact
                 path="/registration"
                 element={<CompanyRegistrationPage />}
               ></Route>
-              <Route exact path="/testimonials" element={<TestimonialsPage />} />
-              <Route component={<NotFoundPage />} />
+              <Route path="/testimonials" element={<TestimonialsPage />} />
+              <Route path="*" element={<NotFoundPage />} />
             </Routes>
             <Suspense fallback={<Fallback.Footer />}>
               <Footer />

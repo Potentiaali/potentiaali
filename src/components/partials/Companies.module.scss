@@ -1,5 +1,5 @@
-@import "../../mixins";
-@import "../../vars";
+@use "../../mixins" as *;
+@use "../../vars" as *;
 
 .companies {
   padding-top: 20px;
@@ -44,3 +44,4 @@ img.company-logo-image {
     align-items: center;
   }
 }
+

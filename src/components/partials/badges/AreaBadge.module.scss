@@ -1,4 +1,4 @@
-@import "../../../vars";
+@use "../../../vars" as *;
 
 .areabadge {
   text-align: center;
@@ -25,3 +25,4 @@
   background-color: $area-c-bg;
   color: black;
 }
+

@@ -1,3 +1,5 @@
+@use "vars" as *;
+
 @mixin mobile {
   @media (max-width: $tablet-breakpoint - 1) {
     @content;
@@ -35,3 +37,4 @@
     background-color: $lightColor;
   }
 }
+

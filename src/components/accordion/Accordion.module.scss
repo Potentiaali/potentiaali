@@ -1,5 +1,5 @@
-@import "../../_mixins";
-@import "../../_vars";
+@use "../../_mixins" as *;
+@use "../../_vars" as *;
 
 .accordion {
   @include darkModeBackground($white-1, $black-1);
@@ -97,3 +97,4 @@
   padding-bottom: 15px;
   text-align: left;
 }
+

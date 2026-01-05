@@ -1,4 +1,4 @@
-@import "../../vars";
+@use "../../vars" as *;
 
 .footer {
   position: absolute;
@@ -45,3 +45,4 @@
     fill: $orange-2;
   }
 }
+

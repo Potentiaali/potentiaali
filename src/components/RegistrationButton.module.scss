@@ -1,5 +1,5 @@
-@import "../vars";
-@import "../mixins";
+@use "../vars" as *;
+@use "../mixins" as *;
 
 $offset: 4px;
 
@@ -80,3 +80,4 @@ $offset: 4px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+

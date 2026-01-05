@@ -1,7 +1,7 @@
-@import "vars";
-@import "fonts";
-@import "mixins";
-@import "text-fit";
+@use "vars" as *;
+@use "fonts";
+@use "mixins" as *;
+@use "text-fit";
 
 html {
   font-size: 100%;
@@ -390,3 +390,4 @@ body {
   flex-direction: column;
   gap: 1em;
 }
+
