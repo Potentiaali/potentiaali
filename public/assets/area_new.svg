@@ -48,11 +48,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="302.28815"
-     inkscape:cy="252.79067"
+     inkscape:zoom="4.0000001"
+     inkscape:cx="232.62499"
+     inkscape:cy="340.62499"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer4"
      showgrid="false"
      units="px"
      inkscape:window-width="1920"
@@ -309,6 +309,17 @@
        height="94.091644"
        x="522.90045"
        y="506.80396" />
+    <rect
+       style="font-family:Arial;opacity:1;fill:#f58020;fill-opacity:0.784314;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4155"
+       width="585.37885"
+       height="70.255951"
+       x="36.039299"
+       y="131.10622"
+       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
+       inkscape:export-xdpi="333.20309"
+       inkscape:export-ydpi="333.20309"
+       transform="translate(-11.214286,139.5335)" />
   </g>
   <g
      inkscape:label="Layer 1"
@@ -681,16 +692,6 @@
        width="119.14571"
        id="rect5034"
        style="opacity:1;fill:#f58020;fill-opacity:0.784314;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
-    <rect
-       style="opacity:1;fill:#f58020;fill-opacity:0.784314;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4155"
-       width="585.37885"
-       height="70.255951"
-       x="36.039299"
-       y="131.10622"
-       inkscape:export-filename="/Users/ahuotala/Downloads/tmp10"
-       inkscape:export-xdpi="333.20309"
-       inkscape:export-ydpi="333.20309" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4345"
@@ -3392,33 +3393,252 @@
        height="16.757378"
        x="862.25372"
        y="131.18358" />
-    <g id="human-spots" style="display:inline;fill:#ff00ff;fill-opacity:1">
+    <g
+       id="human-spots"
+       style="display:inline;fill:#ff00ff;fill-opacity:1"
+       transform="translate(0,-134)">
       <!-- g14 row (odds) - absolute y ~ 280, spots at 270 -->
-      <circle cx="571" cy="270" r="4" id="h-a3-1" /> <circle cx="587" cy="270" r="4" id="h-a3-2" />
-      <circle cx="523" cy="270" r="4" id="h-a5-1" /> <circle cx="539" cy="270" r="4" id="h-a5-2" />
-      <circle cx="479" cy="270" r="4" id="h-a7-1" /> <circle cx="495" cy="270" r="4" id="h-a7-2" />
-      <circle cx="449" cy="270" r="4" id="h-a9-1" /> <circle cx="465" cy="270" r="4" id="h-a9-2" />
-      <circle cx="420" cy="270" r="4" id="h-a11-1" /> <circle cx="436" cy="270" r="4" id="h-a11-2" />
-      <circle cx="377" cy="270" r="4" id="h-a13-1" /> <circle cx="393" cy="270" r="4" id="h-a13-2" />
-      <circle cx="346" cy="270" r="4" id="h-a15-1" /> <circle cx="362" cy="270" r="4" id="h-a15-2" />
-      <circle cx="296" cy="270" r="4" id="h-a17-1" /> <circle cx="312" cy="270" r="4" id="h-a17-2" />
-      <circle cx="263" cy="270" r="4" id="h-a19-1" /> <circle cx="279" cy="270" r="4" id="h-a19-2" />
-      <circle cx="231" cy="270" r="4" id="h-a21-1" /> <circle cx="247" cy="270" r="4" id="h-a21-2" />
-      <circle cx="198" cy="270" r="4" id="h-a23-1" /> <circle cx="214" cy="270" r="4" id="h-a23-2" />
-      <circle cx="124" cy="270" r="4" id="h-a25-1" /> <circle cx="140" cy="270" r="4" id="h-a25-2" />
-      <circle cx="88" cy="270" r="4" id="h-a27-1" /> <circle cx="104" cy="270" r="4" id="h-a27-2" />
+      <circle
+         cx="571"
+         cy="270"
+         r="4"
+         id="h-a3-1" />
+      <circle
+         cx="587"
+         cy="270"
+         r="4"
+         id="h-a3-2" />
+      <circle
+         cx="523"
+         cy="270"
+         r="4"
+         id="h-a5-1" />
+      <circle
+         cx="539"
+         cy="270"
+         r="4"
+         id="h-a5-2" />
+      <circle
+         cx="479"
+         cy="270"
+         r="4"
+         id="h-a7-1" />
+      <circle
+         cx="495"
+         cy="270"
+         r="4"
+         id="h-a7-2" />
+      <circle
+         cx="449"
+         cy="270"
+         r="4"
+         id="h-a9-1" />
+      <circle
+         cx="465"
+         cy="270"
+         r="4"
+         id="h-a9-2" />
+      <circle
+         cx="420"
+         cy="270"
+         r="4"
+         id="h-a11-1" />
+      <circle
+         cx="436"
+         cy="270"
+         r="4"
+         id="h-a11-2" />
+      <circle
+         cx="377"
+         cy="270"
+         r="4"
+         id="h-a13-1" />
+      <circle
+         cx="393"
+         cy="270"
+         r="4"
+         id="h-a13-2" />
+      <circle
+         cx="346"
+         cy="270"
+         r="4"
+         id="h-a15-1" />
+      <circle
+         cx="362"
+         cy="270"
+         r="4"
+         id="h-a15-2" />
+      <circle
+         cx="296"
+         cy="270"
+         r="4"
+         id="h-a17-1" />
+      <circle
+         cx="312"
+         cy="270"
+         r="4"
+         id="h-a17-2" />
+      <circle
+         cx="263"
+         cy="270"
+         r="4"
+         id="h-a19-1" />
+      <circle
+         cx="279"
+         cy="270"
+         r="4"
+         id="h-a19-2" />
+      <circle
+         cx="231"
+         cy="270"
+         r="4"
+         id="h-a21-1" />
+      <circle
+         cx="247"
+         cy="270"
+         r="4"
+         id="h-a21-2" />
+      <circle
+         cx="198"
+         cy="270"
+         r="4"
+         id="h-a23-1" />
+      <circle
+         cx="214"
+         cy="270"
+         r="4"
+         id="h-a23-2" />
+      <circle
+         cx="124"
+         cy="270"
+         r="4"
+         id="h-a25-1" />
+      <circle
+         cx="140"
+         cy="270"
+         r="4"
+         id="h-a25-2" />
+      <circle
+         cx="88"
+         cy="270"
+         r="4"
+         id="h-a27-1" />
+      <circle
+         cx="104"
+         cy="270"
+         r="4"
+         id="h-a27-2" />
       <!-- g26 row (evens) - absolute y ~ 320, spots at 330 -->
-      <circle cx="96" cy="330" r="4" id="h-a24-1" /> <circle cx="112" cy="330" r="4" id="h-a24-2" />
-      <circle cx="170" cy="330" r="4" id="h-a22-1" /> <circle cx="186" cy="330" r="4" id="h-a22-2" />
-      <circle cx="202" cy="330" r="4" id="h-a20-1" /> <circle cx="218" cy="330" r="4" id="h-a20-2" />
-      <circle cx="236" cy="330" r="4" id="h-a18-1" /> <circle cx="252" cy="330" r="4" id="h-a18-2" />
-      <circle cx="270" cy="330" r="4" id="h-a16-1" /> <circle cx="286" cy="330" r="4" id="h-a16-2" />
-      <circle cx="302" cy="330" r="4" id="h-a14-1" /> <circle cx="318" cy="330" r="4" id="h-a14-2" />
-      <circle cx="379" cy="330" r="4" id="h-a12-1" /> <circle cx="395" cy="330" r="4" id="h-a12-2" />
-      <circle cx="414" cy="330" r="4" id="h-a10-1" /> <circle cx="430" cy="330" r="4" id="h-a10-2" />
-      <circle cx="453" cy="330" r="4" id="h-a8-1" /> <circle cx="469" cy="330" r="4" id="h-a8-2" />
-      <circle cx="486" cy="330" r="4" id="h-a6-1" /> <circle cx="502" cy="330" r="4" id="h-a6-2" />
-      <circle cx="527" cy="330" r="4" id="h-a4-1" /> <circle cx="543" cy="330" r="4" id="h-a4-2" />
+      <circle
+         cx="96"
+         cy="330"
+         r="4"
+         id="h-a24-1" />
+      <circle
+         cx="112"
+         cy="330"
+         r="4"
+         id="h-a24-2" />
+      <circle
+         cx="170"
+         cy="330"
+         r="4"
+         id="h-a22-1" />
+      <circle
+         cx="186"
+         cy="330"
+         r="4"
+         id="h-a22-2" />
+      <circle
+         cx="202"
+         cy="330"
+         r="4"
+         id="h-a20-1" />
+      <circle
+         cx="218"
+         cy="330"
+         r="4"
+         id="h-a20-2" />
+      <circle
+         cx="236"
+         cy="330"
+         r="4"
+         id="h-a18-1" />
+      <circle
+         cx="252"
+         cy="330"
+         r="4"
+         id="h-a18-2" />
+      <circle
+         cx="270"
+         cy="330"
+         r="4"
+         id="h-a16-1" />
+      <circle
+         cx="286"
+         cy="330"
+         r="4"
+         id="h-a16-2" />
+      <circle
+         cx="302"
+         cy="330"
+         r="4"
+         id="h-a14-1" />
+      <circle
+         cx="318"
+         cy="330"
+         r="4"
+         id="h-a14-2" />
+      <circle
+         cx="379"
+         cy="330"
+         r="4"
+         id="h-a12-1" />
+      <circle
+         cx="395"
+         cy="330"
+         r="4"
+         id="h-a12-2" />
+      <circle
+         cx="414"
+         cy="330"
+         r="4"
+         id="h-a10-1" />
+      <circle
+         cx="430"
+         cy="330"
+         r="4"
+         id="h-a10-2" />
+      <circle
+         cx="453"
+         cy="330"
+         r="4"
+         id="h-a8-1" />
+      <circle
+         cx="469"
+         cy="330"
+         r="4"
+         id="h-a8-2" />
+      <circle
+         cx="486"
+         cy="330"
+         r="4"
+         id="h-a6-1" />
+      <circle
+         cx="502"
+         cy="330"
+         r="4"
+         id="h-a6-2" />
+      <circle
+         cx="527"
+         cy="330"
+         r="4"
+         id="h-a4-1" />
+      <circle
+         cx="543"
+         cy="330"
+         r="4"
+         id="h-a4-2" />
     </g>
   </g>
   <g
