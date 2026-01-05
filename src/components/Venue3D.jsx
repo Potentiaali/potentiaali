@@ -79,6 +79,32 @@ const KeyboardControls = ({ controlsRef, godMode }) => {
   return null;
 };
 
+const DevOverlay = ({ controlsRef, setPos, setTarget }) => {
+  const { camera } = useThree();
+
+  useFrame(() => {
+    if (import.meta.env.DEV) {
+      if (window.logTimer && Date.now() - window.logTimer < 1000) return;
+      window.logTimer = Date.now();
+
+      const pos = camera.position;
+      const target = controlsRef.current?.target;
+
+      setPos({ x: pos.x, y: pos.y, z: pos.z });
+      if (target) {
+        setTarget({ x: target.x, y: target.y, z: target.z });
+      }
+
+      console.log(`Camera Position: x: ${pos.x.toFixed(2)}, y: ${pos.y.toFixed(2)}, z: ${pos.z.toFixed(2)}`);
+      if (target) {
+        console.log(`Controls Target: x: ${target.x.toFixed(2)}, y: ${target.y.toFixed(2)}, z: ${target.z.toFixed(2)}`);
+      }
+    }
+  });
+
+  return null;
+};
+
 const Controls = ({ controlsRef, godMode }) => {
   const { camera, gl } = useThree();
 
@@ -89,9 +115,9 @@ const Controls = ({ controlsRef, godMode }) => {
         camera.position.set(15, 40, 15);
         controlsRef.current.target.set(0, 0, 0);
       } else {
-        // Walk mode: Position at eye level near g26 row
-        camera.position.set(40, EYE_LEVEL, 25);
-        controlsRef.current.target.set(40, EYE_LEVEL, 0);
+        // Walk mode: Position at eye level
+        camera.position.set(14.96, EYE_LEVEL, 12.32);
+        controlsRef.current.target.set(39.93, EYE_LEVEL, 13.44);
       }
       controlsRef.current.update();
     }
@@ -319,13 +345,15 @@ const VenueMap = ({ url }) => {
 
 const Venue3D = () => {
   const controlsRef = useRef();
-  const [godMode, setGodMode] = useState(true);
+  const [godMode, setGodMode] = useState(false);
+  const [pos, setPos] = useState({ x: 0, y: 0, z: 0 });
+  const [target, setTarget] = useState({ x: 0, y: 0, z: 0 });
 
   return (
     <div style={{ width: '100%', height: '80vh', background: '#1a1a1a', position: 'relative' }}>
       <Canvas
         shadows
-        camera={{ position: [15, 40, 15], fov: 50 }}
+        camera={{ position: [14.96, EYE_LEVEL, 12.32], fov: 50 }}
         onCreated={({ gl, scene }) => {
           gl.setClearColor(new THREE.Color('#1a1a1a'));
           scene.fog = new THREE.Fog('#1a1a1a', 20, 200);
@@ -349,11 +377,33 @@ const Venue3D = () => {
 
         <Controls controlsRef={controlsRef} godMode={godMode} />
         <KeyboardControls controlsRef={controlsRef} godMode={godMode} />
+        {import.meta.env.DEV && (
+          <DevOverlay setPos={setPos} setTarget={setTarget} controlsRef={controlsRef} />
+        )}
       </Canvas>
       <div style={{ position: 'absolute', top: '20px', left: '20px', color: 'white', pointerEvents: 'none' }}>
         <h1>Kumpulan Potentiaali 2026 Venue</h1>
         <p>Interactive 3D Preview (WASD/Arrows to move, Drag to rotate, scroll to zoom)</p>
       </div>
+
+      {import.meta.env.DEV && (
+        <div style={{
+          position: 'absolute',
+          top: '20px',
+          right: '20px',
+          background: 'rgba(0,0,0,0.7)',
+          color: '#00ff00',
+          padding: '10px',
+          borderRadius: '5px',
+          fontFamily: 'monospace',
+          fontSize: '12px',
+          pointerEvents: 'none',
+          zIndex: 20
+        }}>
+          <div>POS: {pos.x.toFixed(2)}, {pos.y.toFixed(2)}, {pos.z.toFixed(2)}</div>
+          <div>TGT: {target.x.toFixed(2)}, {target.y.toFixed(2)}, {target.z.toFixed(2)}</div>
+        </div>
+      )}
 
       <button
         onClick={() => setGodMode(!godMode)}
