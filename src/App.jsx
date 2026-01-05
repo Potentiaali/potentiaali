@@ -22,6 +22,7 @@ const SchedulePage = lazy(() => import("./pages/SchedulePage"));
 const SingleSchedulePage = lazy(() =>
   import("./pages/SingleSchedulePage"),
 );
+const Venue3D = lazy(() => import("./components/Venue3D"));
 
 dayjs.locale(config.defaultLocale);
 
@@ -61,7 +62,7 @@ const App = () => {
                 element={<RedirectToFeedbck />}
               />
               <Route path="/map" element={<MapPage />} />
-              <Route exact path="/map" element={<MapPage />} />
+              <Route path="/venue" element={<Venue3D />} />
               <Route
                 path="/registration"
                 element={<CompanyRegistrationPage />}
