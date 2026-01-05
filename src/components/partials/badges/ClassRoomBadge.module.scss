@@ -14,13 +14,13 @@
 }
 
 @mixin stripe($color1, $width1, $color2, $width2) {
-  $w1: $width1 / ($width1 + $width2);
-  $w2: $width2 / ($width1 + $width2);
+  $w1: math.div($width1, ($width1 + $width2));
+  $w2: math.div($width2, ($width1 + $width2));
 
-  $stop1: $w1 / 4 * 100%;
-  $stop2: $stop1 + ($w2 / 2 * 100%);
-  $stop3: $stop2 + ($w1 / 2 * 100%);
-  $stop4: $stop3 + ($w2 / 2 * 100%);
+  $stop1: math.div($w1, 4) * 100%;
+  $stop2: $stop1 + (math.div($w2, 2) * 100%);
+  $stop3: $stop2 + (math.div($w1, 2) * 100%);
+  $stop4: $stop3 + (math.div($w2, 2) * 100%);
 
   background-image: linear-gradient(-45deg, $color1 0%, $color1 $stop1, $color2 $stop1, $color2 $stop2, $color1 $stop2, $color1 $stop3, $color2 $stop3, $color2 $stop4, $color1 $stop4);
   // background-size: #{($width1 + $width2) / math.sqrt(2)} #{($width1 + $width2) / math.sqrt(2)};
@@ -38,3 +38,4 @@
     padding: 0.2em 0.2em;
   }
 }
+

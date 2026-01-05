@@ -1,5 +1,5 @@
-@import "../vars";
-@import "../mixins";
+@use "../vars" as *;
+@use "../mixins" as *;
 
 .map {
   display: grid;
@@ -101,3 +101,4 @@
     margin-right: 100px;
   }
 }
+

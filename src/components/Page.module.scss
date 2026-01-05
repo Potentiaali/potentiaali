@@ -1,6 +1,7 @@
-@import "../vars";
-@import "../mixins";
+@use "../vars" as *;
+@use "../mixins" as *;
 
 .page {
   width: 100%;
 }
+

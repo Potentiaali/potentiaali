@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import styles from "./AreaBadge.module.scss";
-import PropTypes from "prop-types";
 import className from "classnames";
 import { useTranslation } from "react-i18next";
 

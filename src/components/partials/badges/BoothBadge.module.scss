@@ -1,4 +1,4 @@
-@import "../../../vars";
+@use "../../../vars" as *;
 
 .boothBadge {
   font-size: 1.2em;
@@ -10,3 +10,4 @@
   width: 60px;
   text-align: center;
 }
+

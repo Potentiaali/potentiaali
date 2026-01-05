@@ -1,5 +1,5 @@
-@import "../../vars";
-@import "../../mixins";
+@use "../../vars" as *;
+@use "../../mixins" as *;
 
 .schedule-labels {
   grid-column: 1;
@@ -15,3 +15,4 @@
   padding-top: 0.25em;
   border-top: 2px solid $orange-1;
 }
+
