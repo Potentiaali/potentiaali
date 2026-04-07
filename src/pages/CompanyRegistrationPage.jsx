@@ -41,8 +41,6 @@ const CompanyRegistrationPage = () => {
         <h1>{t("companyRegistrationPage")}</h1>
         <p>
           {t("registration-main-part-1")}
-          <b>{t("registration-main-part-2")}</b>
-          {' '}<Link to="/testimonials">{t('testimonials-link')}</Link>
         </p>
       </section>
       { config.earlyBirdRegistrationLink && isFormOpen(config.earlyBirdFormId) && (
@@ -156,9 +154,6 @@ const CompanyRegistrationPage = () => {
 
         <RegistrationButton href={config.companyRegistrationLink} open={isFormOpen(config.generalFormId)}>
           {t("register-now-text")}
-        </RegistrationButton>
-        <RegistrationButton href={config.discountedRegistrationLink} open={isFormOpen(config.nonprofitFormId)}>
-          {t("noncommercial-register-now-text")}
         </RegistrationButton>
       </section>
       <section className="app-section">
