@@ -59,7 +59,6 @@ const CompanyRegistrationPage = () => {
         <div className="event-contents-block">
           <ul>
             <li>{t("stand")}</li>
-            <li> {t("speed-rekry")}</li>
             <li>{t("tickets")}</li>
           </ul>
         </div>
