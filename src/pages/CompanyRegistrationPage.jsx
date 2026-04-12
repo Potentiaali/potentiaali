@@ -43,7 +43,9 @@ const CompanyRegistrationPage = () => {
           {t("registration-main-part-1")}
         </p>
       </section>
-      { config.earlyBirdRegistrationLink && isFormOpen(config.earlyBirdFormId) && (
+      {
+      /* temporary change to fix the script config.earlyBirdRegistrationLink && isFormOpen(config.earlyBirdFormId) && ( */}
+      { config.earlyBirdRegistrationLink && (
         <section className="app-section">
           <div className="event-contents-block">
             <h3>{t("early-bird-registration-title")}</h3>
@@ -59,6 +61,7 @@ const CompanyRegistrationPage = () => {
         <div className="event-contents-block">
           <ul>
             <li>{t("stand")}</li>
+            
             <li>{t("tickets")}</li>
           </ul>
         </div>
