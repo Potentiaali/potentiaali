@@ -43,9 +43,20 @@ const CompanyRegistrationPage = () => {
           {t("registration-main-part-1")}
         </p>
       </section>
+
+      <section className="app-section">
+        <h1>{t("registration")}</h1>
+        <p>{t("registration-form")}</p>
+        <p>{t("registration-deadline")}</p>
+
+        <RegistrationButton href={config.companyRegistrationLink}>
+          {t("register-now-text")}
+        </RegistrationButton>
+      </section>
+
       {
       /* temporary change to fix the script config.earlyBirdRegistrationLink && isFormOpen(config.earlyBirdFormId) && ( */}
-      { config.earlyBirdRegistrationLink && (
+      {/* { config.earlyBirdRegistrationLink && (
         <section className="app-section">
           <div className="event-contents-block">
             <h3>{t("early-bird-registration-title")}</h3>
@@ -55,7 +66,7 @@ const CompanyRegistrationPage = () => {
             </RegistrationButton>
           </div>
         </section>
-      )}
+      )} */}
       <section className="app-section">
         <h1>{t("includes")}</h1>
         <div className="event-contents-block">
@@ -148,15 +159,6 @@ const CompanyRegistrationPage = () => {
             </a>
           </li>
         </ul>
-      </section>
-      <section className="app-section">
-        <h1>{t("registration")}</h1>
-        <p>{t("registration-form")}</p>
-        <p>{t("registration-deadline")}</p>
-
-        <RegistrationButton href={config.companyRegistrationLink} open={isFormOpen(config.generalFormId)}>
-          {t("register-now-text")}
-        </RegistrationButton>
       </section>
       <section className="app-section">
         <h1>{t("contact-information")}</h1>
