@@ -55,7 +55,7 @@
     "storybook": "^8.6.12",
     "terser": "^5.19.2",
     "typescript": "5.8.2",
-    "vite": "^6.2.5",
+    "vite": "^6.4.2",
     "vite-plugin-radar": "^0.10.0"
   },
   "browserslist": [
