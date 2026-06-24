@@ -52,7 +52,7 @@
     "postcss": "^8.4.31",
     "prettier": "3.5.3",
     "sass": "^1.61.0",
-    "storybook": "^8.6.12",
+    "storybook": "^8.6.17",
     "terser": "^5.19.2",
     "typescript": "5.8.2",
     "vite": "^6.2.5",
