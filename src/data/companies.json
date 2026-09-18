@@ -24,8 +24,8 @@
 
     {
     "id": 19,
-    "name": "Maanmittauslaitoksen Paikkatietokeskus",
-    "shorter": "Maanmittauslaitos",
+    "name": "Maanmittauslaitoksen Paikkatietokeskus FGI",
+    "shorter": "Maanmittauslaitos Paikkatietokeskus FGI",
     "imgSrc": "companies/FGI.jpg",
     "websiteUrl": "https://www.maanmittauslaitos.fi/",
     "description": {
