@@ -56,17 +56,6 @@
     "booth": "C9"
   },
   {
-    "id": 22,
-    "name": "CGI",
-    "imgSrc": "companies/cgi.png",
-    "websiteUrl": "https://www.cgi.com/fi/fi",
-    "description": {
-      "fi": "Vuonna 1976 perustettu CGI on maailman ja Suomen suurimpia IT- ja liiketoimintakonsultoinnin palveluyhtiöitä. Meillä CGI Suomessa työskentelee noin 3 700 IT- ja liiketoimintakonsultoinnin asiantuntijaa 11 paikkakunnalla. Maailmanlaajuisesti meillä on 93 000 kollegaa ympäri maailman. Etsimme jatkuvasti uusia osaajia täydentämään tiimejämme! Tarjoamme monipuolisia kehittymismahdollisuuksia niin uraansa aloitteleville kuin kokeneillekin teknologia-ammattilaisille. Haku palkalliseen Future Talent -harjoittelujaksoon käynnistyy tammikuussa. Seuraa Future Talent -hakuajan käynnistymistä ja muita avoimia paikkojamme urasivuillamme osoitteessa cgi.fi/ura!",
-      "en": "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. In Finland, we employ approximately 3,700 IT and business consulting experts in 11 locations. Globally, we have around 93,000 colleagues around the world. We are constantly looking for new additions to our diverse teams! We offer a wide range of development opportunities for both entry-level experienced technology professionals.  Application period for our paid Future Talent Trainee period will open in January. Follow the launch of the trainee application period and check out our other vacancies on our careers page at cgi.fi/ura! "
-    },
-    "booth": "B1"
-  },
-  {
     "id": 23,
     "name": "KPMG",
     "imgSrc": "companies/KPMG_logo.png",
@@ -118,17 +107,6 @@
     },
     "booth":"B2"  },
   {
-    "id": 47,
-    "name": "Netum",
-    "imgSrc": "companies/netum.svg",
-    "websiteUrl": "https://www.netum.fi/tyopaikat",
-    "description": {
-      "fi": "Netum on IT-palvelukumppani, joka rakentaa toimivaa ja turvallista digitaalista yhteiskuntaa. Meillä on yli 20 vuoden kokemus vaativista IT-hankkeista. Tavoitteenamme on olla alan luotetuin kumppani ja halutuin työyhteisö vastuullisessa ja turvallisessa digimuutoksessa. Autamme asiakkaitamme digitaalisen liiketoiminnan kehittämisessä suunnittelemalla ja toteuttamalla juuri heidän tarpeisiinsa sopivia ja kestäviä digiratkaisuja – viisaasti ja vastuullisesti. Netum-konserniin kuuluvat emoyhtiö Netum Group Oyj ja tytäryhtiöt Netum Oy, Studyo Oy sekä Buutti Oy.  Netum Oy tarjoaa digipalveluiden kehittämistä ja ylläpitoa, kyberturvallisuuspalveluita, data- ja integraatiopalveluja, tietovarasto- ja analytiikkaratkaisuja, tietojärjestelmien kehittämis-, tuki- ja ylläpitopalveluita sekä johdon konsultointia. Studyo Oy:n ohjelmistotuotteet ja -palvelut sujuvoittavat oppilaitosten arkea ja tukevat koulutuksen laadun kehittämistä. Buutti Oy tarjoaa IT-konsultointi- ja ohjelmistokehityspalveluja, joissa osaamisen paras kärki on sulautettujen järjestelmien, pilvi­palveluiden ja web-sovellusten piirissä.",
-      "en": "Netum is an IT service partner that builds a functional and secure digital society, with over 20 years of experience of demanding IT projects. Our goal is to be the most trusted partner in the industry and the preferred work community in responsible and safe digital transformation. We help our customers develop their digital business by designing and implementing sustainable digital solutions tailored to their needs – wisely and responsibly. The Netum Group includes the parent company Netum Group Plc and subsidiaries Netum Ltd, Studyo Oy and Buutti Oy. Netum Ltd offers digital services development and maintenance, cyber security services, data and integration services, development, support, and maintenance of information systems, as well as management consulting. Studyo Oy's software products and services streamline the everyday life of educational institutions and support the development of the quality of education. Buutti Oy offers IT consulting and software development services, in which embedded systems SW and web development are the core of the company's expertise."
-    },
-    "booth": "A4"
-  },
-  {
     "id": 50,
     "name": "CSC",
     "imgSrc": "companies/CSC_logo.jpg",
@@ -138,17 +116,6 @@
       "en": "CSC - IT Center for Science is a unique combination of advanced technology, the future of learning and teaching, and the power of networks. CSC is a non-profit state and higher education owned enterprise with a special mission. Our mission is to develop, integrate, and provide high-quality information technology services and ensure that Finland remains at the forefront of development."
     },
     "booth": "A10"
-  },
-  {
-    "id": 52,
-    "name": "Ilmarinen",
-    "imgSrc": "companies/Ilmarinen_Logo.png",
-    "websiteUrl": "https://www.ilmarinen.fi/",
-    "description": {
-        "fi": "Me olemme työeläkeyhtiö ihmistä varten. Pidämme huolta yli 1,1 miljoonan ihmisen eläketurvasta ja turvaamme tulevien sukupolvien eläkkeet sijoittamalla eläkevarat tuottavasti, turvaavasti ja vastuullisesti. Huolehdimme eläketurvasta ja eläkevaroista sekä pidennämme työuria, jotta sinä voit suhtautua huomiseen luottavaisena ja toiveikkaana. ",
-        "en": "We are a pension company with a human touch. We look after the pensions of more than 1.1 million people and protect the pensions of future generations by investing pension funds profitably, securely, and responsibly. We take care of pension security and pension funds as well as extend careers, so that you can feel confident and optimistic about tomorrow."
-    },
-    "booth": "A3"
   },
   {
     "id": 54,
@@ -161,82 +128,6 @@
     "booth": "B5"
   },
   {
-    "id": 56,
-    "name": "Frends Technology",
-    "imgSrc": "companies/Frends-2.png",
-    "websiteUrl": "https://frends.fi",
-    "description": {
-      "en": "At Frends, we are dedicated to redefining the future of integrations and automation. Our mission is to make integrations fast, easy, and transparent. Frends iPaaS is a modern European, low-code integration platform. Frends solves the digitalization challenges of both global and smaller customers and in both private and public sectors in various industries."
-    },
-    "booth": "C4"
-  },
-  {
-    "id": 59,
-    "name": "Terveystalo",
-    "imgSrc": "companies/Terveystalologo.png",
-    "websiteUrl": "https://www.terveystalo.com/fi/avoimet-tyopaikat/digikehitys",
-    "description": {
-      "fi": "Terveystalo on liikevaihdoltaan ja verkostoltaan Suomen suurin yksityinen terveyspalveluyritys ja johtava toimija työterveydessä Pohjoismaissa. Tarjoamme monipuolisia perusterveydenhuollon, erikoissairaanhoidon, sekä hyvinvoinnin palveluja yritys- ja yksityisasiakkaille ja julkiselle sektorille. Terveystalon digivastaanotto palvelee ajasta ja paikasta riippumatta, 24/7. Terveyden ja hyvinvoinnin palveluja tarjoaa myös noin 377 toimipaikkaa eri puolilla Suomea. Ruotsissa tarjoamme työterveyden palveluita 152 toimipaikassa.\n\nTerveystalo on Helsingin pörssissä listattu yhtiö, jolla on vahva suomalainen omistus. Terveystalon ohjelmistokehityksen Digital Health -tiimi etsii jatkuvasti uusia osaajia. Meillä saat mahdollisuuden kasvaa johtavaan rooliin liiketoiminnalle kriittisten ratkaisujen suunnittelemisessa, rakentamisessa ja kehittämisessä. Voit erikoistua esimerkiksi arkkitehtuuriin, pilviratkaisuihin, ohjelmistojen tietoturvaan, maksamisen ratkaisuihin, laatuun, autentikaatioihin tai integraatioihin.\n\nAvoimet digikehityksen työpaikkamme: https://www.terveystalo.com/fi/avoimet-tyopaikat/digikehitys"
-    },
-    "booth": "A11"
-  },
-  {
-    "id": 63,
-    "name": "Think Company",
-    "imgSrc": "companies/think_logo.png",
-    "websiteUrl": "https://www.thinkcompany.fi/",
-    "description": {
-      "fi": "Helsinki Think Company on Helsingin yliopiston yrittäjyysyhteisö. Se kokoaa yhteen yrittäjyydestä kiinnostuneet opiskelijat ja tarjoaa väylän ja työkalut omaehtoisen toiminnan toteuttamiseen. Helsinki Think Companyn toimintaan kuuluvat innostavat tapahtumat, kuten yrittäjyysaiheiset keskustelutilaisuudet ja työpajat sekä hackathonit. Helsinki Think Companylle ovat tervetulleita kaikki tekijät opintojen vaiheeseen, opiskelualaan ja taustaan katsomatta.",
-      "en": "Helsinki Think Company is the University of Helsinki's entrepreneurship community. It brings together students interested in entrepreneurship and provides a platform and tools for independent action. Helsinki Think Company's activities include inspiring events such as entrepreneurship-themed discussions, workshops, and hackathons. Helsinki Think Company welcomes all creators, regardless of their academic age, field of study, or background."
-    },
-    "booth": "A5"
-  },
-  {
-    "id": 70,
-    "name": "Geological Survey of Finland (GTK)",
-    "imgSrc": "companies/GTK_logo.jpg",
-    "websiteUrl": "https://gtk.fi",
-    "description": { 
-        "fi": "GTK:ssa teet vaikuttavaa työtä Suomen, luonnon ja koko maapallon hyväksi. Meillä voit tehdä töitä joustavasti, vaikuttaa omaan työhösi sekä kehittää joka päivä osaamistasi. Olet osa alansa parhaimpien osaajien yhteisöä.​ Meitä GTK:laisia on yli 400. Joukostamme löydät asiantuntijoita ja osaajia monenlaisilla taustoilla. Geo- ja ympäristöalan asiantuntijamme ovat erikoistuneet mineraalitalouteen, kiertotalouteen, energia-, vesi- ja ympäristökysymyksiin sekä digitaalisiin ratkaisuihin. Huipputason laboratorio-osaajat, tiedonhallinnan asiantuntijat ja tutkimusta avustavat henkilöt mahdollistavat tutkimustyömme.​ Lisäksi löydät joukostamme muun muassa viestinnän, henkilöstö- ja taloushallinnon, ICT:n, asianhallinnan ja lakiasioiden asiantuntijoita. GTK:laisista 91 % on suomalaisia ja loput muita kuin Suomen kansalaisia.",
-        "en": "At GTK, you do meaningful work for Finland, nature and the entire planet. With us, you can work flexibly, influence your own work and develop your competence every day. You are part of a community of the best experts in their field.​ There are more than 400 of us at GTK. Among us, you will find experts with a wide range of backgrounds. Our geo and environmental experts specialise in mineral economy, circular economy, energy, water and environmental issues as well as digital solutions. Top-level laboratory experts, information management experts and research assistants enable our research work. In addition, you will find experts in communications, HR and financial administration, ICT, records management and legal matters. 91% of GTK’s employees are Finns and the rest are non-Finnish citizens." 
-    },
-    "booth": "B4"
-  },
-  {
-    "id": 71,
-    "name": "Helsinki Alumni",
-    "imgSrc": "companies/Helsinki_Alumni_logo.jpg",
-    "websiteUrl": "https://www.helsinki.fi",
-    "description": { "fi": "", "en": "" },
-    "booth": "A6"
-  },
-  {
-    "id": 72,
-    "name": "Tietoevry",
-    "imgSrc": "tietoevry_logo.png",
-    "websiteUrl": "https://www.tietoevry.com/",
-    "description": { "fi": "", "en": "" },
-    "booth": "C7"
-  },
-  {
-    "id": 73,
-    "name": "Helsinki Institute of Physics",
-    "imgSrc": "companies/HIP_Logo.png",
-    "websiteUrl": "",
-    "description": { "fi": "Fysiikan tutkimuslaitos (HIP) on kansallinen tutkimusorganisaatio, joka yhdistää viiden suomalaisen yliopiston ja STUKin asiantuntemuksen. HIP tutkii teoreettista ja kokeellista alkeishiukkasfysiikkaa, tekee yhteistyötä CERNin ja muiden kansainvälisten kiihdytinlaboratorioiden kanssa sekä osallistuu merkittäviin projekteihin, kuten FAIR-laboratorioon Saksassa. Laitos tarjoaa mahdollisuuksia huippututkimukseen, kansainväliseen yhteistyöhön ja uraan fysiikan parissa.",
-     "en": "The Helsinki Institute of Physics (HIP) is a national research organization that brings together the expertise of five Finnish universities and STUK. HIP conducts research in theoretical and experimental subatomic physics, collaborates with CERN and other international accelerator laboratories, and contributes to major projects such as the FAIR facility in Germany. The institute offers opportunities for cutting-edge research, international collaboration, and careers in physics." 
-    },
-    "booth": "C8"
-  },
-  {
-    "id": 74,
-    "name": "Kumpula Doctoral Programmes",
-    "imgSrc": "",
-    "websiteUrl": "",
-    "description": { "fi": "", "en": "" },
-    "booth": "A7"
-  },
-  {
     "id": 75,
     "name": "Ilmatieteenlaitos",
     "imgSrc": "companies/Ilmatieteenlaitos_logo.jpg",
@@ -245,13 +136,28 @@
     "booth": "A9"
   },
   {
-    "id": 76,
-    "name": "HELSINKIUNI HELP",
-    "imgSrc": "companies/HY_HelsinkiUni Help_logo_two colors_RGB.png",
-    "websiteUrl": "https://uni-help.helsinki.fi/en",
-    "description": {
-      "fi": "Kysy mitä vain – me autamme! \n\n Ei enää kymmeniä muistettavia sähköpostiosoitteita tai verkkosivuja! https://uni-help.helsinki.fi/fi",
-      "en": "Ask anything – We help you! \n\n No more dozens of email addresses or websites to remember! https://uni-help.helsinki.fi/en" },
-    "booth": "C5/C6"
+    "id": 77,
+    "name": "Puolustusvoimat",
+    "imgSrc": "companies/puolustusvoimat_logo.jpg",
+    "websiteUrl": "https://puolustusvoimat.fi/etusivu",
+    "description": { "fi": "", "en": "" },
+    "booth": "B1"
+  },
+  {
+    "id": 78,
+    "name": "Vivicta",
+    "imgSrc": "companies/vivicta_logo.jpg",
+    "websiteUrl": "https://www.vivicta.com/",
+    "description": { "fi": "", "en": "" },
+    "booth": "B7"
+  },
+  {
+    "id": 79,
+    "name": "Tieto",
+    "imgSrc": "companies/tieto_logo.png",
+    "websiteUrl": "https://www.tieto.com/",
+    "description": { "fi": "", "en": "" },
+    "booth": "C4"
   }
+  
 ]
