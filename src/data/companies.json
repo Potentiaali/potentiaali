@@ -1,12 +1,12 @@
 [
   {
     "id": 2,
-    "name": "Loimu ry",
+    "name": "Loimu",
     "imgSrc": "companies/loimu.jpg",
     "websiteUrl": "https://www.loimu.fi/",
     "description": {
-      "en": "Loimu is the trade union for highly educated professionals and university students in the fields of natural, environmental and forest sciences, as well as agriculture, food and nutrition sciences. How do I get started in my field of work? What skills do I need? Who’s on my side if something goes wrong? Could I do my thesis for an organization? How much should I ask for as a salary? What if I become unemployed after graduation? At Loimu, we know the answers — and we’re here to help. Join the professional community of your field. Membership includes leisure-time traveller’s insurance. For first-year students, membership is free until the end of 2026!",
-      "fi": "Loimu on luonnon-, ympäristö- ja metsätieteellisten sekä maatalous-, elintarvike- ja ravitsemusalan korkeasti koulutettujen asiantuntijoiden ja alamme korkeakouluopiskelijoiden ammattiliitto. Miten pääsen kiinni oman alani töihin? Mitä pitäisi osata? Kuka on puolellani, jos jotain sattuu? Voisiko gradun tehdä jollekin? Paljonko pitäisi pyytää palkkaa? Entä jos jään valmistumisen jälkeen työttömäksi? Me Loimussa tiedämme ja autamme. Liity oman alasi yhteisöön. Jäsenyyteen kuuluu vapaa-ajan matkustajavakuutus. Jäsenyys fuksille maksutta 2026 loppuun saakka!"
+      "en": "Loimu is the trade union for highly educated professionals in natural, environmental, food and forestry sciences and for higher education students in these fields. How can I find work in my field? What skills should I have? Who is on my side if something happens? What does it mean to write a thesis as a commissioned project? How much pay should I ask for? What if I am unemployed after graduation? At Loimu, we know and we help. Join the community of your own field. Membership includes If's leisure-time traveller's insurance. Fresher membership is free until the end of 2027!",
+      "fi": "Loimu on luonnon-, ympäristö- ja metsätieteilijöiden sekä ruoka-alan korkeakoulutettujen asiantuntijoiden ja alojemme korkeakouluopiskelijoiden ammattiliitto. Miten pääsen kiinni oman alani töihin? Mitä pitäisi osata? Kuka on puolellani, jos jotain sattuu? Voisiko gradun tehdä jollekin? Paljonko pitäisi pyytää palkkaa? Entä jos jään valmistumisen jälkeen työttömäksi? Me Loimussa tiedämme ja autamme. Liity oman alasi yhteisöön. Jäsenyyteen kuuluu Ifin vapaa-ajan matkustajavakuutus. Jäsenyys fuksille maksutta 2027 loppuun saakka!"
     },
     "booth": "B6"
   },
