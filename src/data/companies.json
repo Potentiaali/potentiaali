@@ -2,7 +2,7 @@
   {
     "id": 2,
     "name": "Loimu",
-    "imgSrc": "companies/loimu.jpg",
+    "imgSrc": "companies/Loimu_logo_updated.jpg",
     "websiteUrl": "https://www.loimu.fi/",
     "description": {
       "en": "Loimu is the trade union for highly educated professionals in natural, environmental, food and forestry sciences and for higher education students in these fields. How can I find work in my field? What skills should I have? Who is on my side if something happens? What does it mean to write a thesis as a commissioned project? How much pay should I ask for? What if I am unemployed after graduation? At Loimu, we know and we help. Join the community of your own field. Membership includes If's leisure-time traveller's insurance. Fresher membership is free until the end of 2027!",
@@ -120,7 +120,7 @@
   {
     "id": 54,
     "name": "EY",
-    "imgSrc": "companies/EY_Logo.png",
+    "imgSrc": "companies/EY_logo_updated.png",
     "websiteUrl": "https://www.ey.com/fi_fi/careers",
     "description": {
       "en": "EY exists to build a better working world, helping to create long-term value for clients, people and society and build trust in the capital markets.\n\nEnabled by data and technology, diverse EY teams in over 150 countries provide trust through assurance and help clients grow, transform and operate.\n\nWorking across assurance, consulting, law, strategy, tax and transactions, EY teams ask better questions to find new answers for the complex issues facing our world today."
