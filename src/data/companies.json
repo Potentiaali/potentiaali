@@ -20,9 +20,21 @@
       "en": "Taito United takes your digital services to the next level by skillfully combining design and technology. We want to create the best possible software for our customers and offer the best possible workplace for our employees. These core purposes have carried us to great successes and led us to long partnerships and lasting employment relationships."
     },
     "booth": "A2"  
-    },
+  },
 
-    {
+  {
+    "id": 22,
+    "name": "CGI",
+    "imgSrc": "companies/cgi.png",
+    "websiteUrl": "https://www.cgi.com/fi/fi",
+    "description": {
+      "fi": "Vuonna 1976 perustettu CGI on maailman ja Suomen suurimpia IT- ja liiketoimintakonsultoinnin palveluyhtiöitä. Meillä CGI Suomessa työskentelee noin 3 700 IT- ja liiketoimintakonsultoinnin asiantuntijaa 11 paikkakunnalla. Maailmanlaajuisesti meillä on 93 000 kollegaa ympäri maailman. Etsimme jatkuvasti uusia osaajia täydentämään tiimejämme! Tarjoamme monipuolisia kehittymismahdollisuuksia niin uraansa aloitteleville kuin kokeneillekin teknologia-ammattilaisille. Haku palkalliseen Future Talent -harjoittelujaksoon käynnistyy tammikuussa. Seuraa Future Talent -hakuajan käynnistymistä ja muita avoimia paikkojamme urasivuillamme osoitteessa cgi.fi/ura!",
+      "en": "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. In Finland, we employ approximately 3,700 IT and business consulting experts in 11 locations. Globally, we have around 93,000 colleagues around the world. We are constantly looking for new additions to our diverse teams! We offer a wide range of development opportunities for both entry-level experienced technology professionals.  Application period for our paid Future Talent Trainee period will open in January. Follow the launch of the trainee application period and check out our other vacancies on our careers page at cgi.fi/ura! "
+    },
+    "booth": "B1"
+  },
+
+  {
     "id": 19,
     "name": "Maanmittauslaitoksen Paikkatietokeskus FGI",
     "shorter": "Maanmittauslaitoksen Paikkatietokeskus FGI",
@@ -33,8 +45,8 @@
       "en": "The Finnish Geospatial Research Institute (FGI) is Finland’s leading center for geospatial and geodetic research. We develop next-generation positioning, mapping, and remote sensing solutions that support businesses, the public sector, and the scientific community. Our research enables accurate maps, reliable satellite positioning services, and trusted information on changes in the Earth and climate."
     },
     "booth": "A8"
-    },
-    {
+  },
+  {
     "id": 12,
     "name": "OP Pohjola",
     "imgSrc": "companies/OP_POHJOLA.jpg",
@@ -43,8 +55,9 @@
       "fi": "OP Pohjola on Suomen suurin finanssiryhmä, jolla on yli kaksi miljoonaa omistaja-asiakasta ja yli 14 000 työntekijää. Tarjoamme kattavan pankki- ja vakuutuspalvelujen kokonaisuuden henkilö- ja yritysasiakkaille. Ryhmässämme työskentelee monien eri alojen osaajia finanssialan ammattilaisista, kovan luokan kehittäjistä ja ketteristä muutoksentekijöistä aina asiakaspalvelun ammattilaisiin. Tuemme henkilöstöämme henkilökohtaiseen kasvuun ja urakehitykseen asiantuntijoina. Meillä pääset rakentamaan asiantuntijuuttasi ja kehittämään vahvuuksiasi monipuolisten työtehtävien parissa.",
       "en": "OP Pohjola, which has over two million owner-customers and over 14,000 employees, is Finland’s largest financial services group. We provide a comprehensive range of banking and insurance services for private and corporate customers. OP Pohjola employs experts representing various fields, ranging from financial-sector specialists, hard-core developers and agile promoters of change all the way to customer service professionals. We foster our employees' personal growth and career development as specialists. With us, you will be able to build your expertise and develop your strengths in a variety of duties."
     },
-    "booth": "A1"  },
-    {
+    "booth": "A1"  
+  },
+  {
     "id": 61,
     "name": "Tekniikan Akateemiset",
     "imgSrc": "companies/TEK_logo.png",
@@ -65,7 +78,7 @@
       "fi": "KPMG on yksi maailman johtavista asiantuntijaorganisaatioista. Palveluihimme kuuluvat tilintarkastus-, vero- ja laki- sekä neuvontapalvelut. Suomessa meitä KPMG:läisiä työskentelee 18 eri paikkakunnalla. Tutustu meidän uramahdollisuuksiin opiskelijoille ja vastavalmistuneille täällä: https://kpmg.com/fi/fi/tyopaikat/opiskelijat-ja-vastavalmistuneet.html."
     },
     "booth": "C3"  
-},
+  },
   {
     "id": 28,
     "name": "Digia",
@@ -112,8 +125,8 @@
     "imgSrc": "companies/CSC_logo.jpg",
     "websiteUrl": "https://csc.fi/toihin-meille",
     "description": {
-      "fi": "CSC - Tieteen tietotekniikan keskus on ainutlaatuinen yhdistelmä kehittynyttä teknologiaa, oppimisen ja opetuksen tulevaisuutta sekä verkostojen voimaa. CSC on voittoa tavoittelematon valtion ja korkeakoulujen omistama yritys, jolla on erityinen tehtävä. Missiomme on kehittää, integroida ja tarjota laadukkaita tietoteknisiä palveluita sekä varmistaa, että Suomi pysyy kehityksen kärjessä.",
-      "en": "CSC - IT Center for Science is a unique combination of advanced technology, the future of learning and teaching, and the power of networks. CSC is a non-profit state and higher education owned enterprise with a special mission. Our mission is to develop, integrate, and provide high-quality information technology services and ensure that Finland remains at the forefront of development."
+      "fi": "CSC – Tieteen tietotekniikan keskus\n\nOletko kiinnostunut huipputeknologiasta ja merkityksellisestä työstä yhteiskunnan digitalisaation parissa? CSC – Tieteen tietotekniikan keskus on ainutlaatuinen työyhteisö, joka kehittää edistyneitä laskentaympäristöjä, datanhallintapalveluja ja digitaalisia ratkaisuja. Näiden avulla mahdollistamme maailmanluokan tutkimusta, koulutusta ja innovaatioita. CSC:n energiatehokas datakeskus Kajaanissa on suomalaisten ja eurooppalaisten supertietokoneiden koti. Tarjoamme monipuolisia ja merkityksellisiä työtehtäviä sekä mahdollisuuden kasvattaa osaamistasi kansainvälisessä organisaatiossa.",
+      "en": "CSC – IT Center for Science \n\nAre you interested in cutting-edge technology and eager to do meaningful work in advancing the digitalisation of society? CSC – IT Center for Science is a unique work community developing advanced computing environments, data management services and digital solutions to enable world-class research, education and innovation. In Kajaani, CSC operates an energy-efficient data center that is home to Finnish and European supercomputers. We offer diverse and meaningful roles, as well as opportunities to develop your skills in an international organisation."
     },
     "booth": "A10"
   },
@@ -139,8 +152,9 @@
     "id": 77,
     "name": "Puolustusvoimat",
     "imgSrc": "companies/puolustusvoimat_logo.jpg",
-    "websiteUrl": "https://puolustusvoimat.fi/etusivu",
-    "description": { "fi": "", "en": "" },
+    "websiteUrl": "https://www.pvrekry.fi/",
+    "description": { "fi": "Puolustusvoimissa voit työskennellä siviilinä tai sotilaana - armeijataustalla tai ilman. Meillä on kehittymiseen kannustava työkulttuuri sekä joustavat työolosuhteet työn ja vapaa-ajan tasapainottamiseksi. Kannustamme työntekijöitämme pitämään huolta omasta hyvinvoinnistaan mm. viikoittaisella liikuntaedulla. Voit työskennellä strategisissa hankkeissa, tutkimuksessa ja kehityksessä - kansainvälisesti tai kansallisesti mm. tietotekniikan, tekniikan, talouden ja hallinnon, kouluttamisen sekä terveydenhuollon tehtävissä. Meidän 13 000 työntekijäämme operaattorista ohjusinsinööriin tekevät yhdessä työtä, jolla on tarkoitus. Meillä yhteisöllisyys on osa matkaa ja päämäärä." 
+    },
     "booth": "B1"
   },
   {
@@ -158,6 +172,21 @@
     "websiteUrl": "https://www.tieto.com/",
     "description": { "fi": "", "en": "" },
     "booth": "C4"
+  },
+  {
+    "id": 80,
+    "name": "University of Helsinki",
+    "imgSrc": "companies/helsinki_university_logo.png",
+    "websiteUrl": "https://www.helsinki.fi/",
+    "description": { "fi": "", "en": "" },
+    "booth": "C4"
+  },
+  {
+    "id": 79,
+    "name": "City of Helsinki",
+    "imgSrc": "companies/helsinki_city_logo.png",
+    "websiteUrl": "https://www.hel.fi/",
+    "description": { "fi": "", "en": "" },
+    "booth": "C4"
   }
-  
 ]
