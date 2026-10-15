@@ -65,7 +65,7 @@ const SingleCompanyPage = () => {
             {company.websiteUrl}
           </a>
         </p>
-        <div style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
+        <div className={styles.description} style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
           { !localDescription && descriptionHtml && (
             <div className={styles.descriptionNotAvailable}>{t("description-not-available-in-current-language")}</div>
           ) }

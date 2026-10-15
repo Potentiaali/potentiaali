@@ -19,18 +19,17 @@
       "en": "Taito United takes your digital services to the next level by skillfully combining design and technology. We want to create the best possible software for our customers and offer the best possible workplace for our employees. These core purposes have carried us to great successes and led us to long partnerships and lasting employment relationships."},
     "booth": "A2"  
   },
-
   {
     "id": 22,
     "name": "CGI",
     "imgSrc": "companies/cgi.png",
     "websiteUrl": "https://www.cgi.com/fi/fi",
-    "description":{
-      "fi": "Vuonna 1976 perustettu CGI on maailman ja Suomen suurimpia IT- ja liiketoimintakonsultoinnin palveluyhtiöitä. Meillä CGI Suomessa työskentelee noin 3 700 IT- ja liiketoimintakonsultoinnin asiantuntijaa 11 paikkakunnalla. Maailmanlaajuisesti meillä on 93 000 kollegaa ympäri maailman. Etsimme jatkuvasti uusia osaajia täydentämään tiimejämme! Tarjoamme monipuolisia kehittymismahdollisuuksia niin uraansa aloitteleville kuin kokeneillekin teknologia-ammattilaisille.\n\nHaku palkalliseen Future Talent -harjoittelujaksoon käynnistyy tammikuussa. Seuraa Future Talent -hakuajan käynnistymistä ja muita avoimia paikkojamme urasivuillamme osoitteessa cgi.fi/ura!",
-      "en": "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. In Finland, we employ approximately 3,700 IT and business consulting experts in 11 locations. Globally, we have around 93,000 colleagues around the world. We are constantly looking for new additions to our diverse teams! We offer a wide range of development opportunities for both entry-level experienced technology professionals.\n\nApplication period for our paid Future Talent Trainee period will open in January. Follow the launch of the trainee application period and check out our other vacancies on our careers page at cgi.fi/ura! "},
+    "description": {
+      "fi": "Vuonna 1976 perustettu CGI on maailman ja Suomen suurimpia IT- ja liiketoimintakonsultoinnin palveluyhtiöitä. Meillä CGI Suomessa työskentelee noin 3 700 IT- ja liiketoimintakonsultoinnin asiantuntijaa 11 paikkakunnalla. Maailmanlaajuisesti meillä on 93 000 kollegaa ympäri maailman. Etsimme jatkuvasti uusia osaajia täydentämään tiimejämme! Tarjoamme monipuolisia kehittymismahdollisuuksia niin uraansa aloitteleville kuin kokeneillekin teknologia-ammattilaisille.\n\nHaku palkalliseen Future Talent -harjoittelujaksoon käynnistyy tammikuussa. Seuraa Future Talent -hakuajan käynnistymistä ja muita avoimia paikkojamme urasivuillamme osoitteessa <a href=\"https://cgi.fi/ura\" target=\"_blank\" rel=\"noopener\">cgi.fi/ura</a>!",
+      "en": "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. In Finland, we employ approximately 3,700 IT and business consulting experts in 11 locations. Globally, we have around 93,000 colleagues around the world. We are constantly looking for new additions to our diverse teams! We offer a wide range of development opportunities for both entry-level and experienced technology professionals.\n\nApplication period for our paid Future Talent Trainee period will open in January. Follow the launch of the trainee application period and check out our other vacancies on our careers page at <a href=\"https://cgi.fi/ura\" target=\"_blank\" rel=\"noopener\">cgi.fi/ura</a>!"
+    },
     "booth": "B1"
   },
-
   {
     "id": 19,
     "name": "Maanmittauslaitoksen Paikkatietokeskus FGI",
@@ -57,9 +56,10 @@
     "name": "Tekniikan Akateemiset",
     "imgSrc": "companies/TEK_logo.png",
     "websiteUrl": "https://tek.fi",
-    "description":{
-      "fi": "Tekniikan akateemiset TEK on noin 85 000 tekniikan ja luonnontieteiden yliopisto-opiskelijan sekä alalta valmistuneen yhteisö. Opiskelijana voit liittyä jäseneksi maksutta ja saat käyttöösi parhaat asiantuntijapalvelut urasi tueksi, aina opintojen alusta alkaen: 📑 tarkistamme työsopimuksia 📈 annamme palkkaneuvontaa 🔍 kerromme vinkkejä työnhakuun 💡 autamme eteenpäin yrittäjyyden polulla 🎙️ tarjoamme valmennuksia ja huippupuhujien tähdittämiä tapahtumia Me TEKissä teemme töitä sen eteen, että jäsenemme voivat keskittyä työarjessaan oleelliseen ja vapaa-ajalla vielä oleellisempaan – elämään! Lue lisää: www.tek.fi ja liity opiskelijajäseneksi: tek.fi/liityopiskelija \n\n Ilmoittautuminen Workshopiin: https://forms.gle/oaqBqAbiaKMMiPmB6",
-      "en": "Academic Engineers and Architects in Finland TEK is a community of around 85,000 university students in the field of technology and natural sciences as well as graduates from these field. As a student, you can join for free and gain access to top expert services to support your career from the very beginning of your studies: 📑 we review employment contracts 📈 we offer salary advice 🔍 we share tips for job hunting 💡 we help you move forward on the path to entrepreneurship 🎙️ we provide coaching and events featuring top speakers At TEK, we work to ensure our members can focus on what matters at work—and even more so during their free time: life! Read more: www.tek.fi/en and join as a student member at: tek.fi/joinstudent \n\n Workshop registration: https://forms.gle/oaqBqAbiaKMMiPmB6"},
+    "description": {
+      "fi": "Tekniikan akateemiset TEK on noin 85 000 tekniikan ja luonnontieteiden yliopisto-opiskelijan sekä alalta valmistuneen yhteisö. Opiskelijana voit liittyä jäseneksi maksutta ja saat käyttöösi parhaat asiantuntijapalvelut urasi tueksi, aina opintojen alusta alkaen:\n\n📑 tarkistamme työsopimuksia\n📈 annamme palkkaneuvontaa\n🔍 kerromme vinkkejä työnhakuun\n💡 autamme eteenpäin yrittäjyyden polulla\n🎙️ tarjoamme valmennuksia ja huippupuhujien tähdittämiä tapahtumia\n\nMe TEKissä teemme töitä sen eteen, että jäsenemme voivat keskittyä työarjessaan oleelliseen ja vapaa-ajalla vielä oleellisempaan – elämään!\n\nLue lisää: <a href=\"https://www.tek.fi\" target=\"_blank\" rel=\"noopener\">www.tek.fi</a> ja liity opiskelijajäseneksi: <a href=\"https://tek.fi/liityopiskelija\" target=\"_blank\" rel=\"noopener\">tek.fi/liityopiskelija</a>",
+      "en": "Academic Engineers and Architects in Finland TEK is a community of around 85,000 university students in the field of technology and natural sciences as well as graduates from these fields. As a student, you can join for free and gain access to top expert services to support your career from the very beginning of your studies:\n\n📑 we review employment contracts\n📈 we offer salary advice\n🔍 we share tips for job hunting\n💡 we help you move forward on the path to entrepreneurship\n🎙️ we provide coaching and events featuring top speakers\n\nAt TEK, we work to ensure our members can focus on what matters at work—and even more so during their free time: life!\n\nRead more: <a href=\"https://www.tek.fi/en\" target=\"_blank\" rel=\"noopener\">www.tek.fi/en</a> and join as a student member at: <a href=\"https://tek.fi/joinstudent\" target=\"_blank\" rel=\"noopener\">tek.fi/joinstudent</a>"
+    },
     "booth": "C9"
   },
   {
@@ -67,10 +67,11 @@
     "name": "KPMG",
     "imgSrc": "companies/KPMG_NoCP_RGB_280.png",
     "websiteUrl": "https://kpmg.com/fi/fi.html",
-    "description":{
-      "fi": "KPMG on yksi maailman johtavista asiantuntijaorganisaatioista. Tarjoamme tilintarkastus- ja varmennus-, vero- ja laki- sekä neuvontapalveluita 18 paikkakunnalla ympäri Suomen. Tarjoamme vuosittain KPMG Trainee -ohjelman kautta harjoittelumahdollisuuksia yli 100 tulevaisuuden osaajalle. Trainee-tehtävät on suunnattu erityisesti 3.–5. vuoden korkeakouluopiskelijoille ja vastavalmistuneille, joiden tausta on esimerkiksi kauppatieteissä, oikeustieteessä tai STEM-aloilla. Rekrytoimme uusia osaajia trainee-ohjelmamme kautta kahdesti vuodessa.\n\nLue lisää: kpmg.fi/trainee" ,
-      "en": "KPMG is one of the world’s leading professional services organizations. We provide Audit & Assurance, Tax & Legal, and Advisory services in 18 locations across Finland. Each year, we offer trainee opportunities to more than 100 future professionals through the KPMG Trainee Program. The trainee positions are aimed at 3rd to 5th year and recently graduated university and university of applied science students who have a background in Business, Law, or STEM. We recruit new talent through our Trainee Program twice a year.\n\nLearn more: kpmg/fi/traineeprogram"},
-    "booth": "C3"  
+    "description": {
+      "fi": "KPMG on yksi maailman johtavista asiantuntijaorganisaatioista. Tarjoamme tilintarkastus- ja varmennus-, vero- ja laki- sekä neuvontapalveluita 18 paikkakunnalla ympäri Suomen. Tarjoamme vuosittain KPMG Trainee -ohjelman kautta harjoittelumahdollisuuksia yli 100 tulevaisuuden osaajalle. Trainee-tehtävät on suunnattu erityisesti 3.–5. vuoden korkeakouluopiskelijoille ja vastavalmistuneille, joiden tausta on esimerkiksi kauppatieteissä, oikeustieteessä tai STEM-aloilla. Rekrytoimme uusia osaajia trainee-ohjelmamme kautta kahdesti vuodessa.\n\nLue lisää: <a href=\"https://kpmg.fi/trainee\" target=\"_blank\" rel=\"noopener\">kpmg.fi/trainee</a>",
+      "en": "KPMG is one of the world’s leading professional services organizations. We provide Audit & Assurance, Tax & Legal, and Advisory services in 18 locations across Finland. Each year, we offer trainee opportunities to more than 100 future professionals through the KPMG Trainee Program. The trainee positions are aimed at 3rd to 5th year and recently graduated university and university of applied science students who have a background in Business, Law, or STEM. We recruit new talent through our Trainee Program twice a year.\n\nLearn more: <a href=\"https://kpmg.fi/traineeprogram\" target=\"_blank\" rel=\"noopener\">kpmg.fi/traineeprogram</a>"
+    },
+    "booth": "C3"
   },
   {
     "id": 28,
@@ -149,9 +150,10 @@
     "name": "Vivicta",
     "imgSrc": "companies/vivicta_logo.jpg",
     "websiteUrl": "https://www.vivicta.com/careers",
-    "description":{
-    "fi": "Vivicta on luotettu pohjoismainen digitaalisen transformaation kumppani, joka tekee arjesta sujuvampaa teknologian keinoin. Tuemme asiakkaidemme digitaalista kehitystä ja liiketoiminnan kasvua alati muuttuvassa maailmassa. Tarjoamme asiakkaamme tarpeeseen sopivia muutosta vauhdittavia ratkaisuja. Yli 7000 globaalin asiantuntijamme voimin tarjoamme kokonaisvaltaista osaamista datan, automaation ja tekoälyn, pilvi-, infra- ja sovelluspalveluiden sekä ERP-ratkaisujen ja tietoturvan alueilla. Ratkaisukeskeisellä asenteella sitoudumme tuottamaan vaikuttavampia tuloksia asiakkaillemme.\n\nKiinnostaako ura Vivictalla? Lue lisää: vivicta.com/careers",
-    "en": "​​​Vivicta is a trusted Nordic transformation partner making everyday easier through technology. In a world of constant change, we are with our customers, helping unlock new digital opportunities and elevate their business. We provide fit-for-purpose digital solutions to accelerate customers’ transformation. Our 7000+ experts globally drive end-to-end excellence across Data, Automation & AI, Cloud & Infrastructure, ERP & Applications, and Digital Security. With a get-it-done attitude, we commit to deliver elevated impact.\n\nCurious what it would be like to work with us? Read more at vivicta.com/careers" },
+    "description": {
+      "fi": "Vivicta on luotettu pohjoismainen digitaalisen transformaation kumppani, joka tekee arjesta sujuvampaa teknologian keinoin. Tuemme asiakkaidemme digitaalista kehitystä ja liiketoiminnan kasvua alati muuttuvassa maailmassa. Tarjoamme asiakkaamme tarpeeseen sopivia muutosta vauhdittavia ratkaisuja. Yli 7000 globaalin asiantuntijamme voimin tarjoamme kokonaisvaltaista osaamista datan, automaation ja tekoälyn, pilvi-, infra- ja sovelluspalveluiden sekä ERP-ratkaisujen ja tietoturvan alueilla. Ratkaisukeskeisellä asenteella sitoudumme tuottamaan vaikuttavampia tuloksia asiakkaillemme.\n\nKiinnostaako ura Vivictalla? Lue lisää: <a href=\"https://www.vivicta.com/careers\" target=\"_blank\" rel=\"noopener\">vivicta.com/careers</a>",
+      "en": "Vivicta is a trusted Nordic transformation partner making everyday easier through technology. In a world of constant change, we are with our customers, helping unlock new digital opportunities and elevate their business. We provide fit-for-purpose digital solutions to accelerate customers’ transformation. Our 7000+ experts globally drive end-to-end excellence across Data, Automation & AI, Cloud & Infrastructure, ERP & Applications, and Digital Security. With a get-it-done attitude, we commit to deliver elevated impact.\n\nCurious what it would be like to work with us? Read more at <a href=\"https://www.vivicta.com/careers\" target=\"_blank\" rel=\"noopener\">vivicta.com/careers</a>"
+    },
     "booth": "B7"
   },
   {
@@ -173,7 +175,7 @@
     "booth": "C4"
   },
   {
-    "id": 79,
+    "id": 81,
     "name": "City of Helsinki",
     "imgSrc": "companies/helsinki_city_logo.png",
     "websiteUrl": "https://www.hel.fi/",
