@@ -4,10 +4,9 @@
     "name": "Loimu",
     "imgSrc": "companies/Loimu_logo_updated.svg",
     "websiteUrl": "https://www.loimu.fi/",
-    "description": {
+    "description":{
       "en": "Loimu is the trade union for highly educated professionals in natural, environmental, food and forestry sciences and for higher education students in these fields. How can I find work in my field? What skills should I have? Who is on my side if something happens? What does it mean to write a thesis as a commissioned project? How much pay should I ask for? What if I am unemployed after graduation? At Loimu, we know and we help. Join the community of your own field. Membership includes If's leisure-time traveller's insurance. Fresher membership is free until the end of 2027!",
-      "fi": "Loimu on luonnon-, ympäristö- ja metsätieteilijöiden sekä ruoka-alan korkeakoulutettujen asiantuntijoiden ja alojemme korkeakouluopiskelijoiden ammattiliitto. Miten pääsen kiinni oman alani töihin? Mitä pitäisi osata? Kuka on puolellani, jos jotain sattuu? Voisiko gradun tehdä jollekin? Paljonko pitäisi pyytää palkkaa? Entä jos jään valmistumisen jälkeen työttömäksi? Me Loimussa tiedämme ja autamme. Liity oman alasi yhteisöön. Jäsenyyteen kuuluu Ifin vapaa-ajan matkustajavakuutus. Jäsenyys fuksille maksutta 2027 loppuun saakka!"
-    },
+      "fi": "Loimu on luonnon-, ympäristö- ja metsätieteilijöiden sekä ruoka-alan korkeakoulutettujen asiantuntijoiden ja alojemme korkeakouluopiskelijoiden ammattiliitto. Miten pääsen kiinni oman alani töihin? Mitä pitäisi osata? Kuka on puolellani, jos jotain sattuu? Voisiko gradun tehdä jollekin? Paljonko pitäisi pyytää palkkaa? Entä jos jään valmistumisen jälkeen työttömäksi? Me Loimussa tiedämme ja autamme. Liity oman alasi yhteisöön. Jäsenyyteen kuuluu Ifin vapaa-ajan matkustajavakuutus. Jäsenyys fuksille maksutta 2027 loppuun saakka!"},
     "booth": "B6"
   },
   {
@@ -15,10 +14,9 @@
     "name": "Taito United",
     "imgSrc": "companies/Taito_united_logo.jpg",
     "websiteUrl": "https://www.taitounited.fi/",
-    "description": {
+    "description":{
       "fi": "Taito United nostaa palvelusi seuraavalle tasolle designia ja teknologiaa taitavasti yhdistämällä. Haluamme luoda asiakkaillemme parasta mahdollista softaa ja tarjota työntekijöillemme parhaan mahdollisen työpaikan. Tämä ydintarkoituksemme on kantanut meidät hienoihin onnistumisiin ja johtanut pitkiin kumppanuuksiin sekä pysyviin työsuhteisiin.",
-      "en": "Taito United takes your digital services to the next level by skillfully combining design and technology. We want to create the best possible software for our customers and offer the best possible workplace for our employees. These core purposes have carried us to great successes and led us to long partnerships and lasting employment relationships."
-    },
+      "en": "Taito United takes your digital services to the next level by skillfully combining design and technology. We want to create the best possible software for our customers and offer the best possible workplace for our employees. These core purposes have carried us to great successes and led us to long partnerships and lasting employment relationships."},
     "booth": "A2"  
   },
 
@@ -27,10 +25,9 @@
     "name": "CGI",
     "imgSrc": "companies/cgi.png",
     "websiteUrl": "https://www.cgi.com/fi/fi",
-    "description": {
+    "description":{
       "fi": "Vuonna 1976 perustettu CGI on maailman ja Suomen suurimpia IT- ja liiketoimintakonsultoinnin palveluyhtiöitä. Meillä CGI Suomessa työskentelee noin 3 700 IT- ja liiketoimintakonsultoinnin asiantuntijaa 11 paikkakunnalla. Maailmanlaajuisesti meillä on 93 000 kollegaa ympäri maailman. Etsimme jatkuvasti uusia osaajia täydentämään tiimejämme! Tarjoamme monipuolisia kehittymismahdollisuuksia niin uraansa aloitteleville kuin kokeneillekin teknologia-ammattilaisille.\n\nHaku palkalliseen Future Talent -harjoittelujaksoon käynnistyy tammikuussa. Seuraa Future Talent -hakuajan käynnistymistä ja muita avoimia paikkojamme urasivuillamme osoitteessa cgi.fi/ura!",
-      "en": "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. In Finland, we employ approximately 3,700 IT and business consulting experts in 11 locations. Globally, we have around 93,000 colleagues around the world. We are constantly looking for new additions to our diverse teams! We offer a wide range of development opportunities for both entry-level experienced technology professionals.\n\nApplication period for our paid Future Talent Trainee period will open in January. Follow the launch of the trainee application period and check out our other vacancies on our careers page at cgi.fi/ura! "
-    },
+      "en": "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. In Finland, we employ approximately 3,700 IT and business consulting experts in 11 locations. Globally, we have around 93,000 colleagues around the world. We are constantly looking for new additions to our diverse teams! We offer a wide range of development opportunities for both entry-level experienced technology professionals.\n\nApplication period for our paid Future Talent Trainee period will open in January. Follow the launch of the trainee application period and check out our other vacancies on our careers page at cgi.fi/ura! "},
     "booth": "B1"
   },
 
@@ -40,10 +37,9 @@
     "shorter": "Maanmittauslaitoksen Paikkatietokeskus FGI",
     "imgSrc": "companies/FGI.jpg",
     "websiteUrl": "https://www.maanmittauslaitos.fi/",
-    "description": {
+    "description":{
       "fi": "Paikkatietokeskus (FGI) on Suomen johtava paikkatiedon ja geodesian tutkimuslaitos. Kehitämme uuden sukupolven mittaus-, paikannus- ja kaukokartoitusratkaisuja, jotka tukevat yrityksiä, julkista sektoria ja tiedeyhteisöä. Tutkimuksemme mahdollistaa tarkat kartat, toimivat satelliittipaikannuspalvelut ja luotettavan tiedon maanpinnan ja ilmaston muutoksista.",
-      "en": "Spatial Data for a More Sustainable Future\nThe Finnish Geospatial Research Institute (FGI) at the National Land Survey of Finland is an eminent international research institute that engages in innovative research and expert work in the spatial data field. Our research is used everywhere from cities to the countryside and covers everything from the Earth’s crust to space. Our spatial data expertise is widely available for use by society. We cooperate with, for example, universities, research institutes, businesses, municipalities and authorities both nationally and internationally."
-    },
+      "en": "Spatial Data for a More Sustainable Future\nThe Finnish Geospatial Research Institute (FGI) at the National Land Survey of Finland is an eminent international research institute that engages in innovative research and expert work in the spatial data field. Our research is used everywhere from cities to the countryside and covers everything from the Earth’s crust to space. Our spatial data expertise is widely available for use by society. We cooperate with, for example, universities, research institutes, businesses, municipalities and authorities both nationally and internationally."},
     "booth": "A8"
   },
   {
@@ -51,10 +47,9 @@
     "name": "OP Pohjola",
     "imgSrc": "companies/OP_POHJOLA.jpg",
     "websiteUrl": "https://www.op.fi/tietoa-op-pohjolasta/ura/",
-    "description": {
+    "description":{
       "fi": "OP Pohjola on Suomen suurin finanssiryhmä, jolla on yli kaksi miljoonaa omistaja-asiakasta ja yli 14 000 työntekijää. Tarjoamme kattavan pankki- ja vakuutuspalvelujen kokonaisuuden henkilö- ja yritysasiakkaille. Ryhmässämme työskentelee monien eri alojen osaajia finanssialan ammattilaisista, kovan luokan kehittäjistä ja ketteristä muutoksentekijöistä aina asiakaspalvelun ammattilaisiin. Tuemme henkilöstöämme henkilökohtaiseen kasvuun ja urakehitykseen asiantuntijoina. Meillä pääset rakentamaan asiantuntijuuttasi ja kehittämään vahvuuksiasi monipuolisten työtehtävien parissa.",
-      "en": "OP Pohjola, which has over two million owner-customers and over 14,000 employees, is Finland’s largest financial services group. We provide a comprehensive range of banking and insurance services for private and corporate customers. OP Pohjola employs experts representing various fields, ranging from financial-sector specialists, hard-core developers and agile promoters of change all the way to customer service professionals. We foster our employees' personal growth and career development as specialists. With us, you will be able to build your expertise and develop your strengths in a variety of duties."
-    },
+      "en": "OP Pohjola, which has over two million owner-customers and over 14,000 employees, is Finland’s largest financial services group. We provide a comprehensive range of banking and insurance services for private and corporate customers. OP Pohjola employs experts representing various fields, ranging from financial-sector specialists, hard-core developers and agile promoters of change all the way to customer service professionals. We foster our employees' personal growth and career development as specialists. With us, you will be able to build your expertise and develop your strengths in a variety of duties."},
     "booth": "A1"  
   },
   {
@@ -62,10 +57,9 @@
     "name": "Tekniikan Akateemiset",
     "imgSrc": "companies/TEK_logo.png",
     "websiteUrl": "https://tek.fi",
-    "description": {
+    "description":{
       "fi": "Tekniikan akateemiset TEK on noin 85 000 tekniikan ja luonnontieteiden yliopisto-opiskelijan sekä alalta valmistuneen yhteisö. Opiskelijana voit liittyä jäseneksi maksutta ja saat käyttöösi parhaat asiantuntijapalvelut urasi tueksi, aina opintojen alusta alkaen: 📑 tarkistamme työsopimuksia 📈 annamme palkkaneuvontaa 🔍 kerromme vinkkejä työnhakuun 💡 autamme eteenpäin yrittäjyyden polulla 🎙️ tarjoamme valmennuksia ja huippupuhujien tähdittämiä tapahtumia Me TEKissä teemme töitä sen eteen, että jäsenemme voivat keskittyä työarjessaan oleelliseen ja vapaa-ajalla vielä oleellisempaan – elämään! Lue lisää: www.tek.fi ja liity opiskelijajäseneksi: tek.fi/liityopiskelija \n\n Ilmoittautuminen Workshopiin: https://forms.gle/oaqBqAbiaKMMiPmB6",
-      "en": "Academic Engineers and Architects in Finland TEK is a community of around 85,000 university students in the field of technology and natural sciences as well as graduates from these field. As a student, you can join for free and gain access to top expert services to support your career from the very beginning of your studies: 📑 we review employment contracts 📈 we offer salary advice 🔍 we share tips for job hunting 💡 we help you move forward on the path to entrepreneurship 🎙️ we provide coaching and events featuring top speakers At TEK, we work to ensure our members can focus on what matters at work—and even more so during their free time: life! Read more: www.tek.fi/en and join as a student member at: tek.fi/joinstudent \n\n Workshop registration: https://forms.gle/oaqBqAbiaKMMiPmB6"
-    },
+      "en": "Academic Engineers and Architects in Finland TEK is a community of around 85,000 university students in the field of technology and natural sciences as well as graduates from these field. As a student, you can join for free and gain access to top expert services to support your career from the very beginning of your studies: 📑 we review employment contracts 📈 we offer salary advice 🔍 we share tips for job hunting 💡 we help you move forward on the path to entrepreneurship 🎙️ we provide coaching and events featuring top speakers At TEK, we work to ensure our members can focus on what matters at work—and even more so during their free time: life! Read more: www.tek.fi/en and join as a student member at: tek.fi/joinstudent \n\n Workshop registration: https://forms.gle/oaqBqAbiaKMMiPmB6"},
     "booth": "C9"
   },
   {
@@ -73,10 +67,9 @@
     "name": "KPMG",
     "imgSrc": "companies/KPMG_NoCP_RGB_280.png",
     "websiteUrl": "https://kpmg.com/fi/fi.html",
-    "description": {
+    "description":{
       "fi": "KPMG on yksi maailman johtavista asiantuntijaorganisaatioista. Tarjoamme tilintarkastus- ja varmennus-, vero- ja laki- sekä neuvontapalveluita 18 paikkakunnalla ympäri Suomen. Tarjoamme vuosittain KPMG Trainee -ohjelman kautta harjoittelumahdollisuuksia yli 100 tulevaisuuden osaajalle. Trainee-tehtävät on suunnattu erityisesti 3.–5. vuoden korkeakouluopiskelijoille ja vastavalmistuneille, joiden tausta on esimerkiksi kauppatieteissä, oikeustieteessä tai STEM-aloilla. Rekrytoimme uusia osaajia trainee-ohjelmamme kautta kahdesti vuodessa.\n\nLue lisää: kpmg.fi/trainee" ,
-      "en": "KPMG is one of the world’s leading professional services organizations. We provide Audit & Assurance, Tax & Legal, and Advisory services in 18 locations across Finland. Each year, we offer trainee opportunities to more than 100 future professionals through the KPMG Trainee Program. The trainee positions are aimed at 3rd to 5th year and recently graduated university and university of applied science students who have a background in Business, Law, or STEM. We recruit new talent through our Trainee Program twice a year.\n\nLearn more: kpmg/fi/traineeprogram"
-    },
+      "en": "KPMG is one of the world’s leading professional services organizations. We provide Audit & Assurance, Tax & Legal, and Advisory services in 18 locations across Finland. Each year, we offer trainee opportunities to more than 100 future professionals through the KPMG Trainee Program. The trainee positions are aimed at 3rd to 5th year and recently graduated university and university of applied science students who have a background in Business, Law, or STEM. We recruit new talent through our Trainee Program twice a year.\n\nLearn more: kpmg/fi/traineeprogram"},
     "booth": "C3"  
   },
   {
@@ -84,10 +77,9 @@
     "name": "Digia",
     "imgSrc": "companies/digia.svg",
     "websiteUrl": "https://digia.com/",
-    "description": {
+    "description":{
       "fi": "Digia on ihmisille suunniteltu yritys - työpaikka, jossa on hyvä olla ja asiat toimivat. Olemme ohjelmisto- ja palveluyritys, joka yhdistää teknologian mahdollisuudet ja ihmisten kyvykkyydet älykkäämmän liiketoiminnan ja yhteiskunnan sekä kestävän tulevaisuuden rakentamiseksi. Jos oman ammattitaidon kehittyminen, asiantuntevat kollegat ja työyhteisö, jossa mennään rohkeasti eteenpäin vastaa sinun toiveitasi tutustu urasivuihimme!",
-      "en": "Digia is a company designed for people – a workplace where well-being and functionality go hand in hand. We are a software and service company that combines the possibilities of technology with human capabilities to build smarter business, a better society, and a sustainable future. If you're looking for professional growth, knowledgeable colleagues, and a work community that boldly moves forward, explore our career pages!"
-    },
+      "en": "Digia is a company designed for people – a workplace where well-being and functionality go hand in hand. We are a software and service company that combines the possibilities of technology with human capabilities to build smarter business, a better society, and a sustainable future. If you're looking for professional growth, knowledgeable colleagues, and a work community that boldly moves forward, explore our career pages!"},
     "booth": "C2"
   },
   {
@@ -95,9 +87,8 @@
     "name": "Reddal Helsinki",
     "imgSrc": "companies/reddal_logo.jpg",
     "websiteUrl": "https://www.reddal.com/about-us/",
-    "description": {
-      "en": "Reddal offers business development as a service (BDaaS) on a global basis. Working with senior management and front-line staff on issues ranging from strategy, M&A and business building to operational efficiency and financial turnarounds, our mission is to drive growth across companies of all sizes. Our business model is revolutionizing the cost structure of top management professional services, making BDaaS competitive with in-house resources. We bring an analytical, systematic, forward looking, and flexible approach to business development and building. Our client base is global, and we work across multiple industry sectors.\n\nWhat differentiates us from our competitors from a customer point of view is that we share our knowledge openly with our clients, and do not work with competing companies. With these principles, we set a strong foundation to grow together with our clients and form long-term relationships. Currently, Reddal has offices in Helsinki, Seoul and Kuala Lumpur, and maintains operative locations in Germany and the Middle East.\n\nAs a Reddalian, you help building businesses and drive growth of companies of all sizes, across industries, globally. From the first day, you have the opportunity to work alongside executives and front-line staff solving real business problems. Aside close collaboration with our client and exposure to interesting work and industries, we place strong focus on supporting your personal and professional development also through our extensive in-house training program, career mentorship and a low-threshold for support by seniors and peers alike. The strong Reddal community, which is characterized by kindness and openness, is something we are proud of and look forward to welcoming new members to."
-    },
+    "description":{
+      "en": "Reddal offers business development as a service (BDaaS) on a global basis. Working with senior management and front-line staff on issues ranging from strategy, M&A and business building to operational efficiency and financial turnarounds, our mission is to drive growth across companies of all sizes. Our business model is revolutionizing the cost structure of top management professional services, making BDaaS competitive with in-house resources. We bring an analytical, systematic, forward looking, and flexible approach to business development and building. Our client base is global, and we work across multiple industry sectors.\n\nWhat differentiates us from our competitors from a customer point of view is that we share our knowledge openly with our clients, and do not work with competing companies. With these principles, we set a strong foundation to grow together with our clients and form long-term relationships. Currently, Reddal has offices in Helsinki, Seoul and Kuala Lumpur, and maintains operative locations in Germany and the Middle East.\n\nAs a Reddalian, you help building businesses and drive growth of companies of all sizes, across industries, globally. From the first day, you have the opportunity to work alongside executives and front-line staff solving real business problems. Aside close collaboration with our client and exposure to interesting work and industries, we place strong focus on supporting your personal and professional development also through our extensive in-house training program, career mentorship and a low-threshold for support by seniors and peers alike. The strong Reddal community, which is characterized by kindness and openness, is something we are proud of and look forward to welcoming new members to."},
     "booth": "B3"
   },
   {
@@ -105,9 +96,8 @@
     "name": "ASM",
     "imgSrc": "companies/asm.svg",
     "websiteUrl": "https://www.asm.com/",
-    "description": {
-      "en": "ASM is a leading, global supplier of semiconductor wafer processing equipment. Our smart and ambitious team is dedicated to delivering innovative technology solutions to the world’s leading semiconductor manufacturers. We have over 4,000 talented and skilled employees, based in 15 different hubs worldwide. Together we work to develop thin-film deposition technologies for our customers through epitaxy, ALD, PEALD, vertical furnaces and PECVD. Our goal is to remain an industry leader by being ahead of what’s next. Focusing on finding collaborative solutions to make integrated circuits, or chips, smaller, faster and even more powerful."
-    },
+    "description":{
+      "en": "ASM is a leading, global supplier of semiconductor wafer processing equipment. Our smart and ambitious team is dedicated to delivering innovative technology solutions to the world’s leading semiconductor manufacturers. We have over 4,000 talented and skilled employees, based in 15 different hubs worldwide. Together we work to develop thin-film deposition technologies for our customers through epitaxy, ALD, PEALD, vertical furnaces and PECVD. Our goal is to remain an industry leader by being ahead of what’s next. Focusing on finding collaborative solutions to make integrated circuits, or chips, smaller, faster and even more powerful."},
     "booth": "C1"
   },
   {
@@ -115,19 +105,17 @@
     "name": "Netlight",
     "imgSrc": "companies/netlight.svg",
     "websiteUrl": "https://www.netlight.com/",
-    "description": {
-      "en": "Netlight is an international digital consulting firm, helping leading companies to succeed in the digital landscape, from advice to implementation. Our service contains the collective intelligence of 2000 consultants offering a comprehensive range of digital services, from strategy to technology. We support industries that are facing new challenges and opportunities based on new technology, to make better business. Netlight has been awarded several times for profitable growth and management, as a top employer, and for our engagement in Diversity, Equity, and Inclusion. Located in Stockholm, Oslo, Helsinki, Copenhagen, Munich, Hamburg, Berlin, Frankfurt, Zurich, Cologne, Amsterdam, Toronto and London.\nCo-creating the future today, since 1999."
-    },
+    "description":{
+      "en": "Netlight is an international digital consulting firm, helping leading companies to succeed in the digital landscape, from advice to implementation. Our service contains the collective intelligence of 2000 consultants offering a comprehensive range of digital services, from strategy to technology. We support industries that are facing new challenges and opportunities based on new technology, to make better business. Netlight has been awarded several times for profitable growth and management, as a top employer, and for our engagement in Diversity, Equity, and Inclusion. Located in Stockholm, Oslo, Helsinki, Copenhagen, Munich, Hamburg, Berlin, Frankfurt, Zurich, Cologne, Amsterdam, Toronto and London.\nCo-creating the future today, since 1999."},
     "booth":"B2"  },
   {
     "id": 50,
     "name": "CSC",
     "imgSrc": "companies/CSC_logo.jpg",
     "websiteUrl": "https://csc.fi/toihin-meille",
-    "description": {
+    "description":{
       "fi": "CSC – Tieteen tietotekniikan keskus\n\nOletko kiinnostunut huipputeknologiasta ja merkityksellisestä työstä yhteiskunnan digitalisaation parissa? CSC – Tieteen tietotekniikan keskus on ainutlaatuinen työyhteisö, joka kehittää edistyneitä laskentaympäristöjä, datanhallintapalveluja ja digitaalisia ratkaisuja. Näiden avulla mahdollistamme maailmanluokan tutkimusta, koulutusta ja innovaatioita. CSC:n energiatehokas datakeskus Kajaanissa on suomalaisten ja eurooppalaisten supertietokoneiden koti. Tarjoamme monipuolisia ja merkityksellisiä työtehtäviä sekä mahdollisuuden kasvattaa osaamistasi kansainvälisessä organisaatiossa.",
-      "en": "CSC – IT Center for Science \n\nAre you interested in cutting-edge technology and eager to do meaningful work in advancing the digitalisation of society? CSC – IT Center for Science is a unique work community developing advanced computing environments, data management services and digital solutions to enable world-class research, education and innovation. In Kajaani, CSC operates an energy-efficient data center that is home to Finnish and European supercomputers. We offer diverse and meaningful roles, as well as opportunities to develop your skills in an international organisation."
-    },
+      "en": "CSC – IT Center for Science \n\nAre you interested in cutting-edge technology and eager to do meaningful work in advancing the digitalisation of society? CSC – IT Center for Science is a unique work community developing advanced computing environments, data management services and digital solutions to enable world-class research, education and innovation. In Kajaani, CSC operates an energy-efficient data center that is home to Finnish and European supercomputers. We offer diverse and meaningful roles, as well as opportunities to develop your skills in an international organisation."},
     "booth": "A10"
   },
   {
@@ -135,9 +123,8 @@
     "name": "EY",
     "imgSrc": "companies/EY_logo_updated.png",
     "websiteUrl": "https://www.ey.com/fi_fi/careers",
-    "description": {
-      "en": "EY exists to build a better working world, helping to create long-term value for clients, people and society and build trust in the capital markets.\n\nEnabled by data and technology, diverse EY teams in over 150 countries provide trust through assurance and help clients grow, transform and operate.\n\nWorking across assurance, consulting, law, strategy, tax and transactions, EY teams ask better questions to find new answers for the complex issues facing our world today."
-    },
+    "description":{
+      "en": "EY exists to build a better working world, helping to create long-term value for clients, people and society and build trust in the capital markets.\n\nEnabled by data and technology, diverse EY teams in over 150 countries provide trust through assurance and help clients grow, transform and operate.\n\nWorking across assurance, consulting, law, strategy, tax and transactions, EY teams ask better questions to find new answers for the complex issues facing our world today."},
     "booth": "B5"
   },
   {
@@ -153,8 +140,8 @@
     "name": "Puolustusvoimat",
     "imgSrc": "companies/puolustusvoimat_logo.jpg",
     "websiteUrl": "https://www.pvrekry.fi/",
-    "description": { "fi": "Puolustusvoimissa voit työskennellä siviilinä tai sotilaana - armeijataustalla tai ilman. Meillä on kehittymiseen kannustava työkulttuuri sekä joustavat työolosuhteet työn ja vapaa-ajan tasapainottamiseksi. Kannustamme työntekijöitämme pitämään huolta omasta hyvinvoinnistaan mm. viikoittaisella liikuntaedulla. Voit työskennellä strategisissa hankkeissa, tutkimuksessa ja kehityksessä - kansainvälisesti tai kansallisesti mm. tietotekniikan, tekniikan, talouden ja hallinnon, kouluttamisen sekä terveydenhuollon tehtävissä. Meidän 13 000 työntekijäämme operaattorista ohjusinsinööriin tekevät yhdessä työtä, jolla on tarkoitus. Meillä yhteisöllisyys on osa matkaa ja päämäärä." 
-    },
+    "description":{ 
+    "fi": "Puolustusvoimissa voit työskennellä siviilinä tai sotilaana - armeijataustalla tai ilman. Meillä on kehittymiseen kannustava työkulttuuri sekä joustavat työolosuhteet työn ja vapaa-ajan tasapainottamiseksi. Kannustamme työntekijöitämme pitämään huolta omasta hyvinvoinnistaan mm. viikoittaisella liikuntaedulla. Voit työskennellä strategisissa hankkeissa, tutkimuksessa ja kehityksessä - kansainvälisesti tai kansallisesti mm. tietotekniikan, tekniikan, talouden ja hallinnon, kouluttamisen sekä terveydenhuollon tehtävissä. Meidän 13 000 työntekijäämme operaattorista ohjusinsinööriin tekevät yhdessä työtä, jolla on tarkoitus. Meillä yhteisöllisyys on osa matkaa ja päämäärä."},
     "booth": "B1"
   },
   {
@@ -162,7 +149,8 @@
     "name": "Vivicta",
     "imgSrc": "companies/vivicta_logo.jpg",
     "websiteUrl": "https://www.vivicta.com/careers",
-    "description": { "fi": "Vivicta on luotettu pohjoismainen digitaalisen transformaation kumppani, joka tekee arjesta sujuvampaa teknologian keinoin. Tuemme asiakkaidemme digitaalista kehitystä ja liiketoiminnan kasvua alati muuttuvassa maailmassa. Tarjoamme asiakkaamme tarpeeseen sopivia muutosta vauhdittavia ratkaisuja. Yli 7000 globaalin asiantuntijamme voimin tarjoamme kokonaisvaltaista osaamista datan, automaation ja tekoälyn, pilvi-, infra- ja sovelluspalveluiden sekä ERP-ratkaisujen ja tietoturvan alueilla. Ratkaisukeskeisellä asenteella sitoudumme tuottamaan vaikuttavampia tuloksia asiakkaillemme.\n\nKiinnostaako ura Vivictalla? Lue lisää: vivicta.com/careers",
+    "description":{
+    "fi": "Vivicta on luotettu pohjoismainen digitaalisen transformaation kumppani, joka tekee arjesta sujuvampaa teknologian keinoin. Tuemme asiakkaidemme digitaalista kehitystä ja liiketoiminnan kasvua alati muuttuvassa maailmassa. Tarjoamme asiakkaamme tarpeeseen sopivia muutosta vauhdittavia ratkaisuja. Yli 7000 globaalin asiantuntijamme voimin tarjoamme kokonaisvaltaista osaamista datan, automaation ja tekoälyn, pilvi-, infra- ja sovelluspalveluiden sekä ERP-ratkaisujen ja tietoturvan alueilla. Ratkaisukeskeisellä asenteella sitoudumme tuottamaan vaikuttavampia tuloksia asiakkaillemme.\n\nKiinnostaako ura Vivictalla? Lue lisää: vivicta.com/careers",
     "en": "​​​Vivicta is a trusted Nordic transformation partner making everyday easier through technology. In a world of constant change, we are with our customers, helping unlock new digital opportunities and elevate their business. We provide fit-for-purpose digital solutions to accelerate customers’ transformation. Our 7000+ experts globally drive end-to-end excellence across Data, Automation & AI, Cloud & Infrastructure, ERP & Applications, and Digital Security. With a get-it-done attitude, we commit to deliver elevated impact.\n\nCurious what it would be like to work with us? Read more at vivicta.com/careers" },
     "booth": "B7"
   },
@@ -179,10 +167,9 @@
     "name": "University of Helsinki",
     "imgSrc": "companies/University_of_Helsinki.jpg",
     "websiteUrl": "https://www.helsinki.fi/",
-    "description": {
+    "description":{
       "fi": "<strong>Helsingin yliopisto - työtä maailman parhaaksi</strong>\n\nTieteen voimalla voidaan muuttaa maailmaa. Olemme yksi maailman parhaista tutkimusyliopistoista – yli 30 000 opiskelijan ja 9 000 työntekijän kansainvälinen tieteen, tutkimuksen, oppimisen ja rohkean ajattelun yhteisö.\nMeidät tunnetaan monitieteisyydestä. Uskomme tieteidenvälisen tutkimuksen ja rajoja rikkovan yhteistyön voimaan löytää ratkaisuja ja luoda toivoa paremman ja kestävämmän tulevaisuuden puolesta.\nMeitä yhdistävät arvomme totuus, sivistys, vapaus ja yhteisöllisyys, sekä halu tehdä merkityksellisiä töitä.\nTule mukaan: tee työtä tulevaisuudelle – maailman parhaaksi.\n\n<a href=\"https://www.helsinki.fi/fi/tutustu-meihin/ura-ja-avoimet-tyopaikat/avoimet-tyopaikat\" target=\"_blank\" rel=\"noopener\">Tutustu avoimiin paikkoihimme.</a>",
-      "en": "<strong>University of Helsinki – work for the world</strong>\n\nScience has the power to change the world. Join one of the best research universities in the world – an international community united through bold thinking, science, research, and learning, with over 30,000 students and 8,000 employees.\n\nWe are defined by our multidisciplinary approach. This, combined with a dedication for cross-border collaboration, gives us our potential to find real solutions and build hope for a better, more sustainable future.\n\nWe are united by our values – truth, bildung, freedom, and inclusivity – as well as our passion for work that truly matters.\n\nJoin us: work for the future – work for the world.\n\n<a href=\"https://www.helsinki.fi/en/about-us/careers/open-positions\" target=\"_blank\" rel=\"noopener\">Discover our open positions.</a>"
-    },
+      "en": "<strong>University of Helsinki – work for the world</strong>\n\nScience has the power to change the world. Join one of the best research universities in the world – an international community united through bold thinking, science, research, and learning, with over 30,000 students and 8,000 employees.\n\nWe are defined by our multidisciplinary approach. This, combined with a dedication for cross-border collaboration, gives us our potential to find real solutions and build hope for a better, more sustainable future.\n\nWe are united by our values – truth, bildung, freedom, and inclusivity – as well as our passion for work that truly matters.\n\nJoin us: work for the future – work for the world.\n\n<a href=\"https://www.helsinki.fi/en/about-us/careers/open-positions\" target=\"_blank\" rel=\"noopener\">Discover our open positions.</a>"},
     "booth": "C4"
   },
   {
