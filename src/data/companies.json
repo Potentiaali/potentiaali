@@ -28,8 +28,8 @@
     "imgSrc": "companies/cgi.png",
     "websiteUrl": "https://www.cgi.com/fi/fi",
     "description": {
-      "fi": "Vuonna 1976 perustettu CGI on maailman ja Suomen suurimpia IT- ja liiketoimintakonsultoinnin palveluyhtiöitä. Meillä CGI Suomessa työskentelee noin 3 700 IT- ja liiketoimintakonsultoinnin asiantuntijaa 11 paikkakunnalla. Maailmanlaajuisesti meillä on 93 000 kollegaa ympäri maailman. Etsimme jatkuvasti uusia osaajia täydentämään tiimejämme! Tarjoamme monipuolisia kehittymismahdollisuuksia niin uraansa aloitteleville kuin kokeneillekin teknologia-ammattilaisille. Haku palkalliseen Future Talent -harjoittelujaksoon käynnistyy tammikuussa. Seuraa Future Talent -hakuajan käynnistymistä ja muita avoimia paikkojamme urasivuillamme osoitteessa cgi.fi/ura!",
-      "en": "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. In Finland, we employ approximately 3,700 IT and business consulting experts in 11 locations. Globally, we have around 93,000 colleagues around the world. We are constantly looking for new additions to our diverse teams! We offer a wide range of development opportunities for both entry-level experienced technology professionals.  Application period for our paid Future Talent Trainee period will open in January. Follow the launch of the trainee application period and check out our other vacancies on our careers page at cgi.fi/ura! "
+      "fi": "Vuonna 1976 perustettu CGI on maailman ja Suomen suurimpia IT- ja liiketoimintakonsultoinnin palveluyhtiöitä. Meillä CGI Suomessa työskentelee noin 3 700 IT- ja liiketoimintakonsultoinnin asiantuntijaa 11 paikkakunnalla. Maailmanlaajuisesti meillä on 93 000 kollegaa ympäri maailman. Etsimme jatkuvasti uusia osaajia täydentämään tiimejämme! Tarjoamme monipuolisia kehittymismahdollisuuksia niin uraansa aloitteleville kuin kokeneillekin teknologia-ammattilaisille.\n\nHaku palkalliseen Future Talent -harjoittelujaksoon käynnistyy tammikuussa. Seuraa Future Talent -hakuajan käynnistymistä ja muita avoimia paikkojamme urasivuillamme osoitteessa cgi.fi/ura!",
+      "en": "Founded in 1976, CGI is among the largest IT and business consulting services firms in the world. In Finland, we employ approximately 3,700 IT and business consulting experts in 11 locations. Globally, we have around 93,000 colleagues around the world. We are constantly looking for new additions to our diverse teams! We offer a wide range of development opportunities for both entry-level experienced technology professionals.\n\nApplication period for our paid Future Talent Trainee period will open in January. Follow the launch of the trainee application period and check out our other vacancies on our careers page at cgi.fi/ura! "
     },
     "booth": "B1"
   },
@@ -42,7 +42,7 @@
     "websiteUrl": "https://www.maanmittauslaitos.fi/",
     "description": {
       "fi": "Paikkatietokeskus (FGI) on Suomen johtava paikkatiedon ja geodesian tutkimuslaitos. Kehitämme uuden sukupolven mittaus-, paikannus- ja kaukokartoitusratkaisuja, jotka tukevat yrityksiä, julkista sektoria ja tiedeyhteisöä. Tutkimuksemme mahdollistaa tarkat kartat, toimivat satelliittipaikannuspalvelut ja luotettavan tiedon maanpinnan ja ilmaston muutoksista.",
-      "en": "The Finnish Geospatial Research Institute (FGI) is Finland’s leading center for geospatial and geodetic research. We develop next-generation positioning, mapping, and remote sensing solutions that support businesses, the public sector, and the scientific community. Our research enables accurate maps, reliable satellite positioning services, and trusted information on changes in the Earth and climate."
+      "en": "Spatial Data for a More Sustainable Future\nThe Finnish Geospatial Research Institute (FGI) at the National Land Survey of Finland is an eminent international research institute that engages in innovative research and expert work in the spatial data field. Our research is used everywhere from cities to the countryside and covers everything from the Earth’s crust to space. Our spatial data expertise is widely available for use by society. We cooperate with, for example, universities, research institutes, businesses, municipalities and authorities both nationally and internationally."
     },
     "booth": "A8"
   },
@@ -50,7 +50,7 @@
     "id": 12,
     "name": "OP Pohjola",
     "imgSrc": "companies/OP_POHJOLA.jpg",
-    "websiteUrl": "https://www.op.fi/",
+    "websiteUrl": "https://www.op.fi/tietoa-op-pohjolasta/ura/",
     "description": {
       "fi": "OP Pohjola on Suomen suurin finanssiryhmä, jolla on yli kaksi miljoonaa omistaja-asiakasta ja yli 14 000 työntekijää. Tarjoamme kattavan pankki- ja vakuutuspalvelujen kokonaisuuden henkilö- ja yritysasiakkaille. Ryhmässämme työskentelee monien eri alojen osaajia finanssialan ammattilaisista, kovan luokan kehittäjistä ja ketteristä muutoksentekijöistä aina asiakaspalvelun ammattilaisiin. Tuemme henkilöstöämme henkilökohtaiseen kasvuun ja urakehitykseen asiantuntijoina. Meillä pääset rakentamaan asiantuntijuuttasi ja kehittämään vahvuuksiasi monipuolisten työtehtävien parissa.",
       "en": "OP Pohjola, which has over two million owner-customers and over 14,000 employees, is Finland’s largest financial services group. We provide a comprehensive range of banking and insurance services for private and corporate customers. OP Pohjola employs experts representing various fields, ranging from financial-sector specialists, hard-core developers and agile promoters of change all the way to customer service professionals. We foster our employees' personal growth and career development as specialists. With us, you will be able to build your expertise and develop your strengths in a variety of duties."
@@ -71,11 +71,11 @@
   {
     "id": 23,
     "name": "KPMG",
-    "imgSrc": "companies/KPMG_logo.png",
-    "websiteUrl": "https://home.kpmg/fi/fi/home.html",
+    "imgSrc": "companies/KPMG_NoCP_RGB_280.png",
+    "websiteUrl": "https://kpmg.com/fi/fi.html",
     "description": {
-      "en": "KPMG is one of the world’s leading expert organizations. Our services include audit, tax and legal, and advisory services. In Finland, KPMG professionals work in 18 different locations. Explore our career opportunities for students and recent graduates here: https://kpmg.com/fi/en/careers/students-graduates.html" ,
-      "fi": "KPMG on yksi maailman johtavista asiantuntijaorganisaatioista. Palveluihimme kuuluvat tilintarkastus-, vero- ja laki- sekä neuvontapalvelut. Suomessa meitä KPMG:läisiä työskentelee 18 eri paikkakunnalla. Tutustu meidän uramahdollisuuksiin opiskelijoille ja vastavalmistuneille täällä: https://kpmg.com/fi/fi/tyopaikat/opiskelijat-ja-vastavalmistuneet.html."
+      "fi": "KPMG on yksi maailman johtavista asiantuntijaorganisaatioista. Tarjoamme tilintarkastus- ja varmennus-, vero- ja laki- sekä neuvontapalveluita 18 paikkakunnalla ympäri Suomen. Tarjoamme vuosittain KPMG Trainee -ohjelman kautta harjoittelumahdollisuuksia yli 100 tulevaisuuden osaajalle. Trainee-tehtävät on suunnattu erityisesti 3.–5. vuoden korkeakouluopiskelijoille ja vastavalmistuneille, joiden tausta on esimerkiksi kauppatieteissä, oikeustieteessä tai STEM-aloilla. Rekrytoimme uusia osaajia trainee-ohjelmamme kautta kahdesti vuodessa.\n\nLue lisää: kpmg.fi/trainee" ,
+      "en": "KPMG is one of the world’s leading professional services organizations. We provide Audit & Assurance, Tax & Legal, and Advisory services in 18 locations across Finland. Each year, we offer trainee opportunities to more than 100 future professionals through the KPMG Trainee Program. The trainee positions are aimed at 3rd to 5th year and recently graduated university and university of applied science students who have a background in Business, Law, or STEM. We recruit new talent through our Trainee Program twice a year.\n\nLearn more: kpmg/fi/traineeprogram"
     },
     "booth": "C3"  
   },
@@ -116,7 +116,7 @@
     "imgSrc": "companies/netlight.svg",
     "websiteUrl": "https://www.netlight.com/",
     "description": {
-      "en": "Netlight is an international digital consulting firm, helping leading companies to succeed in the digital landscape, from advice to implementation. Our service contains the collective intelligence of 2000 consultants offering a comprehensive range of digital services, from strategy to technology. We support industries that are facing new challenges and opportunities based on new technology, to make better business. Netlight has been awarded several times for profitable growth and management, as a top employer, and for our engagement in Diversity, Equity, and Inclusion. Located in Stockholm, Oslo, Helsinki, Copenhagen, Munich, Hamburg, Berlin, Frankfurt, Zurich, Cologne, Amsterdam, Toronto and London. Co-creating the future today, since 1999."
+      "en": "Netlight is an international digital consulting firm, helping leading companies to succeed in the digital landscape, from advice to implementation. Our service contains the collective intelligence of 2000 consultants offering a comprehensive range of digital services, from strategy to technology. We support industries that are facing new challenges and opportunities based on new technology, to make better business. Netlight has been awarded several times for profitable growth and management, as a top employer, and for our engagement in Diversity, Equity, and Inclusion. Located in Stockholm, Oslo, Helsinki, Copenhagen, Munich, Hamburg, Berlin, Frankfurt, Zurich, Cologne, Amsterdam, Toronto and London.\nCo-creating the future today, since 1999."
     },
     "booth":"B2"  },
   {
@@ -161,8 +161,9 @@
     "id": 78,
     "name": "Vivicta",
     "imgSrc": "companies/vivicta_logo.jpg",
-    "websiteUrl": "https://www.vivicta.com/",
-    "description": { "fi": "", "en": "" },
+    "websiteUrl": "https://www.vivicta.com/careers",
+    "description": { "fi": "Vivicta on luotettu pohjoismainen digitaalisen transformaation kumppani, joka tekee arjesta sujuvampaa teknologian keinoin. Tuemme asiakkaidemme digitaalista kehitystä ja liiketoiminnan kasvua alati muuttuvassa maailmassa. Tarjoamme asiakkaamme tarpeeseen sopivia muutosta vauhdittavia ratkaisuja. Yli 7000 globaalin asiantuntijamme voimin tarjoamme kokonaisvaltaista osaamista datan, automaation ja tekoälyn, pilvi-, infra- ja sovelluspalveluiden sekä ERP-ratkaisujen ja tietoturvan alueilla. Ratkaisukeskeisellä asenteella sitoudumme tuottamaan vaikuttavampia tuloksia asiakkaillemme.\n\nKiinnostaako ura Vivictalla? Lue lisää: vivicta.com/careers",
+    "en": "​​​Vivicta is a trusted Nordic transformation partner making everyday easier through technology. In a world of constant change, we are with our customers, helping unlock new digital opportunities and elevate their business. We provide fit-for-purpose digital solutions to accelerate customers’ transformation. Our 7000+ experts globally drive end-to-end excellence across Data, Automation & AI, Cloud & Infrastructure, ERP & Applications, and Digital Security. With a get-it-done attitude, we commit to deliver elevated impact.\n\nCurious what it would be like to work with us? Read more at vivicta.com/careers" },
     "booth": "B7"
   },
   {
@@ -176,9 +177,12 @@
   {
     "id": 80,
     "name": "University of Helsinki",
-    "imgSrc": "companies/helsinki_university_logo.png",
+    "imgSrc": "companies/University_of_Helsinki.jpg",
     "websiteUrl": "https://www.helsinki.fi/",
-    "description": { "fi": "", "en": "" },
+    "description": {
+      "fi": "<strong>Helsingin yliopisto - työtä maailman parhaaksi</strong>\n\nTieteen voimalla voidaan muuttaa maailmaa. Olemme yksi maailman parhaista tutkimusyliopistoista – yli 30 000 opiskelijan ja 9 000 työntekijän kansainvälinen tieteen, tutkimuksen, oppimisen ja rohkean ajattelun yhteisö.\nMeidät tunnetaan monitieteisyydestä. Uskomme tieteidenvälisen tutkimuksen ja rajoja rikkovan yhteistyön voimaan löytää ratkaisuja ja luoda toivoa paremman ja kestävämmän tulevaisuuden puolesta.\nMeitä yhdistävät arvomme totuus, sivistys, vapaus ja yhteisöllisyys, sekä halu tehdä merkityksellisiä töitä.\nTule mukaan: tee työtä tulevaisuudelle – maailman parhaaksi.\n\n<a href=\"https://www.helsinki.fi/fi/tutustu-meihin/ura-ja-avoimet-tyopaikat/avoimet-tyopaikat\" target=\"_blank\" rel=\"noopener\">Tutustu avoimiin paikkoihimme.</a>",
+      "en": "<strong>University of Helsinki – work for the world</strong>\n\nScience has the power to change the world. Join one of the best research universities in the world – an international community united through bold thinking, science, research, and learning, with over 30,000 students and 8,000 employees.\n\nWe are defined by our multidisciplinary approach. This, combined with a dedication for cross-border collaboration, gives us our potential to find real solutions and build hope for a better, more sustainable future.\n\nWe are united by our values – truth, bildung, freedom, and inclusivity – as well as our passion for work that truly matters.\n\nJoin us: work for the future – work for the world.\n\n<a href=\"https://www.helsinki.fi/en/about-us/careers/open-positions\" target=\"_blank\" rel=\"noopener\">Discover our open positions.</a>"
+    },
     "booth": "C4"
   },
   {
