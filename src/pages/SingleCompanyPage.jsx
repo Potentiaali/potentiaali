@@ -28,6 +28,10 @@ const SingleCompanyPage = () => {
     return <span> {t("company-not-found")}</span>;
   }
 
+  const localDescription = company.description[currentLocale];
+  const descriptionHtml =
+    localDescription || Object.values(company.description).find(Boolean) || "";
+
   return (
     <>
       <section className="app-section">
@@ -61,14 +65,12 @@ const SingleCompanyPage = () => {
             {company.websiteUrl}
           </a>
         </p>
-        <pre style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
-          { !company.description[currentLocale] && Object.values(company.description).find(Boolean) && (
+        <div style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
+          { !localDescription && descriptionHtml && (
             <div className={styles.descriptionNotAvailable}>{t("description-not-available-in-current-language")}</div>
           ) }
-          <p>
-            { company.description[currentLocale] ?? Object.values(company.description)[0] }
-          </p>
-        </pre>
+          <p dangerouslySetInnerHTML={{ __html: descriptionHtml }} />
+        </div>
       </section>
       <section className="app-section">
         <Link to="/companies">
