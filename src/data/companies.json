@@ -79,8 +79,8 @@
     "imgSrc": "companies/digia.svg",
     "websiteUrl": "https://digia.com/",
     "description":{
-      "fi": "Digia on ihmisille suunniteltu yritys - työpaikka, jossa on hyvä olla ja asiat toimivat. Olemme ohjelmisto- ja palveluyritys, joka yhdistää teknologian mahdollisuudet ja ihmisten kyvykkyydet älykkäämmän liiketoiminnan ja yhteiskunnan sekä kestävän tulevaisuuden rakentamiseksi. Jos oman ammattitaidon kehittyminen, asiantuntevat kollegat ja työyhteisö, jossa mennään rohkeasti eteenpäin vastaa sinun toiveitasi tutustu urasivuihimme!",
-      "en": "Digia is a company designed for people – a workplace where well-being and functionality go hand in hand. We are a software and service company that combines the possibilities of technology with human capabilities to build smarter business, a better society, and a sustainable future. If you're looking for professional growth, knowledgeable colleagues, and a work community that boldly moves forward, explore our career pages!"},
+      "fi": "<strong>Tule rakentamaan kanssamme älykkäämpää </strong>\n\nDigialla yhdistämme toimialaosaamisen, modernin teknologian ja tekoälyn. Saat tehdä merkityksellistä työtä, ratkoa aitoja liiketoiminnan haasteita ja kehittyä yhdessä osaavien kollegoiden kanssa. Meillä arvostetaan uteliaisuutta, rohkeutta ja halua kehittyä. Teknologia kehittyy, ja me sen mukana. Sillä tekoälyn aikakaudellakin on kyse ihmisistä.\n\n#UnlockYourIntelligence",
+      "en": "<strong>Join us in building an intelligent future</strong>\n\nAt Digia, we bring together industry expertise, modern technology, and AI. You’ll do meaningful work, solve real business challenges, and grow alongside talented colleagues.\n\nWe value curiosity, courage, and the drive to keep learning. Technology keeps evolving, and so do we. Because even in the era of AI, it’s about people.\n\n#UnlockYourIntelligence #SeniorTrainee"},
     "booth": "C2"
   },
   {
@@ -98,7 +98,8 @@
     "imgSrc": "companies/asm.svg",
     "websiteUrl": "https://www.asm.com/",
     "description":{
-      "en": "ASM is a leading, global supplier of semiconductor wafer processing equipment. Our smart and ambitious team is dedicated to delivering innovative technology solutions to the world’s leading semiconductor manufacturers. We have over 4,000 talented and skilled employees, based in 15 different hubs worldwide. Together we work to develop thin-film deposition technologies for our customers through epitaxy, ALD, PEALD, vertical furnaces and PECVD. Our goal is to remain an industry leader by being ahead of what’s next. Focusing on finding collaborative solutions to make integrated circuits, or chips, smaller, faster and even more powerful."},
+      "fi":"<strong>Olemme ASM – materiaalien kehittämiseen ja uusien materiaaliratkaisujen löytämiseen keskittyvä yritys.</strong>\nOlemme jo lähes 60 vuoden ajan vieneet puolijohdeteknologian mahdollisuuksia yhä pidemmälle. Työskentelemällä atomitasolla löydämme ja kehitämme materiaaleja ja teknologioita, jotka mahdollistavat entistä pienemmät, nopeammat, älykkäämmät ja kehittyneemmät mikrosirut.\nYli 5 000 ASM:läistä 15 toimipaikassa eri puolilla maailmaa yhdistää osaamisensa ratkaistakseen monimutkaisia teknologisia haasteita. Ohutkalvopinnoitukseen ja puolijohdekiekkojen prosessointiin liittyvät innovaatiomme auttavat maailman johtavia puolijohdevalmistajia kehittämään tekoälyn, tietojenkäsittelyn, tietoliikenteen, liikkuvuuden, terveydenhuollon ja monien muiden alojen tulevaisuuden teknologioita.\n<strong>ASM:llä olet mukana muovaamassa tulevaisuutta atomitasolla.</strong>",
+      "en": "<strong>We are ASM - a materials discovery company.</strong>\nFor nearly 60 years, we’ve been pushing the boundaries of what’s possible in semiconductor technology. By working at the atomic scale, we discover and engineer the materials and technologies that help enable smaller, faster, smarter, and more advanced microchips.\nWith more than 5,000 ASMers across 15 locations worldwide, we bring together talented people from across the globe to solve complex technology challenges. Our innovations in thin-film deposition and wafer processing help leading semiconductor manufacturers advance the technologies behind AI, computing, connectivity, mobility, healthcare, and more.\n\n<strong>At ASM, you’ll help shape the future at the atomic level.</strong>"},
     "booth": "C1"
   },
   {
@@ -130,7 +131,7 @@
   },
   {
     "id": 75,
-    "name": "Ilmatieteenlaitos",
+    "name": "Ilmatieteen laitos",
     "imgSrc": "companies/Ilmatieteenlaitos_logo.jpg",
     "websiteUrl": "https://www.fmi.fi/",
     "description": { "fi": "", "en": "" },
