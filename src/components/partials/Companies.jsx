@@ -14,7 +14,7 @@ const Companies = () => {
       </Link>
       <div className={style.companies}>
         {companies
-          .sort((a, b) => a.name.localeCompare(b.name))
+          .sort((a, b) => a.booth.localeCompare(b.booth, undefined, { numeric: true }))
           .map((company) => (
             <Link
               className={style["company-logo"]}
