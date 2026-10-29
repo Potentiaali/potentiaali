@@ -152,7 +152,7 @@ export const schedule = [
   {
     id: 6,
     track: 3,
-    companyName: "Ilmatieteenlaitos",
+    companyName: "Ilmatieteen laitos",
     location: "Physicum D101",
     title: {
       fi: 'Sääennuste',
