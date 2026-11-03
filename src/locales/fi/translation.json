@@ -140,5 +140,6 @@
   "floor": "Kerros",
   "atrium": "Valopiha",
   "info-point": "Infopiste",
-  "usher": "Vahtimestari"
+  "usher": "Vahtimestari",
+  "search-placeholder": "Hae yrityksiä..."
 }

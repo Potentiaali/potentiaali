@@ -70,9 +70,6 @@ const App = () => {
               <Route path="/testimonials" element={<TestimonialsPage />} />
               <Route path="*" element={<NotFoundPage />} />
             </Routes>
-            <Suspense fallback={<Fallback.Footer />}>
-              <Footer />
-            </Suspense>
           </Page>
         </Suspense>
       </div>

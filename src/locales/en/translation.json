@@ -126,5 +126,6 @@
   "floor": "Floor",
   "atrium": "Atrium",
   "info-point": "Info point",
-  "usher": "Usher"
+  "usher": "Usher",
+  "search-placeholder": "Search for companies..."
 }

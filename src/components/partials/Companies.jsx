@@ -3,8 +3,16 @@ import style from "./Companies.module.scss";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
+const sortedCompanies = [...companies].sort((a, b) =>
+  a.booth.localeCompare(b.booth, undefined, { numeric: true }),
+);
+
+const getText = (value, lang) =>
+  typeof value === "string" ? value : value[lang] || value.fi;
+
 const Companies = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language.slice(0, 2);
   return (
     <>
       <p>{t("companies-title-text")}</p>
@@ -13,21 +21,21 @@ const Companies = () => {
         <p>{t("view-all-companies")}</p>
       </Link>
       <div className={style.companies}>
-        {companies
-          .sort((a, b) => a.booth.localeCompare(b.booth, undefined, { numeric: true }))
-          .map((company) => (
-            <Link
-              className={style["company-logo"]}
-              key={company.name}
-              to={"/company/" + company.id}
-            >
-              <img
-                className={style["company-logo-image"]}
-                alt={`${company.name} logo`}
-                src={company.imgSrc}
-              />
-            </Link>
-          ))}
+        {sortedCompanies.map((company) => (
+          <Link
+            className={style["company-logo"]}
+            key={company.id}
+            to={"/company/" + company.id}
+          >
+            <img
+              className={style["company-logo-image"]}
+              alt={`${getText(company.name, lang)} logo`}
+              src={company.imgSrc}
+              loading="lazy"
+              decoding="async"
+            />
+          </Link>
+        ))}
       </div>
     </>
   );

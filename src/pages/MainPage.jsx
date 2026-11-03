@@ -5,8 +5,6 @@ import SpeedRekry from "../components/partials/SpeedRekry";
 import config from "../data/config.json";
 import { useTranslation, Trans } from "react-i18next";
 import { Link } from "react-router-dom";
-import Notification from '../components/partials/Notification'
-import Hero from "../components/partials/Hero";
 import classNames from "classnames";
 const MainPage = () => {
   const { t } = useTranslation();

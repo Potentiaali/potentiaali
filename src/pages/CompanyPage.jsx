@@ -22,13 +22,17 @@ const CompanyPage = () => {
           className="all-companies-filter"
           value={inputText}
           onChange={(e) => setInputText(e.target.value)}
-          placeholder="Search..."
+          placeholder={t("search-placeholder")}
         />
       </section>
       <section className="app-section">
         <div className="all-companies-list">
           {[...companies]
-            .sort((a, b) => getText(a.name, lang).localeCompare(getText(b.name, lang)))
+            .sort(
+              (a, b) =>
+                a.booth.localeCompare(b.booth, undefined, { numeric: true }) ||
+                getText(a.name, lang).localeCompare(getText(b.name, lang)),
+            )
             .filter((company) =>
               getText(company.name, lang).toLowerCase().includes(inputText.toLowerCase()),
             )
