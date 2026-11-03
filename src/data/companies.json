@@ -78,7 +78,7 @@
     "imgSrc": "companies/digia.svg",
     "websiteUrl": "https://digia.com/",
     "description":{
-      "fi": "<strong>Tule rakentamaan kanssamme älykkäämpää </strong>\n\nDigialla yhdistämme toimialaosaamisen, modernin teknologian ja tekoälyn. Saat tehdä merkityksellistä työtä, ratkoa aitoja liiketoiminnan haasteita ja kehittyä yhdessä osaavien kollegoiden kanssa. Meillä arvostetaan uteliaisuutta, rohkeutta ja halua kehittyä. Teknologia kehittyy, ja me sen mukana. Sillä tekoälyn aikakaudellakin on kyse ihmisistä.\n\n#UnlockYourIntelligence",
+      "fi": "<strong>Tule rakentamaan kanssamme älykkäämpää tulevaisuutta</strong>\n\nDigialla yhdistämme toimialaosaamisen, modernin teknologian ja tekoälyn. Saat tehdä merkityksellistä työtä, ratkoa aitoja liiketoiminnan haasteita ja kehittyä yhdessä osaavien kollegoiden kanssa. Meillä arvostetaan uteliaisuutta, rohkeutta ja halua kehittyä. Teknologia kehittyy, ja me sen mukana. Sillä tekoälyn aikakaudellakin on kyse ihmisistä.\n\n#UnlockYourIntelligence",
       "en": "<strong>Join us in building an intelligent future</strong>\n\nAt Digia, we bring together industry expertise, modern technology, and AI. You’ll do meaningful work, solve real business challenges, and grow alongside talented colleagues.\n\nWe value curiosity, courage, and the drive to keep learning. Technology keeps evolving, and so do we. Because even in the era of AI, it’s about people.\n\n#UnlockYourIntelligence #SeniorTrainee"},
     "booth": "C2"
   },
@@ -172,9 +172,9 @@
     "imgSrc": "companies/University_of_Helsinki.jpg",
     "websiteUrl": "https://www.helsinki.fi/",
     "description":{
-      "fi": "<strong>Helsingin yliopisto - työtä maailman parhaaksi</strong>\n\nTieteen voimalla voidaan muuttaa maailmaa. Olemme yksi maailman parhaista tutkimusyliopistoista – yli 30 000 opiskelijan ja 9 000 työntekijän kansainvälinen tieteen, tutkimuksen, oppimisen ja rohkean ajattelun yhteisö.\nMeidät tunnetaan monitieteisyydestä. Uskomme tieteidenvälisen tutkimuksen ja rajoja rikkovan yhteistyön voimaan löytää ratkaisuja ja luoda toivoa paremman ja kestävämmän tulevaisuuden puolesta.\nMeitä yhdistävät arvomme totuus, sivistys, vapaus ja yhteisöllisyys, sekä halu tehdä merkityksellisiä töitä.\nTule mukaan: tee työtä tulevaisuudelle – maailman parhaaksi.\n\n<a href=\"https://www.helsinki.fi/fi/tutustu-meihin/ura-ja-avoimet-tyopaikat/avoimet-tyopaikat\" target=\"_blank\" rel=\"noopener\">Tutustu avoimiin paikkoihimme.</a>",
+      "fi": "<strong>Helsingin yliopisto - työtä maailman parhaaksi</strong>\n\nTieteen voimalla voidaan muuttaa maailmaa. Olemme yksi maailman parhaista tutkimusyliopistoista – yli 30.000 opiskelijan ja 8.000 työntekijän kansainvälinen tieteen, tutkimuksen, oppimisen ja rohkean ajattelun yhteisö.\nMeidät tunnetaan monitieteisyydestä. Uskomme tieteidenvälisen tutkimuksen ja rajoja rikkovan yhteistyön voimaan löytää ratkaisuja ja luoda toivoa paremman ja kestävämmän tulevaisuuden puolesta.\nMeitä yhdistävät arvomme totuus, sivistys, vapaus ja yhteisöllisyys, sekä halu tehdä merkityksellisiä töitä.\nTule mukaan: tee työtä tulevaisuudelle – maailman parhaaksi.\n\n<a href=\"https://www.helsinki.fi/fi/tutustu-meihin/ura-ja-avoimet-tyopaikat/avoimet-tyopaikat\" target=\"_blank\" rel=\"noopener\">Tutustu avoimiin paikkoihimme.</a>",
       "en": "<strong>University of Helsinki – work for the world</strong>\n\nScience has the power to change the world. Join one of the best research universities in the world – an international community united through bold thinking, science, research, and learning, with over 30,000 students and 8,000 employees.\n\nWe are defined by our multidisciplinary approach. This, combined with a dedication for cross-border collaboration, gives us our potential to find real solutions and build hope for a better, more sustainable future.\n\nWe are united by our values – truth, bildung, freedom, and inclusivity – as well as our passion for work that truly matters.\n\nJoin us: work for the future – work for the world.\n\n<a href=\"https://www.helsinki.fi/en/about-us/careers/open-positions\" target=\"_blank\" rel=\"noopener\">Discover our open positions.</a>"},
-    "booth": "C4"
+    "booth": "C5"
   },
   {
     "id": 81,
@@ -182,6 +182,6 @@
     "imgSrc": "companies/helsinki_city_logo.png",
     "websiteUrl": "https://www.hel.fi/",
     "description": { "fi": "", "en": "" },
-    "booth": "C4"
+    "booth": "C6"
   }
 ]
