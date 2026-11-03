@@ -32,8 +32,7 @@
   },
   {
     "id": 19,
-    "name": "Maanmittauslaitoksen Paikkatietokeskus FGI",
-    "shorter": "Maanmittauslaitoksen Paikkatietokeskus FGI",
+    "name": {"fi": "Maanmittauslaitoksen Paikkatietokeskus FGI", "en": "Finnish Geospatial Research Institute (FGI)"},
     "imgSrc": "companies/FGI.jpg",
     "websiteUrl": "https://www.maanmittauslaitos.fi/",
     "description":{
@@ -94,7 +93,7 @@
   },
   {
     "id": 44,
-    "name": "ASM",
+    "name": {"fi": "ASM", "en": "ASM"},
     "imgSrc": "companies/asm.svg",
     "websiteUrl": "https://www.asm.com/",
     "description":{
@@ -112,7 +111,7 @@
     "booth":"B2"  },
   {
     "id": 50,
-    "name": "CSC",
+    "name": {"fi": "CSC - Tieteen tietotekniikan keskus", "en": "CSC - IT Center for Science"},
     "imgSrc": "companies/CSC_logo.jpg",
     "websiteUrl": "https://csc.fi/toihin-meille",
     "description":{
@@ -122,7 +121,7 @@
   },
   {
     "id": 54,
-    "name": "EY",
+    "name": {"fi": "EY", "en": "EY"},
     "imgSrc": "companies/EY_logo_updated.png",
     "websiteUrl": "https://www.ey.com/fi_fi/careers",
     "description":{
@@ -131,15 +130,17 @@
   },
   {
     "id": 75,
-    "name": "Ilmatieteen laitos",
+    "name": {"fi": "Ilmatieteen laitos", "en": "Finnish Meteorological Institute"},
     "imgSrc": "companies/Ilmatieteenlaitos_logo.jpg",
     "websiteUrl": "https://www.fmi.fi/",
-    "description": { "fi": "", "en": "" },
+    "description": { 
+    "fi": "Ilmatieteen laitos havainnoi ja tutkii ilmakehää, lähiavaruutta ja meriä. Lisäksi tuotamme palveluja säästä, merestä, ilmastosta, ilmanlaadusta ja lähiavaruudesta yleisen turvallisuuden, elinkeinoelämän ja kansalaisten tarpeisiin. Monet työtehtävistämme ovat kansainvälisiä. Meillä työskentelee noin 750 eri alojen osaajaa. Työntekijämme ovat taustaltaan esimerkiksi meteorologeja, kemistejä, fyysikoita, matemaatikoita, insinöörejä, hallinnon ja ICT-asiantuntijoita. Tarjoamme vuosittain opiskelijoille tehtäviä eri aloilta valtionhallinnon yhteisellä valtiolle.fi-sivustolla.<a href=\"https://valtiolle.fi/\" target=\"_blank\" rel=\"noopener\">valtiolle.fi</a>-sivustolla",
+    "en": "The Finnish Meteorological Institute observes and studies the atmosphere, near space and seas. We also provides services on weather, sea, air quality, climate and near space for the needs of public safety, business life and citizens. Many of our jobs are international. We employ about 750 experts in various fields. Our employees are e.g. meteorologists, chemists, physicists, mathematicians, engineers, administration and ICT experts. Every year, we offer students jobs in different fields on the state administration's common website <a href=\"https://valtiolle.fi/\" target=\"_blank\" rel=\"noopener\">valtiolle.fi</a>."},
     "booth": "A9"
   },
   {
     "id": 77,
-    "name": "Puolustusvoimat",
+    "name": {"fi": "Puolustusvoimat", "en": "Finnish Defence Forces"},
     "imgSrc": "companies/puolustusvoimat_logo.jpg",
     "websiteUrl": "https://www.pvrekry.fi/",
     "description":{ 
@@ -148,7 +149,7 @@
   },
   {
     "id": 78,
-    "name": "Vivicta",
+    "name": {"fi": "Vivicta", "en": "Vivicta"},
     "imgSrc": "companies/vivicta_logo.jpg",
     "websiteUrl": "https://www.vivicta.com/careers",
     "description": {
@@ -162,12 +163,12 @@
     "name": "Tieto",
     "imgSrc": "companies/tieto_logo.png",
     "websiteUrl": "https://www.tieto.com/",
-    "description": { "fi": "", "en": "" },
+    "description": {"en": "At Tieto, we are more than just a technology company. We embrace diversity, equality, and inclusion to create digital futures that benefit all.\n\nTieto is a leading software and digital engineering services company with global market reach and capabilities. We provide customers across different industries with mission-critical solutions through our specialized software businesses Tieto Caretech, Tieto Banktech and Tieto Indtech, as well as Tieto Tech Consulting business.\n\nJoin our 13 000 talented vertical software, design, cloud and AI experts and empower our customers to succeed and innovate with the latest technology." },
     "booth": "C4"
   },
   {
     "id": 80,
-    "name": "University of Helsinki",
+    "name": {"fi": "Helsingin yliopisto", "en": "University of Helsinki"},
     "imgSrc": "companies/University_of_Helsinki.jpg",
     "websiteUrl": "https://www.helsinki.fi/",
     "description":{
@@ -177,7 +178,7 @@
   },
   {
     "id": 81,
-    "name": "City of Helsinki",
+    "name": {"fi": "Helsingin kaupunki", "en": "City of Helsinki"},
     "imgSrc": "companies/helsinki_city_logo.png",
     "websiteUrl": "https://www.hel.fi/",
     "description": { "fi": "", "en": "" },

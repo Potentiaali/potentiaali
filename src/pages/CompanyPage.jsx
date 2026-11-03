@@ -4,9 +4,14 @@ import companies from "../data/companies.json";
 import { Link } from "react-router-dom";
 import { BoothBadge } from "../components/partials/badges/BoothBadge";
 
+const getText = (value, lang) =>
+  typeof value === "string" ? value : value[lang] || value.fi;
+
 const CompanyPage = () => {
   const [inputText, setInputText] = useState("");
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language.slice(0, 2);
+
   return (
     <>
       <section className="app-section">
@@ -22,16 +27,17 @@ const CompanyPage = () => {
       </section>
       <section className="app-section">
         <div className="all-companies-list">
-          {[...companies.sort((a, b) => a.name.localeCompare(b.name))]
+          {[...companies]
+            .sort((a, b) => getText(a.name, lang).localeCompare(getText(b.name, lang)))
             .filter((company) =>
-              company.name.toLowerCase().includes(inputText.toLowerCase()),
+              getText(company.name, lang).toLowerCase().includes(inputText.toLowerCase()),
             )
             .map((company) => (
               <Link to={"/company/" + company.id} key={company.id}>
                 <div className="all-companies-list--company">
                   <BoothBadge name={company.booth} />{" "}
                   <span className="all-companies-list--company-name">
-                    {company.shorter ? company.shorter : company.name}
+                    {getText(company.shorter || company.name, lang)}
                   </span>
                 </div>
               </Link>
