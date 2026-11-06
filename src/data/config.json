@@ -6,7 +6,7 @@
   "defaultLocale": "en",
   "speedRekryOpen": false,
   "showProgramView": false,
-  "showRegistrationInfo": true,
+  "showRegistrationInfo": false,
   "showCompanies": false,
   "showSpeedRekry": false,
   "companyRegistrationStarts": "Thursday Apr 30 2026 12:00:00 GMT+0200",

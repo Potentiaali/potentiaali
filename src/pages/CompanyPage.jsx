@@ -3,9 +3,7 @@ import { useTranslation } from "react-i18next";
 import companies from "../data/companies.json";
 import { Link } from "react-router-dom";
 import { BoothBadge } from "../components/partials/badges/BoothBadge";
-
-const getText = (value, lang) =>
-  typeof value === "string" ? value : value[lang] || value.fi;
+import { getText } from "../utils/getText";
 
 const CompanyPage = () => {
   const [inputText, setInputText] = useState("");

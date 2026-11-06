@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { Link, useParams } from "react-router-dom";
 import LanguageString from "../components/LanguageString";
 import { BoothBadge } from "../components/partials/badges/BoothBadge";
+import { getText } from "../utils/getText";
 
 const SingleCompanyPage = () => {
   const { t , i18n} = useTranslation();
@@ -28,6 +29,7 @@ const SingleCompanyPage = () => {
     return <span> {t("company-not-found")}</span>;
   }
 
+  const companyName = getText(company.name, currentLocale.slice(0, 2));
   const localDescription = company.description[currentLocale];
   const descriptionHtml =
     localDescription || Object.values(company.description).find(Boolean) || "";
@@ -43,7 +45,7 @@ const SingleCompanyPage = () => {
         </Link>
       </section>
       <section className="app-section">
-        <h1>{company.name}</h1>
+        <h1>{companyName}</h1>
         <BoothBadge name={company.booth} />
         <div
           style={{
@@ -52,12 +54,12 @@ const SingleCompanyPage = () => {
             display: "inline-block",
           }}
         >
-          <img alt={company.name} src={"/" + company.imgSrc} width={200} />
+          <img alt={companyName} src={"/" + company.imgSrc} width={200} />
         </div>
         <p>
           <a
             href={company.websiteUrl}
-            alt={company.name}
+            alt={companyName}
             target="_blank"
             rel="noopener noreferrer"
           >

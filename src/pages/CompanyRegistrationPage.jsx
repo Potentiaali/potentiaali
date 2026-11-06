@@ -1,38 +1,11 @@
-import { useState, useEffect } from "react";
 import { useTranslation, Trans } from "react-i18next";
 import { RegistrationButton } from "../components/RegistrationButton";
 import config from "../data/config.json";
 import Logo from "../components/partials/Logo";
 import { Link } from "react-router-dom";
-import Fallback from "../components/partials/Fallback";
 
 const CompanyRegistrationPage = () => {
   const { t } = useTranslation();
-
-  const [forms, setForms] = useState(null);
-
-  useEffect(() => {
-    const fetchForms = async () => {
-      const response = await fetch(config.formApiEndpoint);
-      const { forms } = await response.json();
-      setForms(forms);
-    }
-
-    fetchForms();
-  }, [setForms]);
-
-  const isFormOpen = (id) => forms.some((form) => form.id === id && form.open);
-
-  if (forms === null) {
-    return (
-      <>
-        <Logo />
-        <div>
-          <Fallback.Loader /> 
-        </div>
-      </>
-    );
-  }
 
   return (
     <>
@@ -47,10 +20,19 @@ const CompanyRegistrationPage = () => {
       <section className="app-section">
         <h1>{t("registration")}</h1>
         <p>{t("registration-form")}</p>
-        <p>{t("registration-deadline")}</p>
+        <p>
+          {t(
+            config.showRegistrationInfo
+              ? "registration-deadline"
+              : "registration-deadline-ended",
+          )}
+        </p>
 
-        <RegistrationButton href={config.companyRegistrationLink}>
-          {t("register-now-text")}
+        <RegistrationButton
+          href={config.companyRegistrationLink}
+          open={config.showRegistrationInfo}
+        >
+          {t(config.showRegistrationInfo ? "register-now-text" : "registration")}
         </RegistrationButton>
       </section>
 

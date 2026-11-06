@@ -2,13 +2,11 @@ import companies from "../../data/companies.json";
 import style from "./Companies.module.scss";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { getText } from "../../utils/getText";
 
 const sortedCompanies = [...companies].sort((a, b) =>
   a.booth.localeCompare(b.booth, undefined, { numeric: true }),
 );
-
-const getText = (value, lang) =>
-  typeof value === "string" ? value : value[lang] || value.fi;
 
 const Companies = () => {
   const { t, i18n } = useTranslation();
