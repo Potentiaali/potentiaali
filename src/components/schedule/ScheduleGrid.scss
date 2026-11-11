@@ -1,10 +1,11 @@
 @use "sass:math";
 @use "../../vars" as *;
 @use "../../mixins" as *;
+$start-hour: 11;
 
 @function get-time($time) {
   $minutes: $time % 60;
-  $hours: math.div($time - ($time % 60), 60) + 9;
+  $hours: math.div($time - ($time % 60), 60) + $start-hour;
   $prefix: "";
   @if ($minutes == 0) {
     $minutes: "00";

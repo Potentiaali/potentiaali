@@ -1,11 +1,12 @@
 import { Fragment } from "react";
 import styles from "./ScheduleLabels.module.scss";
+import { START_HOUR } from "../../data/schedule";
 
 const ScheduleLabels = () => (
   <div className={styles["schedule-labels"]}>
     <div />
-    {Array.from({ length: 29 }).map((_, i) => {
-      const hour = 9 + Math.floor(i / 2);
+    {Array.from({ length: (24 - START_HOUR) * 2 - 1 }).map((_, i) => {
+      const hour = START_HOUR + Math.floor(i / 2);
       const minutes = i % 2 === 0 ? "00" : "30";
 
       return (

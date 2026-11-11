@@ -1,14 +1,14 @@
 import { useState, useRef, useEffect } from "react";
 import ScheduleLabels from "../components/schedule/ScheduleLabels";
 import styles from "./Schedule.module.scss";
-import { schedule as events, tracks } from "../data/schedule";
+import { schedule as events, tracks, START_HOUR } from "../data/schedule";
 import ScheduleSlot from "../components/schedule/ScheduleSlot";
 import LanguageString from "../components/LanguageString";
 import { useClock } from "../utils/clock";
 
 export const SchedulePage = () => {
   const now = useClock(60 * 1000);
-  const minutes = now.getHours() * 60 + now.getMinutes() - 9 * 60;
+  const minutes = now.getHours() * 60 + now.getMinutes() - START_HOUR * 60;
   const segments = minutes / 15;
   const timelineRef = useRef();
   const [follow, setFollow] = useState(false);
