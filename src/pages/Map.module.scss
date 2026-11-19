@@ -11,7 +11,11 @@
   background-color: white;
   img {
     padding-left: 20px;
-    height: calc(100% - 40px);
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    max-height: calc(100% - 40px);
+    object-fit: contain;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
   }
@@ -41,6 +45,8 @@
 .mapImage {
   &:fullscreen {
     background-color: white;
+    max-width: none;
+    max-height: none;
   }
 }
 

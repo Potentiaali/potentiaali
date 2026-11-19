@@ -9,15 +9,14 @@
   padding: 5px;
   font-size: 1.5em;
   font-weight: bold;
-  border-radius: 50%;
   background-color: $big-booth-bg;
   color: white;
 
-  &.blue {
-    background-color: blue;
+  &.marker {
+    border-radius: 50%;
+    background-color: #b3b3b3;
     font-size: 2em;
     font-weight: 800;
     font-family: serif;
   }
 }
-

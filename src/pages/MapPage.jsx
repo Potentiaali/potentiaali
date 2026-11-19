@@ -68,20 +68,20 @@ const MapPage = () => {
             <AreaBadge area="C" />
           </div>
           <div className={style.mapInfoEntry}>
-            <BigBoothBadge value="C1" />
+            <BigBoothBadge value="A1" />
             <span> {t("big-booth")}</span>
           </div>
           <div className={style.mapInfoEntry}>
-            <ClassRoomBadge text="D115" />
-            <span> {t("company-info")}</span>
-          </div>
-          <div className={style.mapInfoEntry}>
-            <ClassRoomBadge text="D101" />
+            <ClassRoomBadge text="A111" />
             <span> {t("keynotes")}</span>
           </div>
           <div className={style.mapInfoEntry}>
-            <ClassRoomBadge text="B121" />
+            <ClassRoomBadge text="A114" />
             <span> {t("workshops")}</span>
+          </div>
+          <div className={style.mapInfoEntry}>
+            <ClassRoomBadge library text="G103" />
+            <span> {t("career-counselling")}<br/>({t("library")})</span>
           </div>
           <div className={style.mapInfoEntry}>
             <ClassRoomBadge basement text="DK116" />
@@ -92,17 +92,21 @@ const MapPage = () => {
             <span>{t("atrium")}<br/>({t("floor")} K)</span>
           </div>
           <div className={style.mapInfoEntry}>
-            <BigBoothBadge value="i" blue />
+            <ClassRoomBadge text={<i className="fas fa-utensils" />} />
+            <span>{t("lunch")}<br/>(Chemicum)</span>
+          </div>
+          <div className={style.mapInfoEntry}>
+            <BigBoothBadge value="i" marker />
             <span> {t("info-point")}</span>
           </div>
           <div className={style.mapInfoEntry}>
-            <BigBoothBadge value="V" blue />
+            <BigBoothBadge value="V" marker />
             <span> {t("usher")}</span>
           </div>
         </div>
         <img
           alt="Event map"
-          src="assets/kartta_2025.svg"
+          src="assets/kartta_2026.png"
           className={style.mapImage}
           id="map"
         />
