@@ -139,6 +139,20 @@ const MainPage = () => {
             </div>
             <i className={classNames('fa', 'fa-chevron-right')} />
           </Link>
+          <Link to="/schedule" className="hero-action">
+            <div>
+              <div className="hero-action-text">{t('hero-action-schedule')}</div>
+              <div className="hero-action-subtitle">{t('hero-action-schedule-subtitle')}</div>
+            </div>
+            <i className={classNames('fa', 'fa-chevron-right')} />
+          </Link>
+          <Link to="/map" className="hero-action">
+            <div>
+              <div className="hero-action-text">{t('hero-action-map')}</div>
+              <div className="hero-action-subtitle">{t('hero-action-map-subtitle')}</div>
+            </div>
+            <i className={classNames('fa', 'fa-chevron-right')} />
+          </Link>
           { config.showRegistrationInfo && (
             <Link to="/registration" className="hero-action">
               <div>

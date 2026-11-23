@@ -196,5 +196,14 @@
     "fi": "Accenture on maailmanlaajuisesti toimiva asiantuntijayritys, jonka vahvuuksia ovat digitaalisuus, pilvipalvelut sekä kyberturva. Toimialakohtaiset palvelumme kattavat strategisen muutoksen, konsultoinnin, teknologian, markkinoinnin ja asiakaskokemuksen sekä prosessiulkoistuksen. Asiakkaitamme tukee maailman laajin palvelukeskusten verkosto. Accenturen 733 000 ammattilaista palvelevat asiakkaita yli 120 maassa yhdistäen teknologian mahdollisuudet sekä ihmisten luovan osaamisen.",
     "en": "Accenture is a global professional services company with leading capabilities in digital, cloud and security. Combining unmatched experience and specialized skills across more than 40 industries, we offer Strategy and Consulting, Technology and Operations services and Accenture Song — all powered by the world’s largest network of Advanced Technology and Intelligent Operations centers. Our 733,000 people deliver on the promise of technology and human ingenuity every day, serving clients in more than 120 countries. We embrace the power of change to create value and shared success for our clients, people, shareholders, partners, and communities."},
     "booth":"A17"
+  },
+  {
+    "id": 83,
+    "name": "Helsinki Think Company",
+    "imgSrc": "companies/think_logo.png",
+    "websiteUrl": "https://thinkcompany.fi/",
+    "description": {
+    "en": "Helsinki Think Company is the University of Helsinki’s entrepreneurship society, or ES, which was founded in 2013. We support student entrepreneurship by hosting events such as workshops, speaker and networking events and hackathons. All of our activities are free of charge and open to everyone—whether you’re a student, recent graduate, researcher, or entrepreneur—regardless of your field of study or background.\n\nThink Company has community spaces on all four campuses. That’s where our events take place, and our community is welcome to use these spaces independently. These spaces have open doors during our Coworking Wednesdays. Come ask us more about Think Company, share your ideas, work on your projects, or discuss entrepreneurship with us. You can also join our community and bring your ideas to life!"},
+    "booth": "A14"
   }
   ]

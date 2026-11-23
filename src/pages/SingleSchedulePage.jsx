@@ -124,7 +124,7 @@ const SingleSchedulePage = () => {
         <pre>
           <p className="event-full-description-container">
             {event.fullDescription ? (
-              <LanguageString languageObject={event.fullDescription} />
+              <LanguageString languageObject={event.fullDescription} html />
             ) : (
               <span> {t("event-no-description")}</span>
             )}

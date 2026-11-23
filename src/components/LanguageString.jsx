@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 const defaultLocale = "en-US";
 
-const LanguageString = ({ languageObject }) => {
+const LanguageString = ({ languageObject, html = false }) => {
   const { i18n } = useTranslation();
   const currentLocale = i18n.language;
 
@@ -15,11 +15,15 @@ const LanguageString = ({ languageObject }) => {
     Object.keys(languageObject)[0],
   ];
 
-  return keys.map((key) => languageObject[key]).find(Boolean);
+  const text = keys.map((key) => languageObject[key]).find(Boolean);
+
+  // Opt-in: render trusted strings from our own data files as HTML (e.g. links)
+  return html ? <span dangerouslySetInnerHTML={{ __html: text }} /> : text;
 };
 
 LanguageString.propTypes = {
   languageObject: PropTypes.any.isRequired,
+  html: PropTypes.bool,
 };
 
 export default LanguageString;
